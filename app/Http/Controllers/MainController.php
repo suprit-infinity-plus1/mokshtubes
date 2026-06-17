@@ -1279,6 +1279,26 @@ class MainController extends Controller
         return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.heavy-hex-nuts');
     }
 
+    public function a286Gr660ThreadedStuds()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.a286-gr-660-threaded-studs');
+    }
+
+    public function fullThreadedRods()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.full-threaded-rods');
+    }
+
+    public function socketHeadCapScrews()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.socket-head-cap-screws');
+    }
+
+    public function plainWashers()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.plain-washers');
+    }
+
     public function pipeFittings()
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.pipe-fittings');

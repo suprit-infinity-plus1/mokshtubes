@@ -1,73 +1,132 @@
 @extends('layouts.master')
-@section('title', 'Perforated Sheets – Durable & Precision Metal Panels') <!-- 52 characters -->
-@section('meta_description',
-    'Durable perforated sheets in stainless, carbon & alloy steels from Mokshtubes —
-    corrosion-resistant & precise for diverse industrial applications.') <!-- 153 characters -->
-@section('meta_keywords',
-    'Perforated Sheets, Perforated Metal Sheets, Stainless Steel Perforated Sheets, Carbon Steel
-    Perforated Sheets, Alloy Steel Perforated Sheets, Custom Perforated Sheets, Industrial Perforated Sheets, Precision
-    Engineered Sheets, Corrosion Resistant Sheets, Durable Metal Sheets')
-    @section('og_image', asset('assets/images/product/Sheets-Plates-and-Coils/sheets-Perforated.webp'))
+
+@section('title', 'Perforated Sheets | Stainless Steel & Decorative Metal Sheets')
+@section('meta_description', 'Buy perforated sheets in SS, aluminium & steel. Custom hole patterns, sizes & finishes for industrial & architectural use.')
+@section('meta_keywords', 'Perforated Sheets, stainless steel perforated sheets, metal perforated sheets, decorative perforated panels, industrial perforated sheets, perforated sheet design')
+@section('og_image', asset('assets/images/product/Sheets-Plates-and-Coils/sheets-Perforated.webp'))
 @section('og_type', 'article')
+
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/product/Sheets-Plates-and-Coils/sheets-Perforated.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>High Quality Perforated Sheets for Industrial Use</h1> <!-- 52 characters -->
+                    <h1>Perforated Sheets<br>Stainless Steel, Aluminium & Decorative Metal Perforated Sheets</h1>
+
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Perforated Sheets are precision metal sheets with punched holes, slots, or decorative patterns used for filtration, ventilation, acoustic control, and architectural applications. Moksh Tubes & Fittings LLP supplies high-quality perforated sheets in stainless steel, carbon steel, aluminium, brass, and specialty alloys. Our sheets offer uniform perforation, clean edges, and excellent durability, making them ideal for industrial, architectural, and design applications across India and global markets.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End breadcrumb area-->
+
+    <!-- Start Material Tabs -->
+    <div class="sticky-top bg-white border-bottom material-tabs w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#specifications">Specifications</a> |
+            <a href="#size-weight">Size & Weight</a> |
+            <a href="#grades">Grades</a> |
+            <a href="#types">Types</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#uses">Uses & Advantages</a> |
+            <a href="#manufacturing">Manufacturing</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#tolerances">Tolerances</a> |
+            <a href="#export">Packaging & Exports</a> |
+            <a href="#why-choose-us">Why Choose Us</a> |
+            <a href="#faq">FAQ</a>
+        </div>
+    </div>
+    <!-- End Material Tabs -->
+
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Introduction</h2>
+            </div>
+
+            <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
+                PERFORATED SHEETS
+            </h3>
+
+            <div class="row align-items-center">
+                <!-- Image Left -->
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/sheets-Perforated.webp') }}" alt="Perforated Sheets"
+                        class="img-fluid rounded shadow-sm" loading="lazy">
+                </div>
+
+                <!-- Content Right -->
+                <div class="col-md-6">
+                    <div class="pe-md-3">
+                        <p class="fs-6 mb-4" style="text-align: justify;">
+                            <strong class="text-black">Perforated Sheets</strong> are metal sheets manufactured with a pattern of holes, slots, or custom designs using advanced punching or stamping processes. These sheets serve both functional and aesthetic purposes, providing airflow, filtration, sound control, and visual appeal.
+                        </p>
+
+                        <p class="fs-6 mb-4" style="text-align: justify;">
+                            They are widely used in industries such as construction, architecture, automotive, HVAC, and manufacturing. With various hole patterns and materials available, perforated sheets can be tailored for specific performance and design requirements.
+                        </p>
+
+                        <p class="fs-6" style="text-align: justify;">
+                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings LLP</a></strong>, we supply premium-quality perforated sheets with precise hole patterns, uniform spacing, and high-quality finishes. Our products comply with international standards and are suitable for both industrial and decorative applications.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Perforated Sheets Datasheet</h3>
+            <p class="mb-3">
+                Get the complete datasheet including chemical composition, mechanical properties, standards, tolerances, and application guidelines. Enter your email to receive the PDF instantly.
+            </p>
 
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+                <input type="hidden" name="page_path" value="{{ Request::path() }}">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Perforated Sheets</h2>
-            </div>
-
-            <div class="row align-items-center">
-                <!-- Left Image -->
-                <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/sheets-Perforated.webp') }}"
-                        alt="Hexagon Bars" class="img-fluid rounded shadow-sm">
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
                 </div>
+            </form>
 
-                <!-- Right Content -->
-                <div class="col-md-6">
-                    <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Perforated Sheets</strong> are metal sheets that have been punched or
-                        stamped with a pattern of holes, slots, or decorative shapes. These <a
-                            href="{{ route('products.sheets-plates-coils') }}">sheets</a> serve a functional
-                        purpose (such as filtration, ventilation, soundproofing, or screening) while also offering
-                        decorative appeal for architectural and design applications.
-                    </p>
-
-                    <p class="fs-6 mb-3 text-justify">
-                        Manufactured from stainless steel, mild steel, aluminum, <a
-                            href="{{ route('materials.copper-Alloys') }}">copper</a>, and specialty alloys, perforated
-                        sheets are available in a variety of hole sizes, patterns, and thicknesses.
-                        <a href="{{ route('index') }}"><b>Moksh Tubes & Fittings LLP</b></a> provides premium quality
-                        perforated sheets with precise punching, uniform spacing, and clean edges manufactured to ASTM,
-                        ASME, DIN, EN, and IS standards. Our sheets are widely used in industrial, architectural, acoustic,
-                        and filtration systems worldwide.
-                    </p>
-
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
                 </div>
-            </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Specifications</h2>
+                <h2>Specifications of Perforated Sheets</h2>
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-lg-12">
+                <div class="col-lg-8">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -76,1162 +135,350 @@
                                     <th>Details</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-start">
-                                <tr class="t-row">
-                                    <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Mild Steel, Aluminum, Brass, Copper, Titanium</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Grades</td>
-                                    <td>ASTM/ASME/EN/IS certified grades</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Thickness Range</td>
-                                    <td>0.3 mm to 12 mm</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Sheet Size</td>
-                                    <td>Standard: 1000 × 2000 mm, 1220 × 2440 mm, 1500 × 3000 mm (custom sizes available)
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hole Patterns</td>
-                                    <td>Round, Square, Slotted, Hexagonal, Oblong, Decorative</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hole Sizes</td>
-                                    <td>0.5 mm to 50 mm (custom punching available)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Finishes</td>
-                                    <td>Mill Finish, Polished, Anodized, Powder Coated</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Standards</td>
-                                    <td>ASTM A240, A480, IS 6911, JIS G4304, EN 10088</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Applications</td>
-                                    <td>Architectural design, industrial screening, acoustic control, filtration</td>
-                                </tr>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>Material</td><td>Stainless Steel, Carbon Steel, Aluminium, Brass, Copper, Titanium</td></tr>
+                                <tr class="t-row"><td>Grades</td><td>ASTM / ASME / EN / IS compliant</td></tr>
+                                <tr class="t-row"><td>Thickness</td><td>0.3 mm to 12 mm</td></tr>
+                                <tr class="t-row"><td>Sheet Size</td><td>1000×2000 mm, 1220×2440 mm, 1500×3000 mm</td></tr>
+                                <tr class="t-row"><td>Hole Patterns</td><td>Round, Square, Slotted, Hexagonal, Decorative</td></tr>
+                                <tr class="t-row"><td>Hole Size</td><td>0.5 mm to 50 mm</td></tr>
+                                <tr class="t-row"><td>Finishes</td><td>Mill Finish, Polished, Anodized, Powder Coated</td></tr>
+                                <tr class="t-row"><td>Standards</td><td>ASTM A240, A480, EN 10088, IS 6911</td></tr>
                             </tbody>
-
                         </table>
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-            <div class="section-title center">
-                <h2 class="fw-bold" style="color: #174268;">Charts</h2>
-
-
-            </div>
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Perforated Sheets Weight Chart MS (Mild Steel)</h4>
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Size & Weight Charts</h2>
             </div>
 
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle">
-                    <thead class="table-dark text-center">
-                        <tr class="t-row">
-                            <th>Thickness (mm)</th>
-                            <th>Plain kg/m²</th>
-                            <th>20% OA</th>
-                            <th>30% OA</th>
-                            <th>40% OA</th>
-                            <th>50% OA</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-center">
-                        <tr class="t-row">
-                            <td>0.1</td>
-                            <td>0.785</td>
-                            <td>0.628</td>
-                            <td>0.549</td>
-                            <td>0.471</td>
-                            <td>0.393</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.2</td>
-                            <td>1.570</td>
-                            <td>1.256</td>
-                            <td>1.099</td>
-                            <td>0.942</td>
-                            <td>0.785</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.3</td>
-                            <td>2.355</td>
-                            <td>1.884</td>
-                            <td>1.648</td>
-                            <td>1.413</td>
-                            <td>1.177</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.4</td>
-                            <td>3.140</td>
-                            <td>2.512</td>
-                            <td>2.198</td>
-                            <td>1.884</td>
-                            <td>1.570</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.5</td>
-                            <td>3.925</td>
-                            <td>3.140</td>
-                            <td>2.747</td>
-                            <td>2.355</td>
-                            <td>1.962</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.6</td>
-                            <td>4.710</td>
-                            <td>3.768</td>
-                            <td>3.297</td>
-                            <td>2.826</td>
-                            <td>2.355</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.8</td>
-                            <td>6.280</td>
-                            <td>5.024</td>
-                            <td>4.396</td>
-                            <td>3.768</td>
-                            <td>3.140</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.0</td>
-                            <td>7.850</td>
-                            <td>6.280</td>
-                            <td>5.495</td>
-                            <td>4.710</td>
-                            <td>3.925</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.2</td>
-                            <td>9.420</td>
-                            <td>7.536</td>
-                            <td>6.594</td>
-                            <td>5.652</td>
-                            <td>4.710</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.5</td>
-                            <td>11.775</td>
-                            <td>9.420</td>
-                            <td>8.242</td>
-                            <td>7.065</td>
-                            <td>5.888</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>2.0</td>
-                            <td>15.700</td>
-                            <td>12.560</td>
-                            <td>10.990</td>
-                            <td>9.420</td>
-                            <td>7.850</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>2.5</td>
-                            <td>19.625</td>
-                            <td>15.700</td>
-                            <td>13.738</td>
-                            <td>11.775</td>
-                            <td>9.813</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>3.0</td>
-                            <td>23.550</td>
-                            <td>18.840</td>
-                            <td>16.485</td>
-                            <td>14.130</td>
-                            <td>11.775</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>3.5</td>
-                            <td>27.475</td>
-                            <td>21.980</td>
-                            <td>19.233</td>
-                            <td>16.485</td>
-                            <td>13.738</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>4.0</td>
-                            <td>31.400</td>
-                            <td>25.120</td>
-                            <td>21.980</td>
-                            <td>18.840</td>
-                            <td>15.700</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>5.0</td>
-                            <td>39.250</td>
-                            <td>31.400</td>
-                            <td>27.475</td>
-                            <td>23.550</td>
-                            <td>19.625</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6.0</td>
-                            <td>47.100</td>
-                            <td>37.680</td>
-                            <td>32.970</td>
-                            <td>28.260</td>
-                            <td>23.550</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>8.0</td>
-                            <td>62.800</td>
-                            <td>50.240</td>
-                            <td>43.960</td>
-                            <td>37.680</td>
-                            <td>31.400</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10.0</td>
-                            <td>78.500</td>
-                            <td>62.800</td>
-                            <td>54.950</td>
-                            <td>47.100</td>
-                            <td>39.250</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>12.0</td>
-                            <td>94.200</td>
-                            <td>75.360</td>
-                            <td>65.940</td>
-                            <td>56.520</td>
-                            <td>47.100</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15.0</td>
-                            <td>117.750</td>
-                            <td>94.200</td>
-                            <td>82.425</td>
-                            <td>70.650</td>
-                            <td>58.875</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>16.0</td>
-                            <td>125.600</td>
-                            <td>100.480</td>
-                            <td>87.920</td>
-                            <td>75.360</td>
-                            <td>62.800</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>18.0</td>
-                            <td>141.300</td>
-                            <td>113.040</td>
-                            <td>98.910</td>
-                            <td>84.780</td>
-                            <td>70.650</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20.0</td>
-                            <td>157.000</td>
-                            <td>125.600</td>
-                            <td>109.900</td>
-                            <td>94.200</td>
-                            <td>78.500</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 mb-4">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Thickness Range</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row"><th>Material</th><th>Thickness (mm)</th></tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>Stainless Steel</td><td>0.4 – 12</td></tr>
+                                <tr class="t-row"><td>Carbon Steel</td><td>0.5 – 10</td></tr>
+                                <tr class="t-row"><td>Aluminium</td><td>0.4 – 8</td></tr>
+                                <tr class="t-row"><td>Brass / Copper</td><td>0.4 – 6</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
 
-        </div>
-    </section>
+                <div class="col-lg-6 mb-4">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Standard Sheet Sizes</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row"><th>Size (mm)</th></tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>1000 × 2000</td></tr>
+                                <tr class="t-row"><td>1250 × 2500</td></tr>
+                                <tr class="t-row"><td>1500 × 3000</td></tr>
+                                <tr class="t-row"><td>2000 × 4000</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
 
-    <!-- Child Title -->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Perforated Sheets Weight Chart SS (Stainless Steel)
-                </h4>
-            </div>
+                <div class="col-lg-6 mb-4">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Common Hole Patterns</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row"><th>Type</th><th>Description</th></tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>Round</td><td>Most common for ventilation</td></tr>
+                                <tr class="t-row"><td>Square</td><td>High open area</td></tr>
+                                <tr class="t-row"><td>Slotted</td><td>Drainage & screening</td></tr>
+                                <tr class="t-row"><td>Decorative</td><td>Hexagonal, custom designs</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
 
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle">
-                    <thead class="table-dark text-center">
-                        <tr class="t-row">
-                            <th>Thickness (mm)</th>
-                            <th>Plain kg/m²</th>
-                            <th>20% OA</th>
-                            <th>30% OA</th>
-                            <th>40% OA</th>
-                            <th>50% OA</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-center">
-                        <tr class="t-row">
-                            <td>0.1</td>
-                            <td>0.793</td>
-                            <td>0.634</td>
-                            <td>0.555</td>
-                            <td>0.476</td>
-                            <td>0.397</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.2</td>
-                            <td>1.586</td>
-                            <td>1.269</td>
-                            <td>1.110</td>
-                            <td>0.952</td>
-                            <td>0.793</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.3</td>
-                            <td>2.379</td>
-                            <td>1.903</td>
-                            <td>1.665</td>
-                            <td>1.427</td>
-                            <td>1.189</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.4</td>
-                            <td>3.172</td>
-                            <td>2.538</td>
-                            <td>2.220</td>
-                            <td>1.903</td>
-                            <td>1.586</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.5</td>
-                            <td>3.965</td>
-                            <td>3.172</td>
-                            <td>2.776</td>
-                            <td>2.379</td>
-                            <td>1.982</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.6</td>
-                            <td>4.758</td>
-                            <td>3.806</td>
-                            <td>3.331</td>
-                            <td>2.855</td>
-                            <td>2.379</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.8</td>
-                            <td>6.344</td>
-                            <td>5.075</td>
-                            <td>4.441</td>
-                            <td>3.807</td>
-                            <td>3.172</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.0</td>
-                            <td>7.930</td>
-                            <td>6.344</td>
-                            <td>5.551</td>
-                            <td>4.758</td>
-                            <td>3.965</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.2</td>
-                            <td>9.516</td>
-                            <td>7.613</td>
-                            <td>6.661</td>
-                            <td>5.709</td>
-                            <td>4.758</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.5</td>
-                            <td>11.895</td>
-                            <td>9.516</td>
-                            <td>8.327</td>
-                            <td>7.137</td>
-                            <td>5.948</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>2.0</td>
-                            <td>15.860</td>
-                            <td>12.688</td>
-                            <td>11.102</td>
-                            <td>9.516</td>
-                            <td>7.930</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>2.5</td>
-                            <td>19.825</td>
-                            <td>15.860</td>
-                            <td>13.878</td>
-                            <td>11.895</td>
-                            <td>9.913</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>3.0</td>
-                            <td>23.790</td>
-                            <td>19.032</td>
-                            <td>16.653</td>
-                            <td>14.274</td>
-                            <td>11.895</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>3.5</td>
-                            <td>27.755</td>
-                            <td>22.204</td>
-                            <td>19.429</td>
-                            <td>16.653</td>
-                            <td>13.877</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>4.0</td>
-                            <td>31.720</td>
-                            <td>25.376</td>
-                            <td>22.204</td>
-                            <td>19.032</td>
-                            <td>15.860</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>5.0</td>
-                            <td>39.650</td>
-                            <td>31.720</td>
-                            <td>27.755</td>
-                            <td>23.790</td>
-                            <td>19.825</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6.0</td>
-                            <td>47.580</td>
-                            <td>38.064</td>
-                            <td>33.306</td>
-                            <td>28.548</td>
-                            <td>23.790</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>8.0</td>
-                            <td>63.440</td>
-                            <td>50.752</td>
-                            <td>44.408</td>
-                            <td>38.064</td>
-                            <td>31.720</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10.0</td>
-                            <td>79.300</td>
-                            <td>63.440</td>
-                            <td>55.510</td>
-                            <td>47.580</td>
-                            <td>39.650</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>12.0</td>
-                            <td>95.160</td>
-                            <td>76.128</td>
-                            <td>66.612</td>
-                            <td>57.096</td>
-                            <td>47.580</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15.0</td>
-                            <td>118.950</td>
-                            <td>95.160</td>
-                            <td>83.265</td>
-                            <td>71.370</td>
-                            <td>59.475</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>16.0</td>
-                            <td>126.880</td>
-                            <td>101.504</td>
-                            <td>88.816</td>
-                            <td>76.128</td>
-                            <td>63.440</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>18.0</td>
-                            <td>142.740</td>
-                            <td>114.192</td>
-                            <td>99.918</td>
-                            <td>85.644</td>
-                            <td>71.370</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20.0</td>
-                            <td>158.600</td>
-                            <td>126.880</td>
-                            <td>111.020</td>
-                            <td>95.160</td>
-                            <td>79.300</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="col-lg-6 mb-4">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Hole Size & Open Area</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row"><th>Hole Size</th><th>Pitch</th><th>Open Area</th></tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>2 mm</td><td>3 mm</td><td>40%</td></tr>
+                                <tr class="t-row"><td>5 mm</td><td>8 mm</td><td>36%</td></tr>
+                                <tr class="t-row"><td>10 mm</td><td>15 mm</td><td>44%</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Weight Reduction (Example – MS)</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row"><th>Thickness</th><th>Plain</th><th>30% OA</th><th>50% OA</th></tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>1 mm</td><td>7.85</td><td>5.49</td><td>3.92</td></tr>
+                                <tr class="t-row"><td>2 mm</td><td>15.7</td><td>10.99</td><td>7.85</td></tr>
+                                <tr class="t-row"><td>5 mm</td><td>39.25</td><td>27.47</td><td>19.62</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Child Title -->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Perforated Sheets Weight Chart (Aluminum)</h4>
-            </div>
-
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle">
-                    <thead class="table-dark text-center">
-                        <tr class="t-row">
-                            <th>Thickness (mm)</th>
-                            <th>Plain kg/m²</th>
-                            <th>20% OA</th>
-                            <th>30% OA</th>
-                            <th>40% OA</th>
-                            <th>50% OA</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-center">
-                        <tr class="t-row">
-                            <td>0.1</td>
-                            <td>0.270</td>
-                            <td>0.216</td>
-                            <td>0.189</td>
-                            <td>0.162</td>
-                            <td>0.135</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.2</td>
-                            <td>0.540</td>
-                            <td>0.432</td>
-                            <td>0.378</td>
-                            <td>0.324</td>
-                            <td>0.270</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.3</td>
-                            <td>0.810</td>
-                            <td>0.648</td>
-                            <td>0.567</td>
-                            <td>0.486</td>
-                            <td>0.405</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.4</td>
-                            <td>1.080</td>
-                            <td>0.864</td>
-                            <td>0.756</td>
-                            <td>0.648</td>
-                            <td>0.540</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.5</td>
-                            <td>1.350</td>
-                            <td>1.080</td>
-                            <td>0.945</td>
-                            <td>0.810</td>
-                            <td>0.675</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.6</td>
-                            <td>1.620</td>
-                            <td>1.296</td>
-                            <td>1.134</td>
-                            <td>0.972</td>
-                            <td>0.810</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.8</td>
-                            <td>2.160</td>
-                            <td>1.728</td>
-                            <td>1.512</td>
-                            <td>1.296</td>
-                            <td>1.080</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.0</td>
-                            <td>2.700</td>
-                            <td>2.160</td>
-                            <td>1.890</td>
-                            <td>1.620</td>
-                            <td>1.350</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.2</td>
-                            <td>3.240</td>
-                            <td>2.592</td>
-                            <td>2.268</td>
-                            <td>1.944</td>
-                            <td>1.620</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.5</td>
-                            <td>4.050</td>
-                            <td>3.240</td>
-                            <td>2.835</td>
-                            <td>2.430</td>
-                            <td>2.025</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>2.0</td>
-                            <td>5.400</td>
-                            <td>4.320</td>
-                            <td>3.780</td>
-                            <td>3.240</td>
-                            <td>2.700</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>2.5</td>
-                            <td>6.750</td>
-                            <td>5.400</td>
-                            <td>4.725</td>
-                            <td>4.050</td>
-                            <td>3.375</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>3.0</td>
-                            <td>8.100</td>
-                            <td>6.480</td>
-                            <td>5.670</td>
-                            <td>4.860</td>
-                            <td>4.050</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>3.5</td>
-                            <td>9.450</td>
-                            <td>7.560</td>
-                            <td>6.615</td>
-                            <td>5.670</td>
-                            <td>4.725</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>4.0</td>
-                            <td>10.800</td>
-                            <td>8.640</td>
-                            <td>7.560</td>
-                            <td>6.480</td>
-                            <td>5.400</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>5.0</td>
-                            <td>13.500</td>
-                            <td>10.800</td>
-                            <td>9.450</td>
-                            <td>8.100</td>
-                            <td>6.750</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6.0</td>
-                            <td>16.200</td>
-                            <td>12.960</td>
-                            <td>11.340</td>
-                            <td>9.720</td>
-                            <td>8.100</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>8.0</td>
-                            <td>21.600</td>
-                            <td>17.280</td>
-                            <td>15.120</td>
-                            <td>12.960</td>
-                            <td>10.800</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10.0</td>
-                            <td>27.000</td>
-                            <td>21.600</td>
-                            <td>18.900</td>
-                            <td>16.200</td>
-                            <td>13.500</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>12.0</td>
-                            <td>32.400</td>
-                            <td>25.920</td>
-                            <td>22.680</td>
-                            <td>19.440</td>
-                            <td>16.200</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15.0</td>
-                            <td>40.500</td>
-                            <td>32.400</td>
-                            <td>28.350</td>
-                            <td>24.300</td>
-                            <td>20.250</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>16.0</td>
-                            <td>43.200</td>
-                            <td>34.560</td>
-                            <td>30.240</td>
-                            <td>25.920</td>
-                            <td>21.600</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>18.0</td>
-                            <td>48.600</td>
-                            <td>38.880</td>
-                            <td>34.020</td>
-                            <td>29.160</td>
-                            <td>24.300</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20.0</td>
-                            <td>54.000</td>
-                            <td>43.200</td>
-                            <td>37.800</td>
-                            <td>32.400</td>
-                            <td>27.000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    <!-- Child Title -->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Perforated Sheets Weight Chart (Brass)</h4>
-            </div>
-
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle">
-                    <thead class="table-dark text-center">
-                        <tr class="t-row">
-                            <th>Thickness (mm)</th>
-                            <th>Plain kg/m²</th>
-                            <th>20% OA</th>
-                            <th>30% OA</th>
-                            <th>40% OA</th>
-                            <th>50% OA</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-center">
-                        <tr class="t-row">
-                            <td>0.1</td>
-                            <td>0.840</td>
-                            <td>0.672</td>
-                            <td>0.588</td>
-                            <td>0.504</td>
-                            <td>0.420</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.2</td>
-                            <td>1.680</td>
-                            <td>1.344</td>
-                            <td>1.176</td>
-                            <td>1.008</td>
-                            <td>0.840</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.3</td>
-                            <td>2.520</td>
-                            <td>2.016</td>
-                            <td>1.764</td>
-                            <td>1.512</td>
-                            <td>1.260</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.4</td>
-                            <td>3.360</td>
-                            <td>2.688</td>
-                            <td>2.352</td>
-                            <td>2.016</td>
-                            <td>1.680</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.5</td>
-                            <td>4.200</td>
-                            <td>3.360</td>
-                            <td>2.940</td>
-                            <td>2.520</td>
-                            <td>2.100</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.6</td>
-                            <td>5.040</td>
-                            <td>4.032</td>
-                            <td>3.528</td>
-                            <td>3.024</td>
-                            <td>2.520</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.8</td>
-                            <td>6.720</td>
-                            <td>5.376</td>
-                            <td>4.704</td>
-                            <td>4.032</td>
-                            <td>3.360</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.0</td>
-                            <td>8.400</td>
-                            <td>6.720</td>
-                            <td>5.880</td>
-                            <td>5.040</td>
-                            <td>4.200</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.2</td>
-                            <td>10.080</td>
-                            <td>8.064</td>
-                            <td>7.056</td>
-                            <td>6.048</td>
-                            <td>5.040</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.5</td>
-                            <td>12.600</td>
-                            <td>10.080</td>
-                            <td>8.820</td>
-                            <td>7.560</td>
-                            <td>6.300</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>2.0</td>
-                            <td>16.800</td>
-                            <td>13.440</td>
-                            <td>11.760</td>
-                            <td>10.080</td>
-                            <td>8.400</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>2.5</td>
-                            <td>21.000</td>
-                            <td>16.800</td>
-                            <td>14.700</td>
-                            <td>12.600</td>
-                            <td>10.500</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>3.0</td>
-                            <td>25.200</td>
-                            <td>20.160</td>
-                            <td>17.640</td>
-                            <td>15.120</td>
-                            <td>12.600</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>3.5</td>
-                            <td>29.400</td>
-                            <td>23.520</td>
-                            <td>20.580</td>
-                            <td>17.640</td>
-                            <td>14.700</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>4.0</td>
-                            <td>33.600</td>
-                            <td>26.880</td>
-                            <td>23.520</td>
-                            <td>20.160</td>
-                            <td>16.800</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>5.0</td>
-                            <td>42.000</td>
-                            <td>33.600</td>
-                            <td>29.400</td>
-                            <td>25.200</td>
-                            <td>21.000</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6.0</td>
-                            <td>50.400</td>
-                            <td>40.320</td>
-                            <td>35.280</td>
-                            <td>30.240</td>
-                            <td>25.200</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>8.0</td>
-                            <td>67.200</td>
-                            <td>53.760</td>
-                            <td>47.040</td>
-                            <td>40.320</td>
-                            <td>33.600</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10.0</td>
-                            <td>84.000</td>
-                            <td>67.200</td>
-                            <td>58.800</td>
-                            <td>50.400</td>
-                            <td>42.000</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>12.0</td>
-                            <td>100.800</td>
-                            <td>80.640</td>
-                            <td>70.560</td>
-                            <td>60.480</td>
-                            <td>50.400</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15.0</td>
-                            <td>126.000</td>
-                            <td>100.800</td>
-                            <td>88.200</td>
-                            <td>75.600</td>
-                            <td>63.000</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>16.0</td>
-                            <td>134.400</td>
-                            <td>107.520</td>
-                            <td>94.080</td>
-                            <td>80.640</td>
-                            <td>67.200</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>18.0</td>
-                            <td>151.200</td>
-                            <td>120.960</td>
-                            <td>105.840</td>
-                            <td>90.720</td>
-                            <td>75.600</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20.0</td>
-                            <td>168.000</td>
-                            <td>134.400</td>
-                            <td>117.600</td>
-                            <td>100.800</td>
-                            <td>84.000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    <!-- Child Title -->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Perforated Sheets Weight Chart (Copper)</h4>
-            </div>
-
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle">
-                    <thead class="table-dark text-center">
-                        <tr class="t-row">
-                            <th>Thickness (mm)</th>
-                            <th>Plain kg/m²</th>
-                            <th>20% OA</th>
-                            <th>30% OA</th>
-                            <th>40% OA</th>
-                            <th>50% OA</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-center">
-                        <tr class="t-row">
-                            <td>0.1</td>
-                            <td>0.894</td>
-                            <td>0.715</td>
-                            <td>0.626</td>
-                            <td>0.536</td>
-                            <td>0.447</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.2</td>
-                            <td>1.788</td>
-                            <td>1.430</td>
-                            <td>1.252</td>
-                            <td>1.073</td>
-                            <td>0.894</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.3</td>
-                            <td>2.682</td>
-                            <td>2.146</td>
-                            <td>1.877</td>
-                            <td>1.609</td>
-                            <td>1.341</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.4</td>
-                            <td>3.576</td>
-                            <td>2.861</td>
-                            <td>2.503</td>
-                            <td>2.146</td>
-                            <td>1.788</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.5</td>
-                            <td>4.470</td>
-                            <td>3.576</td>
-                            <td>3.129</td>
-                            <td>2.682</td>
-                            <td>2.235</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.6</td>
-                            <td>5.364</td>
-                            <td>4.291</td>
-                            <td>3.755</td>
-                            <td>3.218</td>
-                            <td>2.682</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.8</td>
-                            <td>7.152</td>
-                            <td>5.722</td>
-                            <td>5.006</td>
-                            <td>4.291</td>
-                            <td>3.576</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.0</td>
-                            <td>8.940</td>
-                            <td>7.152</td>
-                            <td>6.258</td>
-                            <td>5.364</td>
-                            <td>4.470</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.2</td>
-                            <td>10.728</td>
-                            <td>8.582</td>
-                            <td>7.509</td>
-                            <td>6.437</td>
-                            <td>5.364</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.5</td>
-                            <td>13.410</td>
-                            <td>10.728</td>
-                            <td>9.387</td>
-                            <td>8.046</td>
-                            <td>6.705</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>2.0</td>
-                            <td>17.880</td>
-                            <td>14.304</td>
-                            <td>12.516</td>
-                            <td>10.728</td>
-                            <td>8.940</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>2.5</td>
-                            <td>22.350</td>
-                            <td>17.880</td>
-                            <td>15.645</td>
-                            <td>13.410</td>
-                            <td>11.175</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>3.0</td>
-                            <td>26.820</td>
-                            <td>21.456</td>
-                            <td>18.774</td>
-                            <td>16.092</td>
-                            <td>13.410</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>3.5</td>
-                            <td>31.290</td>
-                            <td>25.032</td>
-                            <td>21.903</td>
-                            <td>18.774</td>
-                            <td>15.645</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>4.0</td>
-                            <td>35.760</td>
-                            <td>28.608</td>
-                            <td>25.032</td>
-                            <td>21.456</td>
-                            <td>17.880</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>5.0</td>
-                            <td>44.700</td>
-                            <td>35.760</td>
-                            <td>31.290</td>
-                            <td>26.820</td>
-                            <td>22.350</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6.0</td>
-                            <td>53.640</td>
-                            <td>42.912</td>
-                            <td>37.548</td>
-                            <td>32.184</td>
-                            <td>26.820</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>8.0</td>
-                            <td>71.520</td>
-                            <td>57.216</td>
-                            <td>50.064</td>
-                            <td>42.912</td>
-                            <td>35.760</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10.0</td>
-                            <td>89.400</td>
-                            <td>71.520</td>
-                            <td>62.580</td>
-                            <td>53.640</td>
-                            <td>44.700</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>12.0</td>
-                            <td>107.280</td>
-                            <td>85.824</td>
-                            <td>75.096</td>
-                            <td>64.368</td>
-                            <td>53.640</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15.0</td>
-                            <td>134.100</td>
-                            <td>107.280</td>
-                            <td>93.870</td>
-                            <td>80.460</td>
-                            <td>67.050</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>16.0</td>
-                            <td>142.560</td>
-                            <td>114.048</td>
-                            <td>99.792</td>
-                            <td>85.536</td>
-                            <td>71.280</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>18.0</td>
-                            <td>160.920</td>
-                            <td>128.736</td>
-                            <td>112.644</td>
-                            <td>96.552</td>
-                            <td>80.460</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20.0</td>
-                            <td>178.800</td>
-                            <td>143.040</td>
-                            <td>125.160</td>
-                            <td>107.280</td>
-                            <td>89.400</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
-
-    {{-- Grades Available --}}
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="grades" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Grades Available</h2>
             </div>
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;"><strong>Perforated sheets</strong> are produced in a
-                    wide range of materials to suit diverse applications:</h4>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Stainless Steel</h5>
+                        <p>304 / 304L<br>316 / 316L<br>321</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear"></i></div>
+                        <h5>Carbon & Mild Steel</h5>
+                        <p>ASTM A36, IS 2062</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-box"></i></div>
+                        <h5>Aluminium</h5>
+                        <p>1100, 3003, 5052, 6061</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-lightbulb"></i></div>
+                        <h5>Copper & Brass</h5>
+                        <p>Decorative & electrical grades</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-diamond"></i></div>
+                        <h5>Titanium & Special Alloys</h5>
+                        <p>High-performance applications</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="types" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Types of Perforated Sheets</h2>
+            </div>
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
+                        <h5>Round Hole Perforated Sheets</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-square"></i></div>
+                        <h5>Square Hole Perforated Sheets</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-distribute-vertical"></i></div>
+                        <h5>Slotted Hole Sheets</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-hexagon"></i></div>
+                        <h5>Hexagonal & Decorative Sheets</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Applications of Perforated Sheets</h2>
+            </div>
+
+            <div class="row g-4 justify-content-center mt-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-building"></i></div>
+                        <h5>Architecture & Interiors</h5>
+                        <p>✔ Facades & cladding<br>✔ Decorative panels<br>✔ Sunshades</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Industrial Applications</h5>
+                        <p>✔ Filters & sieves<br>✔ Machine guards</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-cup-straw"></i></div>
+                        <h5>Food & Pharma</h5>
+                        <p>✔ Hygienic trays & baskets<br>✔ Filtration systems</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-car-front"></i></div>
+                        <h5>Automotive & Transport</h5>
+                        <p>✔ Grilles & covers<br>✔ Soundproofing panels</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-volume-mute"></i></div>
+                        <h5>Acoustics & Noise Control</h5>
+                        <p>✔ Acoustic panels<br>✔ Sound barriers</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fan"></i></div>
+                        <h5>HVAC & Ventilation</h5>
+                        <p>✔ Air diffusers<br>✔ Ventilation panels</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Uses & Advantages of Perforated Sheets</h2>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-bezier"></i></div>
+                        <h5>Versatile Applications</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-lock"></i></div>
+                        <h5>Lightweight & Strong</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-piggy-bank"></i></div>
+                        <h5>Cost-Effective</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-brush"></i></div>
+                        <h5>Customizable Designs</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Corrosion Resistance</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-patch-check"></i></div>
+                        <h5>Standard Compliance</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="text-center mt-4">
+                <strong>Uses:</strong> Improves airflow & ventilation | Provides filtration & screening | Enhances architectural aesthetics | Reduces noise levels | Lightweight structural solution
+            </p>
+        </div>
+    </section>
+
+    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Manufacturing Process & Quality Control</h2>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="pe-md-3">
+                        <p class="fs-6" style="text-align: justify;"><strong>Manufacturing Process of Perforated Sheets:</strong></p>
+                        <p>Sheet selection</p>
+                        <p>CNC punching / perforation</p>
+                        <p>Pattern alignment</p>
+                        <p>Surface finishing</p>
+                        <p>Inspection & packaging</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="pe-md-3">
+                        <p class="fs-6" style="text-align: justify;"><strong>Testing & Quality Control:</strong></p>
+                        <p>Each Perforated Sheet undergoes strict inspection including:</p>
+                        <p>✔ Hole accuracy testing</p>
+                        <p>✔ Thickness inspection</p>
+                        <p>✔ Surface quality check</p>
+                        <p>✔ Material certification</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties (Typical)</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -1241,480 +488,169 @@
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Material</th>
-                                    <th>Grades / Uses</th>
+                                    <th>Tensile Strength (MPa)</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr class="t-row">
-                                    <td>Stainless Steel</td>
-                                    <td>304, 304L, 316, 316L, 321 – for hygiene critical, corrosion resistant uses</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Carbon & Mild Steel</td>
-                                    <td>IS2062, ASTM A36 – for structural and industrial needs</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Aluminum</td>
-                                    <td>1100, 3003, 5052, 6061 – lightweight, corrosion resistant, and aesthetic</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Copper & Brass</td>
-                                    <td>Decorative and functional use in interiors, facades, and ventilation panels</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Titanium & Special Alloys</td>
-                                    <td>For aerospace, medical, and chemical process industries</td>
-                                </tr>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>Stainless Steel</td><td>515</td></tr>
+                                <tr class="t-row"><td>Carbon Steel</td><td>400–550</td></tr>
+                                <tr class="t-row"><td>Aluminium</td><td>150–300</td></tr>
+                                <tr class="t-row"><td>Copper</td><td>200–400</td></tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
-    {{-- Gallery --}}
-    {{-- Gallery --}}
-    <section class="our-services">
+    <section id="tolerances" class="sec-padd-top sec-padd-bottom">
         <div class="container">
-            <div class="container">
-            </div>
-
-            <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="NICKLE ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">NICKLE ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="STAINLESS STEEL">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="DUPLEX & SUPER">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">DUPLEX & SUPER</h6>
-                        </div>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-6 col-lg-5">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
+                        <h5>Dimensional Tolerances</h5>
+                        <p><strong>Thickness:</strong> ±10%</p>
+                        <p><strong>Hole accuracy:</strong> ±0.05 mm</p>
+                        <p><strong>Sheet size:</strong> ±5 mm</p>
+                        <p><strong>Flatness:</strong> As per standard</p>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="TITANIUM ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
-                        </div>
+                <div class="col-md-6 col-lg-5" id="export">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
+                        <h5>Exports & Supply Coverage</h5>
+                        <p><strong>We supply across India:</strong> Mumbai, Pune, Ahmedabad, Bangalore, Chennai, Hyderabad</p>
+                        <p><strong>Export markets:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 mb-4 ">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes Superalloys">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Haynes Superalloys</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Inconel">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Inconel</h6>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
 
-
-    {{-- Applications --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container text-center">
             <div class="section-title center">
-                <h2>Types of Perforated Sheets</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building"></i></div>
-                        <h4>Round Hole Perforated Sheets</h4>
-                        <h5>The most common, used for ventilation, filtration, and screens.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h4>Square Hole Perforated Sheets</h4>
-                        <h5>Provide an open and modern look for architecture and design.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-stars"></i></div>
-                        <h4>Slotted Hole Perforated Sheets</h4>
-                        <h5>Ideal for drainage, sieving, and sorting operations.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                        <h4><a href="{{ url('products/bars-rods/hexagon-bars') }}">Hexagonal</a> & Decorative Patterns
-                        </h4>
-                        <h5>Used for facades, partitions, and artistic installations.</h5>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </section>
-
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Applications</h2>
-                <p class="text-center pb-3">
-                    <strong class="text-black">Perforated Sheets</strong> are versatile and used across industries:
-
-                </p>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-building"></i>
-                        </div>
-                        <h5>Architecture & Interior Design</h5>
-                        <ul>
-                            <li>Facades, ceilings, sunshades, wall claddings</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-gear-wide-connected"></i>
-                        </div>
-                        <h5>Industrial Use</h5>
-                        <ul>
-                            <li>Sieves, screens, filters, protective covers</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-capsule"></i>
-                        </div>
-                        <h5>Food Processing & Pharma</h5>
-                        <ul>
-                            <li>Sanitary perforated trays, baskets, and filters</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-truck-front"></i>
-                        </div>
-                        <h5>Automotive & Transport</h5>
-                        <ul>
-                            <li>Grilles, ventilation covers, and soundproofing</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-soundwave"></i>
-                        </div>
-                        <h5>Acoustics & Noise Control</h5>
-                        <ul>
-                            <li>Acoustic panels, speaker grilles, sound barriers</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-wind"></i>
-                        </div>
-                        <h5>HVAC & Ventilation</h5>
-                        <ul>
-                            <li>Air diffusers, vents, and duct screens</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-            {{-- <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY C-276's</strong> unique combination of
-                corrosion resistance, weldability, and mechanical durability makes it a reliable material for
-                mission-critical applications where long-term performance is non-negotiable.
-
-            </p> --}}
-        </div>
-    </section>
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses of Perforated Sheets</h2>
-            </div>
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Perforated Sheets are used extensively
-                    across multiple
-                    industries, including:</h4>
-            </div>
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-wind"></i></div>
-                        <h4>Improves Airflow & Ventilation</h4>
-                        <h5>Enhances circulation in industrial and architectural projects</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-funnel"></i></div>
-                        <h4>Filtration Applications</h4>
-                        <h5>Provides filtration for liquids, gases, and solids</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-brush"></i></div>
-                        <h4>Architectural Design</h4>
-                        <h5>Enhances aesthetic appeal in facades and interiors</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-soundwave"></i></div>
-                        <h4>Acoustic Applications</h4>
-                        <h5>Reduces noise levels with perforated panels & barriers</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h4>Lightweight & Durable</h4>
-                        <h5>Strong yet lightweight for structural uses</h5>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    {{-- Advantages of Welded Pipes & Tubes --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Advantages of Perforated Sheets</h2>
+                <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
             </div>
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                        <h4>Versatile & Functional</h4>
-                        <h5>Suitable for industrial and decorative applications</h5>
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Precision perforation technology</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-bullseye"></i></div>
-                        <h4>Lightweight & Durable</h4>
-                        <h5>Reduces weight while maintaining <a
-                                href="{{ route('materials.high-strength-stainless-steel') }}">strength</a></h5>
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-layers"></i></div>
+                        <h5>Wide material range</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-cash-coin"></i></div>
-                        <h4>Cost-Effective</h4>
-                        <h5>Economical alternative to fully fabricated panels</h5>
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-brush"></i></div>
+                        <h5>Custom design capability</h5>
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-layers"></i></div>
-                        <h4>Customizable</h4>
-                        <h5>Available in custom hole sizes, shapes, and spacing</h5>
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+                        <h5>Fast delivery</h5>
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
-                        <h4>Corrosion Resistance</h4>
-                        <h5>Especially when produced in stainless steel or aluminum</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-sliders"></i></div>
-                        <h4>Complies with Global Standards</h4>
-                        <h5>ASTM, ASME, EN, and DIN</h5>
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>Global supply</h5>
                     </div>
                 </div>
             </div>
 
-
+            <div class="row mt-5 justify-content-center text-start">
+                <div class="col-lg-8">
+                    <div class="p-4 rounded shadow-sm bg-white border">
+                        <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Perforated Sheets</h4>
+                        <p class="mb-2"><strong>Before selecting:</strong></p>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness & strength</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Hole size & pattern</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Open area requirement</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (industrial / decorative)</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Finish type</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd-top sec-padd-bottom">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>Frequently Asked Questions (FAQ) – Perforated Sheets</h2>
+                            <h2>Frequently Asked Questions (FAQ)</h2>
                         </div>
 
-                        <!--Start single accordion box-->
+                        <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are perforated sheets?</h4>
+                                <h4>Q1. What are perforated sheets?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Perforated sheets are metal sheets that have been punched or stamped with holes, slots,
-                                    or decorative patterns.
-                                    They are used for filtration, screening, ventilation, and aesthetic applications.
-                                </p>
+                                <p>Metal sheets with punched holes for filtration and design.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
-                        <!--Start single accordion box-->
+                        <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Which materials are perforated sheets available in?</h4>
+                                <h4>Q2. What materials are available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    They can be manufactured in stainless steel, carbon steel, <a
-                                        href="{{ route('materials.aluminium-Alloys') }}">aluminum</a>, brass, copper,
-                                    titanium, nickel alloys,
-                                    and galvanized steel depending on the application.
-                                </p>
+                                <p>SS, MS, aluminium, brass, copper, titanium.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
+                        
+                        <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What thickness range is offered for perforated sheets?</h4>
+                                <h4>Q3. What thickness range is available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Perforated sheets are usually available in thicknesses from 0.3 mm to 12 mm, with
-                                    customized options available on request.
-                                </p>
+                                <p>0.3 mm to 12 mm.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
-                        <!--Start single accordion box-->
+                        <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are the standard hole shapes and patterns?</h4>
+                                <h4>Q4. What are common uses?</h4>
                             </div>
                             <div class="accord-content">
-                                <ul>
-                                    <li>Round holes (most common)</li>
-                                    <li>Square holes</li>
-                                    <li>Slotted holes (rectangular/oblong)</li>
-                                    <li>Hexagonal holes</li>
-                                    <li>Decorative patterns (custom designs possible)</li>
-                                </ul>
+                                <p>Ventilation, filtration, acoustic panels, design.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
+                        
+                        <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are the typical applications of perforated sheets?</h4>
+                                <h4>Q5. Can patterns be customized?</h4>
                             </div>
                             <div class="accord-content">
-                                <ul>
-                                    <li>Filtration and sieving</li>
-                                    <li>Ventilation and air-conditioning grills</li>
-                                    <li>Soundproofing and acoustic panels</li>
-                                    <li>Sunshades and decorative facades</li>
-                                    <li>Machinery guards and protective covers</li>
-                                    <li>Food processing and chemical industries</li>
-                                </ul>
+                                <p>Yes, fully customizable designs available.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
-
 
                     </div>
                 </div>
@@ -1723,63 +659,15 @@
     </section>
     <!--End faq content area-->
 
-    {{-- why choose us --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>WHY CHOOSE US?</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-grid-3x3-gap-fill"></i></div>
-                        <h5>Extensive Range: <a href="{{ url('products/bars-rods/round-bars') }}">Round</a>, square,
-                            slotted, and designer patterns</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-bullseye"></i></div>
-                        <h5>High Precision Manufacturing: Uniform punching and clean edges</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-layers-half"></i></div>
-                        <h5>Material Variety: Stainless, aluminum, copper, brass, titanium, and more</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-pencil-ruler"></i></div>
-                        <h5>Custom Orders: Tailored thickness, sheet size, and hole configurations</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Reliable Supply: On time delivery for projects across India and worldwide</h5>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </section>
-
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Contact Section -->
+    <section id="contact-us" class="sec-padd-bottom mt-5">
         <div class="container">
             <div class="contact-cta-box">
-                <h2>Contact Us</h2>
+                <h2>REQUEST A QUOTE</h2>
                 <p>
-                    Looking for high-quality Perforated Sheets for your industrial or architectural needs?<br>Contact
-                    <strong><a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
+                    Looking for high-quality perforated sheets?<br>
+                    📞 Contact Moksh Tubes & Fittings LLP at +91 97695 84950<br>
+                    We supply precision perforated sheets for industrial and architectural applications.
                 </p>
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
@@ -1790,60 +678,118 @@
         </div>
     </section>
 
-    <!--End breadcrumb area-->
-
-
 @endsection
+
 @section('jsscripts')
     <script type="application/ld+json">
         @verbatim
-            {
+        [{
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Moksh Tubes & Fittings LLP",
+            "url": "https://www.mokshtubes.com",
+            "logo": "https://www.mokshtubes.com/assets/logo.png",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91-97695-84950",
+                "contactType": "sales",
+                "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                "availableLanguage": ["English"]
+            }
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "Perforated Sheets | Stainless Steel & Decorative Metal Sheets",
+            "description": "Buy perforated sheets in SS, aluminium & steel. Custom hole patterns, sizes & finishes for industrial & architectural use.",
+            "brand": {
+                "@type": "Brand",
+                "name": "Moksh Tubes & Fittings LLP"
+            },
+            "manufacturer": {
+                "@type": "Organization",
+                "name": "Moksh Tubes & Fittings LLP"
+            },
+            "material": "Stainless Steel, Carbon Steel, Aluminium, Brass, Copper, Titanium",
+            "url": "https://www.mokshtubes.com/perforated-sheets",
+            "offers": {
+                "@type": "Offer",
+                "availability": "https://schema.org/InStock",
+                "priceCurrency": "INR",
+                "url": "https://www.mokshtubes.com/contact-us"
+            }
+        },
+        {
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
-                {
+            "mainEntity": [{
                 "@type": "Question",
-                "name": "What are perforated sheets?",
+                "name": "Q1. What are perforated sheets?",
                 "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Perforated sheets are metal sheets that have been punched or stamped with holes, slots, or decorative patterns. They are used for filtration, screening, ventilation, and aesthetic applications."
+                "@type": "Answer",
+                "text": "Metal sheets with punched holes for filtration and design."
                 }
-                },
-                {
+            },{
                 "@type": "Question",
-                "name": "Which materials are perforated sheets available in?",
+                "name": "Q2. What materials are available?",
                 "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "They can be manufactured in stainless steel, carbon steel, aluminum, brass, copper, titanium, nickel alloys, and galvanized steel depending on the application."
+                "@type": "Answer",
+                "text": "SS, MS, aluminium, brass, copper, titanium."
                 }
-                },
-                {
+            },{
                 "@type": "Question",
-                "name": "What thickness range is offered for perforated sheets?",
+                "name": "Q3. What thickness range is available?",
                 "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Perforated sheets are usually available in thicknesses from 0.3 mm to 12 mm, with customized options available on request."
+                "@type": "Answer",
+                "text": "0.3 mm to 12 mm."
                 }
-                },
-                {
+            },{
                 "@type": "Question",
-                "name": "What are the standard hole shapes and patterns?",
+                "name": "Q4. What are common uses?",
                 "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Round holes (most common), Square holes, Slotted holes (rectangular/oblong), Hexagonal holes, Decorative patterns (custom designs possible)."
+                "@type": "Answer",
+                "text": "Ventilation, filtration, acoustic panels, design."
                 }
-                },
-                {
+            },{
                 "@type": "Question",
-                "name": "What are the typical applications of perforated sheets?",
+                "name": "Q5. Can patterns be customized?",
                 "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Filtration and sieving, Ventilation and air-conditioning grills, Soundproofing and acoustic panels, Sunshades and decorative facades, Machinery guards and protective covers, Food processing and chemical industries."
+                "@type": "Answer",
+                "text": "Yes, fully customizable designs available."
                 }
-                }
-            ]
-            }
-        
+            }]
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.mokshtubes.com"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Products",
+                "item": "https://www.mokshtubes.com/products"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Perforated Sheets",
+                "item": "https://www.mokshtubes.com/perforated-sheets"
+            }]
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Moksh Tubes & Fittings LLP",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "India"
+            },
+            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+            "telephone": "+91-97695-84950"
+        }]
         @endverbatim
     </script>
 @endsection

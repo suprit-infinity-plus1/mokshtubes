@@ -1,79 +1,132 @@
 @extends('layouts.master')
-@section('title', 'Metal Coils – Premium Stainless, Carbon & Alloy Sheets') <!-- 52 characters -->
-@section('meta_description',
-    'Durable metal coils in stainless, carbon & alloy grades from Moksh Tubes — ideal for
-    manufacturing, construction & industrial applications.') <!-- 153 characters -->
-@section('meta_keywords',
-    'Stainless Steel Coils, Carbon Steel Coils, Alloy Coils, Metal Coils Supplier, Industrial
-    Metal Coils, Custom Metal Coils, High-Quality Metal Coils, Durable Metal Coils, Precision Metal Coils, Mokshtubes')
+
+@section('title', 'Metal Coils | Stainless Steel, Carbon Steel & Aluminium Coils')
+@section('meta_description', 'Buy metal coils in stainless steel, aluminium & carbon steel. Wide sizes, finishes & grades for industrial applications.')
+@section('meta_keywords', 'Metal Coils, stainless steel coils, steel coils, aluminium coils, industrial coils, metal coil suppliers')
 @section('og_image', asset('assets/images/product/Sheets-Plates-and-Coils/Metal-Coils.webp'))
 @section('og_type', 'article')
+
 @section('content')
+
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area"
-        style="background-image: url(/assets/images/product/Sheets-Plates-and-Coils/Metal-Coils.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/Sheets-Plates-and-Coils/Metal-Coils.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>High-Quality Metal Coils for Industrial Applications</h1> <!-- 52 characters -->
+                    <h1>Metal Coils<br>Stainless Steel, Carbon Steel, Aluminium & Industrial Coil Products</h1>
+
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Metal Coils are essential flat-rolled products used as raw material in manufacturing, construction, automotive, and industrial applications. Moksh Tubes & Fittings LLP supplies high-quality metal coils in stainless steel, carbon steel, aluminium, copper, brass, and specialty alloys. Our coils offer excellent surface finish, dimensional accuracy, and durability, making them ideal for fabrication, stamping, slitting, and forming applications across India and global markets.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End breadcrumb area-->
+
+    <!-- Start Material Tabs -->
+    <div class="sticky-top bg-white border-bottom material-tabs w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#specifications">Specifications</a> |
+            <a href="#size-weight">Size & Weight</a> |
+            <a href="#grades">Grades</a> |
+            <a href="#types">Types</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#uses">Uses & Advantages</a> |
+            <a href="#manufacturing">Manufacturing</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#tolerances">Tolerances</a> |
+            <a href="#export">Packaging & Exports</a> |
+            <a href="#why-choose-us">Why Choose Us</a> |
+            <a href="#faq">FAQ</a>
+        </div>
+    </div>
+    <!-- End Material Tabs -->
+
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Introduction</h2>
+            </div>
+
+            <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
+                METAL COILS
+            </h3>
+
+            <div class="row align-items-center">
+                <!-- Image Left -->
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Metal-Coils.webp') }}" alt="Metal Coils"
+                        class="img-fluid rounded shadow-sm" loading="lazy">
+                </div>
+
+                <!-- Content Right -->
+                <div class="col-md-6">
+                    <div class="pe-md-3">
+                        <p class="fs-6 mb-4" style="text-align: justify;">
+                            <strong class="text-black">Metal Coils</strong> are continuous strips of metal produced through hot rolling or cold rolling processes and wound into coil form for easy transportation and processing. These coils serve as primary raw material for manufacturing sheets, strips, and fabricated components.
+                        </p>
+
+                        <p class="fs-6 mb-4" style="text-align: justify;">
+                            They are widely used across industries due to their versatility, cost efficiency, and ease of handling. Coils can be further processed through slitting, cutting, stamping, and forming operations.
+                        </p>
+
+                        <p class="fs-6" style="text-align: justify;">
+                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings LLP</a></strong>, we supply premium-quality metal coils in a wide range of materials, grades, thicknesses, and finishes. Our products comply with international standards such as ASTM, ASME, EN, JIS, and DIN, ensuring consistent performance and quality.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Metal Coils Datasheet</h3>
+            <p class="mb-3">
+                Get the complete datasheet including chemical composition, mechanical properties, standards, tolerances, and application guidelines. Enter your email to receive the PDF instantly.
+            </p>
 
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+                <input type="hidden" name="page_path" value="{{ Request::path() }}">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Metal Coils</h2>
-            </div>
-
-            <div class="row align-items-center">
-                <!-- Left Image -->
-                <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Metal-Coils.webp') }}"
-                        alt="Hexagon Bars" class="img-fluid rounded shadow-sm">
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
                 </div>
+            </form>
 
-                <!-- Right Content -->
-                <div class="col-md-6">
-                    <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Metal Coils</strong> are a fundamental raw material used across
-                        manufacturing, construction, automotive, and industrial applications. Produced by hot rolling or
-                        cold rolling <a href="{{ url('products/bars-rods/flat-bars') }}">flat</a> steel into continuous
-                        strips and winding them into coils,
-                        they provide ease of
-                        transport, storage, and processing.
-                    </p>
-
-                    <p class="fs-6 mb-3 text-justify">
-                        Coils are available in various <a href="{{ route('materials') }}">materials</a> such as stainless
-                        steel, carbon steel, mild steel,
-                        <a href="{{ route('materials.aluminium-Alloys') }}">aluminum</a>, copper, and specialty alloys. Each
-                        material offers unique advantages such as corrosion
-                        resistance, durability, or lightweight properties.
-                    </p>
-
-                    <p class="fs-6 mb-3 text-justify">
-                        <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a> supplies high quality metal coils in a
-                        wide range of grades, thicknesses,
-                        widths, and finishes. Our coils comply with global standards (ASTM, ASME, EN, JIS, DIN) and are used
-                        by industries worldwide for fabrication, stamping, cutting, and forming applications.
-                    </p>
-
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
                 </div>
-            </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Specifications</h2>
+                <h2>Specifications of Metal Coils</h2>
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-lg-12">
+                <div class="col-lg-8">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -82,197 +135,330 @@
                                     <th>Details</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-start">
-                                <tr class="t-row">
-                                    <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Mild Steel, Alloy Steel, Duplex & Super Duplex,
-                                        Aluminum, Copper, Brass</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Grades</td>
-                                    <td>ASTM, ASME, JIS, EN certified – all mentioned alloys available</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Thickness Range</td>
-                                    <td>0.3 mm to 20 mm</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Width</td>
-                                    <td>10 mm to 2500 mm (custom slit coils available)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Types</td>
-                                    <td>Hot Rolled Coils (HRC), Cold Rolled Coils (CRC), Galvanized Coils, Color-Coated
-                                        Coils, Slit Coils</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Finishes</td>
-                                    <td>No.1, 2B, BA, Matte, Mirror, PVC Coated</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Standards</td>
-                                    <td>ASTM A240, A480, JIS G4304, EN 10088, IS 6911</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Applications</td>
-                                    <td>Automotive, Construction, HVAC, Appliances, Industrial Equipment</td>
-                                </tr>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>Material</td><td>Stainless Steel, Carbon Steel, Mild Steel, Alloy Steel, Aluminium, Copper, Brass</td></tr>
+                                <tr class="t-row"><td>Grades</td><td>ASTM / ASME / EN / JIS compliant</td></tr>
+                                <tr class="t-row"><td>Thickness</td><td>0.3 mm to 20 mm</td></tr>
+                                <tr class="t-row"><td>Width</td><td>10 mm to 2500 mm</td></tr>
+                                <tr class="t-row"><td>Types</td><td>Hot Rolled (HRC), Cold Rolled (CRC), Galvanized (GI), Color-Coated (PPGI), Slit Coils</td></tr>
+                                <tr class="t-row"><td>Finishes</td><td>No.1, 2B, BA, Matte, Mirror, PVC Coated</td></tr>
+                                <tr class="t-row"><td>Standards</td><td>ASTM A240, A480, EN 10088, JIS G4304</td></tr>
+                                <tr class="t-row"><td>Applications</td><td>Construction, Automotive, HVAC, Industrial</td></tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-            <div class="section-title center">
-                <h2 class="fw-bold" style="color: #174268;">Charts</h2>
-
-
-            </div>
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Metal Coil Weight Chart (Per Square Meter)</h4>
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Size & Weight Charts</h2>
             </div>
 
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle">
-                    <thead class="table-dark text-center">
-                        <tr class="t-row">
-                            <th>Thickness (mm)</th>
-                            <th>MS (7.85)</th>
-                            <th>SS (7.93)</th>
-                            <th>Aluminium (2.70)</th>
-                            <th>Brass (8.40)</th>
-                            <th>Copper (8.94)</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-center">
-                        <tr class="t-row">
-                            <td>0.5</td>
-                            <td>3.93</td>
-                            <td>3.97</td>
-                            <td>1.35</td>
-                            <td>4.20</td>
-                            <td>4.47</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>0.7</td>
-                            <td>5.50</td>
-                            <td>5.55</td>
-                            <td>1.89</td>
-                            <td>5.88</td>
-                            <td>6.26</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.0</td>
-                            <td>7.85</td>
-                            <td>7.93</td>
-                            <td>2.70</td>
-                            <td>8.40</td>
-                            <td>8.94</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.2</td>
-                            <td>9.42</td>
-                            <td>9.52</td>
-                            <td>3.24</td>
-                            <td>10.08</td>
-                            <td>10.73</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>1.5</td>
-                            <td>11.78</td>
-                            <td>11.90</td>
-                            <td>4.05</td>
-                            <td>12.60</td>
-                            <td>13.41</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>2.0</td>
-                            <td>15.70</td>
-                            <td>15.86</td>
-                            <td>5.40</td>
-                            <td>16.80</td>
-                            <td>17.88</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>2.5</td>
-                            <td>19.63</td>
-                            <td>19.83</td>
-                            <td>6.75</td>
-                            <td>21.00</td>
-                            <td>22.35</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>3.0</td>
-                            <td>23.55</td>
-                            <td>23.79</td>
-                            <td>8.10</td>
-                            <td>25.20</td>
-                            <td>26.82</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>4.0</td>
-                            <td>31.40</td>
-                            <td>31.72</td>
-                            <td>10.80</td>
-                            <td>33.60</td>
-                            <td>35.76</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>5.0</td>
-                            <td>39.25</td>
-                            <td>39.65</td>
-                            <td>13.50</td>
-                            <td>42.00</td>
-                            <td>44.70</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6.0</td>
-                            <td>47.10</td>
-                            <td>47.58</td>
-                            <td>16.20</td>
-                            <td>50.40</td>
-                            <td>53.64</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>8.0</td>
-                            <td>62.80</td>
-                            <td>63.44</td>
-                            <td>21.60</td>
-                            <td>67.20</td>
-                            <td>71.52</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10.0</td>
-                            <td>78.50</td>
-                            <td>79.30</td>
-                            <td>27.00</td>
-                            <td>84.00</td>
-                            <td>89.40</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 mb-4">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Coil Weight Chart (kg/m²)</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row"><th>Thickness</th><th>SS</th><th>MS</th><th>Aluminium</th><th>Copper</th></tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>1 mm</td><td>7.93</td><td>7.85</td><td>2.70</td><td>8.94</td></tr>
+                                <tr class="t-row"><td>2 mm</td><td>15.86</td><td>15.70</td><td>5.40</td><td>17.88</td></tr>
+                                <tr class="t-row"><td>5 mm</td><td>39.65</td><td>39.25</td><td>13.50</td><td>44.70</td></tr>
+                                <tr class="t-row"><td>10 mm</td><td>79.30</td><td>78.50</td><td>27.00</td><td>89.40</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
 
+                <div class="col-lg-6 mb-4">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Coil Weight for 1250 mm Width</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row"><th>Thickness</th><th>SS</th><th>MS</th></tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>1 mm</td><td>9.91</td><td>9.81</td></tr>
+                                <tr class="t-row"><td>2 mm</td><td>19.83</td><td>19.63</td></tr>
+                                <tr class="t-row"><td>5 mm</td><td>49.56</td><td>49.06</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Coil Weight for 1500 mm Width</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row"><th>Thickness</th><th>SS</th><th>MS</th></tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>1 mm</td><td>11.90</td><td>11.78</td></tr>
+                                <tr class="t-row"><td>2 mm</td><td>23.79</td><td>23.55</td></tr>
+                                <tr class="t-row"><td>5 mm</td><td>59.48</td><td>58.88</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-
-    {{-- Grades Available --}}
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="grades" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Grades Available</h2>
             </div>
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Our<strong> coils</strong> are available in a wide
-                    range of grades to meet diverse industrial requirements:</h4>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Stainless Steel</h5>
+                        <p>304 / 304L<br>316 / 316L<br>321 / 347</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear"></i></div>
+                        <h5>Carbon & Mild Steel</h5>
+                        <p>ASTM A36, IS 2062<br>EN 10025</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-nut"></i></div>
+                        <h5>Alloy Steel</h5>
+                        <p>High-strength engineering grades</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h5>Duplex & Super Duplex</h5>
+                        <p>2205, S31803, S32750</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-box"></i></div>
+                        <h5>Aluminium</h5>
+                        <p>1100, 5052, 6061, 6063</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-lightbulb"></i></div>
+                        <h5>Copper & Brass</h5>
+                        <p>C11000, C26000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="types" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Types of Metal Coils</h2>
+            </div>
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-fire"></i></div>
+                        <h5>Hot Rolled Coils (HRC)</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-snow"></i></div>
+                        <h5>Cold Rolled Coils (CRC)</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield"></i></div>
+                        <h5>Galvanized Coils (GI)</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-palette"></i></div>
+                        <h5>Color-Coated Coils (PPGI)</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-scissors"></i></div>
+                        <h5>Slit Coils</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Applications of Metal Coils</h2>
+            </div>
+
+            <div class="row g-4 justify-content-center mt-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-building"></i></div>
+                        <h5>Construction & Infrastructure</h5>
+                        <p>✔ Roofing & cladding<br>✔ Structural components</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-car-front"></i></div>
+                        <h5>Automotive Industry</h5>
+                        <p>✔ Body panels<br>✔ Structural parts</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fan"></i></div>
+                        <h5>HVAC & Appliances</h5>
+                        <p>✔ Air conditioners<br>✔ Refrigerators</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Industrial Fabrication</h5>
+                        <p>✔ Machine components<br>✔ Conveyor systems</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
+                        <h5>Packaging Industry</h5>
+                        <p>✔ Drums & containers</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-water"></i></div>
+                        <h5>Marine & Offshore</h5>
+                        <p>✔ Corrosion-resistant components</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Uses & Advantages of Metal Coils</h2>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-piggy-bank"></i></div>
+                        <h5>Cost-Effective Production</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-bezier"></i></div>
+                        <h5>High Flexibility</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-star"></i></div>
+                        <h5>Excellent Surface Finish</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-layers"></i></div>
+                        <h5>Wide Material Availability</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Durable & Reliable</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h5>Custom Processing Options</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="text-center mt-4">
+                <strong>Uses:</strong> Raw material for sheets & strips | Used in fabrication and forming | Suitable for mass production | Easy storage and transport | Customizable into required sizes
+            </p>
+        </div>
+    </section>
+
+    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Manufacturing Process & Quality Control</h2>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="pe-md-3">
+                        <p class="fs-6" style="text-align: justify;"><strong>Manufacturing Process of Metal Coils:</strong></p>
+                        <p>Hot or cold rolling</p>
+                        <p>Coiling into rolls</p>
+                        <p>Surface finishing</p>
+                        <p>Slitting or cutting</p>
+                        <p>Inspection & packaging</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="pe-md-3">
+                        <p class="fs-6" style="text-align: justify;"><strong>Testing & Quality Control:</strong></p>
+                        <p>Each Metal Coil undergoes strict inspection including:</p>
+                        <p>✔ Thickness inspection</p>
+                        <p>✔ Surface quality testing</p>
+                        <p>✔ Dimensional checks</p>
+                        <p>✔ Material certification</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties (Typical)</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -282,514 +468,169 @@
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Material</th>
-                                    <th>Grades</th>
+                                    <th>Tensile Strength (MPa)</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr class="t-row">
-                                    <td>Stainless Steel</td>
-                                    <td>
-                                        304, 304L, 316, 316L, 321, 347
-                                        <br>
-                                        <small>(Corrosion resistant & hygienic)</small>
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Carbon & Mild Steel</td>
-                                    <td>
-                                        ASTM A36, IS2062, EN10025
-                                        <br>
-                                        <small>(Structural & fabrication use)</small>
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Alloy Steel</td>
-                                    <td>
-                                        High strength engineering grades
-                                        <br>
-                                        <small>(Industrial machinery & heavy-duty use)</small>
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Duplex & Super Duplex</td>
-                                    <td>
-                                        2205, S31803, S32750
-                                        <br>
-                                        <small>(Marine & offshore projects)</small>
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Aluminum</td>
-                                    <td>
-                                        1100, 5052, 6061, 6063
-                                        <br>
-                                        <small>(Lightweight & corrosion-resistant)</small>
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Copper & Brass</td>
-                                    <td>
-                                        C11000, C26000
-                                        <br>
-                                        <small>(Electrical, decorative & plumbing)</small>
-                                    </td>
-                                </tr>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>Stainless Steel</td><td>515</td></tr>
+                                <tr class="t-row"><td>Carbon Steel</td><td>400–550</td></tr>
+                                <tr class="t-row"><td>Aluminium</td><td>150–300</td></tr>
+                                <tr class="t-row"><td>Copper</td><td>200–400</td></tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
-    {{-- Gallery --}}
-    {{-- Gallery --}}
-    <section class="our-services">
+    <section id="tolerances" class="sec-padd-top sec-padd-bottom">
         <div class="container">
-            <div class="container">
-            </div>
-
-            <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="NICKLE ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">NICKLE ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="STAINLESS STEEL">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="DUPLEX & SUPER">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">DUPLEX & SUPER</h6>
-                        </div>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-6 col-lg-5">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
+                        <h5>Dimensional Tolerances</h5>
+                        <p><strong>Thickness:</strong> ±0.02 mm to ±0.1 mm</p>
+                        <p><strong>Width:</strong> ±0.5 mm</p>
+                        <p><strong>Coil weight:</strong> As per standard</p>
+                        <p><strong>Surface finish:</strong> As required</p>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="TITANIUM ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
-                        </div>
+                <div class="col-md-6 col-lg-5" id="export">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
+                        <h5>Exports & Supply Coverage</h5>
+                        <p><strong>We supply across India:</strong> Mumbai, Pune, Ahmedabad, Bangalore, Chennai, Hyderabad</p>
+                        <p><strong>Export markets:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 mb-4 ">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes Superalloys">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Haynes Superalloys</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Inconel">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Inconel</h6>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
 
-
-    {{-- Applications --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container text-center">
             <div class="section-title center">
-                <h2>Types of Coils</h2>
+                <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
             </div>
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building"></i></div>
-                        <h4>Hot Rolled Coils (HRC)</h4>
-                        <h5>Manufactured by hot rolling; used for structural and industrial applications.</h5>
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-layers"></i></div>
+                        <h5>Extensive stock availability</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h4>Cold Rolled Coils (CRC)</h4>
-                        <h5>Precisely rolled at room temperature for tighter tolerances and smooth finish.</h5>
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-star"></i></div>
+                        <h5>Premium-grade materials</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Galvanized Coils (GI Coils)</h4>
-                        <h5>Zinc-coated to enhance corrosion resistance for outdoor use.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-palette"></i></div>
-                        <h4>Color-Coated Coils (PPGI)</h4>
-                        <h5>Pre painted galvanized steel for aesthetic building and roofing use.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-scissors"></i></div>
-                        <h4>Slit Coils</h4>
-                        <h5>Narrow width coils for specialized industrial applications.</h5>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </section>
-
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Applications</h2>
-                <p class="text-center pb-3">
-                    <strong class="text-black">Metal Coils</strong> are a raw material backbone for countless industries:
-                </p>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-building"></i>
-                        </div>
-                        <h5>Construction & Infrastructure</h5>
-                        <ul>
-                            <li>Roofing, cladding, structural elements, facades</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-truck-front"></i>
-                        </div>
-                        <h5>Automotive Industry</h5>
-                        <ul>
-                            <li>Body panels, chassis components, trims</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-wind"></i>
-                        </div>
-                        <h5>HVAC & Appliances</h5>
-                        <ul>
-                            <li>Refrigerators, air conditioners, washing machines</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-gear-wide-connected"></i>
-                        </div>
-                        <h5>Industrial Fabrication</h5>
-                        <ul>
-                            <li>Machine parts, conveyor belts, industrial panels</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-box-seam"></i>
-                        </div>
-                        <h5>Packaging</h5>
-                        <ul>
-                            <li>Drums, cans, and food grade applications</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-water"></i>
-                        </div>
-                        <h5>Marine & Offshore</h5>
-                        <ul>
-                            <li>Corrosion resistant coils for harsh environments</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-            {{-- <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY C-276's</strong> unique combination of
-                corrosion resistance, weldability, and mechanical durability makes it a reliable material for
-                mission-critical applications where long-term performance is non-negotiable.
-
-            </p> --}}
-        </div>
-    </section>
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses of Metal Coils</h2>
-            </div>
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Metal Coils are used extensively
-                    across multiple
-                    industries, including:</h4>
-            </div>
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-truck"></i></div>
-                        <h4>Easy Transport & Storage</h4>
-                        <h5>Coils are compact compared to sheets</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h4>Mass Production</h4>
-                        <h5>Ideal for fabrication & large-scale manufacturing</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-scissors"></i></div>
-                        <h4>Flexible Processing</h4>
-                        <h5>Can be cut, slit, stamped & formed into components</h5>
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-scissors"></i></div>
+                        <h5>Custom processing services</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
-                        <h4>Custom Dimensions</h4>
-                        <h5>Available in tailored widths & thicknesses</h5>
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+                        <h5>Reliable delivery timelines</h5>
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building"></i></div>
-                        <h4>Versatile Applications</h4>
-                        <h5>Used in structural, decorative & industrial projects</h5>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </section>
-
-
-    {{-- Advantages of Welded Pipes & Tubes --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Advantages of Metal coils</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-cash-stack"></i></div>
-                        <h4>Cost-Efficient Production</h4>
-                        <h5>Continuous rolling allows high-volume manufacturing.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-aspect-ratio"></i></div>
-                        <h4>Flexibility</h4>
-                        <h5>Can be cut to sheets, strips, or custom sizes.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-brush"></i></div>
-                        <h4>Superior Surface Finish</h4>
-                        <h5>Especially for CRC and polished stainless steel.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-grid"></i></div>
-                        <h4>Versatility</h4>
-                        <h5>Available in a wide range of materials and grades.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Durable & Reliable</h4>
-                        <h5>Meets international quality standards.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-scissors"></i></div>
-                        <h4>Custom Processing</h4>
-                        <h5>Slitting, shearing, and recoiling services available.</h5>
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>Global export capability</h5>
                     </div>
                 </div>
             </div>
 
-
+            <div class="row mt-5 justify-content-center text-start">
+                <div class="col-lg-8">
+                    <div class="p-4 rounded shadow-sm bg-white border">
+                        <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Metal Coils</h4>
+                        <p class="mb-2"><strong>Before selecting:</strong></p>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness & width</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Coil type (HRC / CRC / GI)</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Surface finish</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Processing requirements</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd-top sec-padd-bottom">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>Frequently Asked Questions (FAQ) – Metal Coils</h2>
+                            <h2>Frequently Asked Questions (FAQ)</h2>
                         </div>
 
-                        <!--Start single accordion box-->
+                        <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are metal coils?</h4>
+                                <h4>Q1. What are metal coils?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Metal coils are rolled strips of metal wound into a coil for ease of handling,
-                                    transportation,
-                                    and storage. They serve as raw material for sheets, strips, and other fabricated
-                                    products.
-                                </p>
+                                <p>Continuous rolled metal strips used as raw material.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
-                        <!--Start single accordion box-->
+                        <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Which materials are available in coil form?</h4>
+                                <h4>Q2. What materials are available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Coils are available in stainless steel, carbon steel, alloy steel, aluminum, copper,
-                                    brass,
-                                    nickel alloys, titanium, and other specialty metals.
-                                </p>
+                                <p>SS, MS, aluminium, copper, brass, alloys.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
+                        
+                        <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are the common types of metal coils?</h4>
+                                <h4>Q3. What thickness range is available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    <b>Hot Rolled Coils (HRC)</b> – thicker, rougher surface, structural
-                                    applications<br><br>
-                                    <b>Cold Rolled Coils (CRC)</b> – thinner, smooth surface, precision applications<br><br>
-                                    <b>Galvanized Coils</b> – coated for corrosion resistance<br><br>
-                                    <b>Aluminum & Non-Ferrous Coils</b> – lightweight and corrosion-resistant
-                                </p>
+                                <p>0.3 mm to 20 mm.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
-                        <!--Start single accordion box-->
+                        <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are the standard sizes of metal coils?</h4>
+                                <h4>Q4. What are common uses?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    <b>Width:</b> typically 600 mm to 2000 mm<br>
-                                    <b>Thickness:</b> 0.2 mm to 20 mm (depending on material and rolling process)<br>
-                                    <b>Weight:</b> can range from 2 tons to 10 tons per coil
-                                </p>
+                                <p>Sheets, strips, fabrication, automotive parts.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
+                        
+                        <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are the common applications of metal coils?</h4>
+                                <h4>Q5. What types of coils are available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    • Manufacturing sheets, strips, and plates<br>
-                                    • Automotive panels and parts<br>
-                                    • Roofing, cladding, and construction materials<br>
-                                    • Appliances and electrical equipment<br>
-                                    • Packaging and industrial components
-                                </p>
+                                <p>HRC, CRC, GI, PPGI, slit coils.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
-
 
                     </div>
                 </div>
@@ -798,63 +639,15 @@
     </section>
     <!--End faq content area-->
 
-    {{-- why choose us --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>WHY CHOOSE US?</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-boxes"></i></div>
-                        <h5>Extensive Inventory: Wide range of materials, grades, and finishes in stock</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-patch-check-fill"></i></div>
-                        <h5>Global Standards: ASTM, ASME, JIS, DIN, and EN compliant coils</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-sliders"></i></div>
-                        <h5>Customization: Tailored thickness, width, and surface finish to suit projects</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-headset"></i></div>
-                        <h5>Technical Support: Expert guidance for material selection & applications</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Reliable Delivery: On-time supply to industries worldwide</h5>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </section>
-
-
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Contact Section -->
+    <section id="contact-us" class="sec-padd-bottom mt-5">
         <div class="container">
             <div class="contact-cta-box">
-                <h2>Contact Us</h2>
+                <h2>REQUEST A QUOTE</h2>
                 <p>
-                    Looking for high-quality Coils for your project?<br>Contact <strong><a
-                            href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
+                    Looking for high-quality metal coils?<br>
+                    📞 Contact Moksh Tubes & Fittings LLP at +91 97695 84950<br>
+                    We supply precision-engineered coils for industrial and commercial applications.
                 </p>
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
@@ -865,60 +658,118 @@
         </div>
     </section>
 
-    <!--End breadcrumb area-->
-
-
 @endsection
+
 @section('jsscripts')
     <script type="application/ld+json">
         @verbatim
-            {
+        [{
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Moksh Tubes & Fittings LLP",
+            "url": "https://www.mokshtubes.com",
+            "logo": "https://www.mokshtubes.com/assets/logo.png",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91-97695-84950",
+                "contactType": "sales",
+                "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                "availableLanguage": ["English"]
+            }
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "Metal Coils | Stainless Steel, Carbon Steel & Aluminium Coils",
+            "description": "Buy metal coils in stainless steel, aluminium & carbon steel. Wide sizes, finishes & grades for industrial applications.",
+            "brand": {
+                "@type": "Brand",
+                "name": "Moksh Tubes & Fittings LLP"
+            },
+            "manufacturer": {
+                "@type": "Organization",
+                "name": "Moksh Tubes & Fittings LLP"
+            },
+            "material": "Stainless Steel, Carbon Steel, Mild Steel, Alloy Steel, Aluminium, Copper, Brass",
+            "url": "https://www.mokshtubes.com/metal-coils",
+            "offers": {
+                "@type": "Offer",
+                "availability": "https://schema.org/InStock",
+                "priceCurrency": "INR",
+                "url": "https://www.mokshtubes.com/contact-us"
+            }
+        },
+        {
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
-                {
+            "mainEntity": [{
                 "@type": "Question",
-                "name": "What are metal coils?",
+                "name": "Q1. What are metal coils?",
                 "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Metal coils are rolled strips of metal wound into a coil for ease of handling, transportation, and storage. They serve as raw material for sheets, strips, and other fabricated products."
+                "@type": "Answer",
+                "text": "Continuous rolled metal strips used as raw material."
                 }
-                },
-                {
+            },{
                 "@type": "Question",
-                "name": "Which materials are available in coil form?",
+                "name": "Q2. What materials are available?",
                 "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Coils are available in stainless steel, carbon steel, alloy steel, aluminum, copper, brass, nickel alloys, titanium, and other specialty metals."
+                "@type": "Answer",
+                "text": "SS, MS, aluminium, copper, brass, alloys."
                 }
-                },
-                {
+            },{
                 "@type": "Question",
-                "name": "What are the common types of metal coils?",
+                "name": "Q3. What thickness range is available?",
                 "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Hot Rolled Coils (HRC) – thicker, rougher surface, structural applications. Cold Rolled Coils (CRC) – thinner, smooth surface, precision applications. Galvanized Coils – coated for corrosion resistance. Aluminum & Non-Ferrous Coils – lightweight and corrosion-resistant."
+                "@type": "Answer",
+                "text": "0.3 mm to 20 mm."
                 }
-                },
-                {
+            },{
                 "@type": "Question",
-                "name": "What are the standard sizes of metal coils?",
+                "name": "Q4. What are common uses?",
                 "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Width: typically 600 mm to 2000 mm. Thickness: 0.2 mm to 20 mm (depending on material and rolling process). Weight: can range from 2 tons to 10 tons per coil."
+                "@type": "Answer",
+                "text": "Sheets, strips, fabrication, automotive parts."
                 }
-                },
-                {
+            },{
                 "@type": "Question",
-                "name": "What are the common applications of metal coils?",
+                "name": "Q5. What types of coils are available?",
                 "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Manufacturing sheets, strips, and plates. Automotive panels and parts. Roofing, cladding, and construction materials. Appliances and electrical equipment. Packaging and industrial components."
+                "@type": "Answer",
+                "text": "HRC, CRC, GI, PPGI, slit coils."
                 }
-                }
-            ]
-            }
-
+            }]
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.mokshtubes.com"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Products",
+                "item": "https://www.mokshtubes.com/products"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Metal Coils",
+                "item": "https://www.mokshtubes.com/metal-coils"
+            }]
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Moksh Tubes & Fittings LLP",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "India"
+            },
+            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+            "telephone": "+91-97695-84950"
+        }]
         @endverbatim
     </script>
 @endsection
