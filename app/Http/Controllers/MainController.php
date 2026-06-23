@@ -1368,6 +1368,51 @@ class MainController extends Controller
         return view('frontend.products.pipe-fittings-flanges-fasteners.u-bends');
     }
 
+    public function ninetyDegreeBends()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.90-degree-bends');
+    }
+
+    public function fortyFiveDegreeBends()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.45-degree-bends');
+    }
+
+    public function flanges()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.flanges');
+    }
+
+    public function threadedFlanges()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.threaded-flanges');
+    }
+
+    public function socketWeldFlanges()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.socket-weld-flanges');
+    }
+
+    public function spectacleBlindFlanges()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.spectacle-blind-flanges');
+    }
+
+    public function studs()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.studs');
+    }
+
+    public function nuts()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.nuts');
+    }
+
+    public function allenBolts()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.allen-bolts');
+    }
+
     public function barsRods()
     {
         $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Bars and Rods%')->get();

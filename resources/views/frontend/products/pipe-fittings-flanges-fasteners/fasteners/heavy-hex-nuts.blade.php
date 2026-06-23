@@ -14,7 +14,7 @@
                     <h1>HEAVY HEX NUTS</h1>
                     <!-- Short Overview -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Heavy Hex Nuts are high-strength, large-width hexagonal nuts designed for high-pressure, high-temperature, and structural bolting applications. They are commonly used with <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}" class="text-white text-decoration-underline">stud bolts</a> and <a href="{{ route('products.bars-rods.threaded-rods') }}" class="text-white text-decoration-underline">threaded rods</a> in <a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}" class="text-white text-decoration-underline">flanged joints</a>, <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-white text-decoration-underline">pressure vessels</a>, refineries, power plants, and heavy structural assemblies.<br>
+                        Heavy Hex Nuts are high-strength, large-width hexagonal nuts designed for high-pressure, high-temperature, and structural bolting applications. They are commonly used with <a href="{{ route('products.fasteners') }}" class="text-white text-decoration-underline">stud bolts</a> and <a href="{{ route('products.bars-rods.threaded-rods') }}" class="text-white text-decoration-underline">threaded rods</a> in <a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-white text-decoration-underline">flanged joints</a>, <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-white text-decoration-underline">pressure vessels</a>, refineries, power plants, and heavy structural assemblies.<br>
                         At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply ASTM, ASME, and DIN-compliant Heavy Hex Nuts in carbon steel, <a href="{{ route('materials.engineering-Steels') }}" class="text-white text-decoration-underline">alloy steel</a>, <a href="{{ route('materials.austenitic-stainless-Steel') }}" class="text-white text-decoration-underline">stainless steel</a>, duplex, and high-temperature grades for critical industrial applications.
                     </p>
                 </div>
@@ -40,7 +40,7 @@
                         Heavy Hex Nuts are specially designed nuts with increased width across flats and thickness compared to standard hex nuts. Their larger bearing surface and strength make them suitable for:
                     </p>
                     <ul class="fs-6 mb-3">
-                        <li>High-pressure <a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}" class="text-decoration-none">flange connections</a></li>
+                        <li>High-pressure <a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-decoration-none">flange connections</a></li>
                         <li>Structural <a href="{{ route('materials.engineering-Steels') }}" class="text-decoration-none">steel</a> bolting</li>
                         <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none">Pressure vessels & heat exchangers</a></li>
                         <li>Offshore & marine installations</li>
@@ -105,7 +105,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Applications</td>
-                                    <td><a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}" class="text-decoration-none">Flanges</a>, <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none">Pressure Vessels</a>, Structural Bolting</td>
+                                    <td><a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-decoration-none">Flanges</a>, <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none">Pressure Vessels</a>, Structural Bolting</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -220,7 +220,7 @@
                         <div class="application-icon"><i class="bi bi-water"></i></div>
                         <h5>Oil, Gas & Petrochemical</h5>
                         <ul>
-                            <li>High-pressure <a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}" class="text-decoration-none">flange joints</a></li>
+                            <li>High-pressure <a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-decoration-none">flange joints</a></li>
                             <li>Refinery piping systems</li>
                             <li><a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}" class="text-decoration-none">Heat exchanger</a> assemblies</li>
                         </ul>
@@ -611,3 +611,4 @@
         @endverbatim
     </script>
 @endsection
+

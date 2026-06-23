@@ -78,7 +78,7 @@
                     </div>
                 @endforeach --}}
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fittings-and-flanges') }}"
+                    <a href="{{ route('products.flanges.flanges-and-gaskets') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -94,7 +94,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}"
+                    <a href="{{ route('products.flanges.flanges-and-gaskets') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -126,7 +126,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}"
+                    <a href="{{ route('products.fasteners') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -142,7 +142,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.pipe-fittings') }}"
+                    <a href="{{ route('products.pipe-fittings') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -159,7 +159,7 @@
                 </div>
                 <!-- New Flanges -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.wnrf-flanges') }}"
+                    <a href="{{ route('products.flanges.weld-neck-flanges') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -173,7 +173,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.sorf-flanges') }}"
+                    <a href="{{ route('products.flanges.slip-on-flanges') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -187,7 +187,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.blind-flanges') }}"
+                    <a href="{{ route('products.flanges.blind-flanges') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -201,7 +201,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.ljff-flanges') }}"
+                    <a href="{{ route('products.flanges.lap-joint-flanges') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -215,7 +215,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.astm-a182-f316-flanges') }}"
+                    <a href="{{ route('products.flanges.astm-a182-f316-flanges') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -229,7 +229,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.astm-a350-lf2-flanges') }}"
+                    <a href="{{ route('products.flanges.astm-a350-lf2-flanges') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -244,7 +244,7 @@
                 </div>
                 <!-- New Pipe Fittings -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.concentric-reducers') }}"
+                    <a href="{{ route('products.pipe-fittings.reducers.concentric') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -258,7 +258,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.eccentric-reducers') }}"
+                    <a href="{{ route('products.pipe-fittings.reducers.eccentric') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -272,7 +272,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.90-degree-elbows') }}"
+                    <a href="{{ route('products.pipe-fittings.elbows.90-degree-elbow') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -286,7 +286,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.45-degree-elbows') }}"
+                    <a href="{{ route('products.pipe-fittings.elbows.45-degree-elbow') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -299,7 +299,7 @@
                         </div>
                     </a>
                 </div><div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.u-bends') }}"
+                    <a href="{{ route('products.pipe-fittings.u-bend') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -313,7 +313,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.weldolets') }}"
+                    <a href="{{ route('products.pipe-fittings.olets.weldolet') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -327,7 +327,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.sockolets') }}"
+                    <a href="{{ route('products.pipe-fittings.olets.sockolet') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -408,3 +408,5 @@
 
 
 @endsection
+
+

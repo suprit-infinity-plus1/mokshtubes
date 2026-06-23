@@ -14,6 +14,139 @@
 @section('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))
 @section('og_type', 'website')
 @section('content')
+<style>
+/* Custom Premium Styles - Theme Colors Applied */
+.premium-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.premium-card {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+.premium-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    border-color: var(--brown); 
+}
+.premium-card .icon-wrapper {
+    background: rgba(219, 114, 39, 0.1); /* light theme color */
+    color: var(--brown);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+.premium-card h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #333;
+}
+
+.industry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+.industry-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px 15px;
+    text-align: center;
+    border: 1px solid #eee;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+.industry-card i {
+    display: block;
+    font-size: 28px;
+    color: var(--brown);
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+.industry-card span {
+    font-weight: 600;
+    font-size: 15px;
+    color: #444;
+}
+.industry-card:hover {
+    background: var(--brown);
+    border-color: var(--brown);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(219, 114, 39, 0.3);
+}
+.industry-card:hover i, .industry-card:hover span {
+    color: #fff;
+}
+
+.materials-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+.material-pill {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 1px solid #dee2e6;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: #333;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+.material-pill:hover {
+    background: linear-gradient(135deg, var(--brown) 0%, #b95e1c 100%);
+    color: #fff;
+    border-color: var(--brown);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(219, 114, 39, 0.4);
+}
+
+.export-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 15px;
+}
+.export-item {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    padding: 12px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+    color: #555;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+.export-item:hover {
+    border-color: var(--brown);
+    color: var(--brown);
+    background: #fffdfc;
+    box-shadow: 0 6px 12px rgba(219, 114, 39, 0.15);
+    transform: translateY(-2px);
+}
+.export-item i {
+    color: var(--brown);
+    font-size: 18px;
+}
+</style>
 
 
 
@@ -570,14 +703,14 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}">
+                            <a class="w-100" href="{{ route('products.fasteners') }}">
                                 {{-- <img class="w-100" src="{{ asset('assets/images/service/6.jpg') }}" alt="Awesome Image"> --}}
                                 <img class="w-100" src="/assets/images/service/FASTENERS-1.webp" alt="Awesome Image"
                                     loading="lazy">
                             </a>
                         </figure>
                         <div class="p-3">
-                            <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}">
+                            <a href="{{ route('products.fasteners') }}">
                                 <h3 class="mt-0 h5">Fasteners & Fittings</h3>
                             </a>
                             <p>
@@ -589,6 +722,150 @@
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center mb-4">
+                    <p>Selecting the right supplier is just as important as choosing the right material. At Moksh Tubes & Fittings LLP, we are committed to supplying premium-quality industrial metal products that meet international standards for performance, durability, and reliability.</p>
+                    <p>With more than 20 years of industry experience, we serve customers across India and international markets by providing high-quality stainless steel, nickel alloys, titanium, engineering steels, aluminium alloys, copper alloys, and other specialty metals for demanding industrial applications.</p>
+                    <p>Whether you require standard products or custom-manufactured components, our experienced team ensures every order meets your exact technical specifications and delivery requirements.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    {{-- <h3 class="text-center mb-5">Why Customers Choose Moksh Tubes</h3> --}}
+                    <div class="premium-grid">
+                        <div class="premium-card">
+                            <div class="icon-wrapper"><i class="fa fa-clock-o"></i></div>
+                            <h4>Over 20 Years of Industry Experience</h4>
+                        </div>
+                        <div class="premium-card">
+                            <div class="icon-wrapper"><i class="fa fa-diamond"></i></div>
+                            <h4>Premium Quality Materials</h4>
+                        </div>
+                        <div class="premium-card">
+                            <div class="icon-wrapper"><i class="fa fa-certificate"></i></div>
+                            <h4>Mill Test Certificates (EN 10204 3.1)</h4>
+                        </div>
+                        <div class="premium-card">
+                            <div class="icon-wrapper"><i class="fa fa-search"></i></div>
+                            <h4>Third-Party Inspection Available</h4>
+                        </div>
+                        <div class="premium-card">
+                            <div class="icon-wrapper"><i class="fa fa-scissors"></i></div>
+                            <h4>Custom Sizes & Cutting Services</h4>
+                        </div>
+                        <div class="premium-card">
+                            <div class="icon-wrapper"><i class="fa fa-tags"></i></div>
+                            <h4>Competitive Pricing</h4>
+                        </div>
+                        <div class="premium-card">
+                            <div class="icon-wrapper"><i class="fa fa-bolt"></i></div>
+                            <h4>Ready Stock for Fast Dispatch</h4>
+                        </div>
+                        <div class="premium-card">
+                            <div class="icon-wrapper"><i class="fa fa-cubes"></i></div>
+                            <h4>Export Quality Packaging</h4>
+                        </div>
+                        <div class="premium-card">
+                            <div class="icon-wrapper"><i class="fa fa-globe"></i></div>
+                            <h4>Worldwide Shipping</h4>
+                        </div>
+                        <div class="premium-card">
+                            <div class="icon-wrapper"><i class="fa fa-cogs"></i></div>
+                            <h4>Technical Material Selection Support</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries We Serve Section -->
+    <section class="industries-we-serve sec-padd-top sec-padd-bottom" style="background-color: #f9f9f9;">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Industries We Serve</h2>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-12 text-center">
+                    <p>Our products are trusted by companies operating in some of the world's most demanding industries. We supply materials designed to perform reliably under high pressure, elevated temperatures, corrosive environments, and heavy mechanical loads.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mt-4">
+                    <div class="industry-grid">
+                        <div class="industry-card"><i class="fa fa-tint"></i><span>Oil & Gas</span></div>
+                        <div class="industry-card"><i class="fa fa-flask"></i><span>Petrochemical</span></div>
+                        <div class="industry-card"><i class="fa fa-fire"></i><span>Chemical Processing</span></div>
+                        <div class="industry-card"><i class="fa fa-industry"></i><span>Refineries</span></div>
+                        <div class="industry-card"><i class="fa fa-bolt"></i><span>Power Generation</span></div>
+                        <div class="industry-card"><i class="fa fa-ship"></i><span>Marine & Shipbuilding</span></div>
+                        <div class="industry-card"><i class="fa fa-medkit"></i><span>Pharmaceutical</span></div>
+                        <div class="industry-card"><i class="fa fa-cutlery"></i><span>Food Processing</span></div>
+                        <div class="industry-card"><i class="fa fa-leaf"></i><span>Water Treatment</span></div>
+                        <div class="industry-card"><i class="fa fa-building-o"></i><span>Construction</span></div>
+                        <div class="industry-card"><i class="fa fa-cogs"></i><span>Heavy Engineering</span></div>
+                        <div class="industry-card"><i class="fa fa-diamond"></i><span>Mining</span></div>
+                        <div class="industry-card"><i class="fa fa-industry"></i><span>Cement Plants</span></div>
+                        <div class="industry-card"><i class="fa fa-cubes"></i><span>Sugar Industry</span></div>
+                        <div class="industry-card"><i class="fa fa-car"></i><span>Automotive</span></div>
+                        <div class="industry-card"><i class="fa fa-plane"></i><span>Aerospace</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <p>No matter the industry, our team can recommend the right material to match your application, operating conditions, and performance requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Materials We Supply Section -->
+    <section class="materials-we-supply sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Materials We Supply</h2>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-12 text-center">
+                    <p>Moksh Tubes & Fittings LLP offers a comprehensive range of industrial metals and specialty alloys for critical engineering applications. Our products are available in multiple grades, sizes, and specifications to meet domestic and international project requirements.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mt-4">
+                    {{-- <h3 class="text-center mb-4">Our Material Range</h3> --}}
+                    <div class="materials-flex">
+                        <div class="material-pill">Stainless Steel</div>
+                        <div class="material-pill">Duplex Stainless Steel</div>
+                        <div class="material-pill">Super Duplex Stainless Steel</div>
+                        <div class="material-pill">Inconel Alloys</div>
+                        <div class="material-pill">Monel Alloys</div>
+                        <div class="material-pill">Hastelloy Alloys</div>
+                        <div class="material-pill">Incoloy Alloys</div>
+                        <div class="material-pill">Titanium</div>
+                        <div class="material-pill">Nickel Alloys</div>
+                        <div class="material-pill">Aluminium Alloys</div>
+                        <div class="material-pill">Copper Alloys</div>
+                        <div class="material-pill">Engineering Steels</div>
+                        <div class="material-pill">Carbon Steel</div>
+                        <div class="material-pill">Alloy Steel</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <p>All materials are supplied with complete documentation, including mill test certificates, ensuring quality and traceability.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -793,12 +1070,12 @@
                         <ul class="footer-list">
                             <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FITTINGS</a></li>
                             <li><a
-                                    href="{{ route('products.pipe-fittings-flanges-fasteners.fittings-and-flanges') }}">FLANGES</a>
+                                    href="{{ route('products.flanges.flanges-and-gaskets') }}">FLANGES</a>
                             </li>
-                            <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}">FASTENERS</a>
+                            <li><a href="{{ route('products.fasteners') }}">FASTENERS</a>
                             </li>
                             <li><a
-                                    href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}">GASKETS</a>
+                                    href="{{ route('products.flanges.flanges-and-gaskets') }}">GASKETS</a>
                             </li>
                             <li><a href="{{ route('products.special-fabricated.custom-steel-furniture') }}">CUSTOM
                                     FABRICATED FITTINGS</a></li>
@@ -1118,11 +1395,54 @@
     </section>
     <!--End Certifications Section-->
 
+    <!-- Global Export & Quality Assurance Section -->
+    <section class="global-export-quality sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Global Export & Quality Assurance</h2>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-12 text-center">
+                    <p>Quality is at the core of everything we do. Every product supplied by Moksh Tubes & Fittings LLP undergoes strict quality checks to ensure compliance with customer specifications and international standards.</p>
+                    <p>We provide complete quality documentation, including Mill Test Certificates (MTC), Positive Material Identification (PMI), third-party inspection reports, and custom testing based on project requirements.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    {{-- <h3 class="text-center mb-4">We Export Worldwide</h3>
+                    <p class="text-center mb-4">Our products are supplied to customers across:</p> --}}
+                    <div class="export-grid">
+                        <div class="export-item"><i class="fa fa-map-marker"></i> United Arab Emirates</div>
+                        <div class="export-item"><i class="fa fa-map-marker"></i> Saudi Arabia</div>
+                        <div class="export-item"><i class="fa fa-map-marker"></i> Qatar</div>
+                        <div class="export-item"><i class="fa fa-map-marker"></i> Oman</div>
+                        <div class="export-item"><i class="fa fa-map-marker"></i> Kuwait</div>
+                        <div class="export-item"><i class="fa fa-map-marker"></i> Bahrain</div>
+                        <div class="export-item"><i class="fa fa-map-marker"></i> Singapore</div>
+                        <div class="export-item"><i class="fa fa-map-marker"></i> Malaysia</div>
+                        <div class="export-item"><i class="fa fa-map-marker"></i> Germany</div>
+                        <div class="export-item"><i class="fa fa-map-marker"></i> Netherlands</div>
+                        <div class="export-item"><i class="fa fa-map-marker"></i> Italy</div>
+                        <div class="export-item"><i class="fa fa-map-marker"></i> United Kingdom</div>
+                        <div class="export-item"><i class="fa fa-map-marker"></i> United States</div>
+                        <div class="export-item"><i class="fa fa-map-marker"></i> Canada</div>
+                        <div class="export-item"><i class="fa fa-map-marker"></i> Australia</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <p>With export-grade packaging and reliable logistics, we ensure materials reach customers safely and on time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--Start faq content area-->
     <section class="faq-content-area sec-padd2">
         <div class="container">
             <div class="section-title center">
-                <h2>FAQ's</h2>
+                <h2>Frequently Asked Questions</h2>
             </div>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -1130,63 +1450,80 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn active">
-                                <h3>What types of metal products do you offer?</h3>
+                                <h3>Do you supply stainless steel pipes in custom sizes?</h3>
                             </div>
                             <div class="accord-content collapsed">
-                                <p>We supply GI pipes, SS pipes, welded and seamless pipes, stainless steel sheets, metal
-                                    plates, perforated sheets, and industrial fasteners.</p>
+                                <p>Yes. We offer custom lengths, diameters, wall thicknesses, and cutting services based on project requirements.</p>
                             </div>
                         </div>
                         <!--End single accordion box-->
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>What are the uses of perforated metal sheets?</h3>
+                                <h3>Do you provide Mill Test Certificates?</h3>
                             </div>
                             <div class="accord-content">
-                                <p>Our perforated metal sheets are widely used for ventilation, filtration,
-                                    soundproofing, and decorative applications in construction, machinery, and
-                                    architecture. They can be customized with different hole patterns, sizes, and
-                                    materials to suit your specific needs.</p>
+                                <p>Yes. All applicable products can be supplied with EN 10204 3.1 Mill Test Certificates.</p>
                             </div>
                         </div>
                         <!--End single accordion box-->
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>Do you provide size or schedule charts?
-                                </h3>
+                                <h3>Which industries do you serve?</h3>
                             </div>
                             <div class="accord-content">
-                                <p>Yes, we offer complete pipe size charts, nominal diameter (DN) references, and pipe
-                                    schedule tables for all pipe types.</p>
+                                <p>We supply products for oil & gas, chemical processing, power plants, marine, pharmaceutical, food processing, construction, mining, and many other industries.</p>
                             </div>
                         </div>
                         <!--End single accordion box-->
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>Do you offer corrosion-resistant stainless steel sheets and plates?
-                                </h3>
+                                <h3>Do you export outside India?</h3>
                             </div>
                             <div class="accord-content">
-                                <p>Yes. Our stainless steel sheets and plates are highly corrosion-resistant and deliver
-                                    long-lasting performance in marine, chemical, and industrial environments. They are
-                                    available in various thicknesses, grades, and finishes to match your project
-                                    requirements.
-                                </p>
+                                <p>Yes. We regularly export industrial metal products to customers across Asia, Europe, the Middle East, North America, and other international markets.</p>
                             </div>
                         </div>
                         <!--End single accordion box-->
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>Can I order custom-sized pipes or fittings?
-                                </h3>
+                                <h3>Can you arrange third-party inspection?</h3>
                             </div>
                             <div class="accord-content">
-                                <p>Absolutely. We specialize in custom-fabricated fittings, special steel furniture, and
-                                    custom SS railings according to client requirements.</p>
+                                <p>Yes. Third-party inspection can be arranged through internationally recognized inspection agencies upon request.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3>How quickly can I receive a quotation?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>Our team aims to respond to most enquiries within 30 minutes during business hours.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3>Which materials do you stock?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>We stock stainless steel, duplex steel, nickel alloys, titanium, engineering steels, aluminium alloys, copper alloys, and other specialty metals.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3>How can I request a quote?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>You can contact us through our enquiry form, email, phone, or WhatsApp. Our technical sales team will recommend the right material and provide a competitive quotation based on your specifications.</p>
                             </div>
                         </div>
                         <!--End single accordion box-->
@@ -1258,42 +1595,66 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What types of metal products do you offer?",
+      "name": "Do you supply stainless steel pipes in custom sizes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We supply GI pipes, SS pipes, welded and seamless pipes, stainless steel sheets, metal plates, perforated sheets, and industrial fasteners."
+        "text": "Yes. We offer custom lengths, diameters, wall thicknesses, and cutting services based on project requirements."
       }
     },
     {
       "@type": "Question",
-      "name": "What are the uses of perforated metal sheets?",
+      "name": "Do you provide Mill Test Certificates?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our perforated metal sheets are widely used for ventilation, filtration, soundproofing, and decorative applications in construction, machinery, and architecture. They can be customized with different hole patterns, sizes, and materials to suit your specific needs."
+        "text": "Yes. All applicable products can be supplied with EN 10204 3.1 Mill Test Certificates."
       }
     },
     {
       "@type": "Question",
-      "name": "Do you provide size or schedule charts?",
+      "name": "Which industries do you serve?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, we offer complete pipe size charts, nominal diameter (DN) references, and pipe schedule tables for all pipe types."
+        "text": "We supply products for oil & gas, chemical processing, power plants, marine, pharmaceutical, food processing, construction, mining, and many other industries."
       }
     },
     {
       "@type": "Question",
-      "name": "Do you offer corrosion-resistant stainless steel sheets and plates?",
+      "name": "Do you export outside India?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Our stainless steel sheets and plates are highly corrosion-resistant and deliver long-lasting performance in marine, chemical, and industrial environments. They are available in various thicknesses, grades, and finishes to match your project requirements."
+        "text": "Yes. We regularly export industrial metal products to customers across Asia, Europe, the Middle East, North America, and other international markets."
       }
     },
     {
       "@type": "Question",
-      "name": "Can I order custom-sized pipes or fittings?",
+      "name": "Can you arrange third-party inspection?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. We specialize in custom-fabricated fittings, special steel furniture, and custom SS railings according to client requirements."
+        "text": "Yes. Third-party inspection can be arranged through internationally recognized inspection agencies upon request."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can I receive a quotation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our team aims to respond to most enquiries within 30 minutes during business hours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which materials do you stock?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We stock stainless steel, duplex steel, nickel alloys, titanium, engineering steels, aluminium alloys, copper alloys, and other specialty metals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I request a quote?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can contact us through our enquiry form, email, phone, or WhatsApp. Our technical sales team will recommend the right material and provide a competitive quotation based on your specifications."
       }
     }
   ]
@@ -1312,3 +1673,4 @@
         </script>
     @endif
 @endsection
+

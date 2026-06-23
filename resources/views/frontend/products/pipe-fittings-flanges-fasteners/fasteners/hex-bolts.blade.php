@@ -37,7 +37,7 @@
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        Hex Bolts are one of the most commonly used industrial <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}" class="text-decoration-none">fasteners</a>, featuring a hexagonal head and partially or fully threaded shank. They are engineered to provide high clamping force, structural stability, and resistance to vibration in demanding environments such as:
+                        Hex Bolts are one of the most commonly used industrial <a href="{{ route('products.fasteners') }}" class="text-decoration-none">fasteners</a>, featuring a hexagonal head and partially or fully threaded shank. They are engineered to provide high clamping force, structural stability, and resistance to vibration in demanding environments such as:
                     </p>
                     <ul class="fs-6 mb-3">
                         <li>Structural steel assemblies</li>
@@ -256,7 +256,7 @@
                         <div class="application-icon"><i class="bi bi-water"></i></div>
                         <h5>Oil, Gas & Petrochemical</h5>
                         <ul>
-                            <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}" class="text-decoration-none">Flange joints</a></li>
+                            <li><a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-decoration-none">Flange joints</a></li>
                             <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none">Pressure vessels</a></li>
                             <li><a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}" class="text-decoration-none">Heat exchangers</a></li>
                         </ul>
@@ -568,3 +568,4 @@
         @endverbatim
     </script>
 @endsection
+

@@ -77,7 +77,7 @@
 
                         <p class="fs-6 mb-2">Facing types:</p>
                         <ul class="fs-6 mb-4 list-unstyled">
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> <a href="{{ route('products.pipe-fittings-flanges-fasteners.wnrf-flanges') }}" style="color: blue;">Raised Face (RF)</a> – Better sealing</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> <a href="{{ route('products.flanges.weld-neck-flanges') }}" style="color: blue;">Raised Face (RF)</a> – Better sealing</li>
                             <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> RTJ – High-pressure systems</li>
                         </ul>
 
@@ -202,7 +202,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm border-0 border-start border-4 border-primary">
                         <div class="card-body">
-                            <h4 class="card-title fw-bold text-primary"><i class="bi bi-circle-square me-2"></i><a href="{{ route('products.pipe-fittings-flanges-fasteners.wnrf-flanges') }}" style="color: blue; text-decoration: none;">RF Blind Flange (Raised Face)</a></h4>
+                            <h4 class="card-title fw-bold text-primary"><i class="bi bi-circle-square me-2"></i><a href="{{ route('products.flanges.weld-neck-flanges') }}" style="color: blue; text-decoration: none;">RF Blind Flange (Raised Face)</a></h4>
                             <p class="card-text fs-6 mt-3">Most commonly used with better sealing performance.</p>
                         </div>
                     </div>
@@ -281,7 +281,7 @@
                         <div class="application-icon"><i class="bi bi-layers"></i></div>
                         <h5>Carbon Steel</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• ASTM A105, <a href="{{ route('products.pipe-fittings-flanges-fasteners.astm-a350-lf2-flanges') }}" style="color: blue;">A350 LF2</a></li>
+                            <li>• ASTM A105, <a href="{{ route('products.flanges.astm-a350-lf2-flanges') }}" style="color: blue;">A350 LF2</a></li>
                         </ul>
                     </div>
                 </div>
@@ -729,3 +729,4 @@
         @endverbatim
     </script>
 @endsection
+

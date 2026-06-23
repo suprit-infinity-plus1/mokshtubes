@@ -560,17 +560,17 @@
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
+                'route' => 'products.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
+                'route' => 'products.flanges.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
+                'route' => 'products.fasteners',
                 'image' => 'assets/images/all-product/FASTENERS.webp',
             ],
             [
@@ -1073,3 +1073,5 @@
         @endverbatim
     </script>
 @endsection
+
+

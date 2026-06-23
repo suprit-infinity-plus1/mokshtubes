@@ -16,7 +16,7 @@
                     <!-- Short Overview -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        ASTM A193 Grade B8 Stud Bolts are high-strength <a href="{{ route('materials.austenitic-stainless-Steel') }}" class="text-white text-decoration-underline">stainless steel fasteners</a> manufactured from austenitic stainless steel (Type 304 / UNS S30400). These studs are specifically designed for high-temperature, high-pressure, and corrosive service applications such as <a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}" class="text-white text-decoration-underline">flanges</a>, <a href="{{ route('products.pipe-fittings-flanges-fasteners.pipe-fittings') }}" class="text-white text-decoration-underline">valves</a>, <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-white text-decoration-underline">pressure vessels</a>, and piping systems.<br>
+                        ASTM A193 Grade B8 Stud Bolts are high-strength <a href="{{ route('materials.austenitic-stainless-Steel') }}" class="text-white text-decoration-underline">stainless steel fasteners</a> manufactured from austenitic stainless steel (Type 304 / UNS S30400). These studs are specifically designed for high-temperature, high-pressure, and corrosive service applications such as <a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-white text-decoration-underline">flanges</a>, <a href="{{ route('products.pipe-fittings') }}" class="text-white text-decoration-underline">valves</a>, <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-white text-decoration-underline">pressure vessels</a>, and piping systems.<br>
                         At Moksh Tubes & Fittings LLP, we supply ASTM A193 B8 stud bolts with precision threading, full traceability, and EN 10204 3.1 certification for domestic and international industrial projects including oil & gas, chemical processing, marine, and power plants.
                     </p>
                 </div>
@@ -91,7 +91,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Type</td>
-                                    <td><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}" class="text-decoration-none">Stud Bolts</a> / <a href="{{ route('products.bars-rods.threaded-rods') }}" class="text-decoration-none">Threaded Rod</a></td>
+                                    <td><a href="{{ route('products.fasteners') }}" class="text-decoration-none">Stud Bolts</a> / <a href="{{ route('products.bars-rods.threaded-rods') }}" class="text-decoration-none">Threaded Rod</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Heat Treatment</td>
@@ -251,7 +251,7 @@
                         <div class="application-icon"><i class="bi bi-water"></i></div>
                         <h5>Oil & Gas Industry</h5>
                         <ul>
-                            <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}" class="text-decoration-none">Refinery flange connections</a></li>
+                            <li><a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-decoration-none">Refinery flange connections</a></li>
                             <li>Offshore bolting systems</li>
                             <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none">Pipeline joints</a></li>
                         </ul>
@@ -480,7 +480,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    It is used for corrosion-resistant bolting in <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none">pressure vessels</a>, <a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}" class="text-decoration-none">flanges</a>, and piping systems.
+                                    It is used for corrosion-resistant bolting in <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none">pressure vessels</a>, <a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-decoration-none">flanges</a>, and piping systems.
                                 </p>
                             </div>
                         </div>
@@ -519,7 +519,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}" class="text-decoration-none">ASTM A194 Grade 8 stainless steel nuts</a> are typically used.
+                                    <a href="{{ route('products.fasteners') }}" class="text-decoration-none">ASTM A194 Grade 8 stainless steel nuts</a> are typically used.
                                 </p>
                             </div>
                         </div>
@@ -592,3 +592,5 @@
           @endverbatim
     </script>
 @endsection
+
+

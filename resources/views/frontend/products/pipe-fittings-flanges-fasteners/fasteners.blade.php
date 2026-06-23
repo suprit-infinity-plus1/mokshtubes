@@ -121,7 +121,7 @@
             </div>
             <div class="row g-4">
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.astm-a193-grade-b7-stud-bolts') }}"
+                    <a href="{{ route('products.fasteners.astm-a193-grade-b7-stud-bolts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -135,7 +135,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.astm-a193-grade-b8-stud-bolts') }}"
+                    <a href="{{ route('products.fasteners.astm-a193-grade-b8-stud-bolts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -149,7 +149,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.hex-bolts') }}"
+                    <a href="{{ route('products.fasteners.hex-bolts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -163,7 +163,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.heavy-hex-nuts') }}"
+                    <a href="{{ route('products.fasteners.heavy-hex-nuts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -179,7 +179,7 @@
 
                 {{-- New Cards --}}
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.astm-a193-gr-b8m-studs') }}"
+                    <a href="{{ route('products.fasteners.astm-a193-gr-b8m-studs') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -193,7 +193,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.a286-gr-660-threaded-studs') }}"
+                    <a href="{{ route('products.fasteners.a286-gr-660-threaded-studs') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -208,7 +208,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.gr-660a-threaded-studs') }}"
+                    <a href="{{ route('products.fasteners.gr-660a-threaded-studs') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -222,7 +222,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.astm-a194-gr-7-nuts') }}"
+                    <a href="{{ route('products.fasteners.astm-a194-gr-7-nuts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -236,7 +236,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.astm-a194-gr-8-nuts') }}"
+                    <a href="{{ route('products.fasteners.astm-a194-gr-8-nuts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -250,7 +250,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.astm-a194-gr-8m-heavy-hex-nuts') }}"
+                    <a href="{{ route('products.fasteners.astm-a194-gr-8m-heavy-hex-nuts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -265,7 +265,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.gr-660a-heavy-hex-nuts') }}"
+                    <a href="{{ route('products.fasteners.gr-660a-heavy-hex-nuts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -279,7 +279,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.asme-sf-467-nuts') }}"
+                    <a href="{{ route('products.fasteners.asme-sf-467-nuts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -293,7 +293,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.full-threaded-rods') }}"
+                    <a href="{{ route('products.fasteners.threaded-rods') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -307,7 +307,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.socket-head-cap-screws') }}"
+                    <a href="{{ route('products.fasteners.socket-head-screws') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -321,7 +321,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.plain-washers') }}"
+                    <a href="{{ route('products.fasteners.washers') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -1266,3 +1266,4 @@
         @endverbatim
     </script>
 @endsection
+

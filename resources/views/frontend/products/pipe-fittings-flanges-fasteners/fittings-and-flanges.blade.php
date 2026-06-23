@@ -1736,7 +1736,7 @@
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
                                 <h4>What is a <a
-                                        href="{{ url('products/pipe-fittings-flanges-fasteners/flanges-and-gaskets') }}">flange</a>?
+                                        href="{{ url('products/flanges-and-gaskets') }}">flange</a>?
                                 </h4>
                             </div>
                             <div class="accord-content">
@@ -1888,3 +1888,4 @@
         @endverbatim
     </script>
 @endsection
+

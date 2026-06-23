@@ -185,12 +185,12 @@ $defineRoutes = function () {
     Route::get('/products/pipes-tubes/u-bent-tubes', [MainController::class, 'uBentTubes'])->name('products.pipes-tubes.u-bent-tubes');
     Route::get('/products/pipes-tubes/boiler-heat-exchanger-tubes', [MainController::class, 'boilerHeatExchangerTubes'])->name('products.pipes-tubes.boiler-heat-exchanger-tubes');
 
-    Route::get('/products/pipes-tubes/welded-pipes/SS-304-ERW-pipes', [MainController::class, 'SS304ERWPipes'])->name('products.pipes-tubes.welded-pipes.SS-304-ERW-pipes');
-    Route::get('/products/pipes-tubes/welded-pipes/SS-316-ERW-pipes', [MainController::class, 'SS316ERWPipes'])->name('products.pipes-tubes.welded-pipes.SS-316-ERW-pipes');
-    Route::get('/products/pipes-tubes/welded-pipes/ss-304-welded-pipes', [MainController::class, 'ss304WeldedPipes'])->name('products.pipes-tubes.welded-pipes.ss-304-welded-pipes');
-    Route::get('/products/pipes-tubes/welded-pipes/ss-304-semi-welded-pipes', [MainController::class, 'ss304SemiWeldedPipes'])->name('products.pipes-tubes.welded-pipes.ss-304-semi-welded-pipes');
-    Route::get('/products/pipes-tubes/welded-pipes/ss-316-welded-pipes', [MainController::class, 'ss316WeldedPipes'])->name('products.pipes-tubes.welded-pipes.ss-316-welded-pipes');
-    Route::get('/products/pipes-tubes/welded-pipes/ss-316-semi-welded-pipes', [MainController::class, 'ss316SemiWeldedPipes'])->name('products.pipes-tubes.welded-pipes.ss-316-semi-welded-pipes');
+    Route::get('/products/pipes-tubes/welded-pipes/ss304-erw-pipes', [MainController::class, 'SS304ERWPipes'])->name('products.pipes-tubes.welded-pipes.ss304-erw-pipes');
+    Route::get('/products/pipes-tubes/welded-pipes/ss316-erw-pipes', [MainController::class, 'SS316ERWPipes'])->name('products.pipes-tubes.welded-pipes.ss316-erw-pipes');
+    Route::get('/products/pipes-tubes/welded-pipes/ss304-welded-pipes', [MainController::class, 'ss304WeldedPipes'])->name('products.pipes-tubes.welded-pipes.ss304-welded-pipes');
+    Route::get('/products/pipes-tubes/welded-pipes/ss304-semi-welded-pipes', [MainController::class, 'ss304SemiWeldedPipes'])->name('products.pipes-tubes.welded-pipes.ss304-semi-welded-pipes');
+    Route::get('/products/pipes-tubes/welded-pipes/ss316-welded-pipes', [MainController::class, 'ss316WeldedPipes'])->name('products.pipes-tubes.welded-pipes.ss316-welded-pipes');
+    Route::get('/products/pipes-tubes/welded-pipes/ss316-semi-welded-pipes', [MainController::class, 'ss316SemiWeldedPipes'])->name('products.pipes-tubes.welded-pipes.ss316-semi-welded-pipes');
     Route::get('/products/pipes-tubes/welded-pipes/astm-sa106-grade-b-seamless-pipes', [MainController::class, 'astmSa106GradeBSeamlessPipes'])->name('products.pipes-tubes.welded-pipes.astm-sa106-grade-b-seamless-pipes');
     Route::get('/products/pipes-tubes/seamless-pipes/astm-a106-gr-b-seamless-pipes', [MainController::class, 'astmA106GrBSeamlessPipes'])->name('products.pipes-tubes.seamless-pipes.astm-a106-gr-b-seamless-pipes');
 
@@ -200,40 +200,57 @@ $defineRoutes = function () {
     Route::get('/products/special-fabricated/ss-railings', [MainController::class, 'ssrailings'])->name('products.special-fabricated.ss-railings');
     Route::get('/products/special-fabricated/glass-railings', [MainController::class, 'glassrailings'])->name('products.special-fabricated.glass-railings');
 
+    // Pipe Fittings, Flanges, Fasteners (Combined Landing Page)
     Route::get('/products/pipe-fittings-flanges-fasteners', [MainController::class, 'pipeFittingsFlangesFasteners'])->name('products.pipe-fittings-flanges-fasteners');
     Route::get('/products/pipe-fittings-flanges-fasteners/fittings-and-flanges', [MainController::class, 'fittingsAndFlanges'])->name('products.pipe-fittings-flanges-fasteners.fittings-and-flanges');
-    Route::get('/products/pipe-fittings-flanges-fasteners/flanges-and-gaskets', [MainController::class, 'flangesAndGaskets'])->name('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets');
-    Route::get('/products/pipe-fittings-flanges-fasteners/wnrf-flanges', [MainController::class, 'wnrfFlanges'])->name('products.pipe-fittings-flanges-fasteners.wnrf-flanges');
-    Route::get('/products/pipe-fittings-flanges-fasteners/sorf-flanges', [MainController::class, 'sorfFlanges'])->name('products.pipe-fittings-flanges-fasteners.sorf-flanges');
-    Route::get('/products/pipe-fittings-flanges-fasteners/blind-flanges', [MainController::class, 'blindFlanges'])->name('products.pipe-fittings-flanges-fasteners.blind-flanges');
-    Route::get('/products/pipe-fittings-flanges-fasteners/ljff-flanges', [MainController::class, 'ljffFlanges'])->name('products.pipe-fittings-flanges-fasteners.ljff-flanges');
-    Route::get('/products/pipe-fittings-flanges-fasteners/astm-a182-f316-flanges', [MainController::class, 'astmA182F316Flanges'])->name('products.pipe-fittings-flanges-fasteners.astm-a182-f316-flanges');
-    Route::get('/products/pipe-fittings-flanges-fasteners/astm-a350-lf2-flanges', [MainController::class, 'astmA350Lf2Flanges'])->name('products.pipe-fittings-flanges-fasteners.astm-a350-lf2-flanges');
     Route::get('/products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings', [MainController::class, 'customFabricatedFittings'])->name('products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners', [MainController::class, 'fasteners'])->name('products.pipe-fittings-flanges-fasteners.fasteners');
-    Route::get('/products/pipe-fittings-flanges-fasteners/pipe-fittings', [MainController::class, 'pipeFittings'])->name('products.pipe-fittings-flanges-fasteners.pipe-fittings');
-    Route::get('/products/pipe-fittings-flanges-fasteners/concentric-reducers', [MainController::class, 'concentricReducers'])->name('products.pipe-fittings-flanges-fasteners.concentric-reducers');
-    Route::get('/products/pipe-fittings-flanges-fasteners/eccentric-reducers', [MainController::class, 'eccentricReducers'])->name('products.pipe-fittings-flanges-fasteners.eccentric-reducers');
-    Route::get('/products/pipe-fittings-flanges-fasteners/90-degree-elbows', [MainController::class, 'ninetyDegreeElbows'])->name('products.pipe-fittings-flanges-fasteners.90-degree-elbows');
-    Route::get('/products/pipe-fittings-flanges-fasteners/45-degree-elbows', [MainController::class, 'fortyFiveDegreeElbows'])->name('products.pipe-fittings-flanges-fasteners.45-degree-elbows');
-    Route::get('/products/pipe-fittings-flanges-fasteners/weldolets', [MainController::class, 'weldolets'])->name('products.pipe-fittings-flanges-fasteners.weldolets');
-    Route::get('/products/pipe-fittings-flanges-fasteners/sockolets', [MainController::class, 'sockolets'])->name('products.pipe-fittings-flanges-fasteners.sockolets');
-    Route::get('/products/pipe-fittings-flanges-fasteners/u-bends', [MainController::class, 'uBends'])->name('products.pipe-fittings-flanges-fasteners.u-bends');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/astm-a193-grade-b7-stud-bolts', [MainController::class, 'astmA193GradeB7StudBolts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.astm-a193-grade-b7-stud-bolts');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/astm-a193-grade-b8-stud-bolts', [MainController::class, 'astmA193GradeB8StudBolts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.astm-a193-grade-b8-stud-bolts');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/hex-bolts', [MainController::class, 'hexBolts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.hex-bolts');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/heavy-hex-nuts', [MainController::class, 'heavyHexNuts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.heavy-hex-nuts');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/astm-a193-gr-b8m-studs', [MainController::class, 'astmA193GrB8mStuds'])->name('products.pipe-fittings-flanges-fasteners.fasteners.astm-a193-gr-b8m-studs');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/a286-gr-660-threaded-studs', [MainController::class, 'a286Gr660ThreadedStuds'])->name('products.pipe-fittings-flanges-fasteners.fasteners.a286-gr-660-threaded-studs');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/gr-660a-threaded-studs', [MainController::class, 'gr660aThreadedStuds'])->name('products.pipe-fittings-flanges-fasteners.fasteners.gr-660a-threaded-studs');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/astm-a194-gr-7-nuts', [MainController::class, 'astmA194Gr7Nuts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.astm-a194-gr-7-nuts');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/astm-a194-gr-8-nuts', [MainController::class, 'astmA194Gr8Nuts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.astm-a194-gr-8-nuts');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/astm-a194-gr-8m-heavy-hex-nuts', [MainController::class, 'astmA194Gr8mHeavyHexNuts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.astm-a194-gr-8m-heavy-hex-nuts');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/gr-660a-heavy-hex-nuts', [MainController::class, 'gr660aHeavyHexNuts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.gr-660a-heavy-hex-nuts');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/asme-sf-467-nuts', [MainController::class, 'asmeSf467Nuts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.asme-sf-467-nuts');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/full-threaded-rods', [MainController::class, 'fullThreadedRods'])->name('products.pipe-fittings-flanges-fasteners.fasteners.full-threaded-rods');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/socket-head-cap-screws', [MainController::class, 'socketHeadCapScrews'])->name('products.pipe-fittings-flanges-fasteners.fasteners.socket-head-cap-screws');
-    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/plain-washers', [MainController::class, 'plainWashers'])->name('products.pipe-fittings-flanges-fasteners.fasteners.plain-washers');
+    Route::get('/products/pipe-fittings', [MainController::class, 'pipeFittings'])->name('products.pipe-fittings');
+    Route::get('/products/flanges', [MainController::class, 'flanges'])->name('products.flanges');
+    Route::get('/products/fasteners', [MainController::class, 'fasteners'])->name('products.fasteners');
+
+    // Pipe Fittings
+    Route::get('/products/pipe-fittings/elbows/90-degree-elbow', [MainController::class, 'ninetyDegreeElbows'])->name('products.pipe-fittings.elbows.90-degree-elbow');
+    Route::get('/products/pipe-fittings/elbows/45-degree-elbow', [MainController::class, 'fortyFiveDegreeElbows'])->name('products.pipe-fittings.elbows.45-degree-elbow');
+    Route::get('/products/pipe-fittings/bends/90-degree-bend', [MainController::class, 'ninetyDegreeBends'])->name('products.pipe-fittings.bends.90-degree-bend');
+    Route::get('/products/pipe-fittings/bends/45-degree-bend', [MainController::class, 'fortyFiveDegreeBends'])->name('products.pipe-fittings.bends.45-degree-bend');
+    Route::get('/products/pipe-fittings/reducers/concentric', [MainController::class, 'concentricReducers'])->name('products.pipe-fittings.reducers.concentric');
+    Route::get('/products/pipe-fittings/reducers/eccentric', [MainController::class, 'eccentricReducers'])->name('products.pipe-fittings.reducers.eccentric');
+    Route::get('/products/pipe-fittings/olets/weldolet', [MainController::class, 'weldolets'])->name('products.pipe-fittings.olets.weldolet');
+    Route::get('/products/pipe-fittings/olets/sockolet', [MainController::class, 'sockolets'])->name('products.pipe-fittings.olets.sockolet');
+    Route::get('/products/pipe-fittings/u-bend', [MainController::class, 'uBends'])->name('products.pipe-fittings.u-bend');
+
+    // Flanges
+    Route::get('/products/flanges/weld-neck-flanges', [MainController::class, 'wnrfFlanges'])->name('products.flanges.weld-neck-flanges');
+    Route::get('/products/flanges/slip-on-flanges', [MainController::class, 'sorfFlanges'])->name('products.flanges.slip-on-flanges');
+    Route::get('/products/flanges/blind-flanges', [MainController::class, 'blindFlanges'])->name('products.flanges.blind-flanges');
+    Route::get('/products/flanges/lap-joint-flanges', [MainController::class, 'ljffFlanges'])->name('products.flanges.lap-joint-flanges');
+    Route::get('/products/flanges/threaded-flanges', [MainController::class, 'threadedFlanges'])->name('products.flanges.threaded-flanges');
+    Route::get('/products/flanges/socket-weld-flanges', [MainController::class, 'socketWeldFlanges'])->name('products.flanges.socket-weld-flanges');
+    Route::get('/products/flanges/spectacle-blind-flanges', [MainController::class, 'spectacleBlindFlanges'])->name('products.flanges.spectacle-blind-flanges');
+    Route::get('/products/flanges/astm-a182-f316-flanges', [MainController::class, 'astmA182F316Flanges'])->name('products.flanges.astm-a182-f316-flanges');
+    Route::get('/products/flanges/astm-a350-lf2-flanges', [MainController::class, 'astmA350Lf2Flanges'])->name('products.flanges.astm-a350-lf2-flanges');
+    Route::get('/products/flanges/flanges-and-gaskets', [MainController::class, 'flangesAndGaskets'])->name('products.flanges.flanges-and-gaskets');
+
+    // Fasteners
+    Route::get('/products/fasteners/studs', [MainController::class, 'studs'])->name('products.fasteners.studs');
+    Route::get('/products/fasteners/threaded-rods', [MainController::class, 'fullThreadedRods'])->name('products.fasteners.threaded-rods');
+    Route::get('/products/fasteners/hex-bolts', [MainController::class, 'hexBolts'])->name('products.fasteners.hex-bolts');
+    Route::get('/products/fasteners/nuts', [MainController::class, 'nuts'])->name('products.fasteners.nuts');
+    Route::get('/products/fasteners/washers', [MainController::class, 'plainWashers'])->name('products.fasteners.washers');
+    Route::get('/products/fasteners/socket-head-screws', [MainController::class, 'socketHeadCapScrews'])->name('products.fasteners.socket-head-screws');
+    Route::get('/products/fasteners/allen-bolts', [MainController::class, 'allenBolts'])->name('products.fasteners.allen-bolts');
+    // Keep existing sub-items
+    Route::get('/products/fasteners/astm-a193-grade-b7-stud-bolts', [MainController::class, 'astmA193GradeB7StudBolts'])->name('products.fasteners.astm-a193-grade-b7-stud-bolts');
+    Route::get('/products/fasteners/astm-a193-grade-b8-stud-bolts', [MainController::class, 'astmA193GradeB8StudBolts'])->name('products.fasteners.astm-a193-grade-b8-stud-bolts');
+    Route::get('/products/fasteners/heavy-hex-nuts', [MainController::class, 'heavyHexNuts'])->name('products.fasteners.heavy-hex-nuts');
+    Route::get('/products/fasteners/astm-a193-gr-b8m-studs', [MainController::class, 'astmA193GrB8mStuds'])->name('products.fasteners.astm-a193-gr-b8m-studs');
+    Route::get('/products/fasteners/a286-gr-660-threaded-studs', [MainController::class, 'a286Gr660ThreadedStuds'])->name('products.fasteners.a286-gr-660-threaded-studs');
+    Route::get('/products/fasteners/gr-660a-threaded-studs', [MainController::class, 'gr660aThreadedStuds'])->name('products.fasteners.gr-660a-threaded-studs');
+    Route::get('/products/fasteners/astm-a194-gr-7-nuts', [MainController::class, 'astmA194Gr7Nuts'])->name('products.fasteners.astm-a194-gr-7-nuts');
+    Route::get('/products/fasteners/astm-a194-gr-8-nuts', [MainController::class, 'astmA194Gr8Nuts'])->name('products.fasteners.astm-a194-gr-8-nuts');
+    Route::get('/products/fasteners/astm-a194-gr-8m-heavy-hex-nuts', [MainController::class, 'astmA194Gr8mHeavyHexNuts'])->name('products.fasteners.astm-a194-gr-8m-heavy-hex-nuts');
+    Route::get('/products/fasteners/gr-660a-heavy-hex-nuts', [MainController::class, 'gr660aHeavyHexNuts'])->name('products.fasteners.gr-660a-heavy-hex-nuts');
+    Route::get('/products/fasteners/asme-sf-467-nuts', [MainController::class, 'asmeSf467Nuts'])->name('products.fasteners.asme-sf-467-nuts');
 
     Route::get('/products/sheets-plates-coils', [MainController::class, 'sheetsPlatesCoils'])->name('products.sheets-plates-coils');
     Route::get('/products/sheets-plates-coils/chequered-sheets', [MainController::class, 'chequeredSheets'])->name('products.sheets-plates-coils.chequered-sheets');

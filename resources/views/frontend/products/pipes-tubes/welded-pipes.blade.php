@@ -230,7 +230,7 @@
 
             <div class="row g-4">
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-304-welded-pipes') }}"
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss304-welded-pipes') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -246,7 +246,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-316-welded-pipes') }}"
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss316-welded-pipes') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -262,7 +262,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-304-semi-welded-pipes') }}"
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss304-semi-welded-pipes') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -278,7 +278,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-316-semi-welded-pipes') }}"
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss316-semi-welded-pipes') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -294,7 +294,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.welded-pipes.SS-304-ERW-pipes') }}"
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss304-erw-pipes') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -311,7 +311,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.welded-pipes.SS-316-ERW-pipes') }}"
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss316-erw-pipes') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -1197,3 +1197,4 @@
         @endverbatim
     </script>
 @endsection
+

@@ -76,7 +76,7 @@
                                 href="{{ route('materials.austenitic-stainless-Steel') }}">Austenitic Stainless Steel</a>,
                             offering enhanced resistance to pitting, crevice corrosion, and aggressive chemical environments
                             compared to <a
-                                href="{{ route('products.pipes-tubes.welded-pipes.SS-304-ERW-pipes') ?? '#' }}">SS 304 ERW
+                                href="{{ route('products.pipes-tubes.welded-pipes.ss304-erw-pipes') ?? '#' }}">SS 304 ERW
                                 Pipes</a>. The presence of molybdenum makes SS 316 ideal for marine, chemical processing,
                             pharmaceutical, and oil & gas applications.
                         </p>
@@ -661,7 +661,7 @@
             <p class="text-center mt-4">
                 We also offer <a href="{{ route('materials.nickel-Based-Superalloys') ?? '#' }}">High Corrosion Resistant
                     Alloys</a> and <a
-                    href="{{ route('products.pipe-fittings-flanges-fasteners.pipe-fittings') ?? '#' }}">Pipe Fittings &
+                    href="{{ route('products.pipe-fittings') ?? '#' }}">Pipe Fittings &
                     Flanges</a> for these demanding applications.
             </p>
         </div>
@@ -1074,3 +1074,5 @@
         @endverbatim
     </script>
 @endsection
+
+

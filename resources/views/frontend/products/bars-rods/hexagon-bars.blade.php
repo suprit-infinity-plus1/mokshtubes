@@ -697,7 +697,7 @@
                         <div class="advantage-icon"><i class="bi bi-tools"></i></div>
                         <h4>Free Cutting Brass Hex Bars</h4>
                         <h5>Excellent machinability for <a
-                                href="{{ url('products/pipe-fittings-flanges-fasteners/fasteners') }}">fasteners</a></h5>
+                                href="{{ url('products/fasteners') }}">fasteners</a></h5>
                     </div>
                 </div>
 
@@ -1142,3 +1142,4 @@
         @endverbatim
     </script>
 @endsection
+

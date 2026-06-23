@@ -115,6 +115,27 @@
         </div>
     </section>
 
+    <!-- ================= WHY CHOOSE ================= -->
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Why Choose EN24 Engineering Steel?</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-justify" style="text-align: justify;">
+                    <p class="fs-6 mb-3">
+                        EN24 is a high-strength nickel chromium molybdenum alloy steel designed for applications that demand exceptional toughness, wear resistance, and fatigue strength. It is widely used in industries where components operate under heavy loads, repeated stress, and high-impact conditions.
+                    </p>
+                    <p class="fs-6 mb-3">
+                        Compared to standard carbon steels, EN24 offers superior hardenability and mechanical performance after heat treatment. Its excellent strength-to-weight ratio and long service life make it a preferred choice for manufacturing critical components such as gears, shafts, axles, crankshafts, bolts, and heavy-duty machine parts.
+                    </p>
+                    <p class="fs-6 mb-3">
+                        Whether you are manufacturing industrial equipment, mining machinery, automotive components, or aerospace parts, EN24 delivers reliable performance even in demanding operating environments.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
@@ -391,6 +412,63 @@
         </div>
     </section>
 
+    <!-- ================= EQUIVALENT GRADES ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>EN24 Equivalent Grades</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        EN24 is manufactured according to British Standards and has several internationally recognised equivalent grades. Although these materials have similar mechanical properties, the exact chemical composition may vary depending on the applicable standard.
+                    </p>
+                </div>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto mb-4">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>British Standard</td>
+                            <td>EN24 / 817M40</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AISI / SAE</td>
+                            <td>4340</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>34CrNiMo6</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>G43400</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>34CrNiMo6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <p class="fs-6 mt-2 text-center text-muted">
+                        <em>Note: Always verify the material specification before substituting equivalent grades in critical engineering applications.</em>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Mechanical Properties -->
     <section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
@@ -458,6 +536,84 @@
         </div>
     </section>
 
+    <!-- ================= KEY FEATURES ================= -->
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Key Features of EN24 Steel</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        EN24 is one of the most versatile engineering steels available for high-performance applications. Its alloy composition provides an excellent combination of strength, toughness, and durability.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4 mt-2 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>High tensile strength</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                        <h5>Excellent fatigue resistance</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                        <h5>Outstanding impact toughness</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-half"></i></div>
+                        <h5>Deep hardening capability</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                        <h5>Good wear resistance</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-gear"></i></div>
+                        <h5>Excellent machinability in the annealed condition</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-fire"></i></div>
+                        <h5>Suitable for heat treatment</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h5>Long service life under heavy loads</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                        <h5>Reliable dimensional stability</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-box-seam"></i></div>
+                        <h5>Ideal for critical engineering components</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Available Forms -->
     <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
@@ -506,48 +662,6 @@
         </div>
     </section>
 
-    <!-- International Standards -->
-    <section class="sec-padd-top sec-padd-bottom" id="international">
-        <div class="container">
-            <div class="section-title center">
-                <h2>International Standards & Equivalent Grades of EN24 Steel</h2>
-            </div>
-
-            <div class="table-responsive col-lg-8 mx-auto">
-                <table class="table table-bordered table-striped align-middle">
-                    <thead class="table-dark text-center">
-                        <tr class="t-row">
-                            <th>Standard</th>
-                            <th>Equivalent Grade</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-center">
-                        <tr class="t-row">
-                            <td>EN</td>
-                            <td>EN 24</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>AISI / SAE</td>
-                            <td>817M40 / 4340</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>DIN</td>
-                            <td>42CrMo4</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>JIS</td>
-                            <td>SCM440</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>GB</td>
-                            <td>40CrMo</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
 
 
     @php
@@ -585,17 +699,17 @@
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
+                'route' => 'products.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
+                'route' => 'products.flanges.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
+                'route' => 'products.fasteners',
                 'image' => 'assets/images/all-product/FASTENERS.webp',
             ],
             [
@@ -661,50 +775,6 @@
                 @endforeach
             </div>
         </div>
-    </section>
-
-
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses and Advantages of EN24 Steel</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>High tensile strength and excellent toughness</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Good wear resistance and fatigue strength</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Responds well to quenching and tempering</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Maintains strength and stability under impact loads</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Superior machinability in the hardened and tempered condition</h5>
-                    </div>
-                </div>
-            </div>
     </section>
 
 
@@ -776,6 +846,176 @@
         </div>
     </section>
 
+    <!-- ================= ADVANTAGES ================= -->
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Advantages of EN24 Steel</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        EN24 is widely selected for demanding engineering projects because it provides exceptional mechanical performance and long-term reliability.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4 mt-2 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Excellent strength-to-weight ratio</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                        <h5>Superior fatigue resistance</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                        <h5>Outstanding toughness</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-gear"></i></div>
+                        <h5>Excellent wear resistance</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-half"></i></div>
+                        <h5>Deep hardening capability</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                        <h5>High impact strength</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h5>Good machinability before heat treatment</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h5>Long service life</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-building"></i></div>
+                        <h5>Suitable for heavy-duty engineering</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-arrow-repeat"></i></div>
+                        <h5>Performs well under cyclic loading</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= LIMITATIONS ================= -->
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Limitations of EN24 Steel</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        Although EN24 offers excellent mechanical performance, it may not be the ideal choice for every application.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <ul class="list-unstyled">
+                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Higher cost than medium carbon steels</span></li>
+                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Requires controlled heat treatment</span></li>
+                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">More difficult to weld than low-carbon steels</span></li>
+                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Protective coating is recommended in corrosive environments</span></li>
+                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Machining becomes more difficult after hardening</span></li>
+                    </ul>
+                    <p class="fs-6 mt-4 fw-bold text-center" style="color: #174268;">
+                        Selecting the correct material should always be based on operating conditions, mechanical requirements, and budget.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= INDUSTRIES ================= -->
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Why Industries Choose EN24 Steel</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        EN24 is trusted across a wide range of industries because it combines high strength with exceptional toughness and fatigue resistance. It performs reliably in applications where components are subjected to continuous loading, vibration, and impact.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Aerospace
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Automotive
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Defence
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Mining
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Oil & Gas
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Heavy Engineering
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Power Generation
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Marine
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Construction Equipment
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Industrial Machinery
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <p class="fs-6 mt-2 text-center fw-bold" style="color: #174268;">
+                        Its ability to maintain mechanical properties under demanding conditions makes EN24 one of the most widely used alloy steels for critical engineering applications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
@@ -854,17 +1094,11 @@
                         <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What is EN24 steel and why is it also known as 817M40 or AISI 4340?</h4>
+                                <h4>What is EN24 steel used for?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    EN24, also referred to as 817M40 or AISI 4340, is a high-strength alloy engineering
-                                    steel well known for its excellent toughness, wear resistance, and fatigue strength.
-                                    It contains chromium, molybdenum, and nickel, which give it superior hardenability and
-                                    mechanical properties.
-                                    With its high tensile strength, good ductility, and ability to withstand heavy loads,
-                                    EN24 is widely used in demanding industrial applications where both strength and
-                                    durability are critical.
+                                    EN24 steel is a high-strength alloy used for critical engineering components that operate under heavy loads, such as gears, shafts, axles, crankshafts, bolts, and heavy-duty machine parts in the aerospace, automotive, and mining industries.
                                 </p>
                             </div>
                         </div>
@@ -872,17 +1106,11 @@
                         <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are the chemical and mechanical properties of EN24 steel?</h4>
+                                <h4>Is EN24 equivalent to AISI 4340?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    The chemical composition of EN24 includes 0.36–0.44% carbon, 0.90–1.40% chromium,
-                                    0.20–0.35% molybdenum, 1.30–1.80% nickel, 0.45–0.70% manganese, and 0.10–0.35% silicon,
-                                    with low levels of phosphorus and sulfur.
-                                    It provides tensile strength in the range of 85–130 ksi (586–896 MPa), yield strength
-                                    between 50–110 ksi (345–758 MPa), and elongation of 12–25%.
-                                    The steel also has a Brinell hardness between 150–270 depending on condition and
-                                    responds well to quenching and tempering, making it suitable for high performance parts.
+                                    Yes, EN24 is generally considered the British Standard equivalent to AISI/SAE 4340. Both are nickel-chromium-molybdenum alloy steels offering similar high tensile strength, toughness, and deep hardenability.
                                 </p>
                             </div>
                         </div>
@@ -890,17 +1118,11 @@
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What EN24 steel products are offered by MOKSH TUBES & FITTINGS LLP?</h4>
+                                <h4>What is the tensile strength of EN24 steel?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    MOKSH TUBES & FITTINGS LLP supplies a wide range of EN24 products such as round bars,
-                                    bright bars, hex bars, flat bars, shafts, forgings, hollow bars, seamless and welded
-                                    pipes, tubes, flanges, fittings, fasteners, sheets, plates, coils, strips, and
-                                    custom-fabricated components.
-                                    These products are produced to international standards and can be delivered in annealed,
-                                    hot finished, cold drawn, or quenched and tempered conditions, ensuring precise
-                                    performance for industrial applications.
+                                    The tensile strength of EN24 steel ranges from 850 to 1000 MPa (123 to 145 ksi) in the hardened and tempered condition, depending on the specific heat treatment and ruling section.
                                 </p>
                             </div>
                         </div>
@@ -908,20 +1130,11 @@
                         <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are the common applications of EN24 steel?</h4>
+                                <h4>Can EN24 be heat treated?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    EN24 steel is widely used in industries such as automotive, aerospace, defense, power
-                                    generation, construction, mining, oil and gas, and general engineering.
-                                    In automotive and transport, it is used for gear shafts, pinions, drive shafts, and
-                                    transmission parts.
-                                    In aerospace and defense, it is applied in landing gear, actuators, fasteners, and
-                                    structural fittings.
-                                    For power generation, it is used in turbine shafts and couplings, while in oil and gas,
-                                    it is used for pump shafts, tool joints, and downhole components.
-                                    Its toughness also makes it suitable for mining equipment, hydraulic rams, and heavy
-                                    engineering machinery.
+                                    Yes, EN24 responds excellently to heat treatment. It can be annealed, normalized, hardened by oil quenching, and tempered to achieve the desired balance of strength, hardness (up to 52 HRC), and toughness.
                                 </p>
                             </div>
                         </div>
@@ -929,19 +1142,71 @@
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for EN24 steel products?</h4>
+                                <h4>Is EN24 suitable for gears and shafts?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, exporter, and stockist of EN24
-                                    steel products, offering in-house heat treatment, forging, CNC machining, and custom
-                                    processing to meet client specific requirements.
-                                    With strict dimensional accuracy, ISO-certified quality control, quick delivery, and a
-                                    strong global supply network, the company ensures consistent performance and
-                                    reliability.
-                                    Customers also benefit from custom sizing, special finishes, and expert metallurgical
-                                    support, making MOKSH TUBES & FITTINGS LLP a preferred partner for high quality EN24
-                                    steel solutions.
+                                    Absolutely. Due to its outstanding fatigue resistance, high strength-to-weight ratio, and excellent wear resistance, EN24 is a preferred material for heavily stressed gears, drive shafts, and pinions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q6 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Is EN24 stronger than EN19?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes, EN24 is generally stronger and tougher than EN19 due to the addition of nickel, which provides deeper hardenability and higher impact resistance, making it better suited for larger cross-sections and higher stress applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q7 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Can EN24 be welded?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN24 can be welded, but it is considered difficult due to its high carbon and alloy content. Special precautions, including preheating and post-weld stress relieving, are strictly required to avoid cracking.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q8 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries use EN24 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN24 steel is widely used across multiple industries, including aerospace, automotive, defense, oil and gas, marine, power generation, mining, construction, and general heavy engineering.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q9 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the advantages of EN24 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Key advantages include an excellent strength-to-weight ratio, superior fatigue and wear resistance, deep hardening capability, high impact strength, and good machinability prior to final heat treatment.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q10 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Where can I buy EN24 steel in India?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    You can purchase premium-quality EN24 steel in various forms, including round bars, bright bars, forged bars, and plates, from Moksh Tubes & Fittings LLP, a leading supplier offering competitive pricing and nationwide delivery.
                                 </p>
                             </div>
                         </div>
@@ -1010,6 +1275,61 @@
     </section>
     {{-- blog section end --}}
 
+    <!-- ================= SUPPLIER ================= -->
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Looking for EN24 Engineering Steel Supplier?</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-justify mb-3" style="text-align: justify;">
+                        Choosing a reliable supplier is just as important as selecting the right material. At <strong>Moksh Tubes & Fittings LLP</strong>, we supply premium-quality EN24 engineering steel in a wide range of sizes and specifications for customers across India and international markets.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-5 mb-4 mb-md-0">
+                    <h4 class="mb-3" style="color: #db7227;">We Supply</h4>
+                    <ul class="list-unstyled fs-6">
+                        <li class="mb-2"><i class="bi bi-chevron-right text-primary me-2"></i>EN24 Round Bars</li>
+                        <li class="mb-2"><i class="bi bi-chevron-right text-primary me-2"></i>EN24 Bright Bars</li>
+                        <li class="mb-2"><i class="bi bi-chevron-right text-primary me-2"></i>EN24 Black Bars</li>
+                        <li class="mb-2"><i class="bi bi-chevron-right text-primary me-2"></i>EN24 Forged Bars</li>
+                        <li class="mb-2"><i class="bi bi-chevron-right text-primary me-2"></i>EN24 Plates</li>
+                        <li class="mb-2"><i class="bi bi-chevron-right text-primary me-2"></i>EN24 Blocks</li>
+                        <li class="mb-2"><i class="bi bi-chevron-right text-primary me-2"></i>Custom Cut Sizes</li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <h4 class="mb-3" style="color: #db7227;">Why Choose Moksh Tubes?</h4>
+                    <ul class="list-unstyled fs-6">
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Mill Test Certificates (EN 10204 3.1)</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Third-Party Inspection</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Custom Cutting Services</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Ready Stock</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Competitive Pricing</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Fast Delivery Across India</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Export Quality Packaging</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Worldwide Shipping</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Technical Material Selection Support</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10">
+                    <p class="fs-6 mb-4">
+                        Whether you need material for prototype development or large-scale industrial production, our experienced team can help you select the right EN24 steel for your application.
+                    </p>
+                    <a href="javascript:void(0);" class="btn btn-lg text-white px-5 py-3 fw-bold" style="background-color: #db7227; border-radius: 8px;" data-bs-toggle="modal" data-bs-target="#contactFormModal">
+                        👉 Request a Quote Today
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -1042,42 +1362,82 @@
             "mainEntity": [
                 {
                 "@type": "Question",
-                "name": "What is EN24 steel and why is it also known as 817M40 or AISI 4340?",
+                "name": "What is EN24 steel used for?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "EN24, also known as 817M40 or AISI 4340, is a high-strength alloy engineering steel recognized for its toughness, wear resistance, and fatigue strength. It contains chromium, molybdenum, and nickel, which enhance its hardenability and mechanical performance. With excellent tensile strength, ductility, and load-bearing capacity, EN24 is ideal for demanding industrial applications requiring strength and durability."
+                    "text": "EN24 steel is a high-strength alloy used for critical engineering components that operate under heavy loads, such as gears, shafts, axles, crankshafts, bolts, and heavy-duty machine parts in the aerospace, automotive, and mining industries."
                 }
                 },
                 {
                 "@type": "Question",
-                "name": "What are the chemical and mechanical properties of EN24 steel?",
+                "name": "Is EN24 equivalent to AISI 4340?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "EN24 steel has 0.36–0.44% carbon, 0.90–1.40% chromium, 0.20–0.35% molybdenum, 1.30–1.80% nickel, 0.45–0.70% manganese, and 0.10–0.35% silicon, with low phosphorus and sulfur. It offers tensile strength between 85–130 ksi, yield strength of 50–110 ksi, elongation of 12–25%, and Brinell hardness of 150–270 depending on condition. It performs well under quenching and tempering for high-performance parts."
+                    "text": "Yes, EN24 is generally considered the British Standard equivalent to AISI/SAE 4340. Both are nickel-chromium-molybdenum alloy steels offering similar high tensile strength, toughness, and deep hardenability."
                 }
                 },
                 {
                 "@type": "Question",
-                "name": "What EN24 steel products are offered by MOKSH TUBES & FITTINGS LLP?",
+                "name": "What is the tensile strength of EN24 steel?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "MOKSH TUBES & FITTINGS LLP supplies EN24 round bars, bright bars, hex bars, flat bars, shafts, forgings, hollow bars, seamless and welded pipes, tubes, flanges, fittings, fasteners, sheets, plates, coils, strips, and custom components. All products meet international standards and are available in annealed, hot finished, cold drawn, or quenched and tempered conditions."
+                    "text": "The tensile strength of EN24 steel ranges from 850 to 1000 MPa (123 to 145 ksi) in the hardened and tempered condition, depending on the specific heat treatment and ruling section."
                 }
                 },
                 {
                 "@type": "Question",
-                "name": "What are the common applications of EN24 steel?",
+                "name": "Can EN24 be heat treated?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "EN24 steel is used in automotive, aerospace, defense, power generation, mining, oil and gas, and construction industries. Applications include gear shafts, pinions, drive shafts, transmission parts, landing gear, actuators, turbine shafts, pump shafts, tool joints, and heavy machinery components."
+                    "text": "Yes, EN24 responds excellently to heat treatment. It can be annealed, normalized, hardened by oil quenching, and tempered to achieve the desired balance of strength, hardness (up to 52 HRC), and toughness."
                 }
                 },
                 {
                 "@type": "Question",
-                "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN24 steel products?",
+                "name": "Is EN24 suitable for gears and shafts?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "MOKSH TUBES & FITTINGS LLP is a reliable manufacturer, exporter, and stockist of EN24 steel products, offering in-house heat treatment, forging, CNC machining, and custom processing. With ISO-certified quality control, accurate dimensions, and fast delivery, the company ensures consistent performance and provides expert metallurgical support with custom sizes and finishes."
+                    "text": "Absolutely. Due to its outstanding fatigue resistance, high strength-to-weight ratio, and excellent wear resistance, EN24 is a preferred material for heavily stressed gears, drive shafts, and pinions."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is EN24 stronger than EN19?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, EN24 is generally stronger and tougher than EN19 due to the addition of nickel, which provides deeper hardenability and higher impact resistance, making it better suited for larger cross-sections and higher stress applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Can EN24 be welded?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "EN24 can be welded, but it is considered difficult due to its high carbon and alloy content. Special precautions, including preheating and post-weld stress relieving, are strictly required to avoid cracking."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which industries use EN24 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "EN24 steel is widely used across multiple industries, including aerospace, automotive, defense, oil and gas, marine, power generation, mining, construction, and general heavy engineering."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the advantages of EN24 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Key advantages include an excellent strength-to-weight ratio, superior fatigue and wear resistance, deep hardening capability, high impact strength, and good machinability prior to final heat treatment."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Where can I buy EN24 steel in India?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can purchase premium-quality EN24 steel in various forms, including round bars, bright bars, forged bars, and plates, from Moksh Tubes & Fittings LLP, a leading supplier offering competitive pricing and nationwide delivery."
                 }
                 }
             ]
@@ -1086,3 +1446,5 @@
         @endverbatim
     </script>
 @endsection
+
+

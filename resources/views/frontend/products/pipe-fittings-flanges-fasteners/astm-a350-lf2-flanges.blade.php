@@ -155,7 +155,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Type</strong></td>
-                                    <td><a href="{{ route('products.pipe-fittings-flanges-fasteners.wnrf-flanges') }}" style="color: blue; text-decoration: none;">WN</a>, SORF, <a href="{{ route('products.pipe-fittings-flanges-fasteners.blind-flanges') }}" style="color: blue; text-decoration: none;">Blind</a>, Socket Weld, Threaded, <a href="{{ route('products.pipe-fittings-flanges-fasteners.ljff-flanges') }}" style="color: blue; text-decoration: none;">Lap Joint</a></td>
+                                    <td><a href="{{ route('products.flanges.weld-neck-flanges') }}" style="color: blue; text-decoration: none;">WN</a>, SORF, <a href="{{ route('products.flanges.blind-flanges') }}" style="color: blue; text-decoration: none;">Blind</a>, Socket Weld, Threaded, <a href="{{ route('products.flanges.lap-joint-flanges') }}" style="color: blue; text-decoration: none;">Lap Joint</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Sizes</strong></td>
@@ -196,7 +196,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm border-0 border-start border-4 border-primary">
                         <div class="card-body">
-                            <h4 class="card-title fw-bold text-primary"><i class="bi bi-circle-square me-2"></i><a href="{{ route('products.pipe-fittings-flanges-fasteners.wnrf-flanges') }}" style="color: #0d6efd; text-decoration: none;">Weld Neck Flanges (WN)</a></h4>
+                            <h4 class="card-title fw-bold text-primary"><i class="bi bi-circle-square me-2"></i><a href="{{ route('products.flanges.weld-neck-flanges') }}" style="color: #0d6efd; text-decoration: none;">Weld Neck Flanges (WN)</a></h4>
                             <p class="card-text fs-6 mt-3">Used in high-pressure and low-temperature pipelines.</p>
                         </div>
                     </div>
@@ -212,7 +212,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm border-0 border-start border-4 border-success">
                         <div class="card-body">
-                            <h4 class="card-title fw-bold text-success"><i class="bi bi-record-circle me-2"></i><a href="{{ route('products.pipe-fittings-flanges-fasteners.blind-flanges') }}" style="color: #198754; text-decoration: none;">Blind Flanges</a></h4>
+                            <h4 class="card-title fw-bold text-success"><i class="bi bi-record-circle me-2"></i><a href="{{ route('products.flanges.blind-flanges') }}" style="color: #198754; text-decoration: none;">Blind Flanges</a></h4>
                             <p class="card-text fs-6 mt-3">Used for pipeline closure and isolation.</p>
                         </div>
                     </div>
@@ -236,7 +236,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm border-0 border-start border-4 border-secondary">
                         <div class="card-body">
-                            <h4 class="card-title fw-bold text-secondary"><i class="bi bi-disc me-2"></i><a href="{{ route('products.pipe-fittings-flanges-fasteners.ljff-flanges') }}" style="color: #6c757d; text-decoration: none;">Lap Joint Flanges</a></h4>
+                            <h4 class="card-title fw-bold text-secondary"><i class="bi bi-disc me-2"></i><a href="{{ route('products.flanges.lap-joint-flanges') }}" style="color: #6c757d; text-decoration: none;">Lap Joint Flanges</a></h4>
                             <p class="card-text fs-6 mt-3">Used with stub ends for flexibility.</p>
                         </div>
                     </div>
@@ -763,3 +763,4 @@
         @endverbatim
     </script>
 @endsection
+

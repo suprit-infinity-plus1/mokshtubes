@@ -68,7 +68,7 @@
                             <strong class="text-black">Slip-On Raised Face (SORF) flanges</strong> are designed for easy installation and cost efficiency, making them ideal for general piping applications.
                         </p>
 
-                        <p class="fs-6 mb-2">Unlike <a href="{{ route('products.pipe-fittings-flanges-fasteners.wnrf-flanges') }}" style="color: blue;">weld neck flanges</a>:</p>
+                        <p class="fs-6 mb-2">Unlike <a href="{{ route('products.flanges.weld-neck-flanges') }}" style="color: blue;">weld neck flanges</a>:</p>
                         <ul class="fs-6 mb-3 list-unstyled">
                             <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> <a href="{{ route('products.pipes-tubes') }}" style="color: blue;">Pipe</a> is inserted into the flange</li>
                             <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Welding is done on both sides</li>
@@ -113,7 +113,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card" style="min-height: 120px;">
                         <div class="advantage-icon"><i class="bi bi-tag-fill"></i></div>
-                        <h5>Cost-effective compared to <a href="{{ route('products.pipe-fittings-flanges-fasteners.wnrf-flanges') }}" style="color: blue; text-decoration: none;">WN flanges</a></h5>
+                        <h5>Cost-effective compared to <a href="{{ route('products.flanges.weld-neck-flanges') }}" style="color: blue; text-decoration: none;">WN flanges</a></h5>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
@@ -274,7 +274,7 @@
                         <div class="application-icon"><i class="bi bi-layers"></i></div>
                         <h5>Carbon Steel</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• ASTM A105, <a href="{{ route('products.pipe-fittings-flanges-fasteners.astm-a350-lf2-flanges') }}" style="color: blue;">A350 LF2</a></li>
+                            <li>• ASTM A105, <a href="{{ route('products.flanges.astm-a350-lf2-flanges') }}" style="color: blue;">A350 LF2</a></li>
                         </ul>
                     </div>
                 </div>
@@ -479,7 +479,7 @@
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
                                 class="bi bi-check-circle-fill text-primary me-2"></i> Easy installation reduces labor cost</li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Lower cost than <a href="{{ route('products.pipe-fittings-flanges-fasteners.wnrf-flanges') }}" style="color: blue; text-decoration: none;">weld neck flanges</a></li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Lower cost than <a href="{{ route('products.flanges.weld-neck-flanges') }}" style="color: blue; text-decoration: none;">weld neck flanges</a></li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
                                 class="bi bi-check-circle-fill text-primary me-2"></i> Suitable for standard piping systems</li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
@@ -714,3 +714,4 @@
         @endverbatim
     </script>
 @endsection
+

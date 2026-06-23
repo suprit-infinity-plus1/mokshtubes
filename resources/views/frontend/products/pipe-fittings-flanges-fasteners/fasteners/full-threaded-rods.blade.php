@@ -38,7 +38,7 @@
                             </ul>
                         </div>
                         <div class="d-flex flex-wrap gap-3 justify-content-center">
-                            <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}" class="btn" style="background:#174268; color:#fff; padding:12px 28px; border-radius:8px; font-weight:600; text-decoration:none;">← Back to Fasteners</a>
+                            <a href="{{ route('products.fasteners') }}" class="btn" style="background:#174268; color:#fff; padding:12px 28px; border-radius:8px; font-weight:600; text-decoration:none;">← Back to Fasteners</a>
                             <a href="{{ route('contact-us') }}" class="btn" style="background:#db7227; color:#fff; padding:12px 28px; border-radius:8px; font-weight:600; text-decoration:none;">Contact Us for Enquiry</a>
                         </div>
                     </div>
@@ -48,3 +48,4 @@
     </section>
 
 @endsection
+

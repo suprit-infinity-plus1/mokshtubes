@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium Alloy HE30 | Hardened Aluminium Alloy')
+@section('title', 'Aluminium Alloy HE30 (AA6082) | Properties, Composition, Applications & Supplier in India')
 
-@section('meta_description',
-    'Aluminium HE30 – hardened alloy offering excellent strength, corrosion resistance, and
-    durability for heavy-duty structural and industrial applications.')
+@section('meta_description', 'Explore Aluminium Alloy HE30 (AA6082) properties, chemical composition, mechanical properties, heat treatment, applications, equivalent grades, sizes, and datasheet. Moksh Tubes supplies HE30 aluminium in bars, sheets, plates, tubes, and custom sizes worldwide.')
 
 @section('meta_keywords',
     'Aluminium Alloy HE30, Hardened Aluminium Alloy, Aluminium HE30 Pipes, Aluminium HE30 Tubes,
@@ -52,6 +50,32 @@
 
 
     <!--End breadcrumb area-->
+
+    <!-- ================= WHY CHOOSE ================= -->
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Why Choose Aluminium Alloy HE30?</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-justify" style="text-align: justify;">
+                    <p class="fs-6 mb-3">
+                        <strong>Aluminium Alloy HE30 (AA6082)</strong> is one of the most widely used heat-treatable aluminium alloys for structural and engineering applications. It is valued for its excellent combination of strength, corrosion resistance, weldability, and machinability, making it suitable for a wide range of industrial sectors.
+                    </p>
+                    <p class="fs-6 mb-3">
+                        Compared with many conventional aluminium grades, HE30 provides higher mechanical strength while remaining lightweight. This makes it an excellent choice for components that need to withstand heavy loads without increasing overall weight.
+                    </p>
+                    <p class="fs-6 mb-3">
+                        The alloy performs exceptionally well in structural frameworks, transportation equipment, machinery, bridges, offshore platforms, and engineering components where durability and long service life are essential.
+                    </p>
+                    <p class="fs-6">
+                        Whether you require aluminium HE30 sheets, plates, bars, rods, pipes, tubes, or custom-machined components, this alloy delivers dependable performance across demanding industrial applications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -410,6 +434,90 @@
         </div>
     </section>
 
+    <!-- ================= HE30 VS OTHERS ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="comparison">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Aluminium HE30 vs Other Popular Aluminium Alloys</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        Selecting the correct aluminium alloy depends on the strength, corrosion resistance, weldability, and machining requirements of your application. While Aluminium HE30 is one of the most versatile structural alloys, other grades may be better suited for specific operating conditions.
+                    </p>
+                </div>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto mb-4">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Property</th>
+                            <th>HE30 (6082)</th>
+                            <th>6061</th>
+                            <th>7075</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td class="fw-bold">Strength</td>
+                            <td>Excellent</td>
+                            <td>Very Good</td>
+                            <td>Outstanding</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td class="fw-bold">Corrosion Resistance</td>
+                            <td>Excellent</td>
+                            <td>Excellent</td>
+                            <td>Good</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td class="fw-bold">Weldability</td>
+                            <td>Excellent</td>
+                            <td>Excellent</td>
+                            <td>Fair</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td class="fw-bold">Machinability</td>
+                            <td>Very Good</td>
+                            <td>Very Good</td>
+                            <td>Good</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td class="fw-bold">Structural Applications</td>
+                            <td>Excellent</td>
+                            <td>Excellent</td>
+                            <td>Moderate</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td class="fw-bold">Aerospace</td>
+                            <td>Good</td>
+                            <td>Good</td>
+                            <td>Excellent</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td class="fw-bold">Cost</td>
+                            <td>Moderate</td>
+                            <td>Moderate</td>
+                            <td>Premium</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h4 class="mb-3" style="color: #db7227;">Which Aluminium Alloy Should You Choose?</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Choose HE30 (6082)</strong> when your project requires high strength, excellent corrosion resistance, and reliable weldability for structural applications.</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Choose 6061</strong> for general engineering, fabrication, and lightweight structural work.</li>
+                        <li><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Choose 7075</strong> where maximum strength is required, particularly in aerospace and high-performance engineering.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- ================= AVAILABLE FORMS ================= -->
     <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
@@ -531,17 +639,17 @@
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
+                'route' => 'products.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
+                'route' => 'products.flanges.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
+                'route' => 'products.fasteners',
                 'image' => 'assets/images/all-product/FASTENERS.webp',
             ],
             [
@@ -709,6 +817,197 @@
             </div>
     </section>
 
+    <!-- ================= ADVANTAGES ================= -->
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Advantages of Aluminium HE30</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        Aluminium HE30 has become one of the preferred engineering alloys because it offers an excellent balance between mechanical performance and ease of fabrication.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4 mt-2 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Excellent strength-to-weight ratio</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                        <h5>Outstanding corrosion resistance</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-fire"></i></div>
+                        <h5>Excellent weldability</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-gear"></i></div>
+                        <h5>Good machinability</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-half"></i></div>
+                        <h5>Heat treatable for higher strength</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                        <h5>Good fatigue resistance</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-building"></i></div>
+                        <h5>Suitable for structural applications</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-feather"></i></div>
+                        <h5>Lightweight compared to steel</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-stars"></i></div>
+                        <h5>Excellent surface finish</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h5>Long service life</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h5>Easy to fabricate</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-box-seam"></i></div>
+                        <h5>Available in multiple product forms</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= LIMITATIONS ================= -->
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Limitations of Aluminium HE30</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        Although Aluminium HE30 performs well in many industrial environments, it is important to understand its limitations before selecting it for critical applications.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <ul class="list-unstyled">
+                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Lower strength than aerospace-grade 7075 aluminium</span></li>
+                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Not recommended for extremely acidic environments</span></li>
+                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Mechanical properties reduce at elevated temperatures</span></li>
+                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Surface protection may be required in highly corrosive environments</span></li>
+                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Lower wear resistance than hardened engineering steels</span></li>
+                    </ul>
+                    <p class="fs-6 mt-4 fw-bold text-center" style="color: #174268;">
+                        Choosing the right alloy should always be based on the operating environment, mechanical loading, fabrication method, and service conditions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= INDUSTRIES ================= -->
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Industries That Use Aluminium HE30</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        Thanks to its combination of strength, corrosion resistance, and excellent machinability, Aluminium HE30 is widely used across multiple industries.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Aerospace
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Defence
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Automotive
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Railway
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Marine
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Construction
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Oil & Gas
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Heavy Engineering
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Power Generation
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Chemical Processing
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Food Processing
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Packaging Equipment
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Material Handling Equipment
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <p class="fs-6 mt-2 text-center fw-bold" style="color: #174268;">
+                        Its versatility makes it one of the most widely specified aluminium alloys for structural engineering projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
@@ -774,6 +1073,66 @@
         </div>
     </section>
 
+
+    <!-- ================= SUPPLIER ================= -->
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Looking for Aluminium HE30 Supplier?</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-justify mb-3" style="text-align: justify;">
+                        Choosing the right supplier is just as important as selecting the right material. At <strong>Moksh Tubes & Fittings LLP</strong>, we supply premium-quality Aluminium Alloy HE30 in a wide range of forms and sizes to meet the requirements of engineering, construction, marine, transportation, and industrial applications.
+                    </p>
+                    <p class="fs-6 text-justify" style="text-align: justify;">
+                        Our products are manufactured in accordance with international quality standards and are supplied with complete material traceability to ensure reliable performance.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-5 mb-4 mb-md-0">
+                    <h4 class="mb-3" style="color: #db7227;">We Supply</h4>
+                    <ul class="list-unstyled fs-6">
+                        <li class="mb-2"><i class="bi bi-chevron-right text-primary me-2"></i>Aluminium HE30 Sheets</li>
+                        <li class="mb-2"><i class="bi bi-chevron-right text-primary me-2"></i>Aluminium HE30 Plates</li>
+                        <li class="mb-2"><i class="bi bi-chevron-right text-primary me-2"></i>Aluminium HE30 Bars</li>
+                        <li class="mb-2"><i class="bi bi-chevron-right text-primary me-2"></i>Aluminium HE30 Rods</li>
+                        <li class="mb-2"><i class="bi bi-chevron-right text-primary me-2"></i>Aluminium HE30 Pipes</li>
+                        <li class="mb-2"><i class="bi bi-chevron-right text-primary me-2"></i>Aluminium HE30 Tubes</li>
+                        <li class="mb-2"><i class="bi bi-chevron-right text-primary me-2"></i>Aluminium HE30 Extrusions</li>
+                        <li class="mb-2"><i class="bi bi-chevron-right text-primary me-2"></i>Custom Machined Components</li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <h4 class="mb-3" style="color: #db7227;">Why Choose Moksh Tubes?</h4>
+                    <ul class="list-unstyled fs-6">
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Mill Test Certificates (EN 10204 3.1)</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Third-Party Inspection Available</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Custom Cutting Services</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Competitive Pricing</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Ready Stock</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Fast Delivery</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Export Quality Packaging</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Worldwide Shipping</li>
+                        <li class="mb-2"><i class="bi bi-check2-square text-success me-2"></i>Technical Material Selection Support</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10">
+                    <p class="fs-6 mb-4">
+                        Whether you require a small quantity for a prototype or bulk material for industrial production, our experienced team is ready to help you select the right aluminium solution for your project.
+                    </p>
+                    <a href="javascript:void(0);" class="btn btn-lg text-white px-5 py-3 fw-bold" style="background-color: #db7227; border-radius: 8px;" data-bs-toggle="modal" data-bs-target="#contactFormModal">
+                        👉 Request a Quote Today
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--Start faq content area-->
     <section id="faq" class="faq-content-area sec-padd2">
@@ -1014,3 +1373,5 @@
 @endverbatim
 </script>
 @endsection
+
+

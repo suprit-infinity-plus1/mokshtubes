@@ -45,7 +45,7 @@
                     </p>
                     <p class="fs-6 mb-3 text-justify">
                         Our <strong class="text-black"><a
-                                href="{{ route('products.pipes-tubes.welded-pipes.ss-316-welded-pipes') }}"
+                                href="{{ route('products.pipes-tubes.welded-pipes.ss316-welded-pipes') }}"
                                 class="text-black text-decoration-none">SS 316 welded pipes</a></strong> are manufactured in
                         accordance with:
                     </p>
@@ -290,7 +290,7 @@
                 <div class="col-md-6">
                     <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-gear"></i></div>
-                        <h4><a href="{{ route('products.pipes-tubes.welded-pipes.SS-316-ERW-pipes') }}"
+                        <h4><a href="{{ route('products.pipes-tubes.welded-pipes.ss316-erw-pipes') }}"
                                 class="text-black text-decoration-none">ERW (Electric Resistance Welded)</a></h4>
                         <ol class="text-start fs-6 ms-4 mt-3">
                             <li>Stainless steel coil is slit to required width</li>
@@ -628,7 +628,7 @@
                                 <p>
                                     SS 316 contains molybdenum, which improves resistance to chloride corrosion and marine
                                     exposure. (Compare with <a
-                                        href="{{ route('products.pipes-tubes.welded-pipes.ss-304-welded-pipes') }}">SS 304
+                                        href="{{ route('products.pipes-tubes.welded-pipes.ss304-welded-pipes') }}">SS 304
                                         Welded Pipes</a>).
                                 </p>
                             </div>
@@ -750,3 +750,4 @@
         @endverbatim
     </script>
 @endsection
+

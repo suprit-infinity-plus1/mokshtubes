@@ -16,7 +16,7 @@
                     <!-- Short Overview -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        ASTM A193 Grade B7 Stud Bolts are high-strength <a href="{{ route('materials.engineering-Steels') }}" class="text-white text-decoration-underline">alloy steel</a> <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}" class="text-white text-decoration-underline">fasteners</a> designed for high-pressure and high-temperature applications. Manufactured from chromium-molybdenum alloy steel and heat-treated for superior mechanical strength, B7 studs are widely used in <a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}" class="text-white text-decoration-underline">flanges</a>, <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-white text-decoration-underline">pressure vessels</a>, <a href="{{ route('products.pipe-fittings-flanges-fasteners.pipe-fittings') }}" class="text-white text-decoration-underline">valves</a>, and oil & gas equipment.<br>
+                        ASTM A193 Grade B7 Stud Bolts are high-strength <a href="{{ route('materials.engineering-Steels') }}" class="text-white text-decoration-underline">alloy steel</a> <a href="{{ route('products.fasteners') }}" class="text-white text-decoration-underline">fasteners</a> designed for high-pressure and high-temperature applications. Manufactured from chromium-molybdenum alloy steel and heat-treated for superior mechanical strength, B7 studs are widely used in <a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-white text-decoration-underline">flanges</a>, <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-white text-decoration-underline">pressure vessels</a>, <a href="{{ route('products.pipe-fittings') }}" class="text-white text-decoration-underline">valves</a>, and oil & gas equipment.<br>
                         At Moksh Tubes & Fittings LLP, we supply premium-quality ASTM A193 B7 stud bolts with complete traceability and EN 10204 3.1 certification for domestic and export industrial projects.
                     </p>
                 </div>
@@ -86,7 +86,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Type</td>
-                                    <td><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}" class="text-decoration-none">Stud Bolts</a> / <a href="{{ route('products.bars-rods.threaded-rods') }}" class="text-decoration-none">Threaded Rod</a></td>
+                                    <td><a href="{{ route('products.fasteners') }}" class="text-decoration-none">Stud Bolts</a> / <a href="{{ route('products.bars-rods.threaded-rods') }}" class="text-decoration-none">Threaded Rod</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Diameter Range</td>
@@ -194,7 +194,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <p class="fs-6 text-center mt-2">These properties make B7 studs ideal for high-pressure <a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}" class="text-decoration-none">flange</a> connections.</p>
+                    <p class="fs-6 text-center mt-2">These properties make B7 studs ideal for high-pressure <a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-decoration-none">flange</a> connections.</p>
                 </div>
             </div>
         </div>
@@ -257,7 +257,7 @@
                         <div class="application-icon"><i class="bi bi-water"></i></div>
                         <h5>Oil & Gas Industry</h5>
                         <ul>
-                            <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}" class="text-decoration-none">Flange bolting</a></li>
+                            <li><a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-decoration-none">Flange bolting</a></li>
                             <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none">Pipeline connections</a></li>
                             <li><a href="{{ route('products.special-fabricated') }}" class="text-decoration-none">Refinery equipment</a></li>
                         </ul>
@@ -291,7 +291,7 @@
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Industrial Equipment</h5>
                         <ul>
-                            <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.pipe-fittings') }}" class="text-decoration-none">Valves & pumps</a></li>
+                            <li><a href="{{ route('products.pipe-fittings') }}" class="text-decoration-none">Valves & pumps</a></li>
                             <li><a href="{{ route('products.bars-rods') }}" class="text-decoration-none">Heavy machinery</a></li>
                         </ul>
                     </div>
@@ -351,7 +351,7 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-nut"></i></div>
                         <h4>Compatibility</h4>
-                        <h5>Compatible with <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}" class="text-decoration-none">ASTM A194 Grade 2H nuts</a></h5>
+                        <h5>Compatible with <a href="{{ route('products.fasteners') }}" class="text-decoration-none">ASTM A194 Grade 2H nuts</a></h5>
                     </div>
                 </div>
             </div>
@@ -518,7 +518,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    It is used for high-pressure and high-temperature bolting applications in <a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}">flanges</a>, valves, and pressure vessels.
+                                    It is used for high-pressure and high-temperature bolting applications in <a href="{{ route('products.flanges.flanges-and-gaskets') }}">flanges</a>, valves, and pressure vessels.
                                 </p>
                             </div>
                         </div>
@@ -630,3 +630,5 @@
           @endverbatim
     </script>
 @endsection
+
+
