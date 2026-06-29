@@ -481,10 +481,19 @@
                                                         <li><a href="{{ route('products.pipes-tubes.u-bent-tubes') }}">U-Bend Tubes</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a class="dropdown-item text-wrap"
-                                                        href="{{ route('products.sheets-plates-coils') }}">
-                                                        Sheets, Plates & Coils
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.sheets-plates-coils') }}">
+                                                        Sheets, Plates & Coils <i class="fa fa-angle-right"></i>
                                                     </a>
+                                                    <ul>
+                                                        <li><a href="{{ route('products.sheets-plates-coils.chequered-sheets') }}">Chequered Sheets</a></li>
+                                                        <li><a href="{{ route('products.sheets-plates-coils.strips') }}">Strips</a></li>
+                                                        <li><a href="{{ route('products.sheets-plates-coils.shim-sheets') }}">Shim Sheets</a></li>
+                                                        <li><a href="{{ route('products.sheets-plates-coils.sheets-and-plates') }}">Sheets & Plates</a></li>
+                                                        <li><a href="{{ route('products.sheets-plates-coils.perforated-sheets') }}">Perforated Sheets</a></li>
+                                                        <li><a href="{{ route('products.sheets-plates-coils.coils') }}">Coils</a></li>
+                                                        <li><a href="{{ route('products.sheets-plates-coils.cladded-plates') }}">Cladded Plates</a></li>
+                                                    </ul>
                                                 </li>
                                                 <li class="dropdown">
                                                     <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.pipe-fittings') }}">
@@ -532,10 +541,18 @@
                                                         <li><a href="{{ route('products.flanges.spectacle-blind-flanges') }}">Spectacle Blind Flanges</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a class="dropdown-item text-wrap"
-                                                        href="{{ route('products.bars-rods') }}">
-                                                        Bars & Rods
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.bars-rods') }}">
+                                                        Bars & Rods <i class="fa fa-angle-right"></i>
                                                     </a>
+                                                    <ul>
+                                                        <li><a href="{{ route('products.bars-rods.square-bars') }}">Square Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.threaded-rods') }}">Threaded Rods</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.round-bars') }}">Round Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.hollow-bars') }}">Hollow Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.hexagon-bars') }}">Hexagon Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.flat-bars') }}">Flat Bars</a></li>
+                                                    </ul>
                                                 </li>
                                                 <li class="dropdown">
                                                     <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.fasteners') }}">
@@ -551,10 +568,16 @@
                                                         <li><a href="{{ route('products.fasteners.allen-bolts') }}">Allen Bolts</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a class="dropdown-item text-wrap"
-                                                        href="{{ route('products.special-fabricated') }}">
-                                                        Special Fabricated
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.special-fabricated') }}">
+                                                        Special Fabricated <i class="fa fa-angle-right"></i>
                                                     </a>
+                                                    <ul>
+                                                        <li><a href="{{ route('products.special-fabricated.custom-steel-furniture') }}">Custom Steel Furniture</a></li>
+                                                        <li><a href="{{ route('products.special-fabricated.fabricated-ss-grills') }}">Fabricated SS Grills</a></li>
+                                                        <li><a href="{{ route('products.special-fabricated.ss-railings') }}">SS Railings</a></li>
+                                                        <li><a href="{{ route('products.special-fabricated.glass-railings') }}">Glass Railings</a></li>
+                                                    </ul>
                                                 </li>
 
                                             </ul>
@@ -704,8 +727,33 @@
                                                         <li><a href="{{ route('products.pipes-tubes.u-bent-tubes') }}">U-Bend Tubes</a></li>
                                                     </ul>
                                                 </li>
-                                                {{-- <li><a href="#">SHEETS, PLATES & COILS</a></li> --}}
-                                                <li><a href="#">BARS & RODS</a></li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.sheets-plates-coils') }}">
+                                                        Sheets, Plates & Coils <i class="fa fa-angle-right"></i>
+                                                    </a>
+                                                    <ul>
+                                                        <li><a href="{{ route('products.sheets-plates-coils.chequered-sheets') }}">Chequered Sheets</a></li>
+                                                        <li><a href="{{ route('products.sheets-plates-coils.strips') }}">Strips</a></li>
+                                                        <li><a href="{{ route('products.sheets-plates-coils.shim-sheets') }}">Shim Sheets</a></li>
+                                                        <li><a href="{{ route('products.sheets-plates-coils.sheets-and-plates') }}">Sheets & Plates</a></li>
+                                                        <li><a href="{{ route('products.sheets-plates-coils.perforated-sheets') }}">Perforated Sheets</a></li>
+                                                        <li><a href="{{ route('products.sheets-plates-coils.coils') }}">Coils</a></li>
+                                                        <li><a href="{{ route('products.sheets-plates-coils.cladded-plates') }}">Cladded Plates</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.bars-rods') }}">
+                                                        Bars & Rods <i class="fa fa-angle-right"></i>
+                                                    </a>
+                                                    <ul>
+                                                        <li><a href="{{ route('products.bars-rods.square-bars') }}">Square Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.threaded-rods') }}">Threaded Rods</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.round-bars') }}">Round Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.hollow-bars') }}">Hollow Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.hexagon-bars') }}">Hexagon Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.flat-bars') }}">Flat Bars</a></li>
+                                                    </ul>
+                                                </li>
                                                 <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">PIPE
                                                         FITTINGS, FLANGES & FASTENERS</a></li>
                                                         <li class="dropdown">
@@ -768,8 +816,17 @@
                                                         <li><a href="{{ route('products.fasteners.allen-bolts') }}">Allen Bolts</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="{{ route('products.special-fabricated') }}">SPECIAL
-                                                        FABRICATED PRODUCTS</a></li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.special-fabricated') }}">
+                                                        Special Fabricated <i class="fa fa-angle-right"></i>
+                                                    </a>
+                                                    <ul>
+                                                        <li><a href="{{ route('products.special-fabricated.custom-steel-furniture') }}">Custom Steel Furniture</a></li>
+                                                        <li><a href="{{ route('products.special-fabricated.fabricated-ss-grills') }}">Fabricated SS Grills</a></li>
+                                                        <li><a href="{{ route('products.special-fabricated.ss-railings') }}">SS Railings</a></li>
+                                                        <li><a href="{{ route('products.special-fabricated.glass-railings') }}">Glass Railings</a></li>
+                                                    </ul>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li class="dropdown"><a href="{{ route('materials') }}">Materials</a>

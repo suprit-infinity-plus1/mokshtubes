@@ -1380,7 +1380,7 @@ class MainController extends Controller
 
     public function flanges()
     {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.flanges');
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fittings-and-flanges');
     }
 
     public function threadedFlanges()
