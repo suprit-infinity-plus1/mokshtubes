@@ -5,12 +5,12 @@
     'Premium Sockolets (Socket Weld Olets) for high-pressure 90-degree branch connections. Available in 3000# and 6000# ratings in Stainless, Carbon, and Alloy Steel.')
 @section('meta_keywords',
     'Sockolet, Socket Weld Olet, Branch Connection, MSS-SP-97, 3000# Sockolet, Stainless Steel Sockolet, Carbon Steel Sockolet')
-@section('og_image', asset('assets/images/product/flangs/FITTINGS.webp'))
+@section('og_image', asset('assets/images/product/flangs/sockolets_11zon.jpg'))
 @section('og_type', 'product')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/FITTINGS.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/sockolets_11zon.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -51,7 +51,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('/assets/images/product/flangs/FITTINGS.webp') }}"
+                    <img src="{{ asset('/assets/images/product/flangs/sockolets_11zon.jpg') }}"
                         alt="Forged Sockolets" class="img-fluid rounded shadow-sm" width="550"
                         height="350" loading="lazy">
                 </div>
@@ -472,7 +472,244 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
+    <section id="industries" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Industries We Serve</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="application-card text-center">
+                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+                        <h5>Power Plants</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="application-card text-center">
+                        <div class="application-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h5>Petrochemical</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="application-card text-center">
+                        <div class="application-icon"><i class="ri-ship-2-fill"></i></div>
+                        <h5>Marine</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="application-card text-center">
+                        <div class="application-icon"><i class="ri-test-bend-fill"></i></div>
+                        <h5>Chemical</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="application-card text-center">
+                        <div class="application-icon"><i class="bi bi-water"></i></div>
+                        <h5>Desalination</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="application-card text-center">
+                        <div class="application-icon"><i class="bi bi-snow"></i></div>
+                        <h5>HVAC</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Buying Guide Section (Styled for Your UI) -->
+    <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Buying Guide:</h2>
+                <h4 style="color: #db7227;">How to Select the Right Sockolet</h4>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-md-12">
+                    <div class="application-card">
+                        {{--    <div class="application-icon center"><i class="bi bi-brightness-high-fill"></i><h5>3. Material Selection Guide</h5></div> --}}
+                        <div class="application-icon center d-flex align-items-center gap-4 justify-content-center">
+                            <i class="bi bi-brightness-high-fill"></i>
+                            <h5 class="m-0">Material Selection Guide</h5>
+                        </div>
+
+
+
+                        <div class="table-responsive mt-3">
+                            <table class="table table-bordered">
+                                <thead class="table-light">
+                                    <tr class="t-row">
+                                        <th>Material</th>
+                                        <th>Ideal For</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="t-row">
+                                        <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless
+                                                Steel</a></td>
+                                        <td>Steam, hygienic systems</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex / Super
+                                                Duplex</a></td>
+                                        <td>Seawater, chlorides</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td><a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a>
+                                        </td>
+                                        <td>Acids, extreme corrosion</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Carbon Steel</td>
+                                        <td>High-pressure sockolets</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Card 1 -->
+                <!-- Card 1 -->
+
+                <!-- Card 1 -->
+
+
+
+            </div>
+        </div>
+    </section>
+
+    {{-- Uses of Welded Pipes and Sockolets --}}
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Uses of Sockolets</h2>
+            </div>
+            <!-- Child Title -->
+            <div class="section-title center mb-3">
+                <h4 class="text-center mb-0" style="color: #db7227;">Sockolets are used extensively
+                    across multiple
+                    industries, including:</h4>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>Efficient Heat Transfer</h4>
+                        <h5>Ensures efficient heat transfer in industrial systems</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h4>Extreme Condition Performance</h4>
+                        <h5>Handles extreme temperature and pressure conditions</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h4>Corrosion Resistance</h4>
+                        <h5>Provides corrosion resistance in aggressive environments</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h4>Energy Efficiency Support</h4>
+                        <h5>Supports energy efficiency in power plants and process industries</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                        <h4>Multi-Media Compatibility</h4>
+                        <h5>Suitable for steam, gas, liquid, and chemical transport in heat systems</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                        <h4>Operational Reliability</h4>
+                        <h5>Delivers long term reliability and consistent performance in demanding applications</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- Advantages of Welded Pipes & Sockolets --}}
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Advantages </h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>High Temperature Strength</h4>
+                        <h5>Maintains integrity in boilers and superheaters.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h4>Precision Manufacturing</h4>
+                        <h5>Tight dimensional tolerances for critical applications.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h4>Corrosion & Oxidation Resistance</h4>
+                        <h5>Suitable for marine and chemical exposure.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h4>Versatile Material Selection</h4>
+                        <h5>Stainless, alloy, carbon, copper <a
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> & titanium options.
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                        <h4>Global Standards Compliance</h4>
+                        <h5>Manufactured to ASTM, ASME, DIN, EN requirements.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            
+    
+<section id="manufacturing" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-3 mt-4">
                 <h2 class="fw-bold" style="color: #174268;">Manufacturing Process</h2>
@@ -564,7 +801,108 @@
         </div>
     </section>
 
-    {{-- why choose us --}}
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+             <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Buying Guide – Sockolets</h2>
+                <p>Before selecting boiler or heat exchanger sockolets, consider the following factors:</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="list-group">
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Applicable standard (ASTM A179 / A192 / A213)</li>
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Operating temperature and pressure</li>
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Required material (carbon, alloy, stainless, Cu-Ni, titanium)</li>
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Seamless or welded construction</li>
+                    </ul>
+                </div>
+                 <div class="col-lg-6">
+                    <ul class="list-group">
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Schedule and wall thickness</li>
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Heat treatment and surface finish</li>
+                         <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Required testing and certification</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="mt-3 text-center fw-bold">For GCC and export projects, ensure EN 10204 3.1 certification, proper marking, and export-grade packaging.</p>
+        </div>
+    </section>
+
+     <section id="export" class="sec-padd-top sec-padd-bottom">
+        <div class="container text-center">
+             <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>
+            </div>
+            <p class="fs-5">We supply Sockolets across major Indian industrial locations including Mumbai, Chennai, Ahmedabad, Pune, and Hyderabad, with efficient logistics support for domestic power and process industry projects.</p>
+            <p class="fs-5">We also regularly export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait, supplying sockolets for power plants, refineries, desalination units, and EPC contractors.</p>
+        </div>
+    </section>
+
+     <!-- Testing & Quality Control for Sockolets -->
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Testing & Quality Control for Sockolets</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-fill"></i></div>
+                        <h4>Hydrostatic Test</h4>
+                        <h5>Hydrostatic test for pressure integrity verification.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                        <h4>Eddy Current Test</h4>
+                        <h5>Eddy current testing for detecting surface-level defects.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                        <h4>PMI Test</h4>
+                        <h5>PMI testing to verify material grade and composition.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                        <h4>Hardness Test</h4>
+                        <h5>Hardness testing for strength and durability confirmation.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
+                        <h4>Flattening & Flaring Test</h4>
+                        <h5>Flattening and flaring to assess ductility and deformation.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-broadcast-pin"></i></div>
+                        <h4>Ultrasonic Test (UT)</h4>
+                        <h5>Ultrasonic testing for internal and volumetric defects.</h5>
+                    </div>
+                </div>
+
+            </div>
+
+    </section>
+
+
+
+    
+{{-- why choose us --}}
     <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
@@ -723,7 +1061,7 @@
               "@type": "Product",
               "@id": "https://mokshtubes.com/#sockolet",
               "name": "Sockolet (Socket Weld Olet)",
-              "image": "https://mokshtubes.com/assets/images/product/flangs/FITTINGS.webp",
+              "image": "https://mokshtubes.com/assets/images/product/flangs/sockolets_11zon.jpg",
               "category": "Forged Fittings",
               "description": "High-pressure forged Sockolets (MSS-SP-97, 3000#, 6000#) for small-bore branching. Available in Carbon Steel (A105N) and Stainless Steel.",
               "brand": {

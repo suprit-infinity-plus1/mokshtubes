@@ -1,22 +1,22 @@
 @extends('layouts.master')
-@section('title', 'Full Threaded Rods | Studs, Tie Rods, All-Thread | Moksh Tubes')
+@section('title', '90 Degree Bends | Pipe Bends 3D, 5D, 7D | Moksh Tubes')
 <!-- 52 characters -->
 @section('meta_description',
-    'High-quality Full Threaded Rods for smooth flow direction changes. Available in 3D, 5D, and custom radius in Carbon, Alloy, Stainless Steel & Nickel Alloys.')
+    'High-quality 90 Degree Pipe Bends for smooth flow direction changes. Available in 3D, 5D, and custom radius in Carbon, Alloy, Stainless Steel & Nickel Alloys.')
 @section('meta_keywords',
-    'Full Threaded Rods, Threaded Rods, 3D Rods, 5D Rods, Custom Threaded Rods, Stainless Steel Rods, Carbon Steel Rods')
-@section('og_image', asset('assets/images/product/flangs/FASTENERS.webp'))
+    '90 Degree Bends, Pipe Bends, 3D Bends, 5D Bends, Hot Induction Bends, Stainless Steel Bends, Carbon Steel Bends')
+@section('og_image', asset('assets/images/product/flangs/90-degree-elbows_11zon.jpeg'))
 @section('og_type', 'product')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/FASTENERS.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/90-degree-elbows_11zon.jpeg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1 class="page-title">Full Threaded Rods (B7, B8, B8M, L7, Custom Sizes)</h1>
+                    <h1 class="page-title">90 Degree Bends (3D, 5D, 7D, Custom Radius)</h1>
                         <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Full Threaded Rods are critical components used to provide continuous threaded fastening solutions across the entire length, offering superior grip and adjustable mounting in structural, electrical, and piping applications. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we manufacture and supply premium high-strength and precision-threaded 90-degree rods in various thread profiles (Metric, UNC, UNF). Our products are available in carbon steel, alloy steel, stainless steel, duplex, and exotic alloys, fully compliant with ASME B18.31.3 and international standards.
+                        90 Degree Pipe Bends are critical components used to alter the direction of a piping system by 90 degrees with a larger sweeping radius than standard elbows, significantly minimizing pressure drop, friction, and turbulence. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we manufacture and supply premium hot induction and cold-formed 90-degree bends in 3D, 5D, and custom radii. Our products are available in carbon steel, alloy steel, stainless steel, duplex, and exotic alloys, fully compliant with ASME B16.9 and international standards.
                     </p>
                 </div>
             </div>
@@ -44,31 +44,31 @@
     <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Full Threaded Rods</h2>
+                <h2 class="fw-bold" style="color: #174268;">90 Degree Pipe Bends</h2>
             </div>
 
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('/assets/images/product/flangs/FASTENERS.webp') }}"
-                        alt="Full Threaded Rods" class="img-fluid rounded shadow-sm" width="550"
+                    <img src="{{ asset('/assets/images/product/flangs/90-degree-elbows_11zon.jpeg') }}"
+                        alt="90 Degree Pipe Bends" class="img-fluid rounded shadow-sm" width="550"
                         height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Full Threaded Rods</strong> are engineered to provide a continuous threading from end to end, which allows nuts and washers to be screwed on from either direction. They are highly versatile and widely used in construction, plumbing, and mechanical engineering for tensioning, aligning, and mounting heavy components.
+                        <strong class="text-black">90 Degree Pipe Bends</strong> are engineered to provide a smooth, gradual right-angle change in fluid direction, reducing the risk of clogging and lowering pumping costs. Unlike standard elbows which have a tight radius (1D or 1.5D), pipe bends offer larger sweep radii such as 3D, 5D, 7D, or custom dimensions, making them ideal for high-velocity flows, abrasive media, and slurry transport.
                     </p>
 
                     <p class="fs-6 mb-3 text-justify">
                         <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a> is a leading manufacturer,
-                        supplier, and exporter of Full Threaded Rods in India. We utilize advanced thread rolling technology to produce high-integrity rods ensuring high tensile strength and fatigue resistance. Our rods are heavily utilized in <a href="{{ route('materials.austenitic-stainless-Steel') }}">Indian refineries</a> and
+                        supplier, and exporter of 90 Degree Bends in India. We utilize advanced hot induction bending technology to produce high-integrity bends without compromising wall thickness or material properties. Our bends are heavily utilized in <a href="{{ route('materials.austenitic-stainless-Steel') }}">Indian refineries</a> and
                         major Gulf / GCC nations including UAE, Saudi Arabia, Qatar, Oman, and Kuwait.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        Available in seamless and welded forms, our rods are subjected to rigorous non-destructive testing, including ultrasonic and radiographic examinations, to ensure flawless performance in extreme temperature and high-pressure environments.
+                        Available in seamless and welded forms, our bends are subjected to rigorous non-destructive testing, including ultrasonic and radiographic examinations, to ensure flawless performance in extreme temperature and high-pressure environments.
                     </p>
                 </div>
             </div>
@@ -78,9 +78,9 @@
     {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Full Threaded Rods Datasheet</h3>
+            <h3 class="mb-3" style="color:#174268;">Download 90 Degree Bends Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with dimensional specifications, roding radii, material properties, and manufacturing tolerances.
+                Get the complete datasheet with dimensional specifications, bending radii, material properties, and manufacturing tolerances.
                 Enter your email below to receive the PDF instantly.
             </p>
 
@@ -88,7 +88,7 @@
             <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
                 <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="full-threaded-rods.pdf">
+                    <input type="hidden" name="pdf" value="90-degree-bends.pdf">
                     <div class="col-md-6 mb-2">
                         <input type="email" name="email" required="" class="form-control p-3"
                             placeholder="Enter your email address">
@@ -133,32 +133,32 @@
                                     </td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Diameter</td>
-                                    <td>M6 to M100 / 1/4" to 4"</td>
+                                    <td>Outer Diameter (OD)</td>
+                                    <td>1/2" NB to 48" NB (Seamless & Welded)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Thread Pitch</td>
-                                    <td>Coarse (UNC), Fine (UNF), Metric (Standard & Fine)</td>
+                                    <td>Wall Thickness (Schedule)</td>
+                                    <td>Sch 10, 20, 30, 40, STD, 80, XS, 160, XXS (Up to 100mm thickness)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Length</td>
-                                    <td>1 Meter, 2 Meters, 3 Meters, 10 ft, 12 ft, Custom Cut Lengths</td>
+                                    <td>Bending Radius</td>
+                                    <td>3D, 5D, 7D, 10D, and Custom Radii (R = 3xOD, 5xOD, etc.)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Thread Type</td>
-                                    <td>Fully Threaded, Double Ended, Tap End</td>
+                                    <td>Bending Angle</td>
+                                    <td>90 Degree</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manufacturing Standards</td>
-                                    <td>ASME B18.31.3, DIN 975, DIN 976, ASTM A193, ASTM A320</td>
+                                    <td>Dimensional Standards</td>
+                                    <td>ASME B16.9, MSS-SP-75, EN 10253, DIN 2605</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Thread Direction</td>
-                                    <td>Right-Hand Threads, Left-Hand Threads</td>
+                                    <td>End Connection</td>
+                                    <td>Beveled Ends (ASME B16.25), Plain Ends, Flanged Ends</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Manufacturing Process</td>
-                                    <td>Thread Rolling, Machining, Forging</td>
+                                    <td>Hot Induction Bending, Cold Bending, Seamless/Welded Pipe Base</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -178,7 +178,7 @@
             <!-- Child Title -->
             <div class="section-title center mb-3">
                 <h3 class="text-center mb-0" style="color: #db7227;">Size Range Chart</h3>
-                <h4 class="text-center mb-0" style="color: #db7227;">Full Threaded Rods Weight Chart</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">90 Degree Bends Weight Chart</h4>
             </div>
             <!-- Schedule 10C -->
             <div class="section-title center mb-3 mt-4">
@@ -1055,13 +1055,13 @@
     <section id="types" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Standard vs High-Strength Full Threaded Rods – Key Differences</h2>
+                <h2 class="fw-bold" style="color: #174268;">Seamless vs Welded 90 Degree Bends – Key Differences</h2>
             </div>
             
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                      <p class="fs-6 mb-3 text-justify">
-                        full threaded rods are supplied in both seamless and welded constructions depending on operating pressure, temperature, and project criticality.
+                        90 degree bends are supplied in both seamless and welded constructions depending on operating pressure, temperature, and project criticality.
                     </p>
 
                     <div class="table-responsive ">
@@ -1069,8 +1069,8 @@
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Parameter</th>
-                                    <th>Standard Threaded Rods</th>
-                                    <th>Welded Rods (ERW / EFW)</th>
+                                    <th>Seamless Bends</th>
+                                    <th>Welded Bends (ERW / EFW)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
@@ -1114,7 +1114,7 @@
                     </div>
 
                     <p class="fs-6 mt-3 text-justify">
-                        Seamless full threaded rods are preferred for high-pressure and high-temperature zones, while welded rods are widely used in heat exchangers, condensers, and economizers where cost efficiency and dimensional precision are important.
+                        Seamless 90 degree bends are preferred for high-pressure and high-temperature zones, while welded bends are widely used in heat exchangers, condensers, and economizers where cost efficiency and dimensional precision are important.
                     </p>
                 </div>
             </div>
@@ -1174,7 +1174,7 @@
                 <h2>Available Grades & Materials</h2>
             </div>
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Full Threaded Rods are offered in a wide
+                <h4 class="text-center mb-0" style="color: #db7227;">90 Degree Bends are offered in a wide
                     range of materials and grades:</h4>
             </div>
 
@@ -1241,7 +1241,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy rods for heat exchangers" loading="lazy" width="400"
+                                    alt="Nickel alloy bends for heat exchangers" loading="lazy" width="400"
                                     height="260">
                             </a>
                         </figure>
@@ -1255,7 +1255,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="Stainless steel boiler and condenser rods" loading="lazy" width="400"
+                                    alt="Stainless steel boiler and condenser bends" loading="lazy" width="400"
                                     height="260">
                             </a>
                         </figure>
@@ -1269,7 +1269,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex rods for seawater service" loading="lazy"
+                                    alt="Duplex and super duplex bends for seawater service" loading="lazy"
                                     width="400" height="260">
                             </a>
                         </figure>
@@ -1284,7 +1284,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.titanium') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="Titanium heat exchanger and condenser rods" loading="lazy" width="400"
+                                    alt="Titanium heat exchanger and condenser bends" loading="lazy" width="400"
                                     height="260">
                             </a>
                         </figure>
@@ -1298,7 +1298,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy rods for high-temperature service" loading="lazy"
+                                    alt="Haynes superalloy bends for high-temperature service" loading="lazy"
                                     width="400" height="260">
                             </a>
                         </figure>
@@ -1312,7 +1312,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.inconel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Inconel alloy rods for corrosion-resistant applications" loading="lazy"
+                                    alt="Inconel alloy bends for corrosion-resistant applications" loading="lazy"
                                     width="400" height="260">
                             </a>
                         </figure>
@@ -1333,9 +1333,9 @@
     <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Full Threaded Rods</h2>
+                <h2>Applications of 90 Degree Bends</h2>
                 <p class="text-center pb-3">
-                    <strong class="text-black">Full Threaded Rods </strong> are crucial for industries where
+                    <strong class="text-black">90 Degree Bends </strong> are crucial for industries where
                     efficient heat transfer and mechanical strength are required:
                 </p>
             </div>
@@ -1348,8 +1348,8 @@
                         </div>
                         <h5>Power Generation</h5>
                         <ul>
-                            <li>Superheater & reheater rods</li>
-                            <li>Boiler rods for thermal, gas & nuclear plants</li>
+                            <li>Superheater & reheater bends</li>
+                            <li>Boiler bends for thermal, gas & nuclear plants</li>
                         </ul>
                     </div>
                 </div>
@@ -1391,7 +1391,7 @@
                         <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
                         <h5>Food & Dairy</h5>
                         <ul>
-                            <li>Hygienic stainless-steel heat exchanger rods</li>
+                            <li>Hygienic stainless-steel heat exchanger bends</li>
                         </ul>
                     </div>
                 </div>
@@ -1443,7 +1443,7 @@
 
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="application-card text-center">
-                        <div class="application-icon"><i class="ri-test-rod-fill"></i></div>
+                        <div class="application-icon"><i class="ri-test-bend-fill"></i></div>
                         <h5>Chemical</h5>
                     </div>
                 </div>
@@ -1472,7 +1472,7 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Buying Guide:</h2>
-                <h4 style="color: #db7227;">How to Select the Right Full Threaded Rod</h4>
+                <h4 style="color: #db7227;">How to Select the Right 90 Degree Bend</h4>
             </div>
 
             <div class="row g-4 mt-4">
@@ -1512,7 +1512,7 @@
                                     </tr>
                                     <tr class="t-row">
                                         <td>Carbon Steel</td>
-                                        <td>High-pressure full threaded rods</td>
+                                        <td>High-pressure 90 degree bends</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1531,15 +1531,15 @@
         </div>
     </section>
 
-    {{-- Uses of Welded Pipes and Rods --}}
+    {{-- Uses of Welded Pipes and Bends --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Uses of Full Threaded Rods</h2>
+                <h2>Uses of 90 Degree Bends</h2>
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Full Threaded Rods are used extensively
+                <h4 class="text-center mb-0" style="color: #db7227;">90 Degree Bends are used extensively
                     across multiple
                     industries, including:</h4>
             </div>
@@ -1594,7 +1594,7 @@
             </div>
         </div>
     </section>
-    {{-- Advantages of Welded Pipes & Rods --}}
+    {{-- Advantages of Welded Pipes & Bends --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -1651,16 +1651,16 @@
     <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process of Full Threaded Rods</h2>
-                <p class="text-justify">full threaded rods are manufactured using controlled processes to ensure strength, reliability, and long service life.</p>
+                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process of 90 Degree Bends</h2>
+                <p class="text-justify">90 degree bends are manufactured using controlled processes to ensure strength, reliability, and long service life.</p>
             </div>
 
             <div class="table-responsive mt-3">
                 <table class="table table-bordered table-striped text-center align-middle">
                     <thead class="table-dark">
                         <tr class="t-row">
-                            <th class="fw-bold" >Standard Threaded Rods Manufacturing</th>
-                            <th class="fw-bold" >Welded Rods Manufacturing (ERW / EFW)</th>
+                            <th class="fw-bold" >Seamless Bends Manufacturing</th>
+                            <th class="fw-bold" >Welded Bends Manufacturing (ERW / EFW)</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -1669,7 +1669,7 @@
                             <td>Steel strip or plate is formed into tubular shape</td>
                         </tr>
                         <tr class="t-row">
-                            <td>Rods are hot-rolled or cold-drawn to required size</td>
+                            <td>Bends are hot-rolled or cold-drawn to required size</td>
                             <td>Longitudinal seam welded using ERW or EFW process</td>
                         </tr>
                         <tr class="t-row">
@@ -1694,7 +1694,7 @@
     <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
              <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties – Full Threaded Rods</h2>
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties – 90 Degree Bends</h2>
                  <p class="text-center">(Typical values as per ASTM standards)</p>
             </div>
 
@@ -1737,8 +1737,8 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Dimensional Tolerances – Full Threaded Rods</h2>
-                <p>full threaded rods are manufactured in accordance with ASTM dimensional tolerances:</p>
+                <h2 class="fw-bold" style="color: #174268;">Dimensional Tolerances – 90 Degree Bends</h2>
+                <p>90 degree bends are manufactured in accordance with ASTM dimensional tolerances:</p>
             </div>
             
             <div class="row justify-content-center">
@@ -1758,8 +1758,8 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
              <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Buying Guide – Full Threaded Rods</h2>
-                <p>Before selecting boiler or heat exchanger rods, consider the following factors:</p>
+                <h2 class="fw-bold" style="color: #174268;">Buying Guide – 90 Degree Bends</h2>
+                <p>Before selecting boiler or heat exchanger bends, consider the following factors:</p>
             </div>
             <div class="row">
                 <div class="col-lg-6">
@@ -1787,16 +1787,16 @@
              <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>
             </div>
-            <p class="fs-5">We supply Full Threaded Rods across major Indian industrial locations including Mumbai, Chennai, Ahmedabad, Pune, and Hyderabad, with efficient logistics support for domestic power and process industry projects.</p>
-            <p class="fs-5">We also regularly export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait, supplying rods for power plants, refineries, desalination units, and EPC contractors.</p>
+            <p class="fs-5">We supply 90 Degree Bends across major Indian industrial locations including Mumbai, Chennai, Ahmedabad, Pune, and Hyderabad, with efficient logistics support for domestic power and process industry projects.</p>
+            <p class="fs-5">We also regularly export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait, supplying bends for power plants, refineries, desalination units, and EPC contractors.</p>
         </div>
     </section>
 
-     <!-- Testing & Quality Control for Full Threaded Rods -->
+     <!-- Testing & Quality Control for 90 Degree Bends -->
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Testing & Quality Control for Full Threaded Rods</h2>
+                <h2>Testing & Quality Control for 90 Degree Bends</h2>
             </div>
 
             <div class="row g-4 mt-4">
@@ -1859,7 +1859,7 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
-                <h2>Why Choose Moksh Tubes & Fittings?</h2>
+                <h2>Why Choose Moksh Bends?</h2>
             </div>
 
             <div class="row g-4 mt-4">
@@ -1927,11 +1927,11 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are Full Threaded Rods?</h4>
+                                <h4>What are 90 Degree Bends?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Full Threaded Rods are precision-engineered components used in power plants,
+                                    90 Degree Bends are precision-engineered components used in power plants,
                                     refineries, chemical industries, and various heat-transfer systems. They are built to
                                     withstand high temperature, high pressure, and corrosive environments while maintaining
                                     stable heat transfer efficiency.
@@ -1942,11 +1942,11 @@
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What materials are used to manufacture these rods?</h4>
+                                <h4>What materials are used to manufacture these bends?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    These rods are manufactured in Stainless Steel, Duplex/Super Duplex, Nickel Alloys
+                                    These bends are manufactured in Stainless Steel, Duplex/Super Duplex, Nickel Alloys
                                     (Inconel, Monel), Alloy Steel, Carbon Steel, Copper Alloys, and Titanium. The selection
                                     depends on the operating temperature, pressure, and fluid medium.
                                 </p>
@@ -1960,7 +1960,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Full Threaded Rods are available from 6 mm to 219 mm OD, 0.5 mm to 12.7 mm
+                                    90 Degree Bends are available from 6 mm to 219 mm OD, 0.5 mm to 12.7 mm
                                     wall thickness, and lengths up to 12 meters. Available in Seamless, Welded, ERW, EFW,
                                     and U-Bent forms.
                                 </p>
@@ -1970,11 +1970,11 @@
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What standards do these rods meet?</h4>
+                                <h4>What standards do these bends meet?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    These rods are manufactured according to ASTM A179, A192, A213, A249, A269, A333, ASME
+                                    These bends are manufactured according to ASTM A179, A192, A213, A249, A269, A333, ASME
                                     SA213, EN 10216, DIN, and related global specifications with strict inspection and QC.
                                 </p>
                             </div>
@@ -1983,7 +1983,7 @@
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are the main applications of Full Threaded Rods?</h4>
+                                <h4>What are the main applications of 90 Degree Bends?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
@@ -2037,8 +2037,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For further information, quotes, or customized boiler and heat exchanger rod products, <strong>Moksh
-                        Rods & Fittings
+                    For further information, quotes, or customized boiler and heat exchanger bend products, <strong>Moksh
+                        Bends & Fittings
                         LLP</strong> is your dependable partner for Boiler & Heat Exchanger Tubing Solutions.</p>
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
@@ -2093,12 +2093,12 @@
             ====================================================== */
             {
               "@type": ["Organization", "LocalBusiness"],
-              "@id": "https://mokshrods.com/#organization",
+              "@id": "https://mokshbends.com/#organization",
               "name": "Moksh Tubes & Fittings LLP",
-              "url": "https://mokshrods.com/",
-              "logo": "https://mokshrods.com/assets/images/logo.webp",
+              "url": "https://mokshbends.com/",
+              "logo": "https://mokshbends.com/assets/images/logo.webp",
               "telephone": "+91-9769584950",
-              "email": "info@mokshrods.com",
+              "email": "info@mokshbends.com",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Mumbai",
@@ -2112,8 +2112,8 @@
             ====================================================== */
             {
               "@type": "WebSite",
-              "@id": "https://mokshrods.com/#website",
-              "url": "https://mokshrods.com/",
+              "@id": "https://mokshbends.com/#website",
+              "url": "https://mokshbends.com/",
               "name": "Moksh Tubes & Fittings LLP"
             },
 
@@ -2122,12 +2122,12 @@
             ====================================================== */
             {
               "@type": "WebPage",
-              "@id": "https://mokshrods.com/products/pipes-rods/full-threaded-rods#webpage",
-              "name": "Full Threaded Rods | Moksh Tubes & Fittings LLP",
-              "url": "https://mokshrods.com/products/pipes-rods/full-threaded-rods",
-              "description": "Industrial boiler & heat exchanger rods for power plants, refineries, petrochemical, marine, HVAC, and process industries. Available in seamless, welded, ERW, EFW, and U-bent configurations.",
-              "isPartOf": { "@id": "https://mokshrods.com/#website" },
-              "primaryImageOfPage": { "@id": "https://mokshrods.com/#product-image" }
+              "@id": "https://mokshbends.com/products/pipes-bends/90-degree-bends#webpage",
+              "name": "90 Degree Bends | Moksh Tubes & Fittings LLP",
+              "url": "https://mokshbends.com/products/pipes-bends/90-degree-bends",
+              "description": "Industrial boiler & heat exchanger bends for power plants, refineries, petrochemical, marine, HVAC, and process industries. Available in seamless, welded, ERW, EFW, and U-bent configurations.",
+              "isPartOf": { "@id": "https://mokshbends.com/#website" },
+              "primaryImageOfPage": { "@id": "https://mokshbends.com/#product-image" }
             },
 
             /* ======================================================
@@ -2135,22 +2135,22 @@
             ====================================================== */
             {
               "@type": ["Product", "Service"],
-              "@id": "https://mokshrods.com/#full-threaded-rods",
-              "name": "Full Threaded Rods",
-              "url": "https://mokshrods.com/products/pipes-rods/full-threaded-rods",
-              "image": "https://mokshrods.com/assets/images/product/full-threaded-rods.webp",
-              "category": "Industrial Rods",
-              "description": "Seamless, welded (ERW/EFW), and U-bent boiler & heat exchanger rods with OD 6-219 mm, WT 0.5-12.7 mm, lengths up to 12 m. Manufactured in stainless steel, alloy steel, carbon steel, nickel alloys, copper alloys, and titanium.",
+              "@id": "https://mokshbends.com/#90-degree-bends",
+              "name": "90 Degree Bends",
+              "url": "https://mokshbends.com/products/pipes-bends/90-degree-bends",
+              "image": "https://mokshbends.com/assets/images/product/90-degree-bends.webp",
+              "category": "Industrial Bends",
+              "description": "Seamless, welded (ERW/EFW), and U-bent boiler & heat exchanger bends with OD 6-219 mm, WT 0.5-12.7 mm, lengths up to 12 m. Manufactured in stainless steel, alloy steel, carbon steel, nickel alloys, copper alloys, and titanium.",
 
               "brand": {
                 "@type": "Brand",
-                "@id": "https://mokshrods.com/#organization",
+                "@id": "https://mokshbends.com/#organization",
                 "name": "Moksh Tubes & Fittings LLP"
               },
 
               "manufacturer": {
                 "@type": "Organization",
-                "@id": "https://mokshrods.com/#organization"
+                "@id": "https://mokshbends.com/#organization"
               },
 
               "material": [
@@ -2167,7 +2167,7 @@
                  Technical Specifications
               -------------------------------------------------- */
               "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Diameter", "value": "6-219 mm" },
+                { "@type": "PropertyValue", "name": "Outer Diameter (OD)", "value": "6-219 mm" },
                 { "@type": "PropertyValue", "name": "Wall Thickness (WT)", "value": "0.5-12.7 mm" },
                 { "@type": "PropertyValue", "name": "Length", "value": "Up to 12 m (cut-to-length)" },
                 { "@type": "PropertyValue", "name": "Types", "value": "Seamless, ERW, EFW, U-bent" },
@@ -2183,14 +2183,14 @@
               -------------------------------------------------- */
               "offers": {
                 "@type": "Offer",
-                "@id": "https://mokshrods.com/#offer",
-                "url": "https://mokshrods.com/products/pipes-rods/full-threaded-rods",
+                "@id": "https://mokshbends.com/#offer",
+                "url": "https://mokshbends.com/products/pipes-bends/90-degree-bends",
                 "availability": "https://schema.org/InStock",
                 "priceCurrency": "USD",
                 "price": "0.00",
                 "priceValidUntil": "2030-12-31",
                 "businessFunction": "https://schema.org/Sell",
-                "seller": { "@id": "https://mokshrods.com/#organization" }
+                "seller": { "@id": "https://mokshbends.com/#organization" }
               },
 
               /* --------------------------------------------------
@@ -2211,7 +2211,7 @@
                 {
                   "@type": "Review",
                   "author": "Client",
-                  "reviewBody": "Excellent quality full threaded rods and fast delivery.",
+                  "reviewBody": "Excellent quality 90 degree bends and fast delivery.",
                   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
                 }
               ]
@@ -2222,9 +2222,9 @@
             ====================================================== */
             {
               "@type": "ImageObject",
-              "@id": "https://mokshrods.com/#product-image",
-              "url": "https://mokshrods.com/assets/images/product/full-threaded-rods.webp",
-              "description": "Full Threaded Rods"
+              "@id": "https://mokshbends.com/#product-image",
+              "url": "https://mokshbends.com/assets/images/product/90-degree-bends.webp",
+              "description": "90 Degree Bends"
             },
 
             /* ======================================================
@@ -2232,12 +2232,12 @@
             ====================================================== */
             {
               "@type": "BreadcrumbList",
-              "@id": "https://mokshrods.com/#breadcrumb",
+              "@id": "https://mokshbends.com/#breadcrumb",
               "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshrods.com/" },
-                { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://mokshrods.com/products" },
-                { "@type": "ListItem", "position": 3, "name": "Pipes & Rods", "item": "https://mokshrods.com/products/pipes-rods" },
-                { "@type": "ListItem", "position": 4, "name": "Full Threaded Rods", "item": "https://mokshrods.com/products/pipes-rods/full-threaded-rods" }
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshbends.com/" },
+                { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://mokshbends.com/products" },
+                { "@type": "ListItem", "position": 3, "name": "Pipes & Bends", "item": "https://mokshbends.com/products/pipes-bends" },
+                { "@type": "ListItem", "position": 4, "name": "90 Degree Bends", "item": "https://mokshbends.com/products/pipes-bends/90-degree-bends" }
               ]
             },
 
@@ -2246,12 +2246,12 @@
             ====================================================== */
             {
               "@type": "FAQPage",
-              "@id": "https://mokshrods.com/#faq-boiler-rods",
+              "@id": "https://mokshbends.com/#faq-boiler-bends",
               "mainEntity": [
                 {
                   "@type": "Question",
-                  "name": "What are Full Threaded Rods?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Full Threaded Rods are precision-engineered components used in high temperature and high pressure heat transfer systems." }
+                  "name": "What are 90 Degree Bends?",
+                  "acceptedAnswer": { "@type": "Answer", "text": "90 Degree Bends are precision-engineered components used in high temperature and high pressure heat transfer systems." }
                 },
                 {
                   "@type": "Question",

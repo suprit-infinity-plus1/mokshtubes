@@ -5,12 +5,12 @@
     'High-quality Concentric Reducers for connecting pipes of different diameters on the same axis. Available in Stainless Steel, Carbon Steel, and Alloy Steel.')
 @section('meta_keywords',
     'Concentric Reducer, Pipe Reducer, Buttweld Reducer, Stainless Steel Reducer, Carbon Steel Reducer, ASME B16.9')
-@section('og_image', asset('assets/images/product/flangs/FITTINGS.webp'))
+@section('og_image', asset('assets/images/product/flangs/concentric-reducers_11zon.jpg'))
 @section('og_type', 'product')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/FITTINGS.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/concentric-reducers_11zon.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -51,7 +51,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('/assets/images/product/flangs/FITTINGS.webp') }}"
+                    <img src="{{ asset('/assets/images/product/flangs/concentric-reducers_11zon.jpg') }}"
                         alt="Concentric Buttweld Reducers" class="img-fluid rounded shadow-sm" width="550"
                         height="350" loading="lazy">
                 </div>
@@ -730,7 +730,7 @@
               "@type": "Product",
               "@id": "https://mokshtubes.com/#concentric-reducer",
               "name": "Concentric Buttweld Reducer",
-              "image": "https://mokshtubes.com/assets/images/product/flangs/FITTINGS.webp",
+              "image": "https://mokshtubes.com/assets/images/product/flangs/concentric-reducers_11zon.jpg",
               "category": "Pipe Fittings",
               "description": "Premium Concentric Pipe Reducers (ASME B16.9) in Carbon Steel (A234 WPB) and Stainless Steel for inline diameter transitions.",
               "brand": {

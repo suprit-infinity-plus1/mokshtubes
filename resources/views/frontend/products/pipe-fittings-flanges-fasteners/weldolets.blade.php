@@ -5,12 +5,12 @@
     'Premium Weldolets (Butt Weld Olets) for high-pressure 90-degree branch connections. Available in STD, XS, and Sch 160 in Stainless, Carbon, and Alloy Steel.')
 @section('meta_keywords',
     'Weldolet, Butt Weld Olet, Branch Connection, MSS-SP-97, Schedule 80 Weldolet, Stainless Steel Weldolet, Carbon Steel Weldolet')
-@section('og_image', asset('assets/images/product/flangs/FITTINGS.webp'))
+@section('og_image', asset('assets/images/product/flangs/weldolets_11zon.jpg'))
 @section('og_type', 'product')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/FITTINGS.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/weldolets_11zon.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -51,7 +51,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('/assets/images/product/flangs/FITTINGS.webp') }}"
+                    <img src="{{ asset('/assets/images/product/flangs/weldolets_11zon.jpg') }}"
                         alt="Forged Weldolets" class="img-fluid rounded shadow-sm" width="550"
                         height="350" loading="lazy">
                 </div>
@@ -724,7 +724,7 @@
               "@type": "Product",
               "@id": "https://mokshtubes.com/#weldolet",
               "name": "Weldolet (Butt Weld Olet)",
-              "image": "https://mokshtubes.com/assets/images/product/flangs/FITTINGS.webp",
+              "image": "https://mokshtubes.com/assets/images/product/flangs/weldolets_11zon.jpg",
               "category": "Forged Fittings",
               "description": "High-pressure forged Weldolets (MSS-SP-97) for butt-welded branch connections. Available in STD, XS, and Sch 160 in Carbon and Stainless Steel.",
               "brand": {
