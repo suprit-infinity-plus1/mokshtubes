@@ -5,12 +5,12 @@
     'High-quality 90 Degree Pipe Elbows (LR & SR) for right-angle flow direction changes. Available in Stainless Steel, Carbon Steel, and Alloy Steel.')
 @section('meta_keywords',
     '90 Degree Elbow, Pipe Elbow, Buttweld Elbow, Stainless Steel Elbow, Carbon Steel Elbow, ASME B16.9')
-@section('og_image', asset('assets/images/product/flangs/FITTINGS.webp'))
+@section('og_image', asset('assets/images/product/flangs/90-degree-elbows_11zon.jpeg'))
 @section('og_type', 'product')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/FITTINGS.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/90-degree-elbows_11zon.jpeg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -51,7 +51,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('/assets/images/product/flangs/FITTINGS.webp') }}"
+                    <img src="{{ asset('/assets/images/product/flangs/90-degree-elbows_11zon.jpeg') }}"
                         alt="90 Degree Buttweld Elbows" class="img-fluid rounded shadow-sm" width="550"
                         height="350" loading="lazy">
                 </div>
@@ -180,6 +180,10 @@
                 <h3 class="text-center mb-0" style="color: #db7227;">90 Degree Long Radius (LR) Elbow Dimensions</h3>
             </div>
             
+            <div class="text-center mb-4">
+                <img src="{{ asset('assets/images/product/flangs/90-degree-elbows_11zon.jpeg') }}" alt="90 Degree Elbow Dimensions" class="img-fluid border p-2 bg-white" style="max-width: 600px; border-radius: 8px;">
+            </div>
+
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
@@ -730,7 +734,7 @@
               "@type": "Product",
               "@id": "https://mokshtubes.com/#90-degree-elbow",
               "name": "90 Degree Buttweld Elbow",
-              "image": "https://mokshtubes.com/assets/images/product/flangs/FITTINGS.webp",
+              "image": "https://mokshtubes.com/assets/images/product/flangs/90-degree-elbows_11zon.jpeg",
               "category": "Pipe Fittings",
               "description": "Premium 90 Degree Pipe Elbows (LR & SR) per ASME B16.9. Available in Carbon Steel, Stainless Steel, and Alloy Steel.",
               "brand": {
