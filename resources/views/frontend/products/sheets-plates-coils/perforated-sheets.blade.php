@@ -387,94 +387,6 @@
         </div>
     </section>
 
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses & Advantages of Perforated Sheets</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-bezier"></i></div>
-                        <h5>Versatile Applications</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-lock"></i></div>
-                        <h5>Lightweight & Strong</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-piggy-bank"></i></div>
-                        <h5>Cost-Effective</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-brush"></i></div>
-                        <h5>Customizable Designs</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Corrosion Resistance</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-patch-check"></i></div>
-                        <h5>Standard Compliance</h5>
-                    </div>
-                </div>
-            </div>
-            
-            <p class="text-center mt-4">
-                <strong>Uses:</strong> Improves airflow & ventilation | Provides filtration & screening | Enhances architectural aesthetics | Reduces noise levels | Lightweight structural solution
-            </p>
-        </div>
-    </section>
-
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process & Quality Control</h2>
-            </div>
-            
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Manufacturing Process of Perforated Sheets:</strong></p>
-                        <p>Sheet selection</p>
-                        <p>CNC punching / perforation</p>
-                        <p>Pattern alignment</p>
-                        <p>Surface finishing</p>
-                        <p>Inspection & packaging</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Testing & Quality Control:</strong></p>
-                        <p>Each Perforated Sheet undergoes strict inspection including:</p>
-                        <p>✔ Hole accuracy testing</p>
-                        <p>✔ Thickness inspection</p>
-                        <p>✔ Surface quality check</p>
-                        <p>✔ Material certification</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
@@ -498,32 +410,6 @@
                                 <tr class="t-row"><td>Copper</td><td>200–400</td></tr>
                             </tbody>
                         </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="row mt-4 justify-content-center">
-                <div class="col-md-6 col-lg-5">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Dimensional Tolerances</h5>
-                        <p><strong>Thickness:</strong> ±10%</p>
-                        <p><strong>Hole accuracy:</strong> ±0.05 mm</p>
-                        <p><strong>Sheet size:</strong> ±5 mm</p>
-                        <p><strong>Flatness:</strong> As per standard</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-5" id="export">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
-                        <h5>Exports & Supply Coverage</h5>
-                        <p><strong>We supply across India:</strong> Mumbai, Pune, Ahmedabad, Bangalore, Chennai, Hyderabad</p>
-                        <p><strong>Export markets:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait</p>
                     </div>
                 </div>
             </div>

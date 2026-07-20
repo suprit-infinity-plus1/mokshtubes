@@ -229,55 +229,6 @@
         </div>
     </section>
 
-    <section id="types" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Types of Studs – Key Differences</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                     <p class="fs-6 mb-3 text-justify">
-                        Studs are supplied in different configurations depending on the application and joint requirements.
-                    </p>
-
-                    <div class="table-responsive ">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Parameter</th>
-                                    <th>Fully Threaded Studs</th>
-                                    <th>Double End Studs</th>
-                                    <th>Tap End Studs</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Configuration</td>
-                                    <td>Threaded from end to end</td>
-                                    <td>Threaded at both ends with an unthreaded center</td>
-                                    <td>Threaded at both ends with unequal thread lengths</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Engagement</td>
-                                    <td>Uses nuts on both sides</td>
-                                    <td>Uses nuts on both sides</td>
-                                    <td>One end tapped into a machined hole, other uses a nut</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Applications</td>
-                                    <td>Flanges, high-pressure piping</td>
-                                    <td>High-strength structural joints</td>
-                                    <td>Engine blocks, blind hole assemblies</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     {{-- Grades Available --}}
     <section id="chemical-composition" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -507,61 +458,6 @@
     </section>
 
     {{-- Industries We Serve --}}
-    <section id="industries" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Industries We Serve</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Power Plants</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Petrochemical</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="ri-ship-2-fill"></i></div>
-                        <h5>Marine</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="ri-test-tube-fill"></i></div>
-                        <h5>Chemical</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-building"></i></div>
-                        <h5>Construction</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-gear"></i></div>
-                        <h5>Machinery</h5>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
     <!-- Buying Guide Section -->
     <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -749,49 +645,6 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process of Studs</h2>
-                <p class="text-justify">Our studs are manufactured using controlled processes to ensure strength, reliable thread engagement, and long service life.</p>
-            </div>
-
-            <div class="table-responsive mt-3">
-                <table class="table table-bordered table-striped text-center align-middle">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th class="fw-bold" >Process Step</th>
-                            <th class="fw-bold" >Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>Cutting/Shearing</td>
-                            <td>Steel bars are cut to specific lengths.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Thread Rolling/Machining</td>
-                            <td>Threads are cold-rolled for better fatigue resistance or machined.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Heat Treatment</td>
-                            <td>Quenching and tempering for required tensile strength.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Surface Treatment</td>
-                            <td>Zinc plating, PTFE coating, or galvanizing for corrosion resistance.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Testing and Inspection</td>
-                            <td>Tensile testing, thread gauge inspection, and PMI.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-             <p class="mt-3 text-center">This ensures uniform thread profiles and reliable performance in high-tension applications.</p>
-        </div>
-    </section>
-
     <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
              <div class="section-title center mb-4">
@@ -835,27 +688,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Dimensional Tolerances</h2>
-                <p>Studs are manufactured in accordance with strict international tolerances:</p>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Thread Tolerance:</strong> 6g for Metric, Class 2A for Imperial (ASME B1.1)</li>
-                        <li class="list-group-item"><strong>Length Tolerance:</strong> ±1.5 mm to ±3.0 mm depending on length</li>
-                        <li class="list-group-item"><strong>Straightness:</strong> 0.006 in/in of length maximum</li>
-                    </ul>
-                     <p class="mt-3 text-center">These tolerances ensure proper nut engagement, pressure integrity, and trouble-free installation in flanges.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-     <section id="export" class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="export" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
              <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>

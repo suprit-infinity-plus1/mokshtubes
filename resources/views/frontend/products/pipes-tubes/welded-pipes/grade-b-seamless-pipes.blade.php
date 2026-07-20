@@ -22,39 +22,6 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">ASTM SA106 GR B SEAMLESS PIPES</h2>
-            </div>
-
-            <div class="row align-items-center">
-                <!-- Left Image -->
-                <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/welded/image2.png') }}" alt="ASTM SA106 Grade B Seamless Pipes" width="550" height="350" class="img-fluid rounded shadow-sm" loading="lazy">
-                </div>
-
-                <!-- Right Content -->
-                <div class="col-md-6">
-                    <p class="fs-6 mb-3 text-justify">
-                        <strong>ASTM SA106 Grade B</strong> is a <a href="{{ route('materials') }}" class="text-decoration-none">carbon steel</a> <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none">seamless pipe</a> specification primarily used for high-temperature service. It is equivalent to ASTM A106 and commonly referenced under ASME SA106 for pressure piping systems.
-                    </p>
-                    <p class="fs-6 mb-3 text-justify fw-bold">SA106 Gr B pipes are suitable for:</p>
-                    <ul class="fs-6 mb-3">
-                        <li>High-temperature <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">steam lines</a></li>
-                        <li>Oil & gas pipelines</li>
-                        <li><a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">Boiler</a> and superheater systems</li>
-                        <li>Petrochemical processing plants</li>
-                        <li>Power generation units</li>
-                    </ul>
-                    <p class="fs-6 mb-3 text-justify">
-                        These pipes are produced using hot-rolled or cold-drawn seamless manufacturing processes to ensure high strength and pressure resistance.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -293,30 +260,6 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process</h2>
-            </div>
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-md-8">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-gear"></i></div>
-                        <ol class="text-start fs-6 ms-4 mt-3">
-                            <li>Steel billets are heated</li>
-                            <li>Pierced to form hollow shell</li>
-                            <li>Hot rolled or cold drawn to required size</li>
-                            <li>Heat treatment (normalizing)</li>
-                            <li>Straightening and cutting</li>
-                            <li>Hydrostatic and NDT testing</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-            <p class="mt-4 text-center fs-5">This ensures uniform wall thickness and high <a href="{{ route('products.pipes-tubes.hollow-section-pipe') }}">structural</a> integrity.</p>
-        </div>
-    </section>
-
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -423,48 +366,10 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>Dimensional Tolerances & Testing</h2>
-            </div>
-            
-            <div class="row g-4 mt-4 text-start">
-                <div class="col-md-6">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                        <h4>Dimensional Tolerances</h4>
-                        <ul class="fs-6 mt-3">
-                            <li><strong>OD:</strong> As per ASTM A106 specification</li>
-                            <li><strong>Wall Thickness:</strong> −12.5% minimum tolerance</li>
-                            <li><strong>Length:</strong> Random / Cut length as specified</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 d-flex flex-column justify-content-center">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-clipboard-check"></i></div>
-                        <h4>Testing & Inspection</h4>
-                        <p class="fs-6 mt-3">All SA106 Grade B pipes undergo:</p>
-                        <ul class="fs-6 mt-1">
-                            <li>Hydrostatic Testing</li>
-                            <li>Ultrasonic Testing (UT)</li>
-                            <li>Eddy Current Testing</li>
-                            <li>Flattening Test</li>
-                            <li>Mechanical Testing</li>
-                            <li>Chemical Analysis</li>
-                        </ul>
-                        <p class="fs-6 mt-3 text-success fw-bold">Mill Test Certificate (EN 10204 3.1) provided with full traceability.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
             <div class="section-title center">
-                <h2>Global Export & Supply Coverage</h2>
+                <h2>Global Packaging & Export</h2>
             </div>
             <p class="fs-5 mt-3 text-center">We supply ASTM SA106 Grade B <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none">seamless pipes</a> across <a href="{{ route('contact-us') }}">India</a> including Mumbai, Chennai, Ahmedabad, Pune, Hyderabad, and Delhi NCR.</p>
 
@@ -530,31 +435,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-file-earmark-text"></i></div>
-                        <h5>Complete export documentation</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="accordion-box">
-                        <div class="section-title center">
-                            <h2>FAQ – ASTM SA106 Grade B Seamless Pipes</h2>
                         </div>
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What is ASTM SA106 Grade B pipe used for?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>It is used for high-temperature and high-pressure applications such as boilers, refineries, and power plants.</p>
-                            </div>
                         </div>
                         <!--End single accordion box-->
 

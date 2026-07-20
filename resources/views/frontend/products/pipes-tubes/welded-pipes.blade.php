@@ -38,7 +38,6 @@
                 <li class="">  <a class="" href="#grades">Grades</a> |</li>
                 <li class="">  <a class="" href="#applications">Applications</a> |</li>
                 <li class="">  <a class="" href="#industries">Industries</a> |</li>
-                <li class="">  <a class="" href="#manufacturing">Manufacturing</a> |</li>
                 <li class="">  <a class="" href="#export">Export</a> |</li>
                 <li class="">  <a class="" href="#quality">Quality</a> |</li>
                 <li class="">  <a class="" href="#faq">FAQ</a> |</li>
@@ -758,7 +757,6 @@
         </div>
     </section>
 
-    <!-- Industries Served -->
     <section id="industries" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
@@ -790,58 +788,11 @@
     </section>
 
     <!-- Manufacturing Process -->
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center mb-4">
-                <h2>Manufacturing Process</h2>
-            </div>
-            <p class="fs-6 text-center text-success fw-bold mb-4">Precision engineering at every stage of production.</p>
-            <div class="row g-4 mt-3">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-1-circle-fill"></i></div>
-                        <h5>Strip / Plate Slitting</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-2-circle-fill"></i></div>
-                        <h5>Pipe Forming (Roll Forming)</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-3-circle-fill"></i></div>
-                        <h5>ERW / EFW / LSAW Welding</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-4-circle-fill"></i></div>
-                        <h5>Heat Treatment & Annealing</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-5-circle-fill"></i></div>
-                        <h5>Sizing & Straightening</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-6-circle-fill"></i></div>
-                        <h5>Inspection & Testing</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Supply & Export Capability -->
+    <!-- Packaging & Export -->
     <section id="export" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2>Supply & Export Capability</h2>
+                <h2>Packaging & Export</h2>
             </div>
             <p class="fs-6 text-center text-muted mb-4">
                 We are a trusted global supplier and exporter of welded pipes, delivering to EPC contractors, oil & gas
@@ -922,36 +873,6 @@
     </section>
 
     <!-- Welded vs Seamless Comparison -->
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="row g-5 justify-content-center">
-                <div class="col-md-10">
-                    <div class="p-4 bg-light rounded shadow-sm border-start border-4 border-warning h-100">
-                        <h3 class="fw-bold mb-4" style="color: #174268;">Welded vs. Seamless – Comparison</h3>
-                        <div class="table-responsive">
-                            <table class="table table-bordered table-striped align-middle bg-white mb-0">
-                                <thead class="table-dark">
-                                    <tr>
-                                        <th>Feature</th>
-                                        <th>Welded Pipes</th>
-                                        <th>Seamless Pipes</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr><td class="fw-bold">Manufacturing</td><td>Formed from strips/plates and welded</td><td>Extruded from solid billets</td></tr>
-                                    <tr><td class="fw-bold">Wall Thickness</td><td>High uniformity across the length</td><td>May have slight variations</td></tr>
-                                    <tr><td class="fw-bold">Cost</td><td>More economical & cost-effective</td><td>Higher due to complex process</td></tr>
-                                    <tr><td class="fw-bold">Pressure Rating</td><td>Ideal for low to medium-high pressure</td><td>Suitable for ultra-high pressure</td></tr>
-                                    <tr><td class="fw-bold">Size Availability</td><td>Available in extremely large diameters</td><td>Limited in very large sizes</td></tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Why Choose Moksh Tubes -->
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">

@@ -44,44 +44,6 @@
     </div>
     <!-- End Material Tabs -->
 
-    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Product Overview</h2>
-            </div>
-
-            <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                What are U-Bent Tubes?
-            </h3>
-
-            <div class="row align-items-center">
-                <!-- Image Left -->
-                <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/u-bent-tubes.webp') }}" alt="CNC Manufacturing Process of U-Bent Tubes"
-                        class="img-fluid rounded shadow-sm" loading="lazy">
-                </div>
-
-                <!-- Content Right -->
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong class="text-black">U-Bent Tubes</strong> are specialized tubes manufactured by precisely bending straight tubes into a U-shape for use in heat transfer equipment. These tubes are primarily utilized in shell and tube heat exchangers where thermal expansion must be accommodated without additional expansion joints. Their design provides efficient heat transfer, compact equipment layouts, and reduced installation complexity.
-                        </p>
-
-                        <p class="fs-6 mb-4" style="text-align: justify;">
-                            Industries such as power generation, oil & gas, petrochemical processing, chemical manufacturing, desalination, marine engineering, and HVAC systems extensively utilize U-Bent Tubes due to their excellent performance under high-pressure and high-temperature operating conditions.
-                        </p>
-
-                        <p class="fs-6" style="text-align: justify;">
-                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings
-                                    LLP</a></strong>, we are a trusted manufacturer, supplier, stockist, and exporter of U-Bent Tubes in India. Our products are manufactured using advanced CNC bending technology and undergo stringent quality inspections to ensure dimensional accuracy, minimal wall thinning, low ovality, and excellent mechanical properties. We supply U-Bent Tubes to domestic projects and international markets including UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, Africa, Europe, and Southeast Asia.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download U-Bent Tubes Datasheet</h3>
@@ -592,107 +554,6 @@
         </div>
     </section>
 
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses & Advantages of U-Bent Tubes</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-arrows-collapse"></i></div>
-                        <h5>Space Saving Design</h5>
-                        <p>Requires less installation space compared to straight tube assemblies.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-sun"></i></div>
-                        <h5>Improved Heat Transfer</h5>
-                        <p>Optimized flow path ensures maximum thermal efficiency.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-shield-lock"></i></div>
-                        <h5>Reduced Leakage Risk</h5>
-                        <p>Fewer welded joints and fittings minimize potential leak points.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                        <h5>High Strength</h5>
-                        <p>Capable of handling elevated pressure and temperature conditions.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Corrosion Resistance</h5>
-                        <p>Available in materials suitable for aggressive industrial environments.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
-                        <h5>Long Service Life</h5>
-                        <p>Designed for reliable operation over extended periods.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process & Quality Control</h2>
-            </div>
-            
-            <p class="text-center mb-4">The manufacturing process of U-Bent Tubes requires strict dimensional control and advanced bending technology to ensure consistent mechanical performance.</p>
-
-            <div class="row mt-4">
-                <div class="col-md-6 mb-4">
-                    <div class="pe-md-3">
-                        <h4 class="mb-3" style="color: #db7227;">Seamless U-Bent Tube Manufacturing</h4>
-                        <p>1️⃣ Raw material inspection</p>
-                        <p>2️⃣ Tube piercing and manufacturing</p>
-                        <p>3️⃣ Solution annealing or heat treatment</p>
-                        <p>4️⃣ CNC U-bending operation</p>
-                        <p>5️⃣ Stress relieving</p>
-                        <p>6️⃣ Surface finishing</p>
-                        <p>7️⃣ Hydrostatic testing</p>
-                        <p>8️⃣ Final inspection and packaging</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 mb-4">
-                    <div class="pe-md-3">
-                        <h4 class="mb-3" style="color: #db7227;">Welded U-Bent Tube Manufacturing</h4>
-                        <p>1️⃣ Strip or plate forming</p>
-                        <p>2️⃣ ERW / EFW welding</p>
-                        <p>3️⃣ Weld heat treatment</p>
-                        <p>4️⃣ Tube sizing</p>
-                        <p>5️⃣ CNC bending process</p>
-                        <p>6️⃣ NDT testing</p>
-                        <p>7️⃣ Surface finishing</p>
-                        <p>8️⃣ Final inspection</p>
-                    </div>
-                </div>
-                
-                <div class="col-12 mt-4 text-center">
-                    <h4 class="mb-3" style="color: #db7227;">Testing & Quality Control</h4>
-                    <p>All U-Bent Tubes undergo rigorous quality inspections:</p>
-                    <p>✔ Hydrostatic Test | ✔ Eddy Current Test | ✔ Ultrasonic Testing (UT) | ✔ Positive Material Identification (PMI)</p>
-                    <p>✔ Hardness Testing | ✔ Bend Test | ✔ Flattening Test | ✔ Visual Inspection</p>
-                    <p class="mt-3"><strong>📄 EN 10204 3.1 Mill Test Certificates available.</strong></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-5">
@@ -749,40 +610,6 @@
                     <p class="text-center mt-3">
                         📌 Actual values may vary depending on material grade and heat treatment condition.
                     </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="row justify-content-center g-4">
-                <div class="col-md-6 col-lg-5">
-                    <div class="application-card h-100">
-                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
-                        <h5 class="text-center mb-3">Dimensional Tolerances</h5>
-                        <p class="text-center mb-4">U-Bent Tubes are manufactured according to international standards and customer specifications.</p>
-                        <p><strong>Outside Diameter (OD):</strong> ±1%</p>
-                        <p><strong>Wall Thickness:</strong> -12.5% minimum</p>
-                        <p><strong>Bend Radius:</strong> As specified</p>
-                        <p><strong>Leg Length Tolerance:</strong> ±3 mm</p>
-                        <p><strong>Ovality:</strong> Controlled as per ASTM requirements</p>
-                        <p><strong>Straight Leg Alignment:</strong> As specified by customer drawings</p>
-                        <p class="mt-3 text-muted" style="font-size: 0.9em;">These tolerances ensure proper fitment and reliable performance in critical heat exchanger applications.</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-5">
-                    <div class="application-card h-100">
-                        <div class="application-icon"><i class="bi bi-cart-check"></i></div>
-                        <h5 class="text-center mb-3">Buying Guide & Exports</h5>
-                        <p>Before selecting U-Bent Tubes, consider:</p>
-                        <p>✔ Applicable ASTM or ASME specification<br>✔ Operating pressure and temperature<br>✔ Material grade selection<br>✔ Required bend radius<br>✔ Leg length requirements<br>✔ Surface finish requirements<br>✔ Inspection and certification (EN 10204 3.1)</p>
-                        
-                        <p class="mt-4 mb-2"><strong>We Supply & Export to:</strong></p>
-                        <p>Mumbai, Chennai, Ahmedabad, Pune, Hyderabad, Delhi, Bengaluru.<br>
-                        <strong>Global:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, South Africa, Europe, Southeast Asia.</p>
-                    </div>
                 </div>
             </div>
         </div>

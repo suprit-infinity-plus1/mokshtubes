@@ -372,92 +372,6 @@
         </div>
     </section>
 
-    <section id="uses" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses & Advantages of Shim Sheets</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Ultra-Precise Thickness</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-layers"></i></div>
-                        <h5>Wide Material Options</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-scissors"></i></div>
-                        <h5>Easy Customization</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Corrosion & Heat Resistance</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
-                        <h5>Time-Saving Maintenance</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-piggy-bank"></i></div>
-                        <h5>Cost-Effective Solution</h5>
-                    </div>
-                </div>
-            </div>
-            
-            <p class="text-center mt-4">
-                <strong>Uses:</strong> Precision alignment & leveling | Spacing & tolerance adjustment | Reduces vibration & wear | Quick maintenance solution | Custom fabrication use
-            </p>
-        </div>
-    </section>
-
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process & Quality Control</h2>
-            </div>
-            
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Manufacturing Process of Shim Sheets:</strong></p>
-                        <p>Cold rolling for precision thickness</p>
-                        <p>Slitting & cutting</p>
-                        <p>Surface finishing</p>
-                        <p>Annealing (if required)</p>
-                        <p>Inspection & packaging</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Testing & Quality Control:</strong></p>
-                        <p>Each Shim Sheet undergoes strict inspection including:</p>
-                        <p>✔ Thickness measurement</p>
-                        <p>✔ Dimensional inspection</p>
-                        <p>✔ Surface finish inspection</p>
-                        <p>✔ Material certification</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-5">
@@ -482,32 +396,6 @@
                                 <tr class="t-row"><td>Aluminium</td><td>35 – 100</td></tr>
                             </tbody>
                         </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="row mt-4 justify-content-center">
-                <div class="col-md-6 col-lg-5">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Dimensional Tolerances</h5>
-                        <p><strong>Thickness:</strong> As per tolerance chart</p>
-                        <p><strong>Width:</strong> ±0.1 mm to ±0.5 mm</p>
-                        <p><strong>Length:</strong> ±5 mm</p>
-                        <p><strong>Flatness:</strong> As per standard</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-5" id="export">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
-                        <h5>Exports & Supply Coverage</h5>
-                        <p><strong>We supply across India:</strong> Mumbai, Pune, Ahmedabad, Bangalore, Chennai, Hyderabad</p>
-                        <p><strong>Export markets:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait</p>
                     </div>
                 </div>
             </div>

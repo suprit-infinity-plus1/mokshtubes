@@ -472,48 +472,6 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process</h2>
-                <p class="text-justify">Our concentric reducers are formed using advanced compression techniques to ensure uniform wall thickness.</p>
-            </div>
-
-            <div class="table-responsive mt-3">
-                <table class="table table-bordered table-striped text-center align-middle">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th class="fw-bold">Process Step</th>
-                            <th class="fw-bold">Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>Outer Die Method (Cold Pressing)</td>
-                            <td>A seamless pipe is pushed into a conical outer die using a hydraulic press, compressing the pipe end to the smaller diameter.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Hot Forming / Spinning</td>
-                            <td>For large diameter reducers, the pipe is heated and either spun or pressed to form the concentric shape without buckling.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Heat Treatment</td>
-                            <td>The formed reducer undergoes Normalizing or Annealing to relieve forming stresses and restore the metal's grain structure.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Beveling</td>
-                            <td>Both ends are CNC machined to a 37.5° angle per ASME B16.25 to prepare them for butt-welding.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Non-Destructive Testing (NDT)</td>
-                            <td>100% inspection including Dimensional checks, UT, and MPI to ensure structural integrity and absence of wall thinning.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
              <div class="section-title center mb-4">
@@ -550,24 +508,6 @@
                 </table>
             </div>
              <p class="text-center mt-2 small text-muted">*Properties must match the corresponding seamless pipe specification (e.g., A106 Gr. B for A234 WPB).</p>
-        </div>
-    </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Tolerances & Quality Standards</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Dimensional Tolerances:</strong> Governed by ASME B16.9. The End-to-End length (H) tolerance is typically ±2.0 mm for sizes ≤ NPS 8.</li>
-                        <li class="list-group-item"><strong>Wall Thickness:</strong> The wall thickness at any point must not be less than 87.5% of the nominal thickness specified for the matching pipe schedule.</li>
-                        <li class="list-group-item"><strong>Concentricity:</strong> The center axis of the large end and the small end must be perfectly aligned to prevent eccentric flow forces.</li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </section>
 

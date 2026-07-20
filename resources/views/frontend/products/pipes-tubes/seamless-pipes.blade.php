@@ -45,48 +45,6 @@
     </div>
     <!-- End Material Tabs -->
 
-    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Product Overview</h2>
-            </div>
-
-            <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                SEAMLESS PIPES
-            </h3>
-
-            <div class="row align-items-center">
-                <!-- Image Left -->
-                <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/seamless-pipes.webp') }}" alt="Seamless Pipes"
-                        class="img-fluid rounded shadow-sm" loading="lazy">
-                </div>
-
-                <!-- Content Right -->
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong>Seamless Pipes</strong> are high-performance tubular products manufactured from solid billets without any welding seam. The seamless manufacturing process produces pipes with superior structural integrity, making them the preferred choice for critical applications involving high pressure, elevated temperatures, corrosive media, and demanding operating conditions.
-                        </p>
-
-                        <p class="fs-6 mb-4" style="text-align: justify;">
-                            Unlike welded pipes, seamless pipes eliminate the risk associated with weld failures, providing improved strength, enhanced pressure handling capability, and better resistance to fatigue. Their uniform wall thickness and smooth internal surface contribute to efficient fluid flow and long service life.
-                        </p>
-
-                        <p class="fs-6 mb-4" style="text-align: justify;">
-                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings
-                                    LLP</a></strong>, we are a trusted manufacturer, supplier, stockist, and exporter of Seamless Pipes in India. We offer an extensive range of seamless pipes in stainless steel, nickel alloys, duplex stainless steel, titanium, copper alloys, alloy steel, carbon steel, aluminum alloys, zirconium, tantalum, and other specialty metals.
-                        </p>
-
-                        <p class="fs-6" style="text-align: justify;">
-                            Manufactured to international standards and subjected to strict quality control procedures, our seamless pipes deliver outstanding performance in industries where reliability, safety, and durability are essential.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Seamless Pipes Datasheet</h3>
@@ -121,71 +79,6 @@
             <p class="small text-muted">
                 We respect your privacy and only use your email to send the requested datasheet.
             </p>
-        </div>
-    </section>
-
-    <section id="specifications" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Specifications of Seamless Pipes</h2>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Category</th>
-                                    <th>Details</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Material</td>
-                                    <td>Stainless Steel, Duplex & Super Duplex Steel, Nickel Alloys, Inconel, Monel, Titanium, Zirconium, Tantalum, Aluminium, Copper Alloys, Carbon Steel, Alloy Steel</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Grades</td>
-                                    <td>Available as per ASTM, ASME, API, DIN & EN Standards</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Outer Diameter (OD)</td>
-                                    <td>3 mm to 610 mm (¼” to 24” NB)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Wall Thickness</td>
-                                    <td>Available in all standard and custom schedules</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Lengths</td>
-                                    <td>Up to 12 meters or custom lengths</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Surface Finish</td>
-                                    <td>Mill Finish, Pickled & Passivated, Mechanical Polished, Electro Polished, Matt Finish</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Form</td>
-                                    <td>Round, Square, Rectangular, Hollow Section, Hydraulic, Oval</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Manufacturing Process</td>
-                                    <td>Hot Finished, Cold Drawn, Cold Rolled</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Standards</td>
-                                    <td>ASTM, ASME, API, DIN, EN</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Applications</td>
-                                    <td>Oil & Gas, Petrochemical, Power, Chemical, Marine, Construction, Food Processing</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -656,104 +549,6 @@
         </div>
     </section>
 
-    <section id="seamless-vs-welded" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Seamless vs Welded Pipes – Key Differences</h2>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Parameter</th>
-                                    <th>Seamless Pipes</th>
-                                    <th><a href="{{ route('products.pipes-tubes.welded-pipes') ?? '#' }}" class="text-white text-decoration-underline">Welded Pipes</a></th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Manufacturing</td>
-                                    <td>Billet Piercing</td>
-                                    <td>Plate/Strip Welding</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Weld Joint</td>
-                                    <td>None</td>
-                                    <td>Present</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Strength</td>
-                                    <td>Higher</td>
-                                    <td>Moderate</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Pressure Handling</td>
-                                    <td>Excellent</td>
-                                    <td>Good</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Corrosion Resistance</td>
-                                    <td>Superior</td>
-                                    <td>Good</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Cost</td>
-                                    <td>Higher</td>
-                                    <td>Economical</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Typical Applications</td>
-                                    <td>Oil & Gas, Boilers, High Pressure Systems</td>
-                                    <td>General Industrial Applications</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <p class="text-center mt-3">
-                        📌 <strong>Seamless Pipes</strong> are preferred where reliability, safety, and high-pressure performance are critical.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process of Seamless Pipes</h2>
-            </div>
-
-            <div class="row mt-4 justify-content-center">
-                <div class="col-md-6 text-center mb-4">
-                    <h5 class="fw-bold text-primary mb-3">Hot Finished Seamless Pipe</h5>
-                    <p>Raw material billet inspection</p>
-                    <p>Billet heating</p>
-                    <p>Rotary piercing process</p>
-                    <p>Hot rolling and elongation</p>
-                    <p>Sizing and shaping</p>
-                    <p>Heat treatment & Straightening</p>
-                    <p>Final inspection</p>
-                </div>
-                <div class="col-md-6 text-center mb-4">
-                    <h5 class="fw-bold text-primary mb-3">Cold Drawn Seamless Pipe</h5>
-                    <p>Seamless mother tube production</p>
-                    <p>Pickling and lubrication</p>
-                    <p>Cold drawing operation</p>
-                    <p>Intermediate annealing</p>
-                    <p>Sizing and calibration</p>
-                    <p>Surface finishing</p>
-                    <p>Testing and inspection</p>
-                </div>
-                <div class="col-12 text-center mt-3">
-                    <p class="fs-6"><em>This manufacturing process ensures uniform wall thickness, excellent concentricity, high strength, and superior pressure-handling capability.</em></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
@@ -821,28 +616,6 @@
         </div>
     </section>
 
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Dimensional Tolerances</h2>
-            </div>
-            
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-8">
-                    <p class="fs-6 mb-4">Seamless Pipes are manufactured according to ASTM, ASME, API, and EN dimensional requirements.</p>
-                    <ul class="list-group list-group-flush border shadow-sm rounded text-start fs-6 mx-auto">
-                        <li class="list-group-item"><strong>Outside Diameter (OD):</strong> ±1%</li>
-                        <li class="list-group-item"><strong>Wall Thickness:</strong> -12.5% minimum</li>
-                        <li class="list-group-item"><strong>Length Tolerance:</strong> ±3 mm (cut lengths)</li>
-                        <li class="list-group-item"><strong>Straightness:</strong> As per ASTM specifications</li>
-                        <li class="list-group-item"><strong>Ovality:</strong> Controlled within permissible limits</li>
-                        <li class="list-group-item"><strong>Concentricity:</strong> Maintained throughout manufacturing</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="row mt-4 justify-content-center">
@@ -866,7 +639,7 @@
                 <div class="col-md-6 col-lg-5">
                     <div class="application-card h-100">
                         <div class="application-icon"><i class="bi bi-globe"></i></div>
-                        <h5>Export & Supply Coverage</h5>
+                        <h5>Packaging & Export</h5>
                         <p>We supply Seamless Pipes across India including Mumbai, Chennai, Ahmedabad, Pune, Hyderabad, Delhi, Bengaluru.</p>
                         <p><strong>We regularly export to:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, South Africa, Europe, and Southeast Asia.</p>
                     </div>

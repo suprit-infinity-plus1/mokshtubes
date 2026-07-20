@@ -273,62 +273,6 @@
         </div>
     </section>
 
-    <section id="uses" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2> Uses & Advantages of Glass Railings</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gem"></i></div>
-                        <h5>Modern & Premium Appearance</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
-                        <h5>High Strength & Safety</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-wrench"></i></div>
-                        <h5>Low Maintenance</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-check-circle"></i></div>
-                        <h5>Corrosion-Free System</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-brush"></i></div>
-                        <h5>Custom Design Flexibility</h5>
-                    </div>
-                </div>
-                
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrow-up-circle"></i></div>
-                        <h5>Long Lifespan</h5>
-                    </div>
-                </div>
-            </div>
-            
-            <p class="text-center mt-4">
-                <strong>Uses:</strong> Provides safety without blocking view | Enhances natural lighting | Creates modern architectural aesthetics | Suitable for indoor & outdoor use | Supports customized designs
-            </p>
-        </div>
-    </section>
-
     <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -389,54 +333,6 @@
             </div>
         </div>
     </section>
-
-    <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="row mt-4 justify-content-center">
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-card-checklist"></i></div>
-                        <h5>Buying Guide</h5>
-                        <p>Before selecting glass railings:<br>
-                        ✔ Glass type (toughened vs laminated)<br>
-                        ✔ Thickness requirement<br>
-                        ✔ Indoor vs outdoor use<br>
-                        ✔ Mounting system (frameless / framed)<br>
-                        ✔ Hardware grade (304 vs 316)<br>
-                        ✔ Design preference (clear / frosted / tinted)</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Dimensional Tolerances</h5>
-                        <p><strong>Glass Thickness:</strong> ±0.2 mm</p>
-                        <p><strong>Panel Size:</strong> ±2 mm</p>
-                        <p><strong>Alignment Tolerance:</strong> ±3 mm</p>
-                        <p><strong>Edge Finish:</strong> Polished / Bevelled</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Exports & Supply Coverage</h5>
-                        <p><strong>Pan-India:</strong> Mumbai, Pune, Ahmedabad, Bangalore, Chennai, Hyderabad</p>
-                        <p><strong>Export Markets:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait</p>
-                    </div>
-                </div>
-            </div>
-            
-            <p class="text-center mt-4">
-                <strong>Industries We Serve:</strong> Residential Construction | Commercial Buildings | Hospitality & Luxury Projects | Infrastructure Projects | Marine & Coastal Applications
-            </p>
-            <p class="text-center mt-2">
-                We also offer <strong class="text-dark"><a href="#">Stainless Steel Pipes</a></strong>, <a href="#">SS Railing Products</a>, and <strong class="text-dark"><a href="#">Duplex Steel Products</a></strong>.
-            </p>
-        </div>
-    </section>
-
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">

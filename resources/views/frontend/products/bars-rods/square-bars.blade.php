@@ -354,45 +354,6 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process of Square Bars</h2>
-            </div>
-            
-            <p class="text-center mb-4">The manufacturing process of square bars involves multiple stages to ensure quality, dimensional accuracy, and mechanical strength.</p>
-
-            <div class="row mt-4 justify-content-center">
-                <div class="col-lg-10">
-                    <div class="row">
-                        <div class="col-md-6 mb-4">
-                            <div class="pe-md-3">
-                                <p class="fs-6" style="text-align: justify;"><strong>1. Raw Material Selection</strong><br>
-                                Premium-quality billets and ingots are selected according to international specifications.</p>
-                                
-                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>2. Hot Rolling or Forging</strong><br>
-                                The material is processed through hot rolling or forging operations to achieve the desired square profile.</p>
-                                
-                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>3. Heat Treatment</strong><br>
-                                Depending on the material grade, bars may undergo Annealing, Normalizing, Solution Annealing, or Quenching & Tempering.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 mb-4">
-                            <div class="pe-md-3">
-                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>4. Surface Finishing</strong><br>
-                                The bars are finished through Grinding, Polishing, Pickling, Passivation, or Bright Drawing.</p>
-                                
-                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>5. Inspection & Testing</strong><br>
-                                Every batch undergoes rigorous testing to ensure compliance with ASTM, ASME, EN, and DIN standards.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">

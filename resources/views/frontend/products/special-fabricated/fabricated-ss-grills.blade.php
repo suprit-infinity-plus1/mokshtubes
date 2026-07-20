@@ -281,84 +281,6 @@
         </div>
     </section>
 
-    <section id="uses" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses & Advantages of Fabricated SS Grills</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
-                        <h5>High Corrosion Resistance</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrow-up-circle"></i></div>
-                        <h5>Long Lifespan</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-wrench"></i></div>
-                        <h5>Low Maintenance</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gem"></i></div>
-                        <h5>Custom Design Flexibility</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-tree"></i></div>
-                        <h5>Eco-Friendly Material</h5>
-                    </div>
-                </div>
-                
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-brush"></i></div>
-                        <h5>Premium Aesthetic Appeal</h5>
-                    </div>
-                </div>
-            </div>
-            
-            <p class="text-center mt-4">
-                <strong>Uses:</strong> Security for windows, doors & balconies | Decorative architectural element | Ventilation with protection | Interior space partitioning | Durable outdoor applications
-            </p>
-        </div>
-    </section>
-
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process of SS Grills</h2>
-            </div>
-            
-            <div class="row mt-4 justify-content-center">
-                <div class="col-md-8">
-                    <div class="pe-md-3 text-center">
-                        <p class="fs-6 text-start d-inline-block"><strong>Fabrication Steps:</strong><br><br>
-                        Material selection (SS / Duplex)<br>
-                        CNC / laser cutting<br>
-                        Bending & shaping<br>
-                        TIG/MIG welding<br>
-                        Surface finishing & polishing<br>
-                        Final inspection</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-5">
@@ -387,54 +309,6 @@
             </div>
         </div>
     </section>
-
-    <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="row mt-4 justify-content-center">
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-card-checklist"></i></div>
-                        <h5>Buying Guide</h5>
-                        <p>Before selecting SS grills:<br>
-                        ✔ Grade (304 vs 316 vs Duplex)<br>
-                        ✔ Indoor vs outdoor use<br>
-                        ✔ Design complexity (laser / simple)<br>
-                        ✔ Thickness & strength requirement<br>
-                        ✔ Finish preference<br>
-                        ✔ Installation type</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Dimensional Tolerances</h5>
-                        <p><strong>Thickness:</strong> ±10%</p>
-                        <p><strong>Length:</strong> ±5 mm</p>
-                        <p><strong>Straightness:</strong> As per fabrication standards</p>
-                        <p><strong>Surface Finish:</strong> As required</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Exports & Supply Coverage</h5>
-                        <p><strong>Pan-India:</strong> Mumbai, Pune, Ahmedabad, Bangalore, Chennai, Hyderabad</p>
-                        <p><strong>Export Markets:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait</p>
-                    </div>
-                </div>
-            </div>
-            
-            <p class="text-center mt-4">
-                <strong>Industries We Serve:</strong> Residential Construction | Commercial Buildings | Hospitality Projects | Industrial Facilities | Infrastructure Projects
-            </p>
-            <p class="text-center mt-2">
-                We also offer <strong class="text-dark"><a href="#">SS Railing Products</a></strong>, <a href="#">Glass Railings</a>, and <strong class="text-dark"><a href="#">Stainless Steel Pipes</a></strong>.
-            </p>
-        </div>
-    </section>
-
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">

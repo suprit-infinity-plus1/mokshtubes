@@ -42,7 +42,6 @@
                 <li class=""><a class="" href="#grades">Grades</a></li>
                 <li class=""><a class="" href="#applications">Applications</a></li>
                 <li class=""><a class="" href="#industries">Industries</a></li>
-                <li class=""><a class="" href="#manufacturing">Manufacturing</a></li>
                 <li class=""><a class="" href="#export">Export</a></li>
                 <li class=""><a class="" href="#quality">Quality</a></li>
                 <li class=""><a class="" href="#faq">FAQ</a></li>
@@ -541,7 +540,6 @@
         </div>
     </section>
 
-    <!-- Industries Served -->
     <section id="industries" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
@@ -569,54 +567,7 @@
     </section>
 
     <!-- Manufacturing Process -->
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center mb-4">
-                <h2>Manufacturing Process</h2>
-            </div>
-            <p class="fs-6 text-center text-success fw-bold mb-4">Ensures high structural integrity and dimensional accuracy.</p>
-            <div class="row g-4 mt-3">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-1-circle-fill"></i></div>
-                        <h5>Steel Coil or Billet Preparation</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-2-circle-fill"></i></div>
-                        <h5>Forming into Square / Rectangular / Oval Shapes</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-3-circle-fill"></i></div>
-                        <h5>ERW / EFW Welding or Seamless Processing</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-4-circle-fill"></i></div>
-                        <h5>Heat Treatment & Sizing</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-5-circle-fill"></i></div>
-                        <h5>Surface Finishing (Polishing / Coating)</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-6-circle-fill"></i></div>
-                        <h5>Inspection & Testing</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Supply & Export Capability -->
+    <!-- Packaging & Export -->
     <section id="export" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">

@@ -367,94 +367,6 @@
         </div>
     </section>
 
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses & Advantages of Metal Coils</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-piggy-bank"></i></div>
-                        <h5>Cost-Effective Production</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-bezier"></i></div>
-                        <h5>High Flexibility</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-star"></i></div>
-                        <h5>Excellent Surface Finish</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-layers"></i></div>
-                        <h5>Wide Material Availability</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Durable & Reliable</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                        <h5>Custom Processing Options</h5>
-                    </div>
-                </div>
-            </div>
-            
-            <p class="text-center mt-4">
-                <strong>Uses:</strong> Raw material for sheets & strips | Used in fabrication and forming | Suitable for mass production | Easy storage and transport | Customizable into required sizes
-            </p>
-        </div>
-    </section>
-
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process & Quality Control</h2>
-            </div>
-            
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Manufacturing Process of Metal Coils:</strong></p>
-                        <p>Hot or cold rolling</p>
-                        <p>Coiling into rolls</p>
-                        <p>Surface finishing</p>
-                        <p>Slitting or cutting</p>
-                        <p>Inspection & packaging</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Testing & Quality Control:</strong></p>
-                        <p>Each Metal Coil undergoes strict inspection including:</p>
-                        <p>✔ Thickness inspection</p>
-                        <p>✔ Surface quality testing</p>
-                        <p>✔ Dimensional checks</p>
-                        <p>✔ Material certification</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
@@ -478,32 +390,6 @@
                                 <tr class="t-row"><td>Copper</td><td>200–400</td></tr>
                             </tbody>
                         </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="row mt-4 justify-content-center">
-                <div class="col-md-6 col-lg-5">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Dimensional Tolerances</h5>
-                        <p><strong>Thickness:</strong> ±0.02 mm to ±0.1 mm</p>
-                        <p><strong>Width:</strong> ±0.5 mm</p>
-                        <p><strong>Coil weight:</strong> As per standard</p>
-                        <p><strong>Surface finish:</strong> As required</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-5" id="export">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
-                        <h5>Exports & Supply Coverage</h5>
-                        <p><strong>We supply across India:</strong> Mumbai, Pune, Ahmedabad, Bangalore, Chennai, Hyderabad</p>
-                        <p><strong>Export markets:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait</p>
                     </div>
                 </div>
             </div>

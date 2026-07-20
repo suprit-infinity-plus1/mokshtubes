@@ -355,94 +355,6 @@
         </div>
     </section>
 
-    <section id="uses" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses & Advantages of Metal Strips</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-bullseye"></i></div>
-                        <h5>High Precision & Accuracy</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-layers"></i></div>
-                        <h5>Wide Material Availability</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Customizable Dimensions</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Durable & Versatile</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-piggy-bank"></i></div>
-                        <h5>Cost-Effective Usage</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-patch-check"></i></div>
-                        <h5>International Standard Compliance</h5>
-                    </div>
-                </div>
-            </div>
-            
-            <p class="text-center mt-4">
-                <strong>Uses:</strong> Fabrication & component manufacturing | Trims and edging applications | Electrical conductivity applications | Industrial strapping & packaging | Decorative architectural use
-            </p>
-        </div>
-    </section>
-
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process & Quality Control</h2>
-            </div>
-            
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Manufacturing Process of Metal Strips:</strong></p>
-                        <p>Hot rolling or cold rolling</p>
-                        <p>Slitting into required width</p>
-                        <p>Surface finishing</p>
-                        <p>Annealing (if required)</p>
-                        <p>Inspection & packaging</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Testing & Quality Control:</strong></p>
-                        <p>Each Metal Strip undergoes strict inspection including:</p>
-                        <p>✔ Thickness measurement</p>
-                        <p>✔ Surface inspection</p>
-                        <p>✔ Dimensional accuracy testing</p>
-                        <p>✔ Material certification</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-5">
@@ -466,32 +378,6 @@
                                 <tr class="t-row"><td>Copper</td><td>200–400</td></tr>
                             </tbody>
                         </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="row mt-4 justify-content-center">
-                <div class="col-md-6 col-lg-5">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Dimensional Tolerances</h5>
-                        <p><strong>Thickness tolerance:</strong> As per chart</p>
-                        <p><strong>Width tolerance:</strong> ±0.1 mm to ±0.5 mm</p>
-                        <p><strong>Length tolerance:</strong> ±5 mm</p>
-                        <p><strong>Flatness & surface:</strong> As per standards</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-5" id="export">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
-                        <h5>Exports & Supply Coverage</h5>
-                        <p><strong>We supply across India:</strong> Mumbai, Pune, Ahmedabad, Bangalore, Chennai, Hyderabad</p>
-                        <p><strong>Export markets:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait</p>
                     </div>
                 </div>
             </div>

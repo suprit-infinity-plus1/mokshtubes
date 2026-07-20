@@ -221,30 +221,6 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process</h2>
-            </div>
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-md-8">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-gear"></i></div>
-                        <ol class="text-start fs-6 ms-4 mt-3">
-                            <li>Alloy steel bar cutting</li>
-                            <li>Thread rolling or machining</li>
-                            <li>Heat treatment (Quenching & Tempering)</li>
-                            <li>Surface finishing</li>
-                            <li>Hardness & mechanical testing</li>
-                            <li>Final inspection & marking</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-            <p class="mt-4 text-center fs-5">This ensures consistent strength and reliable performance in critical bolting applications.</p>
-        </div>
-    </section>
-
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -427,7 +403,7 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
-                <h2>Global Export & Supply Coverage</h2>
+                <h2>Global Packaging & Export</h2>
             </div>
             <p class="fs-5 mt-3 text-center">We supply ASTM A193 Grade B7 Stud Bolts across India including <a href="{{ route('contact-us-khetwadi') }}" class="text-decoration-none">Mumbai</a>, <a href="{{ route('contact-us') }}" class="text-decoration-none">Ahmedabad</a>, Chennai, Pune, Hyderabad, and Delhi NCR.</p>
 

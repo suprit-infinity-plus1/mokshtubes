@@ -77,35 +77,6 @@
     </section>
 
     {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Allen Bolts Datasheet</h3>
-            <p class="mb-3">
-                Get the complete datasheet with dimensional tolerances, mechanical properties, and tightening torques.
-                Enter your email below to receive the PDF instantly.
-            </p>
-
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
-                <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="allen-bolts-datasheet.pdf">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Datasheet
-                        </button>
-                    </div>
-                </div>
-            </form>
-            <hr class="my-4">
-            <p class="small text-muted">We respect your privacy. Your email will only be used to send the datasheet.</p>
-        </div>
-    </section>
-    
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -353,22 +324,6 @@
     </section>
 
     {{-- Industries We Serve --}}
-    <section id="industries" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Industries We Serve</h2>
-            </div>
-            <div class="row g-4 mt-4">
-                <div class="col-6 col-md-4 col-lg-2"><div class="application-card text-center"><div class="application-icon"><i class="bi bi-gear"></i></div><h5>Machine Tools</h5></div></div>
-                <div class="col-6 col-md-4 col-lg-2"><div class="application-card text-center"><div class="application-icon"><i class="bi bi-hammer"></i></div><h5>Tool & Die</h5></div></div>
-                <div class="col-6 col-md-4 col-lg-2"><div class="application-card text-center"><div class="application-icon"><i class="ri-car-fill"></i></div><h5>Automotive</h5></div></div>
-                <div class="col-6 col-md-4 col-lg-2"><div class="application-card text-center"><div class="application-icon"><i class="bi bi-robot"></i></div><h5>Robotics</h5></div></div>
-                <div class="col-6 col-md-4 col-lg-2"><div class="application-card text-center"><div class="application-icon"><i class="bi bi-building"></i></div><h5>Construction</h5></div></div>
-                <div class="col-6 col-md-4 col-lg-2"><div class="application-card text-center"><div class="application-icon"><i class="ri-rocket-fill"></i></div><h5>Aerospace</h5></div></div>
-            </div>
-        </div>
-    </section>
-
     <!-- Buying Guide Section -->
     <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -441,25 +396,6 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process</h2>
-            </div>
-            <div class="table-responsive mt-3">
-                <table class="table table-bordered table-striped text-center align-middle">
-                    <thead class="table-dark"><tr class="t-row"><th class="fw-bold">Process Step</th><th class="fw-bold">Description</th></tr></thead>
-                    <tbody>
-                        <tr class="t-row"><td>Cold Forging</td><td>Wire is cut and cold-forged to form the head and internal hex socket.</td></tr>
-                        <tr class="t-row"><td>Thread Rolling</td><td>Threads are rolled onto the shank to improve fatigue strength.</td></tr>
-                        <tr class="t-row"><td>Heat Treatment</td><td>Quenched and tempered to achieve high tensile strength (12.9).</td></tr>
-                        <tr class="t-row"><td>Surface Finish</td><td>Black oxide (thermal) or zinc plating is applied.</td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
              <div class="section-title center mb-4">
@@ -480,16 +416,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Dimensional Tolerances</h2>
-                <p>Manufactured according to DIN 912 and ISO 4762. Thread tolerances are typically 6g.</p>
-            </div>
-        </div>
-    </section>
-
-     <section id="export" class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="export" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
              <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>

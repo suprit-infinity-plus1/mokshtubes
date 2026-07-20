@@ -435,53 +435,11 @@
     </section>
 
     <!-- 10. Manufacturing Process -->
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center mb-4">
-                <h2>Manufacturing Process</h2>
-            </div>
-            <p class="fs-6 text-center text-success fw-bold mb-4">Ensures high toughness and structural integrity.
-            </p>
-            <div class="row g-4 mt-3 justify-content-center">
-                <div class="col-sm-4 col-lg-2">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-1-circle-fill"></i></div>
-                        <h5>Forging of carbon steel material</h5>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-lg-2">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-2-circle-fill"></i></div>
-                        <h5>Machining of flange dimensions</h5>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-lg-2">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-3-circle-fill"></i></div>
-                        <h5>Heat treatment</h5>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-lg-2">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-4-circle-fill"></i></div>
-                        <h5>Facing (RF / RTJ / FF)</h5>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-lg-2">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-5-circle-fill"></i></div>
-                        <h5>Inspection & testing</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 11. Supply & Export Capability -->
+    <!-- 11. Packaging & Export -->
     <section id="export" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2>Supply & Export Capability</h2>
+                <h2>Packaging & Export</h2>
             </div>
             <p class="fs-6 text-center text-muted mb-4">
                 We are a reliable ASTM A350 LF2 flange supplier and exporter, supplying globally. <br>Trusted by EPC contractors and global buyers.

@@ -345,65 +345,6 @@
         </div>
     </section>
 
-    <section id="seamless-vs-welded" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Seamless vs Welded Eccentric Reducers – Key Differences</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                     <p class="fs-6 mb-3 text-justify">
-                        Eccentric Reducers are supplied in both seamless and welded constructions depending on operating pressure, temperature, and line size.
-                    </p>
-
-                    <div class="table-responsive ">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Parameter</th>
-                                    <th>Seamless Eccentric Reducers</th>
-                                    <th>Welded Eccentric Reducers</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Manufacturing</td>
-                                    <td>Extruded or pressed from seamless pipes</td>
-                                    <td>Formed and welded from plates/strips</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Weld Joint</td>
-                                    <td>No weld seam</td>
-                                    <td>Contains 1 or 2 longitudinal weld seams</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Pressure Handling</td>
-                                    <td>Very high pressure rating</td>
-                                    <td>Medium to high pressure rating</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Size Range</td>
-                                    <td>Typically up to 24" NPS</td>
-                                    <td>Available in very large sizes (8" to 48"+)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Cost</td>
-                                    <td>Higher</td>
-                                    <td>More economical for large diameters</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-                    <p class="fs-6 mt-3 text-justify">
-                        Seamless reducers are preferred for high-pressure, high-temperature critical piping, while welded reducers are widely used in larger diameter pipelines where cost efficiency and precise forming are important.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     {{-- Grades Available --}}
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -624,53 +565,6 @@
     </section>
 
     {{-- Industries We Serve --}}
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Industries We Serve</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Power Plants</h5>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Petrochemical</h5>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="ri-ship-2-fill"></i></div>
-                        <h5>Marine & Offshore</h5>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="ri-test-tube-fill"></i></div>
-                        <h5>Chemical</h5>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-water"></i></div>
-                        <h5>Desalination</h5>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-funnel"></i></div>
-                        <h5>Oil & Gas Refineries</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Buying Guide Section -->
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -826,48 +720,6 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process of Eccentric Reducers</h2>
-                <p class="text-justify">Eccentric Reducers are formed using specialized processes to achieve their offset shape while maintaining uniform wall thickness.</p>
-            </div>
-
-            <div class="table-responsive mt-3">
-                <table class="table table-bordered table-striped text-center align-middle">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th class="fw-bold" >Seamless Process</th>
-                            <th class="fw-bold" >Welded Process (for larger sizes)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>Cut seamless pipe to length</td>
-                            <td>Cut steel plates to required pattern</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Hot or cold forming over an offset die</td>
-                            <td>Roll into an eccentric cone shape</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Heat treatment (normalizing / annealing)</td>
-                            <td>Submerged Arc Welding (SAW) of the seam</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Machining & Beveling of ends</td>
-                            <td>Weld inspection (Radiography/UT) and Heat Treatment</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Testing and final inspection</td>
-                            <td>Machining ends, Testing, and Final Inspection</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
              <div class="section-title center mb-4">
@@ -906,26 +758,6 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
-        </div>
-    </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Dimensional Tolerances – Eccentric Reducers</h2>
-                <p>Manufactured in strict accordance with ASME B16.9 tolerances:</p>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Outside Diameter (at Bevel):</strong> +1.6 mm / -0.8 mm (for sizes up to 2-1/2")</li>
-                        <li class="list-group-item"><strong>Overall Length:</strong> ±2.0 mm (sizes up to 8"), ±3.0 mm (larger sizes)</li>
-                        <li class="list-group-item"><strong>Wall Thickness:</strong> Not less than 87.5% of nominal thickness</li>
-                        <li class="list-group-item"><strong>Offset Alignment:</strong> Strictly controlled to ensure a perfect flat side</li>
-                    </ul>
-                </div>
             </div>
         </div>
     </section>

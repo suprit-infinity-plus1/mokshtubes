@@ -388,53 +388,11 @@
     </section>
 
     <!-- 9. Manufacturing Process -->
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center mb-4">
-                <h2>Manufacturing Process</h2>
-            </div>
-            <p class="fs-6 text-center text-success fw-bold mb-4">Ensures high strength and dimensional accuracy.
-            </p>
-            <div class="row g-4 mt-3 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-1-circle-fill"></i></div>
-                        <h5>Forging of flange material</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-2-circle-fill"></i></div>
-                        <h5>Machining of hub & face</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-3-circle-fill"></i></div>
-                        <h5>Heat treatment</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-4-circle-fill"></i></div>
-                        <h5>Drilling & finishing</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-5-circle-fill"></i></div>
-                        <h5>Inspection & testing</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 10. Supply & Export Capability -->
+    <!-- 10. Packaging & Export -->
     <section id="export" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2>Supply & Export Capability</h2>
+                <h2>Packaging & Export</h2>
             </div>
             <p class="fs-6 text-center text-muted mb-4">
                 We are a trusted WN RF flange exporter, supplying globally. Trusted by contractors, refineries, and global buyers.

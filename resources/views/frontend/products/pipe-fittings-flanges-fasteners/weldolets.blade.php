@@ -473,48 +473,6 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process</h2>
-                <p class="text-justify">Our Weldolets are exclusively manufactured via closed-die hot forging to guarantee a continuous grain structure.</p>
-            </div>
-
-            <div class="table-responsive mt-3">
-                <table class="table table-bordered table-striped text-center align-middle">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th class="fw-bold">Process Step</th>
-                            <th class="fw-bold">Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>Billet Heating</td>
-                            <td>Premium steel billets are heated to forging temperature to make the metal malleable without melting.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Closed-Die Forging</td>
-                            <td>The hot billet is compressed into a die, forming the heavy, contoured shape of the Weldolet while aligning the metal grain for maximum fatigue resistance.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Heat Treatment</td>
-                            <td>Forgings undergo Normalizing (A105N) or Solution Annealing to relieve internal stresses and optimize mechanical properties.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>CNC Machining</td>
-                            <td>The base is profiled to perfectly match the Run Pipe radius. The branch end is machined with a precise 37.5° bevel for butt-welding.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Quality Inspection</td>
-                            <td>100% Dimensional checks, Magnetic Particle Inspection (MPI), and Ultrasonic Testing (UT) to ensure zero internal voids.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
              <div class="section-title center mb-4">
@@ -544,24 +502,6 @@
                 </table>
             </div>
              <p class="text-center mt-2 small text-muted">*A105N indicates the forging has been Normalized, guaranteeing superior toughness and impact resistance at low temperatures.</p>
-        </div>
-    </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Tolerances & Quality Standards</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Dimensional Tolerances:</strong> Strictly governed by MSS-SP-97. The branch bevel is governed by ASME B16.25.</li>
-                        <li class="list-group-item"><strong>Consolidation:</strong> Like Sockolets, Weldolets are designed with a consolidated base curve (e.g., 10"-4" x 2"). This means one Weldolet can be welded onto any run pipe between 4" and 10" while providing a 2" branch.</li>
-                        <li class="list-group-item"><strong>Wall Thickness Transition:</strong> The design provides a smooth transition of wall thickness from the heavy base to the branch pipe, minimizing stress concentrations at the weld joint.</li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </section>
 

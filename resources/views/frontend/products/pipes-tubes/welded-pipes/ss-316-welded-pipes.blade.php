@@ -393,60 +393,6 @@
         </div>
     </section>
 
-    <section id="uses" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses & Advantages of SS 316 Welded Pipes</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Superior Corrosion Resistance</h5>
-                        <p>Excellent protection against chlorides, acids, and aggressive chemicals.</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
-                        <h5>Outstanding Marine Performance</h5>
-                        <p>Ideal for seawater, offshore platforms, and coastal installations.</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                        <h5>Excellent Weldability</h5>
-                        <p>Can be fabricated easily with high weld joint efficiency and mechanical strength.</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>High Elevated Temperature Strength</h5>
-                        <p>Maintains high creep, stress-to-rupture, and tensile strength at elevated temperatures.</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-check-circle"></i></div>
-                        <h5>Hygienic & Clean Surface</h5>
-                        <p>Smooth internal flow surface suitable for sterile pharmaceutical and food processing.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <p class="text-center mt-4">
-                <strong>Uses:</strong> Corrosion-resistant fluid transportation | Heat exchanger and condenser systems | Marine and offshore piping | Chemical processing plants | Pharmaceutical manufacturing systems | Food-grade process piping | Water treatment installations | Structural and fabrication projects
-            </p>
-        </div>
-    </section>
-
     <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -497,76 +443,6 @@
         </div>
     </section>
 
-    <section id="ss316-vs-ss304" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>SS 316 vs SS 304 Welded Pipes – Key Differences</h2>
-            </div>
-            
-            <div class="row justify-content-center mt-4">
-                <div class="col-lg-10">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Parameter</th>
-                                    <th>SS 316 Welded Pipes</th>
-                                    <th>SS 304 Welded Pipes</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row"><td>Alloy Composition</td><td>16-18% Cr, 10-14% Ni, <strong>2-3% Mo</strong></td><td>18% Cr, 8% Ni, <strong>No Mo</strong></td></tr>
-                                <tr class="t-row"><td>Chloride / Marine Resistance</td><td><strong>Superior</strong> pitting & crevice corrosion resistance</td><td>Moderate resistance (susceptible to chloride pitting)</td></tr>
-                                <tr class="t-row"><td>Corrosion in Acidic Media</td><td>Excellent against sulfuric, hydrochloric & acetic acids</td><td>Good general corrosion resistance</td></tr>
-                                <tr class="t-row"><td>Temperature Resistance</td><td>Higher creep & stress rupture strength at elevated temps</td><td>Standard elevated temperature resistance</td></tr>
-                                <tr class="t-row"><td>Cost</td><td>Slightly higher due to Molybdenum content</td><td>More economical for standard environments</td></tr>
-                                <tr class="t-row"><td>Typical Applications</td><td>Marine, chemical plants, pharmaceuticals, offshore oil & gas</td><td>Food processing, domestic water, structural fabrication</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <p class="text-center mt-3">
-                        📌 <strong>Conclusion:</strong> Choose <strong style="color: #db7227;">SS 316 Welded Pipes</strong> for marine environments, coastal installations, and aggressive chemical processing where maximum corrosion resistance is mandatory.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process & Quality Control</h2>
-            </div>
-            
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Manufacturing Process of SS 316 Welded Pipes:</strong></p>
-                        <p>Slitting of premium stainless steel 316 coils or plates</p>
-                        <p>Cold roll-forming into precise cylindrical tubular shape</p>
-                        <p>Advanced Welding (ERW / EFW / TIG) along longitudinal seam</p>
-                        <p>Weld seam heat treatment (solution annealing)</p>
-                        <p>Sizing, straightening & precision surface finishing</p>
-                        <p>Non-destructive testing (NDT) & comprehensive final inspection</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Testing & Quality Control:</strong></p>
-                        <p>Each SS 316 Welded Pipe undergoes stringent inspection including:</p>
-                        <p>✔ Hydrostatic Testing</p>
-                        <p>✔ Eddy Current Test & Ultrasonic Testing (UT)</p>
-                        <p>✔ Positive Material Identification (PMI Test)</p>
-                        <p>✔ Dimensional & Wall Thickness Inspection</p>
-                        <p>✔ Visual & Surface Finish Verification</p>
-                        <p><strong>📄 Test Certificate:</strong> EN 10204 3.1 / 3.2</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-5">
@@ -597,33 +473,6 @@
                     <p class="text-center mt-3">
                         📌 <strong>SS 316L</strong> provides low carbon content for enhanced weldability and protection against carbide precipitation during heavy gauge welding.
                     </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="row mt-4 justify-content-center">
-                <div class="col-md-6 col-lg-5">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Dimensional Tolerances</h5>
-                        <p><strong>OD tolerance:</strong> ±0.75% to ±1.0%</p>
-                        <p><strong>Wall thickness:</strong> −12.5% / +10%</p>
-                        <p><strong>Length tolerance:</strong> Random: +100 mm | Cut length: ±3 mm</p>
-                        <p><strong>Ovality & straightness:</strong> Strictly strictly conforming to ASTM A312 / ASME SA312</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-5">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
-                        <h5>Packaging & Global Exports</h5>
-                        <p><strong>Supply Coverage:</strong> Pan-India, UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, Europe & Americas</p>
-                        <p><strong>Export Packaging:</strong> Seaworthy wooden crates & bundled packing, Plastic end caps & moisture protection, ISPM-15 fumigated packaging, Full heat & batch traceability</p>
-                        <p><strong>Export Documentation:</strong> Commercial Invoice & Packing List, Certificate of Origin, EN 10204 3.1 / 3.2, Third-Party Inspection (TPI) support</p>
-                    </div>
                 </div>
             </div>
         </div>

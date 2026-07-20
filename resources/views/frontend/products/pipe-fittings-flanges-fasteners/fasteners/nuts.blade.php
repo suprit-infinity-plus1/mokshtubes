@@ -208,51 +208,6 @@
         </div>
     </section>
 
-    <section id="types" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Types of Nuts – Key Differences</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="table-responsive ">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Parameter</th>
-                                    <th>Hex Nuts (Standard)</th>
-                                    <th>Heavy Hex Nuts</th>
-                                    <th>Lock Nuts (Nyloc)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Dimensions</td>
-                                    <td>Standard width and thickness</td>
-                                    <td>Wider across flats, thicker</td>
-                                    <td>Features a nylon collar insert</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Strength</td>
-                                    <td>Medium</td>
-                                    <td>High (better load distribution)</td>
-                                    <td>Vibration resistant</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Applications</td>
-                                    <td>General purpose machinery</td>
-                                    <td>High-pressure flanges, heavy structural</td>
-                                    <td>Automotive, vibrating equipment</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     {{-- Grades Available --}}
     <section id="chemical-composition" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -378,22 +333,6 @@
     </section>
 
     {{-- Industries We Serve --}}
-    <section id="industries" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Industries We Serve</h2>
-            </div>
-            <div class="row g-4 mt-4">
-                <div class="col-6 col-md-4 col-lg-2"><div class="application-card text-center"><div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div><h5>Power Plants</h5></div></div>
-                <div class="col-6 col-md-4 col-lg-2"><div class="application-card text-center"><div class="application-icon"><i class="bi bi-droplet-half"></i></div><h5>Petrochemical</h5></div></div>
-                <div class="col-6 col-md-4 col-lg-2"><div class="application-card text-center"><div class="application-icon"><i class="ri-ship-2-fill"></i></div><h5>Marine</h5></div></div>
-                <div class="col-6 col-md-4 col-lg-2"><div class="application-card text-center"><div class="application-icon"><i class="ri-test-tube-fill"></i></div><h5>Chemical</h5></div></div>
-                <div class="col-6 col-md-4 col-lg-2"><div class="application-card text-center"><div class="application-icon"><i class="bi bi-building"></i></div><h5>Construction</h5></div></div>
-                <div class="col-6 col-md-4 col-lg-2"><div class="application-card text-center"><div class="application-icon"><i class="bi bi-gear"></i></div><h5>Machinery</h5></div></div>
-            </div>
-        </div>
-    </section>
-
     <!-- Buying Guide Section -->
     <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -465,25 +404,6 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process</h2>
-            </div>
-            <div class="table-responsive mt-3">
-                <table class="table table-bordered table-striped text-center align-middle">
-                    <thead class="table-dark"><tr class="t-row"><th class="fw-bold">Process Step</th><th class="fw-bold">Description</th></tr></thead>
-                    <tbody>
-                        <tr class="t-row"><td>Hot/Cold Forging</td><td>Steel wire or bar is forged into the hexagonal shape.</td></tr>
-                        <tr class="t-row"><td>Tapping</td><td>Internal threads are cut or cold-formed with extreme precision.</td></tr>
-                        <tr class="t-row"><td>Heat Treatment</td><td>Quenching and tempering for increased hardness (e.g., Gr 2H).</td></tr>
-                        <tr class="t-row"><td>Coating</td><td>Zinc, PTFE, or Galvanization applied for corrosion resistance.</td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
              <div class="section-title center mb-4">
@@ -503,16 +423,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Dimensional Tolerances</h2>
-                <p>Manufactured according to ASME B18.2.2 and DIN tolerances to ensure perfect fitment.</p>
-            </div>
-        </div>
-    </section>
-
-     <section id="export" class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="export" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
              <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>

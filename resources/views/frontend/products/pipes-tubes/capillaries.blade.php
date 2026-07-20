@@ -9,20 +9,6 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url('{{ asset('assets/images/product/capillary-tubes.webp') }}');">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-auto text-center">
-                    <h1>Capillary Tubes<br>Manufacturer, Supplier & Exporter</h1>
-
-                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
-                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px; max-width: 900px;">
-                        Capillary Tubes are precision-engineered tubing products with extremely small diameters and tight dimensional tolerances, designed for applications requiring accurate fluid control, high precision, and superior reliability. These tubes are widely used in medical equipment, instrumentation systems, refrigeration units, aerospace components, laboratory equipment, and chemical processing industries.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
     <!--End breadcrumb area-->
 
     <!-- Start Material Tabs -->
@@ -554,26 +540,6 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process</h2>
-            </div>
-
-            <div class="row mt-4 justify-content-center">
-                <div class="col-md-8 text-center">
-                    <p class="fs-6" style="text-align: center;"><strong>Capillary Tubes require highly controlled manufacturing procedures to achieve the extremely tight tolerances demanded by modern industries:</strong></p>
-                    <p>Cold Drawing for Accurate Dimensions</p>
-                    <p>Bright Annealing for Surface Finish</p>
-                    <p>Precision Polishing for Smooth Internal Bore</p>
-                    <p>Straightening & Precision Cutting</p>
-                    <p>Final Inspection & Testing</p>
-                    <p>Export Grade Packaging</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="testing" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="row mt-4 justify-content-center">
@@ -591,7 +557,7 @@
                 <div class="col-md-6 col-lg-5">
                     <div class="application-card h-100">
                         <div class="application-icon"><i class="bi bi-box-seam"></i></div>
-                        <h5>Export & Supply Capability</h5>
+                        <h5>Packaging & Export Capability</h5>
                         <p><strong>Supply Regions:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait, Europe & SE Asia</p>
                         <p><strong>Export Packaging:</strong> Seaworthy wooden crates, customized coils, ISPM-15 packaging</p>
                         <p><strong>Documentation:</strong> Commercial Invoice & Packing List, Certificate of Origin, Mill Test Certificates</p>

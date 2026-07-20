@@ -472,61 +472,6 @@
         </div>
     </section>
 
-    <section id="industries" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Industries We Serve</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Power Plants</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Petrochemical</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="ri-ship-2-fill"></i></div>
-                        <h5>Marine</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="ri-test-bend-fill"></i></div>
-                        <h5>Chemical</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-water"></i></div>
-                        <h5>Desalination</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-snow"></i></div>
-                        <h5>HVAC</h5>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
     <!-- Buying Guide Section (Styled for Your UI) -->
     <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -655,102 +600,6 @@
         </div>
     </section>
     {{-- Advantages of Welded Pipes & Sockolets --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Advantages </h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>High Temperature Strength</h4>
-                        <h5>Maintains integrity in boilers and superheaters.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h4>Precision Manufacturing</h4>
-                        <h5>Tight dimensional tolerances for critical applications.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h4>Corrosion & Oxidation Resistance</h4>
-                        <h5>Suitable for marine and chemical exposure.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h4>Versatile Material Selection</h4>
-                        <h5>Stainless, alloy, carbon, copper <a
-                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> & titanium options.
-                        </h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h4>Global Standards Compliance</h4>
-                        <h5>Manufactured to ASTM, ASME, DIN, EN requirements.</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-            
-    
-<section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process</h2>
-                <p class="text-justify">Our Sockolets are exclusively manufactured via closed-die hot forging to guarantee a continuous grain structure.</p>
-            </div>
-
-            <div class="table-responsive mt-3">
-                <table class="table table-bordered table-striped text-center align-middle">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th class="fw-bold">Process Step</th>
-                            <th class="fw-bold">Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>Billet Cutting & Heating</td>
-                            <td>High-quality steel bars are cut to calculated billet sizes and heated to forging temperature (e.g., 1200°C for carbon steel).</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Closed-Die Forging</td>
-                            <td>The hot billet is pressed between two dies using immense force to form the rough shape of the Olet, aligning the metal grain for maximum strength.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Heat Treatment</td>
-                            <td>Forgings are Normalized (A105N) or Solution Annealed (Stainless) to refine the grain structure and relieve forging stresses.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>CNC Machining</td>
-                            <td>The base is profiled to match the specific Run Pipe consolidation. The internal bore and the socket recess are precision machined to MSS-SP-97 and ASME B16.11 tolerances.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Quality Inspection</td>
-                            <td>100% Dimensional checks, Magnetic Particle Inspection (MPI) for surface cracks, and Hardness Testing.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
              <div class="section-title center mb-4">
@@ -780,24 +629,6 @@
                 </table>
             </div>
              <p class="text-center mt-2 small text-muted">*A105N indicates the forging has been Normalized, which is critical for low-temperature toughness in pressure piping.</p>
-        </div>
-    </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Tolerances & Quality Standards</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Dimensional Tolerances:</strong> Adhere strictly to MSS-SP-97. The socket bore dimensions must also comply with ASME B16.11 for socket-weld fittings.</li>
-                        <li class="list-group-item"><strong>Consolidation:</strong> The profiled base of the Sockolet is designed to fit a range of run pipe sizes (e.g., 6"-3"). A single Sockolet can correctly fit any run pipe diameter within its consolidation range.</li>
-                        <li class="list-group-item"><strong>Gap Requirement:</strong> During installation, a 1/16" (1.6mm) gap must be maintained between the end of the branch pipe and the bottom of the socket to prevent thermal expansion stresses from cracking the fillet weld.</li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </section>
 

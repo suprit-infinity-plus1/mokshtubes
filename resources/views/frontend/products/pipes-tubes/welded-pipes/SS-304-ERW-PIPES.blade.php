@@ -649,87 +649,6 @@
         </div>
     </section>
 
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses & Advantages of SS 304 ERW Pipes</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Excellent corrosion resistance</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
-                        <h5>Smooth internal surface for efficient flow</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-piggy-bank"></i></div>
-                        <h5>Cost-effective vs seamless pipes</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Easy fabrication & welding</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-check-circle"></i></div>
-                        <h5>Suitable for food-grade & hygienic use</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process & Quality Control</h2>
-            </div>
-
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Manufacturing Process of SS 304 ERW
-                                Pipes:</strong></p>
-                        <p>Slitting of stainless steel coils</p>
-                        <p>Cold forming into tubular shape</p>
-                        <p>High-frequency ERW longitudinal welding</p>
-                        <p>Weld seam solution annealing</p>
-                        <p>Sizing, straightening & surface finishing</p>
-                        <p>NDT testing & final inspection</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Testing & Quality Control:</strong></p>
-                        <p>Each SS 304 ERW Pipe undergoes:</p>
-                        <p>✔ Eddy Current Test</p>
-                        <p>✔ Ultrasonic Testing (UT)</p>
-                        <p>✔ PMI Test</p>
-                        <p>✔ Dimensional Inspection</p>
-                        <p>✔ Visual & Surface Inspection</p>
-                        <p><strong>📄 Test Certificate:</strong> EN 10204 3.1</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
@@ -777,35 +696,6 @@
                         📌 <strong>SS 304L</strong> offers improved resistance to intergranular corrosion after welding,
                         making it ideal for fabrication and pressure piping.
                     </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="row mt-4 justify-content-center">
-                <div class="col-md-6 col-lg-5">
-                    <div class="application-card h-100">
-                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Dimensional Tolerances</h5>
-                        <p><strong>OD tolerance:</strong> ±0.75%</p>
-                        <p><strong>Wall thickness:</strong> −12.5% / +10%</p>
-                        <p><strong>Length:</strong> Random: +100 mm | Cut length: ±3 mm</p>
-                        <p><strong>Ovality & straightness:</strong> As per ASTM A312</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-5">
-                    <div class="application-card h-100">
-                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
-                        <h5>Export & Supply</h5>
-                        <p><strong>Supply Regions:</strong> Pan-India, UAE, Saudi Arabia, Qatar, Oman, Kuwait</p>
-                        <p><strong>Export Packaging:</strong> Seaworthy wooden crates & bundles, ISPM-15 fumigated packaging
-                        </p>
-                        <p><strong>Documentation:</strong> Commercial Invoice & Packing List, Certificate of Origin, EN
-                            10204 3.1</p>
-                    </div>
                 </div>
             </div>
         </div>

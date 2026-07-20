@@ -737,57 +737,6 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process of Threaded Rods</h2>
-            </div>
-
-            <p class="text-center mb-4">Threaded rods are manufactured using advanced production methods to ensure
-                strength, accuracy, and durability.</p>
-
-            <div class="row mt-4 justify-content-center">
-                <div class="col-lg-10">
-                    <div class="row">
-                        <div class="col-md-6 mb-4">
-                            <div class="pe-md-3">
-                                <p class="fs-6" style="text-align: justify;"><strong>1. Raw Material
-                                        Selection</strong><br>
-                                    Premium-quality bars are selected according to ASTM, DIN, ISO, and ASME specifications.
-                                </p>
-
-                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>2. Cutting &
-                                        Straightening</strong><br>
-                                    Bars are straightened and cut to required stock or project lengths.</p>
-
-                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>3. Thread Formation</strong><br>
-                                    Threads are produced using Thread Rolling or Thread Cutting. Thread rolling is preferred
-                                    because it increases fatigue strength and thread durability.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 mb-4">
-                            <div class="pe-md-3">
-                                <p class="fs-6" style="text-align: justify;"><strong>4. Heat Treatment</strong><br>
-                                    Depending on the grade, rods may undergo Annealing, Normalizing, Quenching & Tempering,
-                                    or Stress Relieving.</p>
-
-                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>5. Surface
-                                        Finishing</strong><br>
-                                    Available finishes include Plain Finish, Zinc Plated, Hot Dip Galvanized, PTFE Coated,
-                                    Passivated, and Electro Polished.</p>
-
-                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>6. Final Inspection</strong><br>
-                                    Every batch is inspected for dimensional accuracy, thread quality, mechanical
-                                    properties, and material traceability.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
@@ -1032,69 +981,6 @@
                     </div>
                     <p class="text-center mt-3"><strong>Mill Test Certificates and EN 10204 3.1 certification are available
                             upon request.</strong></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="industries" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Industries We Serve</h2>
-            </div>
-
-            <div class="row g-4 justify-content-center mt-3">
-                <div class="col-6 col-md-3 text-center">
-                    <div class="p-3 border rounded bg-light h-100"><i
-                            class="bi bi-building fs-3 d-block mb-2 text-primary"></i> Construction</div>
-                </div>
-                <div class="col-6 col-md-3 text-center">
-                    <div class="p-3 border rounded bg-light h-100"><i
-                            class="bi bi-cone fs-3 d-block mb-2 text-primary"></i> Infrastructure</div>
-                </div>
-                <div class="col-6 col-md-3 text-center">
-                    <div class="p-3 border rounded bg-light h-100"><i
-                            class="bi bi-fuel-pump fs-3 d-block mb-2 text-primary"></i> Oil & Gas</div>
-                </div>
-                <div class="col-6 col-md-3 text-center">
-                    <div class="p-3 border rounded bg-light h-100"><i
-                            class="bi bi-ev-station fs-3 d-block mb-2 text-primary"></i> Petrochemical</div>
-                </div>
-                <div class="col-6 col-md-3 text-center">
-                    <div class="p-3 border rounded bg-light h-100"><i
-                            class="bi bi-tsunami fs-3 d-block mb-2 text-primary"></i> Marine & Offshore</div>
-                </div>
-                <div class="col-6 col-md-3 text-center">
-                    <div class="p-3 border rounded bg-light h-100"><i
-                            class="bi bi-lightning-charge fs-3 d-block mb-2 text-primary"></i> Power Generation</div>
-                </div>
-                <div class="col-6 col-md-3 text-center">
-                    <div class="p-3 border rounded bg-light h-100"><i
-                            class="bi bi-hammer fs-3 d-block mb-2 text-primary"></i> Mining</div>
-                </div>
-                <div class="col-6 col-md-3 text-center">
-                    <div class="p-3 border rounded bg-light h-100"><i
-                            class="bi bi-snow fs-3 d-block mb-2 text-primary"></i> HVAC</div>
-                </div>
-                <div class="col-6 col-md-3 text-center">
-                    <div class="p-3 border rounded bg-light h-100"><i
-                            class="bi bi-droplet fs-3 d-block mb-2 text-primary"></i> Water Treatment</div>
-                </div>
-                <div class="col-6 col-md-3 text-center">
-                    <div class="p-3 border rounded bg-light h-100"><i
-                            class="bi bi-cup-straw fs-3 d-block mb-2 text-primary"></i> Food Processing</div>
-                </div>
-                <div class="col-6 col-md-3 text-center">
-                    <div class="p-3 border rounded bg-light h-100"><i
-                            class="bi bi-capsule fs-3 d-block mb-2 text-primary"></i> Pharmaceutical</div>
-                </div>
-                <div class="col-6 col-md-3 text-center">
-                    <div class="p-3 border rounded bg-light h-100"><i
-                            class="bi bi-car-front fs-3 d-block mb-2 text-primary"></i> Automotive</div>
-                </div>
-                <div class="col-6 col-md-3 text-center">
-                    <div class="p-3 border rounded bg-light h-100"><i
-                            class="bi bi-airplane fs-3 d-block mb-2 text-primary"></i> Aerospace</div>
                 </div>
             </div>
         </div>
@@ -1787,52 +1673,6 @@
 </section>
 
 
-<section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
-    <div class="container">
-        <div class="section-title center mb-3 mt-4">
-            <h2 class="fw-bold" style="color: #174268;">Manufacturing Process of Threaded Rods</h2>
-            <p class="text-justify">Our threaded bars are predominantly manufactured using the thread-rolling technique
-                for enhanced durability.</p>
-        </div>
-
-        <div class="table-responsive mt-3">
-            <table class="table table-bordered table-striped text-center align-middle">
-                <thead class="table-dark">
-                    <tr class="t-row">
-                        <th class="fw-bold">Process Step</th>
-                        <th class="fw-bold">Description</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="t-row">
-                        <td>Wire / Bar Drawing</td>
-                        <td>High-quality steel bars are drawn or extruded to the exact pitch diameter.</td>
-                    </tr>
-                    <tr class="t-row">
-                        <td>Thread Rolling</td>
-                        <td>The long bars are fed continuously through massive thread-rolling dies. This cold-forms the
-                            threads without cutting the metal, leaving the grain structure unbroken.</td>
-                    </tr>
-                    <tr class="t-row">
-                        <td>Cutting to Length</td>
-                        <td>The continuous threaded rods are sheared or sawn into 1m, 2m, or 3m standard lengths.</td>
-                    </tr>
-                    <tr class="t-row">
-                        <td>Heat Treatment (Optional)</td>
-                        <td>Rods intended for grades 8.8, 10.9, or 12.9 are quenched and tempered for high tensile
-                            strength.</td>
-                    </tr>
-                    <tr class="t-row">
-                        <td>Galvanizing / Coating</td>
-                        <td>Zinc electroplating (BZP) or Hot-Dip Galvanizing (HDG) is applied to protect against rust.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</section>
-
 <section id="mechanical" class="sec-padd-top sec-padd-bottom">
     <div class="container">
         <div class="section-title center mb-4">
@@ -1877,27 +1717,6 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
-    </div>
-</section>
-
-<section id="tolerances" class="sec-padd-top sec-padd-bottom bg-light">
-    <div class="container">
-        <div class="section-title center mb-4">
-            <h2 class="fw-bold" style="color: #174268;">Tolerances & Quality Standards</h2>
-        </div>
-
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><strong>Thread Tolerance:</strong> External threads strictly conform to
-                        ISO 965 Class 6g, ensuring a smooth and snug fit with standard 6H nuts.</li>
-                    <li class="list-group-item"><strong>Straightness Tolerance:</strong> Precisely controlled during
-                        the manufacturing process to prevent bowing or warping over 3-meter lengths.</li>
-                    <li class="list-group-item"><strong>Thread Quality:</strong> Rolled threads offer a superior
-                        surface finish, reducing the likelihood of galling (cold welding) in stainless steel rods.</li>
-                </ul>
-            </div>
         </div>
     </div>
 </section>

@@ -473,48 +473,6 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process</h2>
-                <p class="text-justify">Our heavy hex nuts are manufactured utilizing advanced forging techniques to ensure zero defects and high structural integrity.</p>
-            </div>
-
-            <div class="table-responsive mt-3">
-                <table class="table table-bordered table-striped text-center align-middle">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th class="fw-bold">Process Step</th>
-                            <th class="fw-bold">Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>Hot / Cold Forging</td>
-                            <td>Nuts are hot-forged (for larger sizes) or cold-forged (for smaller sizes) to form the hexagonal blank, compressing the metal grain for superior strength.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Tapping (Threading)</td>
-                            <td>Internal threads are precisely cut or formed using advanced CNC tapping machines to strictly meet Class 2B fit tolerances.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Heat Treatment</td>
-                            <td>Grade 2H nuts undergo quenching and tempering to achieve high hardness and proof load requirements.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Proof Load Testing</td>
-                            <td>Sample nuts are subjected to massive loads to ensure the threads do not strip under tension.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Surface Treatment</td>
-                            <td>Protective coatings such as Hot-Dip Galvanization, Zinc Plating, or PTFE (Teflon) are applied based on customer requirements.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
              <div class="section-title center mb-4">

@@ -469,48 +469,6 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process</h2>
-                <p class="text-justify">Our hex bolts are engineered for maximum strength and fatigue resistance.</p>
-            </div>
-
-            <div class="table-responsive mt-3">
-                <table class="table table-bordered table-striped text-center align-middle">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th class="fw-bold">Process Step</th>
-                            <th class="fw-bold">Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>Material Preparation</td>
-                            <td>High-quality steel wire or bar stock is uncoiled and straightened.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Cold Forging (Heading)</td>
-                            <td>The blank is struck at room temperature in a die to form the hexagonal head. This improves grain structure and strength. Large bolts may be hot-forged.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Thread Rolling</td>
-                            <td>The shank is passed between rolling dies to cold-form the threads. Rolled threads are significantly stronger than cut threads.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Heat Treatment</td>
-                            <td>High-tensile bolts (Grade 8.8+) undergo Quenching and Tempering to achieve the required hardness and yield strength.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Surface Treatment</td>
-                            <td>Bolts are Zinc Plated, Hot-Dip Galvanized, or PTFE coated for corrosion protection.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
              <div class="section-title center mb-4">

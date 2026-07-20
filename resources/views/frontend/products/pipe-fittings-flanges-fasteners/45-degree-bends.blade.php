@@ -109,66 +109,7 @@
         </div>
     </section>
 
-    <section id="specifications" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>SPECIFICATIONS</h2>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Category</th>
-                                    <th>Details</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-start">
-                                <tr class="t-row">
-                                    <td>Material</td>
-                                    <td><a href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a>, <a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>, Alloy Steel, 
-                                        <a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex / Super Duplex Steel</a>, <a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a>, <a href="{{ route('materials.titanium') }}">Titanium</a>
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Outer Diameter (OD)</td>
-                                    <td>1/2" NB to 48" NB (Seamless & Welded)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Wall Thickness (Schedule)</td>
-                                    <td>Sch 10, 20, 30, 40, STD, 80, XS, 160, XXS (Up to 100mm thickness)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Bending Radius</td>
-                                    <td>3D, 5D, 7D, 10D, and Custom Radii (R = 3xOD, 5xOD, etc.)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Bending Angle</td>
-                                    <td>45 Degree</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Dimensional Standards</td>
-                                    <td>ASME B16.9, MSS-SP-75, EN 10253, DIN 2605</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>End Connection</td>
-                                    <td>Beveled Ends (ASME B16.25), Plain Ends, Flanged Ends</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Manufacturing Process</td>
-                                    <td>Hot Induction Bending, Cold Bending, Seamless/Welded Pipe Base</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
 
         <div class="container">
             <div class="section-title center mb-4">
@@ -1052,78 +993,6 @@
        
     </section>
 
-    <section id="types" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Seamless vs Welded 45 Degree Bends – Key Differences</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                     <p class="fs-6 mb-3 text-justify">
-                        45 degree bends are supplied in both seamless and welded constructions depending on operating pressure, temperature, and project criticality.
-                    </p>
-
-                    <div class="table-responsive ">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Parameter</th>
-                                    <th>Seamless Bends</th>
-                                    <th>Welded Bends (ERW / EFW)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Manufacturing</td>
-                                    <td>Hot extrusion / piercing</td>
-                                    <td>Plate or strip welded</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Weld Joint</td>
-                                    <td>No weld seam</td>
-                                    <td>Longitudinal weld present</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Pressure Handling</td>
-                                    <td>Very high pressure</td>
-                                    <td>Low to medium pressure</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Temperature Resistance</td>
-                                    <td>Excellent</td>
-                                    <td>Good</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Dimensional Accuracy</td>
-                                    <td>Good</td>
-                                    <td>Excellent</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Cost</td>
-                                    <td>Higher</td>
-                                    <td>More economical</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Typical Use</td>
-                                    <td>Boilers, superheaters</td>
-                                    <td>Heat exchangers, condensers</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-                    <p class="fs-6 mt-3 text-justify">
-                        Seamless 45 degree bends are preferred for high-pressure and high-temperature zones, while welded bends are widely used in heat exchangers, condensers, and economizers where cost efficiency and dimensional precision are important.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
     <script>
         // document.addEventListener("DOMContentLoaded", function() {
         //     const fullTable = document.getElementById("table-5c-full");
@@ -1414,61 +1283,6 @@
 
 
     {{-- Industries We Serve --}}
-    <section id="industries" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Industries We Serve</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Power Plants</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Petrochemical</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="ri-ship-2-fill"></i></div>
-                        <h5>Marine</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="ri-test-bend-fill"></i></div>
-                        <h5>Chemical</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-water"></i></div>
-                        <h5>Desalination</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="application-card text-center">
-                        <div class="application-icon"><i class="bi bi-snow"></i></div>
-                        <h5>HVAC</h5>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
     <!-- Buying Guide Section (Styled for Your UI) -->
     <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -1600,102 +1414,6 @@
         </div>
     </section>
     {{-- Advantages of Welded Pipes & Bends --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Advantages </h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>High Temperature Strength</h4>
-                        <h5>Maintains integrity in boilers and superheaters.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h4>Precision Manufacturing</h4>
-                        <h5>Tight dimensional tolerances for critical applications.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h4>Corrosion & Oxidation Resistance</h4>
-                        <h5>Suitable for marine and chemical exposure.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h4>Versatile Material Selection</h4>
-                        <h5>Stainless, alloy, carbon, copper <a
-                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> & titanium options.
-                        </h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h4>Global Standards Compliance</h4>
-                        <h5>Manufactured to ASTM, ASME, DIN, EN requirements.</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-            
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process of 45 Degree Bends</h2>
-                <p class="text-justify">45 degree bends are manufactured using controlled processes to ensure strength, reliability, and long service life.</p>
-            </div>
-
-            <div class="table-responsive mt-3">
-                <table class="table table-bordered table-striped text-center align-middle">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th class="fw-bold" >Seamless Bends Manufacturing</th>
-                            <th class="fw-bold" >Welded Bends Manufacturing (ERW / EFW)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>Steel billets are heated and pierced</td>
-                            <td>Steel strip or plate is formed into tubular shape</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Bends are hot-rolled or cold-drawn to required size</td>
-                            <td>Longitudinal seam welded using ERW or EFW process</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Heat treatment (normalizing / annealing)</td>
-                            <td>Weld heat treatment</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Straightening, sizing, and finishing</td>
-                            <td>Sizing and surface finishing</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Testing and final inspection</td>
-                            <td>NDT testing and inspection</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-             <p class="mt-3 text-center">This ensures uniform wall thickness, strong weld integrity, and reliable performance in heat-transfer applications.</p>
-        </div>
-    </section>
-
     <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
              <div class="section-title center mb-4">
@@ -1736,27 +1454,6 @@
                 </table>
             </div>
              <p class="mt-2 text-muted text-center"><small>📌 Actual values depend on material grade and heat treatment.</small></p>
-        </div>
-    </section>
-
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Dimensional Tolerances – 45 Degree Bends</h2>
-                <p>45 degree bends are manufactured in accordance with ASTM dimensional tolerances:</p>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Outside Diameter (OD):</strong> ±1%</li>
-                        <li class="list-group-item"><strong>Wall Thickness:</strong> Minimum: −12.5% | Maximum: As specified</li>
-                        <li class="list-group-item"><strong>Length Tolerance:</strong> Random length: +100 mm | Cut length: ±3 mm</li>
-                        <li class="list-group-item"><strong>Straightness & Ovality:</strong> As per applicable ASTM specification</li>
-                    </ul>
-                     <p class="mt-3 text-center">These tolerances ensure proper fitment, pressure integrity, and trouble-free installation in EPC and power plant projects.</p>
-                </div>
-            </div>
         </div>
     </section>
 

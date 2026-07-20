@@ -476,48 +476,6 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process</h2>
-                <p class="text-justify">Our buttweld elbows are manufactured using hot induction bending or cold forming for maximum integrity.</p>
-            </div>
-
-            <div class="table-responsive mt-3">
-                <table class="table table-bordered table-striped text-center align-middle">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th class="fw-bold">Process Step</th>
-                            <th class="fw-bold">Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>Mandrel Forming (Hot Forming)</td>
-                            <td>Seamless pipes are pushed over a heated die (mandrel) to form the curve while strictly controlling wall thinning on the extrados.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Cold Forming</td>
-                            <td>For smaller sizes, pipes are cold-pressed in hydraulic dies.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Heat Treatment</td>
-                            <td>Elbows are Normalized or Quenched & Tempered to relieve internal stresses and restore mechanical properties according to ASTM material standards.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Machining (Beveling)</td>
-                            <td>The ends are precision machined to specific bevel angles (usually 37.5° ± 2.5°) per ASME B16.25 for optimal welding.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Non-Destructive Testing</td>
-                            <td>100% Visual, Dimensional, Ultrasonic (UT), and Magnetic Particle Inspection (MPI) to ensure zero cracks or defects.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
              <div class="section-title center mb-4">
@@ -554,24 +512,6 @@
                 </table>
             </div>
              <p class="text-center mt-2 small text-muted">*Properties must match the corresponding seamless pipe specification (e.g., A106 Gr. B for A234 WPB).</p>
-        </div>
-    </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Tolerances & Quality Standards</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Dimensional Tolerances:</strong> Adhere strictly to ASME B16.9. Center-to-end dimension tolerance is typically ±2.0 mm for sizes ≤ NPS 8.</li>
-                        <li class="list-group-item"><strong>Wall Thickness:</strong> Wall thickness on the outer curve (extrados) must not be less than 87.5% of the nominal wall thickness.</li>
-                        <li class="list-group-item"><strong>Bevel Ends:</strong> Beveled per ASME B16.25 to ensure consistent weld penetration for X-ray quality pipe joints.</li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </section>
 

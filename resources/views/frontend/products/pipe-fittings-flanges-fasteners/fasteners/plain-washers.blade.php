@@ -463,48 +463,6 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process</h2>
-                <p class="text-justify">Our plain washers are manufactured for absolute flatness and structural integrity using advanced techniques.</p>
-            </div>
-
-            <div class="table-responsive mt-3">
-                <table class="table table-bordered table-striped text-center align-middle">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th class="fw-bold">Process Step</th>
-                            <th class="fw-bold">Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>Stamping / Punching</td>
-                            <td>High-speed mechanical presses punch the washers from thick steel sheets or coils. This is standard for DIN 125.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Machining</td>
-                            <td>For extremely thick washers, or washers made from exotic alloys (Titanium, Inconel), they are CNC machined from solid bar stock.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Deburring</td>
-                            <td>Washers are tumbled or vibro-finished to remove sharp edges and burrs created during punching, ensuring a smooth bearing surface.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Heat Treatment</td>
-                            <td>Structural washers (ASTM F436) are through-hardened (quenched and tempered) to withstand the immense clamping forces of A325/A490 bolts.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Surface Treatment</td>
-                            <td>Washers are Hot-Dip Galvanized, Zinc Plated, or PTFE coated to resist environmental corrosion.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
              <div class="section-title center mb-4">

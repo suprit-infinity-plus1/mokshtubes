@@ -428,42 +428,6 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process & Quality Control</h2>
-            </div>
-
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Manufacturing Process of SS 304 Semi Welded
-                                Pipes:</strong></p>
-                        <p>Slitting of stainless steel coils</p>
-                        <p>Cold forming into tubular shape</p>
-                        <p>Controlled welding process</p>
-                        <p>Weld seam solution annealing</p>
-                        <p>Sizing, straightening & surface finishing</p>
-                        <p>NDT testing & final inspection</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Testing & Quality Control:</strong></p>
-                        <p>Each SS 304 Semi Welded Pipe undergoes:</p>
-                        <p>✔ Eddy Current Test</p>
-                        <p>✔ Hydrostatic Testing</p>
-                        <p>✔ PMI Test</p>
-                        <p>✔ Dimensional Inspection</p>
-                        <p>✔ Visual & Surface Inspection</p>
-                        <p><strong>📄 Test Certificate:</strong> EN 10204 3.1</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-5">
@@ -505,35 +469,6 @@
                     <p class="text-center mt-3">
                         📌 <strong>SS 304</strong> offers excellent strength and durability for general piping applications.
                     </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="row mt-4 justify-content-center">
-                <div class="col-md-6 col-lg-5">
-                    <div class="application-card h-100">
-                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Dimensional Tolerances</h5>
-                        <p><strong>OD tolerance:</strong> ±0.75%</p>
-                        <p><strong>Wall thickness:</strong> −12.5% / +10%</p>
-                        <p><strong>Length:</strong> Random: +100 mm | Cut length: ±3 mm</p>
-                        <p><strong>Ovality & straightness:</strong> As per ASTM A312</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-5">
-                    <div class="application-card h-100">
-                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
-                        <h5>Export & Supply</h5>
-                        <p><strong>Supply Regions:</strong> Pan-India, UAE, Saudi Arabia, Qatar, Oman, Kuwait</p>
-                        <p><strong>Export Packaging:</strong> Seaworthy wooden crates & bundles, ISPM-15 fumigated packaging
-                        </p>
-                        <p><strong>Documentation:</strong> Commercial Invoice & Packing List, Certificate of Origin, EN
-                            10204 3.1</p>
-                    </div>
                 </div>
             </div>
         </div>

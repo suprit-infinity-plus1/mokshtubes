@@ -476,48 +476,6 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-3 mt-4">
-                <h2 class="fw-bold" style="color: #174268;">Manufacturing Process</h2>
-                <p class="text-justify">Our elbows are precisely formed to maintain uniform wall thickness along the critical outer curve.</p>
-            </div>
-
-            <div class="table-responsive mt-3">
-                <table class="table table-bordered table-striped text-center align-middle">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th class="fw-bold">Process Step</th>
-                            <th class="fw-bold">Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>Mandrel Forming (Hot Forming)</td>
-                            <td>Seamless pipes are pushed over a heated, curved die (mandrel) to expand the pipe and form the elbow while maintaining the extrados wall thickness.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Cold Forming</td>
-                            <td>Hydraulic presses force pipe sections into a die. Often used for stainless steel and smaller diameters.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Heat Treatment</td>
-                            <td>To remove stresses introduced during forming, carbon steel is Normalized, and stainless steel undergoes Solution Annealing.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Beveling</td>
-                            <td>Ends are CNC machined to a standard 37.5° angle to prepare the fitting for butt-welding.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Testing</td>
-                            <td>Rigorous Non-Destructive Testing (NDT) including Ultrasonic Testing (UT) to detect hidden flaws.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
              <div class="section-title center mb-4">
@@ -554,24 +512,6 @@
                 </table>
             </div>
              <p class="text-center mt-2 small text-muted">*Properties must match the corresponding seamless pipe specification (e.g., A312 TP316 for A403 WP316).</p>
-        </div>
-    </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Tolerances & Quality Standards</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Dimensional Tolerances:</strong> Strictly governed by ASME B16.9 (for LR) and ASME B16.28 (for SR) to ensure perfect alignment during piping installation.</li>
-                        <li class="list-group-item"><strong>Wall Thickness:</strong> The wall thickness at any point must not be less than 87.5% of the nominal thickness specified for the pipe schedule.</li>
-                        <li class="list-group-item"><strong>Squareness:</strong> The ends must be perfectly square (perpendicular to the axis) to ensure gapless fit-up prior to welding.</li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </section>
 

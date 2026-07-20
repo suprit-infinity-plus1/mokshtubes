@@ -201,80 +201,6 @@
         </div>
     </section>
 
-    <section id="types" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Types of Round Bars</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                        <h5>Hot Rolled Round Bars</h5>
-                        <p>Hot rolled round bars are produced at elevated temperatures and are commonly used in construction, fabrication, heavy engineering, and structural applications.</p>
-                        <hr>
-                        <h6>Features</h6>
-                        <ul class="text-start mb-0 ps-3">
-                            <li>Cost-effective solution</li>
-                            <li>Excellent strength</li>
-                            <li>Easy fabrication</li>
-                            <li>Suitable for large structural projects</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Cold Drawn Round Bars</h5>
-                        <p>Cold drawn round bars offer tighter dimensional tolerances and improved surface finish.</p>
-                        <hr>
-                        <h6>Features</h6>
-                        <ul class="text-start mb-0 ps-3">
-                            <li>Superior dimensional accuracy</li>
-                            <li>Better machinability</li>
-                            <li>Enhanced mechanical properties</li>
-                            <li>Smooth surface finish</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Forged Round Bars</h5>
-                        <p>Forged round bars are manufactured through forging operations to improve grain structure and strength.</p>
-                        <hr>
-                        <h6>Features</h6>
-                        <ul class="text-start mb-0 ps-3">
-                            <li>High impact resistance</li>
-                            <li>Superior fatigue strength</li>
-                            <li>Excellent toughness</li>
-                            <li>Ideal for heavy engineering</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-stars"></i></div>
-                        <h5>Bright Round Bars</h5>
-                        <p>Bright round bars are precision-finished products used for decorative, architectural, and precision machining applications.</p>
-                        <hr>
-                        <h6>Features</h6>
-                        <ul class="text-start mb-0 ps-3">
-                            <li>Excellent surface finish</li>
-                            <li>Tight tolerances</li>
-                            <li>Attractive appearance</li>
-                            <li>Suitable for precision components</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -335,45 +261,6 @@
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process of Round Bars</h2>
-            </div>
-            
-            <p class="text-center mb-4">The manufacturing of round bars involves advanced metallurgical processes to achieve optimum mechanical properties and dimensional accuracy.</p>
-
-            <div class="row mt-4 justify-content-center">
-                <div class="col-lg-10">
-                    <div class="row">
-                        <div class="col-md-6 mb-4">
-                            <div class="pe-md-3">
-                                <p class="fs-6" style="text-align: justify;"><strong>Raw Material Selection</strong><br>
-                                High-quality billets and ingots are selected according to ASTM, ASME, DIN, EN, and JIS standards.</p>
-                                
-                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>Hot Rolling & Forging</strong><br>
-                                The material is processed into round profiles through rolling or forging operations.</p>
-                                
-                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>Heat Treatment</strong><br>
-                                Depending on the grade, round bars may undergo Annealing, Solution Annealing, Normalizing, Quenching & Tempering, or Stress Relieving.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 mb-4">
-                            <div class="pe-md-3">
-                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>Surface Finishing</strong><br>
-                                Available finishing processes include Grinding, Polishing, Bright Drawing, Pickling, Passivation, and Peeling.</p>
-                                
-                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>Inspection & Testing</strong><br>
-                                Every batch undergoes strict quality control procedures before dispatch.</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -546,28 +433,6 @@
                         <p class="mt-3 text-muted"><em>Mill Test Certificates and third-party inspection reports are available upon request.</em></p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="industries" class="sec-padd-top sec-padd-bottom">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>Industries We Serve</h2>
-            </div>
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Construction</div></div>
-                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Infrastructure</div></div>
-                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Oil & Gas</div></div>
-                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Petrochemical</div></div>
-                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Marine & Offshore</div></div>
-                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Power Generation</div></div>
-                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Aerospace</div></div>
-                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Automotive</div></div>
-                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Heavy Engineering</div></div>
-                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Manufacturing</div></div>
-                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Mining</div></div>
-                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Defense</div></div>
             </div>
         </div>
     </section>

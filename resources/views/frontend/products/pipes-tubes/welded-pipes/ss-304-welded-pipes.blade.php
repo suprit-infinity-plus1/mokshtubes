@@ -254,41 +254,6 @@
         </div>
     </section>
 
-    <section id="welded-vs-seamless" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Welded vs Seamless Stainless Steel Pipes – Key Differences</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Parameter</th>
-                                    <th>Welded Pipes</th>
-                                    <th>Seamless Pipes</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row"><td>Manufacturing</td><td>Formed & welded</td><td>Hot extrusion / cold drawing</td></tr>
-                                <tr class="t-row"><td>Weld Seam</td><td>Present</td><td>No seam</td></tr>
-                                <tr class="t-row"><td>Pressure Rating</td><td>Low–Medium</td><td>High</td></tr>
-                                <tr class="t-row"><td>Dimensional Accuracy</td><td>Excellent</td><td>Good</td></tr>
-                                <tr class="t-row"><td>Cost</td><td>Economical</td><td>Higher</td></tr>
-                                <tr class="t-row"><td>Typical Use</td><td>Food, water, fabrication</td><td>High-pressure critical lines</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <p class="text-center mt-3">
-                        📌 <strong>SS 304 Welded Pipes</strong> are ideal where hygiene, corrosion resistance, and cost efficiency are required.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -373,90 +338,6 @@
         </div>
     </section>
 
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses & Advantages of SS 304 Welded Pipes</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Excellent corrosion resistance</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Smooth internal surface for efficient flow</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-piggy-bank"></i></div>
-                        <h5>Cost-effective compared to seamless pipes</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Easy fabrication and welding</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-check-circle"></i></div>
-                        <h5>Suitable for food-grade and hygienic applications</h5>
-                    </div>
-                </div>
-            </div>
-            
-            <p class="text-center mt-4">
-                <strong>Uses:</strong> Corrosion-resistant fluid transport | Hygienic processing systems | Structural fabrication | Low to medium pressure pipelines | Industrial utility services
-            </p>
-        </div>
-    </section>
-
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process & Quality Control</h2>
-            </div>
-            
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Manufacturing Process of SS 304 Welded Pipes:</strong></p>
-                        <p>Slitting of stainless steel coils / plates</p>
-                        <p>Cold forming into tubular shape</p>
-                        <p>Welding (ERW / EFW / TIG)</p>
-                        <p>Weld seam heat treatment (solution annealing)</p>
-                        <p>Sizing, straightening & surface finishing</p>
-                        <p>Non-destructive testing & final inspection</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Testing & Quality Control:</strong></p>
-                        <p>Each SS 304 Welded Pipe undergoes strict inspection including:</p>
-                        <p>✔ Eddy Current Test</p>
-                        <p>✔ Ultrasonic Testing (UT)</p>
-                        <p>✔ PMI Test</p>
-                        <p>✔ Dimensional Inspection</p>
-                        <p>✔ Visual & Surface Finish Inspection</p>
-                        <p><strong>📄 Test Certificate:</strong> EN 10204 3.1</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
@@ -491,34 +372,6 @@
             </div>
         </div>
     </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="row mt-4 justify-content-center">
-                <div class="col-md-6 col-lg-5">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Dimensional Tolerances</h5>
-                        <p><strong>OD tolerance:</strong> ±0.75%</p>
-                        <p><strong>Wall thickness:</strong> −12.5% / +10%</p>
-                        <p><strong>Length tolerance:</strong> Random: +100 mm | Cut length: ±3 mm</p>
-                        <p><strong>Ovality & straightness:</strong> As per ASTM A312</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-5">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
-                        <h5>Export & Supply</h5>
-                        <p><strong>Supply Regions:</strong> Pan-India, UAE, Saudi Arabia, Qatar, Oman, Kuwait</p>
-                        <p><strong>Export Packaging:</strong> Seaworthy wooden crates & bundles, Plastic end caps & moisture protection, ISPM-15 fumigated packaging, Proper heat & batch traceability</p>
-                        <p><strong>Export Documentation:</strong> Commercial Invoice & Packing List, Certificate of Origin, EN 10204 3.1, Third-Party Inspection (TPI) if required</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">

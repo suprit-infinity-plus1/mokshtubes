@@ -287,98 +287,6 @@
         </div>
     </section>
 
-    <section id="uses" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses & Advantages of Cladded Plates</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-piggy-bank"></i></div>
-                        <h5>Cost Efficiency</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                        <h5>High Strength & Durability</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-x"></i></div>
-                        <h5>Corrosion Resistance</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-layers"></i></div>
-                        <h5>Wide Material Combinations</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Customizable Thickness</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-patch-check"></i></div>
-                        <h5>Compliance with Global Standards</h5>
-                    </div>
-                </div>
-            </div>
-            
-            <p class="text-center mt-4">
-                <strong>Uses:</strong> Corrosion-resistant surface with structural strength | Cost-effective alternative to solid alloy plates | Extended service life in harsh environments | Suitable for chemical and marine applications | Ideal for pressure vessels and heavy-duty equipment
-            </p>
-        </div>
-    </section>
-
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing Process & Quality Control</h2>
-            </div>
-            
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Bonding Methods:</strong></p>
-                        <p>✔ Explosive Bonding – High-energy bonding for dissimilar metals</p>
-                        <p>✔ Roll Bonding – Pressure-based bonding process</p>
-                        <p>✔ Weld Overlay – Deposition of clad layer over base metal</p>
-                        <p class="fs-6 mt-3" style="text-align: justify;"><strong>Process Steps:</strong></p>
-                        <p>Material preparation</p>
-                        <p>Bonding process</p>
-                        <p>Heat treatment</p>
-                        <p>Surface finishing</p>
-                        <p>Inspection & testing</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Testing & Quality Control:</strong></p>
-                        <p>Each Cladded Plate undergoes strict inspection including:</p>
-                        <p>✔ Bond integrity testing</p>
-                        <p>✔ Ultrasonic testing (UT)</p>
-                        <p>✔ Thickness measurement</p>
-                        <p>✔ Material certification</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-5">
@@ -401,32 +309,6 @@
                                 <tr class="t-row"><td>Nickel Alloy</td><td>600+</td></tr>
                             </tbody>
                         </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="row mt-4 justify-content-center">
-                <div class="col-md-6 col-lg-5">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Dimensional Tolerances</h5>
-                        <p><strong>Thickness:</strong> ±0.5 mm to ±2 mm</p>
-                        <p><strong>Cladding thickness:</strong> ±10%</p>
-                        <p><strong>Length:</strong> ±5 mm</p>
-                        <p><strong>Flatness:</strong> As per standard</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-5" id="export">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
-                        <h5>Exports & Supply Coverage</h5>
-                        <p><strong>We supply across India:</strong> Mumbai, Pune, Ahmedabad, Bangalore, Chennai, Hyderabad</p>
-                        <p><strong>Export markets:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait</p>
                     </div>
                 </div>
             </div>
