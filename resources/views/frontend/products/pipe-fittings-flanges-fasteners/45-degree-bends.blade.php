@@ -1,11 +1,22 @@
 @extends('layouts.master')
-@section('title', '45 Degree Bends | Pipe Bends 3D, 5D, 7D | Moksh Tubes')
-<!-- 52 characters -->
-@section('meta_description',
-    'High-quality 45 Degree Pipe Bends for smooth flow direction changes. Available in 3D, 5D, and custom radius in Carbon, Alloy, Stainless Steel & Nickel Alloys.')
-@section('meta_keywords',
-    '45 Degree Bends, Pipe Bends, 3D Bends, 5D Bends, Hot Induction Bends, Stainless Steel Bends, Carbon Steel Bends')
+@section('title', '45 Degree Bend Manufacturer, Supplier & Exporter in India | Moksh Tubes')
+@section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of 45 Degree
+    Bends in Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex. ASTM & ASME certified quality with worldwide
+    delivery.')
+@section('meta_keywords', '45 Degree Bend, 45 Degree Bend Manufacturer, 45 Degree Bend Supplier, 45 Degree Bend
+    Exporter, Stainless Steel 45 Degree Bend, Carbon Steel 45 Degree Bend, Alloy Steel 45 Degree Bend, Duplex 45 Degree
+    Bend, Super Duplex 45 Degree Bend, Long Radius 45 Degree Bend, Buttweld Bend, Pipe Bend, Pipe Bend Manufacturer,
+    Industrial Pipe Bend, ASME B16.49 Bend, ASME B16.9 Bend, Seamless 45 Degree Bend, Welded 45 Degree Bend, Industrial Pipe
+    Fittings, Butt Weld Pipe Fittings, Stainless Steel Pipe Fittings, High Pressure Pipe Fittings, Corrosion Resistant Pipe
+    Bend, Long Radius Pipe Bend, Oil & Gas Pipe Fittings, Chemical Process Piping, Power Plant Piping, Petrochemical Pipe
+    Fittings, Heat Resistant Pipe Bend, Custom Pipe Bends')
 @section('og_image', asset('assets/images/product/flangs/45-degree-elbows_11zon.jpg'))
+@section('og_title', '45 Degree Bend Manufacturer, Supplier & Exporter | Moksh Tubes')
+@section('og_description', 'Buy premium-quality Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex 45
+    Degree Bends manufactured to ASTM & ASME standards with worldwide delivery.')
+@section('twitter_title', '45 Degree Bend Manufacturer in India')
+@section('twitter_description', 'Leading manufacturer and exporter of Stainless Steel 45 Degree Bends available in
+    seamless and welded construction with competitive pricing.')
 @section('og_type', 'product')
 @section('content')
 
@@ -14,9 +25,15 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1 class="page-title">45 Degree Bends (3D, 5D, 7D, Custom Radius)</h1>
-                        <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        45 Degree Pipe Bends are critical components used to alter the direction of a piping system by 45 degrees with a larger sweeping radius than standard elbows, significantly minimizing pressure drop, friction, and turbulence. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we manufacture and supply premium hot induction and cold-formed 45-degree bends in 3D, 5D, and custom radii. Our products are available in carbon steel, alloy steel, stainless steel, duplex, and exotic alloys, fully compliant with ASME B16.9 and international standards.
+                    <h1 class="page-title">45 Degree Bend Manufacturer, Supplier & Exporter in India</h1>
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        45 Degree Bends are high-performance pipe fittings designed to redirect the flow of liquids, gases,
+                        and steam by 45 degrees while minimizing pressure loss and flow resistance. Their long-radius design
+                        helps maintain efficient flow characteristics, reduces turbulence, and extends pipeline life. Moksh
+                        Tubes & Fittings LLP manufactures and exports premium-quality 45 Degree Bends in Stainless Steel,
+                        Carbon Steel, Alloy Steel, Duplex, and Super Duplex grades, meeting international ASTM, ASME, and EN
+                        standards for demanding industrial applications.
                     </p>
                 </div>
             </div>
@@ -28,15 +45,13 @@
         <div class="container text-center py-2">
             <a href="#overview">Overview</a> |
             <a href="#specifications">Specifications</a> |
-            <a href="#types">Types</a> |
+            <a href="#chemical-composition">Chemical Composition</a> |
             <a href="#dimensions">Dimensions</a> |
-            <a href="#chemical-composition">Chemical</a> |
-            <a href="#mechanical-properties">Mechanical</a> |
+            <a href="#types">Grades</a> |
+            <a href="#features">Features</a> |
             <a href="#applications">Applications</a> |
-            <a href="#industries">Industries</a> |
-            <a href="#manufacturing">Manufacturing</a> |
-            <a href="#export">Export</a> |
-            <a href="#buying-guide">Buying Guide</a> |
+            <a href="#mechanical-properties">Mechanical</a> |
+            <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
     </div>
@@ -44,31 +59,31 @@
     <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">45 Degree Pipe Bends</h2>
+                <h2 class="fw-bold" style="color: #174268;">Product Overview</h2>
             </div>
 
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('/assets/images/product/flangs/45-degree-elbows_11zon.jpg') }}"
-                        alt="45 Degree Pipe Bends" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                        alt="45 Degree Bend Manufacturer" class="img-fluid rounded shadow-sm" width="550" height="350"
+                        loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">45 Degree Pipe Bends</strong> are engineered to provide a smooth, gradual change in fluid direction, reducing the risk of clogging and lowering pumping costs. Unlike standard elbows which have a tight radius (1D or 1.5D), pipe bends offer larger sweep radii such as 3D, 5D, 7D, or custom dimensions, making them ideal for high-velocity flows, abrasive media, and slurry transport.
+                        A <strong>45 Degree Bend</strong> is a pipe fitting used to redirect the flow of liquids, gases, or
+                        steam by 45 degrees while providing a gradual change in direction. Compared to standard elbows,
+                        bends have a larger radius that reduces pressure drop and improves flow efficiency. They are widely
+                        used in industries where smooth flow, reduced wear, and reliable performance are essential.
                     </p>
-
                     <p class="fs-6 mb-3 text-justify">
-                        <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a> is a leading manufacturer,
-                        supplier, and exporter of 45 Degree Bends in India. We utilize advanced hot induction bending technology to produce high-integrity bends without compromising wall thickness or material properties. Our bends are heavily utilized in <a href="{{ route('materials.austenitic-stainless-Steel') }}">Indian refineries</a> and
-                        major Gulf / GCC nations including UAE, Saudi Arabia, Qatar, Oman, and Kuwait.
-                    </p>
-
-                    <p class="fs-6 text-justify">
-                        Available in seamless and welded forms, our bends are subjected to rigorous non-destructive testing, including ultrasonic and radiographic examinations, to ensure flawless performance in extreme temperature and high-pressure environments.
+                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture 45 Degree Bends in
+                        various sizes, wall thicknesses, bend radii, and material grades to meet the needs of industrial
+                        projects in India and international markets. Every bend is manufactured using premium-quality raw
+                        materials and undergoes stringent quality inspections to ensure durability, dimensional accuracy,
+                        and compliance with global standards.
                     </p>
                 </div>
             </div>
@@ -78,17 +93,18 @@
     {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download 45 Degree Bends Datasheet</h3>
+            <h3 class="mb-3" style="color:#174268;">Download 45 Degree Bend Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with dimensional specifications, bending radii, material properties, and manufacturing tolerances.
-                Enter your email below to receive the PDF instantly.
+                Get the complete datasheet with chemical composition, mechanical properties, heat treatment details, and
+                application guidelines.<br>
+                👉 Enter your email below to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
             <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
+                @csrf
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="45-degree-bends.pdf">
+                    <input type="hidden" name="pdf" value="45-degree-bend.pdf">
                     <div class="col-md-6 mb-2">
                         <input type="email" name="email" required="" class="form-control p-3"
                             placeholder="Enter your email address">
@@ -109,1511 +125,526 @@
         </div>
     </section>
 
-    <section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
-
+    <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Charts</h2>
-            </div>
-
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h3 class="text-center mb-0" style="color: #db7227;">Size Range Chart</h3>
-                <h4 class="text-center mb-0" style="color: #db7227;">45 Degree Bends Weight Chart</h4>
-            </div>
-            <!-- Schedule 10C -->
-            <div class="section-title center mb-3 mt-4">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 10C Size & Weight Chart</h4>
+                <h2 class="fw-bold" style="color: #174268;">Specifications</h2>
             </div>
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>NB (mm)</th>
-                            <th>NPS</th>
-                            <th>OD (mm)</th>
-                            <th>Wall Thickness (mm)</th>
-                            <th>Weight (kg/m)</th>
+                        <tr>
+                            <th>Specification</th>
+                            <th>Details</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row">
-                            <td>3</td>
-                            <td>1/8</td>
-                            <td>10.3</td>
-                            <td>1.24</td>
+                        <tr>
+                            <td>Product</td>
+                            <td>45 Degree Bend</td>
+                        </tr>
+                        <tr>
+                            <td>Standards</td>
+                            <td>ASME B16.49, ASME B16.9, ASTM</td>
+                        </tr>
+                        <tr>
+                            <td>Material</td>
+                            <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex</td>
+                        </tr>
+                        <tr>
+                            <td>Size Range</td>
+                            <td>½" NB to 48" NB</td>
+                        </tr>
+                        <tr>
+                            <td>Schedule</td>
+                            <td>SCH 10, SCH 20, SCH 40, SCH 80, SCH 160 & XXS</td>
+                        </tr>
+                        <tr>
+                            <td>Type</td>
+                            <td>Seamless & Welded</td>
+                        </tr>
+                        <tr>
+                            <td>Bend Radius</td>
+                            <td>3D, 5D, 10D & Custom Radius</td>
+                        </tr>
+                        <tr>
+                            <td>End Connection</td>
+                            <td>Butt Weld</td>
+                        </tr>
+                        <tr>
+                            <td>Surface Finish</td>
+                            <td>Pickled, Passivated, Shot Blasted or Polished</td>
+                        </tr>
+                        <tr>
+                            <td>Manufacturing Process</td>
+                            <td>Hot Formed / Cold Formed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="chemical-composition" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Chemical Composition</h2>
+                <p class="text-center">The chemical composition of 45 Degree Bends depends on the selected material grade.
+                    At Moksh Tubes & Fittings LLP, our 45 Degree Bends are manufactured in accordance with international
+                    ASTM, ASME, and EN standards to ensure excellent corrosion resistance, mechanical strength, and long
+                    service life. The table below shows the typical chemical composition of the most commonly supplied
+                    stainless steel grades.</p>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Element</th>
+                            <th>SS 304 (%)</th>
+                            <th>SS 304L (%)</th>
+                            <th>SS 316 (%)</th>
+                            <th>SS 316L (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Carbon (C)</td>
+                            <td>0.08 Max</td>
+                            <td>0.03 Max</td>
+                            <td>0.08 Max</td>
+                            <td>0.03 Max</td>
+                        </tr>
+                        <tr>
+                            <td>Manganese (Mn)</td>
+                            <td>2.00 Max</td>
+                            <td>2.00 Max</td>
+                            <td>2.00 Max</td>
+                            <td>2.00 Max</td>
+                        </tr>
+                        <tr>
+                            <td>Silicon (Si)</td>
+                            <td>0.75 Max</td>
+                            <td>0.75 Max</td>
+                            <td>0.75 Max</td>
+                            <td>0.75 Max</td>
+                        </tr>
+                        <tr>
+                            <td>Phosphorus (P)</td>
+                            <td>0.045 Max</td>
+                            <td>0.045 Max</td>
+                            <td>0.045 Max</td>
+                            <td>0.045 Max</td>
+                        </tr>
+                        <tr>
+                            <td>Sulfur (S)</td>
+                            <td>0.030 Max</td>
+                            <td>0.030 Max</td>
+                            <td>0.030 Max</td>
+                            <td>0.030 Max</td>
+                        </tr>
+                        <tr>
+                            <td>Chromium (Cr)</td>
+                            <td>18.00–20.00</td>
+                            <td>18.00–20.00</td>
+                            <td>16.00–18.00</td>
+                            <td>16.00–18.00</td>
+                        </tr>
+                        <tr>
+                            <td>Nickel (Ni)</td>
+                            <td>8.00–10.50</td>
+                            <td>8.00–12.00</td>
+                            <td>10.00–14.00</td>
+                            <td>10.00–14.00</td>
+                        </tr>
+                        <tr>
+                            <td>Molybdenum (Mo)</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>2.00–3.00</td>
+                            <td>2.00–3.00</td>
+                        </tr>
+                        <tr>
+                            <td>Nitrogen (N)</td>
+                            <td>0.10 Max</td>
+                            <td>0.10 Max</td>
+                            <td>0.10 Max</td>
+                            <td>0.10 Max</td>
+                        </tr>
+                        <tr>
+                            <td>Iron (Fe)</td>
+                            <td>Balance</td>
+                            <td>Balance</td>
+                            <td>Balance</td>
+                            <td>Balance</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-center mt-3">The above chemical composition values are typical and may vary depending on the
+                selected material grade and the applicable ASTM/ASME specification. Carbon Steel, Alloy Steel, Duplex, and
+                Super Duplex 45 Degree Bends are also available with chemical compositions conforming to their respective
+                international standards upon request.</p>
+        </div>
+    </section>
+
+    <section id="dimensions" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart</h2>
+                <p class="text-center">The dimensions and approximate weights of 45 Degree Bends vary depending on the
+                    nominal pipe size, schedule, and bend radius. The table below provides a standard reference chart for
+                    Long Radius (3D) 45 Degree Bends.</p>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Nominal Size (NB)</th>
+                            <th>Outside Diameter (mm)</th>
+                            <th>3D Radius (mm)</th>
+                            <th>Approx. Weight (kg)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>½" (15 NB)</td>
+                            <td>21.3</td>
+                            <td>45</td>
+                            <td>0.12</td>
+                        </tr>
+                        <tr>
+                            <td>¾" (20 NB)</td>
+                            <td>26.7</td>
+                            <td>60</td>
+                            <td>0.18</td>
+                        </tr>
+                        <tr>
+                            <td>1" (25 NB)</td>
+                            <td>33.4</td>
+                            <td>75</td>
                             <td>0.28</td>
                         </tr>
-                        <tr class="t-row">
-                            <td>6</td>
-                            <td>1/4</td>
-                            <td>13.7</td>
-                            <td>1.24</td>
-                            <td>0.39</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10</td>
-                            <td>3/8</td>
-                            <td>17.1</td>
-                            <td>1.24</td>
-                            <td>0.49</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15</td>
-                            <td>1/2</td>
-                            <td>21.3</td>
-                            <td>1.65</td>
-                            <td>0.81</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20</td>
-                            <td>3/4</td>
-                            <td>26.7</td>
-                            <td>1.65</td>
-                            <td>1.04</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>25</td>
-                            <td>1</td>
-                            <td>33.4</td>
-                            <td>1.65</td>
-                            <td>1.32</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>32</td>
-                            <td>1 1/4</td>
+                        <tr>
+                            <td>1¼" (32 NB)</td>
                             <td>42.2</td>
-                            <td>1.65</td>
-                            <td>1.68</td>
+                            <td>95</td>
+                            <td>0.45</td>
                         </tr>
-                        <tr class="t-row">
-                            <td>40</td>
-                            <td>1 1/2</td>
+                        <tr>
+                            <td>1½" (40 NB)</td>
                             <td>48.3</td>
-                            <td>1.65</td>
-                            <td>1.93</td>
+                            <td>120</td>
+                            <td>0.65</td>
                         </tr>
-                        <tr class="t-row">
-                            <td>50</td>
-                            <td>2</td>
+                        <tr>
+                            <td>2" (50 NB)</td>
                             <td>60.3</td>
-                            <td>1.65</td>
-                            <td>2.43</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>65</td>
-                            <td>2 1/2</td>
-                            <td>73.0</td>
-                            <td>1.65</td>
-                            <td>2.96</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>80</td>
-                            <td>3</td>
-                            <td>88.9</td>
-                            <td>1.65</td>
-                            <td>3.62</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100</td>
-                            <td>4</td>
-                            <td>114.3</td>
-                            <td>1.65</td>
-                            <td>4.67</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>125</td>
-                            <td>5</td>
-                            <td>141.3</td>
-                            <td>1.65</td>
-                            <td>5.79</td>
-                        </tr>
-                        <tr class="t-row">
                             <td>150</td>
-                            <td>6</td>
-                            <td>168.3</td>
-                            <td>1.65</td>
-                            <td>6.91</td>
+                            <td>0.95</td>
                         </tr>
-                        <tr class="t-row">
-                            <td>200</td>
-                            <td>8</td>
-                            <td>219.1</td>
-                            <td>2.11</td>
-                            <td>11.51</td>
+                        <tr>
+                            <td>2½" (65 NB)</td>
+                            <td>73.0</td>
+                            <td>195</td>
+                            <td>1.60</td>
                         </tr>
-                        <tr class="t-row">
-                            <td>250</td>
-                            <td>10</td>
-                            <td>273.1</td>
-                            <td>2.77</td>
-                            <td>18.81</td>
+                        <tr>
+                            <td>3" (80 NB)</td>
+                            <td>88.9</td>
+                            <td>240</td>
+                            <td>2.40</td>
                         </tr>
-                        <tr class="t-row">
+                        <tr>
+                            <td>4" (100 NB)</td>
+                            <td>114.3</td>
                             <td>300</td>
-                            <td>12</td>
-                            <td>323.9</td>
-                            <td>3.05</td>
-                            <td>24.59</td>
+                            <td>4.10</td>
                         </tr>
-                        <tr class="t-row">
-                            <td>350</td>
-                            <td>14</td>
-                            <td>355.6</td>
-                            <td>3.4</td>
-                            <td>30.1</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>400</td>
-                            <td>16</td>
-                            <td>406.4</td>
-                            <td>3.4</td>
-                            <td>34.44</td>
-                        </tr>
-                        <tr class="t-row">
+                        <tr>
+                            <td>6" (150 NB)</td>
+                            <td>168.3</td>
                             <td>450</td>
-                            <td>18</td>
-                            <td>457.2</td>
-                            <td>3.8</td>
-                            <td>43.28</td>
+                            <td>9.20</td>
                         </tr>
-                        <tr class="t-row">
-                            <td>500</td>
-                            <td>20</td>
-                            <td>508.0</td>
-                            <td>3.8</td>
-                            <td>48.15</td>
-                        </tr>
-                        <tr class="t-row">
+                        <tr>
+                            <td>8" (200 NB)</td>
+                            <td>219.1</td>
                             <td>600</td>
-                            <td>24</td>
-                            <td>609.6</td>
-                            <td>4.0</td>
-                            <td>60.92</td>
+                            <td>17.80</td>
+                        </tr>
+                        <tr>
+                            <td>10" (250 NB)</td>
+                            <td>273.0</td>
+                            <td>750</td>
+                            <td>30.20</td>
+                        </tr>
+                        <tr>
+                            <td>12" (300 NB)</td>
+                            <td>323.9</td>
+                            <td>900</td>
+                            <td>45.10</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-
-            <!-- Schedule 40 -->
-            <div class="section-title center mb-3 mt-4">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 40 Size & Weight Chart</h4>
-            </div>
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>NB (mm)</th>
-                            <th>NPS</th>
-                            <th>OD (mm)</th>
-                            <th>Wall Thickness (mm)</th>
-                            <th>Weight (kg/m)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>3</td>
-                            <td>1/8</td>
-                            <td>10.3</td>
-                            <td>1.73</td>
-                            <td>0.37</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6</td>
-                            <td>1/4</td>
-                            <td>13.7</td>
-                            <td>2.24</td>
-                            <td>0.64</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10</td>
-                            <td>3/8</td>
-                            <td>17.1</td>
-                            <td>2.31</td>
-                            <td>0.86</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15</td>
-                            <td>1/2</td>
-                            <td>21.3</td>
-                            <td>2.77</td>
-                            <td>1.27</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20</td>
-                            <td>3/4</td>
-                            <td>26.7</td>
-                            <td>2.87</td>
-                            <td>1.7</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>25</td>
-                            <td>1</td>
-                            <td>33.4</td>
-                            <td>3.38</td>
-                            <td>2.46</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>32</td>
-                            <td>1 1/4</td>
-                            <td>42.2</td>
-                            <td>3.56</td>
-                            <td>3.61</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>40</td>
-                            <td>1 1/2</td>
-                            <td>48.3</td>
-                            <td>3.68</td>
-                            <td>4.18</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>50</td>
-                            <td>2</td>
-                            <td>60.3</td>
-                            <td>3.91</td>
-                            <td>5.44</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>65</td>
-                            <td>2 1/2</td>
-                            <td>73.0</td>
-                            <td>5.16</td>
-                            <td>8.63</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>80</td>
-                            <td>3</td>
-                            <td>88.9</td>
-                            <td>5.49</td>
-                            <td>11.29</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100</td>
-                            <td>4</td>
-                            <td>114.3</td>
-                            <td>6.02</td>
-                            <td>17.15</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>125</td>
-                            <td>5</td>
-                            <td>141.3</td>
-                            <td>6.55</td>
-                            <td>23.85</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>150</td>
-                            <td>6</td>
-                            <td>168.3</td>
-                            <td>7.11</td>
-                            <td>30.7</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>200</td>
-                            <td>8</td>
-                            <td>219.1</td>
-                            <td>8.18</td>
-                            <td>49.56</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>250</td>
-                            <td>10</td>
-                            <td>273.1</td>
-                            <td>9.27</td>
-                            <td>73.5</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>300</td>
-                            <td>12</td>
-                            <td>323.9</td>
-                            <td>10.31</td>
-                            <td>95.54</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>350</td>
-                            <td>14</td>
-                            <td>355.6</td>
-                            <td>11.13</td>
-                            <td>112.63</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>400</td>
-                            <td>16</td>
-                            <td>406.4</td>
-                            <td>12.7</td>
-                            <td>144.27</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>450</td>
-                            <td>18</td>
-                            <td>457.2</td>
-                            <td>14.27</td>
-                            <td>179.28</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>500</td>
-                            <td>20</td>
-                            <td>508.0</td>
-                            <td>15.09</td>
-                            <td>213.93</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>600</td>
-                            <td>24</td>
-                            <td>609.6</td>
-                            <td>15.88</td>
-                            <td>274.06</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Schedule 80 -->
-            <div class="section-title center mb-3 mt-4">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 80 Size & Weight Chart</h4>
-            </div>
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>NB (mm)</th>
-                            <th>NPS</th>
-                            <th>OD (mm)</th>
-                            <th>Wall Thickness (mm)</th>
-                            <th>Weight (kg/m)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>3</td>
-                            <td>1/8</td>
-                            <td>10.3</td>
-                            <td>1.73</td>
-                            <td>0.37</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6</td>
-                            <td>1/4</td>
-                            <td>13.7</td>
-                            <td>3.02</td>
-                            <td>0.83</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10</td>
-                            <td>3/8</td>
-                            <td>17.1</td>
-                            <td>3.2</td>
-                            <td>1.13</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15</td>
-                            <td>1/2</td>
-                            <td>21.3</td>
-                            <td>3.73</td>
-                            <td>1.63</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20</td>
-                            <td>3/4</td>
-                            <td>26.7</td>
-                            <td>3.91</td>
-                            <td>2.3</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>25</td>
-                            <td>1</td>
-                            <td>33.4</td>
-                            <td>4.55</td>
-                            <td>3.38</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>32</td>
-                            <td>1 1/4</td>
-                            <td>42.2</td>
-                            <td>4.85</td>
-                            <td>4.84</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>40</td>
-                            <td>1 1/2</td>
-                            <td>48.3</td>
-                            <td>5.08</td>
-                            <td>5.61</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>50</td>
-                            <td>2</td>
-                            <td>60.3</td>
-                            <td>5.54</td>
-                            <td>7.48</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>65</td>
-                            <td>2 1/2</td>
-                            <td>73.0</td>
-                            <td>7.01</td>
-                            <td>11.76</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>80</td>
-                            <td>3</td>
-                            <td>88.9</td>
-                            <td>7.62</td>
-                            <td>15.74</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100</td>
-                            <td>4</td>
-                            <td>114.3</td>
-                            <td>8.56</td>
-                            <td>25.1</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>125</td>
-                            <td>5</td>
-                            <td>141.3</td>
-                            <td>9.53</td>
-                            <td>36.46</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>150</td>
-                            <td>6</td>
-                            <td>168.3</td>
-                            <td>10.97</td>
-                            <td>49.56</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>200</td>
-                            <td>8</td>
-                            <td>219.1</td>
-                            <td>12.7</td>
-                            <td>77.1</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>250</td>
-                            <td>10</td>
-                            <td>273.1</td>
-                            <td>15.09</td>
-                            <td>114.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>300</td>
-                            <td>12</td>
-                            <td>323.9</td>
-                            <td>17.48</td>
-                            <td>153.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>350</td>
-                            <td>14</td>
-                            <td>355.6</td>
-                            <td>19.05</td>
-                            <td>180.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>400</td>
-                            <td>16</td>
-                            <td>406.4</td>
-                            <td>21.44</td>
-                            <td>227.5</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>450</td>
-                            <td>18</td>
-                            <td>457.2</td>
-                            <td>23.83</td>
-                            <td>282.5</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>500</td>
-                            <td>20</td>
-                            <td>508.0</td>
-                            <td>26.18</td>
-                            <td>342.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>600</td>
-                            <td>24</td>
-                            <td>609.6</td>
-                            <td>30.96</td>
-                            <td>480.0</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Schedule 160 -->
-            <div class="section-title center mb-3 mt-4">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 160 Size & Weight Chart</h4>
-            </div>
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>NB (mm)</th>
-                            <th>NPS</th>
-                            <th>OD (mm)</th>
-                            <th>Wall Thickness (mm)</th>
-                            <th>Weight (kg/m)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>3</td>
-                            <td>1/8</td>
-                            <td>10.3</td>
-                            <td>2.41</td>
-                            <td>0.49</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6</td>
-                            <td>1/4</td>
-                            <td>13.7</td>
-                            <td>3.02</td>
-                            <td>0.83</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10</td>
-                            <td>3/8</td>
-                            <td>17.1</td>
-                            <td>3.2</td>
-                            <td>1.13</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15</td>
-                            <td>1/2</td>
-                            <td>21.3</td>
-                            <td>4.09</td>
-                            <td>1.75</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20</td>
-                            <td>3/4</td>
-                            <td>26.7</td>
-                            <td>4.55</td>
-                            <td>2.63</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>25</td>
-                            <td>1</td>
-                            <td>33.4</td>
-                            <td>6.35</td>
-                            <td>4.51</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>32</td>
-                            <td>1 1/4</td>
-                            <td>42.2</td>
-                            <td>6.35</td>
-                            <td>6.12</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>40</td>
-                            <td>1 1/2</td>
-                            <td>48.3</td>
-                            <td>7.14</td>
-                            <td>7.92</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>50</td>
-                            <td>2</td>
-                            <td>60.3</td>
-                            <td>8.71</td>
-                            <td>11.06</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>65</td>
-                            <td>2 1/2</td>
-                            <td>73.0</td>
-                            <td>9.53</td>
-                            <td>14.9</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>80</td>
-                            <td>3</td>
-                            <td>88.9</td>
-                            <td>11.13</td>
-                            <td>21.31</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100</td>
-                            <td>4</td>
-                            <td>114.3</td>
-                            <td>13.49</td>
-                            <td>34.35</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>125</td>
-                            <td>5</td>
-                            <td>141.3</td>
-                            <td>15.88</td>
-                            <td>53.3</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>150</td>
-                            <td>6</td>
-                            <td>168.3</td>
-                            <td>18.26</td>
-                            <td>75.53</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>200</td>
-                            <td>8</td>
-                            <td>219.1</td>
-                            <td>23.01</td>
-                            <td>123.9</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>250</td>
-                            <td>10</td>
-                            <td>273.1</td>
-                            <td>28.58</td>
-                            <td>190.5</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>300</td>
-                            <td>12</td>
-                            <td>323.9</td>
-                            <td>33.32</td>
-                            <td>268.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>350</td>
-                            <td>14</td>
-                            <td>355.6</td>
-                            <td>35.71</td>
-                            <td>327.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>400</td>
-                            <td>16</td>
-                            <td>406.4</td>
-                            <td>40.49</td>
-                            <td>429.5</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>450</td>
-                            <td>18</td>
-                            <td>457.2</td>
-                            <td>45.24</td>
-                            <td>544.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>500</td>
-                            <td>20</td>
-                            <td>508.0</td>
-                            <td>50.01</td>
-                            <td>677.5</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>600</td>
-                            <td>24</td>
-                            <td>609.6</td>
-                            <td>59.54</td>
-                            <td>997.0</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Schedule XXC -->
-            <div class="section-title center mb-3 mt-4">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule XXC Size & Weight Chart</h4>
-            </div>
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>NB (mm)</th>
-                            <th>NPS</th>
-                            <th>OD (mm)</th>
-                            <th>Wall Thickness (mm)</th>
-                            <th>Weight (kg/m)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>3</td>
-                            <td>1/8</td>
-                            <td>10.3</td>
-                            <td>2.41</td>
-                            <td>0.49</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6</td>
-                            <td>1/4</td>
-                            <td>13.7</td>
-                            <td>3.02</td>
-                            <td>0.83</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10</td>
-                            <td>3/8</td>
-                            <td>17.1</td>
-                            <td>3.2</td>
-                            <td>1.13</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15</td>
-                            <td>1/2</td>
-                            <td>21.3</td>
-                            <td>4.78</td>
-                            <td>1.98</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20</td>
-                            <td>3/4</td>
-                            <td>26.7</td>
-                            <td>6.02</td>
-                            <td>3.32</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>25</td>
-                            <td>1</td>
-                            <td>33.4</td>
-                            <td>7.47</td>
-                            <td>5.25</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>32</td>
-                            <td>1 1/4</td>
-                            <td>42.2</td>
-                            <td>9.09</td>
-                            <td>8.26</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>40</td>
-                            <td>1 1/2</td>
-                            <td>48.3</td>
-                            <td>10.15</td>
-                            <td>10.68</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>50</td>
-                            <td>2</td>
-                            <td>60.3</td>
-                            <td>11.07</td>
-                            <td>14.82</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>65</td>
-                            <td>2 1/2</td>
-                            <td>73.0</td>
-                            <td>13.49</td>
-                            <td>21.56</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>80</td>
-                            <td>3</td>
-                            <td>88.9</td>
-                            <td>15.24</td>
-                            <td>29.83</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100</td>
-                            <td>4</td>
-                            <td>114.3</td>
-                            <td>18.26</td>
-                            <td>47.17</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>125</td>
-                            <td>5</td>
-                            <td>141.3</td>
-                            <td>21.95</td>
-                            <td>70.65</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>150</td>
-                            <td>6</td>
-                            <td>168.3</td>
-                            <td>25.4</td>
-                            <td>99.57</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>200</td>
-                            <td>8</td>
-                            <td>219.1</td>
-                            <td>28.58</td>
-                            <td>144.45</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>250</td>
-                            <td>10</td>
-                            <td>273.1</td>
-                            <td>31.75</td>
-                            <td>202.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>300</td>
-                            <td>12</td>
-                            <td>323.9</td>
-                            <td>36.53</td>
-                            <td>281.25</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>350</td>
-                            <td>14</td>
-                            <td>355.6</td>
-                            <td>38.89</td>
-                            <td>338.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>400</td>
-                            <td>16</td>
-                            <td>406.4</td>
-                            <td>44.45</td>
-                            <td>442.5</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>450</td>
-                            <td>18</td>
-                            <td>457.2</td>
-                            <td>50.01</td>
-                            <td>562.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>500</td>
-                            <td>20</td>
-                            <td>508.0</td>
-                            <td>55.56</td>
-                            <td>697.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>600</td>
-                            <td>24</td>
-                            <td>609.6</td>
-                            <td>63.5</td>
-                            <td>984.0</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-       
-    </section>
-
-    <script>
-        // document.addEventListener("DOMContentLoaded", function() {
-        //     const fullTable = document.getElementById("table-5c-full");
-        //     const btn = document.getElementById("toggleBtn");
-
-        //     fullTable.addEventListener("shown.bs.collapse", function() {
-        //         btn.textContent = "Show Less";
-        //     });
-
-        //     fullTable.addEventListener("hidden.bs.collapse", function() {
-        //         btn.textContent = "View Full Chart";
-        //     });
-        // });
-
-        // document.addEventListener("DOMContentLoaded", function() {
-        //     const tables = document.querySelectorAll(".table-5c-full");
-        //     const buttons = document.querySelectorAll(".toggleBtn");
-
-        //     tables.forEach((table) => {
-        //         buttons.forEach((btn) => {
-
-        //             table.addEventListener("shown.bs.collapse", function() {
-        //                 btn.textContent = "Show Less";
-        //             });
-
-        //             table.addEventListener("hidden.bs.collapse", function() {
-        //                 btn.textContent = "View Full Chart";
-        //             });
-
-        //         });
-        //     });
-        // });
-    </script>
-
-
-
-
-
-
-
-
-
-
-    {{-- Grades Available --}}
-    <section id="chemical-composition" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Available Grades & Materials</h2>
-            </div>
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">45 Degree Bends are offered in a wide
-                    range of materials and grades:</h4>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Material</th>
-                                    <th>Grades</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="t-row">
-                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>
-                                    </td>
-                                    <td>304, 304L, 316, 316L, 310, 321, 347 for high-temperature resistance.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex:
-                                        </a></td>
-                                    <td>2205, S31803, S32750 for high strength and corrosion </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td><a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a></td>
-                                    <td>Inconel 600, 625, 718, Monel 400, K500 for extreme environments.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Alloy Steel</td>
-                                    <td>T11, T12, T22, T91 for high pressure boilers.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Carbon Steel</td>
-                                    <td>ASTM A179, A192 for low and medium pressure boilers.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Copper Alloys</td>
-                                    <td>Cu-Ni 70/30, 90/10 for marine heat exchangers and condensers.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Titanium</td>
-                                    <td><a href="{{ route('materials.titanium') }}">Grades 1, 2</a> for desalination
-                                        plants
-                                        and chemical industries.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+            <p class="text-center mt-3">Weights shown are approximate for SCH 40 Long Radius (3D) bends and may vary
+                depending on schedule, material grade, and manufacturing standard.</p>
         </div>
     </section>
 
-    {{-- Gallery --}}
-    <section class="our-services">
+    <section id="types" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-            <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Grades & Equivalent</h2>
             </div>
-
             <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy bends for heat exchangers" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">NICKEL ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="Stainless steel boiler and condenser bends" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex bends for seawater service" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">DUPLEX & SUPER</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="Titanium heat exchanger and condenser bends" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4 ">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy bends for high-temperature service" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Haynes Superalloys</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Inconel alloy bends for corrosion-resistant applications" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Inconel</h6>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    {{-- Gallery --}}
-
-
-
-    {{-- Applications --}}
-    <section id="applications" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Applications of 45 Degree Bends</h2>
-                <p class="text-center pb-3">
-                    <strong class="text-black">45 Degree Bends </strong> are crucial for industries where
-                    efficient heat transfer and mechanical strength are required:
-                </p>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-gear-wide-connected"></i>
-                        </div>
-                        <h5>Power Generation</h5>
-                        <ul>
-                            <li>Superheater & reheater bends</li>
-                            <li>Boiler bends for thermal, gas & nuclear plants</li>
+                <div class="col-md-6">
+                    <div class="card p-4 shadow-sm mb-4">
+                        <h4 class="text-center" style="color: #db7227;">Available Grades</h4>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>
+                                Stainless Steel 304 / 304L</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>
+                                Stainless Steel 316 / 316L</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Carbon
+                                Steel ASTM A234 WPB</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Alloy
+                                Steel ASTM A234 WP11 / WP22</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Duplex
+                                Stainless Steel S31803 / S32205</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Super
+                                Duplex Stainless Steel S32750 / S32760</li>
                         </ul>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Oil & Gas / Petrochemical</h5>
-                        <ul>
-                            <li>Process heat exchangers</li>
-                            <li>Condensers & coolers</li>
+                <div class="col-md-6">
+                    <div class="card p-4 shadow-sm mb-4">
+                        <h4 class="text-center" style="color: #db7227;">International Equivalents</h4>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> ASTM
+                            </li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> ASME
+                            </li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> EN</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> DIN</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> JIS</li>
                         </ul>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Chemical & Fertilizer Plants</h5>
-                        <ul>
-                            <li>Reactors, evaporators, cooling towers</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Marine & Offshore</h5>
-                        <ul>
-                            <li>Cu-Ni & Titanium seawater condensers</li>
-                            <li>Marine boiler systems</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Food & Dairy</h5>
-                        <ul>
-                            <li>Hygienic stainless-steel heat exchanger bends</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>HVAC & Refrigeration</h5>
-                        <ul>
-                            <li>Evaporators, condensers, chilled water systems</li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    
-        </div>
-    </section>
-
-
-    {{-- Industries We Serve --}}
-    <!-- Buying Guide Section (Styled for Your UI) -->
-    <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Buying Guide:</h2>
-                <h4 style="color: #db7227;">How to Select the Right 45 Degree Bend</h4>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-md-12">
-                    <div class="application-card">
-                        {{--    <div class="application-icon center"><i class="bi bi-brightness-high-fill"></i><h5>3. Material Selection Guide</h5></div> --}}
-                        <div class="application-icon center d-flex align-items-center gap-4 justify-content-center">
-                            <i class="bi bi-brightness-high-fill"></i>
-                            <h5 class="m-0">Material Selection Guide</h5>
-                        </div>
-
-
-
-                        <div class="table-responsive mt-3">
-                            <table class="table table-bordered">
-                                <thead class="table-light">
-                                    <tr class="t-row">
-                                        <th>Material</th>
-                                        <th>Ideal For</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="t-row">
-                                        <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless
-                                                Steel</a></td>
-                                        <td>Steam, hygienic systems</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex / Super
-                                                Duplex</a></td>
-                                        <td>Seawater, chlorides</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td><a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a>
-                                        </td>
-                                        <td>Acids, extreme corrosion</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Carbon Steel</td>
-                                        <td>High-pressure 45 degree bends</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- Card 1 -->
-                <!-- Card 1 -->
-
-                <!-- Card 1 -->
-
-
-
             </div>
         </div>
     </section>
 
-
-    
-
-    {{-- Uses of Welded Pipes and Bends --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="features" class="sec-padd-top sec-padd-bottom">
         <div class="container">
-            <div class="section-title center">
-                <h2>Uses of 45 Degree Bends</h2>
-            </div>
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">45 Degree Bends are used extensively
-                    across multiple
-                    industries, including:</h4>
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Features & Advantages</h2>
             </div>
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Efficient Heat Transfer</h4>
-                        <h5>Ensures efficient heat transfer in industrial systems</h5>
+                        <h5>Smooth flow with minimal pressure loss</h5>
                     </div>
                 </div>
-
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
+                        <h5>Larger bend radius reduces turbulence</h5>
+                    </div>
+                </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h4>Extreme Condition Performance</h4>
-                        <h5>Handles extreme temperature and pressure conditions</h5>
+                        <h5>Excellent corrosion and oxidation resistance</h5>
                     </div>
                 </div>
-
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                        <h5>High mechanical strength</h5>
+                    </div>
+                </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h4>Corrosion Resistance</h4>
-                        <h5>Provides corrosion resistance in aggressive environments</h5>
+                        <h5>Suitable for high-pressure and high-temperature applications</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h4>Energy Efficiency Support</h4>
-                        <h5>Supports energy efficiency in power plants and process industries</h5>
+                        <div class="advantage-icon"><i class="bi bi-link-45deg"></i></div>
+                        <h5>Leak-proof butt weld connection</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h4>Multi-Media Compatibility</h4>
-                        <h5>Suitable for steam, gas, liquid, and chemical transport in heat systems</h5>
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h5>Long service life</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h4>Operational Reliability</h4>
-                        <h5>Delivers long term reliability and consistent performance in demanding applications</h5>
+                        <div class="advantage-icon"><i class="bi bi-award-fill"></i></div>
+                        <h5>Manufactured according to international quality standards</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                        <h5>Excellent dimensional accuracy</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    {{-- Advantages of Welded Pipes & Bends --}}
-    <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom bg-light">
+
+    <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties – 45 Degree Bends</h2>
-                 <p class="text-center">(Typical values as per ASTM standards)</p>
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Applications</h2>
+                <p class="text-center pb-3">Our 45 Degree Bends are widely used in:</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h5>Oil & Gas Pipelines</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Chemical & Petrochemical Plants</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
+                        <h5>Water & Wastewater Treatment</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+                        <h5>Power Generation</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
+                        <h5>Pharmaceutical Industry</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+                        <h5>Food & Beverage Processing</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-water"></i></div>
+                        <h5>Marine & Offshore Projects</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-building"></i></div>
+                        <h5>Construction & Infrastructure</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fan"></i></div>
+                        <h5>HVAC Systems</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-diagram-3"></i></div>
+                        <h5>Industrial Process Piping</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fire"></i></div>
+                        <h5>Refineries</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-file-earmark-text"></i></div>
+                        <h5>Pulp & Paper Industry</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
+                        <h5>Fertilizer Plants</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
+                <p class="text-center">The mechanical properties of 45 Degree Bends depend on the selected material grade
+                    and comply with the applicable ASTM and ASME standards. The table below shows the typical mechanical
+                    properties for commonly supplied stainless steel grades.</p>
             </div>
 
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>Standard</th>
-                            <th>Tensile Strength (MPa)</th>
-                            <th>Yield Strength (MPa)</th>
-                            <th>Elongation (%)</th>
+                        <tr>
+                            <th>Property</th>
+                            <th>SS 304 / 304L</th>
+                            <th>SS 316 / 316L</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row">
-                            <td>ASTM A179</td>
-                            <td>325</td>
-                            <td>180</td>
-                            <td>35</td>
+                        <tr>
+                            <td>Tensile Strength (MPa)</td>
+                            <td>515 Min</td>
+                            <td>515 Min</td>
                         </tr>
-                         <tr class="t-row">
-                            <td>ASTM A192</td>
-                            <td>325</td>
-                            <td>180</td>
-                            <td>35</td>
+                        <tr>
+                            <td>Yield Strength (MPa)</td>
+                            <td>205 Min</td>
+                            <td>205 Min</td>
                         </tr>
-                         <tr class="t-row">
-                            <td>ASTM A213 (SS Grades)</td>
-                            <td>515</td>
-                            <td>205</td>
-                            <td>40</td>
+                        <tr>
+                            <td>Elongation (%)</td>
+                            <td>40 Min</td>
+                            <td>40 Min</td>
+                        </tr>
+                        <tr>
+                            <td>Hardness (HB Max)</td>
+                            <td>201</td>
+                            <td>217</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-             <p class="mt-2 text-muted text-center"><small>📌 Actual values depend on material grade and heat treatment.</small></p>
+            <p class="mt-3 text-center">Mechanical properties for Carbon Steel, Alloy Steel, Duplex, and Super Duplex 45
+                Degree Bends are available as per the relevant ASTM/ASME material specifications upon request.</p>
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Buying Guide – 45 Degree Bends</h2>
-                <p>Before selecting boiler or heat exchanger bends, consider the following factors:</p>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <ul class="list-group">
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Applicable standard (ASTM A179 / A192 / A213)</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Operating temperature and pressure</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Required material (carbon, alloy, stainless, Cu-Ni, titanium)</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Seamless or welded construction</li>
-                    </ul>
-                </div>
-                 <div class="col-lg-6">
-                    <ul class="list-group">
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Schedule and wall thickness</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Heat treatment and surface finish</li>
-                         <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Required testing and certification</li>
-                    </ul>
-                </div>
-            </div>
-            <p class="mt-3 text-center fw-bold">For GCC and export projects, ensure EN 10204 3.1 certification, proper marking, and export-grade packaging.</p>
-        </div>
-    </section>
-
-     <section id="export" class="sec-padd-top sec-padd-bottom">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
-             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Why Choose Moksh Tubes & Fittings LLP?</h2>
             </div>
-            <p class="fs-5">We supply 45 Degree Bends across major Indian industrial locations including Mumbai, Chennai, Ahmedabad, Pune, and Hyderabad, with efficient logistics support for domestic power and process industry projects.</p>
-            <p class="fs-5">We also regularly export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait, supplying bends for power plants, refineries, desalination units, and EPC contractors.</p>
+            <p class="fs-5">Moksh Tubes & Fittings LLP is a trusted manufacturer and exporter of industrial pipe bends,
+                supplying precision-engineered products that comply with international quality standards. Our commitment to
+                quality, timely delivery, and technical expertise makes us a preferred partner for customers worldwide.</p>
         </div>
     </section>
-
-     <!-- Testing & Quality Control for 45 Degree Bends -->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Testing & Quality Control for 45 Degree Bends</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-fill"></i></div>
-                        <h4>Hydrostatic Test</h4>
-                        <h5>Hydrostatic test for pressure integrity verification.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
-                        <h4>Eddy Current Test</h4>
-                        <h5>Eddy current testing for detecting surface-level defects.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                        <h4>PMI Test</h4>
-                        <h5>PMI testing to verify material grade and composition.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                        <h4>Hardness Test</h4>
-                        <h5>Hardness testing for strength and durability confirmation.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
-                        <h4>Flattening & Flaring Test</h4>
-                        <h5>Flattening and flaring to assess ductility and deformation.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-broadcast-pin"></i></div>
-                        <h4>Ultrasonic Test (UT)</h4>
-                        <h5>Ultrasonic testing for internal and volumetric defects.</h5>
-                    </div>
-                </div>
-
-            </div>
-
-    </section>
-
-
-
-    {{-- why choose us --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>Why Choose Moksh Bends?</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Ready stock for fast dispatch
-                        </h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Project-based sourcing & bulk supply capability
-                        </h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Compliance with Indian & Gulf standards</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Export-grade packaging & complete documentation</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Reliable delivery timelines</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Technical support for EPC & industrial projects</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!--End breadcrumb area-->
-
 
     <!--Start faq content area-->
     <section id="faq" class="faq-content-area sec-padd2">
@@ -1621,130 +652,72 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
-                        <div class="section-title center">
-                            <h2>Frequently Asked Questions (FAQ)</h2>
-
+                        <div class="section-title center mb-4">
+                            <h2 class="fw-bold" style="color: #174268;">Frequently Asked Questions (FAQ)</h2>
                         </div>
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What are 45 Degree Bends?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    45 Degree Bends are precision-engineered components used in power plants,
-                                    refineries, chemical industries, and various heat-transfer systems. They are built to
-                                    withstand high temperature, high pressure, and corrosive environments while maintaining
-                                    stable heat transfer efficiency.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What materials are used to manufacture these bends?</h4>
+                                <h4>What is a 45 Degree Bend?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    These bends are manufactured in Stainless Steel, Duplex/Super Duplex, Nickel Alloys
-                                    (Inconel, Monel), Alloy Steel, Carbon Steel, Copper Alloys, and Titanium. The selection
-                                    depends on the operating temperature, pressure, and fluid medium.
-                                </p>
+                                <p>A 45 Degree Bend is a pipe fitting used to change the direction of a pipeline by 45
+                                    degrees while providing a smoother flow path and reducing pressure loss.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What sizes and dimensions are available?</h4>
+                                <h4>What is the difference between a 45 Degree Bend and a 45 Degree Elbow?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    45 Degree Bends are available from 6 mm to 219 mm OD, 0.5 mm to 12.7 mm
-                                    wall thickness, and lengths up to 12 meters. Available in Seamless, Welded, ERW, EFW,
-                                    and U-Bent forms.
-                                </p>
+                                <p>A bend has a larger radius than an elbow, allowing smoother flow, lower turbulence, and
+                                    reduced pressure drop, making it suitable for long pipeline systems.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What standards do these bends meet?</h4>
+                                <h4>Which materials are available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    These bends are manufactured according to ASTM A179, A192, A213, A249, A269, A333, ASME
-                                    SA213, EN 10216, DIN, and related global specifications with strict inspection and QC.
-                                </p>
+                                <p>We manufacture 45 Degree Bends in stainless steel, carbon steel, alloy steel, duplex, and
+                                    super duplex materials.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are the main applications of 45 Degree Bends?</h4>
+                                <h4>Do you provide material test certificates?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Used in boilers, superheaters, reheaters, economizers, heat exchangers, condensers,
-                                    petrochemical heaters, chemical processing, marine applications (Cu-Ni & titanium), food
-                                    & dairy systems, and HVAC/refrigeration.
-                                </p>
+                                <p>Yes. EN 10204 3.1 Material Test Certificates are supplied with every order.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
-
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What is the MOQ and typical lead time?</h4>
+                                <h4>Can you export internationally?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Ex-stock sizes dispatch 2-5 days; make-to-order 2-6 weeks, grade/OD/WT par
-                                    depend karta
-                                    hai.
-                                </p>
+                                <p>Yes. We regularly export to customers across the Middle East, Asia, Europe, and other
+                                    global markets.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
-
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What test certificates and NDT do you provide?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    EN 10204 3.1 MTC with heat/lot traceability; Hydro, Eddy Current, UT, PMI, Hardness
-                                    testing available as per PO.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
-     </div>
-        </div>
     <!--End faq content area-->
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-            <div class="contact-cta-box">
-                <h2>Contact Us</h2>
-                <p>
-                    For further information, quotes, or customized boiler and heat exchanger bend products, <strong>Moksh
-                        Bends & Fittings
-                        LLP</strong> is your dependable partner for Boiler & Heat Exchanger Tubing Solutions.</p>
-                <!-- Call button -->
+            <div class="contact-cta-box text-center">
+                <h2 class="fw-bold" style="color: #db7227;">Request a Quote</h2>
+                <p>Looking for a reliable 45 Degree Bend manufacturer? Contact Moksh Tubes & Fittings LLP today for
+                    competitive pricing, ready stock, fast worldwide delivery, and certified industrial pipe fittings.
+                    Request your free quotation now.</p>
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -1782,27 +755,20 @@
     </style>
 @endpush
 
-
-
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
         {
           "@context": "https://schema.org",
           "@graph": [
-
-            /* ======================================================
-               0. INLINE ORGANIZATION (LIGHT VERSION FOR LINKING)
-               (Full version will be in layouts.master)
-            ====================================================== */
             {
               "@type": ["Organization", "LocalBusiness"],
-              "@id": "https://mokshbends.com/#organization",
+              "@id": "https://mokshtubes.com/#organization",
               "name": "Moksh Tubes & Fittings LLP",
-              "url": "https://mokshbends.com/",
-              "logo": "https://mokshbends.com/assets/images/logo.webp",
+              "url": "https://mokshtubes.com/",
+              "logo": "https://mokshtubes.com/assets/images/logo.webp",
               "telephone": "+91-9769584950",
-              "email": "info@mokshbends.com",
+              "email": "info@mokshtubes.com",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Mumbai",
@@ -1810,181 +776,108 @@
                 "addressCountry": "IN"
               }
             },
-
-            /* ======================================================
-               1. WEBSITE REFERENCE (FULL VERSION IN HEAD)
-            ====================================================== */
             {
               "@type": "WebSite",
-              "@id": "https://mokshbends.com/#website",
-              "url": "https://mokshbends.com/",
+              "@id": "https://mokshtubes.com/#website",
+              "url": "https://mokshtubes.com/",
               "name": "Moksh Tubes & Fittings LLP"
             },
-
-            /* ======================================================
-               2. PAGE LEVEL - WebPage Schema
-            ====================================================== */
             {
               "@type": "WebPage",
-              "@id": "https://mokshbends.com/products/pipes-bends/45-degree-bends#webpage",
-              "name": "45 Degree Bends | Moksh Tubes & Fittings LLP",
-              "url": "https://mokshbends.com/products/pipes-bends/45-degree-bends",
-              "description": "Industrial boiler & heat exchanger bends for power plants, refineries, petrochemical, marine, HVAC, and process industries. Available in seamless, welded, ERW, EFW, and U-bent configurations.",
-              "isPartOf": { "@id": "https://mokshbends.com/#website" },
-              "primaryImageOfPage": { "@id": "https://mokshbends.com/#product-image" }
+              "@id": "https://mokshtubes.com/45-degree-bend#webpage",
+              "name": "45 Degree Bend Manufacturer, Supplier & Exporter | Moksh Tubes",
+              "url": "https://mokshtubes.com/45-degree-bend",
+              "description": "Buy premium-quality Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex 45 Degree Bends manufactured to ASTM & ASME standards with worldwide delivery.",
+              "isPartOf": { "@id": "https://mokshtubes.com/#website" },
+              "primaryImageOfPage": { "@id": "https://mokshtubes.com/#product-image" }
             },
-
-            /* ======================================================
-               3. PRODUCT + SERVICE (FULL)
-            ====================================================== */
             {
               "@type": ["Product", "Service"],
-              "@id": "https://mokshbends.com/#45-degree-bends",
+              "@id": "https://mokshtubes.com/#45-degree-bend",
               "name": "45 Degree Bends",
-              "url": "https://mokshbends.com/products/pipes-bends/45-degree-bends",
-              "image": "https://mokshbends.com/assets/images/product/45-degree-bends.webp",
+              "url": "https://mokshtubes.com/45-degree-bend",
+              "image": "https://mokshtubes.com/assets/images/product/flangs/45-degree-elbows_11zon.jpg",
               "category": "Industrial Bends",
-              "description": "Seamless, welded (ERW/EFW), and U-bent boiler & heat exchanger bends with OD 6-219 mm, WT 0.5-12.7 mm, lengths up to 12 m. Manufactured in stainless steel, alloy steel, carbon steel, nickel alloys, copper alloys, and titanium.",
-
+              "description": "Premium-quality Stainless Steel, Carbon Steel, Alloy Steel, Duplex, and Super Duplex 45 Degree Bends.",
               "brand": {
                 "@type": "Brand",
-                "@id": "https://mokshbends.com/#organization",
+                "@id": "https://mokshtubes.com/#organization",
                 "name": "Moksh Tubes & Fittings LLP"
               },
-
               "manufacturer": {
                 "@type": "Organization",
-                "@id": "https://mokshbends.com/#organization"
+                "@id": "https://mokshtubes.com/#organization"
               },
-
               "material": [
                 "Stainless Steel",
-                "Duplex & Super Duplex",
-                "Nickel Alloys (Inconel, Monel)",
-                "Alloy Steel",
                 "Carbon Steel",
-                "Copper Alloys",
-                "Titanium"
+                "Alloy Steel",
+                "Duplex Stainless Steel",
+                "Super Duplex Stainless Steel"
               ],
-
-              /* --------------------------------------------------
-                 Technical Specifications
-              -------------------------------------------------- */
               "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Outer Diameter (OD)", "value": "6-219 mm" },
-                { "@type": "PropertyValue", "name": "Wall Thickness (WT)", "value": "0.5-12.7 mm" },
-                { "@type": "PropertyValue", "name": "Length", "value": "Up to 12 m (cut-to-length)" },
-                { "@type": "PropertyValue", "name": "Types", "value": "Seamless, ERW, EFW, U-bent" },
-                { "@type": "PropertyValue", "name": "Standards", "value": "ASTM A179/A192/A213/A249/A269/A333; ASME SA213; EN 10216; DIN" },
-                { "@type": "PropertyValue", "name": "Finishes", "value": "Bright Annealed, Pickled & Passivated, Electro Polished, Matte" },
-                { "@type": "PropertyValue", "name": "Testing", "value": "Hydrostatic, UT, Eddy Current, PMI, Hardness, Flaring/Flattening" },
-                { "@type": "PropertyValue", "name": "Temperature Resistance", "value": "Up to 750C (grade-dependent)" },
-                { "@type": "PropertyValue", "name": "Corrosion Resistance", "value": "High resistance to oxidation & aggressive media" }
+                { "@type": "PropertyValue", "name": "Outer Diameter", "value": "½\" NB to 48\" NB" },
+                { "@type": "PropertyValue", "name": "Standards", "value": "ASME B16.49, ASME B16.9, ASTM" }
               ],
-
-              /* --------------------------------------------------
-                 OFFER SCHEMA (B2B)
-              -------------------------------------------------- */
               "offers": {
                 "@type": "Offer",
-                "@id": "https://mokshbends.com/#offer",
-                "url": "https://mokshbends.com/products/pipes-bends/45-degree-bends",
+                "@id": "https://mokshtubes.com/#offer",
+                "url": "https://mokshtubes.com/45-degree-bend",
                 "availability": "https://schema.org/InStock",
                 "priceCurrency": "USD",
                 "price": "0.00",
                 "priceValidUntil": "2030-12-31",
                 "businessFunction": "https://schema.org/Sell",
-                "seller": { "@id": "https://mokshbends.com/#organization" }
-              },
-
-              /* --------------------------------------------------
-                 AGGREGATE RATING (Stars)
-              -------------------------------------------------- */
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "bestRating": "5",
-                "worstRating": "1",
-                "reviewCount": "112"
-              },
-
-              /* --------------------------------------------------
-                 OPTIONAL REVIEWS (PLACEHOLDERS)
-              -------------------------------------------------- */
-              "review": [
-                {
-                  "@type": "Review",
-                  "author": "Client",
-                  "reviewBody": "Excellent quality 45 degree bends and fast delivery.",
-                  "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
-                }
-              ]
+                "seller": { "@id": "https://mokshtubes.com/#organization" }
+              }
             },
-
-            /* ======================================================
-               4. IMAGE OBJECT
-            ====================================================== */
             {
               "@type": "ImageObject",
-              "@id": "https://mokshbends.com/#product-image",
-              "url": "https://mokshbends.com/assets/images/product/45-degree-bends.webp",
-              "description": "45 Degree Bends"
+              "@id": "https://mokshtubes.com/#product-image",
+              "url": "https://mokshtubes.com/assets/images/product/flangs/45-degree-elbows_11zon.jpg",
+              "description": "45 Degree Bend Manufacturer"
             },
-
-            /* ======================================================
-               5. BREADCRUMB LIST
-            ====================================================== */
             {
               "@type": "BreadcrumbList",
-              "@id": "https://mokshbends.com/#breadcrumb",
+              "@id": "https://mokshtubes.com/#breadcrumb",
               "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshbends.com/" },
-                { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://mokshbends.com/products" },
-                { "@type": "ListItem", "position": 3, "name": "Pipes & Bends", "item": "https://mokshbends.com/products/pipes-bends" },
-                { "@type": "ListItem", "position": 4, "name": "45 Degree Bends", "item": "https://mokshbends.com/products/pipes-bends/45-degree-bends" }
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshtubes.com/" },
+                { "@type": "ListItem", "position": 2, "name": "Pipe Fittings", "item": "https://mokshtubes.com/products/pipe-fittings" },
+                { "@type": "ListItem", "position": 3, "name": "Pipe Bends", "item": "https://mokshtubes.com/products/pipe-fittings/pipe-bends" },
+                { "@type": "ListItem", "position": 4, "name": "45 Degree Bend", "item": "https://mokshtubes.com/45-degree-bend" }
               ]
             },
-
-            /* ======================================================
-               6. FAQ SCHEMA
-            ====================================================== */
             {
               "@type": "FAQPage",
-              "@id": "https://mokshbends.com/#faq-boiler-bends",
+              "@id": "https://mokshtubes.com/#faq-45-degree-bends",
               "mainEntity": [
                 {
                   "@type": "Question",
-                  "name": "What are 45 Degree Bends?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "45 Degree Bends are precision-engineered components used in high temperature and high pressure heat transfer systems." }
+                  "name": "What is a 45 Degree Bend?",
+                  "acceptedAnswer": { "@type": "Answer", "text": "A 45 Degree Bend is a pipe fitting used to change the direction of a pipeline by 45 degrees while providing a smoother flow path and reducing pressure loss." }
                 },
                 {
                   "@type": "Question",
-                  "name": "What materials are used?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Manufactured in Stainless Steel, Alloy Steel, Carbon Steel, Duplex, Super Duplex, Nickel Alloys, Copper Alloys, and Titanium." }
+                  "name": "What is the difference between a 45 Degree Bend and a 45 Degree Elbow?",
+                  "acceptedAnswer": { "@type": "Answer", "text": "A bend has a larger radius than an elbow, allowing smoother flow, lower turbulence, and reduced pressure drop, making it suitable for long pipeline systems." }
                 },
                 {
                   "@type": "Question",
-                  "name": "What sizes are available?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "OD 6-219 mm, WT 0.5-12.7 mm, lengths up to 12 meters in Seamless, ERW, EFW, and U-bent forms." }
+                  "name": "Which materials are available?",
+                  "acceptedAnswer": { "@type": "Answer", "text": "We manufacture 45 Degree Bends in stainless steel, carbon steel, alloy steel, duplex, and super duplex materials." }
                 },
                 {
                   "@type": "Question",
-                  "name": "Which standards are followed?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "ASTM A179, A192, A213, A249, A269, A333, ASME SA213, EN 10216, DIN." }
+                  "name": "Do you provide material test certificates?",
+                  "acceptedAnswer": { "@type": "Answer", "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order." }
                 },
                 {
                   "@type": "Question",
-                  "name": "What are the applications?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Used in boilers, superheaters, condensers, economizers, heat exchangers, petrochemical heaters, marine systems, desalination, food & dairy, HVAC." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Lead time?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Ex-stock: 2-5 days. Make to order: 2-6 weeks." }
+                  "name": "Can you export internationally?",
+                  "acceptedAnswer": { "@type": "Answer", "text": "Yes. We regularly export to customers across the Middle East, Asia, Europe, and other global markets." }
                 }
               ]
             }
-
           ]
         }
         </script>

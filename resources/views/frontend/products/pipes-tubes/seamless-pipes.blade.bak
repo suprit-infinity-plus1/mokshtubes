@@ -522,141 +522,98 @@
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Applications & Uses of Seamless Pipes</h2>
             </div>
-            <div class="row g-4 mt-2">
+            <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-droplet-fill"></i></div>
-                        <h5>Oil & Gas Industry</h5>
-                        <ul>
-                            <li>High-pressure pipelines</li>
-                            <li>Offshore platforms</li>
-                            <li>Refineries</li>
-                            <li>LNG facilities</li>
+                    <div class="application-card h-100 p-4 border rounded shadow-sm bg-white">
+                        <h5 class="text-primary"><i class="bi bi-droplet-fill me-2"></i>Oil & Gas Industry</h5>
+                        <ul class="fs-6 list-unstyled mb-0">
+                            <li>✔ High-pressure pipelines</li>
+                            <li>✔ Offshore platforms</li>
+                            <li>✔ Refineries</li>
+                            <li>✔ LNG facilities</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Power Generation</h5>
-                        <ul>
-                            <li>Boiler systems</li>
-                            <li>Steam lines</li>
-                            <li>Condensers</li>
-                            <li>Heat exchangers</li>
+                    <div class="application-card h-100 p-4 border rounded shadow-sm bg-white">
+                        <h5 class="text-primary"><i class="bi bi-lightning-charge-fill me-2"></i>Power Generation</h5>
+                        <ul class="fs-6 list-unstyled mb-0">
+                            <li>✔ Boiler systems</li>
+                            <li>✔ Steam lines</li>
+                            <li>✔ Condensers</li>
+                            <li>✔ Heat exchangers</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-flask-fill"></i></div>
-                        <h5>Chemical & Petrochemical</h5>
-                        <ul>
-                            <li>Process piping</li>
-                            <li>Pressure vessels</li>
-                            <li>Chemical reactors</li>
-                            <li>Distillation systems</li>
+                    <div class="application-card h-100 p-4 border rounded shadow-sm bg-white">
+                        <h5 class="text-primary"><i class="bi bi-flask-fill me-2"></i>Chemical & Petrochemical</h5>
+                        <ul class="fs-6 list-unstyled mb-0">
+                            <li>✔ Process piping</li>
+                            <li>✔ Pressure vessels</li>
+                            <li>✔ Chemical reactors</li>
+                            <li>✔ Distillation systems</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-water"></i></div>
-                        <h5>Marine & Offshore</h5>
-                        <ul>
-                            <li>Shipbuilding</li>
-                            <li>Ballast systems</li>
-                            <li>Seawater piping</li>
-                            <li>Offshore structures</li>
+                    <div class="application-card h-100 p-4 border rounded shadow-sm bg-white">
+                        <h5 class="text-primary"><i class="bi bi-water me-2"></i>Marine & Offshore</h5>
+                        <ul class="fs-6 list-unstyled mb-0">
+                            <li>✔ Shipbuilding</li>
+                            <li>✔ Ballast systems</li>
+                            <li>✔ Seawater piping</li>
+                            <li>✔ Offshore structures</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-building"></i></div>
-                        <h5>Construction & Infrastructure</h5>
-                        <ul>
-                            <li>Structural applications</li>
-                            <li>Bridges</li>
-                            <li>Industrial buildings</li>
-                            <li>Support columns</li>
+                    <div class="application-card h-100 p-4 border rounded shadow-sm bg-white">
+                        <h5 class="text-primary"><i class="bi bi-building me-2"></i>Construction & Infrastructure</h5>
+                        <ul class="fs-6 list-unstyled mb-0">
+                            <li>✔ Structural applications</li>
+                            <li>✔ Bridges</li>
+                            <li>✔ Industrial buildings</li>
+                            <li>✔ Support columns</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Food & Pharmaceutical</h5>
-                        <ul>
-                            <li>Hygienic process piping</li>
-                            <li>CIP systems</li>
-                            <li>Sterile fluid transfer</li>
+                    <div class="application-card h-100 p-4 border rounded shadow-sm bg-white">
+                        <h5 class="text-primary"><i class="bi bi-shield-check me-2"></i>Food & Pharmaceutical</h5>
+                        <ul class="fs-6 list-unstyled mb-0">
+                            <li>✔ Hygienic process piping</li>
+                            <li>✔ CIP systems</li>
+                            <li>✔ Sterile fluid transfer</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-airplane-engines-fill"></i></div>
-                        <h5>Aerospace & Defence</h5>
-                        <ul>
-                            <li>Hydraulic systems</li>
-                            <li>Aircraft structures</li>
-                            <li>High-performance applications</li>
+                    <div class="application-card h-100 p-4 border rounded shadow-sm bg-white">
+                        <h5 class="text-primary"><i class="bi bi-airplane-engines-fill me-2"></i>Aerospace & Defence</h5>
+                        <ul class="fs-6 list-unstyled mb-0">
+                            <li>✔ Hydraulic systems</li>
+                            <li>✔ Aircraft structures</li>
+                            <li>✔ High-performance applications</li>
                         </ul>
                     </div>
                 </div>
             </div>
             
-            <div class="section-title center mb-4 mt-5">
-                <h3 class="fw-bold" style="color: #174268;">General Uses of Seamless Pipes</h3>
-            </div>
-            <div class="row g-4 mt-2">
-                <div class="col-md-6 col-lg-3">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-droplet-fill"></i></div>
-                        <h5>High-pressure fluid transportation</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-cloud-haze2"></i></div>
-                        <h5>Steam and condensate systems</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Boiler & superheater applications</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Hydraulic and pneumatic systems</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-building"></i></div>
-                        <h5>Structural fabrication</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-exclamation-triangle"></i></div>
-                        <h5>Corrosive chemical handling</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-water"></i></div>
-                        <h5>Offshore & marine installations</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-heart-pulse"></i></div>
-                        <h5>Food & pharmaceutical processing</h5>
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-8">
+                    <div class="p-4 border rounded shadow-sm bg-white">
+                        <h4 class="text-primary mb-3"><i class="bi bi-gear-fill me-2"></i>General Uses of Seamless Pipes</h4>
+                        <ul class="fs-6 list-unstyled mb-0">
+                            <li>✔ High-pressure fluid transportation</li>
+                            <li>✔ Steam and condensate systems</li>
+                            <li>✔ Boiler and superheater applications</li>
+                            <li>✔ Hydraulic and pneumatic systems</li>
+                            <li>✔ Structural fabrication</li>
+                            <li>✔ Corrosive chemical handling</li>
+                            <li>✔ Offshore and marine installations</li>
+                            <li>✔ Food and pharmaceutical processing</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -669,47 +626,17 @@
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Advantages of Seamless Pipes</h2>
             </div>
-            <div class="row g-4 mt-2">
-                <div class="col-md-6 col-lg-4">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-shield-shaded"></i></div>
-                        <h5>Superior Strength</h5>
-                        <p class="mb-0">No weld seam eliminates structural weak points.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-speedometer2"></i></div>
-                        <h5>Excellent Pressure Resistance</h5>
-                        <p class="mb-0">Suitable for high-pressure and high-temperature service.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Better Corrosion Resistance</h5>
-                        <p class="mb-0">Performs exceptionally well in aggressive environments.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-layers"></i></div>
-                        <h5>Uniform Structure</h5>
-                        <p class="mb-0">Consistent wall thickness and mechanical properties.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-check-circle"></i></div>
-                        <h5>Enhanced Reliability</h5>
-                        <p class="mb-0">Lower risk of failure in critical applications.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-clock-history"></i></div>
-                        <h5>Long Service Life</h5>
-                        <p class="mb-0">Reduced maintenance and extended operational performance.</p>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="p-4 border rounded shadow-sm bg-white">
+                        <ul class="fs-6 list-unstyled mb-0">
+                            <li class="mb-3">✔ <strong>Superior Strength:</strong> No weld seam eliminates structural weak points.</li>
+                            <li class="mb-3">✔ <strong>Excellent Pressure Resistance:</strong> Suitable for high-pressure and high-temperature service.</li>
+                            <li class="mb-3">✔ <strong>Better Corrosion Resistance:</strong> Performs exceptionally well in aggressive environments.</li>
+                            <li class="mb-3">✔ <strong>Uniform Structure:</strong> Consistent wall thickness and mechanical properties.</li>
+                            <li class="mb-3">✔ <strong>Enhanced Reliability:</strong> Lower risk of failure in critical applications.</li>
+                            <li>✔ <strong>Long Service Life:</strong> Reduced maintenance and extended operational performance.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -721,45 +648,45 @@
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Why Choose Moksh Tubes & Fittings LLP?</h2>
             </div>
-            <div class="row g-4 mt-4">
+            <div class="row g-4 mt-2">
                 <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-box-seam"></i></div>
+                    <div class="why-banner-block h-100 p-4 border rounded shadow-sm bg-white">
+                        <div class="why-banner-icon mb-3 fs-1 text-primary"><i class="bi bi-box-seam"></i></div>
                         <h5>Ready Stock Availability</h5>
                         <p class="mb-0">Over 200+ tons of seamless pipes available for immediate dispatch.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                    <div class="why-banner-block h-100 p-4 border rounded shadow-sm bg-white">
+                        <div class="why-banner-icon mb-3 fs-1 text-primary"><i class="bi bi-globe2"></i></div>
                         <h5>Global Sourcing Capability</h5>
                         <p class="mb-0">Access to hard-to-find grades and custom dimensions.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-shield-check"></i></div>
+                    <div class="why-banner-block h-100 p-4 border rounded shadow-sm bg-white">
+                        <div class="why-banner-icon mb-3 fs-1 text-primary"><i class="bi bi-shield-check"></i></div>
                         <h5>Certified Quality</h5>
                         <p class="mb-0">ISO 9001:2015 quality management system.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-tags"></i></div>
+                    <div class="why-banner-block h-100 p-4 border rounded shadow-sm bg-white">
+                        <div class="why-banner-icon mb-3 fs-1 text-primary"><i class="bi bi-tags"></i></div>
                         <h5>Competitive Pricing</h5>
                         <p class="mb-0">Cost-effective solutions without compromising quality.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+                    <div class="why-banner-block h-100 p-4 border rounded shadow-sm bg-white">
+                        <div class="why-banner-icon mb-3 fs-1 text-primary"><i class="bi bi-truck"></i></div>
                         <h5>Fast Delivery</h5>
                         <p class="mb-0">Reliable dispatch schedules aligned with project deadlines.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block h-100">
-                        <div class="why-banner-icon"><i class="bi bi-headset"></i></div>
+                    <div class="why-banner-block h-100 p-4 border rounded shadow-sm bg-white">
+                        <div class="why-banner-icon mb-3 fs-1 text-primary"><i class="bi bi-headset"></i></div>
                         <h5>Technical Support</h5>
                         <p class="mb-0">Expert assistance from material selection to project completion.</p>
                     </div>
@@ -768,70 +695,73 @@
         </div>
     </section>
 
-    <!--Start faq content area-->
-    <section id="faq" class="faq-content-area sec-padd2">
+    <!-- FAQ -->
+    <section id="faq" class="sec-padd-top sec-padd-bottom">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="accordion-box">
-                        <div class="section-title center">
-                            <h2>Frequently Asked Questions (FAQ)</h2>
-                        </div>
-                        
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What are Seamless Pipes?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Frequently Asked Questions</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <strong class="text-primary">What are Seamless Pipes?</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
                                     Seamless Pipes are pipes manufactured without any welded seam, providing superior strength and pressure resistance.
-                                </p>
+                                </div>
                             </div>
                         </div>
-                        <!--End single accordion box-->
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What sizes are available?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <strong class="text-primary">What sizes are available?</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
                                     Sizes range from 3 mm to 610 mm OD with various schedules and wall thicknesses.
-                                </p>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Which industries use Seamless Pipes?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <strong class="text-primary">Which industries use Seamless Pipes?</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
                                     Oil & Gas, Power Generation, Petrochemical, Marine, Construction, Food Processing, and Aerospace industries.
-                                </p>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What standards do you follow?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <strong class="text-primary">What standards do you follow?</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
                                     ASTM, ASME, API, DIN, and EN standards.
-                                </p>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Are custom sizes available?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <strong class="text-primary">Are custom sizes available?</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
                                     Yes, custom diameters, wall thicknesses, and lengths can be supplied.
-                                </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -840,97 +770,35 @@
         </div>
     </section>
 
-    <!-- Related Products -->
-    <section class="our-services sec-padd-top sec-padd-bottom bg-light border-top border-bottom">
+    <!-- Related Links -->
+    <section class="sec-padd-top sec-padd-bottom bg-light border-top border-bottom">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold fs-4" style="color: #174268;">Quick Links & Related Products</h2>
             </div>
-            <div class="row mt-4">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border bg-white">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') ?? '#' }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy seamless pipes" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 text-uppercase">Nickel Alloys</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border bg-white">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') ?? '#' }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="Stainless steel seamless pipes" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 text-uppercase">Stainless Steel</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border bg-white">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') ?? '#' }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex seamless pipes" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 text-uppercase">Duplex & Super</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border bg-white">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') ?? '#' }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="Titanium seamless pipes" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 text-uppercase">Titanium Alloys</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border bg-white">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') ?? '#' }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy seamless pipes" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 text-uppercase">Haynes Superalloys</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border bg-white">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.inconel') ?? '#' }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Inconel alloy seamless pipes" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 text-uppercase">Inconel</h6>
-                        </div>
-                    </div>
+            <div class="row text-center justify-content-center">
+                <div class="col-lg-10">
+                    <ul class="list-inline">
+                        <li class="list-inline-item m-1"><a href="{{ route('index') ?? '#' }}" class="btn btn-sm btn-outline-primary rounded-pill px-3">Home</a></li>
+                        <li class="list-inline-item m-1"><a href="{{ route('about') ?? '#' }}" class="btn btn-sm btn-outline-primary rounded-pill px-3">About Us</a></li>
+                        <li class="list-inline-item m-1"><a href="{{ route('contact') ?? '#' }}" class="btn btn-sm btn-outline-primary rounded-pill px-3">Contact Us</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Pipes</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Stainless Steel Pipes</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Welded Pipes</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">ERW Pipes</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Duplex Steel Pipes</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Super Duplex Pipes</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Nickel Alloy Pipes</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Carbon Steel Pipes</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Alloy Steel Pipes</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Pipe Fittings</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Flanges</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">U-Bends</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Heat Exchanger Tubes</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">ASTM A312 Pipes</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">ASTM A106 Pipes</a></li>
+                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-primary rounded-pill px-3">Blogs</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -943,7 +811,7 @@
                 <h3 class="fw-bold text-white">Request a Quote</h3>
                 <p class="fs-5 mt-3">Looking for high-quality Seamless Pipes for critical industrial applications?</p>
                 <p class="mb-4 text-light">Contact Moksh Tubes & Fittings LLP today for pricing, technical assistance, and immediate availability.<br>We deliver precision-engineered Seamless Pipes designed to meet the highest international quality standards and the most demanding industrial requirements.</p>
-                <a href="{{ route('contact-us') ?? '#' }}" class="btn btn-lg text-white shadow" style="background-color:#db7227; border-radius:8px; padding: 12px 30px;">Contact Us Now</a>
+                <a href="{{ route('contact') ?? '#' }}" class="btn btn-lg text-white shadow" style="background-color:#db7227; border-radius:8px; padding: 12px 30px;">Contact Us Now</a>
             </div>
         </div>
     </section>
@@ -954,7 +822,7 @@
 <!-- Schema JSON-LD -->
 <script type="application/ld+json">
 {
-  "@@context": "https://schema.org/",
+  "@context": "https://schema.org/",
   "@type": "Product",
   "name": "Seamless Pipes",
   "image": "https://mokshtubes.com/assets/images/product/seamless-pipes.webp",
@@ -976,7 +844,7 @@
 
 <script type="application/ld+json">
 {
-  "@@context": "https://schema.org",
+  "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
@@ -1019,7 +887,7 @@
 
 <script type="application/ld+json">
 {
-  "@@context": "https://schema.org/",
+  "@context": "https://schema.org/",
   "@type": "BreadcrumbList",
   "itemListElement": [{
     "@type": "ListItem",
@@ -1042,7 +910,7 @@
 
 <script type="application/ld+json">
 {
-  "@@context": "https://schema.org",
+  "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Moksh Tubes & Fittings LLP",
   "url": "https://mokshtubes.com/",
@@ -1059,7 +927,7 @@
 
 <script type="application/ld+json">
 {
-  "@@context": "https://schema.org",
+  "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Moksh Tubes & Fittings LLP",
   "image": "https://mokshtubes.com/assets/images/logo.png",
