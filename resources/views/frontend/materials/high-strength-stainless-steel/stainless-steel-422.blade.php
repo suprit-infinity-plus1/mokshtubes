@@ -26,8 +26,8 @@
       <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
+            <a href="#specification">Specifications</a> |
             <a href="#composition">Chemical Composition</a> |
-            <a href="#heat-treatment">Heat Treatment</a> |
             <a href="#mechanical">Mechanical Properties</a> |
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
@@ -136,7 +136,9 @@
     <!-- End Datasheet -->
 
     <!-- Specifications Section -->
-    <section class="sec-padd-top" id="specification">
+    
+{{-- 
+<section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
                 <h2>Material Summary – SS 422 / UNS S42200</h2>
@@ -205,6 +207,8 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Chemical Composition -->
     <section id="composition" class="sec-padd-top sec-padd-bottom">
@@ -273,7 +277,9 @@
     </section>
 
     <!-- Physical Properties -->
-    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
+    
+{{-- 
+<section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color:#174268;">Technical Composition of Stainless Steel 422</h2>
@@ -372,6 +378,8 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Mechanical Properties -->
     <section class="sec-padd-top sec-padd-bottom" id="mechanical">
@@ -428,7 +436,9 @@
     </section>
 
     <!-- Available Forms -->
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
             <div class="section-title center mt-5">
                 <h2>Available Forms & Size Range – Stainless Steel 422</h2>
@@ -482,9 +492,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- International Standards -->
-    <section class="sec-padd-top sec-padd-bottom" id="international">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="international">
         <div class="container">
             <div class="section-title center">
                 <h2>International Standards & Equivalent Grades – SS 422</h2>
@@ -532,62 +546,48 @@
             </div>
         </div>
     </section>
+--}}
 
 
 
-    @php
+
+        @php
         $products = [
             [
-                'name' => 'Seamless Pipes',
+                'name' => 'Pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
                 'image' => 'assets/images/all-product/seamless-pipes-10.webp',
             ],
-
             [
-                'name' => 'Welded Pipes (ERW & EFW)',
+                'name' => 'Tubes',
                 'route' => 'products.pipes-tubes.welded-pipes',
                 'image' => 'assets/images/all-product/welded-pipes-tubes-1.webp',
             ],
             [
-                'name' => 'Tubes (Capillary, U-Bend)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all-product/u-bent-tube.webp',
-            ],
-            [
-                'name' => 'Sheets & Plates',
+                'name' => 'Sheets',
                 'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all-product/Sheets-Plates.webp',
             ],
             [
-                'name' => 'Coils & Strips',
-                'route' => 'products.sheets-plates-coils.strips',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
+                'name' => 'Plates',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
+                'image' => 'assets/images/all-product/Sheets-Plates.webp',
             ],
             [
-                'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.bars-rods',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
-            ],
-            [
-                'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipe-fittings',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
-            ],
-            [
-                'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
+                'name' => 'Flanges',
                 'route' => 'products.flanges.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
-                'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.fasteners',
-                'image' => 'assets/images/all-product/FASTENERS.webp',
+                'name' => 'Bars',
+                'route' => 'products.bars-rods',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
-                'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
-                'image' => 'assets/images/all-product/custom-metal-fabricated.webp',
-            ],
+                'name' => 'Fittings',
+                'route' => 'products.pipe-fittings',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
+            ]
         ];
     @endphp
 
@@ -759,65 +759,41 @@
                     superior strength, oxidation resistance, and wear resistance at high temperatures:</p>
             </div>
 
-            <div class="row g-4 justify-content-center">
+                        <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-fan"></i></div>
-                        <h5>Power Generation & Turbine Components</h5>
-                        <p>Used in turbine blades, buckets, shafts, valves, and bolts that operate at elevated temperatures.
-                        </p>
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Chemical Processing</h5>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-airplane"></i></div>
-                        <h5>Aerospace Industry</h5>
-                        <p>Suitable for aircraft gas turbines, jet engine parts, and high-temperature structural components.
-                        </p>
-                    </div>
-                </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Petrochemical & Refinery Equipment</h5>
-                        <p>Used in valves, pumps, and fittings exposed to moderate corrosion and elevated temperatures.</p>
+                        <h5>Oil & Gas</h5>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-car-front-fill"></i></div>
-                        <h5>Automotive & Industrial Equipment</h5>
-                        <p>Ideal for exhaust valves, engine components, and other wear-resistant parts requiring high
-                            strength.</p>
-                    </div>
-                </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-water"></i></div>
-                        <h5>Marine & Offshore Applications</h5>
-                        <p>Used for parts exposed to seawater and mild corrosive conditions demanding mechanical
-                            reliability.</p>
+                        <h5>Marine</h5>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-box"></i></div>
-                        <h5>Forgings & Fasteners</h5>
-                        <p>Manufactured into bolts, studs, and precision fasteners for high-stress environments.</p>
+                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
+                        <h5>Pharmaceutical</h5>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>General Engineering Applications</h5>
-                        <p>Used for shafts, gears, and wear-resistant mechanical components where both strength and
-                            corrosion resistance are needed.</p>
+                        <div class="application-icon"><i class="bi bi-thermometer-half"></i></div>
+                        <h5>Heat Exchangers</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
+                        <h5>Power Plants</h5>
                     </div>
                 </div>
             </div>
@@ -831,46 +807,44 @@
                 <h2>WHY CHOOSE US?</h2>
             </div>
 
-            <div class="row g-4 mt-4">
+                        <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Specialists in high-performance stainless steels and nickel alloys</h5>
+                        <h5>ISO Certified</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-box-seam"></i></div>
-                        <h5>Extensive stock availability of SS 422 products in multiple forms</h5>
+                        <div class="why-banner-icon"><i class="bi bi-file-earmark-check"></i></div>
+                        <h5>MTC 3.1</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+                        <h5>Fast Delivery</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global network ensuring timely delivery and customized support</h5>
+                        <h5>Worldwide Export</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-eyeglasses"></i></div>
-                        <h5>Strict quality control and full compliance with ASTM standards</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Trusted by global industries for precision, reliability, and durability</h5>
+                        <div class="why-banner-icon"><i class="bi bi-cash-coin"></i></div>
+                        <h5>Competitive Price</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+    
+{{-- 
+<section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
             <div class="section-title text-center mb-4">
                 <h2>Stainless Steel 422 Price per kg in India</h2>
@@ -888,10 +862,14 @@
             </p>
         </div>
     </section>
+--}}
+
 
 
     <!--Start faq content area-->
-    <section  id="faq" class="faq-content-area sec-padd2">
+    
+{{-- 
+<section  id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
@@ -974,17 +952,21 @@
             </div>
         </div>
     </section>
+--}}
+
     <!--End faq content area-->
 
     {{-- blog section start --}}
-    <section class="blog-section sec-padd2">
+    
+{{-- 
+<section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
             </div>
             <div class="row">
                 @foreach ($blogs as $blog)
-                    {{-- {{ dd($blog) }} --}}
+                    <!-- {{ dd($blog) }} -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="default-blog-news wow fadeInUp animated">
 
@@ -1030,6 +1012,8 @@
             </div>
         </div>
     </section>
+--}}
+
     {{-- blog section end --}}
 
 

@@ -34,13 +34,13 @@
        <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
+            <a href="#specification">Specifications</a> |
             <a href="#composition">Chemical Composition</a> |
-            <a href="#heat-treatment">Heat Treatment</a> |
             <a href="#mechanical">Mechanical Properties</a> |
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
 
@@ -195,7 +195,9 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
@@ -393,61 +395,47 @@
             </div>
         </div>
     </section>
+--}}
 
 
-    @php
+
+        @php
         $products = [
             [
-                'name' => 'Seamless Pipes',
+                'name' => 'Pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
                 'image' => 'assets/images/all-product/seamless-pipes-10.webp',
             ],
-
             [
-                'name' => 'Welded Pipes (ERW & EFW)',
+                'name' => 'Tubes',
                 'route' => 'products.pipes-tubes.welded-pipes',
                 'image' => 'assets/images/all-product/welded-pipes-tubes-1.webp',
             ],
             [
-                'name' => 'Tubes (Capillary, U-Bend)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all-product/u-bent-tube.webp',
-            ],
-            [
-                'name' => 'Sheets & Plates',
+                'name' => 'Sheets',
                 'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all-product/Sheets-Plates.webp',
             ],
             [
-                'name' => 'Coils & Strips',
-                'route' => 'products.sheets-plates-coils.strips',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
+                'name' => 'Plates',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
+                'image' => 'assets/images/all-product/Sheets-Plates.webp',
             ],
             [
-                'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.bars-rods',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
-            ],
-            [
-                'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipe-fittings',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
-            ],
-            [
-                'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
+                'name' => 'Flanges',
                 'route' => 'products.flanges.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
-                'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.fasteners',
-                'image' => 'assets/images/all-product/FASTENERS.webp',
+                'name' => 'Bars',
+                'route' => 'products.bars-rods',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
-                'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
-                'image' => 'assets/images/all-product/custom-metal-fabricated.webp',
-            ],
+                'name' => 'Fittings',
+                'route' => 'products.pipe-fittings',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
+            ]
         ];
     @endphp
 
@@ -570,83 +558,43 @@
                 </p>
             </div>
 
-            <div class="row g-4 justify-content-center">
+                        <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Heat Treatment and Industrial Furnaces</h5>
-                        <p>Commonly used for retorts, furnace fixtures, trays, muffles, and radiant tubes exposed to high
-                            temperatures. INCONEL 600 maintains mechanical strength and resists scaling in extreme thermal
-                            cycles.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
                         <h5>Chemical Processing</h5>
-                        <p>Ideal for vessels, piping, and heat exchangers handling acidic, caustic, and chlorinated media.
-                            The alloy's resistance to chlorine, hydrogen chloride, and oxidizing salts ensures long-term
-                            stability and performance</p>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Nuclear and Power Generation</h5>
-                        <p>Used in reactor core components, steam generator tubing, and fuel element spacers. INCONEL 600
-                            offers good resistance to corrosion under high-purity water and steam conditions in nuclear
-                            power plants.</p>
+                        <h5>Oil & Gas</h5>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Food Processing and Pharmaceutical Equipment</h5>
-                        <p>Well-suited for systems exposed to organic and inorganic acids. Its non-magnetic properties and
-                            resistance to high-purity water make it reliable for hygienic applications.</p>
+                        <div class="application-icon"><i class="bi bi-water"></i></div>
+                        <h5>Marine</h5>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Aerospace and Jet Engines</h5>
-                        <p>Used in components exposed to thermal and corrosive environments, such as engine parts,
-                            afterburner assemblies, and exhaust liners. INCONEL 600 offers excellent oxidation and creep
-                            resistance.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Marine and Offshore Systems</h5>
-                        <p>Provides excellent resistance to chloride-induced corrosion in saltwater environments. Often used
-                            in marine heat exchangers, pumps, and risers.</p>
-                    </div>
-                </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-capsule"></i></div>
-                        <h5>Cryogenic Applications</h5>
-                        <p>INCONEL 600 retains toughness and ductility at sub-zero temperatures, making it suitable for use
-                            in cryogenic storage and transfer systems.</p>
+                        <h5>Pharmaceutical</h5>
                     </div>
                 </div>
-
-                {{-- <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                    <h5>Why It Works</h5>
-                    <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-thermometer-half"></i></div>
+                        <h5>Heat Exchangers</h5>
+                    </div>
                 </div>
-            </div> --}}
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
+                        <h5>Power Plants</h5>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -658,39 +606,35 @@
                 <h2>WHY CHOOSE US?</h2>
             </div>
 
-            <div class="row g-4 mt-4">
+                        <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Specialists in high-performance nickel alloys</h5>
+                        <h5>ISO Certified</h5>
                     </div>
                 </div>
-
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-file-earmark-check"></i></div>
+                        <h5>MTC 3.1</h5>
+                    </div>
+                </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Strong sourcing network for premium materials</h5>
+                        <h5>Fast Delivery</h5>
                     </div>
                 </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Advanced manufacturing and machining capabilities</h5>
-                    </div>
-                </div>
-
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Export-ready with global logistics support</h5>
+                        <h5>Worldwide Export</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Committed to quality assurance and customer satisfaction</h5>
+                        <div class="why-banner-icon"><i class="bi bi-cash-coin"></i></div>
+                        <h5>Competitive Price</h5>
                     </div>
                 </div>
             </div>
@@ -800,14 +744,16 @@
     <!--End faq content area-->
 
      {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+      
+{{-- 
+<section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
             </div>
             <div class="row">
                 @foreach ($blogs as $blog)
-                    {{-- {{ dd($blog) }} --}}
+                    <!-- {{ dd($blog) }} -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="default-blog-news wow fadeInUp animated">
 
@@ -853,6 +799,8 @@
             </div>
         </div>
     </section>
+--}}
+
     {{-- blog section end --}}
 
 

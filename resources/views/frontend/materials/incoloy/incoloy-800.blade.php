@@ -34,8 +34,8 @@
     <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
+            <a href="#specification">Specifications</a> |
             <a href="#composition">Chemical Composition</a> |
-            <a href="#heat-treatment">Heat Treatment</a> |
             <a href="#mechanical">Mechanical Properties</a> |
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
@@ -249,7 +249,9 @@
         </div>
     </section>
 
-    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
+    
+{{-- 
+<section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Technical Composition of Incoloy 800</h2>
@@ -343,6 +345,8 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Mechanical Properties -->
     <section class="sec-padd-top sec-padd-bottom" id="mechanical">
@@ -469,7 +473,9 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
             <div class="section-title center mt-5" id="available forms">
                 <h2>Available Forms & Size Range</h2>
@@ -525,9 +531,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Standards & Equivalent Grades Section -->
-    <section class="sec-padd-top sec-padd-bottom" id="international">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="international">
         <div class="container">
             <div class="section-title center">
                 <h2>International Standards & Equivalent Grades</h2>
@@ -575,62 +585,48 @@
             </div>
         </div>
     </section>
+--}}
+
     <!-- End Standards & Equivalent Grades Section -->
 
 
-    @php
+        @php
         $products = [
             [
-                'name' => 'Seamless Pipes',
+                'name' => 'Pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
                 'image' => 'assets/images/all-product/seamless-pipes-10.webp',
             ],
-
             [
-                'name' => 'Welded Pipes (ERW & EFW)',
+                'name' => 'Tubes',
                 'route' => 'products.pipes-tubes.welded-pipes',
                 'image' => 'assets/images/all-product/welded-pipes-tubes-1.webp',
             ],
             [
-                'name' => 'Tubes (Capillary, U-Bend)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all-product/u-bent-tube.webp',
-            ],
-            [
-                'name' => 'Sheets & Plates',
+                'name' => 'Sheets',
                 'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all-product/Sheets-Plates.webp',
             ],
             [
-                'name' => 'Coils & Strips',
-                'route' => 'products.sheets-plates-coils.strips',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
+                'name' => 'Plates',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
+                'image' => 'assets/images/all-product/Sheets-Plates.webp',
             ],
             [
-                'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.bars-rods',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
-            ],
-            [
-                'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipe-fittings',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
-            ],
-            [
-                'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
+                'name' => 'Flanges',
                 'route' => 'products.flanges.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
-                'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.fasteners',
-                'image' => 'assets/images/all-product/FASTENERS.webp',
+                'name' => 'Bars',
+                'route' => 'products.bars-rods',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
-                'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
-                'image' => 'assets/images/all-product/custom-metal-fabricated.webp',
-            ],
+                'name' => 'Fittings',
+                'route' => 'products.pipe-fittings',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
+            ]
         ];
     @endphp
 
@@ -754,90 +750,43 @@
                 </p>
             </div>
 
-            <div class="row g-4 justify-content-center">
+                        <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Heat Treatment Equipment</h5>
-                        <p>Furnace components, radiant tubes, retorts, trays, baskets, and muffles that require thermal
-                            stability and resistance to scaling.
-                        </p>
+                        <h5>Chemical Processing</h5>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Petrochemical & Refining Industry</h5>
-                        <p>Used in ethylene furnace quench boilers, hydrocarbon cracking systems, heat exchangers, and
-                            headers due to excellent carburization and oxidation resistance.</p>
-                    </div>
-                </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Nuclear and Power Generation</h5>
-                        <p>Fuel reprocessing equipment, superheater tubes, and boiler components where long-term service
-                            under high temperature and pressure is required.</p>
+                        <h5>Oil & Gas</h5>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Chemical Processing Plants</h5>
-                        <p>Reactors, pressure vessels, heat exchangers, and process piping exposed to nitric acid, nitrates,
-                            and aggressive oxidizing media.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Industrial Ovens and Kilns</h5>
-                        <p>Supports, guides, and mechanical parts that experience constant thermal cycling and high heat
-                            exposure.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Pulp & Paper Industry</h5>
-                        <p>Black liquor recovery systems, digesters, and chlorine dioxide processing units requiring metal
-                            integrity under hot, corrosive atmospheres.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
-                        <h5>Gas Turbine and Heat Recovery Systems</h5>
-                        <p>Components subjected to repeated heating/cooling cycles where thermal fatigue resistance is
-                            essential.
-                        </p>
+                        <div class="application-icon"><i class="bi bi-water"></i></div>
+                        <h5>Marine</h5>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-capsule"></i></div>
-                        <h5>Offshore and Marine Engineering</h5>
-                        <p>Fittings and tubing in marine exhaust systems and oil refining units operating under saline and
-                            acidic environments.
-                        </p>
+                        <h5>Pharmaceutical</h5>
                     </div>
                 </div>
-
-                {{-- <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                    <h5>Why It Works</h5>
-                    <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-thermometer-half"></i></div>
+                        <h5>Heat Exchangers</h5>
+                    </div>
                 </div>
-            </div> --}}
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
+                        <h5>Power Plants</h5>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -849,46 +798,44 @@
                 <h2>WHY CHOOSE US?</h2>
             </div>
 
-            <div class="row g-4 mt-4">
+                        <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Specialists in manufacturing high-quality products</h5>
+                        <h5>ISO Certified</h5>
                     </div>
                 </div>
-
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-file-earmark-check"></i></div>
+                        <h5>MTC 3.1</h5>
+                    </div>
+                </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Strong supplier network for premium raw materials</h5>
+                        <h5>Fast Delivery</h5>
                     </div>
                 </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Dedicated to quality, dependability, and customer satisfaction</h5>
-                    </div>
-                </div>
-
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Expertise in nickel alloys and high-performance materials</h5>
+                        <h5>Worldwide Export</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Global presence with customized solutions for diverse needs</h5>
+                        <div class="why-banner-icon"><i class="bi bi-cash-coin"></i></div>
+                        <h5>Competitive Price</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-     <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+     
+{{-- 
+<section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
             <div class="section-title text-center mb-4">
                 <h2>INCOLOY® 800 Price per kg in India</h2>
@@ -906,6 +853,8 @@
             </p>
         </div>
     </section>
+--}}
+
 
     <!--Start faq content area-->
     <section id="faq" class="faq-content-area sec-padd2">
@@ -1010,14 +959,16 @@
     <!--End faq content area-->
 
     {{-- blog section start --}}
-    <section class="blog-section sec-padd2">
+    
+{{-- 
+<section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
             </div>
             <div class="row">
                 @foreach ($blogs as $blog)
-                    {{-- {{ dd($blog) }} --}}
+                    <!-- {{ dd($blog) }} -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="default-blog-news wow fadeInUp animated">
 
@@ -1063,6 +1014,8 @@
             </div>
         </div>
     </section>
+--}}
+
     {{-- blog section end --}}
 
 

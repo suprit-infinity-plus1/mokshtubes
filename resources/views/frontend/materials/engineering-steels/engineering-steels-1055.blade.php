@@ -41,8 +41,8 @@
     <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
+            <a href="#specification">Specifications</a> |
             <a href="#composition">Chemical Composition</a> |
-            <a href="#heat-treatment">Heat Treatment</a> |
             <a href="#mechanical">Mechanical Properties</a> |
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
@@ -267,7 +267,9 @@
 
     <!-- Technical Properties Section -->
 
-    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
+    
+{{-- 
+<section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
 
         <div class="container">
             <div class="section-title center mb-5">
@@ -391,6 +393,8 @@
 
         </div>
     </section>
+--}}
+
 
 
     <!-- Heat Treatment -->
@@ -473,7 +477,9 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
             <div class="section-title center mt-5" id="available forms">
                 <h2>Available Forms & Size Range</h2>
@@ -531,11 +537,15 @@
 
         </div>
     </section>
+--}}
+
 
     <!-- End Available Forms & Size Range Section -->
 
     <!-- Standards & Equivalent Grades Section -->
-    <section class="sec-padd-top sec-padd-bottom" id="international">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="international">
         <div class="container">
             <div class="section-title center">
                 <h2>International Standards & Equivalent Grades</h2>
@@ -575,86 +585,48 @@
             </div>
         </div>
     </section>
+--}}
+
     <!-- End Standards & Equivalent Grades Section -->
 
-    @php
+        @php
         $products = [
             [
-                'name' => 'Seamless Pipes',
+                'name' => 'Pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
                 'image' => 'assets/images/all-product/seamless-pipes-10.webp',
             ],
-
             [
-                'name' => 'Welded Pipes (ERW & EFW)',
+                'name' => 'Tubes',
                 'route' => 'products.pipes-tubes.welded-pipes',
                 'image' => 'assets/images/all-product/welded-pipes-tubes-1.webp',
             ],
             [
-                'name' => 'Tubes (Capillary, U-Bend)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all-product/u-bent-tube.webp',
-            ],
-            [
-                'name' => 'Sheets & Plates',
+                'name' => 'Sheets',
                 'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all-product/Sheets-Plates.webp',
             ],
             [
-                'name' => 'Coils & Strips',
-                'route' => 'products.sheets-plates-coils.strips',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
+                'name' => 'Plates',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
+                'image' => 'assets/images/all-product/Sheets-Plates.webp',
             ],
             [
-                'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.bars-rods',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
-            ],
-            [
-                'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipe-fittings',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
-            ],
-            [
-                'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
+                'name' => 'Flanges',
                 'route' => 'products.flanges.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
-                'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.fasteners',
-                'image' => 'assets/images/all-product/FASTENERS.webp',
+                'name' => 'Bars',
+                'route' => 'products.bars-rods',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
-                'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
-                'image' => 'assets/images/all-product/custom-metal-fabricated.webp',
-            ],
+                'name' => 'Fittings',
+                'route' => 'products.pipe-fittings',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
+            ]
         ];
-
-        // $engineeringProducts = [
-        //     [
-        //         'name' => 'EN8 Carbon Steel',
-        //         'slug' => 'en8',
-        //         'image' => 'assets/images/engineering-steels/engineering-steels-en8.webp',
-        //     ],
-        //     [
-        //         'name' => 'Engineering Steel EN9',
-        //         'slug' => 'en9',
-        //         'image' => 'assets/images/engineering-steels/engineering-steels-en9.webp',
-        //     ],
-        //     [
-        //         'name' => 'Engineering Steel 1045',
-        //         'slug' => '1045',
-        //         'image' => 'assets/images/engineering-steels/engineering-steels-1045.webp',
-        //     ],
-        //     [
-        //         'name' => 'Engineering Steel 1060',
-        //         'slug' => '1060',
-        //         'image' => 'assets/images/engineering-steels/engineering-steels-en8.webp',
-        //     ],
-        // ];
-
     @endphp
 
     <section class="sec-padd-top sec-padd-bottom bg-light" id="products">
@@ -769,73 +741,51 @@
                 </p>
             </div>
 
-            <div class="row g-4 justify-content-center">
+                        <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Automotive and Machinery</h5>
-                        <p>Shafts, gears, crankshafts, bolts, and studs requiring higher strength and wear
-                            resistance.</p>
+                        <h5>Chemical Processing</h5>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Structural Components</h5>
-                        <p>Heavy-duty structural parts and machinery components subject to mechanical stress.
-                        </p>
-                    </div>
-                </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Manufacturing</h5>
-                        <p>Tools, dies, and machine parts that require a balance of strength and toughness.</p>
+                        <h5>Oil & Gas</h5>
                     </div>
                 </div>
-
-                {{-- <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Power Generation</h5>
-                        <p>Utilized in condensers, cooling systems, and heat recovery units due to its resistance to erosion
-                            and chemical attack.</p>
-                    </div>
-                </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Aerospace Industry</h5>
-                        <p>Used in structural frames, tubing, and fuel systems where strength-to-weight ratio is crucial.
-                        </p>
+                        <div class="application-icon"><i class="bi bi-water"></i></div>
+                        <h5>Marine</h5>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Medical and Pharmaceutical Equipment</h5>
-                        <p>Favored for surgical tools, implants, and cleanroom processing systems because of its purity and
-                            biocompatibility.</p>
+                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
+                        <h5>Pharmaceutical</h5>
                     </div>
-                </div> --}}
-
-                {{-- <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                    <h5>Why It Works</h5>
-                    <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
                 </div>
-            </div> --}}
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-thermometer-half"></i></div>
+                        <h5>Heat Exchangers</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
+                        <h5>Power Plants</h5>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light py-5">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
             <div class="section-title text-center mb-4">
                 <h2>Export Destinations</h2>
@@ -851,6 +801,8 @@
             </p>
         </div>
     </section>
+--}}
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -859,46 +811,44 @@
                 <h2>WHY CHOOSE US?</h2>
             </div>
 
-            <div class="row g-4 mt-4">
+                        <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Reliable supplier of high-quality EN 1055 steel products</h5>
+                        <h5>ISO Certified</h5>
                     </div>
                 </div>
-
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-file-earmark-check"></i></div>
+                        <h5>MTC 3.1</h5>
+                    </div>
+                </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Customized product sizes and heat treatment options available</h5>
+                        <h5>Fast Delivery</h5>
                     </div>
                 </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Robust logistics ensuring timely deliveries worldwide</h5>
-                    </div>
-                </div>
-
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Expert guidance on material selection and applications</h5>
+                        <h5>Worldwide Export</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Commitment to quality and customer satisfaction</h5>
+                        <div class="why-banner-icon"><i class="bi bi-cash-coin"></i></div>
+                        <h5>Competitive Price</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+    
+{{-- 
+<section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
             <div class="section-title text-center mb-4">
                 <h2>1055 Steel Price per kg in India</h2>
@@ -916,6 +866,8 @@
             </p>
         </div>
     </section>
+--}}
+
 
     <!--Start faq content area-->
     <section id="faq" class="faq-content-area sec-padd2">
@@ -1041,14 +993,16 @@
 
 
     {{-- blog section start --}}
-    <section class="blog-section sec-padd2">
+    
+{{-- 
+<section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
             </div>
             <div class="row">
                 @foreach ($blogs as $blog)
-                    {{-- {{ dd($blog) }} --}}
+                    <!-- {{ dd($blog) }} -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="default-blog-news wow fadeInUp animated">
 
@@ -1094,6 +1048,8 @@
             </div>
         </div>
     </section>
+--}}
+
     {{-- blog section end --}}
 
     <!-- Contact CTA Section -->

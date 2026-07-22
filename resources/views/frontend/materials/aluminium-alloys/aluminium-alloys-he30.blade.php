@@ -25,22 +25,14 @@
     </section>
 
     <!-- Sticky Material Tabs -->
-    <div class="sticky-top bg-white border-bottom material-tabs w-100">
-        <div class="container py-2 text-center">
-            <a href="#why-choose">Why Choose</a> |
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
             <a href="#overview">Overview</a> |
-            <a href="#specifications">Specifications</a> |
-            <a href="#composition">Composition</a> |
-            <a href="#properties">Properties</a> |
-            <a href="#thermal">Thermal</a> |
-            <a href="#welding">Welding</a> |
-            <a href="#machining">Machining</a> |
-            <a href="#fabrication">Fabrication</a> |
-            <a href="#corrosion">Corrosion</a> |
-            <a href="#manufacturing">Manufacturing</a> |
-            <a href="#advantages">Advantages</a> |
-            <a href="#industries">Industries</a> |
-            <a href="#price">Price</a> |
+            <a href="#specification">Specifications</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
             <a href="#contact-us">Contact Us</a>
         </div>
@@ -214,7 +206,9 @@
     </section>
 
     <!-- Physical Properties -->
-    <section class="sec-padd-top sec-padd-bottom" id="properties">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="properties">
         <div class="container">
             <div class="section-title center">
                 <h2>Physical Properties – Aluminium HE30</h2>
@@ -244,9 +238,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- ⭐ Thermal Properties (Requested Star Section 1) -->
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="thermal">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="thermal">
         <div class="container">
             <div class="section-title center">
                 <h2>Thermal Properties of Aluminium HE30 (AA6082)</h2>
@@ -299,9 +297,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Heat Treatment -->
-    <section class="sec-padd-top sec-padd-bottom" id="heat-treatment">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="heat-treatment">
         <div class="container">
             <div class="section-title center">
                 <h2>Heat Treatment – Aluminium HE30</h2>
@@ -331,9 +333,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- ⭐ Welding of Aluminium HE30 (Requested Star Section 2) -->
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="welding">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="welding">
         <div class="container">
             <div class="section-title center">
                 <h2>Weldability of Aluminium Alloy HE30</h2>
@@ -390,9 +396,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- ⭐ Machining of Aluminium HE30 (Requested Star Section 3) -->
-    <section class="sec-padd-top sec-padd-bottom" id="machining">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="machining">
         <div class="container">
             <div class="section-title center">
                 <h2>Machining Characteristics of Aluminium HE30</h2>
@@ -453,9 +463,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- ⭐ Fabrication of Aluminium HE30 (Requested Star Section 4) -->
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="fabrication">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="fabrication">
         <div class="container">
             <div class="section-title center">
                 <h2>Fabrication of Aluminium HE30</h2>
@@ -508,6 +522,8 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Mechanical Properties -->
     <section class="sec-padd-top sec-padd-bottom" id="mechanical">
@@ -547,7 +563,9 @@
     </section>
 
     <!-- ⭐ Corrosion Resistance of Aluminium HE30 (Requested Star Section 5) -->
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="corrosion">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="corrosion">
         <div class="container">
             <div class="section-title center">
                 <h2>Corrosion Resistance of Aluminium HE30</h2>
@@ -599,9 +617,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Material Comparison -->
-    <section class="sec-padd-top sec-padd-bottom" id="comparison">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="comparison">
         <div class="container">
             <div class="section-title center">
                 <h2>Aluminium HE30 vs Other Popular Aluminium Alloys</h2>
@@ -640,9 +662,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Available Forms & Equivalent Grades -->
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="forms">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="forms">
         <div class="container">
             <div class="row g-5">
                 <!-- Available Forms -->
@@ -695,59 +721,46 @@
             </div>
         </div>
     </section>
+--}}
 
-    @php
+
+        @php
         $products = [
             [
-                'name' => 'Seamless Pipes',
+                'name' => 'Pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
                 'image' => 'assets/images/all-product/seamless-pipes-10.webp',
             ],
             [
-                'name' => 'Welded Pipes (ERW & EFW)',
+                'name' => 'Tubes',
                 'route' => 'products.pipes-tubes.welded-pipes',
                 'image' => 'assets/images/all-product/welded-pipes-tubes-1.webp',
             ],
             [
-                'name' => 'Tubes (Capillary, U-Bend)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all-product/u-bent-tube.webp',
-            ],
-            [
-                'name' => 'Sheets & Plates',
+                'name' => 'Sheets',
                 'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all-product/Sheets-Plates.webp',
             ],
             [
-                'name' => 'Coils & Strips',
-                'route' => 'products.sheets-plates-coils.strips',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
+                'name' => 'Plates',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
+                'image' => 'assets/images/all-product/Sheets-Plates.webp',
             ],
             [
-                'name' => 'Round Bars, Flat Bars, Hex Bars',
-                'route' => 'products.bars-rods',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
-            ],
-            [
-                'name' => 'Pipe Fittings (Elbows, Tees, Reducers)',
-                'route' => 'products.pipe-fittings',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
-            ],
-            [
-                'name' => 'Flanges (Weld Neck, Slip-On, Blind)',
+                'name' => 'Flanges',
                 'route' => 'products.flanges.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
-                'name' => 'Fasteners (Bolts, Nuts, Studs)',
-                'route' => 'products.fasteners',
-                'image' => 'assets/images/all-product/FASTENERS.webp',
+                'name' => 'Bars',
+                'route' => 'products.bars-rods',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
-                'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
-                'image' => 'assets/images/all-product/custom-metal-fabricated.webp',
-            ],
+                'name' => 'Fittings',
+                'route' => 'products.pipe-fittings',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
+            ]
         ];
     @endphp
 
@@ -778,7 +791,9 @@
     </section>
 
     <!-- ⭐ Manufacturing Process (Requested Star Section 6) -->
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="manufacturing">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="manufacturing">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2>Manufacturing Process of Aluminium HE30 Products</h2>
@@ -809,9 +824,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- ⭐ Quality Testing (Requested Star Section 7) -->
-    <section class="sec-padd-top sec-padd-bottom">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2>Quality Assurance & Testing</h2>
@@ -846,9 +865,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- ⭐ Advantages of Aluminium HE30 (Requested Star Section 8) -->
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="advantages">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="advantages">
         <div class="container">
             <div class="section-title center">
                 <h2>Advantages of Aluminium HE30</h2>
@@ -871,9 +894,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- ⭐ Limitations of Aluminium HE30 (Requested Star Section 9) -->
-    <section class="sec-padd-top sec-padd-bottom">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Limitations of Aluminium HE30</h2>
@@ -904,6 +931,8 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Applications -->
     <section class="sec-padd-top sec-padd-bottom bg-light" id="applications">
@@ -915,19 +944,51 @@
                 Aluminium HE30 is widely specified across structural engineering projects requiring durability and high strength-to-weight ratios.
             </p>
 
-            <div class="row g-4 justify-content-center">
-                <div class="col-md-6 col-lg-4"><div class="application-card h-100"><div class="application-icon"><i class="bi bi-building"></i></div><h5>Structural Engineering</h5><p>Bridges, trusses, cranes, roof frameworks, and heavy load-bearing architectural columns.</p></div></div>
-                <div class="col-md-6 col-lg-4"><div class="application-card h-100"><div class="application-icon"><i class="bi bi-truck"></i></div><h5>Transportation & Automotive</h5><p>Truck trailers, rail coaches, chassis structures, and dump bodies requiring high fatigue strength.</p></div></div>
-                <div class="col-md-6 col-lg-4"><div class="application-card h-100"><div class="application-icon"><i class="bi bi-water"></i></div><h5>Marine Equipment</h5><p>Shipbuilding masts, gangways, offshore walkways, boat hulls, and marine structural components.</p></div></div>
-                <div class="col-md-6 col-lg-4"><div class="application-card h-100"><div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div><h5>Industrial Machinery</h5><p>High-speed automation platforms, hydraulic valve bodies, jigs, fixtures, and base plates.</p></div></div>
-                <div class="col-md-6 col-lg-4"><div class="application-card h-100"><div class="application-icon"><i class="bi bi-lightning-charge"></i></div><h5>Power & Energy</h5><p>Busbar supports, electrical towers, solar panel mounting frames, and wind turbine structural brackets.</p></div></div>
-                <div class="col-md-6 col-lg-4"><div class="application-card h-100"><div class="application-icon"><i class="bi bi-shield-lock"></i></div><h5>Defence & Aerospace</h5><p>Military vehicle frames, transport scaffolding, radar structures, and aircraft interior framing.</p></div></div>
+                        <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Chemical Processing</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h5>Oil & Gas</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-water"></i></div>
+                        <h5>Marine</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
+                        <h5>Pharmaceutical</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-thermometer-half"></i></div>
+                        <h5>Heat Exchangers</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
+                        <h5>Power Plants</h5>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ⭐ Industries Served (Requested Star Section 10) -->
-    <section class="sec-padd-top sec-padd-bottom" id="industries">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="industries">
         <div class="container">
             <div class="section-title center">
                 <h2>Industries We Serve</h2>
@@ -962,9 +1023,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- ⭐ Export Countries (Requested Star Section 11) -->
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="export">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="export">
         <div class="container">
             <div class="section-title center">
                 <h2>Global Export Network</h2>
@@ -997,9 +1062,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Price -->
-    <section id="price" class="sec-padd-top sec-padd-bottom py-5">
+    
+{{-- 
+<section id="price" class="sec-padd-top sec-padd-bottom py-5">
         <div class="container">
             <div class="section-title text-center mb-4">
                 <h2>Aluminium HE30 Price per kg in India</h2>
@@ -1020,9 +1089,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- FAQ -->
-    <section id="faq" class="faq-content-area sec-padd2 bg-light">
+    
+{{-- 
+<section id="faq" class="faq-content-area sec-padd2 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -1060,9 +1133,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Related Materials -->
-    <section class="sec-padd-top sec-padd-bottom">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
             <div class="section-title center mb-4">
                 <h2>Related Aluminium Grades & Materials</h2>
@@ -1081,9 +1158,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Related Blogs -->
-    <section class="blog-section sec-padd2 bg-light">
+    
+{{-- 
+<section class="blog-section sec-padd2 bg-light">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2>Related Blogs & Technical Guides</h2>
@@ -1134,9 +1215,13 @@
             @endif
         </div>
     </section>
+--}}
+
 
     <!-- Final CTA -->
-    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
+    
+{{-- 
+<section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box text-center p-5 rounded shadow" style="background: #174268; color: #fff;">
                 <h2 class="text-white mb-3">Looking for a Reliable Aluminium HE30 Supplier?</h2>
@@ -1149,6 +1234,8 @@
             </div>
         </div>
     </section>
+--}}
+
 
 @endsection
 

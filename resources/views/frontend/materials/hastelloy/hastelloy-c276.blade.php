@@ -26,19 +26,14 @@
     <!--End breadcrumb area-->
 
     <!-- Start Material Tabs -->
-    <div class="sticky-top bg-white border-bottom material-tabs w-100">
-        <div class="container py-2 text-center">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
             <a href="#overview">Overview</a> |
-            <a href="#specifications">Specifications</a> |
-            <a href="#composition">Composition</a> |
-            <a href="#properties">Properties</a> |
-            <a href="#fabrication-welding">Welding & Machining</a> |
-            <a href="#corrosion">Corrosion & Advantages</a> |
-            <a href="#products">Products</a> |
+            <a href="#specification">Specifications</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
-            <a href="#comparison">Comparison</a> |
-            <a href="#why-choose-us">Why Choose Us</a> |
-            <a href="#quick-facts">AI Quick Facts</a> |
             <a href="#faq">FAQ</a> |
             <a href="#contact-us">Contact Us</a>
         </div>
@@ -242,7 +237,9 @@
     </section>
 
     <!-- Physical, Mechanical & Thermal Properties (Requested Section 1) -->
-    <section id="properties" class="sec-padd-top sec-padd-bottom">
+    
+{{-- 
+<section id="properties" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2>Physical, Mechanical & Thermal Properties</h2>
@@ -335,9 +332,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Heat Treatment -->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2>Heat Treatment Guidelines</h2>
@@ -371,9 +372,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Welding, Machining & Fabrication (Requested Section 2) -->
-    <section id="fabrication-welding" class="sec-padd-top sec-padd-bottom">
+    
+{{-- 
+<section id="fabrication-welding" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2>Welding, Machining & Fabrication</h2>
@@ -459,9 +464,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Corrosion Resistance & Performance Advantages (Requested Section 3) -->
-    <section id="corrosion" class="sec-padd-top sec-padd-bottom bg-light">
+    
+{{-- 
+<section id="corrosion" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2>Corrosion Resistance & Performance Advantages</h2>
@@ -498,7 +507,7 @@
                 </div>
             </div>
 
-            <!-- Advantages vs Limitations Tables -->
+            {{-- <!-- Advantages vs Limitations Tables -->
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-6">
                     <h4 class="text-center mb-3" style="color: #28a745;"><i class="bi bi-check-circle-fill me-2"></i>Major Performance Advantages</h4>
@@ -545,9 +554,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Manufacturing Process & Quality Testing -->
-    <section class="sec-padd-top sec-padd-bottom">
+    
+{{-- 
+ --}}<section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2>Manufacturing Process & Quality Testing</h2>
@@ -599,6 +612,8 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Products Available -->
     <section id="products" class="sec-padd-top sec-padd-bottom bg-light">
@@ -668,7 +683,9 @@
     </section>
 
     <!-- Applications & Industries Served -->
-    <section id="applications" class="sec-padd-top sec-padd-bottom">
+    
+{{-- 
+<section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2>Applications & Industries Served</h2>
@@ -718,9 +735,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Material Comparison -->
-    <section id="comparison" class="sec-padd-top sec-padd-bottom bg-light">
+    
+{{-- 
+<section id="comparison" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2>Hastelloy C276 vs Other Engineering Materials</h2>
@@ -809,6 +830,8 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Why Choose Us & Global Supply Network (Requested Section 4) -->
     <section id="why-choose-us" class="sec-padd-top sec-padd-bottom">
@@ -880,7 +903,9 @@
     </section>
 
     <!-- AI Quick Facts -->
-    <section id="quick-facts" class="sec-padd-top sec-padd-bottom bg-light">
+    
+{{-- 
+<section id="quick-facts" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2>AI Quick Facts: Hastelloy C276 at a Glance</h2>
@@ -913,9 +938,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Frequently Asked Questions (FAQ) -->
-    <section id="faq" class="faq-content-area sec-padd2">
+    
+{{-- 
+<section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -1049,9 +1078,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Contact & Final Call to Action -->
-    <section id="contact-us" class="sec-padd-bottom">
+    
+{{-- 
+<section id="contact-us" class="sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Looking for a Reliable Hastelloy C276 Supplier?</h2>
@@ -1067,6 +1100,8 @@
             </div>
         </div>
     </section>
+--}}
+
 
 @endsection
 

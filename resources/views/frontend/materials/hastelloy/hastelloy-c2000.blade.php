@@ -34,8 +34,8 @@
     <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
+            <a href="#specification">Specifications</a> |
             <a href="#composition">Chemical Composition</a> |
-            <a href="#heat-treatment">Heat Treatment</a> |
             <a href="#mechanical">Mechanical Properties</a> |
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
@@ -273,7 +273,9 @@
     </section>
 
     <!-- Physical Properties -->
-    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
+    
+{{-- 
+<section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color:#174268;">
@@ -369,6 +371,8 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- Mechanical Properties -->
     <section class="sec-padd-top sec-padd-bottom" id="mechanical">
@@ -421,7 +425,9 @@
     </section>
 
     <!-- Available Forms -->
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
             <div class="section-title center mt-5">
                 <h2>Available Forms & Size Range – Hastelloy C-2000</h2>
@@ -481,9 +487,13 @@
             </div>
         </div>
     </section>
+--}}
+
 
     <!-- International Standards -->
-    <section class="sec-padd-top sec-padd-bottom" id="international">
+    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="international">
         <div class="container">
             <div class="section-title center">
                 <h2>International Standards & Equivalent Grades</h2>
@@ -519,62 +529,48 @@
             </div>
         </div>
     </section>
+--}}
 
 
 
-    @php
+
+        @php
         $products = [
             [
-                'name' => 'Seamless Pipes',
+                'name' => 'Pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
                 'image' => 'assets/images/all-product/seamless-pipes-10.webp',
             ],
-
             [
-                'name' => 'Welded Pipes (ERW & EFW)',
+                'name' => 'Tubes',
                 'route' => 'products.pipes-tubes.welded-pipes',
                 'image' => 'assets/images/all-product/welded-pipes-tubes-1.webp',
             ],
             [
-                'name' => 'Tubes (Capillary, U-Bend)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all-product/u-bent-tube.webp',
-            ],
-            [
-                'name' => 'Sheets & Plates',
+                'name' => 'Sheets',
                 'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all-product/Sheets-Plates.webp',
             ],
             [
-                'name' => 'Coils & Strips',
-                'route' => 'products.sheets-plates-coils.strips',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
+                'name' => 'Plates',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
+                'image' => 'assets/images/all-product/Sheets-Plates.webp',
             ],
             [
-                'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.bars-rods',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
-            ],
-            [
-                'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipe-fittings',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
-            ],
-            [
-                'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
+                'name' => 'Flanges',
                 'route' => 'products.flanges.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
-                'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.fasteners',
-                'image' => 'assets/images/all-product/FASTENERS.webp',
+                'name' => 'Bars',
+                'route' => 'products.bars-rods',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
-                'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
-                'image' => 'assets/images/all-product/custom-metal-fabricated.webp',
-            ],
+                'name' => 'Fittings',
+                'route' => 'products.pipe-fittings',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
+            ]
         ];
     @endphp
 
@@ -781,46 +777,44 @@
                 <h2>WHY CHOOSE US?</h2>
             </div>
 
-            <div class="row g-4 mt-4">
+                        <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Expert support in material selection & documentation</h5>
+                        <h5>ISO Certified</h5>
                     </div>
                 </div>
-
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-file-earmark-check"></i></div>
+                        <h5>MTC 3.1</h5>
+                    </div>
+                </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Prompt delivery of certified Hastelloy materials</h5>
+                        <h5>Fast Delivery</h5>
                     </div>
                 </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Strong vendor network and global supply chain</h5>
-                    </div>
-                </div>
-
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Precision machining and fabrication under ISO standards</h5>
+                        <h5>Worldwide Export</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Trusted by clients worldwide for performance alloys</h5>
+                        <div class="why-banner-icon"><i class="bi bi-cash-coin"></i></div>
+                        <h5>Competitive Price</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+    
+{{-- 
+<section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
             <div class="section-title text-center mb-4">
                 <h2>Hastelloy C-2000 Price in India</h2>
@@ -838,6 +832,8 @@
             </p>
         </div>
     </section>
+--}}
+
 
     <!--Start faq content area-->
     <section id="faq" class="faq-content-area sec-padd2">
@@ -941,14 +937,16 @@
 
 
     {{-- blog section start --}}
-    <section class="blog-section sec-padd2">
+    
+{{-- 
+<section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
             </div>
             <div class="row">
                 @foreach ($blogs as $blog)
-                    {{-- {{ dd($blog) }} --}}
+                    <!-- {{ dd($blog) }} -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="default-blog-news wow fadeInUp animated">
 
@@ -994,6 +992,8 @@
             </div>
         </div>
     </section>
+--}}
+
     {{-- blog section end --}}
 
     <section id="contact-us" class="sec-padd-top sec-padd-bottom">
