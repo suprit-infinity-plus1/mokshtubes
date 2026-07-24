@@ -118,6 +118,7 @@
         .nav-link:focus-visible {
             box-shadow: none !important;
         }
+
         /* Sticky CTA styling */
         .sticky-cta {
             position: fixed;
@@ -127,8 +128,9 @@
             z-index: 9999;
             display: flex;
             justify-content: space-between;
-            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
         }
+
         .sticky-cta a {
             flex: 1;
             padding: 12px 10px;
@@ -142,10 +144,23 @@
             align-items: center;
             justify-content: center;
         }
-        .sticky-cta a i { margin-right: 5px; font-size: 16px; }
-        .cta-quote { background: #004d99; }
-        .cta-call { background: #007bff; }
-        .cta-whatsapp { background: #25d366; }
+
+        .sticky-cta a i {
+            margin-right: 5px;
+            font-size: 16px;
+        }
+
+        .cta-quote {
+            background: #004d99;
+        }
+
+        .cta-call {
+            background: #007bff;
+        }
+
+        .cta-whatsapp {
+            background: #25d366;
+        }
 
         @media (min-width: 768px) {
             .sticky-cta {
@@ -156,13 +171,15 @@
                 gap: 10px;
                 box-shadow: none;
             }
+
             .sticky-cta a {
                 border-radius: 5px;
                 padding: 10px 15px;
-                box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
                 transition: transform 0.3s ease;
                 justify-content: flex-start;
             }
+
             .sticky-cta a:hover {
                 transform: translateY(-3px);
             }
@@ -171,10 +188,19 @@
         .pulse-btn {
             animation: pulse-animation 2s infinite;
         }
+
         @keyframes pulse-animation {
-            0% { box-shadow: 0 0 0 0 rgba(237, 28, 36, 0.7); }
-            70% { box-shadow: 0 0 0 10px rgba(237, 28, 36, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(237, 28, 36, 0); }
+            0% {
+                box-shadow: 0 0 0 0 rgba(237, 28, 36, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 10px rgba(237, 28, 36, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(237, 28, 36, 0);
+            }
         }
     </style>
     @stack('styles')
@@ -459,124 +485,233 @@
                                                 href="{{ route('products') }}">Products</a>
                                             <ul class="dropdown-menu">
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.pipes-tubes') }}">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('products.pipes-tubes') }}">
                                                         Pipes & Tubes <i class="fa fa-angle-right"></i>
                                                     </a>
                                                     <ul>
                                                         <li class="dropdown">
-                                                            <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded Pipes <i class="fa fa-angle-right"></i></a>
+                                                            <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded
+                                                                Pipes <i class="fa fa-angle-right"></i></a>
                                                             <ul>
-                                                                <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss304-welded-pipes') }}">SS304 Welded Pipes</a></li>
-                                                                <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss316-welded-pipes') }}">SS316 Welded Pipes</a></li>
-                                                                <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss304-erw-pipes') }}">SS304 ERW Pipes</a></li>
-                                                                <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss316-erw-pipes') }}">SS316 ERW Pipes</a></li>
-                                                                <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss304-semi-welded-pipes') }}">SS304 Semi Welded Pipes</a></li>
-                                                                <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss316-semi-welded-pipes') }}">SS316 Semi Welded Pipes</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss304-welded-pipes') }}">SS304
+                                                                        Welded Pipes</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss316-welded-pipes') }}">SS316
+                                                                        Welded Pipes</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss304-erw-pipes') }}">SS304
+                                                                        ERW Pipes</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss316-erw-pipes') }}">SS316
+                                                                        ERW Pipes</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss304-semi-welded-pipes') }}">SS304
+                                                                        Semi Welded Pipes</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss316-semi-welded-pipes') }}">SS316
+                                                                        Semi Welded Pipes</a></li>
                                                             </ul>
                                                         </li>
-                                                        <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless Pipes</a></li>
-                                                        <li><a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">Boiler & Heat Exchanger Tubes</a></li>
-                                                        <li><a href="{{ route('products.pipes-tubes.hollow-section-pipe') }}">Hollow Section Pipes</a></li>
-                                                        <li><a href="{{ route('products.pipes-tubes.capillaries') }}">Capillary Tubes</a></li>
-                                                        <li><a href="{{ route('products.pipes-tubes.u-bent-tubes') }}">U-Bend Tubes</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless
+                                                                Pipes</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">Boiler
+                                                                & Heat Exchanger Tubes</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.pipes-tubes.hollow-section-pipe') }}">Hollow
+                                                                Section Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.capillaries') }}">Capillary
+                                                                Tubes</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.pipes-tubes.u-bent-tubes') }}">U-Bend
+                                                                Tubes</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.sheets-plates-coils') }}">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('products.sheets-plates-coils') }}">
                                                         Sheets, Plates & Coils <i class="fa fa-angle-right"></i>
                                                     </a>
                                                     <ul>
-                                                        <li><a href="{{ route('products.sheets-plates-coils.chequered-sheets') }}">Chequered Sheets</a></li>
-                                                        <li><a href="{{ route('products.sheets-plates-coils.strips') }}">Strips</a></li>
-                                                        <li><a href="{{ route('products.sheets-plates-coils.shim-sheets') }}">Shim Sheets</a></li>
-                                                        <li><a href="{{ route('products.sheets-plates-coils.sheets-and-plates') }}">Sheets & Plates</a></li>
-                                                        <li><a href="{{ route('products.sheets-plates-coils.perforated-sheets') }}">Perforated Sheets</a></li>
-                                                        <li><a href="{{ route('products.sheets-plates-coils.coils') }}">Coils</a></li>
-                                                        <li><a href="{{ route('products.sheets-plates-coils.cladded-plates') }}">Cladded Plates</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.sheets-plates-coils.chequered-sheets') }}">Chequered
+                                                                Sheets</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.sheets-plates-coils.strips') }}">Strips</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ route('products.sheets-plates-coils.shim-sheets') }}">Shim
+                                                                Sheets</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.sheets-plates-coils.sheets-and-plates') }}">Sheets
+                                                                & Plates</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.sheets-plates-coils.perforated-sheets') }}">Perforated
+                                                                Sheets</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.sheets-plates-coils.coils') }}">Coils</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ route('products.sheets-plates-coils.cladded-plates') }}">Cladded
+                                                                Plates</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.pipe-fittings') }}">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('products.pipe-fittings') }}">
                                                         Pipe Fittings <i class="fa fa-angle-right"></i>
                                                     </a>
                                                     <ul>
-                                                        <li class="dropdown"><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Elbows <i class="fa fa-angle-right"></i></a>
+                                                        <li class="dropdown"><a
+                                                                class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                href="#">Elbows <i
+                                                                    class="fa fa-angle-right"></i></a>
                                                             <ul>
-                                                                <li><a href="{{ route('products.pipe-fittings.elbows.90-degree-elbow') }}">90 Degree Elbow</a></li>
-                                                                <li><a href="{{ route('products.pipe-fittings.elbows.45-degree-elbow') }}">45 Degree Elbow</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.elbows.90-degree-elbow') }}">90
+                                                                        Degree Elbow</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.elbows.45-degree-elbow') }}">45
+                                                                        Degree Elbow</a></li>
                                                             </ul>
                                                         </li>
-                                                        <li class="dropdown"><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Bends <i class="fa fa-angle-right"></i></a>
+                                                        <li class="dropdown"><a
+                                                                class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                href="#">Bends <i
+                                                                    class="fa fa-angle-right"></i></a>
                                                             <ul>
-                                                                <li><a href="{{ route('products.pipe-fittings.bends.90-degree-bend') }}">90 Degree Bend</a></li>
-                                                                <li><a href="{{ route('products.pipe-fittings.bends.45-degree-bend') }}">45 Degree Bend</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.bends.90-degree-bend') }}">90
+                                                                        Degree Bend</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.bends.45-degree-bend') }}">45
+                                                                        Degree Bend</a></li>
                                                             </ul>
                                                         </li>
-                                                        <li class="dropdown"><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Reducers <i class="fa fa-angle-right"></i></a>
+                                                        <li class="dropdown"><a
+                                                                class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                href="#">Reducers <i
+                                                                    class="fa fa-angle-right"></i></a>
                                                             <ul>
-                                                                <li><a href="{{ route('products.pipe-fittings.reducers.concentric') }}">Concentric</a></li>
-                                                                <li><a href="{{ route('products.pipe-fittings.reducers.eccentric') }}">Eccentric</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.reducers.concentric') }}">Concentric</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.reducers.eccentric') }}">Eccentric</a>
+                                                                </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="dropdown"><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Olets <i class="fa fa-angle-right"></i></a>
+                                                        <li class="dropdown"><a
+                                                                class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                href="#">Olets <i
+                                                                    class="fa fa-angle-right"></i></a>
                                                             <ul>
-                                                                <li><a href="{{ route('products.pipe-fittings.olets.weldolet') }}">Weldolet</a></li>
-                                                                <li><a href="{{ route('products.pipe-fittings.olets.sockolet') }}">Sockolet</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.olets.weldolet') }}">Weldolet</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.olets.sockolet') }}">Sockolet</a>
+                                                                </li>
                                                             </ul>
                                                         </li>
-                                                        <li><a href="{{ route('products.pipe-fittings.u-bend') }}">U Bend</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings.u-bend') }}">U
+                                                                Bend</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.flanges') }}">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('products.flanges') }}">
                                                         Flanges <i class="fa fa-angle-right"></i>
                                                     </a>
                                                     <ul>
-                                                        <li><a href="{{ route('products.flanges.weld-neck-flanges') }}">Weld Neck Flanges</a></li>
-                                                        <li><a href="{{ route('products.flanges.slip-on-flanges') }}">Slip On Flanges</a></li>
-                                                        <li><a href="{{ route('products.flanges.blind-flanges') }}">Blind Flanges</a></li>
-                                                        <li><a href="{{ route('products.flanges.lap-joint-flanges') }}">Lap Joint Flanges</a></li>
-                                                        <li><a href="{{ route('products.flanges.threaded-flanges') }}">Threaded Flanges</a></li>
-                                                        <li><a href="{{ route('products.flanges.socket-weld-flanges') }}">Socket Weld Flanges</a></li>
-                                                        <li><a href="{{ route('products.flanges.spectacle-blind-flanges') }}">Spectacle Blind Flanges</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.flanges.weld-neck-flanges') }}">Weld
+                                                                Neck Flanges</a></li>
+                                                        <li><a href="{{ route('products.flanges.slip-on-flanges') }}">Slip
+                                                                On Flanges</a></li>
+                                                        <li><a href="{{ route('products.flanges.blind-flanges') }}">Blind
+                                                                Flanges</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.flanges.lap-joint-flanges') }}">Lap
+                                                                Joint Flanges</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.flanges.threaded-flanges') }}">Threaded
+                                                                Flanges</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.flanges.socket-weld-flanges') }}">Socket
+                                                                Weld Flanges</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.flanges.spectacle-blind-flanges') }}">Spectacle
+                                                                Blind Flanges</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.bars-rods') }}">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('products.bars-rods') }}">
                                                         Bars & Rods <i class="fa fa-angle-right"></i>
                                                     </a>
                                                     <ul>
-                                                        <li><a href="{{ route('products.bars-rods.square-bars') }}">Square Bars</a></li>
-                                                        <li><a href="{{ route('products.bars-rods.threaded-rods') }}">Threaded Rods</a></li>
-                                                        <li><a href="{{ route('products.bars-rods.round-bars') }}">Round Bars</a></li>
-                                                        <li><a href="{{ route('products.bars-rods.hollow-bars') }}">Hollow Bars</a></li>
-                                                        <li><a href="{{ route('products.bars-rods.hexagon-bars') }}">Hexagon Bars</a></li>
-                                                        <li><a href="{{ route('products.bars-rods.flat-bars') }}">Flat Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.square-bars') }}">Square
+                                                                Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.threaded-rods') }}">Threaded
+                                                                Rods</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.round-bars') }}">Round
+                                                                Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.hollow-bars') }}">Hollow
+                                                                Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.hexagon-bars') }}">Hexagon
+                                                                Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.flat-bars') }}">Flat
+                                                                Bars</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.fasteners') }}">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('products.fasteners') }}">
                                                         Fasteners <i class="fa fa-angle-right"></i>
                                                     </a>
                                                     <ul>
-                                                        <li><a href="{{ route('products.fasteners.studs') }}">Studs</a></li>
-                                                        <li><a href="{{ route('products.fasteners.threaded-rods') }}">Threaded Rods</a></li>
-                                                        <li><a href="{{ route('products.fasteners.hex-bolts') }}">Hex Bolts</a></li>
-                                                        <li><a href="{{ route('products.fasteners.nuts') }}">Nuts</a></li>
-                                                        <li><a href="{{ route('products.fasteners.washers') }}">Washers</a></li>
-                                                        <li><a href="{{ route('products.fasteners.socket-head-screws') }}">Socket Head Screws</a></li>
-                                                        <li><a href="{{ route('products.fasteners.allen-bolts') }}">Allen Bolts</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.fasteners.studs') }}">Studs</a>
+                                                        </li>
+                                                        <li><a href="{{ route('products.fasteners.threaded-rods') }}">Threaded
+                                                                Rods</a></li>
+                                                        <li><a href="{{ route('products.fasteners.hex-bolts') }}">Hex
+                                                                Bolts</a></li>
+                                                        <li><a href="{{ route('products.fasteners.nuts') }}">Nuts</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ route('products.fasteners.washers') }}">Washers</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ route('products.fasteners.socket-head-screws') }}">Socket
+                                                                Head Screws</a></li>
+                                                        <li><a href="{{ route('products.fasteners.allen-bolts') }}">Allen
+                                                                Bolts</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.special-fabricated') }}">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('products.special-fabricated') }}">
                                                         Special Fabricated <i class="fa fa-angle-right"></i>
                                                     </a>
                                                     <ul>
-                                                        <li><a href="{{ route('products.special-fabricated.custom-steel-furniture') }}">Custom Steel Furniture</a></li>
-                                                        <li><a href="{{ route('products.special-fabricated.fabricated-ss-grills') }}">Fabricated SS Grills</a></li>
-                                                        <li><a href="{{ route('products.special-fabricated.ss-railings') }}">SS Railings</a></li>
-                                                        <li><a href="{{ route('products.special-fabricated.glass-railings') }}">Glass Railings</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.special-fabricated.custom-steel-furniture') }}">Custom
+                                                                Steel Furniture</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.special-fabricated.fabricated-ss-grills') }}">Fabricated
+                                                                SS Grills</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.special-fabricated.ss-railings') }}">SS
+                                                                Railings</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.special-fabricated.glass-railings') }}">Glass
+                                                                Railings</a></li>
                                                     </ul>
                                                 </li>
 
@@ -584,114 +719,476 @@
                                         </li>
 
 
-                                        <li class="nav-item dropdown ">
+                                        <li class="nav-item dropdown">
                                             <a class="nav-link" href="{{ route('materials') }}">Materials</a>
-                                            <ul class="dropdown-menu"
-                                                style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.hastelloy') }}">
-                                                        Hastelloy
-                                                    </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.hastelloy') }}">Hastelloy <i
+                                                            class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a href="{{ url('materials/hastelloy/hastelloy-c276') }}">Hastelloy
+                                                                C276</a></li>
+                                                        <li><a href="{{ url('materials/hastelloy/hastelloy-c22') }}">Hastelloy
+                                                                C22</a></li>
+                                                        <li><a href="{{ url('materials/hastelloy/hastelloy-c4') }}">Hastelloy
+                                                                C4</a></li>
+                                                        <li><a href="{{ url('materials/hastelloy/hastelloy-b2') }}">Hastelloy
+                                                                B2</a></li>
+                                                        <li><a href="{{ url('materials/hastelloy/hastelloy-b3') }}">Hastelloy
+                                                                B3</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/hastelloy/hastelloy-c2000') }}">Hastelloy
+                                                                C2000</a></li>
+                                                        <li><a href="{{ url('materials/hastelloy/hastelloy-g3') }}">Hastelloy
+                                                                G3</a></li>
+                                                        <li><a href="{{ url('materials/hastelloy/hastelloy-g30') }}">Hastelloy
+                                                                G30</a></li>
+                                                        <li><a href="{{ url('materials/hastelloy/hastelloy-x') }}">Hastelloy
+                                                                X</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.monel') }}">
-                                                        Monel
-                                                    </a>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.monel') }}">Monel <i
+                                                            class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a href="{{ url('materials/monel/monel-400') }}">Monel
+                                                                400</a></li>
+                                                        <li><a href="{{ url('materials/monel/monel-k500') }}">Monel
+                                                                K500</a></li>
+                                                        <li><a href="{{ url('materials/monel/monel-r405') }}">Monel
+                                                                R405</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.incoloy') }}">
-                                                        Incoloy
-                                                    </a>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.incoloy') }}">Incoloy <i
+                                                            class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a href="{{ url('materials/incoloy/incoloy-020') }}">Incoloy
+                                                                020</a></li>
+                                                        <li><a href="{{ url('materials/incoloy/incoloy-800') }}">Incoloy
+                                                                800</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/incoloy/incoloy-800h-800ht') }}">Incoloy
+                                                                800H/800HT</a></li>
+                                                        <li><a href="{{ url('materials/incoloy/incoloy-825') }}">Incoloy
+                                                                825</a></li>
+                                                        <li><a href="{{ url('materials/incoloy/incoloy-925') }}">Incoloy
+                                                                925</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                                        Nickel Based Superalloys
-                                                    </a>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel
+                                                        Based Superalloys <i class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/nickel-based-superalloys/nickel-based-superalloys-200') }}">Nickel
+                                                                200</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/nickel-based-superalloys/nickel-based-superalloys-201') }}">Nickel
+                                                                201</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/nickel-based-superalloys/nickel-based-superalloys-a286-ais660') }}">A286-AIS660</a>
+                                                        </li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.inconel') }}">
-                                                        Inconel
-                                                    </a>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.inconel') }}">Inconel <i
+                                                            class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a href="{{ url('materials/inconel/inconel-600') }}">Inconel
+                                                                600</a></li>
+                                                        <li><a href="{{ url('materials/inconel/inconel-617') }}">Inconel
+                                                                617</a></li>
+                                                        <li><a href="{{ url('materials/inconel/inconel-625') }}">Inconel
+                                                                625</a></li>
+                                                        <li><a href="{{ url('materials/inconel/inconel-690') }}">Inconel
+                                                                690</a></li>
+                                                        <li><a href="{{ url('materials/inconel/inconel-718') }}">Inconel
+                                                                718</a></li>
+                                                        <li><a href="{{ url('materials/inconel/inconel-x750') }}">Inconel
+                                                                X750</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.titanium') }}">
-                                                        Titanium
-                                                    </a>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.titanium') }}">Titanium <i
+                                                            class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-1') }}">Titanium
+                                                                Gr 1</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-2') }}">Titanium
+                                                                Gr 2</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-4') }}">Titanium
+                                                                Gr 4</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-4-eli') }}">Titanium
+                                                                Gr 4 ELI</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-5') }}">Titanium
+                                                                Gr 5</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-5-eli') }}">Titanium
+                                                                Gr 5 ELI</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-7') }}">Titanium
+                                                                Gr 7</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-7-nb') }}">Titanium
+                                                                Gr 7 Nb</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-9') }}">Titanium
+                                                                Gr 9</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-12') }}">Titanium
+                                                                Gr 12</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-23') }}">Titanium
+                                                                Gr 23</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.aluminium-Alloys') }}">
-                                                        Aluminium Alloys
-                                                    </a>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.aluminium-Alloys') }}">Aluminium
+                                                        Alloys <i class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-1100') }}">Aluminium
+                                                                1100</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-1200') }}">Aluminium
+                                                                1200</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-2014-t6') }}">Aluminium
+                                                                2014-T6</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-5083') }}">Aluminium
+                                                                5083</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-6012') }}">Aluminium
+                                                                6012</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-6061-t6') }}">Aluminium
+                                                                6061-T6</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-6063') }}">Aluminium
+                                                                6063</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-6082-t6') }}">Aluminium
+                                                                6082-T6</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-he30') }}">Aluminium
+                                                                HE30</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys7075') }}">Aluminium
+                                                                7075</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">
-                                                        Super Austenitic Stainless Steel
-                                                    </a>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">Super
+                                                        Austenitic Stainless Steel <i
+                                                            class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-smo-254') }}">SMO
+                                                                254</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-smo-654') }}">SMO
+                                                                654</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-904l') }}">Alloy
+                                                                904L</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-alloy-926') }}">Alloy
+                                                                926</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-al-6xn') }}">AL-6XN</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-253-ma') }}">253
+                                                                MA</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.hard-To-Find-Special-Alloys') }}">
-                                                        Hard To Find Special Alloys
-                                                    </a>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Hard
+                                                        To Find Special Alloys <i class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/hard-to-find-special-alloys/hard-to-find-special-alloys-carbide') }}">Carbide</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/hard-to-find-special-alloys/hard-to-find-special-alloys-nimonic') }}">Nimonic</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/hard-to-find-special-alloys/hard-to-find-special-alloys-nitinol') }}">Nitinol</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/hard-to-find-special-alloys/hard-to-find-special-alloys-stellite') }}">Stellite</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/hard-to-find-special-alloys/hard-to-find-special-alloys-tantalum') }}">Tantalum</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/hard-to-find-special-alloys/hard-to-find-special-alloys-tungsten') }}">Tungsten</a>
+                                                        </li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.aluminium-Alloys') }}">
-                                                        Aluminium Alloys
-                                                    </a>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.engineering-Steels') }}">Engineering
+                                                        Steels <i class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-en8') }}">EN8</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-en9') }}">EN9</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-en19') }}">EN19</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-en24') }}">EN24</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-en31') }}">EN31</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-en36') }}">EN36</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-en47') }}">EN47</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-1045') }}">1045</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-1055') }}">1055</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-4130') }}">4130</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-4140') }}">4140</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-4340') }}">4340</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-d2') }}">D2</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-p1') }}">P1</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-p11') }}">P11</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-p12') }}">P12</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-p22') }}">P22</a>
+                                                        </li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.engineering-Steels') }}">
-                                                        Engineering Steels
-                                                    </a>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.austenitic-stainless-Steel') }}">Austenitic
+                                                        Stainless Steel <i class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">SS
+                                                                304</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-309') }}">SS
+                                                                309</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-310') }}">SS
+                                                                310</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316') }}">SS
+                                                                316</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316ti') }}">SS
+                                                                316Ti</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-317') }}">SS
+                                                                317</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-321') }}">SS
+                                                                321</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-347') }}">SS
+                                                                347</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-nitronic-50') }}">Nitronic
+                                                                50</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-nitronic-60') }}">Nitronic
+                                                                60</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                                        Austenitic Stainless Steel
-                                                    </a>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.copper-Alloys') }}">Copper Alloys
+                                                        <i class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-cu-ni-90-10') }}">Copper
+                                                                Nickel 90/10</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-cu-ni-70-30') }}">Copper
+                                                                Nickel 70/30</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-aluminium-bronze') }}">Aluminium
+                                                                Bronze</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-beryllium-copper') }}">Beryllium
+                                                                Copper</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-c44300') }}">C44300</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-c46400') }}">C46400</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-c63000') }}">C63000</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-c71500') }}">C71500</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-c71520') }}">C71520</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-cartridge-brass') }}">Cartridge
+                                                                Brass</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-ec-copper') }}">EC
+                                                                Copper</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-etp-copper') }}">ETP
+                                                                Copper</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-navel-brass') }}">Navel
+                                                                Brass</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.copper-Alloys') }}">
-                                                        Copper Alloys
-                                                    </a>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.zirconium') }}">Zirconium <i
+                                                            class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a href="{{ url('materials/zirconium/zirconium-702') }}">Zirconium
+                                                                702</a></li>
+                                                        <li><a href="{{ url('materials/zirconium/zirconium-704') }}">Zirconium
+                                                                704</a></li>
+                                                        <li><a href="{{ url('materials/zirconium/zirconium-705') }}">Zirconium
+                                                                705</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.zirconium') }}">
-                                                        Zirconium
-                                                    </a>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.haynes-Superalloys') }}">Haynes
+                                                        Superalloys <i class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/haynes-superalloys/haynes-superalloys-25') }}">Haynes
+                                                                25</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/haynes-superalloys/haynes-superalloys-160') }}">Haynes
+                                                                160</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/haynes-superalloys/haynes-superalloys-188') }}">Haynes
+                                                                188</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/haynes-superalloys/haynes-superalloys-230') }}">Haynes
+                                                                230</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/haynes-superalloys/haynes-superalloys-242') }}">Haynes
+                                                                242</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.haynes-Superalloys') }}">
-                                                        Haynes Superalloys
-                                                    </a>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.duplex-and-super-duplex') }}">Duplex
+                                                        and Super Duplex <i class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/duplex-and-super-duplex/duplex-s31803') }}">Duplex
+                                                                S31803</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/duplex-and-super-duplex/super-duplex-2205') }}">Super
+                                                                Duplex 2205</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/duplex-and-super-duplex/super-duplex-2507') }}">Super
+                                                                Duplex 2507</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/duplex-and-super-duplex/super-duplex-s32760') }}">Super
+                                                                Duplex S32760</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.duplex-and-super-duplex') }}">
-                                                        Duplex and Super Duplex
-                                                    </a>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('materials.high-strength-stainless-steel') }}">High
+                                                        Strength Stainless Steel <i class="fa fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/14-4ph-stainless-steel') }}">14-4
+                                                                PH</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/15-5ph-stainless-steel') }}">15-5
+                                                                PH</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/17-4ph-stainless-steel') }}">17-4
+                                                                PH</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/stainless-steel-403') }}">SS
+                                                                403</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/stainless-steel-405') }}">SS
+                                                                405</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/stainless-steel-410') }}">SS
+                                                                410</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/stainless-steel-416') }}">SS
+                                                                416</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/stainless-steel-420') }}">SS
+                                                                420</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/420hc-stainless-steel') }}">SS
+                                                                420HC</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/stainless-steel-422') }}">SS
+                                                                422</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/430f-stainless-steel') }}">SS
+                                                                430F</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/stainless-steel-431') }}">SS
+                                                                431</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/440a-stainless-steel') }}">SS
+                                                                440A</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/440b-stainless-steel') }}">SS
+                                                                440B</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/440c-stainless-steel') }}">SS
+                                                                440C</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ route('materials.high-strength-stainless-steel') }}">
-                                                        High Strength Stainless Steel
-                                                    </a>
-                                                </li>
-
-
                                             </ul>
                                         </li>
 
@@ -707,155 +1204,692 @@
                                         <li><a href="{{ route('about-us') }}">About Us</a></li>
                                         <li class="dropdown"><a href="{{ route('products') }}">Products</a>
                                             <ul>
-                                                <li class="dropdown"><a href="{{ route('products.pipes-tubes') }}">PIPES & TUBES</a>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('products.pipes-tubes') }}">PIPES & TUBES</a>
                                                     <ul>
                                                         <li class="dropdown">
-                                                            <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded Pipes <i class="fa fa-angle-right"></i></a>
+                                                            <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded
+                                                                Pipes <i class="fa fa-angle-right"></i></a>
                                                             <ul>
-                                                                <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss304-welded-pipes') }}">SS304 Welded Pipes</a></li>
-                                                                <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss316-welded-pipes') }}">SS316 Welded Pipes</a></li>
-                                                                <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss304-erw-pipes') }}">SS304 ERW Pipes</a></li>
-                                                                <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss316-erw-pipes') }}">SS316 ERW Pipes</a></li>
-                                                                <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss304-semi-welded-pipes') }}">SS304 Semi Welded Pipes</a></li>
-                                                                <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss316-semi-welded-pipes') }}">SS316 Semi Welded Pipes</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss304-welded-pipes') }}">SS304
+                                                                        Welded Pipes</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss316-welded-pipes') }}">SS316
+                                                                        Welded Pipes</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss304-erw-pipes') }}">SS304
+                                                                        ERW Pipes</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss316-erw-pipes') }}">SS316
+                                                                        ERW Pipes</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss304-semi-welded-pipes') }}">SS304
+                                                                        Semi Welded Pipes</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss316-semi-welded-pipes') }}">SS316
+                                                                        Semi Welded Pipes</a></li>
                                                             </ul>
                                                         </li>
-                                                        <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless Pipes</a></li>
-                                                        <li><a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">Boiler & Heat Exchanger Tubes</a></li>
-                                                        <li><a href="{{ route('products.pipes-tubes.hollow-section-pipe') }}">Hollow Section Pipes</a></li>
-                                                        <li><a href="{{ route('products.pipes-tubes.capillaries') }}">Capillary Tubes</a></li>
-                                                        <li><a href="{{ route('products.pipes-tubes.u-bent-tubes') }}">U-Bend Tubes</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless
+                                                                Pipes</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">Boiler
+                                                                & Heat Exchanger Tubes</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.pipes-tubes.hollow-section-pipe') }}">Hollow
+                                                                Section Pipes</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.pipes-tubes.capillaries') }}">Capillary
+                                                                Tubes</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.pipes-tubes.u-bent-tubes') }}">U-Bend
+                                                                Tubes</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.sheets-plates-coils') }}">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('products.sheets-plates-coils') }}">
                                                         Sheets, Plates & Coils <i class="fa fa-angle-right"></i>
                                                     </a>
                                                     <ul>
-                                                        <li><a href="{{ route('products.sheets-plates-coils.chequered-sheets') }}">Chequered Sheets</a></li>
-                                                        <li><a href="{{ route('products.sheets-plates-coils.strips') }}">Strips</a></li>
-                                                        <li><a href="{{ route('products.sheets-plates-coils.shim-sheets') }}">Shim Sheets</a></li>
-                                                        <li><a href="{{ route('products.sheets-plates-coils.sheets-and-plates') }}">Sheets & Plates</a></li>
-                                                        <li><a href="{{ route('products.sheets-plates-coils.perforated-sheets') }}">Perforated Sheets</a></li>
-                                                        <li><a href="{{ route('products.sheets-plates-coils.coils') }}">Coils</a></li>
-                                                        <li><a href="{{ route('products.sheets-plates-coils.cladded-plates') }}">Cladded Plates</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.sheets-plates-coils.chequered-sheets') }}">Chequered
+                                                                Sheets</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.sheets-plates-coils.strips') }}">Strips</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ route('products.sheets-plates-coils.shim-sheets') }}">Shim
+                                                                Sheets</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.sheets-plates-coils.sheets-and-plates') }}">Sheets
+                                                                & Plates</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.sheets-plates-coils.perforated-sheets') }}">Perforated
+                                                                Sheets</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.sheets-plates-coils.coils') }}">Coils</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ route('products.sheets-plates-coils.cladded-plates') }}">Cladded
+                                                                Plates</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.bars-rods') }}">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('products.bars-rods') }}">
                                                         Bars & Rods <i class="fa fa-angle-right"></i>
                                                     </a>
                                                     <ul>
-                                                        <li><a href="{{ route('products.bars-rods.square-bars') }}">Square Bars</a></li>
-                                                        <li><a href="{{ route('products.bars-rods.threaded-rods') }}">Threaded Rods</a></li>
-                                                        <li><a href="{{ route('products.bars-rods.round-bars') }}">Round Bars</a></li>
-                                                        <li><a href="{{ route('products.bars-rods.hollow-bars') }}">Hollow Bars</a></li>
-                                                        <li><a href="{{ route('products.bars-rods.hexagon-bars') }}">Hexagon Bars</a></li>
-                                                        <li><a href="{{ route('products.bars-rods.flat-bars') }}">Flat Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.square-bars') }}">Square
+                                                                Bars</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.bars-rods.threaded-rods') }}">Threaded
+                                                                Rods</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.round-bars') }}">Round
+                                                                Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.hollow-bars') }}">Hollow
+                                                                Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.hexagon-bars') }}">Hexagon
+                                                                Bars</a></li>
+                                                        <li><a href="{{ route('products.bars-rods.flat-bars') }}">Flat
+                                                                Bars</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">PIPE
+                                                <li><a
+                                                        href="{{ route('products.pipe-fittings-flanges-fasteners') }}">PIPE
                                                         FITTINGS, FLANGES & FASTENERS</a></li>
-                                                        <li class="dropdown">
-                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.pipe-fittings') }}">
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('products.pipe-fittings') }}">
                                                         Pipe Fittings <i class="fa fa-angle-right"></i>
                                                     </a>
                                                     <ul>
-                                                        <li class="dropdown"><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Elbows <i class="fa fa-angle-right"></i></a>
+                                                        <li class="dropdown"><a
+                                                                class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                href="#">Elbows <i
+                                                                    class="fa fa-angle-right"></i></a>
                                                             <ul>
-                                                                <li><a href="{{ route('products.pipe-fittings.elbows.90-degree-elbow') }}">90 Degree Elbow</a></li>
-                                                                <li><a href="{{ route('products.pipe-fittings.elbows.45-degree-elbow') }}">45 Degree Elbow</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.elbows.90-degree-elbow') }}">90
+                                                                        Degree Elbow</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.elbows.45-degree-elbow') }}">45
+                                                                        Degree Elbow</a></li>
                                                             </ul>
                                                         </li>
-                                                        <li class="dropdown"><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Bends <i class="fa fa-angle-right"></i></a>
+                                                        <li class="dropdown"><a
+                                                                class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                href="#">Bends <i
+                                                                    class="fa fa-angle-right"></i></a>
                                                             <ul>
-                                                                <li><a href="{{ route('products.pipe-fittings.bends.90-degree-bend') }}">90 Degree Bend</a></li>
-                                                                <li><a href="{{ route('products.pipe-fittings.bends.45-degree-bend') }}">45 Degree Bend</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.bends.90-degree-bend') }}">90
+                                                                        Degree Bend</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.bends.45-degree-bend') }}">45
+                                                                        Degree Bend</a></li>
                                                             </ul>
                                                         </li>
-                                                        <li class="dropdown"><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Reducers <i class="fa fa-angle-right"></i></a>
+                                                        <li class="dropdown"><a
+                                                                class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                href="#">Reducers <i
+                                                                    class="fa fa-angle-right"></i></a>
                                                             <ul>
-                                                                <li><a href="{{ route('products.pipe-fittings.reducers.concentric') }}">Concentric</a></li>
-                                                                <li><a href="{{ route('products.pipe-fittings.reducers.eccentric') }}">Eccentric</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.reducers.concentric') }}">Concentric</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.reducers.eccentric') }}">Eccentric</a>
+                                                                </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="dropdown"><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Olets <i class="fa fa-angle-right"></i></a>
+                                                        <li class="dropdown"><a
+                                                                class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                href="#">Olets <i
+                                                                    class="fa fa-angle-right"></i></a>
                                                             <ul>
-                                                                <li><a href="{{ route('products.pipe-fittings.olets.weldolet') }}">Weldolet</a></li>
-                                                                <li><a href="{{ route('products.pipe-fittings.olets.sockolet') }}">Sockolet</a></li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.olets.weldolet') }}">Weldolet</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="{{ route('products.pipe-fittings.olets.sockolet') }}">Sockolet</a>
+                                                                </li>
                                                             </ul>
                                                         </li>
-                                                        <li><a href="{{ route('products.pipe-fittings.u-bend') }}">U Bend</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings.u-bend') }}">U
+                                                                Bend</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.flanges') }}">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('products.flanges') }}">
                                                         Flanges <i class="fa fa-angle-right"></i>
                                                     </a>
                                                     <ul>
-                                                        <li><a href="{{ route('products.flanges.weld-neck-flanges') }}">Weld Neck Flanges</a></li>
-                                                        <li><a href="{{ route('products.flanges.slip-on-flanges') }}">Slip On Flanges</a></li>
-                                                        <li><a href="{{ route('products.flanges.blind-flanges') }}">Blind Flanges</a></li>
-                                                        <li><a href="{{ route('products.flanges.lap-joint-flanges') }}">Lap Joint Flanges</a></li>
-                                                        <li><a href="{{ route('products.flanges.threaded-flanges') }}">Threaded Flanges</a></li>
-                                                        <li><a href="{{ route('products.flanges.socket-weld-flanges') }}">Socket Weld Flanges</a></li>
-                                                        <li><a href="{{ route('products.flanges.spectacle-blind-flanges') }}">Spectacle Blind Flanges</a></li>
-                                                    </ul>
-                                                </li>
-                                                 <li class="dropdown">
-                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.fasteners') }}">
-                                                        Fasteners <i class="fa fa-angle-right"></i>
-                                                    </a>
-                                                    <ul>
-                                                        <li><a href="{{ route('products.fasteners.studs') }}">Studs</a></li>
-                                                        <li><a href="{{ route('products.fasteners.threaded-rods') }}">Threaded Rods</a></li>
-                                                        <li><a href="{{ route('products.fasteners.hex-bolts') }}">Hex Bolts</a></li>
-                                                        <li><a href="{{ route('products.fasteners.nuts') }}">Nuts</a></li>
-                                                        <li><a href="{{ route('products.fasteners.washers') }}">Washers</a></li>
-                                                        <li><a href="{{ route('products.fasteners.socket-head-screws') }}">Socket Head Screws</a></li>
-                                                        <li><a href="{{ route('products.fasteners.allen-bolts') }}">Allen Bolts</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.flanges.weld-neck-flanges') }}">Weld
+                                                                Neck Flanges</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.flanges.slip-on-flanges') }}">Slip
+                                                                On Flanges</a></li>
+                                                        <li><a href="{{ route('products.flanges.blind-flanges') }}">Blind
+                                                                Flanges</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.flanges.lap-joint-flanges') }}">Lap
+                                                                Joint Flanges</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.flanges.threaded-flanges') }}">Threaded
+                                                                Flanges</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.flanges.socket-weld-flanges') }}">Socket
+                                                                Weld Flanges</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.flanges.spectacle-blind-flanges') }}">Spectacle
+                                                                Blind Flanges</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.special-fabricated') }}">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('products.fasteners') }}">
+                                                        Fasteners <i class="fa fa-angle-right"></i>
+                                                    </a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ route('products.fasteners.studs') }}">Studs</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ route('products.fasteners.threaded-rods') }}">Threaded
+                                                                Rods</a></li>
+                                                        <li><a href="{{ route('products.fasteners.hex-bolts') }}">Hex
+                                                                Bolts</a></li>
+                                                        <li><a href="{{ route('products.fasteners.nuts') }}">Nuts</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ route('products.fasteners.washers') }}">Washers</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ route('products.fasteners.socket-head-screws') }}">Socket
+                                                                Head Screws</a></li>
+                                                        <li><a href="{{ route('products.fasteners.allen-bolts') }}">Allen
+                                                                Bolts</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                        href="{{ route('products.special-fabricated') }}">
                                                         Special Fabricated <i class="fa fa-angle-right"></i>
                                                     </a>
                                                     <ul>
-                                                        <li><a href="{{ route('products.special-fabricated.custom-steel-furniture') }}">Custom Steel Furniture</a></li>
-                                                        <li><a href="{{ route('products.special-fabricated.fabricated-ss-grills') }}">Fabricated SS Grills</a></li>
-                                                        <li><a href="{{ route('products.special-fabricated.ss-railings') }}">SS Railings</a></li>
-                                                        <li><a href="{{ route('products.special-fabricated.glass-railings') }}">Glass Railings</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.special-fabricated.custom-steel-furniture') }}">Custom
+                                                                Steel Furniture</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.special-fabricated.fabricated-ss-grills') }}">Fabricated
+                                                                SS Grills</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.special-fabricated.ss-railings') }}">SS
+                                                                Railings</a></li>
+                                                        <li><a
+                                                                href="{{ route('products.special-fabricated.glass-railings') }}">Glass
+                                                                Railings</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="dropdown"><a href="{{ route('materials') }}">Materials</a>
                                             <ul>
-                                                <li><a href="{{ route('materials.hastelloy') }}">Hastelloy</a></li>
-                                                <li><a href="{{ route('materials.monel') }}">Monel</a></li>
-                                                <li><a href="{{ route('materials.incoloy') }}">Incoloy</a></li>
-                                                <li><a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel
-                                                        Based Superalloys</a></li>
-                                                <li><a href="{{ route('materials.inconel') }}">Inconel</a></li>
-                                                <li><a href="{{ route('materials.titanium') }}">Titanium</a></li>
-                                                <li><a href="{{ route('materials.aluminium-Alloys') }}">Aluminium
-                                                        Alloys</a></li>
-                                                <li><a
-                                                        href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">Super
-                                                        Austenitic Stainless Steel</a></li>
-                                                <li><a href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Hard
-                                                        To Find Special Alloys</a></li>
-                                                <li><a href="{{ route('materials.engineering-Steels') }}">Engineering
-                                                        Steels</a></li>
-                                                <li><a href="{{ route('materials.austenitic-stainless-Steel') }}">Austenitic
-                                                        Stainless Steel</a></li>
-                                                <li><a href="{{ route('materials.copper-Alloys') }}">Copper Alloys</a>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.hastelloy') }}">Hastelloy</a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/hastelloy/hastelloy-c276') }}">Hastelloy
+                                                                C276</a></li>
+                                                        <li><a href="{{ url('materials/hastelloy/hastelloy-c22') }}">Hastelloy
+                                                                C22</a></li>
+                                                        <li><a href="{{ url('materials/hastelloy/hastelloy-c4') }}">Hastelloy
+                                                                C4</a></li>
+                                                        <li><a href="{{ url('materials/hastelloy/hastelloy-b2') }}">Hastelloy
+                                                                B2</a></li>
+                                                        <li><a href="{{ url('materials/hastelloy/hastelloy-b3') }}">Hastelloy
+                                                                B3</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/hastelloy/hastelloy-c2000') }}">Hastelloy
+                                                                C2000</a></li>
+                                                        <li><a href="{{ url('materials/hastelloy/hastelloy-g3') }}">Hastelloy
+                                                                G3</a></li>
+                                                        <li><a href="{{ url('materials/hastelloy/hastelloy-g30') }}">Hastelloy
+                                                                G30</a></li>
+                                                        <li><a href="{{ url('materials/hastelloy/hastelloy-x') }}">Hastelloy
+                                                                X</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li><a href="{{ route('materials.zirconium') }}">Zirconium</a></li>
-                                                <li><a href="{{ route('materials.haynes-Superalloys') }}">Haynes
-                                                        Superalloys</a></li>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.monel') }}">Monel</a>
+                                                    <ul>
+                                                        <li><a href="{{ url('materials/monel/monel-400') }}">Monel
+                                                                400</a></li>
+                                                        <li><a href="{{ url('materials/monel/monel-k500') }}">Monel
+                                                                K500</a></li>
+                                                        <li><a href="{{ url('materials/monel/monel-r405') }}">Monel
+                                                                R405</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.incoloy') }}">Incoloy</a>
+                                                    <ul>
+                                                        <li><a href="{{ url('materials/incoloy/incoloy-020') }}">Incoloy
+                                                                020</a></li>
+                                                        <li><a href="{{ url('materials/incoloy/incoloy-800') }}">Incoloy
+                                                                800</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/incoloy/incoloy-800h-800ht') }}">Incoloy
+                                                                800H/800HT</a></li>
+                                                        <li><a href="{{ url('materials/incoloy/incoloy-825') }}">Incoloy
+                                                                825</a></li>
+                                                        <li><a href="{{ url('materials/incoloy/incoloy-925') }}">Incoloy
+                                                                925</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel
+                                                        Based Superalloys</a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/nickel-based-superalloys/nickel-based-superalloys-200') }}">Nickel
+                                                                200</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/nickel-based-superalloys/nickel-based-superalloys-201') }}">Nickel
+                                                                201</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/nickel-based-superalloys/nickel-based-superalloys-a286-ais660') }}">A286-AIS660</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.inconel') }}">Inconel</a>
+                                                    <ul>
+                                                        <li><a href="{{ url('materials/inconel/inconel-600') }}">Inconel
+                                                                600</a></li>
+                                                        <li><a href="{{ url('materials/inconel/inconel-617') }}">Inconel
+                                                                617</a></li>
+                                                        <li><a href="{{ url('materials/inconel/inconel-625') }}">Inconel
+                                                                625</a></li>
+                                                        <li><a href="{{ url('materials/inconel/inconel-690') }}">Inconel
+                                                                690</a></li>
+                                                        <li><a href="{{ url('materials/inconel/inconel-718') }}">Inconel
+                                                                718</a></li>
+                                                        <li><a href="{{ url('materials/inconel/inconel-x750') }}">Inconel
+                                                                X750</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.titanium') }}">Titanium</a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-1') }}">Titanium
+                                                                Gr 1</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-2') }}">Titanium
+                                                                Gr 2</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-4') }}">Titanium
+                                                                Gr 4</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-4-eli') }}">Titanium
+                                                                Gr 4 ELI</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-5') }}">Titanium
+                                                                Gr 5</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-5-eli') }}">Titanium
+                                                                Gr 5 ELI</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-7') }}">Titanium
+                                                                Gr 7</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-7-nb') }}">Titanium
+                                                                Gr 7 Nb</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-9') }}">Titanium
+                                                                Gr 9</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-12') }}">Titanium
+                                                                Gr 12</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/titanium/titanium-grade-23') }}">Titanium
+                                                                Gr 23</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.aluminium-Alloys') }}">Aluminium
+                                                        Alloys</a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-1100') }}">Aluminium
+                                                                1100</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-1200') }}">Aluminium
+                                                                1200</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-2014-t6') }}">Aluminium
+                                                                2014-T6</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-5083') }}">Aluminium
+                                                                5083</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-6012') }}">Aluminium
+                                                                6012</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-6061-t6') }}">Aluminium
+                                                                6061-T6</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-6063') }}">Aluminium
+                                                                6063</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-6082-t6') }}">Aluminium
+                                                                6082-T6</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys-he30') }}">Aluminium
+                                                                HE30</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/aluminium-alloys/aluminium-alloys7075') }}">Aluminium
+                                                                7075</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">Super
+                                                        Austenitic Stainless Steel</a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-smo-254') }}">SMO
+                                                                254</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-smo-654') }}">SMO
+                                                                654</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-904l') }}">Alloy
+                                                                904L</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-alloy-926') }}">Alloy
+                                                                926</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-al-6xn') }}">AL-6XN</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-253-ma') }}">253
+                                                                MA</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Hard
+                                                        To Find Special Alloys</a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/hard-to-find-special-alloys/hard-to-find-special-alloys-carbide') }}">Carbide</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/hard-to-find-special-alloys/hard-to-find-special-alloys-nimonic') }}">Nimonic</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/hard-to-find-special-alloys/hard-to-find-special-alloys-nitinol') }}">Nitinol</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/hard-to-find-special-alloys/hard-to-find-special-alloys-stellite') }}">Stellite</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/hard-to-find-special-alloys/hard-to-find-special-alloys-tantalum') }}">Tantalum</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/hard-to-find-special-alloys/hard-to-find-special-alloys-tungsten') }}">Tungsten</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.engineering-Steels') }}">Engineering
+                                                        Steels</a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-en8') }}">EN8</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-en9') }}">EN9</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-en19') }}">EN19</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-en24') }}">EN24</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-en31') }}">EN31</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-en36') }}">EN36</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-en47') }}">EN47</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-1045') }}">1045</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-1055') }}">1055</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-4130') }}">4130</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-4140') }}">4140</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-4340') }}">4340</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-d2') }}">D2</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-p1') }}">P1</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-p11') }}">P11</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-p12') }}">P12</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/engineering-steels/engineering-steels-p22') }}">P22</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.austenitic-stainless-Steel') }}">Austenitic
+                                                        Stainless Steel</a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">SS
+                                                                304</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-309') }}">SS
+                                                                309</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-310') }}">SS
+                                                                310</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316') }}">SS
+                                                                316</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316ti') }}">SS
+                                                                316Ti</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-317') }}">SS
+                                                                317</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-321') }}">SS
+                                                                321</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-347') }}">SS
+                                                                347</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-nitronic-50') }}">Nitronic
+                                                                50</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-nitronic-60') }}">Nitronic
+                                                                60</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.copper-Alloys') }}">Copper
+                                                        Alloys</a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-cu-ni-90-10') }}">Copper
+                                                                Nickel 90/10</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-cu-ni-70-30') }}">Copper
+                                                                Nickel 70/30</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-aluminium-bronze') }}">Aluminium
+                                                                Bronze</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-beryllium-copper') }}">Beryllium
+                                                                Copper</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-c44300') }}">C44300</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-c46400') }}">C46400</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-c63000') }}">C63000</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-c71500') }}">C71500</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-c71520') }}">C71520</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-cartridge-brass') }}">Cartridge
+                                                                Brass</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-ec-copper') }}">EC
+                                                                Copper</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-etp-copper') }}">ETP
+                                                                Copper</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/copper-alloys/copper-alloys-navel-brass') }}">Navel
+                                                                Brass</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.zirconium') }}">Zirconium</a>
+                                                    <ul>
+                                                        <li><a href="{{ url('materials/zirconium/zirconium-702') }}">Zirconium
+                                                                702</a></li>
+                                                        <li><a href="{{ url('materials/zirconium/zirconium-704') }}">Zirconium
+                                                                704</a></li>
+                                                        <li><a href="{{ url('materials/zirconium/zirconium-705') }}">Zirconium
+                                                                705</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.haynes-Superalloys') }}">Haynes
+                                                        Superalloys</a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/haynes-superalloys/haynes-superalloys-25') }}">Haynes
+                                                                25</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/haynes-superalloys/haynes-superalloys-160') }}">Haynes
+                                                                160</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/haynes-superalloys/haynes-superalloys-188') }}">Haynes
+                                                                188</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/haynes-superalloys/haynes-superalloys-230') }}">Haynes
+                                                                230</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/haynes-superalloys/haynes-superalloys-242') }}">Haynes
+                                                                242</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.duplex-and-super-duplex') }}">Duplex
+                                                        and Super Duplex</a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/duplex-and-super-duplex/duplex-s31803') }}">Duplex
+                                                                S31803</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/duplex-and-super-duplex/super-duplex-2205') }}">Super
+                                                                Duplex 2205</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/duplex-and-super-duplex/super-duplex-2507') }}">Super
+                                                                Duplex 2507</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/duplex-and-super-duplex/super-duplex-s32760') }}">Super
+                                                                Duplex S32760</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a
+                                                        href="{{ route('materials.high-strength-stainless-steel') }}">High
+                                                        Strength Stainless Steel</a>
+                                                    <ul>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/14-4ph-stainless-steel') }}">14-4
+                                                                PH</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/15-5ph-stainless-steel') }}">15-5
+                                                                PH</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/17-4ph-stainless-steel') }}">17-4
+                                                                PH</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/stainless-steel-403') }}">SS
+                                                                403</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/stainless-steel-405') }}">SS
+                                                                405</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/stainless-steel-410') }}">SS
+                                                                410</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/stainless-steel-416') }}">SS
+                                                                416</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/stainless-steel-420') }}">SS
+                                                                420</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/420hc-stainless-steel') }}">SS
+                                                                420HC</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/stainless-steel-422') }}">SS
+                                                                422</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/430f-stainless-steel') }}">SS
+                                                                430F</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/stainless-steel-431') }}">SS
+                                                                431</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/440a-stainless-steel') }}">SS
+                                                                440A</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/440b-stainless-steel') }}">SS
+                                                                440B</a></li>
+                                                        <li><a
+                                                                href="{{ url('materials/high-strength-stainless-steel/440c-stainless-steel') }}">SS
+                                                                440C</a></li>
+                                                    </ul>
+                                                </li>
                                             </ul>
-                                            {{-- <li><a href="{{ route('materials') }}">MATERIALS</a>
+                                        </li>
+                                        {{-- <li><a href="{{ route('materials') }}">MATERIALS</a>
                                         </li> --}}
 
                                         <li><a href="#">Quality</a></li>
@@ -1113,9 +2147,11 @@
 
         <!-- Sticky CTA Floating Buttons -->
         <div class="sticky-cta">
-            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal" class="cta-quote"><i class="fa fa-envelope"></i> Get Quote</a>
+            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal"
+                class="cta-quote"><i class="fa fa-envelope"></i> Get Quote</a>
             <a href="tel:+919769584950" class="cta-call"><i class="fa fa-phone"></i> Call Now</a>
-            <a href="https://wa.me/919769584950" target="_blank" class="cta-whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+            <a href="https://wa.me/919769584950" target="_blank" class="cta-whatsapp"><i
+                    class="fa-brands fa-whatsapp"></i> WhatsApp</a>
         </div>
 
 
@@ -1212,7 +2248,7 @@
                         <div class="col-12 col-sm-3">
                             <div class="justify-content-between p-2">
                                 <button id="reject-cookies" class="btn btn-sm border text-white"
-                                style="border-color:#db7227; margin-right:10px;">Reject</button>
+                                    style="border-color:#db7227; margin-right:10px;">Reject</button>
                                 <button id="accept-cookies" class="btn btn-sm text-white"
                                     style="background-color:#db7227;">Accept</button>
                             </div>

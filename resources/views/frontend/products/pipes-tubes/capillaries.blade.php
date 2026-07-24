@@ -9,6 +9,20 @@
 @section('content')
 
     <!--Start breadcrumb area-->
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/capillary-tubes.webp);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto text-center">
+                    <h1>Capillary Tubes<br>Precision Micro Tubes in Stainless Steel & Alloys</h1>
+
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Capillary Tubes are highly specialized precision tubes manufactured with extremely small outside diameters and thin wall thicknesses to ensure accurate fluid flow control and exceptional dimensional precision. Moksh Tubes & Fittings LLP supplies premium-quality capillary tubes in stainless steel, nickel alloys, and titanium grades for medical, HVAC, and industrial applications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--End breadcrumb area-->
 
     <!-- Start Material Tabs -->
@@ -31,7 +45,7 @@
     <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Product Overview</h2>
+                <h2>Introduction</h2>
             </div>
 
             <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
