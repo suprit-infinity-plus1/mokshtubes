@@ -3,12 +3,12 @@
 @section('title', 'Threaded Flanges Supplier UAE, Saudi | Exporter')
 @section('meta_description', 'Threaded flanges exporter to UAE, Saudi Arabia, Qatar & Oman. Threaded flanges in SS, CS & alloy steel. Fast delivery & certified supply.')
 @section('meta_keywords', 'Threaded Flanges, Screwed Flanges, Threaded Flanges Supplier, Moksh Tubes')
-@section('og_image', asset('assets/images/fasteners/SORF-Flanges_11zon.jpg'))
+@section('og_image', asset('assets/images/fasteners/sorf-flanges_11zon.jpg'))
 @section('og_type', 'product')
 @section('content')
 
     <!--Start breadcrumb area (Hero Section)-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/fasteners/SORF-Flanges_11zon.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/fasteners/sorf-flanges_11zon.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -16,8 +16,14 @@
                     <!-- Short Introduction -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Threaded Flanges (also known as Screwed Flanges) are used in <a href="{{ route('products.pipes-tubes') }}" style="color: blue; text-decoration: underline;">piping systems</a> where <br>welding is hazardous or impossible. These <br><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}" style="color: blue; text-decoration: underline;">flanges</a> feature internal threads that mate with external threads on the pipe, allowing <br>for a fast and reliable connection.
-                        At Moksh Tubes & Fittings LLP, we are a trusted Threaded flange supplier and exporter, <br>delivering high-quality flanges in accordance with ASTM, ASME, ANSI, DIN, and EN <br>standards.
+                        Threaded Flanges (also known as Screwed Flanges) are used in <a
+                            href="{{ route('products.pipes-tubes') }}"
+                            style="color: blue; text-decoration: underline;">piping systems</a> where <br>welding is
+                        hazardous or impossible. These <br><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}"
+                            style="color: blue; text-decoration: underline;">flanges</a> feature internal threads that mate
+                        with external threads on the pipe, allowing <br>for a fast and reliable connection.
+                        At Moksh Tubes & Fittings LLP, we are a trusted Threaded flange supplier and exporter,
+                        <br>delivering high-quality flanges in accordance with ASTM, ASME, ANSI, DIN, and EN <br>standards.
                     </p>
                     <!-- End extra content -->
                 </div>
@@ -57,7 +63,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/fasteners/SORF-Flanges_11zon.jpg') }}" alt="Threaded Flanges Overview"
+                    <img src="{{ asset('assets/images/fasteners/sorf-flanges_11zon.jpg') }}" alt="Threaded Flanges Overview"
                         class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
@@ -65,17 +71,24 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-3 text-justify" style="text-align: justify;">
-                            <strong class="text-black">Threaded Flanges</strong> are similar to slip-on flanges but the bore is threaded to match the threads on the pipe. They are primarily used for utility services such as air and water, and in applications where welding is not permitted.
+                            <strong class="text-black">Threaded Flanges</strong> are similar to slip-on flanges but the bore
+                            is threaded to match the threads on the pipe. They are primarily used for utility services such
+                            as air and water, and in applications where welding is not permitted.
                         </p>
 
                         <ul class="fs-6 mb-3 list-unstyled">
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> <a href="{{ route('products.pipes-tubes') }}" style="color: blue;">Pipe</a> is screwed directly into the flange without welding</li>
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Ideal for explosive or hazardous environments</li>
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Easy to assemble and disassemble</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> <a
+                                    href="{{ route('products.pipes-tubes') }}" style="color: blue;">Pipe</a> is screwed
+                                directly into the flange without welding</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Ideal for explosive or
+                                hazardous environments</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Easy to assemble and
+                                disassemble</li>
                         </ul>
 
                         <p class="fs-6 text-justify" style="text-align: justify;">
-                            Because they do not require welding, they can be assembled quickly and safely, making them highly suitable for maintenance and temporary piping installations.
+                            Because they do not require welding, they can be assembled quickly and safely, making them
+                            highly suitable for maintenance and temporary piping installations.
                         </p>
                     </div>
                 </div>
@@ -162,7 +175,12 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Material</strong></td>
-                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}" style="color: blue; text-decoration: none;">SS</a>, CS, Alloy Steel, <a href="{{ route('materials.duplex-and-super-duplex') }}" style="color: blue; text-decoration: none;">Duplex</a>, <a href="{{ route('materials.nickel-Based-Superalloys') }}" style="color: blue; text-decoration: none;">Nickel Alloys</a></td>
+                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}"
+                                            style="color: blue; text-decoration: none;">SS</a>, CS, Alloy Steel, <a
+                                            href="{{ route('materials.duplex-and-super-duplex') }}"
+                                            style="color: blue; text-decoration: none;">Duplex</a>, <a
+                                            href="{{ route('materials.nickel-Based-Superalloys') }}"
+                                            style="color: blue; text-decoration: none;">Nickel Alloys</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Standards</strong></td>
@@ -195,16 +213,20 @@
                 <div class="col-md-5 mb-4">
                     <div class="card h-100 shadow-sm border-0 border-start border-4 border-primary">
                         <div class="card-body">
-                            <h4 class="card-title fw-bold text-primary"><i class="bi bi-circle-square me-2"></i>NPT Threaded Flanges</h4>
-                            <p class="card-text fs-6 mt-3">Tapered threads widely used in North American and industrial standards.</p>
+                            <h4 class="card-title fw-bold text-primary"><i class="bi bi-circle-square me-2"></i>NPT Threaded
+                                Flanges</h4>
+                            <p class="card-text fs-6 mt-3">Tapered threads widely used in North American and industrial
+                                standards.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-5 mb-4">
                     <div class="card h-100 shadow-sm border-0 border-start border-4 border-info">
                         <div class="card-body">
-                            <h4 class="card-title fw-bold text-info"><i class="bi bi-dash-square me-2"></i>BSPT/BSPP Threaded Flanges</h4>
-                            <p class="card-text fs-6 mt-3">British Standard threads commonly used in European and Asian markets.</p>
+                            <h4 class="card-title fw-bold text-info"><i class="bi bi-dash-square me-2"></i>BSPT/BSPP
+                                Threaded Flanges</h4>
+                            <p class="card-text fs-6 mt-3">British Standard threads commonly used in European and Asian
+                                markets.</p>
                         </div>
                     </div>
                 </div>
@@ -239,7 +261,8 @@
                             </div>
                         </div>
                     </div>
-                    <p class="text-center mt-3 text-muted">For detailed dimension charts and weights, please contact our technical team.</p>
+                    <p class="text-center mt-3 text-muted">For detailed dimension charts and weights, please contact our
+                        technical team.</p>
                 </div>
             </div>
         </div>
@@ -257,7 +280,8 @@
                         <div class="application-icon"><i class="bi bi-shield-check"></i></div>
                         <h5>Stainless Steel</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• <a href="{{ route('materials.austenitic-stainless-Steel') }}" style="color: blue;">304, 304L, 316, 316L, 321</a></li>
+                            <li>• <a href="{{ route('materials.austenitic-stainless-Steel') }}" style="color: blue;">304,
+                                    304L, 316, 316L, 321</a></li>
                         </ul>
                     </div>
                 </div>
@@ -284,7 +308,8 @@
                         <div class="application-icon"><i class="bi bi-box"></i></div>
                         <h5>Duplex & Super Duplex</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• <a href="{{ route('materials.duplex-and-super-duplex') }}" style="color: blue;">S31803, S32750</a></li>
+                            <li>• <a href="{{ route('materials.duplex-and-super-duplex') }}" style="color: blue;">S31803,
+                                    S32750</a></li>
                         </ul>
                     </div>
                 </div>
@@ -293,7 +318,9 @@
                         <div class="application-icon"><i class="bi bi-nut"></i></div>
                         <h5>Nickel Alloys</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• <a href="{{ route('materials.inconel') }}" style="color: blue;">Inconel</a>, <a href="{{ route('materials.monel') }}" style="color: blue;">Monel</a>, <a href="{{ route('materials.hastelloy') }}" style="color: blue;">Hastelloy</a></li>
+                            <li>• <a href="{{ route('materials.inconel') }}" style="color: blue;">Inconel</a>, <a
+                                    href="{{ route('materials.monel') }}" style="color: blue;">Monel</a>, <a
+                                    href="{{ route('materials.hastelloy') }}" style="color: blue;">Hastelloy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -372,7 +399,8 @@
                 <h2>Packaging & Export</h2>
             </div>
             <p class="fs-6 text-center text-muted mb-4">
-                We are a reliable Threaded flange supplier and exporter, supplying globally. <br>Trusted by EPC contractors and industrial buyers.
+                We are a reliable Threaded flange supplier and exporter, supplying globally. <br>Trusted by EPC contractors
+                and industrial buyers.
             </p>
 
             <div class="row g-4 justify-content-center">
@@ -414,11 +442,14 @@
                     </div>
                     <ul class="fs-6 list-unstyled mb-5">
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Can be attached to the pipe without welding</li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Can be attached to the pipe without
+                            welding</li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Highly economical in certain setups</li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Highly economical in certain setups
+                        </li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Reduces fire hazards during installation</li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Reduces fire hazards during
+                            installation</li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
                                 class="bi bi-check-circle-fill text-primary me-2"></i> Easy to dismantle and reassemble</li>
                     </ul>
@@ -428,15 +459,22 @@
                 <div id="buying-guide" class="col-lg-6">
                     <div class="p-4 bg-white rounded shadow-sm border-start border-4 border-warning h-100">
                         <h3 class="fw-bold mb-4" style="color: #174268;">Buying Guide</h3>
-                        <p class="fs-6 text-muted">Before selecting Threaded flanges or other <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}" style="color: blue; text-decoration: underline;">pipe fittings</a>, consider:</p>
+                        <p class="fs-6 text-muted">Before selecting Threaded flanges or other <a
+                                href="{{ route('products.pipe-fittings-flanges-fasteners') }}"
+                                style="color: blue; text-decoration: underline;">pipe fittings</a>, consider:</p>
                         <ul class="fs-6 list-unstyled font-weight-bold">
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Check pressure class and pipe wall thickness</li>
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Select correct material</li>
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Verify <a href="{{ route('products.pipes-tubes') }}" style="color: blue;">pipe</a> thread compatibility</li>
+                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Check pressure class and
+                                pipe wall thickness</li>
+                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Select correct material
+                            </li>
+                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Verify <a
+                                    href="{{ route('products.pipes-tubes') }}" style="color: blue;">pipe</a> thread
+                                compatibility</li>
                             <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Confirm facing type</li>
                             <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Ensure certification</li>
                         </ul>
-                        <p class="fs-6 mt-4 fw-bold p-3 bg-light rounded border text-center border-warning">We help you choose the right flange for your system.</p>
+                        <p class="fs-6 mt-4 fw-bold p-3 bg-light rounded border text-center border-warning">We help you
+                            choose the right flange for your system.</p>
                     </div>
                 </div>
             </div>
@@ -453,7 +491,8 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <ul class="fs-6 list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Dimensional inspection</li>
+                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Dimensional inspection
+                                    </li>
                                     <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Thread gauging</li>
                                 </ul>
                             </div>
@@ -469,7 +508,8 @@
                                 </ul>
                             </div>
                         </div>
-                        <p class="fs-6 mt-4 fw-bold text-success text-center"><i class="bi bi-patch-check-fill me-2"></i> EN 10204 3.1 certification available.</p>
+                        <p class="fs-6 mt-4 fw-bold text-success text-center"><i class="bi bi-patch-check-fill me-2"></i> EN
+                            10204 3.1 certification available.</p>
                     </div>
                 </div>
             </div>
@@ -539,7 +579,8 @@
                                 <h4>Can threaded flanges be used for high pressure?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>No, they are typically limited to smaller sizes and low to medium pressure applications.</p>
+                                <p>No, they are typically limited to smaller sizes and low to medium pressure applications.
+                                </p>
                             </div>
                         </div>
                         <div class="accordion accordion-block">
@@ -563,7 +604,9 @@
                 <h2>Request a Quote for Threaded Flanges</h2>
                 <p>
                     Looking for a reliable Threaded flange supplier & exporter?<br>
-                    Contact <a href="{{ route('contact-us') }}" style="color: blue; text-decoration: underline;"><strong>Moksh Tubes & Fittings LLP</strong></a> for bulk supply, custom sizes, and fast delivery. Get the best price today.
+                    Contact <a href="{{ route('contact-us') }}"
+                        style="color: blue; text-decoration: underline;"><strong>Moksh Tubes & Fittings LLP</strong></a> for
+                    bulk supply, custom sizes, and fast delivery. Get the best price today.
                 </p>
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
@@ -578,37 +621,37 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-            {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [
+                @verbatim
                     {
-                        "@type": "Question",
-                        "name": "What are Threaded flanges used for?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "They are used in systems where welding is not possible or hazardous."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Can threaded flanges be used for high pressure?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "No, they are typically limited to smaller sizes and low to medium pressure applications."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Do you export Threaded flanges?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes, we export globally including GCC countries."
-                        }
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "What are Threaded flanges used for?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "They are used in systems where welding is not possible or hazardous."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can threaded flanges be used for high pressure?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "No, they are typically limited to smaller sizes and low to medium pressure applications."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you export Threaded flanges?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we export globally including GCC countries."
+                                }
+                            }
+                        ]
                     }
-                ]
-            }
-        @endverbatim
-    </script>
+                @endverbatim
+            </script>
 @endsection

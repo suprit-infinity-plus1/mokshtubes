@@ -877,7 +877,7 @@
                 "name": "Moksh Tubes & Fittings LLP"
             },
             "material": "Stainless Steel 304 / 304L",
-            "url": "https://www.mokshtubes.com/products/pipes-tubes/welded-pipes/ss-304-erw-pipes",
+            "url": "https://www.mokshtubes.com/products/pipes-tubes/welded-pipes/ss304-erw-pipes",
             "offers": {
                 "@type": "AggregateOffer",
                 "priceCurrency": "USD",

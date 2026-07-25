@@ -1158,9 +1158,7 @@
         </div>
     </section>
 
-@endsection
 
-@section('jsscripts')
     <script type="application/ld+json">
         @verbatim
         [{
@@ -1248,8 +1246,7 @@
         }]
         @endverbatim
     </script>
-@endsection
-<!-- Right Content -->
+
 <div class="col-md-6">
     <p class="fs-6 mb-3 text-justify">
         <strong class="text-black">Threaded Rods</strong> are highly versatile fastening components that act as large
@@ -1721,129 +1718,128 @@
     </div>
 </section>
 
-{{-- why choose us --}}
-<section id="why-choose-us" class="sec-padd-top sec-padd-bottom">
-    <div class="container text-center">
-        <div class="section-title center">
-            <h2>Why Choose Moksh Tubes?</h2>
-        </div>
+    {{-- why choose us --}}
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom">
+        <div class="container text-center">
+            <div class="section-title center">
+                <h2>Why Choose Moksh Tubes?</h2>
+            </div>
 
-        <div class="row g-4 mt-4">
-            <div class="col-sm-6 col-lg-4">
-                <div class="why-banner-block">
-                    <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                    <h5>Massive inventory of 1m, 2m, and 3m lengths</h5>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="why-banner-block">
-                    <div class="why-banner-icon"><i class="bi bi-shield-check"></i></div>
-                    <h5>Rolled threads for maximum tension strength</h5>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="why-banner-block">
-                    <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                    <h5>Strict compliance with DIN 975 and DIN 976</h5>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="why-banner-block">
-                    <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                    <h5>Export-grade PVC tube packaging to protect threads</h5>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="why-banner-block">
-                    <div class="why-banner-icon"><i class="bi bi-file-earmark-text"></i></div>
-                    <h5>Complete traceability and MTC 3.1 documentation</h5>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="why-banner-block">
-                    <div class="why-banner-icon"><i class="bi bi-tools"></i></div>
-                    <h5>Custom lengths and specialized threading available</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--Start faq content area-->
-<section id="faq" class="faq-content-area sec-padd2 bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="accordion-box">
-                    <div class="section-title center">
-                        <h2>Frequently Asked Questions (FAQ)</h2>
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+                        <h5>Massive inventory of 1m, 2m, and 3m lengths</h5>
                     </div>
-
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>What is the difference between DIN 975 and DIN 976?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>DIN 975 historically referred to threaded rods in 1m, 2m, and 3m lengths. It has largely
-                                been replaced by DIN 976, which now covers both long threaded rods (Type A) and shorter
-                                cut-to-length threaded studs (Type B). In the market, the terms are often used
-                                interchangeably for fully threaded rods.</p>
-                        </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Rolled threads for maximum tension strength</h5>
                     </div>
-
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Can I cut threaded rods myself?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes, they are designed to be cut on-site using a hacksaw or bandsaw. We recommend
-                                threading a nut onto the rod before cutting; unthreading the nut afterward will help
-                                re-form the cut threads and remove burrs.</p>
-                        </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
+                        <h5>Strict compliance with DIN 975 and DIN 976</h5>
                     </div>
-
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Why use rolled threads instead of cut threads?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Thread rolling is a cold forging process that compresses the metal grain, resulting in a
-                                thread that is 10-20% stronger in tension and much more resistant to fatigue failure
-                                than cut threads.</p>
-                        </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>Export-grade PVC tube packaging to protect threads</h5>
                     </div>
-
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>What is the best coating for outdoor use?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>For outdoor use, Hot-Dip Galvanizing (HDG) or switching to Stainless Steel (A2/A4)
-                                provides the best protection. Bright Zinc Plated (BZP) rods are generally suited for
-                                indoor environments like HVAC suspension.</p>
-                        </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-file-earmark-text"></i></div>
+                        <h5>Complete traceability and MTC 3.1 documentation</h5>
                     </div>
-
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-tools"></i></div>
+                        <h5>Custom lengths and specialized threading available</h5>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="sec-padd-top sec-padd-bottom">
-    <div class="container">
-        <div class="contact-cta-box">
-            <h2>Contact Us</h2>
-            <p>For further information, bulk pricing, or custom lengths of threaded rods, <strong>Moksh Tubes & Fittings
-                    LLP</strong> is your dependable partner for industrial fastening solutions.</p>
-            <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
-                data-bs-target="#contactFormModal">
-                Get in Touch
-            </a>
+    <!--Start faq content area-->
+    <section id="faq" class="faq-content-area sec-padd2 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>Frequently Asked Questions (FAQ)</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is the difference between DIN 975 and DIN 976?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>DIN 975 historically referred to threaded rods in 1m, 2m, and 3m lengths. It has largely
+                                    been replaced by DIN 976, which now covers both long threaded rods (Type A) and shorter
+                                    cut-to-length threaded studs (Type B). In the market, the terms are often used
+                                    interchangeably for fully threaded rods.</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Can I cut threaded rods myself?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>Yes, they are designed to be cut on-site using a hacksaw or bandsaw. We recommend
+                                    threading a nut onto the rod before cutting; unthreading the nut afterward will help
+                                    re-form the cut threads and remove burrs.</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why use rolled threads instead of cut threads?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>Thread rolling is a cold forging process that compresses the metal grain, resulting in a
+                                    thread that is 10-20% stronger in tension and much more resistant to fatigue failure
+                                    than cut threads.</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is the best coating for outdoor use?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>For outdoor use, Hot-Dip Galvanizing (HDG) or switching to Stainless Steel (A2/A4)
+                                    provides the best protection. Bright Zinc Plated (BZP) rods are generally suited for
+                                    indoor environments like HVAC suspension.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>For further information, bulk pricing, or custom lengths of threaded rods, <strong>Moksh Tubes & Fittings
+                        LLP</strong> is your dependable partner for industrial fastening solutions.</p>
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
 
 @endsection
 
