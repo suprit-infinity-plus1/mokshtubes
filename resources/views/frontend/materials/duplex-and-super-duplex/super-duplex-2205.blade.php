@@ -13,9 +13,7 @@
 @section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp'))
 @section('og_type', 'article')
 @section('content')
-
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area"
+<section class="breadcrumb-area"
         style="background-image: url(/assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp);">
         <div class="container">
             <div class="row justify-content-center">
@@ -34,7 +32,7 @@
         </div>
     </section>
 
-    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+<div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specification">Specifications</a> |
@@ -46,9 +44,8 @@
             <a href="#contact-us">Contact Us</a>
         </div>
     </div>
-    <!--End breadcrumb area-->
 
-    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Super Duplex 2205 | Product Overview</h2>
@@ -89,8 +86,7 @@
         </div>
     </section>
 
-    {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
+<section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Duplex 2205 Datasheet</h3>
             <p class="mb-3">
@@ -131,10 +127,8 @@
             </p>
         </div>
     </section>
-    {{-- end datasheet --}}
 
-    <!-- Specifications Section -->
-    <section class="sec-padd-top" id="specification">
+<section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
                 <h2>Specifications of Duplex Stainless Steel 2205</h2>
@@ -179,7 +173,7 @@
         </div> <!-- container -->
     </section>
 
-    <section id="composition" class="sec-padd-top sec-padd-bottom">
+<section id="composition" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition of Duplex Stainless Steel 2205</h2>
@@ -248,7 +242,6 @@
         </div>
     </section>
 
-    
 {{-- 
 <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -359,9 +352,7 @@
     </section>
 --}}
 
-
-    <!-- Mechanical Properties -->
-    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+<section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of Duplex Stainless Steel 2205</h2>
@@ -416,7 +407,416 @@
         </div>
     </section>
 
-    
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – Super Duplex 2205</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <p class="text-center mb-3">
+                        We supply Super Duplex 2205 in the following product forms:
+                    </p>
+                    <ul class="list-unstyled text-center">
+                        <li>✔ Seamless & Welded Pipes</li>
+                        <li>✔ Capillary & Boiler Tubes</li>
+                        <li>✔ Sheets, Plates & Coils</li>
+                        <li>✔ Strips & Foils</li>
+                        <li>✔ Round / Flat / Hex Bars</li>
+                        <li>✔ Wire & Welding Rods</li>
+                        <li>✔ Pipe Fittings & Flanges (All ASME Types)</li>
+                        <li>✔ Fasteners & CNC-Machined Components</li>
+                    </ul>
+                    <p class="text-center mt-3">
+                        All materials comply with ASTM B551 / B523 / B658 / B493 / B550.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+--}}
+
+@php
+        $products = [
+            [
+                'name' => 'Pipes',
+                'route' => 'products.pipes-tubes.seamless-pipes',
+                'image' => 'assets/images/all-product/seamless-pipes-10.webp',
+            ],
+            [
+                'name' => 'Tubes',
+                'route' => 'products.pipes-tubes.welded-pipes',
+                'image' => 'assets/images/all-product/welded-pipes-tubes-1.webp',
+            ],
+            [
+                'name' => 'Sheets',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
+                'image' => 'assets/images/all-product/Sheets-Plates.webp',
+            ],
+            [
+                'name' => 'Plates',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
+                'image' => 'assets/images/all-product/Sheets-Plates.webp',
+            ],
+            [
+                'name' => 'Flanges',
+                'route' => 'products.flanges.flanges-and-gaskets',
+                'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
+            ],
+            [
+                'name' => 'Bars',
+                'route' => 'products.bars-rods',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
+            ],
+            [
+                'name' => 'Fittings',
+                'route' => 'products.pipe-fittings',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
+            ]
+        ];
+    @endphp
+
+<section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Products in Duplex Stainless Steel S31803</h2>
+            </div>
+            <!-- Highlighted Paragraph -->
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6">
+                        <strong class="text-dark">Duplex Stainless Steel S31803</strong> is available in a variety of mill
+                        forms:
+                    </p>
+                </div>
+            </div>
+
+            <!-- Emphasized Line -->
+            <div class="row justify-content-center mb-3">
+                <div class="col-lg-10">
+                    <h2 class="fw-bold fs-5 text-center my-4" style="color: #174268;">
+                        We supply Duplex Stainless Steel S31803 materials in accordance with the most stringent industry
+                        standards: </h2>
+                </div>
+            </div>
+
+            <!-- Product Image Cards (Now centered and responsive) -->
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
+                @foreach ($products as $product)
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
+<section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Uses and Advantages</h2>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h3>Excellent resistance to chloride-induced stress corrosion cracking</h3>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h3>Superior pitting and crevice corrosion resistance</h3>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrow-up-square"></i></div>
+                        <h3>Twice the yield strength of conventional austenitic stainless steels</h3>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h3>Good weldability and formability</h3>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h3>High mechanical strength and durability in harsh environments</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<section id="applications" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Applications of Super Duplex Stainless Steel 2205</h2>
+                <p class="text-center pb-3"><strong class="text-dark">Super Duplex Stainless Steel 2205</strong> is widely
+                    used across multiple industries:</p>
+            </div>
+
+                        <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Chemical Processing</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h5>Oil & Gas</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-water"></i></div>
+                        <h5>Marine</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
+                        <h5>Pharmaceutical</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-thermometer-half"></i></div>
+                        <h5>Heat Exchangers</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
+                        <h5>Power Plants</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container text-center">
+            <div class="section-title center">
+                <h2>WHY CHOOSE US?</h2>
+            </div>
+
+                        <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+                        <h5>ISO Certified</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-file-earmark-check"></i></div>
+                        <h5>MTC 3.1</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+                        <h5>Fast Delivery</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>Worldwide Export</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-cash-coin"></i></div>
+                        <h5>Competitive Price</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{{-- 
+<section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Duplex Stainless Steel S31803 Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹350 – ₹650 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price depends on size, form, condition & order volume.)
+            </p>
+
+            <p class="text-center fs-5">
+                Request an exact quotation for accurate pricing.
+            </p>
+        </div>
+    </section>
+--}}
+
+<section id="faq" class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn active">
+                                <h3>What makes Super Duplex 2205 superior to standard austenitic stainless steel?</h3>
+                            </div>
+                            <div class="accord-content collapsed">
+                                <p>It has twice the strength and significantly better resistance to chloride stress
+                                    corrosion cracking than standard austenitic grades like 304 or 316.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3>Is Super Duplex 2205 weldable?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>Yes, but proper control of heat input and post-weld treatment is essential to maintain
+                                    corrosion resistance and strength.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3>Where is Super Duplex 2205 most commonly used?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>In offshore oil & gas, desalination plants, chemical processing, and marine applications
+                                    where corrosion resistance and high strength are critical.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3>Can Super Duplex 2205 be used in seawater environments?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>Yes, it has excellent resistance to seawater corrosion and chloride-induced stress
+                                    corrosion cracking.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{{-- 
+<section class="blog-section sec-padd2">
+        <div class="container">
+            <div class="section-title">
+                <h2>blogs</h2>
+            </div>
+            <div class="row">
+                @foreach ($blogs as $blog)
+                    <!-- {{ dd($blog) }} -->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="default-blog-news wow fadeInUp animated">
+
+                            <figure class="img-holder mb-0">
+                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                    <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}"
+                                        loading="lazy">
+                                </a>
+                                <figcaption class="overlay">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                                <i class="fa fa-link" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <div class="lower-content">
+                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                    <h5>{{ Str::limit($blog->title, 30) }}</h5>
+                                </a>
+
+                                <div class="post-meta">
+                                    by {{ $blog->author ?? 'Admin' }} |
+                                    {{ $blog->created_at->format('F d, Y') }}
+                                </div>
+
+                                <!--<div class="text">-->
+                                <!--</div>-->
+                                {!! \Str::limit(strip_tags($blog->content, '<i>'), 120) !!}
+
+                                <div class="link">
+                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}" class="default_link">
+                                        Read More <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+--}}
+
+<section id="contact-us" id="contact us" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>
+                    For inquiries, pricing, or customized Super Duplex Stainless Steel 2205 solutions, <strong>Moksh Tubes &
+                        Fittings
+                        LLP</strong> your reliable partner in Super Duplex Stainless Steel 2205.</p>
+                <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extra Sections (Commented Out) -->
+{{-- datasheet --}}
+
+{{-- end datasheet --}}
+
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
@@ -485,410 +885,9 @@
     </section>
 --}}
 
+{{-- blog section start --}}
 
-        @php
-        $products = [
-            [
-                'name' => 'Pipes',
-                'route' => 'products.pipes-tubes.seamless-pipes',
-                'image' => 'assets/images/all-product/seamless-pipes-10.webp',
-            ],
-            [
-                'name' => 'Tubes',
-                'route' => 'products.pipes-tubes.welded-pipes',
-                'image' => 'assets/images/all-product/welded-pipes-tubes-1.webp',
-            ],
-            [
-                'name' => 'Sheets',
-                'route' => 'products.sheets-plates-coils.sheets-and-plates',
-                'image' => 'assets/images/all-product/Sheets-Plates.webp',
-            ],
-            [
-                'name' => 'Plates',
-                'route' => 'products.sheets-plates-coils.sheets-and-plates',
-                'image' => 'assets/images/all-product/Sheets-Plates.webp',
-            ],
-            [
-                'name' => 'Flanges',
-                'route' => 'products.flanges.flanges-and-gaskets',
-                'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
-            ],
-            [
-                'name' => 'Bars',
-                'route' => 'products.bars-rods',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
-            ],
-            [
-                'name' => 'Fittings',
-                'route' => 'products.pipe-fittings',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
-            ]
-        ];
-    @endphp
-
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Products in Duplex Stainless Steel S31803</h2>
-            </div>
-            <!-- Highlighted Paragraph -->
-            <div class="row justify-content-center mb-4" style="text-align: justify;">
-                <div class="col-lg-10">
-                    <p class="fs-6">
-                        <strong class="text-dark">Duplex Stainless Steel S31803</strong> is available in a variety of mill
-                        forms:
-                    </p>
-                </div>
-            </div>
-
-            <!-- Horizontal Styled Product List -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                        <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
-                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
-                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Emphasized Line -->
-            <div class="row justify-content-center mb-3">
-                <div class="col-lg-10">
-                    <h2 class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        We supply Duplex Stainless Steel S31803 materials in accordance with the most stringent industry
-                        standards: </h2>
-                </div>
-            </div>
-
-            <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
-                @foreach ($products as $product)
-                    <div class="col d-flex">
-                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
-                            <div class="product-card h-100">
-                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                    class="img-fluid w-100">
-                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
-                            </div>
-                        </a>
-                    </div>
-                @endforeach
-            </div>
-        </div>
-    </section>
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses and Advantages</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h3>Excellent resistance to chloride-induced stress corrosion cracking</h3>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h3>Superior pitting and crevice corrosion resistance</h3>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrow-up-square"></i></div>
-                        <h3>Twice the yield strength of conventional austenitic stainless steels</h3>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                        <h3>Good weldability and formability</h3>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h3>High mechanical strength and durability in harsh environments</h3>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="applications" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Applications of Super Duplex Stainless Steel 2205</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Super Duplex Stainless Steel 2205</strong> is widely
-                    used across multiple industries:</p>
-            </div>
-
-                        <div class="row g-4 justify-content-center">
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Chemical Processing</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Oil & Gas</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-water"></i></div>
-                        <h5>Marine</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
-                        <h5>Pharmaceutical</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-thermometer-half"></i></div>
-                        <h5>Heat Exchangers</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
-                        <h5>Power Plants</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>WHY CHOOSE US?</h2>
-            </div>
-
-                        <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>ISO Certified</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-file-earmark-check"></i></div>
-                        <h5>MTC 3.1</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Fast Delivery</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Worldwide Export</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-cash-coin"></i></div>
-                        <h5>Competitive Price</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    
-{{-- 
-<section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
-        <div class="container">
-            <div class="section-title text-center mb-4">
-                <h2>Duplex Stainless Steel S31803 Price per kg in India</h2>
-            </div>
-
-            <p class="text-center fs-5">
-                <strong>Typical Range:</strong> ₹350 – ₹650 per kg
-            </p>
-            <p class="text-center mb-2">
-                (Price depends on size, form, condition & order volume.)
-            </p>
-
-            <p class="text-center fs-5">
-                Request an exact quotation for accurate pricing.
-            </p>
-        </div>
-    </section>
---}}
-
-
-
-
-
-    <!--Start faq content area-->
-    <section id="faq" class="faq-content-area sec-padd2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="accordion-box">
-                        <div class="section-title center">
-                            <h2>FAQ's</h2>
-                        </div>
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn active">
-                                <h3>What makes Super Duplex 2205 superior to standard austenitic stainless steel?</h3>
-                            </div>
-                            <div class="accord-content collapsed">
-                                <p>It has twice the strength and significantly better resistance to chloride stress
-                                    corrosion cracking than standard austenitic grades like 304 or 316.</p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h3>Is Super Duplex 2205 weldable?</h3>
-                            </div>
-                            <div class="accord-content">
-                                <p>Yes, but proper control of heat input and post-weld treatment is essential to maintain
-                                    corrosion resistance and strength.</p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h3>Where is Super Duplex 2205 most commonly used?</h3>
-                            </div>
-                            <div class="accord-content">
-                                <p>In offshore oil & gas, desalination plants, chemical processing, and marine applications
-                                    where corrosion resistance and high strength are critical.</p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h3>Can Super Duplex 2205 be used in seawater environments?</h3>
-                            </div>
-                            <div class="accord-content">
-                                <p>Yes, it has excellent resistance to seawater corrosion and chloride-induced stress
-                                    corrosion cracking.</p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End faq content area-->
-
-
-    {{-- blog section start --}}
-    
-{{-- 
-<section class="blog-section sec-padd2">
-        <div class="container">
-            <div class="section-title">
-                <h2>blogs</h2>
-            </div>
-            <div class="row">
-                @foreach ($blogs as $blog)
-                    <!-- {{ dd($blog) }} -->
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="default-blog-news wow fadeInUp animated">
-
-                            <figure class="img-holder mb-0">
-                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                    <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}"
-                                        loading="lazy">
-                                </a>
-                                <figcaption class="overlay">
-                                    <div class="box">
-                                        <div class="content">
-                                            <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                                <i class="fa fa-link" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                            <div class="lower-content">
-                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                    <h5>{{ Str::limit($blog->title, 30) }}</h5>
-                                </a>
-
-                                <div class="post-meta">
-                                    by {{ $blog->author ?? 'Admin' }} |
-                                    {{ $blog->created_at->format('F d, Y') }}
-                                </div>
-
-                                <!--<div class="text">-->
-                                <!--</div>-->
-                                {!! \Str::limit(strip_tags($blog->content, '<i>'), 120) !!}
-
-                                <div class="link">
-                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}" class="default_link">
-                                        Read More <i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                @endforeach
-            </div>
-        </div>
-    </section>
---}}
-
-    {{-- blog section end --}}
-
-    <section id="contact us" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="contact-cta-box">
-                <h2>Contact Us</h2>
-                <p>
-                    For inquiries, pricing, or customized Super Duplex Stainless Steel 2205 solutions, <strong>Moksh Tubes &
-                        Fittings
-                        LLP</strong> your reliable partner in Super Duplex Stainless Steel 2205.</p>
-                <!-- Call button -->
-                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
-                    data-bs-target="#contactFormModal">
-                    Get in Touch
-                </a>
-            </div>
-        </div>
-    </section>
-
+{{-- blog section end --}}
 
 @endsection
 @section('jsscripts')

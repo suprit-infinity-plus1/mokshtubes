@@ -512,23 +512,6 @@
                 </div>
             </div>
 
-            <!-- Horizontal Styled Product List -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                        <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
-                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
-                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!-- Emphasized Line -->
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">

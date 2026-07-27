@@ -9,9 +9,7 @@
     asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tungsten.webp'))
 @section('og_type', 'article')
 @section('content')
-
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area"
+<section class="breadcrumb-area"
         style="background-image: url(/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tungsten.webp);">
         <div class="container">
             <div class="row justify-content-center">
@@ -30,7 +28,7 @@
         </div>
     </section>
 
- <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+<div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specification">Specifications</a> |
@@ -43,8 +41,7 @@
         </div>
     </div>
 
-    <!--End breadcrumb area-->
-    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -87,8 +84,7 @@
         </div>
     </section>
 
-      {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
+<section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Hard To Find Special Alloy Tungsten  Datasheet</h3>
             <p class="mb-3">
@@ -129,12 +125,319 @@
             </p>
         </div>
     </section>
-    <!-- End Datasheet -->
 
+<section class="sec-padd-top" id="specification">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Specifications of Tungsten Alloy (UNS R60702)</h2>
+            </div>
 
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>Tungsten Alloy / UNS R60702</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>Commercially Pure Tungsten</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM B551, B523, B658, B493, B550</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Forms</td>
+                                    <td>Pipes, Tubes, Sheets, Plates, Rods, Wire, Fittings, Flanges, Fasteners</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Chemical Analysis, PMI, Tensile, Hardness</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+<section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Tungsten Alloy (UNS R60702)</h2>
+            </div>
 
-        @php
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Element</th>
+                                    <th>Max. Composition (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Tungsten (Zr)</td>
+                                    <td>≥ 99.2 (Balance)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hafnium (Hf)</td>
+                                    <td>≤ 4.5</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Iron + Chromium</td>
+                                    <td>≤ 0.2</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nitrogen (N)</td>
+                                    <td>≤ 0.025</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hydrogen (H)</td>
+                                    <td>≤ 0.005</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Oxygen (O)</td>
+                                    <td>≤ 0.16</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon (C)</td>
+                                    <td>≤ 0.05</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Niobium (Nb)</td>
+                                    <td>≤ 0.01</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="mt-3 text-center">
+                            Tungsten Alloy achieves exceptional corrosion resistance due to ultra-low interstitial impurities
+                            (O, N, H, C).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{{-- 
+<section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">Technical Composition of Tungsten Alloy</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                     <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Tungsten Alloy
+                    </h3>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Imperial</th>
+                                    <th>Metric</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Density</td>
+                                    <td>0.235 lb/in³</td>
+                                    <td>6.51 g/cm³</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Melting Point</td>
+                                    <td>3370 °F</td>
+                                    <td>1852 °C</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Elastic Modulus</td>
+                                    <td>14.4 ×10³ ksi</td>
+                                    <td>99.3 GPa</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Shear Modulus</td>
+                                    <td>5.25 ×10³ ksi</td>
+                                    <td>36.2 GPa</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Poisson’s Ratio</td>
+                                    <td>0.34</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Properties</td>
+                                    <td>Non-magnetic</td>
+                                    <td>Non-magnetic</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of Tungsten Alloy
+                    </h4>
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Stress Relieving</td>
+                                    <td>540 – 650 °C</td>
+                                    <td>Reduce residual stresses</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Annealing</td>
+                                    <td>700 – 900 °C</td>
+                                    <td>Restore ductility & corrosion resistance</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Vacuum Annealing</td>
+                                    <td>—</td>
+                                    <td>Semiconductor-grade purity</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Recrystallization Annealing</td>
+                                    <td>850 – 950 °C</td>
+                                    <td>Restore properties after heavy cold work</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="mt-3 text-center">
+                            📌 Inert gas shielding (argon or helium) is mandatory during heat treatment to prevent oxygen,
+                            nitrogen, and hydrogen contamination.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+--}}
+
+<section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Tungsten Alloy (Annealed)
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Temperature</th>
+                            <th>Tensile Strength (MPa)</th>
+                            <th>Yield Strength (MPa)</th>
+                            <th>Hardness (BHN)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>25 °C (80 °F)</td>
+                            <td>379</td>
+                            <td>207</td>
+                            <td>145</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>425 °C (800 °F)</td>
+                            <td>~207</td>
+                            <td>~124</td>
+                            <td>~100</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>540 °C (1000 °F)</td>
+                            <td>~172</td>
+                            <td>~103</td>
+                            <td>~90</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>650 °C (1200 °F)</td>
+                            <td>~138</td>
+                            <td>~83</td>
+                            <td>~85</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>705 °C (1300 °F)</td>
+                            <td>~124</td>
+                            <td>~69</td>
+                            <td>~80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>760 °C (1400 °F)</td>
+                            <td>~117</td>
+                            <td>~62</td>
+                            <td>~75</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – Tungsten Alloy</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <p class="text-center mb-3">
+                        We supply Tungsten Alloy in the following product forms:
+                    </p>
+                    <ul class="list-unstyled text-center">
+                        <li>✔ Seamless & Welded Pipes</li>
+                        <li>✔ Capillary & Boiler Tubes</li>
+                        <li>✔ Sheets, Plates & Coils</li>
+                        <li>✔ Strips & Foils</li>
+                        <li>✔ Round / Flat / Hex Bars</li>
+                        <li>✔ Wire & Welding Rods</li>
+                        <li>✔ Pipe Fittings & Flanges (All ASME Types)</li>
+                        <li>✔ Fasteners & CNC-Machined Components</li>
+                    </ul>
+                    <p class="text-center mt-3">
+                        All materials comply with ASTM B551 / B523 / B658 / B493 / B550.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+--}}
+
+@php
         $products = [
             [
                 'name' => 'Pipes',
@@ -174,7 +477,7 @@
         ];
     @endphp
 
-    <section id="products" class="sec-padd-top sec-padd-bottom">
+<section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Tungsten</h2>
@@ -185,23 +488,6 @@
                     <p class="fs-6">
                         <strong class="text-dark">Tungsten</strong> is commonly supplied as:
                     </p>
-                </div>
-            </div>
-
-            <!-- Horizontal Styled Product List -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                        <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
-                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
-                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -230,8 +516,7 @@
         </div>
     </section>
 
-
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -276,8 +561,7 @@
         </div>
     </section>
 
-
-    <section id="applications" class="sec-padd-top sec-padd-bottom">
+<section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Tungsten</h2>
@@ -324,8 +608,7 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+<section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
@@ -366,7 +649,6 @@
         </div>
     </section>
 
-     
 {{-- 
 <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
@@ -388,9 +670,7 @@
     </section>
 --}}
 
-
-    <!--Start faq content area-->
-    <section id="faq" class="faq-content-area sec-padd2">
+<section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -474,10 +754,7 @@
             </div>
         </div>
     </section>
-    <!--End faq content area-->
 
-     {{-- blog section start --}}
-      
 {{-- 
 <section class="blog-section sec-padd2">
         <div class="container">
@@ -534,10 +811,7 @@
     </section>
 --}}
 
-    {{-- blog section end --}}
-
-
-    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
+<section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
@@ -554,9 +828,12 @@
         </div>
     </section>
 
+    <!-- Extra Sections (Commented Out) -->
+{{-- datasheet --}}
 
+{{-- blog section start --}}
 
-
+{{-- blog section end --}}
 
 @endsection
 @section('jsscripts')

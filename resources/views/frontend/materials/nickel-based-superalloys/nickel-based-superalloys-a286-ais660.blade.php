@@ -10,8 +10,7 @@
 @section('og_image', asset('assets/images/nickel-based-superalloys/nickel-based-superalloys-A286_AIS660.webp'))
 @section('og_type', 'article')
 @section('content')
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area"
+<section class="breadcrumb-area"
         style="background-image: url(/assets/images/nickel-based-superalloys/nickel-based-superalloys-A286_AIS660.webp);">
         <div class="container">
             <div class="row justify-content-center">
@@ -32,9 +31,7 @@
         </div>
     </section>
 
-    </section>
-
-    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+<div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specification">Specifications</a> |
@@ -47,8 +44,7 @@
         </div>
     </div>
 
-    <!--End breadcrumb area-->
-    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -92,8 +88,7 @@
         </div>
     </section>
 
-    {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
+<section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Nickel Based Superalloys A286 Datasheet</h3>
             <p class="mb-3">
@@ -134,10 +129,8 @@
             </p>
         </div>
     </section>
-    <!-- End Datasheet Download Section -->
 
-    <!-- Specifications Section -->
-    <section class="sec-padd-top" id="specification">
+<section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
                 <h2>Duplex Stainless Steel S31803 Specifications</h2>
@@ -194,7 +187,7 @@
         </div> <!-- container -->
     </section>
 
-    <section id="composition" class="sec-padd-top sec-padd-bottom">
+<section id="composition" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition of Alloy A286</h2>
@@ -274,7 +267,6 @@
         </div>
     </section>
 
-    
 {{-- 
 <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -395,8 +387,67 @@
     </section>
 --}}
 
+<section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Nickel A286 (Annealed)
+                </h2>
+            </div>
 
-    
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Temperature</th>
+                            <th>Tensile Strength (MPa)</th>
+                            <th>Yield Strength (MPa)</th>
+                            <th>Hardness (BHN)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>25 °C (80 °F)</td>
+                            <td>379</td>
+                            <td>207</td>
+                            <td>145</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>425 °C (800 °F)</td>
+                            <td>~207</td>
+                            <td>~124</td>
+                            <td>~100</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>540 °C (1000 °F)</td>
+                            <td>~172</td>
+                            <td>~103</td>
+                            <td>~90</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>650 °C (1200 °F)</td>
+                            <td>~138</td>
+                            <td>~83</td>
+                            <td>~85</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>705 °C (1300 °F)</td>
+                            <td>~124</td>
+                            <td>~69</td>
+                            <td>~80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>760 °C (1400 °F)</td>
+                            <td>~117</td>
+                            <td>~62</td>
+                            <td>~75</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
@@ -442,55 +493,7 @@
     </section>
 --}}
 
-
-    <!-- Standards & Equivalent Grades Section -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom" id="international">
-        <div class="container">
-            <div class="section-title center">
-                <h2>International Standards & Equivalent Grades</h2>
-            </div>
-
-            <div class="table-responsive col-lg-8 mx-auto">
-                <table class="table table-bordered table-striped align-middle">
-                    <thead class="table-dark text-center">
-                        <tr class="t-row">
-                            <th>Form</th>
-                            <th>Standards</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>Bars &amp; Rods</td>
-                            <td>ASTM A638, A484, AMS 5731 / 5732 / 5737</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Plates / Sheets / Strips</td>
-                            <td>ASTM A693, AMS 5525</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Pipes &amp; Tubes</td>
-                            <td>ASTM B468, AMS 5734</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Fasteners</td>
-                            <td>ASTM A453 Grade 660 A / B / C / D</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Other Forms</td>
-                            <td>ASME SA638, EN 10269</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
---}}
-
-    <!-- End Standards & Equivalent Grades Section -->
-
-        @php
+@php
         $products = [
             [
                 'name' => 'Pipes',
@@ -530,7 +533,7 @@
         ];
     @endphp
 
-    <section id="products" class="sec-padd-top sec-padd-bottom">
+<section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Nickel A286 / AISI 660</h2>
@@ -544,23 +547,6 @@
                         high-stress environments where other alloys fail. It maintains excellent corrosion resistance, good
                         formability, and superior long-term stability in oxidizing conditions.
                     </p>
-                </div>
-            </div>
-
-            <!-- Horizontal Styled Product List -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                        <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
-                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
-                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -590,8 +576,7 @@
         </div>
     </section>
 
-
-    <section id="price" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -601,49 +586,49 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>High tensile and creep rupture strength at elevated temperatures</h5>
+                        <h5>Excellent Corrosion Resistance in acids like hydrochloric, sulfuric, nitric, and organic acids
+                        </h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Excellent oxidation and corrosion resistance in high-heat environments</h5>
+                        <h5>Good Strength and Toughness at room and elevated temperatures</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Superior fabricability and weldability</h5>
+                        <h5>Easily Weldable and Formable—supports complex fabrication</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Maintains strength over long service periods</h5>
+                        <h5>Low Reactivity with Process Media—ideal for sensitive applications</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Non-magnetic after heat treatment</h5>
+                        <h5>Non-toxic and Biocompatible—used in medical and high-purity chemical systems</h5>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
+                {{-- <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Readily available in both annealed and age-hardened forms</h5>
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Economical compared to other titanium grades with higher alloy content</h5>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
 
-
-    <section id="applications" class="sec-padd-top sec-padd-bottom">
+<section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Nickel Alloy A286</h2>
@@ -693,8 +678,7 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+<section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
@@ -735,8 +719,60 @@
         </div>
     </section>
 
-    <!--Start faq content area-->
-    <section id="faq" class="faq-content-area sec-padd2">
+{-- 
+<section id="price" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Uses and Advantages</h2>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>High tensile and creep rupture strength at elevated temperatures</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h5>Excellent oxidation and corrosion resistance in high-heat environments</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h5>Superior fabricability and weldability</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h5>Maintains strength over long service periods</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                        <h5>Non-magnetic after heat treatment</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                        <h5>Readily available in both annealed and age-hardened forms</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ --}
+
+<section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -831,10 +867,7 @@
             </div>
         </div>
     </section>
-    <!--End faq content area-->
 
-     {{-- blog section start --}}
-      
 {{-- 
 <section class="blog-section sec-padd2">
         <div class="container">
@@ -891,9 +924,7 @@
     </section>
 --}}
 
-    {{-- blog section end --}}
-
-    <section  id="contact us"  class="sec-padd-top sec-padd-bottom">
+<section id="contact-us"  id="contact us"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
@@ -909,9 +940,55 @@
         </div>
     </section>
 
+    <!-- Extra Sections (Commented Out) -->
+{{-- datasheet --}}
 
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
 
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Form</th>
+                            <th>Standards</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>Bars &amp; Rods</td>
+                            <td>ASTM A638, A484, AMS 5731 / 5732 / 5737</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Plates / Sheets / Strips</td>
+                            <td>ASTM A693, AMS 5525</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Pipes &amp; Tubes</td>
+                            <td>ASTM B468, AMS 5734</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Fasteners</td>
+                            <td>ASTM A453 Grade 660 A / B / C / D</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Other Forms</td>
+                            <td>ASME SA638, EN 10269</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+--}}
 
+{{-- blog section start --}}
+
+{{-- blog section end --}}
 
 @endsection
 @section('jsscripts')

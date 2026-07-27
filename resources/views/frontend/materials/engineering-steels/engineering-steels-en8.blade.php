@@ -11,9 +11,7 @@
 @section('og_type', 'article')
 
 @section('content')
-
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area"
+<section class="breadcrumb-area"
         style="background-image: url(/assets/images/engineering-steels/engineering-steels-en8.webp);">
         <div class="container">
             <div class="row justify-content-center">
@@ -33,10 +31,8 @@
             </div>
         </div>
     </section>
-    <!--End breadcrumb area-->
 
-    .
-    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+<div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specification">Specifications</a> |
@@ -49,66 +45,49 @@
         </div>
     </div>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+<section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Overview of EN8 / 080M40 / AISI 1040 Steel</h2>
+                <h2>Product Overview</h2>
             </div>
 
-            <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Engineering Steel 8 / 080M40 / AISI 1040
-            </h3>
+            <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
+                Introduction To EN8 Steel – Chemical Composition, Properties, and Applications / UNS R60702
+            </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-en8.webp') }}"
-                        alt="EN8 steel bars and tubes - Moksh Tubes India" loading="lazy"
-                        class="img-fluid rounded shadow-sm">
-
+                    <img src="{{ asset('assets/images/zirconium/zirconium-702.webp') }}" alt="EN8 Steel – Chemical Composition, Properties, and Applications"
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
-                        <p class="fs-6 text-justify" style="text-align: justify;">
-                            <strong class="text-black">
-                                <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a>
-                            </strong> is a trusted manufacturer, exporter, and stockist of
-                            <strong class="text-black">EN8 Steel products</strong>, including
-                            Pipes, <a href="{{ route('products.pipes-tubes') }}">Tubes</a>, Round Bars, Flats, Squares,
-                            Forged Bars, Shafts, Sheets, Plates, Pipe Fittings, and Custom Machined Components.
+                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> proudly manufactures, supplies,
+                            exports, imports, and stocks a wide range of<strong class="text-black"> EN8 Steel – Chemical Composition, Properties, and Applications (UNS
+                                R60702) <a href="{{ route('products') }}">products</a></strong>. Our offerings
+                            include Pipes & Tubes, Fittings, Flanges, Fasteners, Sheets, Plates, Coils, Wires, Bars, Welding
+                            Rods, and Custom-Engineered Components—all tailored to meet the needs of demanding industries.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">EN8</strong> is a medium carbon steel grade
-                            (approximately 0.40% carbon) known for its high tensile strength and good machinability.
-                            It is widely used in engineering applications that require better mechanical properties than
-                            mild steel.
+                            <strong class="text-black"><a href="{{ route('materials.zirconium') }}">EN8
+                                    702</a></strong class="text-black"> is a commercially pure
+                            zirconium alloy known for its exceptional corrosion resistance, particularly in aggressive
+                            chemical environments like strong acids and alkalis. With excellent weldability, ductility, and
+                            mechanical strength, it’s a go-to material for applications that require purity, performance,
+                            and longevity.
                         </p>
-
-                        <p class="fs-6" style="text-align: justify;">
-                            EN8 offers moderate wear resistance and excellent toughness, making it ideal for manufacturing
-                            shafts, axles, gears, bolts, studs,
-                            automotive parts, and other general-purpose
-                            <a href="{{ route('materials.engineering-Steels') }}">engineering</a> components.
-                        </p>
-
-                        <p class="fs-6" style="text-align: justify;">
-                            Also known as <strong>080M40</strong> or <strong>AISI 1040</strong>, EN8 steel provides a
-                            reliable balance of strength, hardness, and machinability,
-                            making it one of the most popular choices among medium carbon steel grades.
-                        </p>
-
                     </div>
                 </div>
-
             </div>
-        </div>
         </div>
     </section>
 
-    <section class="sec-padd-bottom bg-light">
+<section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h2 class="mb-3" style="color:#174268;">Download EN8 Steel Datasheet</h2>
             <p class="mb-3">
@@ -150,8 +129,7 @@
         </div>
     </section>
 
-    <!-- Specifications Section -->
-    <section class="sec-padd-top" id="specification">
+<section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
                 <h2>Engineering Steel EN8 Specifications</h2>
@@ -204,8 +182,7 @@
         </div>
     </section>
 
-    <!-- Chemical Composition -->
-    <section id="composition" class="sec-padd-top sec-padd-bottom">
+<section id="composition" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition of EN8 Steel</h2>
@@ -259,8 +236,6 @@
         </div>
     </section>
 
-    <!-- Physical Properties -->
-    
 {{-- 
 <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -372,9 +347,7 @@
     </section>
 --}}
 
-
-    <!-- Mechanical Properties -->
-    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+<section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color:#174268;">
@@ -441,8 +414,6 @@
         </div>
     </section>
 
-    <!-- Available Forms -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
@@ -492,56 +463,7 @@
     </section>
 --}}
 
-
-    <!-- International Standards -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom" id="international">
-        <div class="container">
-            <div class="section-title center">
-                <h2>International Standards & Equivalent Grades of EN8 Steel</h2>
-            </div>
-
-            <div class="table-responsive col-lg-8 mx-auto">
-                <table class="table table-bordered table-striped align-middle">
-                    <thead class="table-dark text-center">
-                        <tr class="t-row">
-                            <th>Standard</th>
-                            <th>Equivalent Grade</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-center">
-                        <tr class="t-row">
-                            <td>EN</td>
-                            <td>EN 8</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>AISI / SAE</td>
-                            <td>C35 / 1040</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>DIN</td>
-                            <td>CK35</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>JIS</td>
-                            <td>S35C</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>GB</td>
-                            <td>35</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
---}}
-
-
-
-
-        @php
+@php
         $products = [
             [
                 'name' => 'Pipes',
@@ -581,7 +503,7 @@
         ];
     @endphp
 
-    <section id="products" class="sec-padd-top sec-padd-bottom">
+<section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Available Products in EN8 Steel</h2>
@@ -592,23 +514,6 @@
                     <p class="fs-6">
                         <strong class="text-dark">Engineering Steel 8</strong> is typically available in:
                     </p>
-                </div>
-            </div>
-
-            <!-- Horizontal Styled Product List -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                        <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
-                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
-                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -640,8 +545,7 @@
         </div>
     </section>
 
-
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages of EN8 Steel</h2>
@@ -679,8 +583,7 @@
         </div>
     </section>
 
-
-    <section id="applications" class="sec-padd-top sec-padd-bottom">
+<section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of EN8 Steel</h2>
@@ -731,11 +634,10 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+<section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
-                <h2>Why Choose Moksh Tubes?</h2>
+                <h2>WHY CHOOSE US?</h2>
             </div>
 
                         <div class="row g-4 mt-4">
@@ -773,7 +675,6 @@
         </div>
     </section>
 
-    
 {{-- 
 <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
@@ -795,9 +696,6 @@
     </section>
 --}}
 
-
-    <!--Start faq content area-->
-    
 {{-- 
 <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
@@ -907,11 +805,6 @@
     </section>
 --}}
 
-    <!--End faq content area-->
-
-
-    {{-- blog section start --}}
-    
 {{-- 
 <section class="blog-section sec-padd2">
         <div class="container">
@@ -968,10 +861,6 @@
     </section>
 --}}
 
-    {{-- blog section end --}}
-
-
-    
 {{-- 
 <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -990,6 +879,158 @@
         </div>
     </section>
 --}}
+
+    <!-- Extra Sections (Commented Out) -->
+{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Overview of EN8 / 080M40 / AISI 1040 Steel</h2>
+            </div>
+
+            <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
+                Introduction To Engineering Steel 8 / 080M40 / AISI 1040
+            </h3>
+
+            <div class="row align-items-center">
+                <!-- Image Left -->
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-en8.webp') }}"
+                        alt="EN8 steel bars and tubes - Moksh Tubes India" loading="lazy"
+                        class="img-fluid rounded shadow-sm">
+
+                </div>
+
+                <!-- Content Right -->
+                <div class="col-md-6">
+                    <div class="pe-md-3">
+                        <p class="fs-6 text-justify" style="text-align: justify;">
+                            <strong class="text-black">
+                                <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a>
+                            </strong> is a trusted manufacturer, exporter, and stockist of
+                            <strong class="text-black">EN8 Steel products</strong>, including
+                            Pipes, <a href="{{ route('products.pipes-tubes') }}">Tubes</a>, Round Bars, Flats, Squares,
+                            Forged Bars, Shafts, Sheets, Plates, Pipe Fittings, and Custom Machined Components.
+                        </p>
+
+                        <p class="fs-6" style="text-align: justify;">
+                            <strong class="text-black">EN8</strong> is a medium carbon steel grade
+                            (approximately 0.40% carbon) known for its high tensile strength and good machinability.
+                            It is widely used in engineering applications that require better mechanical properties than
+                            mild steel.
+                        </p>
+
+                        <p class="fs-6" style="text-align: justify;">
+                            EN8 offers moderate wear resistance and excellent toughness, making it ideal for manufacturing
+                            shafts, axles, gears, bolts, studs,
+                            automotive parts, and other general-purpose
+                            <a href="{{ route('materials.engineering-Steels') }}">engineering</a> components.
+                        </p>
+
+                        <p class="fs-6" style="text-align: justify;">
+                            Also known as <strong>080M40</strong> or <strong>AISI 1040</strong>, EN8 steel provides a
+                            reliable balance of strength, hardness, and machinability,
+                            making it one of the most popular choices among medium carbon steel grades.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+ --}
+
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades of EN8 Steel</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>EN 8</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AISI / SAE</td>
+                            <td>C35 / 1040</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>CK35</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>S35C</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>GB</td>
+                            <td>35</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+--}}
+
+{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container text-center">
+            <div class="section-title center">
+                <h2>Why Choose Moksh Tubes?</h2>
+            </div>
+
+                        <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+                        <h5>ISO Certified</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-file-earmark-check"></i></div>
+                        <h5>MTC 3.1</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+                        <h5>Fast Delivery</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>Worldwide Export</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-cash-coin"></i></div>
+                        <h5>Competitive Price</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ --}
+
+{{-- blog section start --}}
+
+{{-- blog section end --}}
 
 @endsection
 

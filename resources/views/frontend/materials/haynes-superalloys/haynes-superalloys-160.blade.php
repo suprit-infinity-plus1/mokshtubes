@@ -11,8 +11,7 @@
 @section('og_image', asset('assets/images/haynes/haynes-alloy-160.webp'))
 @section('og_type', 'article')
 @section('content')
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/haynes/haynes-alloy-160.webp);">
+<section class="breadcrumb-area" style="background-image: url(/assets/images/haynes/haynes-alloy-160.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -35,7 +34,7 @@
         </div>
     </section>
 
-    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+<div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specification">Specifications</a> |
@@ -47,8 +46,8 @@
             <a href="#contact-us">Contact Us</a>
         </div>
     </div>
-    <!--End breadcrumb area-->
-    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+
+<section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -90,9 +89,8 @@
             </div>
         </div>
     </section>
-    {{-- datasheet --}}
 
-    <section class="sec-padd-bottom bg-light">
+<section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Haynes Superalloys 160 Datasheet</h3>
             <p class="mb-3">
@@ -134,9 +132,7 @@
         </div>
     </section>
 
-
-    <!-- Specifications Section -->
-    <section class="sec-padd-top" id="specification">
+<section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
                 <h2>HAYNES 160® Specifications (UNS N07160 / Alloy 160)</h2>
@@ -189,8 +185,7 @@
         </div>
     </section>
 
-    <!-- Chemical Composition -->
-    <section id="composition" class="sec-padd-top sec-padd-bottom">
+<section id="composition" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition of HAYNES 160®</h2>
@@ -258,8 +253,6 @@
         </div>
     </section>
 
-    <!-- Physical Properties -->
-    
 {{-- 
 <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -358,9 +351,7 @@
     </section>
 --}}
 
-
-    <!-- Mechanical Properties -->
-    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+<section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color:#174268;">
@@ -421,8 +412,6 @@
         </div>
     </section>
 
-    <!-- Available Forms -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
@@ -476,60 +465,7 @@
     </section>
 --}}
 
-
-    <!-- International Standards -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom" id="international">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Equivalent Grades of HAYNES 160®</h2>
-            </div>
-
-            <div class="table-responsive col-lg-8 mx-auto">
-                <table class="table table-bordered table-striped align-middle">
-                    <thead class="table-dark text-center">
-                        <tr class="t-row">
-                            <th>Standard</th>
-                            <th>Equivalent Grade</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-center">
-                        <tr class="t-row">
-                            <td>UNS</td>
-                            <td>N07160</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>W.Nr.</td>
-                            <td>2.4060 (Reference)</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>ASTM</td>
-                            <td>B435, B572, B619, B622, B626</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>ASME</td>
-                            <td>SB435, SB572, SB619, SB622, SB626</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>ISO</td>
-                            <td>NiCrFe Alloy</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Trade Name</td>
-                            <td>Haynes® 160®</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
---}}
-
-
-
-
-        @php
+@php
         $products = [
             [
                 'name' => 'Pipes',
@@ -569,7 +505,7 @@
         ];
     @endphp
 
-    <section id="products" class="sec-padd-top sec-padd-bottom">
+<section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Haynes Superalloys 160</h2>
@@ -581,23 +517,6 @@
                         <strong class="text-dark">Haynes Superalloys 160</strong> is offered in numerous product forms
                         meeting ASTM, ASME, and other standards:
                     </p>
-                </div>
-            </div>
-
-            <!-- Horizontal Styled Product List -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                        <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
-                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
-                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -627,8 +546,7 @@
         </div>
     </section>
 
-
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -679,8 +597,7 @@
         </div>
     </section>
 
-
-    <section id="applications"  class="sec-padd-top sec-padd-bottom">
+<section id="applications"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Haynes Superalloys 160</h2>
@@ -730,8 +647,7 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+<section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
@@ -772,7 +688,6 @@
         </div>
     </section>
 
-    
 {{-- 
 <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
@@ -794,9 +709,7 @@
     </section>
 --}}
 
-
-    <!--Start faq content area-->
-    <section id="faq" class="faq-content-area sec-padd2">
+<section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -894,11 +807,7 @@
             </div>
         </div>
     </section>
-    <!--End faq content area-->
 
-
-    {{-- blog section start --}}
-    
 {{-- 
 <section class="blog-section sec-padd2">
         <div class="container">
@@ -955,10 +864,7 @@
     </section>
 --}}
 
-    {{-- blog section end --}}
-
-
-    <section  id="contact-us" class="sec-padd-top sec-padd-bottom">
+<section  id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
@@ -974,9 +880,59 @@
         </div>
     </section>
 
+    <!-- Extra Sections (Commented Out) -->
+{{-- datasheet --}}
 
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Equivalent Grades of HAYNES 160®</h2>
+            </div>
 
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N07160</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>W.Nr.</td>
+                            <td>2.4060 (Reference)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B435, B572, B619, B622, B626</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASME</td>
+                            <td>SB435, SB572, SB619, SB622, SB626</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>NiCrFe Alloy</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Trade Name</td>
+                            <td>Haynes® 160®</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+--}}
 
+{{-- blog section start --}}
+
+{{-- blog section end --}}
 
 @endsection
 @section('jsscripts')

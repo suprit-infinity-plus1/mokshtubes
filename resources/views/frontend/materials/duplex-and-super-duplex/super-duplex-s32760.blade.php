@@ -14,9 +14,7 @@
 @section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp'))
 @section('og_type', 'article')
 @section('content')
-
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.webp);">
+<section class="breadcrumb-area" style="background-image: url(images/background/3.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -34,8 +32,7 @@
         </div>
     </section>
 
-
-    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+<div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specification">Specifications</a> |
@@ -47,9 +44,8 @@
             <a href="#contact-us">Contact Us</a>
         </div>
     </div>
-    <!--End breadcrumb area-->
 
-    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Super Duplex S32760 | Product Overview</h2>
@@ -90,8 +86,7 @@
         </div>
     </section>
 
-    {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
+<section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Duplex S32760 Datasheet</h3>
             <p class="mb-3">
@@ -132,10 +127,8 @@
             </p>
         </div>
     </section>
-    {{-- end datasheet --}}
 
-    <!-- Specifications Section -->
-    <section class="sec-padd-top" id="specification">
+<section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
                 <h2>Duplex Stainless Steel S31803 Specifications</h2>
@@ -181,7 +174,7 @@
         </div> <!-- container -->
     </section>
 
-    <section id="composition" class="sec-padd-top sec-padd-bottom">
+<section id="composition" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition of Super Duplex S32760</h2>
@@ -249,7 +242,6 @@
         </div>
     </section>
 
-    
 {{-- 
 <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -348,8 +340,7 @@
     </section>
 --}}
 
-
-    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+<section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of Super Duplex Stainless Steel S32760
@@ -405,7 +396,6 @@
         </div>
     </section>
 
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
@@ -444,58 +434,7 @@
     </section>
 --}}
 
-
-    <!-- Standards & Equivalent Grades Section -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom" id="international">
-        <div class="container">
-            <div class="section-title center">
-                <h2>International Standards & Equivalent Grades</h2>
-            </div>
-            <div class="table-responsive col-lg-8 mx-auto">
-                <table class="table table-bordered table-striped align-middle">
-                    <thead class="table-dark text-center">
-                        <tr class="t-row">
-                            <th>Standard</th>
-                            <th>Equivalent</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>UNS</td>
-                            <td>S32760</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>EN / DIN</td>
-                            <td>1.4501</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>ASTM</td>
-                            <td>A182 F55, A240, A276, A479, A789, A790</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>ASME</td>
-                            <td>SA182 F55, SA240, SA789, SA790</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>ISO</td>
-                            <td>17784</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>NACE</td>
-                            <td>MR0175 / ISO 15156 (H₂S service)</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
---}}
-
-    <!-- End Standards & Equivalent Grades Section -->
-
-        @php
+@php
         $products = [
             [
                 'name' => 'Pipes',
@@ -535,7 +474,7 @@
         ];
     @endphp
 
-    <section id="products" class="sec-padd-top sec-padd-bottom">
+<section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Super Duplex Stainless Steel S32760</h2>
@@ -591,7 +530,7 @@
         </div>
     </section>
 
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -637,7 +576,7 @@
         </div>
     </section>
 
-    <section id="applications"  class="sec-padd-top sec-padd-bottom">
+<section id="applications"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Super Duplex Stainless Steel S32760</h2>
@@ -686,7 +625,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+<section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
@@ -727,8 +666,6 @@
         </div>
     </section>
 
-
-     
 {{-- 
 <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
@@ -750,10 +687,7 @@
     </section>
 --}}
 
-
-
-
-    <section id="faq" class="faq-content-area sec-padd2">
+<section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -808,9 +742,6 @@
         </div>
     </section>
 
-    
-    {{-- blog section start --}}
-      
 {{-- 
 <section class="blog-section sec-padd2">
         <div class="container">
@@ -867,9 +798,7 @@
     </section>
 --}}
 
-    {{-- blog section end --}}
-
-    <section id="contact us" class="sec-padd-top sec-padd-bottom">
+<section id="contact-us" id="contact us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
@@ -885,5 +814,60 @@
             </div>
         </div>
     </section>
+
+    <!-- Extra Sections (Commented Out) -->
+{{-- datasheet --}}
+
+{{-- end datasheet --}}
+
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>S32760</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN / DIN</td>
+                            <td>1.4501</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>A182 F55, A240, A276, A479, A789, A790</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASME</td>
+                            <td>SA182 F55, SA240, SA789, SA790</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>17784</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>NACE</td>
+                            <td>MR0175 / ISO 15156 (H₂S service)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+--}}
+
+{{-- blog section start --}}
+
+{{-- blog section end --}}
 
 @endsection

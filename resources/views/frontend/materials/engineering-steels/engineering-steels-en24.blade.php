@@ -10,9 +10,7 @@
 @section('og_type', 'article')
 
 @section('content')
-
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area"
+<section class="breadcrumb-area"
         style="background-image: url(/assets/images/engineering-steels/engineering-steels-en24.webp);">
         <div class="container">
             <div class="row justify-content-center">
@@ -35,10 +33,8 @@
             </div>
         </div>
     </section>
-    <!--End breadcrumb area-->
 
-    .
-    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+<div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specification">Specifications</a> |
@@ -51,8 +47,7 @@
         </div>
     </div>
 
-
-    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -115,29 +110,7 @@
         </div>
     </section>
 
-    <!-- ================= WHY CHOOSE ================= -->
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Why Choose EN24 Engineering Steel?</h2>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-justify" style="text-align: justify;">
-                    <p class="fs-6 mb-3">
-                        EN24 is a high-strength nickel chromium molybdenum alloy steel designed for applications that demand exceptional toughness, wear resistance, and fatigue strength. It is widely used in industries where components operate under heavy loads, repeated stress, and high-impact conditions.
-                    </p>
-                    <p class="fs-6 mb-3">
-                        Compared to standard carbon steels, EN24 offers superior hardenability and mechanical performance after heat treatment. Its excellent strength-to-weight ratio and long service life make it a preferred choice for manufacturing critical components such as gears, shafts, axles, crankshafts, bolts, and heavy-duty machine parts.
-                    </p>
-                    <p class="fs-6 mb-3">
-                        Whether you are manufacturing industrial equipment, mining machinery, automotive components, or aerospace parts, EN24 delivers reliable performance even in demanding operating environments.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="sec-padd-bottom bg-light">
+<section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Engineering Steels 24 Datasheet</h3>
             <p class="mb-3">
@@ -179,8 +152,7 @@
         </div>
     </section>
 
-    <!-- Specifications Section -->
-    <section class="sec-padd-top" id="specification">
+<section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
                 <h2>Engineering Steel EN24 Specifications</h2>
@@ -234,8 +206,7 @@
         </div>
     </section>
 
-    <!-- Chemical Composition -->
-    <section id="composition" class="sec-padd-top sec-padd-bottom">
+<section id="composition" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition of EN24 / AISI 4340 Steel</h2>
@@ -297,8 +268,6 @@
         </div>
     </section>
 
-    <!-- Physical Properties -->
-    
 {{-- 
 <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -415,70 +384,7 @@
     </section>
 --}}
 
-
-    <!-- ================= EQUIVALENT GRADES ================= -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom" id="international">
-        <div class="container">
-            <div class="section-title center">
-                <h2>EN24 Equivalent Grades</h2>
-            </div>
-            <div class="row justify-content-center mb-4">
-                <div class="col-lg-10">
-                    <p class="fs-6 text-center">
-                        EN24 is manufactured according to British Standards and has several internationally recognised equivalent grades. Although these materials have similar mechanical properties, the exact chemical composition may vary depending on the applicable standard.
-                    </p>
-                </div>
-            </div>
-
-            <div class="table-responsive col-lg-8 mx-auto mb-4">
-                <table class="table table-bordered table-striped align-middle">
-                    <thead class="table-dark text-center">
-                        <tr class="t-row">
-                            <th>Standard</th>
-                            <th>Equivalent Grade</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-center">
-                        <tr class="t-row">
-                            <td>British Standard</td>
-                            <td>EN24 / 817M40</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>AISI / SAE</td>
-                            <td>4340</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>DIN</td>
-                            <td>34CrNiMo6</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>UNS</td>
-                            <td>G43400</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>ISO</td>
-                            <td>34CrNiMo6</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <p class="fs-6 mt-2 text-center text-muted">
-                        <em>Note: Always verify the material specification before substituting equivalent grades in critical engineering applications.</em>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
---}}
-
-
-    <!-- Mechanical Properties -->
-    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+<section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color:#174268;">
@@ -544,90 +450,6 @@
         </div>
     </section>
 
-    <!-- ================= KEY FEATURES ================= -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Key Features of EN24 Steel</h2>
-            </div>
-            <div class="row justify-content-center mb-4">
-                <div class="col-lg-10">
-                    <p class="fs-6 text-center">
-                        EN24 is one of the most versatile engineering steels available for high-performance applications. Its alloy composition provides an excellent combination of strength, toughness, and durability.
-                    </p>
-                </div>
-            </div>
-            <div class="row g-4 mt-2 justify-content-center">
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>High tensile strength</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
-                        <h5>Excellent fatigue resistance</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                        <h5>Outstanding impact toughness</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-half"></i></div>
-                        <h5>Deep hardening capability</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
-                        <h5>Good wear resistance</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-gear"></i></div>
-                        <h5>Excellent machinability in the annealed condition</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-fire"></i></div>
-                        <h5>Suitable for heat treatment</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
-                        <h5>Long service life under heavy loads</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Reliable dimensional stability</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-box-seam"></i></div>
-                        <h5>Ideal for critical engineering components</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
---}}
-
-
-    <!-- Available Forms -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
@@ -677,10 +499,7 @@
     </section>
 --}}
 
-
-
-
-        @php
+@php
         $products = [
             [
                 'name' => 'Pipes',
@@ -720,7 +539,7 @@
         ];
     @endphp
 
-    <section id="products" class="sec-padd-top sec-padd-bottom">
+<section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Engineering Steel 24</h2>
@@ -731,23 +550,6 @@
                     <p class="fs-6">
                         <strong class="text-dark">Engineering Steel 24</strong> is typically available in:
                     </p>
-                </div>
-            </div>
-
-            <!-- Horizontal Styled Product List -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                        <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
-                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
-                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -777,8 +579,59 @@
         </div>
     </section>
 
+<section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Uses and Advantages</h2>
+            </div>
 
-    <section id="applications" class="sec-padd-top sec-padd-bottom">
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Excellent Corrosion Resistance in acids like hydrochloric, sulfuric, nitric, and organic acids
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h5>Good Strength and Toughness at room and elevated temperatures</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h5>Easily Weldable and Formable—supports complex fabrication</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h5>Low Reactivity with Process Media—ideal for sensitive applications</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                        <h5>Non-toxic and Biocompatible—used in medical and high-purity chemical systems</h5>
+                    </div>
+                </div>
+                {{-- <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Economical compared to other titanium grades with higher alloy content</h5>
+                    </div>
+                </div> --}}
+            </div>
+        </div>
+    </section>
+
+<section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Engineering Steel 24</h2>
@@ -827,190 +680,7 @@
         </div>
     </section>
 
-    <!-- ================= ADVANTAGES ================= -->
-    
-{{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Advantages of EN24 Steel</h2>
-            </div>
-            <div class="row justify-content-center mb-4">
-                <div class="col-lg-10">
-                    <p class="fs-6 text-center">
-                        EN24 is widely selected for demanding engineering projects because it provides exceptional mechanical performance and long-term reliability.
-                    </p>
-                </div>
-            </div>
-            <div class="row g-4 mt-2 justify-content-center">
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Excellent strength-to-weight ratio</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
-                        <h5>Superior fatigue resistance</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
-                        <h5>Outstanding toughness</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-gear"></i></div>
-                        <h5>Excellent wear resistance</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-half"></i></div>
-                        <h5>Deep hardening capability</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                        <h5>High impact strength</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                        <h5>Good machinability before heat treatment</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
-                        <h5>Long service life</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-building"></i></div>
-                        <h5>Suitable for heavy-duty engineering</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-arrow-repeat"></i></div>
-                        <h5>Performs well under cyclic loading</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
---}}
-
-
-    <!-- ================= LIMITATIONS ================= -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Limitations of EN24 Steel</h2>
-            </div>
-            <div class="row justify-content-center mb-4">
-                <div class="col-lg-10">
-                    <p class="fs-6 text-center">
-                        Although EN24 offers excellent mechanical performance, it may not be the ideal choice for every application.
-                    </p>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <ul class="list-unstyled">
-                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Higher cost than medium carbon steels</span></li>
-                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Requires controlled heat treatment</span></li>
-                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">More difficult to weld than low-carbon steels</span></li>
-                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Protective coating is recommended in corrosive environments</span></li>
-                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Machining becomes more difficult after hardening</span></li>
-                    </ul>
-                    <p class="fs-6 mt-4 fw-bold text-center" style="color: #174268;">
-                        Selecting the correct material should always be based on operating conditions, mechanical requirements, and budget.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
---}}
-
-
-    <!-- ================= INDUSTRIES ================= -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Why Industries Choose EN24 Steel</h2>
-            </div>
-            <div class="row justify-content-center mb-4">
-                <div class="col-lg-10">
-                    <p class="fs-6 text-center">
-                        EN24 is trusted across a wide range of industries because it combines high strength with exceptional toughness and fatigue resistance. It performs reliably in applications where components are subjected to continuous loading, vibration, and impact.
-                    </p>
-                </div>
-            </div>
-            
-            <div class="row justify-content-center mb-4">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                        <div class="row">
-                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
-                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Aerospace
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
-                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Automotive
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
-                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Defence
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
-                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Mining
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
-                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Oil & Gas
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
-                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Heavy Engineering
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
-                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Power Generation
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
-                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Marine
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
-                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Construction Equipment
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
-                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Industrial Machinery
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <p class="fs-6 mt-2 text-center fw-bold" style="color: #174268;">
-                        Its ability to maintain mechanical properties under demanding conditions makes EN24 one of the most widely used alloy steels for critical engineering applications.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
---}}
-
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
@@ -1051,7 +721,6 @@
         </div>
     </section>
 
-    
 {{-- 
 <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
@@ -1073,9 +742,7 @@
     </section>
 --}}
 
-
-    <!--Start faq content area-->
-    <section id="faq" class="faq-content-area sec-padd2">
+<section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -1209,11 +876,7 @@
             </div>
         </div>
     </section>
-    <!--End faq content area-->
 
-
-    {{-- blog section start --}}
-    
 {{-- 
 <section class="blog-section sec-padd2">
         <div class="container">
@@ -1270,10 +933,362 @@
     </section>
 --}}
 
-    {{-- blog section end --}}
+<section id="contact-us" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>
+                    Get in touch with <strong> Moksh Tubes & Fittings LLP
+                    </strong> — Your Trusted Source for EN24 Alloy Steel Products
+                </p>
+                <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
 
-    <!-- ================= SUPPLIER ================= -->
-    
+    <!-- Extra Sections (Commented Out) -->
+{-- 
+<section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Why Choose EN24 Engineering Steel?</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-justify" style="text-align: justify;">
+                    <p class="fs-6 mb-3">
+                        EN24 is a high-strength nickel chromium molybdenum alloy steel designed for applications that demand exceptional toughness, wear resistance, and fatigue strength. It is widely used in industries where components operate under heavy loads, repeated stress, and high-impact conditions.
+                    </p>
+                    <p class="fs-6 mb-3">
+                        Compared to standard carbon steels, EN24 offers superior hardenability and mechanical performance after heat treatment. Its excellent strength-to-weight ratio and long service life make it a preferred choice for manufacturing critical components such as gears, shafts, axles, crankshafts, bolts, and heavy-duty machine parts.
+                    </p>
+                    <p class="fs-6 mb-3">
+                        Whether you are manufacturing industrial equipment, mining machinery, automotive components, or aerospace parts, EN24 delivers reliable performance even in demanding operating environments.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+ --}
+
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>EN24 Equivalent Grades</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        EN24 is manufactured according to British Standards and has several internationally recognised equivalent grades. Although these materials have similar mechanical properties, the exact chemical composition may vary depending on the applicable standard.
+                    </p>
+                </div>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto mb-4">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>British Standard</td>
+                            <td>EN24 / 817M40</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AISI / SAE</td>
+                            <td>4340</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>34CrNiMo6</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>G43400</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>34CrNiMo6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <p class="fs-6 mt-2 text-center text-muted">
+                        <em>Note: Always verify the material specification before substituting equivalent grades in critical engineering applications.</em>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+--}}
+
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Key Features of EN24 Steel</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        EN24 is one of the most versatile engineering steels available for high-performance applications. Its alloy composition provides an excellent combination of strength, toughness, and durability.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4 mt-2 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>High tensile strength</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                        <h5>Excellent fatigue resistance</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                        <h5>Outstanding impact toughness</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-half"></i></div>
+                        <h5>Deep hardening capability</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                        <h5>Good wear resistance</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-gear"></i></div>
+                        <h5>Excellent machinability in the annealed condition</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-fire"></i></div>
+                        <h5>Suitable for heat treatment</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h5>Long service life under heavy loads</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                        <h5>Reliable dimensional stability</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-box-seam"></i></div>
+                        <h5>Ideal for critical engineering components</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+--}}
+
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Advantages of EN24 Steel</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        EN24 is widely selected for demanding engineering projects because it provides exceptional mechanical performance and long-term reliability.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4 mt-2 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Excellent strength-to-weight ratio</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                        <h5>Superior fatigue resistance</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                        <h5>Outstanding toughness</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-gear"></i></div>
+                        <h5>Excellent wear resistance</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-half"></i></div>
+                        <h5>Deep hardening capability</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                        <h5>High impact strength</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h5>Good machinability before heat treatment</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h5>Long service life</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-building"></i></div>
+                        <h5>Suitable for heavy-duty engineering</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-arrow-repeat"></i></div>
+                        <h5>Performs well under cyclic loading</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+--}}
+
+{{-- 
+<section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Limitations of EN24 Steel</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        Although EN24 offers excellent mechanical performance, it may not be the ideal choice for every application.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <ul class="list-unstyled">
+                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Higher cost than medium carbon steels</span></li>
+                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Requires controlled heat treatment</span></li>
+                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">More difficult to weld than low-carbon steels</span></li>
+                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Protective coating is recommended in corrosive environments</span></li>
+                        <li class="mb-3 d-flex align-items-start"><i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i><span class="fs-6">Machining becomes more difficult after hardening</span></li>
+                    </ul>
+                    <p class="fs-6 mt-4 fw-bold text-center" style="color: #174268;">
+                        Selecting the correct material should always be based on operating conditions, mechanical requirements, and budget.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+--}}
+
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Why Industries Choose EN24 Steel</h2>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        EN24 is trusted across a wide range of industries because it combines high strength with exceptional toughness and fatigue resistance. It performs reliably in applications where components are subjected to continuous loading, vibration, and impact.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Aerospace
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Automotive
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Defence
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Mining
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Oil & Gas
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Heavy Engineering
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Power Generation
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Marine
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Construction Equipment
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 mb-2 d-flex align-items-center">
+                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span> Industrial Machinery
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <p class="fs-6 mt-2 text-center fw-bold" style="color: #174268;">
+                        Its ability to maintain mechanical properties under demanding conditions makes EN24 one of the most widely used alloy steels for critical engineering applications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+--}}
+
+{{-- blog section start --}}
+
+{{-- blog section end --}}
+
 {{-- 
 <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -1330,28 +1345,6 @@
         </div>
     </section>
 --}}
-
-
-    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="contact-cta-box">
-                <h2>Contact Us</h2>
-                <p>
-                    Get in touch with <strong> Moksh Tubes & Fittings LLP
-                    </strong> — Your Trusted Source for EN24 Alloy Steel Products
-                </p>
-                <!-- Call button -->
-                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
-                    data-bs-target="#contactFormModal">
-                    Get in Touch
-                </a>
-            </div>
-        </div>
-    </section>
-
-
-
-
 
 @endsection
 @section('jsscripts')

@@ -13,9 +13,7 @@
 @section('og_type', 'article')
 
 @section('content')
-
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/copper-alloys/copper-alloys-c71520.webp);">
+<section class="breadcrumb-area" style="background-image: url(/assets/images/copper-alloys/copper-alloys-c71520.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -35,7 +33,7 @@
         </div>
     </section>
 
-    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+<div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specification">Specifications</a> |
@@ -47,8 +45,8 @@
             <a href="#contact-us">Contact Us</a>
         </div>
     </div>
-    <!--End breadcrumb area-->
-    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+
+<section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Copper Alloys C71520 | Product Overview</h2>
@@ -93,8 +91,7 @@
         </div>
     </section>
 
-    {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
+<section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Copper Alloys C71520 Datasheet</h3>
             <p class="mb-3">
@@ -135,11 +132,8 @@
             </p>
         </div>
     </section>
-    <!-- End Datasheet -->
 
-
-    <!-- ================= SPECIFICATION ================= -->
-    <section class="sec-padd-top" id="specification">
+<section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
                 <h2>Technical Specifications – Copper Nickel C71520 (Enhanced Cu-Ni 70/30)</h2>
@@ -216,8 +210,7 @@
         </div>
     </section>
 
-    <!-- ================= CHEMICAL COMPOSITION ================= -->
-    <section class="sec-padd-top sec-padd-bottom" id="composition">
+<section class="sec-padd-top sec-padd-bottom" id="composition">
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition – UNS C71520</h2>
@@ -271,8 +264,6 @@
         </div>
     </section>
 
-    <!-- ================= PHYSICAL PROPERTIES ================= -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="properties">
         <div class="container">
@@ -327,66 +318,7 @@
     </section>
 --}}
 
-
-    <!-- ================= HEAT TREATMENT ================= -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom" id="heat-treatment">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Heat Treatment & Fabrication – C71520</h2>
-            </div>
-
-            <div class="table-responsive col-lg-8 mx-auto">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                         <tr class="t-row">
-                            <th>Process</th>
-                            <th>Temperature Range</th>
-                            <th>Purpose</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                         <tr class="t-row">
-                            <td>Annealing</td>
-                            <td>700 – 900 °C</td>
-                            <td>Restores ductility</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>Stress Relieving</td>
-                            <td>300 – 350 °C</td>
-                            <td>Reduces residual stresses</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>Cold Working</td>
-                            <td>—</td>
-                            <td>Increases strength & hardness</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>Welding</td>
-                            <td>TIG / MIG / SMAW</td>
-                            <td>Excellent weldability</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>Brazing</td>
-                            <td>✔</td>
-                            <td>Suitable</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <p class="mt-3 text-center">
-                    C71520 retains corrosion resistance and mechanical integrity after welding, making it ideal for naval
-                    and offshore systems.
-                </p>
-            </div>
-        </div>
-    </section>
---}}
-
-
-    <!-- ================= MECHANICAL PROPERTIES ================= -->
-    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+<section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
             <div class="section-title center">
                 <h2>Mechanical Properties – C71520 (Annealed Condition)</h2>
@@ -445,8 +377,6 @@
         </div>
     </section>
 
-    <!-- ================= AVAILABLE FORMS ================= -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
@@ -498,63 +428,7 @@
     </section>
 --}}
 
-
-    <!-- ================= INTERNATIONAL STANDARDS ================= -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom" id="international">
-        <div class="container">
-            <div class="section-title center">
-                <h2>International Standards & Equivalent Grades – C71520</h2>
-            </div>
-
-            <div class="table-responsive col-lg-8 mx-auto">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                         <tr class="t-row">
-                            <th>Standard</th>
-                            <th>Equivalent</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                         <tr class="t-row">
-                            <td>UNS</td>
-                            <td>C71520</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>EN</td>
-                            <td>CW354H</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>ISO</td>
-                            <td>CuNi30Fe1Mn</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>DIN</td>
-                            <td>2.0882</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>ASTM</td>
-                            <td>B111, B122, B171, B466, B467</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>MIL</td>
-                            <td>MIL-T-16420</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>DEF-STAN</td>
-                            <td>02-879</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
---}}
-
-
-
-        @php
+@php
         $products = [
             [
                 'name' => 'Pipes',
@@ -594,7 +468,7 @@
         ];
     @endphp
 
-    <section id="products" class="sec-padd-top sec-padd-bottom">
+<section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Copper Alloys C71520</h2>
@@ -605,23 +479,6 @@
                     <p class="fs-6">
                         <strong class="text-dark">Copper Alloys C71520</strong> is available in:
                     </p>
-                </div>
-            </div>
-
-            <!-- Horizontal Styled Product List -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                        <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
-                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
-                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -651,8 +508,7 @@
         </div>
     </section>
 
-
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -695,8 +551,7 @@
             </div>
     </section>
 
-
-    <section id="applications" class="sec-padd-top sec-padd-bottom">
+<section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Copper Alloys C71520</h2>
@@ -745,8 +600,7 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+<section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
@@ -787,7 +641,6 @@
         </div>
     </section>
 
-    
 {{-- 
 <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
@@ -809,9 +662,7 @@
     </section>
 --}}
 
-
-    <!--Start faq content area-->
-    <section id="faq" class="faq-content-area sec-padd2">
+<section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -913,11 +764,7 @@
             </div>
         </div>
     </section>
-    <!--End faq content area-->
 
-
-    {{-- blog section start --}}
-    
 {{-- 
 <section class="blog-section sec-padd2">
         <div class="container">
@@ -974,10 +821,7 @@
     </section>
 --}}
 
-    {{-- blog section end --}}
-
-
-    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
+<section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
@@ -993,9 +837,117 @@
         </div>
     </section>
 
+    <!-- Extra Sections (Commented Out) -->
+{{-- datasheet --}}
 
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="heat-treatment">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Heat Treatment & Fabrication – C71520</h2>
+            </div>
 
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Process</th>
+                            <th>Temperature Range</th>
+                            <th>Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Annealing</td>
+                            <td>700 – 900 °C</td>
+                            <td>Restores ductility</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Stress Relieving</td>
+                            <td>300 – 350 °C</td>
+                            <td>Reduces residual stresses</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Cold Working</td>
+                            <td>—</td>
+                            <td>Increases strength & hardness</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Welding</td>
+                            <td>TIG / MIG / SMAW</td>
+                            <td>Excellent weldability</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Brazing</td>
+                            <td>✔</td>
+                            <td>Suitable</td>
+                        </tr>
+                    </tbody>
+                </table>
 
+                <p class="mt-3 text-center">
+                    C71520 retains corrosion resistance and mechanical integrity after welding, making it ideal for naval
+                    and offshore systems.
+                </p>
+            </div>
+        </div>
+    </section>
+--}}
+
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – C71520</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>UNS</td>
+                            <td>C71520</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>EN</td>
+                            <td>CW354H</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>ISO</td>
+                            <td>CuNi30Fe1Mn</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>DIN</td>
+                            <td>2.0882</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B111, B122, B171, B466, B467</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>MIL</td>
+                            <td>MIL-T-16420</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>DEF-STAN</td>
+                            <td>02-879</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+--}}
+
+{{-- blog section start --}}
+
+{{-- blog section end --}}
 
 @endsection
 @section('jsscripts')

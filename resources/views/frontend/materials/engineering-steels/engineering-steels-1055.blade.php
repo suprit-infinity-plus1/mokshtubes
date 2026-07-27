@@ -15,8 +15,7 @@
 
 
 @section('content')
-    {{-- start bread --}}
-    <section class="breadcrumb-area"
+<section class="breadcrumb-area"
         style="background-image: url(/assets/images/engineering-steels/engineering-steels-banner.webp);">
         <div class="container">
             <div class="row justify-content-center">
@@ -36,9 +35,8 @@
             </div>
         </div>
     </section>
-    <!--End breadcrumb area-->
 
-    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+<div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specification">Specifications</a> |
@@ -51,9 +49,7 @@
         </div>
     </div>
 
-
-    <!-- Start Product Overview -->
-    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
 
         <div class="container">
             <div class="section-title center">
@@ -109,10 +105,8 @@
             </div>
         </div>
     </section>
-    <!-- End Product Overview -->
 
-    {{-- start datasheet --}}
-    <section class="sec-padd-bottom bg-light">
+<section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Engineering Steels 1055 Datasheet</h3>
             <p class="mb-3">
@@ -154,10 +148,7 @@
         </div>
     </section>
 
-    <!-- End Datasheet Download Section -->
-
-    <!-- Specifications Section -->
-    <section class="sec-padd-top" id="specification">
+<section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
                 <h2>Engineering Steel 1055 Specifications</h2>
@@ -211,10 +202,7 @@
         </div> <!-- container -->
     </section>
 
-
-
-    <!-- Chemical Composition -->
-    <section id="composition" class="sec-padd-top sec-padd-bottom">
+<section id="composition" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition of Engineering Steel 1055</h2>
@@ -265,9 +253,6 @@
         </div>
     </section>
 
-    <!-- Technical Properties Section -->
-
-    
 {{-- 
 <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
 
@@ -395,14 +380,7 @@
     </section>
 --}}
 
-
-
-    <!-- Heat Treatment -->
-
-
-
-    <!-- Mechanical Properties -->
-    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+<section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of Engineering Steel 1055</h2>
@@ -477,7 +455,6 @@
         </div>
     </section>
 
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
@@ -539,57 +516,7 @@
     </section>
 --}}
 
-
-    <!-- End Available Forms & Size Range Section -->
-
-    <!-- Standards & Equivalent Grades Section -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom" id="international">
-        <div class="container">
-            <div class="section-title center">
-                <h2>International Standards & Equivalent Grades</h2>
-            </div>
-
-            <div class="table-responsive col-lg-8 mx-auto">
-                <table class="table table-bordered text-center">
-                    <thead class="table-dark">
-                        <tr class = "t-row" class = "t-row">
-                            <th>Standard</th>
-                            <th>Equivalent Grade</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class = "t-row">
-                            <td>EN</td>
-                            <td>EN 1055</td>
-                        </tr>
-                        <tr class = "t-row">
-                            <td>AISI / SAE</td>
-                            <td>1055</td>
-                        </tr>
-                        <tr class = "t-row">
-                            <td>DIN</td>
-                            <td>CK55</td>
-                        </tr>
-                        <tr class = "t-row">
-                            <td>JIS</td>
-                            <td>S55C</td>
-                        </tr>
-                        <tr class = "t-row">
-                            <td>GB</td>
-                            <td>55</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
---}}
-
-    <!-- End Standards & Equivalent Grades Section -->
-
-        @php
+@php
         $products = [
             [
                 'name' => 'Pipes',
@@ -629,7 +556,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="products">
+<section class="sec-padd-top sec-padd-bottom bg-light" id="products">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Engineering Steel 1055</h2>
@@ -640,24 +567,6 @@
                     <p class="fs-6">
                         <strong class="text-dark">Engineering Steel 1055</strong> is typically available in
                     </p>
-                </div>
-            </div>
-
-
-            <!-- Horizontal Styled Product List -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                        <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
-                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
-                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -688,8 +597,7 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom" id="uses">
+<section class="sec-padd-top sec-padd-bottom" id="uses">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -731,7 +639,7 @@
         </div>
     </section>
 
-    <section id="applications" class="sec-padd-top sec-padd-bottom" id="application">
+<section id="applications" class="sec-padd-top sec-padd-bottom" id="application">
         <div class="container">
             <div class="section-title center">
 
@@ -782,30 +690,7 @@
         </div>
     </section>
 
-
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom bg-light py-5">
-        <div class="container">
-            <div class="section-title text-center mb-4">
-                <h2>Export Destinations</h2>
-            </div>
-
-            <p class="text-center mb-2">
-                We export Engineering Steel 1055 to:
-            </p>
-
-            <p class="text-center fs-5">
-                UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, Turkey, Europe, USA, Canada, Singapore,
-                Malaysia, Indonesia, South Africa, Nigeria.
-            </p>
-        </div>
-    </section>
---}}
-
-
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+<section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
@@ -846,7 +731,6 @@
         </div>
     </section>
 
-    
 {{-- 
 <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
@@ -868,9 +752,7 @@
     </section>
 --}}
 
-
-    <!--Start faq content area-->
-    <section id="faq" class="faq-content-area sec-padd2">
+<section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -989,11 +871,7 @@
             </div>
         </div>
     </section>
-    <!--End faq content area-->
 
-
-    {{-- blog section start --}}
-    
 {{-- 
 <section class="blog-section sec-padd2">
         <div class="container">
@@ -1050,10 +928,7 @@
     </section>
 --}}
 
-    {{-- blog section end --}}
-
-    <!-- Contact CTA Section -->
-    <section  id="contact-us"class="sec-padd-top sec-padd-bottom bg-light">
+<section  id="contact-us"class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
@@ -1071,119 +946,77 @@
         </div>
     </section>
 
+    <!-- Extra Sections (Commented Out) -->
+{{-- start bread --}}
 
+{{-- start datasheet --}}
 
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
 
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered text-center">
+                    <thead class="table-dark">
+                        <tr class = "t-row" class = "t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class = "t-row">
+                            <td>EN</td>
+                            <td>EN 1055</td>
+                        </tr>
+                        <tr class = "t-row">
+                            <td>AISI / SAE</td>
+                            <td>1055</td>
+                        </tr>
+                        <tr class = "t-row">
+                            <td>DIN</td>
+                            <td>CK55</td>
+                        </tr>
+                        <tr class = "t-row">
+                            <td>JIS</td>
+                            <td>S55C</td>
+                        </tr>
+                        <tr class = "t-row">
+                            <td>GB</td>
+                            <td>55</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+--}}
 
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Export Destinations</h2>
+            </div>
 
+            <p class="text-center mb-2">
+                We export Engineering Steel 1055 to:
+            </p>
 
-    <script type="application/ld+json">
-        @verbatim
-            {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                "@type": "Product",
-                "@id": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055#product",
-                "name": "Engineering Steel 1055 (C1055 / EN1055)",
-                "image": "https://mokshtubes.com/assets/images/engineering-steels/engineering-steels-1055.webp",
-                "description": "Engineering Steel 1055 (C1055 / EN1055) chemical composition, mechanical properties, hardness, tensile strength, applications and equivalent grades.",
-                "sku": "1055-ENGINEERING-STEEL",
-                "mpn": "C1055",
-                "material": "Medium Carbon Steel",
-                "category": "Engineering Steels",
-                "brand": {
-                    "@type": "Brand",
-                    "name": "Moksh Tubes & Fittings LLP",
-                    "logo": "https://mokshtubes.com/assets/images/logo/Board-1.webp"
-                },
-                "url": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055",
-                "additionalProperty": [
-                    { "@type": "PropertyValue", "name": "Carbon", "value": "0.52–0.60%" },
-                    { "@type": "PropertyValue", "name": "Manganese", "value": "0.60–0.90%" },
-                    { "@type": "PropertyValue", "name": "Phosphorus", "value": "≤ 0.040%" },
-                    { "@type": "PropertyValue", "name": "Sulfur", "value": "≤ 0.050%" },
-                    { "@type": "PropertyValue", "name": "Hardness", "value": "130–220 HB" },
-                    { "@type": "PropertyValue", "name": "Tensile Strength", "value": "517–827 MPa" }
-                ]
-                },
+            <p class="text-center fs-5">
+                UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, Turkey, Europe, USA, Canada, Singapore,
+                Malaysia, Indonesia, South Africa, Nigeria.
+            </p>
+        </div>
+    </section>
+--}}
 
-                {
-                "@type": "Organization",
-                "@id": "https://mokshtubes.com/#organization",
-                "name": "Moksh Tubes & Fittings LLP",
-                "url": "https://mokshtubes.com",
-                "logo": "https://mokshtubes.com/assets/images/logo/Board-1.webp",
-                "contactPoint": [
-                    {
-                    "@type": "ContactPoint",
-                    "telephone": "+91-9967718848",
-                    "contactType": "sales"
-                    }
-                ]
-                },
+{{-- blog section start --}}
 
-            {
-                "@type": "WebPage",
-                "@id": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055#webpage",
-                "url": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055",
-                "name": "1055 Engineering Steel – Chemical Composition & Properties",
-                "description": "Complete datasheet of 1055 Engineering Steel (C1055 / EN1055) including composition, properties, heat treatment and applications."
-                },
+{{-- blog section end --}}
 
-                {
-                "@type": "BreadcrumbList",
-                "@id": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055#breadcrumb",
-                "itemListElement": [
-                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshtubes.com" },
-                    { "@type": "ListItem", "position": 2, "name": "Engineering Steels", "item": "https://mokshtubes.com/materials/engineering-steels" },
-                    { "@type": "ListItem", "position": 3, "name": "1055 Engineering Steel", "item": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055" }
-                ]
-                },
-
-                {
-                "@type": "FAQPage",
-                "@id": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055#faq",
-                "mainEntity": [
-                    {
-                    "@type": "Question",
-                    "name": "What is EN 1055 steel?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "EN 1055 (C1055 / SAE 1055) is a medium carbon steel known for high hardness, durability, and wear resistance."
-                    }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "What are the properties of 1055 steel?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "1055 steel has tensile strength 517–827 MPa, hardness 130–220 HB, density 7.85 g/cm³, and good wear resistance."
-                    }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "What products are available in 1055 steel?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "1055 steel is available in round bars, plates, sheets, coils, strips, seamless pipes, welded tubes, flanges, fittings, fasteners, and machined components."
-                    }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "Where is 1055 steel used?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "1055 steel is used in automotive parts, gears, shafts, crankshafts, machine components, tools, and engineering applications requiring strength and wear resistance."
-                    }
-                    }
-                ]
-                }
-            ]
-            }
-
-        @endverbatim
-    </script>
 @endsection
 
 

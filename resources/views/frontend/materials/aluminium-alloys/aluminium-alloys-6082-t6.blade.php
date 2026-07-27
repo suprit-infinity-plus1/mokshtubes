@@ -14,9 +14,7 @@
 @section('og_type', 'article')
 
 @section('content')
-
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area"
+<section class="breadcrumb-area"
         style="background-image: url(/assets/images/aluminium-alloys/aluminium-alloys-6082-t6.webp);">
         <div class="container">
             <div class="row justify-content-center">
@@ -39,8 +37,7 @@
         </div>
     </section>
 
-
-    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+<div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specification">Specifications</a> |
@@ -53,9 +50,7 @@
         </div>
     </div>
 
-
-    <!--End breadcrumb area-->
-    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Aluminium 6082-T6 | Product Overview</h2>
@@ -94,9 +89,7 @@
         </div>
     </section>
 
-
-    {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
+<section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Alluminium Alloy 6083 T6 Datasheet</h3>
             <p class="mb-3">
@@ -137,11 +130,8 @@
             </p>
         </div>
     </section>
-    {{-- end datasheet --}}
 
-
-    <!-- ================= ALUMINIUM 6082-T6 SPECIFICATIONS ================= -->
-    <section class="sec-padd-top" id="specification">
+<section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
                 <h2>Aluminium 6082-T6 Specifications (AA6082 / UNS A96082)</h2>
@@ -190,8 +180,7 @@
         </div>
     </section>
 
-    <!-- ================= CHEMICAL COMPOSITION ================= -->
-    <section class="sec-padd-top sec-padd-bottom" id="composition">
+<section class="sec-padd-top sec-padd-bottom" id="composition">
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition – Aluminium Alloy 6082-T6</h2>
@@ -252,8 +241,6 @@
         </div>
     </section>
 
-    <!-- ================= PHYSICAL PROPERTIES ================= -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="properties">
         <div class="container">
@@ -303,61 +290,7 @@
     </section>
 --}}
 
-
-    <!-- ================= HEAT TREATMENT ================= -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom" id="heat-treatment">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Heat Treatment – Aluminium Alloy 6082-T6</h2>
-            </div>
-
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                         <tr class="t-row">
-                            <th>Heat Treatment Process</th>
-                            <th>Temperature Range</th>
-                            <th>Cooling / Procedure</th>
-                            <th>Notes</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                         <tr class="t-row">
-                            <td>Solution Heat Treatment</td>
-                            <td>515 – 530°C</td>
-                            <td>Water quench</td>
-                            <td>Prepares alloy for T6 aging</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>Artificial Aging (T6)</td>
-                            <td>170 – 185°C</td>
-                            <td>Air cool</td>
-                            <td>Maximum strength by precipitation hardening</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>Annealing (O Temper)</td>
-                            <td>350 – 410°C</td>
-                            <td>Furnace cool</td>
-                            <td>Restores ductility</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>Stress Relieving</td>
-                            <td>150 – 200°C</td>
-                            <td>Air cool</td>
-                            <td>Reduces residual stresses</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
---}}
-
-
-    <!-- ================= MECHANICAL PROPERTIES ================= -->
-    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+<section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
             <div class="section-title center">
                 <h2>Mechanical Properties – Aluminium 6082-T6</h2>
@@ -426,8 +359,6 @@
         </div>
     </section>
 
-    <!-- ================= AVAILABLE FORMS ================= -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
@@ -471,56 +402,7 @@
     </section>
 --}}
 
-
-    <!-- ================= STANDARDS ================= -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom" id="international">
-        <div class="container">
-            <div class="section-title center">
-                <h2>International Standards & Equivalent Grades – Aluminium 6082-T6</h2>
-            </div>
-
-            <div class="table-responsive col-lg-8 mx-auto">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                         <tr class="t-row">
-                            <th>Standard</th>
-                            <th>Equivalent Grade</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                         <tr class="t-row">
-                            <td>BS EN</td>
-                            <td>755-2</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>ASTM</td>
-                            <td>B221 (Extrusions)</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>ISO</td>
-                            <td>6361</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>EN</td>
-                            <td>AW-6082</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>JIS</td>
-                            <td>H4000 Series</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
---}}
-
-
-
-
-        @php
+@php
         $products = [
             [
                 'name' => 'Pipes',
@@ -560,7 +442,7 @@
         ];
     @endphp
 
-    <section id="products" class="sec-padd-top sec-padd-bottom">
+<section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Aluminium Alloys</h2>
@@ -571,23 +453,6 @@
                     <p class="fs-6">
                         <strong class="text-dark">Aluminium 6082-T6</strong> is commonly supplied as:
                     </p>
-                </div>
-            </div>
-
-            <!-- Horizontal Styled Product List -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                        <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
-                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
-                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -616,8 +481,7 @@
         </div>
     </section>
 
-
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -662,8 +526,7 @@
         </div>
     </section>
 
-
-    <section id="applications" class="sec-padd-top sec-padd-bottom">
+<section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Aluminium 6082-T6</h2>
@@ -712,8 +575,7 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+<section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
@@ -754,7 +616,6 @@
         </div>
     </section>
 
-    
 {{-- 
 <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
@@ -776,9 +637,7 @@
     </section>
 --}}
 
-
-    <!--Start faq content area-->
-    <section id="faq" class="faq-content-area sec-padd2">
+<section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -885,11 +744,7 @@
             </div>
         </div>
     </section>
-    <!--End faq content area-->
 
-
-    {{-- blog section start --}}
-    
 {{-- 
 <section class="blog-section sec-padd2">
         <div class="container">
@@ -946,9 +801,7 @@
     </section>
 --}}
 
-    {{-- blog section end --}}
-
-    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
+<section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
@@ -964,9 +817,106 @@
         </div>
     </section>
 
+    <!-- Extra Sections (Commented Out) -->
+{{-- datasheet --}}
 
+{{-- end datasheet --}}
 
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="heat-treatment">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Heat Treatment – Aluminium Alloy 6082-T6</h2>
+            </div>
 
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Heat Treatment Process</th>
+                            <th>Temperature Range</th>
+                            <th>Cooling / Procedure</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Solution Heat Treatment</td>
+                            <td>515 – 530°C</td>
+                            <td>Water quench</td>
+                            <td>Prepares alloy for T6 aging</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Artificial Aging (T6)</td>
+                            <td>170 – 185°C</td>
+                            <td>Air cool</td>
+                            <td>Maximum strength by precipitation hardening</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Annealing (O Temper)</td>
+                            <td>350 – 410°C</td>
+                            <td>Furnace cool</td>
+                            <td>Restores ductility</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Stress Relieving</td>
+                            <td>150 – 200°C</td>
+                            <td>Air cool</td>
+                            <td>Reduces residual stresses</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+--}}
+
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – Aluminium 6082-T6</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>BS EN</td>
+                            <td>755-2</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B221 (Extrusions)</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>ISO</td>
+                            <td>6361</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>EN</td>
+                            <td>AW-6082</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>JIS</td>
+                            <td>H4000 Series</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+--}}
+
+{{-- blog section start --}}
+
+{{-- blog section end --}}
 
 @endsection
 @section('jsscripts')

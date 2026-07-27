@@ -11,9 +11,7 @@
 @section('og_image', asset('assets/images/high-strength-stainless-steel/15-5-PH-STAINLESS-STEEL.webp'))
 @section('og_type', 'article')
 @section('content')
-
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area"
+<section class="breadcrumb-area"
         style="background-image: url(/assets/images/high-strength-stainless-steel/15-5-PH-STAINLESS-STEEL.webp);">
         <div class="container">
             <div class="row justify-content-center">
@@ -27,7 +25,7 @@
         </div>
     </section>
 
-       <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+<div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specification">Specifications</a> |
@@ -40,9 +38,7 @@
         </div>
     </div>
 
-
-    <!--End breadcrumb area-->
-    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -97,8 +93,7 @@
         </div>
     </section>
 
-    {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
+<section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download High Strength Stainless Steel 15-5ph Datasheet</h3>
             <p class="mb-3">
@@ -139,11 +134,7 @@
             </p>
         </div>
     </section>
-    <!-- End Datasheet -->
 
-
-    <!-- Specifications Section -->
-    
 {{-- 
 <section class="sec-padd-top" id="specification">
         <div class="container">
@@ -216,9 +207,7 @@
     </section>
 --}}
 
-
-    <!-- Chemical Composition -->
-    <section id="composition" class="sec-padd-top sec-padd-bottom">
+<section id="composition" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition of 15-5 PH Stainless Steel</h2>
@@ -283,8 +272,6 @@
         </div>
     </section>
 
-    <!-- Physical Properties -->
-    
 {{-- 
 <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -396,9 +383,7 @@
     </section>
 --}}
 
-
-    <!-- Mechanical Properties -->
-    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+<section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color:#174268;">
@@ -455,8 +440,6 @@
         </div>
     </section>
 
-    <!-- Available Forms -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
@@ -514,64 +497,7 @@
     </section>
 --}}
 
-
-    <!-- International Standards -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom" id="international">
-        <div class="container">
-            <div class="section-title center">
-                <h2>International Standards & Equivalent Grades – 15-5 PH</h2>
-            </div>
-
-            <div class="table-responsive col-lg-8 mx-auto">
-                <table class="table table-bordered table-striped align-middle">
-                    <thead class="table-dark text-center">
-                        <tr class="t-row">
-                            <th>Standard</th>
-                            <th>Equivalent</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-center">
-                        <tr class="t-row">
-                            <td>UNS</td>
-                            <td>S15500</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>ASTM</td>
-                            <td>A564, A693</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>AMS</td>
-                            <td>5659, 5862</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>EN</td>
-                            <td>1.4545</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>DIN</td>
-                            <td>X5CrNiCuNb15-5</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>JIS</td>
-                            <td>SUS 630 (closest)</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>ISO</td>
-                            <td>X5CrNiCuNb15-5</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
---}}
-
-
-
-
-        @php
+@php
         $products = [
             [
                 'name' => 'Pipes',
@@ -611,7 +537,7 @@
         ];
     @endphp
 
-    <section  id="products"class="sec-padd-top sec-padd-bottom">
+<section  id="products"class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in 15-5 PH Stainless Steel</h2>
@@ -693,24 +619,7 @@
         </div>
     </section>
 
-
-    <!-- Product Image Cards (Now centered and responsive) -->
-    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
-        @foreach ($products as $product)
-            <div class="col d-flex">
-                <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
-                    <div class="product-card h-100">
-                        <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}" class="img-fluid w-100">
-                        <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
-                    </div>
-                </a>
-            </div>
-        @endforeach
-    </div>
-    </section>
-
-
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages of 15-5PH stainless steel</h2>
@@ -768,9 +677,7 @@
         </div>
     </section>
 
-
-
-    <section id="applications" class="sec-padd-top sec-padd-bottom">
+<section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of 15-5 PH Stainless Steel</h2>
@@ -822,8 +729,7 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+<section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
@@ -864,7 +770,6 @@
         </div>
     </section>
 
-    
 {{-- 
 <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
@@ -886,9 +791,7 @@
     </section>
 --}}
 
-
-    <!--Start faq content area-->
-    <section id="faq" class="faq-content-area sec-padd2">
+<section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -968,10 +871,7 @@
             </div>
         </div>
     </section>
-    <!--End faq content area-->
 
-    {{-- blog section start --}}
-    
 {{-- 
 <section class="blog-section sec-padd2">
         <div class="container">
@@ -1028,11 +928,7 @@
     </section>
 --}}
 
-    {{-- blog section end --}}
-
-
-    <!-- Contact Section -->
-    <section id="contact-us" class="sec-padd-bottom">
+<section id="contact-us" class="sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
@@ -1050,10 +946,63 @@
         </div>
     </section>
 
+    <!-- Extra Sections (Commented Out) -->
+{{-- datasheet --}}
 
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – 15-5 PH</h2>
+            </div>
 
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>S15500</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>A564, A693</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AMS</td>
+                            <td>5659, 5862</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>1.4545</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>X5CrNiCuNb15-5</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SUS 630 (closest)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>X5CrNiCuNb15-5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+--}}
 
+{{-- blog section start --}}
 
+{{-- blog section end --}}
 
 @endsection
 @section('jsscripts')

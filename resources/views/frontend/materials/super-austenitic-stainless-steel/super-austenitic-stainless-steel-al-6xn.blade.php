@@ -10,9 +10,7 @@
     asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-AL-6XN.webp'))
 @section('og_type', 'article')
 @section('content')
-
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area"
+<section class="breadcrumb-area"
         style="background-image: url(/assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-AL-6XN.webp);">
         <div class="container">
             <div class="row justify-content-center">
@@ -43,8 +41,8 @@
             <a href="#contact-us">Contact Us</a>
         </div>
     </div>
-    <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+
+<section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -86,9 +84,7 @@
         </div>
     </section>
 
-
-    {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
+<section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Super Austentic AL 6XN Datasheet</h3>
             <p class="mb-3">
@@ -130,10 +126,56 @@
         </div>
     </section>
 
-    <!-- End Datasheet Download Section -->
+<section class="sec-padd-top" id="specification">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Specifications of AL-6XN (UNS R60702)</h2>
+            </div>
 
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>AL-6XN / UNS R60702</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>Commercially Pure AL-6XN</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM B551, B523, B658, B493, B550</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Forms</td>
+                                    <td>Pipes, Tubes, Sheets, Plates, Rods, Wire, Fittings, Flanges, Fasteners</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Chemical Analysis, PMI, Tensile, Hardness</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+<section id="composition" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition</h2>
@@ -198,8 +240,6 @@
         </div>
     </section>
 
-
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -311,9 +351,99 @@
     </section>
 --}}
 
+<section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of AL-6XN (Annealed)
+                </h2>
+            </div>
 
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Temperature</th>
+                            <th>Tensile Strength (MPa)</th>
+                            <th>Yield Strength (MPa)</th>
+                            <th>Hardness (BHN)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>25 °C (80 °F)</td>
+                            <td>379</td>
+                            <td>207</td>
+                            <td>145</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>425 °C (800 °F)</td>
+                            <td>~207</td>
+                            <td>~124</td>
+                            <td>~100</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>540 °C (1000 °F)</td>
+                            <td>~172</td>
+                            <td>~103</td>
+                            <td>~90</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>650 °C (1200 °F)</td>
+                            <td>~138</td>
+                            <td>~83</td>
+                            <td>~85</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>705 °C (1300 °F)</td>
+                            <td>~124</td>
+                            <td>~69</td>
+                            <td>~80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>760 °C (1400 °F)</td>
+                            <td>~117</td>
+                            <td>~62</td>
+                            <td>~75</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
 
-        @php
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – AL-6XN</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <p class="text-center mb-3">
+                        We supply AL-6XN in the following product forms:
+                    </p>
+                    <ul class="list-unstyled text-center">
+                        <li>✔ Seamless & Welded Pipes</li>
+                        <li>✔ Capillary & Boiler Tubes</li>
+                        <li>✔ Sheets, Plates & Coils</li>
+                        <li>✔ Strips & Foils</li>
+                        <li>✔ Round / Flat / Hex Bars</li>
+                        <li>✔ Wire & Welding Rods</li>
+                        <li>✔ Pipe Fittings & Flanges (All ASME Types)</li>
+                        <li>✔ Fasteners & CNC-Machined Components</li>
+                    </ul>
+                    <p class="text-center mt-3">
+                        All materials comply with ASTM B551 / B523 / B658 / B493 / B550.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+--}}
+
+@php
         $products = [
             [
                 'name' => 'Pipes',
@@ -353,7 +483,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+<section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in AL 6XN</h2>
@@ -364,23 +494,6 @@
                     <p class="fs-6">
                         <strong class="text-dark">AL 6XN</strong> is commonly supplied as:
                     </p>
-                </div>
-            </div>
-
-            <!-- Horizontal Styled Product List -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                        <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
-                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
-                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -409,8 +522,7 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+<section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -455,8 +567,7 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom">
+<section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of AL 6XN</h2>
@@ -505,8 +616,7 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+<section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
@@ -547,8 +657,28 @@
         </div>
     </section>
 
-    <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+{{-- 
+<section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>AL-6XN Price in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹4,000 – ₹9,000 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+--}}
+
+<section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -648,10 +778,7 @@
             </div>
         </div>
     </section>
-    <!--End faq content area-->
 
-     {{-- blog section start --}}
-      
 {{-- 
 <section class="blog-section sec-padd2">
         <div class="container">
@@ -708,9 +835,7 @@
     </section>
 --}}
 
-    {{-- blog section end --}}
-
-    <section class="sec-padd-top sec-padd-bottom">
+<section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
@@ -726,9 +851,12 @@
         </div>
     </section>
 
+    <!-- Extra Sections (Commented Out) -->
+{{-- datasheet --}}
 
+{{-- blog section start --}}
 
-
+{{-- blog section end --}}
 
 @endsection
 @section('jsscripts')

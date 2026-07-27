@@ -23,7 +23,7 @@
                 <div class="col-md-5 content-left">
                     <h2 class="fs-5 fw-semibold my-4">Visiting Address</h2>
                     <p class="my-3b fs-5" style="max-width: 350px">
-                        6/A, Ground Floor, Rajwanti Mansion, 4th Khetwadi, Mumbai, Maharashtra- 400 004.
+                        6/A, Shop No. 2, Ground Floor, Rajwanti Mansion, 4th Khetwadi Lane, Mumbai, Maharashtra- 400 004.   
                     </p>
 
                     <h2 class="fs-5 fw-semibold mt-4 mb-2">Contact Details</h2>

@@ -10,8 +10,7 @@
 @section('og_image', asset('assets/images/inconel/Inconel-X 750.webp'))
 @section('og_type', 'article')
 @section('content')
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(assets/images/inconel/Inconel-X 750.webp);">
+<section class="breadcrumb-area" style="background-image: url(assets/images/inconel/Inconel-X 750.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -26,8 +25,7 @@
         </div>
     </section>
 
-
-    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+<div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specification">Specifications</a> |
@@ -40,8 +38,7 @@
         </div>
     </div>
 
-    <!--End breadcrumb area-->
-    <section  id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+<section  id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -90,8 +87,7 @@
         </div>
     </section>
 
-    {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
+<section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Inconel X750 Datasheet</h3>
             <p class="mb-3">
@@ -132,10 +128,8 @@
             </p>
         </div>
     </section>
-    <!-- End Datasheet -->
 
-    <!-- Specifications Section -->
-    <section class="sec-padd-top" id="specification">
+<section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
                 <h2>INCONEL X-750 Specifications</h2>
@@ -201,7 +195,7 @@
         </div> <!-- container -->
     </section>
 
-    <section id="composition" class="sec-padd-top sec-padd-bottom">
+<section id="composition" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition of INCONEL X-750</h2>
@@ -274,8 +268,8 @@
         </div>
     </section>
 
-
-    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
+{-- 
+<section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Technical Specifications of Alloy X-750</h2>
@@ -380,9 +374,9 @@
             </div>
         </div>
     </section>
+ --}
 
-    <!-- Mechanical Properties -->
-    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+<section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of INCONEL X-750</h2>
@@ -430,7 +424,6 @@
         </div>
     </section>
 
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
@@ -482,56 +475,7 @@
     </section>
 --}}
 
-
-    <!-- Standards & Equivalent Grades Section -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom" id="international">
-        <div class="container">
-            <div class="section-title center">
-                <h2>International Standards & Equivalent Grades</h2>
-            </div>
-
-            <div class="table-responsive col-lg-8 mx-auto">
-                <table class="table table-bordered table-striped align-middle">
-                    <thead class="table-dark text-center">
-                        <tr class="t-row">
-                            <th>Standard</th>
-                            <th>Equivalent</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>UNS</td>
-                            <td>N07750</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>W.Nr</td>
-                            <td>2.4669</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>AMS</td>
-                            <td>5667 / 5668 / 5670</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>DIN</td>
-                            <td>NiCr15Fe7TiAl</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>ISO</td>
-                            <td>NiCr15Fe7TiAl</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
---}}
-
-    <!-- End Standards & Equivalent Grades Section -->
-
-
-        @php
+@php
         $products = [
             [
                 'name' => 'Pipes',
@@ -571,7 +515,7 @@
         ];
     @endphp
 
-    <section id="products"  class="sec-padd-top sec-padd-bottom">
+<section id="products"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Inconel X-750</h2>
@@ -585,23 +529,6 @@
                         2.4669, meets the requirements of NACE MR-01-75. This versatile alloy is available in a variety of
                         product forms, including:
                     </p>
-                </div>
-            </div>
-
-            <!-- Horizontal Styled Product List -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                        <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
-                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
-                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -631,8 +558,7 @@
         </div>
     </section>
 
-
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -678,8 +604,7 @@
         </div>
     </section>
 
-
-    <section id="applications"  class="sec-padd-top sec-padd-bottom">
+<section id="applications"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Inconel 617</h2>
@@ -731,8 +656,7 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+<section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
@@ -773,7 +697,6 @@
         </div>
     </section>
 
-      
 {{-- 
 <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
@@ -795,9 +718,7 @@
     </section>
 --}}
 
-
-    <!--Start faq content area-->
-    <section id="faq"  class="faq-content-area sec-padd2">
+<section id="faq"  class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -889,10 +810,7 @@
             </div>
         </div>
     </section>
-    <!--End faq content area-->
 
-    {{-- blog section start --}}
-    
 {{-- 
 <section class="blog-section sec-padd2">
         <div class="container">
@@ -949,9 +867,7 @@
     </section>
 --}}
 
-    {{-- blog section end --}}
-
-    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
+<section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
@@ -968,9 +884,55 @@
         </div>
     </section>
 
+    <!-- Extra Sections (Commented Out) -->
+{{-- datasheet --}}
 
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
 
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N07750</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>W.Nr</td>
+                            <td>2.4669</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AMS</td>
+                            <td>5667 / 5668 / 5670</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>NiCr15Fe7TiAl</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>NiCr15Fe7TiAl</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+--}}
 
+{{-- blog section start --}}
+
+{{-- blog section end --}}
 
 @endsection
 @section('jsscripts')

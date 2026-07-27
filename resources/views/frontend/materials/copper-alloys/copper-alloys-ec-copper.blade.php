@@ -9,9 +9,7 @@
 @section('og_type', 'article')
 
 @section('content')
-
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area"
+<section class="breadcrumb-area"
         style="background-image: url(/assets/images/copper-alloys/copper-alloys-ec-copper.webp);">
         <div class="container">
             <div class="row justify-content-center">
@@ -35,7 +33,7 @@
         </div>
     </section>
 
-    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+<div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specification">Specifications</a> |
@@ -47,8 +45,8 @@
             <a href="#contact-us">Contact Us</a>
         </div>
     </div>
-    <!--End breadcrumb area-->
-    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+
+<section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Copper Alloys Electrolytic Copper | Product Overview</h2>
@@ -91,8 +89,7 @@
         </div>
     </section>
 
-    {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
+<section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Copper Alloys Ec Datasheet</h3>
             <p class="mb-3">
@@ -133,11 +130,8 @@
             </p>
         </div>
     </section>
-    <!-- End Datasheet -->
 
-
-    <!-- ================= SPECIFICATION ================= -->
-    <section class="sec-padd-top" id="specification">
+<section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
                 <h2>EC Copper Specifications (C10100 / CW009A)</h2>
@@ -186,8 +180,7 @@
         </div>
     </section>
 
-    <!-- ================= CHEMICAL COMPOSITION ================= -->
-    <section class="sec-padd-top sec-padd-bottom" id="composition">
+<section class="sec-padd-top sec-padd-bottom" id="composition">
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition – EC Copper (C10100 / CW009A)</h2>
@@ -228,8 +221,6 @@
         </div>
     </section>
 
-    <!-- ================= PHYSICAL PROPERTIES ================= -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="properties">
         <div class="container">
@@ -289,60 +280,7 @@
     </section>
 --}}
 
-
-    <!-- ================= HEAT TREATMENT ================= -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom" id="heat-treatment">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Heat Treatment – EC Copper (C10100 / CW009A)</h2>
-            </div>
-
-            <div class="table-responsive col-lg-8 mx-auto">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                         <tr class="t-row">
-                            <th>Heat Treatment Process</th>
-                            <th>Temperature Range</th>
-                            <th>Cooling / Procedure</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                         <tr class="t-row">
-                            <td>Annealing (Soft Anneal)</td>
-                            <td>200 – 400 °C</td>
-                            <td>Furnace cool for maximum ductility</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>Stress Relieving</td>
-                            <td>150 – 250 °C</td>
-                            <td>Hold 1–2 hours, air cool</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>Hot Working</td>
-                            <td>700 – 900 °C</td>
-                            <td>Extrusion, rolling & forging</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>Cold Working + Anneal</td>
-                            <td>—</td>
-                            <td>Controls strength & conductivity</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <p class="text-center mt-3">
-                EC Copper cannot be hardened by quenching; only cold working increases strength.
-            </p>
-        </div>
-    </section>
---}}
-
-
-    <!-- ================= MECHANICAL PROPERTIES ================= -->
-    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+<section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
             <div class="section-title center">
                 <h2>Mechanical Properties – EC Copper</h2>
@@ -394,8 +332,6 @@
         </div>
     </section>
 
-    <!-- ================= AVAILABLE FORMS ================= -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
@@ -447,60 +383,7 @@
     </section>
 --}}
 
-
-    <!-- ================= INTERNATIONAL STANDARDS ================= -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom" id="international">
-        <div class="container">
-            <div class="section-title center">
-                <h2>International Standards & Equivalent Grades – EC Copper</h2>
-            </div>
-
-            <div class="table-responsive col-lg-8 mx-auto">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                         <tr class="t-row">
-                            <th>Standard</th>
-                            <th>Equivalent Grade</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                         <tr class="t-row">
-                            <td>UNS</td>
-                            <td>C10100</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>EN</td>
-                            <td>CW009A</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>DIN</td>
-                            <td>Cu-ETP1</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>ASTM</td>
-                            <td>B152, B187, B170</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>JIS</td>
-                            <td>C1011</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>ISO</td>
-                            <td>Cu-ETP1 / Cu-a1</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
---}}
-
-
-
-
-        @php
+@php
         $products = [
             [
                 'name' => 'Pipes',
@@ -540,7 +423,7 @@
         ];
     @endphp
 
-    <section id="products" class="sec-padd-top sec-padd-bottom">
+<section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Copper Alloys EC Copper</h2>
@@ -551,23 +434,6 @@
                     <p class="fs-6">
                         <strong class="text-dark">Copper Alloys EC Copper</strong> is available in:
                     </p>
-                </div>
-            </div>
-
-            <!-- Horizontal Styled Product List -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                        <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
-                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
-                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -597,8 +463,7 @@
         </div>
     </section>
 
-
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -642,8 +507,7 @@
             </div>
     </section>
 
-
-    <section id="applications" class="sec-padd-top sec-padd-bottom">
+<section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Copper Alloys EC Copper</h2>
@@ -693,8 +557,7 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+<section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
@@ -735,7 +598,6 @@
         </div>
     </section>
 
-    
 {{-- 
 <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
@@ -757,9 +619,7 @@
     </section>
 --}}
 
-
-    <!--Start faq content area-->
-    <section id="faq" class="faq-content-area sec-padd2">
+<section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -873,11 +733,7 @@
             </div>
         </div>
     </section>
-    <!--End faq content area-->
 
-
-    {{-- blog section start --}}
-    
 {{-- 
 <section class="blog-section sec-padd2">
         <div class="container">
@@ -934,10 +790,7 @@
     </section>
 --}}
 
-    {{-- blog section end --}}
-
-
-    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
+<section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
@@ -953,9 +806,107 @@
         </div>
     </section>
 
+    <!-- Extra Sections (Commented Out) -->
+{{-- datasheet --}}
 
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="heat-treatment">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Heat Treatment – EC Copper (C10100 / CW009A)</h2>
+            </div>
 
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Heat Treatment Process</th>
+                            <th>Temperature Range</th>
+                            <th>Cooling / Procedure</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Annealing (Soft Anneal)</td>
+                            <td>200 – 400 °C</td>
+                            <td>Furnace cool for maximum ductility</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Stress Relieving</td>
+                            <td>150 – 250 °C</td>
+                            <td>Hold 1–2 hours, air cool</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Hot Working</td>
+                            <td>700 – 900 °C</td>
+                            <td>Extrusion, rolling & forging</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Cold Working + Anneal</td>
+                            <td>—</td>
+                            <td>Controls strength & conductivity</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
+            <p class="text-center mt-3">
+                EC Copper cannot be hardened by quenching; only cold working increases strength.
+            </p>
+        </div>
+    </section>
+--}}
+
+{{-- 
+<section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – EC Copper</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>UNS</td>
+                            <td>C10100</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>EN</td>
+                            <td>CW009A</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>DIN</td>
+                            <td>Cu-ETP1</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B152, B187, B170</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>JIS</td>
+                            <td>C1011</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>ISO</td>
+                            <td>Cu-ETP1 / Cu-a1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+--}}
+
+{{-- blog section start --}}
+
+{{-- blog section end --}}
 
 @endsection
 <!-- FAQ Schema Markup -->

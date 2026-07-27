@@ -7,9 +7,7 @@
 @section('og_type', 'article')
 
 @section('content')
-
-    <!-- Hero Banner -->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/aluminium-alloys/aluminium-alloys-he30.webp);">
+<section class="breadcrumb-area" style="background-image: url(/assets/images/aluminium-alloys/aluminium-alloys-he30.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -24,8 +22,7 @@
         </div>
     </section>
 
-    <!-- Sticky Material Tabs -->
-    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+<div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specification">Specifications</a> |
@@ -38,33 +35,7 @@
         </div>
     </div>
 
-    <!-- Why Choose HE30 -->
-    <section id="why-choose" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Why Choose Aluminium Alloy HE30?</h2>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-10" style="text-align: justify;">
-                    <p class="fs-6 mb-3">
-                        <strong>Aluminium Alloy HE30 (AA6082)</strong> is one of the most widely used heat-treatable aluminium alloys for structural and engineering applications. It is valued for its excellent combination of strength, corrosion resistance, weldability, and machinability, making it suitable for a wide range of industrial sectors.
-                    </p>
-                    <p class="fs-6 mb-3">
-                        Compared with many conventional aluminium grades, HE30 provides higher mechanical strength while remaining lightweight. This makes it an excellent choice for components that need to withstand heavy loads without increasing overall weight.
-                    </p>
-                    <p class="fs-6 mb-3">
-                        The alloy performs exceptionally well in structural frameworks, transportation equipment, machinery, bridges, offshore platforms, and engineering components where durability and long service life are essential.
-                    </p>
-                    <p class="fs-6">
-                        Whether you require aluminium HE30 sheets, plates, bars, rods, pipes, tubes, or custom-machined components, this alloy delivers dependable performance across demanding industrial applications.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Product Overview -->
-    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+<section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Aluminium HE30 | Product Overview</h2>
@@ -99,8 +70,7 @@
         </div>
     </section>
 
-    <!-- Download Datasheet -->
-    <section class="sec-padd-bottom bg-light">
+<section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Aluminium Alloy HE30 Datasheet</h3>
             <p class="mb-3">
@@ -137,8 +107,7 @@
         </div>
     </section>
 
-    <!-- Specifications -->
-    <section class="sec-padd-top sec-padd-bottom" id="specifications">
+<section id="specification" class="sec-padd-top sec-padd-bottom" id="specifications">
         <div class="container">
             <div class="section-title center">
                 <h2>Aluminium HE30 Specifications (HE30 / AA6082)</h2>
@@ -170,8 +139,7 @@
         </div>
     </section>
 
-    <!-- Chemical Composition -->
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="composition">
+<section class="sec-padd-top sec-padd-bottom bg-light" id="composition">
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition – Aluminium Alloy HE30 (AA6082)</h2>
@@ -205,8 +173,6 @@
         </div>
     </section>
 
-    <!-- Physical Properties -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom" id="properties">
         <div class="container">
@@ -240,9 +206,468 @@
     </section>
 --}}
 
+<section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Mechanical Properties – Aluminium HE30 (AA6082)</h2>
+            </div>
 
-    <!-- ⭐ Thermal Properties (Requested Star Section 1) -->
-    
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle text-center">
+                            <thead class="table-dark">
+                                <tr class="t-row">
+                                    <th>Temper Condition</th>
+                                    <th>Tensile Strength (MPa)</th>
+                                    <th>Yield Strength (MPa)</th>
+                                    <th>Elongation (%)</th>
+                                    <th>Hardness (Brinell)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row"><td><strong>HE30 - O (Annealed)</strong></td><td>130 – 160</td><td>60 – 85</td><td>16 – 24 %</td><td>40 – 50 HB</td></tr>
+                                <tr class="t-row"><td><strong>HE30 - T4 Temper</strong></td><td>205 – 260</td><td>110 – 170</td><td>14 – 20 %</td><td>65 – 80 HB</td></tr>
+                                <tr class="t-row"><td><strong>HE30 - T6 Temper (Standard)</strong></td><td>290 – 340</td><td>250 – 310</td><td>8 – 12 %</td><td>90 – 100 HB</td></tr>
+                                <tr class="t-row"><td><strong>HE30 - T651 Extrusions</strong></td><td>310 – 350</td><td>260 – 320</td><td>10 – 14 %</td><td>95 – 105 HB</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-center mt-3 fs-6">
+                <strong>Note:</strong> HE30-T6 offers outstanding fatigue strength, making it ideal for long-term structural and cyclic loading applications.
+            </p>
+        </div>
+    </section>
+
+{{-- 
+<section class="sec-padd-top sec-padd-bottom bg-light" id="forms">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Available Forms -->
+                <div class="col-lg-6">
+                    <div class="section-title center">
+                        <h2>Available Forms & Size Range</h2>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle text-center">
+                            <thead class="table-dark">
+                                <tr class="t-row">
+                                    <th>Product Form</th>
+                                    <th>Size Range / Capabilities</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row"><td><strong>Sheets & Plates</strong></td><td>0.5 mm – 150 mm Thickness</td></tr>
+                                <tr class="t-row"><td><strong>Round Bars & Rods</strong></td><td>6 mm – 350 mm Diameter</td></tr>
+                                <tr class="t-row"><td><strong>Structural Extrusions</strong></td><td>Angles, Channels, Beams & Profiles</td></tr>
+                                <tr class="t-row"><td><strong>Seamless & Welded Tubes</strong></td><td>6 mm OD – 250 mm OD</td></tr>
+                                <tr class="t-row"><td><strong>Custom Machined Parts</strong></td><td>As per customer CAD drawing</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Equivalent Grades -->
+                <div class="col-lg-6">
+                    <div class="section-title center">
+                        <h2>International Equivalent Grades</h2>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle text-center">
+                            <thead class="table-dark">
+                                <tr class="t-row">
+                                    <th>Standard Body</th>
+                                    <th>Grade Designation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row"><td><strong>British Standard (BS)</strong></td><td>HE30 / H30</td></tr>
+                                <tr class="t-row"><td><strong>American (AA / UNS)</strong></td><td>AA6082 / UNS A96082</td></tr>
+                                <tr class="t-row"><td><strong>European (EN)</strong></td><td>EN AW-6082 / AlSi1MgMn</td></tr>
+                                <tr class="t-row"><td><strong>German (DIN / Werkstoff)</strong></td><td>DIN 3.2315</td></tr>
+                                <tr class="t-row"><td><strong>ISO Standard</strong></td><td>AlSi1MgMn (ISO 6361)</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+--}}
+
+@php
+        $products = [
+            [
+                'name' => 'Pipes',
+                'route' => 'products.pipes-tubes.seamless-pipes',
+                'image' => 'assets/images/all-product/seamless-pipes-10.webp',
+            ],
+            [
+                'name' => 'Tubes',
+                'route' => 'products.pipes-tubes.welded-pipes',
+                'image' => 'assets/images/all-product/welded-pipes-tubes-1.webp',
+            ],
+            [
+                'name' => 'Sheets',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
+                'image' => 'assets/images/all-product/Sheets-Plates.webp',
+            ],
+            [
+                'name' => 'Plates',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
+                'image' => 'assets/images/all-product/Sheets-Plates.webp',
+            ],
+            [
+                'name' => 'Flanges',
+                'route' => 'products.flanges.flanges-and-gaskets',
+                'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
+            ],
+            [
+                'name' => 'Bars',
+                'route' => 'products.bars-rods',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
+            ],
+            [
+                'name' => 'Fittings',
+                'route' => 'products.pipe-fittings',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
+            ]
+        ];
+    @endphp
+
+<section id="products" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Aluminium HE30 Products Available</h2>
+            </div>
+            <p class="text-center mb-5 fs-6">
+                Moksh Tubes & Fittings LLP supplies a comprehensive range of certified Aluminium HE30 product forms tailored to project specifications.
+            </p>
+
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
+                @foreach ($products as $product)
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100 shadow-sm">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-3 px-2">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
+<section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Uses and Advantages</h2>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Excellent Corrosion Resistance in acids like hydrochloric, sulfuric, nitric, and organic acids
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h5>Good Strength and Toughness at room and elevated temperatures</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h5>Easily Weldable and Formable—supports complex fabrication</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h5>Low Reactivity with Process Media—ideal for sensitive applications</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                        <h5>Non-toxic and Biocompatible—used in medical and high-purity chemical systems</h5>
+                    </div>
+                </div>
+                {{-- <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Economical compared to other titanium grades with higher alloy content</h5>
+                    </div>
+                </div> --}}
+            </div>
+        </div>
+    </section>
+
+<section class="sec-padd-top sec-padd-bottom bg-light" id="applications">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Applications of Aluminium HE30</h2>
+            </div>
+            <p class="text-center mb-5 fs-6">
+                Aluminium HE30 is widely specified across structural engineering projects requiring durability and high strength-to-weight ratios.
+            </p>
+
+                        <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Chemical Processing</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h5>Oil & Gas</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-water"></i></div>
+                        <h5>Marine</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
+                        <h5>Pharmaceutical</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-thermometer-half"></i></div>
+                        <h5>Heat Exchangers</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
+                        <h5>Power Plants</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container text-center">
+            <div class="section-title center">
+                <h2>WHY CHOOSE US?</h2>
+            </div>
+
+                        <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+                        <h5>ISO Certified</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-file-earmark-check"></i></div>
+                        <h5>MTC 3.1</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+                        <h5>Fast Delivery</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>Worldwide Export</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-cash-coin"></i></div>
+                        <h5>Competitive Price</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{{-- 
+<section id="price" class="sec-padd-top sec-padd-bottom py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Aluminium HE30 Price per kg in India</h2>
+            </div>
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹350 – ₹650 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by outer diameter, wall thickness, product form, temper, and finish)
+            </p>
+            <p class="text-center fs-5 mb-4">
+                Contact us for an exact competitive quotation based on your project dimensions and quantity.
+            </p>
+            <div class="text-center">
+                <a href="javascript:void(0);" class="btn btn-lg text-white px-5 py-3 fw-bold" style="background-color: #db7227; border-radius: 8px;" data-bs-toggle="modal" data-bs-target="#contactFormModal">
+                    👉 Request Instant Price Quote
+                </a>
+            </div>
+        </div>
+    </section>
+--}}
+
+{{-- 
+<section id="faq" class="faq-content-area sec-padd2 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>Frequently Asked Questions (FAQs)</h2>
+                        </div>
+
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn"><h4>1. What is Aluminium Alloy HE30 used for?</h4></div>
+                            <div class="accord-content"><p>Aluminium HE30 (AA6082) is widely used in structural engineering, shipbuilding, bridge frameworks, defense vehicles, and transportation equipment due to its high strength and excellent corrosion resistance.</p></div>
+                        </div>
+
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn"><h4>2. What is the equivalent grade of Aluminium HE30?</h4></div>
+                            <div class="accord-content"><p>The American AA equivalent is AA6082 (UNS A96082), European equivalent is EN AW-6082, and German Werkstoff designation is DIN 3.2315.</p></div>
+                        </div>
+
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn"><h4>3. Can Aluminium HE30 be welded easily?</h4></div>
+                            <div class="accord-content"><p>Yes, HE30 exhibits excellent weldability using TIG (GTAW) and MIG (GMAW) welding methods with ER4043 or ER5356 filler metals.</p></div>
+                        </div>
+
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn"><h4>4. What is the thermal conductivity of Aluminium HE30?</h4></div>
+                            <div class="accord-content"><p>The thermal conductivity of Aluminium HE30 is approximately 130 W/m·K, making it efficient for thermal dissipation in engineering components.</p></div>
+                        </div>
+
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn"><h4>5. Where can I buy certified Aluminium HE30?</h4></div>
+                            <div class="accord-content"><p>You can purchase certified Aluminium HE30 sheets, plates, bars, rods, tubes, and extrusions from Moksh Tubes & Fittings LLP with EN 10204 3.1 Mill Test Certificates and worldwide delivery.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+--}}
+
+{{-- 
+<section class="blog-section sec-padd2 bg-light">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2>Related Blogs & Technical Guides</h2>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center gap-2 mb-5 text-center">
+                <span class="badge bg-white text-dark border p-2 fs-6">What is Aluminium HE30?</span>
+                <span class="badge bg-white text-dark border p-2 fs-6">HE30 vs 6061 Aluminium</span>
+                <span class="badge bg-white text-dark border p-2 fs-6">HE30 vs 7075 Aluminium</span>
+                <span class="badge bg-white text-dark border p-2 fs-6">Complete Guide to Aluminium Alloys</span>
+                <span class="badge bg-white text-dark border p-2 fs-6">Heat Treatment of Aluminium Alloys</span>
+                <span class="badge bg-white text-dark border p-2 fs-6">Aluminium Alloy Selection Guide</span>
+                <span class="badge bg-white text-dark border p-2 fs-6">Corrosion Resistance of Aluminium Alloys</span>
+                <span class="badge bg-white text-dark border p-2 fs-6">Aluminium Alloy Applications in Aerospace</span>
+                <span class="badge bg-white text-dark border p-2 fs-6">Difference Between HE30 and AA6082</span>
+                <span class="badge bg-white text-dark border p-2 fs-6">Aluminium Alloy Standards Explained</span>
+            </div>
+
+            @if(isset($blogs) && count($blogs) > 0)
+                <div class="row">
+                    @foreach ($blogs as $blog)
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-4">
+                            <div class="default-blog-news h-100 shadow-sm bg-white rounded">
+                                <figure class="img-holder mb-0">
+                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                        <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}" loading="lazy" class="img-fluid w-100">
+                                    </a>
+                                </figure>
+                                <div class="lower-content p-3">
+                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                        <h5>{{ Str::limit($blog->title, 45) }}</h5>
+                                    </a>
+                                    <div class="post-meta small text-muted mb-2">
+                                        by {{ $blog->author ?? 'Admin' }} | {{ $blog->created_at->format('F d, Y') }}
+                                    </div>
+                                    <div class="small mb-3">
+                                        {!! \Str::limit(strip_tags($blog->content), 100) !!}
+                                    </div>
+                                    <div class="link">
+                                        <a href="{{ route('frontend.single-blog', $blog->slug) }}" class="default_link fw-bold text-decoration-none" style="color:#db7227;">
+                                            Read More <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+                </div>
+            @endif
+        </div>
+    </section>
+--}}
+
+{{-- 
+<section id="contact-us" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="contact-cta-box text-center p-5 rounded shadow" style="background: #174268; color: #fff;">
+                <h2 class="text-white mb-3">Looking for a Reliable Aluminium HE30 Supplier?</h2>
+                <p class="fs-6 mb-4 mx-auto" style="max-width: 800px;">
+                    <strong>Moksh Tubes & Fittings LLP</strong> supplies premium-quality Aluminium Alloy HE30 (AA6082) in sheets, plates, bars, rods, pipes, tubes, extrusions, and custom-machined components. All products are manufactured according to international quality standards and are supplied with complete material traceability, Mill Test Certificates (EN 10204 3.1), and optional third-party inspection.
+                </p>
+                <a href="javascript:void(0);" class="contact-cta-btn btn btn-lg px-5 py-3 fw-bold text-white shadow" style="background-color: #db7227; border-radius: 8px;" data-bs-toggle="modal" data-bs-target="#contactFormModal">
+                    👉 Request a Quote Today
+                </a>
+            </div>
+        </div>
+    </section>
+--}}
+
+    <!-- Extra Sections (Commented Out) -->
+{-- 
+<section id="why-choose" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Why Choose Aluminium Alloy HE30?</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10" style="text-align: justify;">
+                    <p class="fs-6 mb-3">
+                        <strong>Aluminium Alloy HE30 (AA6082)</strong> is one of the most widely used heat-treatable aluminium alloys for structural and engineering applications. It is valued for its excellent combination of strength, corrosion resistance, weldability, and machinability, making it suitable for a wide range of industrial sectors.
+                    </p>
+                    <p class="fs-6 mb-3">
+                        Compared with many conventional aluminium grades, HE30 provides higher mechanical strength while remaining lightweight. This makes it an excellent choice for components that need to withstand heavy loads without increasing overall weight.
+                    </p>
+                    <p class="fs-6 mb-3">
+                        The alloy performs exceptionally well in structural frameworks, transportation equipment, machinery, bridges, offshore platforms, and engineering components where durability and long service life are essential.
+                    </p>
+                    <p class="fs-6">
+                        Whether you require aluminium HE30 sheets, plates, bars, rods, pipes, tubes, or custom-machined components, this alloy delivers dependable performance across demanding industrial applications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+ --}
+
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="thermal">
         <div class="container">
@@ -299,9 +724,6 @@
     </section>
 --}}
 
-
-    <!-- Heat Treatment -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom" id="heat-treatment">
         <div class="container">
@@ -335,9 +757,6 @@
     </section>
 --}}
 
-
-    <!-- ⭐ Welding of Aluminium HE30 (Requested Star Section 2) -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="welding">
         <div class="container">
@@ -398,9 +817,6 @@
     </section>
 --}}
 
-
-    <!-- ⭐ Machining of Aluminium HE30 (Requested Star Section 3) -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom" id="machining">
         <div class="container">
@@ -465,9 +881,6 @@
     </section>
 --}}
 
-
-    <!-- ⭐ Fabrication of Aluminium HE30 (Requested Star Section 4) -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="fabrication">
         <div class="container">
@@ -524,46 +937,6 @@
     </section>
 --}}
 
-
-    <!-- Mechanical Properties -->
-    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Mechanical Properties – Aluminium HE30 (AA6082)</h2>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle text-center">
-                            <thead class="table-dark">
-                                <tr class="t-row">
-                                    <th>Temper Condition</th>
-                                    <th>Tensile Strength (MPa)</th>
-                                    <th>Yield Strength (MPa)</th>
-                                    <th>Elongation (%)</th>
-                                    <th>Hardness (Brinell)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="t-row"><td><strong>HE30 - O (Annealed)</strong></td><td>130 – 160</td><td>60 – 85</td><td>16 – 24 %</td><td>40 – 50 HB</td></tr>
-                                <tr class="t-row"><td><strong>HE30 - T4 Temper</strong></td><td>205 – 260</td><td>110 – 170</td><td>14 – 20 %</td><td>65 – 80 HB</td></tr>
-                                <tr class="t-row"><td><strong>HE30 - T6 Temper (Standard)</strong></td><td>290 – 340</td><td>250 – 310</td><td>8 – 12 %</td><td>90 – 100 HB</td></tr>
-                                <tr class="t-row"><td><strong>HE30 - T651 Extrusions</strong></td><td>310 – 350</td><td>260 – 320</td><td>10 – 14 %</td><td>95 – 105 HB</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-            <p class="text-center mt-3 fs-6">
-                <strong>Note:</strong> HE30-T6 offers outstanding fatigue strength, making it ideal for long-term structural and cyclic loading applications.
-            </p>
-        </div>
-    </section>
-
-    <!-- ⭐ Corrosion Resistance of Aluminium HE30 (Requested Star Section 5) -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="corrosion">
         <div class="container">
@@ -619,9 +992,6 @@
     </section>
 --}}
 
-
-    <!-- Material Comparison -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom" id="comparison">
         <div class="container">
@@ -664,134 +1034,6 @@
     </section>
 --}}
 
-
-    <!-- Available Forms & Equivalent Grades -->
-    
-{{-- 
-<section class="sec-padd-top sec-padd-bottom bg-light" id="forms">
-        <div class="container">
-            <div class="row g-5">
-                <!-- Available Forms -->
-                <div class="col-lg-6">
-                    <div class="section-title center">
-                        <h2>Available Forms & Size Range</h2>
-                    </div>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle text-center">
-                            <thead class="table-dark">
-                                <tr class="t-row">
-                                    <th>Product Form</th>
-                                    <th>Size Range / Capabilities</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="t-row"><td><strong>Sheets & Plates</strong></td><td>0.5 mm – 150 mm Thickness</td></tr>
-                                <tr class="t-row"><td><strong>Round Bars & Rods</strong></td><td>6 mm – 350 mm Diameter</td></tr>
-                                <tr class="t-row"><td><strong>Structural Extrusions</strong></td><td>Angles, Channels, Beams & Profiles</td></tr>
-                                <tr class="t-row"><td><strong>Seamless & Welded Tubes</strong></td><td>6 mm OD – 250 mm OD</td></tr>
-                                <tr class="t-row"><td><strong>Custom Machined Parts</strong></td><td>As per customer CAD drawing</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
-                <!-- Equivalent Grades -->
-                <div class="col-lg-6">
-                    <div class="section-title center">
-                        <h2>International Equivalent Grades</h2>
-                    </div>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle text-center">
-                            <thead class="table-dark">
-                                <tr class="t-row">
-                                    <th>Standard Body</th>
-                                    <th>Grade Designation</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="t-row"><td><strong>British Standard (BS)</strong></td><td>HE30 / H30</td></tr>
-                                <tr class="t-row"><td><strong>American (AA / UNS)</strong></td><td>AA6082 / UNS A96082</td></tr>
-                                <tr class="t-row"><td><strong>European (EN)</strong></td><td>EN AW-6082 / AlSi1MgMn</td></tr>
-                                <tr class="t-row"><td><strong>German (DIN / Werkstoff)</strong></td><td>DIN 3.2315</td></tr>
-                                <tr class="t-row"><td><strong>ISO Standard</strong></td><td>AlSi1MgMn (ISO 6361)</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
---}}
-
-
-        @php
-        $products = [
-            [
-                'name' => 'Pipes',
-                'route' => 'products.pipes-tubes.seamless-pipes',
-                'image' => 'assets/images/all-product/seamless-pipes-10.webp',
-            ],
-            [
-                'name' => 'Tubes',
-                'route' => 'products.pipes-tubes.welded-pipes',
-                'image' => 'assets/images/all-product/welded-pipes-tubes-1.webp',
-            ],
-            [
-                'name' => 'Sheets',
-                'route' => 'products.sheets-plates-coils.sheets-and-plates',
-                'image' => 'assets/images/all-product/Sheets-Plates.webp',
-            ],
-            [
-                'name' => 'Plates',
-                'route' => 'products.sheets-plates-coils.sheets-and-plates',
-                'image' => 'assets/images/all-product/Sheets-Plates.webp',
-            ],
-            [
-                'name' => 'Flanges',
-                'route' => 'products.flanges.flanges-and-gaskets',
-                'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
-            ],
-            [
-                'name' => 'Bars',
-                'route' => 'products.bars-rods',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
-            ],
-            [
-                'name' => 'Fittings',
-                'route' => 'products.pipe-fittings',
-                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
-            ]
-        ];
-    @endphp
-
-    <!-- Products Available -->
-    <section id="products" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Aluminium HE30 Products Available</h2>
-            </div>
-            <p class="text-center mb-5 fs-6">
-                Moksh Tubes & Fittings LLP supplies a comprehensive range of certified Aluminium HE30 product forms tailored to project specifications.
-            </p>
-
-            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
-                @foreach ($products as $product)
-                    <div class="col d-flex">
-                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
-                            <div class="product-card h-100 shadow-sm">
-                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                    class="img-fluid w-100">
-                                <h6 class="product-card-title text-center mt-0 py-3 px-2">{{ $product['name'] }}</h6>
-                            </div>
-                        </a>
-                    </div>
-                @endforeach
-            </div>
-        </div>
-    </section>
-
-    <!-- ⭐ Manufacturing Process (Requested Star Section 6) -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="manufacturing">
         <div class="container">
@@ -826,9 +1068,6 @@
     </section>
 --}}
 
-
-    <!-- ⭐ Quality Testing (Requested Star Section 7) -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -867,9 +1106,6 @@
     </section>
 --}}
 
-
-    <!-- ⭐ Advantages of Aluminium HE30 (Requested Star Section 8) -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="advantages">
         <div class="container">
@@ -896,9 +1132,6 @@
     </section>
 --}}
 
-
-    <!-- ⭐ Limitations of Aluminium HE30 (Requested Star Section 9) -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -933,60 +1166,6 @@
     </section>
 --}}
 
-
-    <!-- Applications -->
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="applications">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Applications of Aluminium HE30</h2>
-            </div>
-            <p class="text-center mb-5 fs-6">
-                Aluminium HE30 is widely specified across structural engineering projects requiring durability and high strength-to-weight ratios.
-            </p>
-
-                        <div class="row g-4 justify-content-center">
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Chemical Processing</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Oil & Gas</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-water"></i></div>
-                        <h5>Marine</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
-                        <h5>Pharmaceutical</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-thermometer-half"></i></div>
-                        <h5>Heat Exchangers</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
-                        <h5>Power Plants</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ⭐ Industries Served (Requested Star Section 10) -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom" id="industries">
         <div class="container">
@@ -1025,9 +1204,6 @@
     </section>
 --}}
 
-
-    <!-- ⭐ Export Countries (Requested Star Section 11) -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom bg-light" id="export">
         <div class="container">
@@ -1064,80 +1240,6 @@
     </section>
 --}}
 
-
-    <!-- Price -->
-    
-{{-- 
-<section id="price" class="sec-padd-top sec-padd-bottom py-5">
-        <div class="container">
-            <div class="section-title text-center mb-4">
-                <h2>Aluminium HE30 Price per kg in India</h2>
-            </div>
-            <p class="text-center fs-5">
-                <strong>Typical Range:</strong> ₹350 – ₹650 per kg
-            </p>
-            <p class="text-center mb-2">
-                (Price varies by outer diameter, wall thickness, product form, temper, and finish)
-            </p>
-            <p class="text-center fs-5 mb-4">
-                Contact us for an exact competitive quotation based on your project dimensions and quantity.
-            </p>
-            <div class="text-center">
-                <a href="javascript:void(0);" class="btn btn-lg text-white px-5 py-3 fw-bold" style="background-color: #db7227; border-radius: 8px;" data-bs-toggle="modal" data-bs-target="#contactFormModal">
-                    👉 Request Instant Price Quote
-                </a>
-            </div>
-        </div>
-    </section>
---}}
-
-
-    <!-- FAQ -->
-    
-{{-- 
-<section id="faq" class="faq-content-area sec-padd2 bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="accordion-box">
-                        <div class="section-title center">
-                            <h2>Frequently Asked Questions (FAQs)</h2>
-                        </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn"><h4>1. What is Aluminium Alloy HE30 used for?</h4></div>
-                            <div class="accord-content"><p>Aluminium HE30 (AA6082) is widely used in structural engineering, shipbuilding, bridge frameworks, defense vehicles, and transportation equipment due to its high strength and excellent corrosion resistance.</p></div>
-                        </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn"><h4>2. What is the equivalent grade of Aluminium HE30?</h4></div>
-                            <div class="accord-content"><p>The American AA equivalent is AA6082 (UNS A96082), European equivalent is EN AW-6082, and German Werkstoff designation is DIN 3.2315.</p></div>
-                        </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn"><h4>3. Can Aluminium HE30 be welded easily?</h4></div>
-                            <div class="accord-content"><p>Yes, HE30 exhibits excellent weldability using TIG (GTAW) and MIG (GMAW) welding methods with ER4043 or ER5356 filler metals.</p></div>
-                        </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn"><h4>4. What is the thermal conductivity of Aluminium HE30?</h4></div>
-                            <div class="accord-content"><p>The thermal conductivity of Aluminium HE30 is approximately 130 W/m·K, making it efficient for thermal dissipation in engineering components.</p></div>
-                        </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn"><h4>5. Where can I buy certified Aluminium HE30?</h4></div>
-                            <div class="accord-content"><p>You can purchase certified Aluminium HE30 sheets, plates, bars, rods, tubes, and extrusions from Moksh Tubes & Fittings LLP with EN 10204 3.1 Mill Test Certificates and worldwide delivery.</p></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
---}}
-
-
-    <!-- Related Materials -->
-    
 {{-- 
 <section class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
@@ -1159,83 +1261,6 @@
         </div>
     </section>
 --}}
-
-
-    <!-- Related Blogs -->
-    
-{{-- 
-<section class="blog-section sec-padd2 bg-light">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Related Blogs & Technical Guides</h2>
-            </div>
-            <div class="d-flex flex-wrap justify-content-center gap-2 mb-5 text-center">
-                <span class="badge bg-white text-dark border p-2 fs-6">What is Aluminium HE30?</span>
-                <span class="badge bg-white text-dark border p-2 fs-6">HE30 vs 6061 Aluminium</span>
-                <span class="badge bg-white text-dark border p-2 fs-6">HE30 vs 7075 Aluminium</span>
-                <span class="badge bg-white text-dark border p-2 fs-6">Complete Guide to Aluminium Alloys</span>
-                <span class="badge bg-white text-dark border p-2 fs-6">Heat Treatment of Aluminium Alloys</span>
-                <span class="badge bg-white text-dark border p-2 fs-6">Aluminium Alloy Selection Guide</span>
-                <span class="badge bg-white text-dark border p-2 fs-6">Corrosion Resistance of Aluminium Alloys</span>
-                <span class="badge bg-white text-dark border p-2 fs-6">Aluminium Alloy Applications in Aerospace</span>
-                <span class="badge bg-white text-dark border p-2 fs-6">Difference Between HE30 and AA6082</span>
-                <span class="badge bg-white text-dark border p-2 fs-6">Aluminium Alloy Standards Explained</span>
-            </div>
-
-            @if(isset($blogs) && count($blogs) > 0)
-                <div class="row">
-                    @foreach ($blogs as $blog)
-                        <div class="col-md-4 col-sm-6 col-xs-12 mb-4">
-                            <div class="default-blog-news h-100 shadow-sm bg-white rounded">
-                                <figure class="img-holder mb-0">
-                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                        <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}" loading="lazy" class="img-fluid w-100">
-                                    </a>
-                                </figure>
-                                <div class="lower-content p-3">
-                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                        <h5>{{ Str::limit($blog->title, 45) }}</h5>
-                                    </a>
-                                    <div class="post-meta small text-muted mb-2">
-                                        by {{ $blog->author ?? 'Admin' }} | {{ $blog->created_at->format('F d, Y') }}
-                                    </div>
-                                    <div class="small mb-3">
-                                        {!! \Str::limit(strip_tags($blog->content), 100) !!}
-                                    </div>
-                                    <div class="link">
-                                        <a href="{{ route('frontend.single-blog', $blog->slug) }}" class="default_link fw-bold text-decoration-none" style="color:#db7227;">
-                                            Read More <i class="fa fa-angle-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
-                </div>
-            @endif
-        </div>
-    </section>
---}}
-
-
-    <!-- Final CTA -->
-    
-{{-- 
-<section id="contact-us" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="contact-cta-box text-center p-5 rounded shadow" style="background: #174268; color: #fff;">
-                <h2 class="text-white mb-3">Looking for a Reliable Aluminium HE30 Supplier?</h2>
-                <p class="fs-6 mb-4 mx-auto" style="max-width: 800px;">
-                    <strong>Moksh Tubes & Fittings LLP</strong> supplies premium-quality Aluminium Alloy HE30 (AA6082) in sheets, plates, bars, rods, pipes, tubes, extrusions, and custom-machined components. All products are manufactured according to international quality standards and are supplied with complete material traceability, Mill Test Certificates (EN 10204 3.1), and optional third-party inspection.
-                </p>
-                <a href="javascript:void(0);" class="contact-cta-btn btn btn-lg px-5 py-3 fw-bold text-white shadow" style="background-color: #db7227; border-radius: 8px;" data-bs-toggle="modal" data-bs-target="#contactFormModal">
-                    👉 Request a Quote Today
-                </a>
-            </div>
-        </div>
-    </section>
---}}
-
 
 @endsection
 
