@@ -298,20 +298,7 @@
                             </h6>
                         </div>
                     </a>
-                </div><div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings.u-bend') }}"
-                        class="text-decoration-none d-block h-100">
-                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-                            style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/product/flangs/u-bends_11zon.jpg') }}" alt="U-Bends"
-                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
-                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                                style="background-color: #174268; color: #fff; display: inline-block;">
-                                U-Bends
-                            </h6>
-                        </div>
-                    </a>
-                </div>
+                {{-- U Bend card removed --}}
                 <div class="col-12 col-sm-6 col-lg-4">
                     <a href="{{ route('products.pipe-fittings.olets.weldolet') }}"
                         class="text-decoration-none d-block h-100">

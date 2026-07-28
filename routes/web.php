@@ -217,7 +217,7 @@ $defineRoutes = function () {
     Route::get('/products/pipe-fittings/reducers/eccentric', [MainController::class, 'eccentricReducers'])->name('products.pipe-fittings.reducers.eccentric');
     Route::get('/products/pipe-fittings/olets/weldolet', [MainController::class, 'weldolets'])->name('products.pipe-fittings.olets.weldolet');
     Route::get('/products/pipe-fittings/olets/sockolet', [MainController::class, 'sockolets'])->name('products.pipe-fittings.olets.sockolet');
-    Route::get('/products/pipe-fittings/u-bend', [MainController::class, 'uBends'])->name('products.pipe-fittings.u-bend');
+    // Route::get('/products/pipe-fittings/u-bend', [MainController::class, 'uBends'])->name('products.pipe-fittings.u-bend');
 
     // Flanges
     Route::get('/products/flanges/weld-neck-flanges', [MainController::class, 'wnrfFlanges'])->name('products.flanges.weld-neck-flanges');

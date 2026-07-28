@@ -618,8 +618,7 @@
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li><a href="{{ route('products.pipe-fittings.u-bend') }}">U
-                                                                Bend</a></li>
+                                                        {{-- U Bend removed --}}
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
@@ -1360,8 +1359,7 @@
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li><a href="{{ route('products.pipe-fittings.u-bend') }}">U
-                                                                Bend</a></li>
+                                                        {{-- U Bend removed --}}
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
