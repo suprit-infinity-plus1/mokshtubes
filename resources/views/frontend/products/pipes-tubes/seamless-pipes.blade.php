@@ -71,42 +71,7 @@
     </section>
 
     <!-- Datasheet Download -->
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Seamless Pipes Datasheet</h3>
-            <p class="mb-3">
-                Get the complete technical datasheet including specifications, chemical composition, mechanical properties, pressure ratings, testing requirements, and application guidelines. Enter your email below to receive the PDF instantly.
-            </p>
-
-            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
-                @csrf
-                <input type="hidden" name="page_path" value="{{ Request::path() }}">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Datasheet
-                        </button>
-                    </div>
-                </div>
-            </form>
-
-            @if (session('success'))
-                <div class="alert alert-success mt-3">
-                    {{ session('success') }}
-                </div>
-            @endif
-
-            <hr class="my-4">
-            <p class="small text-muted">
-                We respect your privacy and only use your email to send the requested datasheet.
-            </p>
-        </div>
-    </section>
+    
 
     <!-- 2. Specifications -->
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
@@ -841,100 +806,7 @@
     </section>
 
     <!-- Related Products -->
-    <section class="our-services sec-padd-top sec-padd-bottom bg-light border-top border-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold fs-4" style="color: #174268;">Quick Links & Related Products</h2>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border bg-white">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') ?? '#' }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy seamless pipes" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 text-uppercase">Nickel Alloys</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border bg-white">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') ?? '#' }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="Stainless steel seamless pipes" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 text-uppercase">Stainless Steel</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border bg-white">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') ?? '#' }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex seamless pipes" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 text-uppercase">Duplex & Super</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border bg-white">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') ?? '#' }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="Titanium seamless pipes" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 text-uppercase">Titanium Alloys</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border bg-white">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') ?? '#' }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy seamless pipes" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 text-uppercase">Haynes Superalloys</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border bg-white">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.inconel') ?? '#' }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Inconel alloy seamless pipes" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 text-uppercase">Inconel</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- Request a Quote -->
     <section class="sec-padd-top sec-padd-bottom">

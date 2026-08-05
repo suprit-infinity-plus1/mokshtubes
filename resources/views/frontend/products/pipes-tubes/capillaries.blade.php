@@ -84,42 +84,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Capillary Tubes Datasheet</h3>
-            <p class="mb-3">
-                Get the complete technical datasheet including chemical composition, mechanical properties, size availability, standards, testing procedures, and application guidelines. Enter your email to receive the PDF instantly.
-            </p>
-
-            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
-                @csrf
-                <input type="hidden" name="page_path" value="{{ Request::path() }}">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Datasheet
-                        </button>
-                    </div>
-                </div>
-            </form>
-
-            @if (session('success'))
-                <div class="alert alert-success mt-3">
-                    {{ session('success') }}
-                </div>
-            @endif
-
-            <p class="small text-muted">
-                We respect your privacy. Your email will only be used to send the datasheet.
-            </p>
-        </div>
-    </section>
+    
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -506,53 +471,7 @@
         </div>
     </section>
 
-    <section id="buying-guide" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Buying Guide & Material Selection</h2>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Application / Media</th>
-                                    <th>Recommended Material Grade</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Medical Use (Hypodermic Needles, Catheters)</td>
-                                    <td>Stainless Steel (316L) / Titanium</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>High Temperature & Corrosive Use</td>
-                                    <td>Inconel / Nickel Alloys</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Marine & Sea Water Use</td>
-                                    <td>Monel / Cu-Ni (Copper-Nickel)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Precision Instrumentation</td>
-                                    <td>SS 316L / SS 304</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>HVAC & Refrigeration</td>
-                                    <td>Cu-Ni / SS 304</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <p class="text-center mt-3">
-                        📌 <strong>Choosing the right material</strong> ensures longer life and better performance. Consider OD, wall thickness, pressure limits, and surface finish before selecting.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <section id="testing" class="sec-padd-top sec-padd-bottom">
         <div class="container">

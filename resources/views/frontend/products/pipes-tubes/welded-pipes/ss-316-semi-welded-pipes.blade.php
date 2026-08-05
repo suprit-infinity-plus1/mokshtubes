@@ -562,25 +562,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Surface Finishes Available</h2>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <ul class="list-group list-group-flush fs-6 text-center">
-                        <li class="list-group-item">Mirror Finish</li>
-                        <li class="list-group-item">Satin Finish</li>
-                        <li class="list-group-item">Brushed Finish</li>
-                        <li class="list-group-item">Matt Finish</li>
-                        <li class="list-group-item">Pickled Finish</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

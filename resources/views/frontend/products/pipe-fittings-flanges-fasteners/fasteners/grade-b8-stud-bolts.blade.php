@@ -209,35 +209,7 @@
         </div>
     </section>
 
-    <section class="bg-light" style="padding-top: 80px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 mb-5">
-                    <div class="section-title center mb-4">
-                        <h2 class="fw-bold" style="color: #174268;">Available Types</h2>
-                    </div>
-                    <ul class="list-group list-group-flush fs-6 text-center">
-                        <li class="list-group-item">Fully Threaded Stud Bolts</li>
-                        <li class="list-group-item">Double-End Stud Bolts</li>
-                        <li class="list-group-item"><a href="{{ route('products.bars-rods.threaded-rods') }}" class="text-decoration-none">Continuous Threaded Rods</a></li>
-                        <li class="list-group-item">Custom Cut Studs</li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 mb-5">
-                    <div class="section-title center mb-4">
-                        <h2 class="fw-bold" style="color: #174268;">Surface Finishes</h2>
-                    </div>
-                    <ul class="list-group list-group-flush fs-6 text-center">
-                        <li class="list-group-item">Plain / Self Finish</li>
-                        <li class="list-group-item">Passivated</li>
-                        <li class="list-group-item">PTFE Coated</li>
-                        <li class="list-group-item">Electro Polished</li>
-                    </ul>
-                    <p class="text-center fs-6 mt-3">Passivation improves corrosion resistance for offshore and marine projects.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -294,51 +266,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Difference Between B7 and B8 Studs</h2>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle text-center">
-                            <thead class="table-dark">
-                                <tr class="t-row">
-                                    <th>Parameter</th>
-                                    <th>B7</th>
-                                    <th>B8</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="t-row">
-                                    <td>Material</td>
-                                    <td><a href="{{ route('materials.engineering-Steels') }}" class="text-decoration-none">Alloy Steel</a></td>
-                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}" class="text-decoration-none">Stainless Steel 304</a></td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Strength</td>
-                                    <td>Higher</td>
-                                    <td>Moderate</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Corrosion Resistance</td>
-                                    <td>Low</td>
-                                    <td>High</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Typical Use</td>
-                                    <td>High-pressure oil & gas</td>
-                                    <td>Chemical & marine</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

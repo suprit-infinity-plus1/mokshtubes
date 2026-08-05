@@ -78,38 +78,7 @@
     </section>
 
     {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Weldolet Datasheet</h3>
-            <p class="mb-3">
-                Get the complete datasheet with dimensional specifications (STD, XS, Sch160), consolidation charts, and material properties.
-                Enter your email below to receive the PDF instantly.
-            </p>
-
-            <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
-                <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="weldolet.pdf">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Datasheet
-                        </button>
-                    </div>
-                </div>
-            </form>
-
-            <hr class="my-4">
-            <p class="small text-muted">
-                We respect your privacy. Your email will only be used to send the datasheet.
-            </p>
-        </div>
-    </section>
+    
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -205,60 +174,7 @@
         </div>
     </section>
 
-    <section id="weldolet-vs-sockolet" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Weldolet vs Sockolet</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                     <p class="fs-6 mb-3 text-justify">
-                        While both fittings are forged Olets used for 90-degree branches, their connection methods dictate their applications:
-                    </p>
-
-                    <div class="table-responsive ">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Feature</th>
-                                    <th>Weldolet</th>
-                                    <th>Sockolet</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td class="fw-bold">Branch Connection Type</td>
-                                    <td>Butt Weld (BW). Beveled end to beveled pipe.</td>
-                                    <td>Socket Weld (SW). Pipe slides into a recess.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Joint Strength</td>
-                                    <td>Highest (Full penetration weld).</td>
-                                    <td>High, but relies on a fillet weld.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Testing Capability</td>
-                                    <td>100% Radiographable (X-ray).</td>
-                                    <td>Cannot be X-rayed (Magnetic Particle or Dye Penetrant only).</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Typical Size Range</td>
-                                    <td>1/2" up to 24"+ (Available in large bores).</td>
-                                    <td>1/8" up to 4" (Small bore only).</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Crevice Corrosion Risk</td>
-                                    <td>Low (smooth internal bore).</td>
-                                    <td>Higher (gap between pipe and socket bottom can trap fluids).</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     {{-- Grades Available --}}
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
@@ -311,98 +227,7 @@
     </section>
 
     {{-- Gallery --}}
-    <section class="our-services">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steels') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Carbon Steel Weldolet" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON STEEL (A105N)</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="Stainless Steel Weldolet" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL (F316L)</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex Weldolet" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">DUPLEX & SUPER DUPLEX</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel Alloy Weldolet" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">NICKEL ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4 ">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steels') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Alloy Steel Weldolet" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">ALLOY STEEL (F11/F22)</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="Titanium Weldolet" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
+    
 
     {{-- Applications --}}
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">

@@ -79,40 +79,7 @@
         </div>
     </section>
     {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Eccentric Reducers Datasheet</h3>
-            <p class="mb-3">
-                Get the complete datasheet with dimensional specifications, weight charts, material properties, and
-                application guidelines.
-                Enter your email below to receive the PDF instantly.
-            </p>
-
-            <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
-                <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="eccentric-reducers.pdf">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Datasheet
-                        </button>
-                    </div>
-                </div>
-            </form>
-
-
-            <hr class="my-4">
-            <p class="small text-muted">
-                We respect your privacy. Your email will only be used to send the datasheet.
-            </p>
-        </div>
-    </section>
+    
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -402,98 +369,7 @@
     </section>
 
     {{-- Gallery --}}
-    <section class="our-services">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel Alloy Eccentric Reducers" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">NICKEL ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="Stainless Steel Eccentric Reducers" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and Super Duplex Eccentric Reducers" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">DUPLEX & SUPER DUPLEX</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="Titanium Alloy Eccentric Reducers" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4 ">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes Superalloy Eccentric Reducers" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">HAYNES SUPERALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Inconel Eccentric Reducers" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">INCONEL</h6>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
+    
 
     {{-- Applications --}}
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
@@ -566,77 +442,9 @@
 
     {{-- Industries We Serve --}}
     <!-- Buying Guide Section -->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Buying Guide:</h2>
-                <h4 style="color: #db7227;">How to Select the Right Eccentric Reducer</h4>
-            </div>
+    
 
-            <div class="row g-4 mt-4">
-                <div class="col-md-12">
-                    <div class="application-card">
-                        <div class="application-icon center d-flex align-items-center gap-4 justify-content-center">
-                            <i class="bi bi-brightness-high-fill"></i>
-                            <h5 class="m-0">Material Selection Guide</h5>
-                        </div>
-
-                        <div class="table-responsive mt-3">
-                            <table class="table table-bordered">
-                                <thead class="table-light">
-                                    <tr class="t-row">
-                                        <th>Material</th>
-                                        <th>Ideal For</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="t-row">
-                                        <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel (304/316)</a></td>
-                                        <td>Corrosive environments, chemical processing, clean water systems</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Carbon Steel (WPB)</td>
-                                        <td>Standard industrial piping, high-pressure oil & gas pipelines</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Alloy Steel (WP11/WP22)</td>
-                                        <td>High-temperature steam lines, power generation plants</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex / Super Duplex</a></td>
-                                        <td>Marine environments, seawater pipelines, high chloride exposure</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Engineering Diagrams</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <!-- Diagram 1 -->
-                <div class="col-md-6 center">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-diagram-3"></i></div>
-                        <a class="" href="javascript:void(0);">
-                            <img class="w-100" src="{{ asset('/assets/images/product/flangs/eccentric-reducers_11zon.jpg') }}"
-                                alt="Eccentric Reducer Technical Diagram" loading="lazy" width="400" height="260">
-                        </a>
-                        <h5 class="mt-3">Flat on Bottom (FOB) Configuration</h5>
-                        <p class="small text-muted">Used in horizontal lines to maintain elevation and permit drainage.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     {{-- Uses --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -762,30 +570,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Buying Guide – Eccentric Reducers</h2>
-                <p>Key checklist before selecting eccentric reducers:</p>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <ul class="list-group">
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Specify Large End and Small End sizes (e.g., 6" x 4")</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Specify Wall Thickness/Schedule (e.g., Sch 40)</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Determine material grade (e.g., A234 WPB, WP316L)</li>
-                    </ul>
-                </div>
-                 <div class="col-lg-6">
-                    <ul class="list-group">
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Choose Seamless or Welded based on pressure requirements</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Confirm application (Top Flat for pumps, Bottom Flat for racks)</li>
-                         <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Request required MTC (EN 10204 3.1) and NDT reports</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
      <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">

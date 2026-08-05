@@ -1373,95 +1373,7 @@
 
     {{-- Gallery --}}
     {{-- Gallery --}}
-    <section class="our-services">
-        <div class="container">
-            <div class="container">
-            </div>
-
-            <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="NICKLE ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">NICKLE ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="STAINLESS STEEL">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="DUPLEX & SUPER">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">DUPLEX & SUPER</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="TITANIUM ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4 ">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes Superalloys">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Haynes Superalloys</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Inconel">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Inconel</h6>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
+    
 
 
     {{-- Applications --}}
@@ -1563,61 +1475,7 @@
     </section>
 
     {{-- Uses of Welded Pipes and Tubes --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses of Flanges</h2>
-            </div>
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Flanges are used extensively
-                    across multiple
-                    industries, including:</h4>
-            </div>
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-plug-fill"></i></div>
-                        <h4>Easy Connections</h4>
-                        <h5>Connect pipelines and equipment easily (flange joint, flange connection)</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-fill"></i></div>
-                        <h4>Leak Prevention</h4>
-                        <h5>Provides sealing against leaks using flange gaskets and sealants</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-search"></i></div>
-                        <h4>Inspection & Cleaning</h4>
-                        <h5>Allows easy inspection, cleaning, or modification of piping systems</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-graph-up"></i></div>
-                        <h4>Flow Measurement</h4>
-                        <h5>Supports flow measurement with orifice flanges and spectacle blind flanges</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-link-45deg"></i></div>
-                        <h4>Flexible Usage</h4>
-                        <h5>Suitable for both temporary and permanent piping connections</h5>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
+    
     {{-- Advantages of Welded Pipes & Tubes --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">

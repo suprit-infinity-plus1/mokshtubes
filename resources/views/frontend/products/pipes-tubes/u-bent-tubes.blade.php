@@ -398,66 +398,7 @@
         </div>
     </section>
     
-    <section id="seamless-welded" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Seamless vs Welded U-Bent Tubes</h2>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Parameter</th>
-                                    <th>Seamless U-Bent Tubes</th>
-                                    <th>Welded U-Bent Tubes</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Manufacturing</td>
-                                    <td>Extruded Tube</td>
-                                    <td>Strip Welded Tube</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Weld Seam</td>
-                                    <td>No</td>
-                                    <td>Yes</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Pressure Capability</td>
-                                    <td>Very High</td>
-                                    <td>Moderate</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Temperature Resistance</td>
-                                    <td>Excellent</td>
-                                    <td>Good</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Strength</td>
-                                    <td>Superior</td>
-                                    <td>Good</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Cost</td>
-                                    <td>Higher</td>
-                                    <td>Economical</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Applications</td>
-                                    <td>Boilers, Power Plants</td>
-                                    <td>Heat Exchangers, Condensers</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">

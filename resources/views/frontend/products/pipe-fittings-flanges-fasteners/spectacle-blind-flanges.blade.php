@@ -185,40 +185,7 @@
     </section>
 
     <!-- 4. Types of Spectacle Blind Flanges -->
-    <section id="types" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Types of Isolation Blinds</h2>
-            </div>
-
-            <div class="row g-4 justify-content-center pt-2">
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-primary">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-primary"><i class="bi bi-circle-square me-2"></i>Spectacle Blinds</h4>
-                            <p class="card-text fs-6 mt-3">Combines a solid disk and a hollow ring (Figure-8).</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-info">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-info"><i class="bi bi-dash-square me-2"></i>Spade Blinds</h4>
-                            <p class="card-text fs-6 mt-3">Solid plate used with a separate ring spacer for isolation.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-success">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-success"><i class="bi bi-dash-square me-2"></i>Ring Spacers</h4>
-                            <p class="card-text fs-6 mt-3">Hollow ring used when the spade is removed.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- 5. Size Chart -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
@@ -351,27 +318,7 @@
     </section>
 
     <!-- 8. Industries Served -->
-    <section id="industries" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Industries Served</h2>
-            </div>
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-10">
-                    <div class="d-flex flex-wrap justify-content-center gap-3">
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Petrochemical</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Refining</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Oil & Gas</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Chemical Processing</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- 10. Packaging & Export -->
     <section id="export" class="sec-padd-top sec-padd-bottom">

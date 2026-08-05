@@ -107,43 +107,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Threaded Rods Datasheet</h3>
-            <p class="mb-3">
-                Get the complete datasheet including chemical composition, mechanical properties, standards, tolerances, and
-                application guidelines. Enter your email to receive the PDF instantly.
-            </p>
-
-            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
-                @csrf
-                <input type="hidden" name="page_path" value="{{ Request::path() }}">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Datasheet
-                        </button>
-                    </div>
-                </div>
-            </form>
-
-            @if (session('success'))
-                <div class="alert alert-success mt-3">
-                    {{ session('success') }}
-                </div>
-            @endif
-
-            <p class="small text-muted">
-                We respect your privacy. Your email will only be used to send the datasheet.
-            </p>
-        </div>
-    </section>
+    
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -613,68 +577,7 @@
         </div>
     </section>
 
-    <section id="types" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Types of Threaded Rods</h2>
-            </div>
-
-            <p class="text-center mb-4">We supply threaded rods in various configurations to meet different engineering
-                requirements.</p>
-
-            <div class="row g-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Fully Threaded Rods (All Thread)</h5>
-                        <p>Threaded continuously from end to end, offering maximum adjustment flexibility.</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
-                        <h5>Double-End Studs</h5>
-                        <p>Threaded at both ends with an unthreaded center section, commonly used in flange connections.</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-nut"></i></div>
-                        <h5>Tap-End Studs</h5>
-                        <p>Featuring one short-threaded end and one long-threaded end for equipment assembly applications.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                        <h5>Coarse Thread Rods</h5>
-                        <p>Suitable for construction and general engineering applications.</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Fine Thread Rods</h5>
-                        <p>Used where vibration resistance and precise clamping force are required.</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
-                        <h5>Custom Threaded Rods</h5>
-                        <p>Manufactured according to project specifications, including special thread forms, coatings, and
-                            lengths.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -900,55 +803,7 @@
         </div>
     </section>
 
-    <section id="buying-guide" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Buying Guide – How to Choose the Right Threaded Rod</h2>
-            </div>
-
-            <p class="text-center mb-4">Before selecting threaded rods, consider the following factors:</p>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="row g-3">
-                        <div class="col-md-6">
-                            <div class="p-3 border rounded"><i class="bi bi-box me-2 text-primary"></i> Material grade
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-3 border rounded"><i class="bi bi-speedometer2 me-2 text-primary"></i> Load
-                                requirements</div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-3 border rounded"><i class="bi bi-shield-check me-2 text-primary"></i> Corrosion
-                                resistance needs</div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-3 border rounded"><i class="bi bi-thermometer-half me-2 text-primary"></i>
-                                Operating temperature</div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-3 border rounded"><i class="bi bi-nut me-2 text-primary"></i> Thread type</div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-3 border rounded"><i class="bi bi-brush me-2 text-primary"></i> Required finish
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-3 border rounded"><i class="bi bi-journal-text me-2 text-primary"></i>
-                                Applicable ASTM or DIN standards</div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-3 border rounded"><i class="bi bi-file-earmark-check me-2 text-primary"></i>
-                                Certification requirements</div>
-                        </div>
-                    </div>
-                    <p class="mt-4 text-center"><strong>📌 Note:</strong> For offshore and export projects, EN 10204 3.1
-                        certification is strongly recommended.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">

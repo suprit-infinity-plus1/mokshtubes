@@ -186,64 +186,7 @@
     </section>
 
     <!-- 4. Types of F316 Flanges -->
-    <section id="types" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Types of F316 Flanges</h2>
-            </div>
-
-            <div class="row g-4 justify-content-center pt-2">
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-primary">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-primary"><i class="bi bi-circle-square me-2"></i>Weld Neck Flanges (WN)</h4>
-                            <p class="card-text fs-6 mt-3">Used in high-pressure and critical applications.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-info">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-info"><i class="bi bi-dash-square me-2"></i>Slip-On Flanges (SORF)</h4>
-                            <p class="card-text fs-6 mt-3">Easy installation for general piping systems.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-success">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-success"><i class="bi bi-record-circle me-2"></i><a href="{{ route('products.flanges.blind-flanges') }}" style="color: #198754; text-decoration: none;">Blind Flanges</a></h4>
-                            <p class="card-text fs-6 mt-3">Used for pipeline closure and isolation.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-warning">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-warning"><i class="bi bi-vinyl me-2"></i>Socket Weld Flanges</h4>
-                            <p class="card-text fs-6 mt-3">Used in small diameter high-pressure systems.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-danger">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-danger"><i class="bi bi-gear-wide me-2"></i>Threaded Flanges</h4>
-                            <p class="card-text fs-6 mt-3">Used where welding is not possible.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-secondary">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-secondary"><i class="bi bi-disc me-2"></i><a href="{{ route('products.flanges.lap-joint-flanges') }}" style="color: #6c757d; text-decoration: none;">Lap Joint Flanges</a></h4>
-                            <p class="card-text fs-6 mt-3">Used with stub ends for flexible alignment.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- 5. Size Chart -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
@@ -279,47 +222,7 @@
     </section>
 
     <!-- 6. Chemical Composition -->
-    <section id="chemical-composition" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-5">
-                <h2>Chemical Composition</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>Composition (%)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td><strong>Chromium (Cr)</strong></td>
-                                    <td>16.0 – 18.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td><strong>Nickel (Ni)</strong></td>
-                                    <td>10.0 – 14.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td><strong>Molybdenum (Mo)</strong></td>
-                                    <td>2.0 – 3.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td><strong>Carbon (C)</strong></td>
-                                    <td>≤ 0.08</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <p class="text-center mt-3 fw-bold text-primary"><i class="bi bi-info-circle-fill me-2"></i>Molybdenum improves resistance to pitting corrosion and chlorides.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- 7. Applications -->
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
@@ -381,31 +284,7 @@
     </section>
 
     <!-- 8. Industries Served -->
-    <section id="industries" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Industries Served</h2>
-            </div>
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-10">
-                    <div class="d-flex flex-wrap justify-content-center gap-3">
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Chemical & Petrochemical</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Marine & Offshore</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Oil & Gas</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Food & Beverage</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Pharmaceutical</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Power Generation</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- 9. Manufacturing Process -->
     <!-- 10. Packaging & Export -->

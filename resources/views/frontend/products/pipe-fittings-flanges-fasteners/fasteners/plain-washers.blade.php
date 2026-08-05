@@ -1,11 +1,8 @@
 @extends('layouts.master')
-@section('title', 'Plain Washers | Flat Washers | Moksh Tubes')
-<!-- 52 characters -->
-@section('meta_description',
-    'High-quality Plain Washers (Flat Washers) for distributing fastener loads. Available in Stainless Steel, Carbon Steel, and Alloy Steel across all standard sizes.')
-@section('meta_keywords',
-    'Plain Washers, Flat Washers, ASTM F436, DIN 125, Stainless Steel Washers, Structural Washers')
-@section('og_image', asset('assets/images/product/flangs/FASTENERS.webp'))
+@section('title', 'Industrial Washers Manufacturer, Supplier & Exporter in India | Moksh Tubes')
+@section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Industrial Washers in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM, DIN & ISO standards with worldwide delivery.')
+@section('meta_keywords', 'Industrial Washers, Industrial Washers Manufacturer, Industrial Washers Supplier, Industrial Washers Exporter')
+@section('og_image', asset('/assets/images/product/flangs/FASTENERS.webp'))
 @section('og_type', 'product')
 @section('content')
 
@@ -14,150 +11,80 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1 class="page-title">Plain Washers (Flat Washers)</h1>
-                        <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Plain Washers, commonly known as Flat Washers, are essential components used alongside bolts and nuts to distribute the clamping load of the fastener evenly across a wider surface area. This prevents damage to the mated surfaces and ensures a secure, tight connection under high-tension loads. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply premium-grade structural and industrial plain washers in carbon steel, stainless steel, and alloy steel, strictly complying with ASTM F436, DIN 125, and ISO 7089 standards.
+                    <h1 class="page-title">Industrial Washers Manufacturer, Supplier & Exporter in India</h1>
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Premium-quality Industrial Washers manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM, DIN & ISO compliant with worldwide export support.
                     </p>
-
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Start Material Tabs -->
-    <div class="sticky-top bg-white border-bottom material-tabs w-100">
-        <div class="container">
+    <!-- Quick Navigation -->
+    <div class="sticky-top bg-white border-bottom material-tabs w-100 shadow-sm">
+        <div class="container text-center py-2">
             <a href="#overview">Overview</a> |
             <a href="#specifications">Specifications</a> |
-            <a href="#size-weight">Dimensions</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#size-chart">Size Chart</a> |
             <a href="#grades">Grades</a> |
+            <a href="#features">Advantages</a> |
             <a href="#applications">Applications</a> |
-            <a href="#types">Washer Types</a> |
-            <a href="#manufacturing">Manufacturing</a> |
-            <a href="#mechanical">Mechanical Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
-            <a href="#why-choose-us">Why Choose Us</a> |
+            <a href="#mechanical-properties">Mechanical</a> |
             <a href="#faq">FAQ</a>
         </div>
     </div>
-    <!-- End Material Tabs -->
 
+    {{-- Product Overview --}}
     <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Plain Washers</h2>
+                <h2 class="fw-bold" style="color: #174268;">Product Overview</h2>
             </div>
-
             <div class="row align-items-center">
-                <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('/assets/images/product/flangs/FASTENERS.webp') }}"
-                        alt="Plain Washers" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                    <img src="{{ asset('/assets/images/product/flangs/FASTENERS.webp') }}" alt="Industrial Washers Manufacturer" class="img-fluid rounded shadow-sm" width="550" height="350" loading="lazy">
                 </div>
-
-                <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Plain Washers</strong> provide a smooth, hard bearing surface that prevents the bolt head or nut from embedding into softer materials during torquing. By reducing friction and ensuring uniform load distribution, they play a critical role in preventing joint failure in high-vibration and high-pressure assemblies.
+                        An <strong>Industrial Washer</strong> is a thin, flat disc with a central hole designed to be placed between a fastener and the mounting surface. Washers help distribute the clamping force evenly, reduce wear on surfaces, prevent loosening caused by vibration, and improve the overall performance of bolted joints. Depending on the application, different types of washers are available, including <strong>Flat Washers, Spring Washers, Lock Washers, Plain Washers, Fender Washers, and Square Washers</strong>.
                     </p>
-
                     <p class="fs-6 mb-3 text-justify">
-                        <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a> is a leading manufacturer,
-                        supplier, and exporter of Plain Washers in India. We specialize in hardened structural washers (ASTM F436) intended for use with high-strength structural bolts (A325 and A490). Our products are widely
-                        supplied to <a href="{{ route('materials.austenitic-stainless-Steel') }}">Indian industrial projects</a> and
-                        Gulf / GCC countries including UAE, Saudi Arabia, Qatar, Oman, and Kuwait.
+                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture high-quality Industrial Washers using premium-grade materials and precision machining processes. Our washers are available in a wide range of sizes, thicknesses, and material grades to meet the requirements of industrial, construction, and engineering applications.
                     </p>
-
                     <p class="fs-6 text-justify">
-                        Whether you need standard DIN 125 commercial washers or highly customized PTFE-coated thick washers for offshore pipelines, our precision-punched and machined washers guarantee zero deformation and exceptional corrosion resistance.
+                        Industrial Washers are precision-engineered fastening components used with bolts, nuts, and threaded rods to distribute load, protect surfaces, reduce vibration, and ensure secure fastening.
                     </p>
-
                 </div>
             </div>
         </div>
     </section>
 
-    {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Plain Washers Datasheet</h3>
-            <p class="mb-3">
-                Get the complete datasheet with dimensional specifications, thickness charts, material properties, and
-                application guidelines.
-                Enter your email below to receive the PDF instantly.
-            </p>
-
-            <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
-                <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="plain-washers.pdf">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Datasheet
-                        </button>
-                    </div>
-                </div>
-            </form>
-
-            <hr class="my-4">
-            <p class="small text-muted">
-                We respect your privacy. Your email will only be used to send the datasheet.
-            </p>
-        </div>
-    </section>
-
+    {{-- Specifications --}}
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>SPECIFICATIONS</h2>
             </div>
-
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Category</th>
+                                    <th>Specification</th>
                                     <th>Details</th>
                                 </tr>
                             </thead>
                             <tbody class="text-start">
-                                <tr class="t-row">
-                                    <td>Material</td>
-                                    <td><a href="{{ route('materials.engineering-Steels') }}">Carbon/Alloy Steel</a>, <a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>,
-                                        <a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex Steel</a>, <a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel
-                                            Alloys</a>, Brass, Copper, <a
-                                            href="{{ route('materials.titanium') }}">Titanium</a>
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Inner Diameter (ID) Range</td>
-                                    <td>M3 to M100 (Metric) | 1/8" to 4" (Imperial)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Form</td>
-                                    <td>Circular (Standard), Square (Special), Beveled</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Finishes</td>
-                                    <td>Bright Zinc Plated (BZP), Hot Dip Galvanized (HDG), Black Oxide, PTFE, Xylan, Plain</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Standards</td>
-                                    <td>ASTM F436, DIN 125 A/B, DIN 9021, ISO 7089, ISO 7093, ASME B18.22.1</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Mating Fasteners</td>
-                                    <td>Hex Bolts, Stud Bolts, Heavy Hex Nuts, Threaded Rods</td>
-                                </tr>
+                                <tr class="t-row"><td><strong>Product</strong></td><td>Industrial Washers</td></tr>
+                                <tr class="t-row"><td><strong>Standards</strong></td><td>ASTM, DIN, ISO, ASME, BS</td></tr>
+                                <tr class="t-row"><td><strong>Material</strong></td><td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys</td></tr>
+                                <tr class="t-row"><td><strong>Size Range</strong></td><td>M6 to M100 / &frac14;" to 4"</td></tr>
+                                <tr class="t-row"><td><strong>Washer Types</strong></td><td>Flat Washer, Spring Washer, Lock Washer, Plain Washer, Fender Washer, Square Washer</td></tr>
+                                <tr class="t-row"><td><strong>Surface Finish</strong></td><td>Plain, Bright, Zinc Plated, PTFE Coated, Hot Dip Galvanized</td></tr>
+                                <tr class="t-row"><td><strong>Thickness</strong></td><td>Standard & Custom Sizes Available</td></tr>
+                                <tr class="t-row"><td><strong>Manufacturing</strong></td><td>Stamped, Forged & CNC Machined</td></tr>
                             </tbody>
                         </table>
                     </div>
@@ -166,132 +93,190 @@
         </div>
     </section>
 
-   <!-- charts -->
-    <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
-
+    {{-- Chemical Composition --}}
+    <section id="composition" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Dimensional Data</h2>
+                <h2>Chemical Composition</h2>
             </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center mb-4">
+                        The chemical composition of Industrial Washers varies depending on the selected material grade. At Moksh Tubes & Fittings LLP, our Industrial Washers are manufactured using premium-quality raw materials that comply with ASTM, ASME, DIN, ISO, EN, and BS standards, ensuring excellent corrosion resistance, high mechanical strength, and long service life.
+                    </p>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle text-center">
+                            <thead class="table-dark">
+                                <tr class="t-row">
+                                    <th>Element</th>
+                                    <th>SS 304 (%)</th>
+                                    <th>SS 304L (%)</th>
+                                    <th>SS 316 (%)</th>
+                                    <th>SS 316L (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row"><td><strong>Carbon (C)</strong></td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
+                                <tr class="t-row"><td><strong>Manganese (Mn)</strong></td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
+                                <tr class="t-row"><td><strong>Silicon (Si)</strong></td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
+                                <tr class="t-row"><td><strong>Phosphorus (P)</strong></td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
+                                <tr class="t-row"><td><strong>Sulfur (S)</strong></td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
+                                <tr class="t-row"><td><strong>Chromium (Cr)</strong></td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
+                                <tr class="t-row"><td><strong>Nickel (Ni)</strong></td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
+                                <tr class="t-row"><td><strong>Molybdenum (Mo)</strong></td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
+                                <tr class="t-row"><td><strong>Nitrogen (N)</strong></td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
+                                <tr class="t-row"><td><strong>Iron (Fe)</strong></td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, Duplex, Super Duplex, and Nickel Alloy Industrial Washers are also available in accordance with the relevant ASTM and ASME material specifications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <div class="section-title center mb-3">
-                <h3 class="text-center mb-0" style="color: #db7227;">Standard Plain Washers (DIN 125 Form A - Metric)</h3>
+    {{-- Size & Weight Chart --}}
+    <section id="size-chart" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2>Size & Weight Chart</h2>
             </div>
-            
-            <div class="table-responsive">
+            <p class="text-center mb-4">
+                Industrial Washers are manufactured according to ASTM, DIN, ISO, and ASME standards and are available in a wide range of inner diameters, outer diameters, and thicknesses.
+            </p>
+            <div class="table-responsive mt-4">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
                         <tr class="t-row">
-                            <th>Nominal Size (For Bolt)</th>
-                            <th>Inner Diameter (ID) (mm)</th>
-                            <th>Outer Diameter (OD) (mm)</th>
-                            <th>Thickness (T) (mm)</th>
+                            <th>Washer Size</th>
+                            <th>Inner Diameter (mm)</th>
+                            <th>Outer Diameter (mm)</th>
+                            <th>Thickness (mm)</th>
+                            <th>Approx. Weight (kg/100 pcs)</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>M6</td><td>6.4</td><td>12.0</td><td>1.6</td></tr>
-                        <tr class="t-row"><td>M8</td><td>8.4</td><td>16.0</td><td>1.6</td></tr>
-                        <tr class="t-row"><td>M10</td><td>10.5</td><td>20.0</td><td>2.0</td></tr>
-                        <tr class="t-row"><td>M12</td><td>13.0</td><td>24.0</td><td>2.5</td></tr>
-                        <tr class="t-row"><td>M16</td><td>17.0</td><td>30.0</td><td>3.0</td></tr>
-                        <tr class="t-row"><td>M20</td><td>21.0</td><td>37.0</td><td>3.0</td></tr>
-                        <tr class="t-row"><td>M24</td><td>25.0</td><td>44.0</td><td>4.0</td></tr>
-                        <tr class="t-row"><td>M30</td><td>31.0</td><td>56.0</td><td>4.0</td></tr>
-                        <tr class="t-row"><td>M36</td><td>37.0</td><td>66.0</td><td>5.0</td></tr>
+                        <tr class="t-row"><td>M6</td><td>6.4</td><td>12</td><td>1.6</td><td>0.20</td></tr>
+                        <tr class="t-row"><td>M8</td><td>8.4</td><td>16</td><td>1.6</td><td>0.35</td></tr>
+                        <tr class="t-row"><td>M10</td><td>10.5</td><td>20</td><td>2.0</td><td>0.60</td></tr>
+                        <tr class="t-row"><td>M12</td><td>13.0</td><td>24</td><td>2.5</td><td>0.95</td></tr>
+                        <tr class="t-row"><td>M16</td><td>17.0</td><td>30</td><td>3.0</td><td>1.80</td></tr>
+                        <tr class="t-row"><td>M20</td><td>21.0</td><td>37</td><td>3.0</td><td>2.90</td></tr>
+                        <tr class="t-row"><td>M24</td><td>25.0</td><td>44</td><td>4.0</td><td>4.60</td></tr>
+                        <tr class="t-row"><td>M30</td><td>31.0</td><td>56</td><td>4.0</td><td>7.40</td></tr>
+                        <tr class="t-row"><td>M36</td><td>37.0</td><td>66</td><td>5.0</td><td>11.20</td></tr>
+                        <tr class="t-row"><td>M42</td><td>43.0</td><td>78</td><td>6.0</td><td>16.40</td></tr>
+                        <tr class="t-row"><td>M48</td><td>50.0</td><td>92</td><td>6.0</td><td>23.10</td></tr>
+                        <tr class="t-row"><td>M56</td><td>58.0</td><td>105</td><td>8.0</td><td>34.80</td></tr>
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted">*DIN 125 is the standard metric flat washer. For larger OD, DIN 9021 (Penny Washers) are used. For structural applications, hardened ASTM F436 washers must be used.</p>
+            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and may vary depending on the washer type (Flat, Spring, Lock, Plain, Fender, or Square), material grade, surface finish, and applicable manufacturing standards. Custom sizes and thicknesses are available upon request.</p>
         </div>
     </section>
 
-    <section id="types" class="sec-padd-top sec-padd-bottom">
+    {{-- Grades & Equivalent --}}
+    <style>
+        .grade-card {
+            border: 1px solid #e67e22;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            background-color: #ffffff;
+        }
+        .grade-card .card-icon,
+        .grade-card .card-title {
+            color: #003366;
+            transition: color 0.3s ease;
+        }
+        .grade-card .card-text {
+            color: #6c757d;
+            transition: color 0.3s ease;
+        }
+        .grade-card:hover {
+            background-color: #e67e22;
+            border-color: #e67e22;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(230, 126, 34, 0.2) !important;
+        }
+        .grade-card:hover .card-icon,
+        .grade-card:hover .card-title,
+        .grade-card:hover .card-text {
+            color: #ffffff !important;
+        }
+    </style>
+    <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Types of Washers</h2>
+            <div class="section-title center mb-5">
+                <h2>Grades &amp; Equivalent</h2>
             </div>
             
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="table-responsive ">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Washer Type</th>
-                                    <th>Description / Form</th>
-                                    <th>Primary Application</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td class="fw-bold">Standard Flat Washer (DIN 125)</td>
-                                    <td>Circular flat metal ring with a standard OD.</td>
-                                    <td>General manufacturing, load distribution for standard hex bolts.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Hardened Structural Washer (ASTM F436)</td>
-                                    <td>Thicker, hardened steel washer, often chamfered.</td>
-                                    <td>Structural steel connections (bridges, buildings) paired with A325/A490 bolts.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Penny / Fender Washer (DIN 9021)</td>
-                                    <td>Exceptionally large Outer Diameter (OD).</td>
-                                    <td>Distributing load over soft materials like wood, plastic, or thin sheet metal.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Beveled Washer (ASTM F436 Type 2)</td>
-                                    <td>Square or circular with a tapered/slanted surface.</td>
-                                    <td>Used in structural steel to compensate for lack of parallelism (e.g., I-beams).</td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <div class="row justify-content-center mb-5">
+                <!-- Stainless Steel Grades -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center shadow-sm grade-card">
+                        <div class="card-body py-4">
+                            <i class="bi bi-shield-check mb-3 d-block card-icon" style="font-size: 2rem;"></i>
+                            <h5 class="card-title" style="font-weight: 600;">Stainless Steel Grades</h5>
+                            <p class="card-text small mb-0">304 / 304L, 316 / 316L</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carbon & Alloy Steel -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center shadow-sm grade-card">
+                        <div class="card-body py-4">
+                            <i class="bi bi-gear-fill mb-3 d-block card-icon" style="font-size: 2rem;"></i>
+                            <h5 class="card-title" style="font-weight: 600;">Carbon &amp; Alloy Steel</h5>
+                            <p class="card-text small mb-0">Carbon Steel, Alloy Steel,<br>Duplex, Super Duplex</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Duplex & Super Duplex -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center shadow-sm grade-card">
+                        <div class="card-body py-4">
+                            <i class="bi bi-gem mb-3 d-block card-icon" style="font-size: 2rem;"></i>
+                            <h5 class="card-title" style="font-weight: 600;">Duplex &amp; Super Duplex</h5>
+                            <p class="card-text small mb-0">UNS S31803 / 2205<br>UNS S32750 / 2507</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- High-Performance Alloys -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center shadow-sm grade-card">
+                        <div class="card-body py-4">
+                            <i class="bi bi-award-fill mb-3 d-block card-icon" style="font-size: 2rem;"></i>
+                            <h5 class="card-title" style="font-weight: 600;">High-Performance Alloys</h5>
+                            <p class="card-text small mb-0">Inconel&reg;, Monel&reg;, Hastelloy&reg; Alloys</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    {{-- Grades Available --}}
-    <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Available Grades & Materials</h2>
-            </div>
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Standard Specifications:</h4>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title center mb-4">
+                        <h2>International Equivalents</h2>
+                    </div>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Material / Standard</th>
-                                    <th>Grades & Specifications</th>
+                                    <th style="width: 25%; text-align: left; padding-left: 20px;">Standard</th>
+                                    <th style="text-align: left; padding-left: 20px;">Specification</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr class="t-row">
-                                    <td>Structural Carbon Steel</td>
-                                    <td>ASTM F436 Type 1 (Through-hardened), Type 3 (Weathering Steel)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a></td>
-                                    <td>SS304 (A2), SS316 (A4), ASTM A240</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>High Tensile Alloy Steel</td>
-                                    <td>AISI 4140, EN8 (Quenched and Tempered for extreme loads)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex</a></td>
-                                    <td>UNS S31803, UNS S32750 (For offshore pipelines)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td><a href="{{ route('materials.nickel-Based-Superalloys') }}">Exotic Alloys</a></td>
-                                    <td>Inconel 625/718, Hastelloy, Titanium Grade 2/5</td>
-                                </tr>
+                            <tbody class="text-start">
+                                <tr class="t-row"><td style="padding-left: 20px;"><strong>ASTM</strong></td><td style="padding-left: 20px;">ASTM F436, ASTM F844</td></tr>
+                                <tr class="t-row"><td style="padding-left: 20px;"><strong>ASME</strong></td><td style="padding-left: 20px;">ASME B18.22.1</td></tr>
+                                <tr class="t-row"><td style="padding-left: 20px;"><strong>DIN</strong></td><td style="padding-left: 20px;">DIN 125, DIN 127, DIN 9021</td></tr>
+                                <tr class="t-row"><td style="padding-left: 20px;"><strong>ISO</strong></td><td style="padding-left: 20px;">ISO 7089, ISO 7090</td></tr>
+                                <tr class="t-row"><td style="padding-left: 20px;"><strong>EN</strong></td><td style="padding-left: 20px;">EN ISO 7089</td></tr>
+                                <tr class="t-row"><td style="padding-left: 20px;"><strong>BS</strong></td><td style="padding-left: 20px;">BS 4320</td></tr>
                             </tbody>
                         </table>
                     </div>
@@ -300,96 +285,165 @@
         </div>
     </section>
 
-    {{-- Gallery --}}
-    <section class="our-services">
+    {{-- Gallery / Products --}}
+    <section class="our-services sec-padd-top">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
+                <!-- Stainless Steel 304 -->
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steels') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Carbon Steel Flat Washers" loading="lazy" width="400"
-                                    height="260">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}">
+                                <img class="w-100" src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp') }}"
+                                    alt="Stainless Steel 304" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">STRUCTURAL STEEL (ASTM F436)</h6>
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}" style="color: inherit; text-decoration: none;">Stainless Steel 304</a></h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
+                
+                <!-- Stainless Steel 316 -->
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="Stainless Steel Flat Washers" loading="lazy" width="400"
-                                    height="260">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}">
+                                <img class="w-100" src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"
+                                    alt="Stainless Steel 316" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL (A2/A4)</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and Super Duplex Washers" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">DUPLEX & SUPER DUPLEX</h6>
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}" style="color: inherit; text-decoration: none;">Stainless Steel 316</a></h6>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
+                <!-- Carbon Steel -->
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel Alloy Flat Washers" loading="lazy" width="400"
-                                    height="260">
+                            <a class="w-100" href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}">
+                                <img class="w-100" src="{{ asset('assets/images/engineering-steels/engineering-steels-1045.webp') }}"
+                                    alt="Carbon Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">NICKEL ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4 ">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes Superalloy Washers" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">HAYNES SUPERALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="Titanium Flat Washers" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}" style="color: inherit; text-decoration: none;">Carbon Steel</a></h6>
                         </div>
                     </div>
                 </div>
 
+                <!-- Alloy Steel -->
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}">
+                                <img class="w-100" src="{{ asset('assets/images/engineering-steels/engineering-steels-4140.webp') }}"
+                                    alt="Alloy Steel" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}" style="color: inherit; text-decoration: none;">Alloy Steel</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Duplex Stainless Steel -->
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                                <img class="w-100" src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                    alt="Duplex Stainless Steel" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}" style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inconel Alloys -->
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel.grade', 'inconel-625') }}">
+                                <img class="w-100" src="{{ asset('assets/images/inconel/Inconel-625.webp') }}"
+                                    alt="Inconel Alloys" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}" style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- Features & Advantages --}}
+    <section id="features" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Features & Advantages</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>Protects surfaces from damage and wear</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h4>Excellent corrosion and oxidation resistance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                        <h4>Reduces loosening caused by vibration</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h4>High mechanical strength and durability</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
+                        <h4>Available in multiple sizes and washer types</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-bullseye"></i></div>
+                        <h4>Precision-manufactured for accurate fit</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h4>Long service life with minimal maintenance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
+                        <h4>Manufactured according to international quality standards</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                        <h4>Even load distribution for secure fastening</h4>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -398,169 +452,205 @@
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Plain Washers</h2>
-                <p class="text-center pb-3">
-                    <strong class="text-black">Plain Washers</strong> are universally required in almost every mechanical assembly:
-                </p>
+                <h2>Applications</h2>
+                <p class="text-center pb-3">Industrial Washers are widely used in:</p>
             </div>
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
+                        <h5>Oil & Gas Pipelines</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-ev-station"></i></div>
+                        <h5>Petrochemical Plants</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-funnel"></i></div>
+                        <h5>Chemical Processing Industries</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
+                        <h5>Power Generation Plants</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
                         <div class="application-icon"><i class="bi bi-building"></i></div>
-                        <h5>Structural Engineering</h5>
-                        <ul>
-                            <li>Hardened ASTM F436 washers are mandatory in bridge girders, steel buildings, and high-load structural joints.</li>
-                        </ul>
+                        <h5>Construction & Infrastructure</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-bricks"></i></div>
+                        <h5>Structural Steel Fabrication</h5>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Pipeline Flanges</h5>
-                        <ul>
-                            <li>Distributing extreme compressive forces when tightening heavy hex nuts onto stud bolts in refineries.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Automotive & Machinery</h5>
-                        <ul>
-                            <li>Preventing galling and protecting equipment surfaces from rotating bolt heads during engine assembly.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-fan"></i></div>
-                        <h5>HVAC & Electrical</h5>
-                        <ul>
-                            <li>Fender/Penny washers are used to secure sheet metal ducting and thin-walled enclosures without tearing.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Marine Construction</h5>
-                        <ul>
-                            <li>Thick stainless steel (A4/316) washers used to prevent saltwater corrosion on docks and offshore rigs.</li>
-                        </ul>
+                        <h5>Industrial Machinery</h5>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-water"></i></div>
-                        <h5>Water & Wastewater</h5>
-                        <ul>
-                            <li>Used extensively on large municipal pump flanges and cast iron pipe assemblies.</li>
-                        </ul>
+                        <h5>Marine & Offshore Projects</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-car-front"></i></div>
+                        <h5>Automotive Industry</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-thermometer-half"></i></div>
+                        <h5>HVAC Systems</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-tools"></i></div>
+                        <h5>Equipment Manufacturing</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
+    {{-- Mechanical Properties --}}
+    <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom">
         <div class="container">
-             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Hardness Properties – ASTM F436</h2>
-                 <p class="text-center">Hardness is the critical metric for structural washers to ensure they do not deform.</p>
+            <div class="section-title center mb-4">
+                <h2>Mechanical Properties</h2>
             </div>
-
-            <div class="table-responsive">
+            <p class="text-center mb-4">
+                The mechanical properties of <strong>Industrial Washers</strong> depend on the selected material grade and comply with applicable ASTM and ASME standards. The table below shows the typical mechanical properties for commonly supplied stainless steel grades.
+            </p>
+            <div class="table-responsive mt-4">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
                         <tr class="t-row">
-                            <th>Washer Type</th>
-                            <th>Hardness (Rockwell C - HRC)</th>
-                            <th>Description</th>
+                            <th>Property</th>
+                            <th>SS 304 / 304L</th>
+                            <th>SS 316 / 316L</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row">
-                            <td>ASTM F436 Type 1</td>
-                            <td>38 to 45 HRC</td>
-                            <td>Standard through-hardened carbon steel.</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>ASTM F436 Type 3</td>
-                            <td>38 to 45 HRC</td>
-                            <td>Weathering steel (Corten), used without coating.</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>DIN 125 (Commercial)</td>
-                            <td>Varies (typically low)</td>
-                            <td>Mild steel, not intended for high-tension structural bolting.</td>
-                        </tr>
+                        <tr class="t-row"><td><strong>Tensile Strength (MPa)</strong></td><td>515 Min</td><td>515 Min</td></tr>
+                        <tr class="t-row"><td><strong>Yield Strength (MPa)</strong></td><td>205 Min</td><td>205 Min</td></tr>
+                        <tr class="t-row"><td><strong>Hardness (HB Max)</strong></td><td>201</td><td>217</td></tr>
+                        <tr class="t-row"><td><strong>Corrosion Resistance</strong></td><td>Excellent</td><td>Excellent</td></tr>
                     </tbody>
                 </table>
             </div>
+            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Mechanical properties for Carbon Steel, Alloy Steel, Duplex, Super Duplex, and Nickel Alloy Industrial Washers are available in accordance with their respective ASTM/ASME material specifications upon request.</p>
         </div>
     </section>
 
-    <section id="tolerances" class="sec-padd-top sec-padd-bottom">
+    {{-- Why Choose Us --}}
+    <style>
+        .why-card {
+            border: 1px solid #e5e5e5;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            background-color: #ffffff;
+            height: 100%;
+        }
+        .why-card .icon-circle {
+            background-color: #e67e22;
+            color: #ffffff;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        .why-card .why-text {
+            color: #003366;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+        .why-card:hover {
+            border-color: #e67e22;
+            box-shadow: 0 5px 15px rgba(230, 126, 34, 0.1);
+        }
+        .why-card:hover .icon-circle {
+            background-color: #003366;
+        }
+    </style>
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Tolerances & Quality Standards</h2>
+            <div class="section-title center mb-5">
+                <h2>Why Choose Moksh Tubes &amp; Fittings LLP?</h2>
             </div>
             
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Flatness Tolerance:</strong> Strictly controlled to ensure the washer does not introduce uneven tension to the bolt head.</li>
-                        <li class="list-group-item"><strong>Concentricity:</strong> The Inner Diameter (ID) must be perfectly centered within the Outer Diameter (OD) to prevent eccentric loading on the fastener assembly.</li>
-                        <li class="list-group-item"><strong>Clearance Fit:</strong> The ID is manufactured slightly larger than the nominal bolt diameter to allow easy installation over the threads without binding.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{-- why choose us --}}
-    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>Why Choose Moksh Tubes?</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Massive inventory of DIN 125 & ASTM F436</h5>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-card text-center p-4">
+                        <div class="icon-circle mb-3"><i class="bi bi-award"></i></div>
+                        <h6 class="why-text mb-0">Leading Manufacturer, Supplier &amp; Exporter</h6>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Perfectly flat, burr-free surfaces</h5>
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-card text-center p-4">
+                        <div class="icon-circle mb-3"><i class="bi bi-hexagon"></i></div>
+                        <h6 class="why-text mb-0">Premium Quality Industrial Fasteners</h6>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Custom CNC machining for extreme thicknesses</h5>
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-card text-center p-4">
+                        <div class="icon-circle mb-3"><i class="bi bi-diagram-3"></i></div>
+                        <h6 class="why-text mb-0">Wide Range of Sizes, Thread Types &amp; Material Grades</h6>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Export-grade packaging for international shipping</h5>
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-card text-center p-4">
+                        <div class="icon-circle mb-3"><i class="bi bi-box-seam"></i></div>
+                        <h6 class="why-text mb-0">Ready Stock for Immediate Dispatch</h6>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-file-earmark-text"></i></div>
-                        <h5>Complete traceability and MTC 3.1 documentation</h5>
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-card text-center p-4">
+                        <div class="icon-circle mb-3"><i class="bi bi-tags"></i></div>
+                        <h6 class="why-text mb-0">Competitive Pricing</h6>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-brush"></i></div>
-                        <h5>Wide variety of anti-corrosion coatings</h5>
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-card text-center p-4">
+                        <div class="icon-circle mb-3"><i class="bi bi-shield-check"></i></div>
+                        <h6 class="why-text mb-0">Strict Quality Assurance</h6>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-card text-center p-4">
+                        <div class="icon-circle mb-3"><i class="bi bi-globe2"></i></div>
+                        <h6 class="why-text mb-0">Global Export Experience</h6>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-card text-center p-4">
+                        <div class="icon-circle mb-3"><i class="bi bi-file-earmark-text"></i></div>
+                        <h6 class="why-text mb-0">Complete Documentation Support</h6>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-card text-center p-4">
+                        <div class="icon-circle mb-3"><i class="bi bi-tools"></i></div>
+                        <h6 class="why-text mb-0">Expert Technical Assistance</h6>
                     </div>
                 </div>
             </div>
@@ -577,117 +667,79 @@
                             <h2>Frequently Asked Questions (FAQ)</h2>
                         </div>
 
-                        <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Why is a hardened washer (ASTM F436) necessary?</h4>
+                                <h4>What are Industrial Washers?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>When high-strength structural bolts (like A325 or A490) are tightened to their extreme required tensions, standard mild steel washers will crush, warp, or deform, causing the joint to lose tension. Hardened washers can withstand this immense clamping force.</p>
+                                <p>
+                                    Industrial Washers are flat or shaped fastening components placed between a bolt, nut, or screw and the mounting surface to distribute load, reduce wear, and improve joint stability.
+                                </p>
                             </div>
                         </div>
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Do I need a washer under the bolt head or the nut?</h4>
+                                <h4>Which types of washers do you supply?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>It is best practice to place a washer under the element being rotated during tightening (usually the nut). This prevents the rotating element from galling or digging into the base material. In highly critical structural applications, a washer is placed under both the head and the nut.</p>
+                                <p>
+                                    We supply Flat Washers, Spring Washers, Lock Washers, Plain Washers, Fender Washers, Square Washers, and custom washer types.
+                                </p>
                             </div>
                         </div>
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What is a Fender / Penny Washer?</h4>
+                                <h4>Which materials are available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>A fender washer (DIN 9021) has a standard Inner Diameter but an abnormally large Outer Diameter. It is used to distribute the load over a very wide area, typically on thin sheet metal, plastics, or wood, to prevent the bolt head from pulling through.</p>
+                                <p>
+                                    We manufacture Industrial Washers in stainless steel, carbon steel, alloy steel, duplex, super duplex, and nickel alloy grades.
+                                </p>
                             </div>
                         </div>
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Are your stainless steel washers magnetic?</h4>
+                                <h4>Do you provide material test certificates?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Our 300-series (A2/A4) austenitic stainless steel washers are generally non-magnetic. However, they may exhibit slight magnetism due to cold-working during the manufacturing/punching process.</p>
+                                <p>
+                                    Yes. EN 10204 3.1 Material Test Certificates are supplied with every order.
+                                </p>
                             </div>
                         </div>
 
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Can you manufacture custom sizes?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes. We manufacture Industrial Washers in custom sizes, thicknesses, finishes, and material grades according to customer specifications.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--End faq content area-->
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="contact-cta-box">
-                <h2>Contact Us</h2>
-                <p>For further information, bulk quotes, or custom machined washers, <strong>Moksh Tubes & Fittings LLP</strong> is your dependable partner for structural and industrial fastening solutions.</p>
-                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal" data-bs-target="#contactFormModal">
+                <h2>Request a Quote</h2>
+                <p>
+                    Looking for a trusted <strong>Industrial Washers</strong> manufacturer and supplier? Contact <strong>Moksh Tubes & Fittings LLP</strong> for premium-quality industrial washers, competitive pricing, ready stock, technical support, and fast worldwide delivery. Request your free quotation today.
+                </p>
+                <a href="{{ route('contact-us') }}" class="contact-cta-btn">
                     Get in Touch
                 </a>
             </div>
         </div>
     </section>
 
-@endsection
-
-@push('styles')
-    <style>
-        /* Base state for collapsed rows */
-        tr.collapse {
-            opacity: 0;
-            transform: translateY(-6px) scale(0.98);
-            transition: opacity .35s ease, transform .35s ease;
-        }
-
-        /* When collapsing (Bootstrap interim state) */
-        tr.collapsing {
-            opacity: 0;
-            transform: translateY(-10px) scale(0.96);
-            display: table-row !important;
-        }
-
-        /* When fully shown */
-        tr.collapse.show {
-            opacity: 1;
-            transform: translateY(0) scale(1);
-            display: table-row;
-        }
-    </style>
-@endpush
-
-@section('jsscripts')
-    @verbatim
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": ["Organization", "LocalBusiness"],
-              "@id": "https://mokshtubes.com/#organization",
-              "name": "Moksh Tubes & Fittings LLP",
-              "url": "https://mokshtubes.com/",
-              "logo": "https://mokshtubes.com/assets/images/logo.webp",
-              "telephone": "+91-9769584950",
-              "email": "info@mokshtubes.com"
-            },
-            {
-              "@type": "Product",
-              "@id": "https://mokshtubes.com/#plain-washers",
-              "name": "Plain Washers (Flat Washers)",
-              "image": "https://mokshtubes.com/assets/images/product/flangs/FASTENERS.webp",
-              "category": "Fasteners",
-              "description": "High-quality Plain Washers, Flat Washers, and Hardened Structural Washers (ASTM F436, DIN 125) for load distribution.",
-              "brand": {
-                "@type": "Brand",
-                "@id": "https://mokshtubes.com/#organization"
-              }
-            }
-          ]
-        }
-        </script>
-    @endverbatim
 @endsection

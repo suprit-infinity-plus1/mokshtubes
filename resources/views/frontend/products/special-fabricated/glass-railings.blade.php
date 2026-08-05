@@ -81,38 +81,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Glass Railings Catalog</h3>
-            <p class="mb-3">
-                Get the complete catalog including material specifications, hardware options, and installation guidelines. Enter your email to receive the PDF instantly.
-            </p>
-
-            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
-                @csrf
-                <input type="hidden" name="page_path" value="{{ Request::path() }}">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Catalog
-                        </button>
-                    </div>
-                </div>
-            </form>
-
-            @if (session('success'))
-                <div class="alert alert-success mt-3">
-                    {{ session('success') }}
-                </div>
-            @endif
-        </div>
-    </section>
+    
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -273,37 +242,7 @@
         </div>
     </section>
 
-    <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Manufacturing & Installation Process</h2>
-            </div>
-            
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Glass Processing:</strong></p>
-                        <p> Raw glass cutting</p>
-                        <p>Heat treatment (toughening)</p>
-                        <p>Lamination (if required)</p>
-                        <p>Edge polishing & finishing</p>
-                        <p>Quality inspection</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6" style="text-align: justify;"><strong>Installation Process:</strong></p>
-                        <p>Site measurement</p>
-                        <p>Hardware installation (spigots/channels)</p>
-                        <p>Glass panel placement</p>
-                        <p>Alignment & fixing</p>
-                        <p>Final inspection</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">

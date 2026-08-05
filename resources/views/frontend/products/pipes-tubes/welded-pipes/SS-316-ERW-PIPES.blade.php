@@ -105,43 +105,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download SS 316 ERW Pipes Datasheet</h3>
-            <p class="mb-3">
-                Get the complete datasheet including chemical composition, mechanical properties, standards, tolerances, and
-                application guidelines. Enter your email to receive the PDF instantly.
-            </p>
-
-            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
-                @csrf
-                <input type="hidden" name="page_path" value="{{ Request::path() }}">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Datasheet
-                        </button>
-                    </div>
-                </div>
-            </form>
-
-            @if (session('success'))
-                <div class="alert alert-success mt-3">
-                    {{ session('success') }}
-                </div>
-            @endif
-
-            <p class="small text-muted">
-                We respect your privacy. Your email will only be used to send the datasheet.
-            </p>
-        </div>
-    </section>
+    
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -513,68 +477,7 @@
         </div>
     </section>
 
-    <section id="erw-vs-seamless" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>ERW vs Seamless Stainless Steel Pipes</h2>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Parameter</th>
-                                    <th>ERW Pipes</th>
-                                    <th><a href="{{ route('products.pipes-tubes.seamless-pipes') ?? '#' }}"
-                                            class="text-white text-decoration-underline">Seamless Pipes</a></th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Manufacturing</td>
-                                    <td>Electric Resistance Welding</td>
-                                    <td>Hot extrusion / cold drawing</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Weld Seam</td>
-                                    <td>Present</td>
-                                    <td>No weld seam</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Pressure Rating</td>
-                                    <td>Low–Medium</td>
-                                    <td>High</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Dimensional Accuracy</td>
-                                    <td>Excellent</td>
-                                    <td>Good</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Cost</td>
-                                    <td>Economical</td>
-                                    <td>Higher</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Typical Use</td>
-                                    <td>Food, chemical, fabrication</td>
-                                    <td>High-pressure critical lines</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <p class="text-center mt-3">
-                        📌 <strong>SS 316 ERW Pipes</strong> are ideal where corrosion resistance and cost efficiency are
-                        required without extreme pressure conditions. For high-pressure applications, consider our <a
-                            href="{{ route('products.pipes-tubes.seamless-pipes') ?? '#' }}">Stainless Steel 316 Seamless
-                            Pipes</a>.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">

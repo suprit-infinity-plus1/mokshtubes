@@ -69,39 +69,7 @@
     </section>
 
     {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download 90 Degree Bend Datasheet</h3>
-            <p class="mb-3">
-                Get the complete datasheet with chemical composition, mechanical properties, heat treatment details, and
-                application guidelines.<br>
-                👉 Enter your email below to receive the PDF instantly.
-            </p>
-
-            <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                @csrf
-                <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="90-degree-bend.pdf">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Datasheet
-                        </button>
-                    </div>
-                </div>
-            </form>
-
-            <hr class="my-4">
-            <p class="small text-muted">
-                We respect your privacy. Your email will only be used to send the datasheet.
-            </p>
-        </div>
-    </section>
+    
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -159,100 +127,7 @@
         </div>
     </section>
 
-    <section id="chemical-composition" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Chemical Composition</h2>
-                <p class="text-center">The chemical composition of 90 Degree Bends varies depending on the material grade. At Moksh Tubes & Fittings LLP, our 90 Degree Bends are manufactured in accordance with international ASTM, ASME, and EN standards to ensure excellent corrosion resistance, strength, and durability. The table below shows the typical chemical composition of the most commonly supplied stainless steel grades.</p>
-            </div>
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr>
-                            <th>Element</th>
-                            <th>SS 304 (%)</th>
-                            <th>SS 304L (%)</th>
-                            <th>SS 316 (%)</th>
-                            <th>SS 316L (%)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Carbon (C)</td>
-                            <td>0.08 Max</td>
-                            <td>0.03 Max</td>
-                            <td>0.08 Max</td>
-                            <td>0.03 Max</td>
-                        </tr>
-                        <tr>
-                            <td>Manganese (Mn)</td>
-                            <td>2.00 Max</td>
-                            <td>2.00 Max</td>
-                            <td>2.00 Max</td>
-                            <td>2.00 Max</td>
-                        </tr>
-                        <tr>
-                            <td>Silicon (Si)</td>
-                            <td>0.75 Max</td>
-                            <td>0.75 Max</td>
-                            <td>0.75 Max</td>
-                            <td>0.75 Max</td>
-                        </tr>
-                        <tr>
-                            <td>Phosphorus (P)</td>
-                            <td>0.045 Max</td>
-                            <td>0.045 Max</td>
-                            <td>0.045 Max</td>
-                            <td>0.045 Max</td>
-                        </tr>
-                        <tr>
-                            <td>Sulfur (S)</td>
-                            <td>0.030 Max</td>
-                            <td>0.030 Max</td>
-                            <td>0.030 Max</td>
-                            <td>0.030 Max</td>
-                        </tr>
-                        <tr>
-                            <td>Chromium (Cr)</td>
-                            <td>18.00–20.00</td>
-                            <td>18.00–20.00</td>
-                            <td>16.00–18.00</td>
-                            <td>16.00–18.00</td>
-                        </tr>
-                        <tr>
-                            <td>Nickel (Ni)</td>
-                            <td>8.00–10.50</td>
-                            <td>8.00–12.00</td>
-                            <td>10.00–14.00</td>
-                            <td>10.00–14.00</td>
-                        </tr>
-                        <tr>
-                            <td>Molybdenum (Mo)</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>2.00–3.00</td>
-                            <td>2.00–3.00</td>
-                        </tr>
-                        <tr>
-                            <td>Nitrogen (N)</td>
-                            <td>0.10 Max</td>
-                            <td>0.10 Max</td>
-                            <td>0.10 Max</td>
-                            <td>0.10 Max</td>
-                        </tr>
-                        <tr>
-                            <td>Iron (Fe)</td>
-                            <td>Balance</td>
-                            <td>Balance</td>
-                            <td>Balance</td>
-                            <td>Balance</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <p class="text-center mt-3">Note: The chemical composition values are typical and may vary slightly depending on the selected material grade and the applicable ASTM/ASME specification. Carbon Steel, Alloy Steel, Duplex, and Super Duplex 90 Degree Bends are also available with chemical compositions conforming to their respective international standards upon request.</p>
-        </div>
-    </section>
+    
 
     <section id="dimensions" class="sec-padd-top sec-padd-bottom">
         <div class="container">

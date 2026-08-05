@@ -78,38 +78,7 @@
     </section>
 
     {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download 45 Degree Elbow Datasheet</h3>
-            <p class="mb-3">
-                Get the complete datasheet with dimensional specifications, weight charts, and material properties.
-                Enter your email below to receive the PDF instantly.
-            </p>
-
-            <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
-                <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="45-degree-elbow.pdf">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Datasheet
-                        </button>
-                    </div>
-                </div>
-            </form>
-
-            <hr class="my-4">
-            <p class="small text-muted">
-                We respect your privacy. Your email will only be used to send the datasheet.
-            </p>
-        </div>
-    </section>
+    
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -213,55 +182,7 @@
         </div>
     </section>
 
-    <section id="lr-vs-sr" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">45 Degree Elbow vs 90 Degree Elbow</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                     <p class="fs-6 mb-3 text-justify">
-                        While 90-degree elbows are the most common, 45-degree elbows offer distinct fluid dynamic advantages:
-                    </p>
-
-                    <div class="table-responsive ">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Feature</th>
-                                    <th>45 Degree Elbow</th>
-                                    <th>90 Degree Elbow</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td class="fw-bold">Flow Resistance</td>
-                                    <td>Lower friction and pressure drop.</td>
-                                    <td>Higher friction due to sharper turn.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Turbulence</td>
-                                    <td>Minimal turbulence.</td>
-                                    <td>Higher turbulence, especially at high velocities.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Space Requirement</td>
-                                    <td>Requires a longer diagonal offset footprint.</td>
-                                    <td>More compact in square/rectangular spaces.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Primary Application</td>
-                                    <td>Slurry pipelines, gravity drains, bypassing obstacles.</td>
-                                    <td>Standard right-angle pipe routing.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     {{-- Grades Available --}}
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
@@ -314,98 +235,7 @@
     </section>
 
     {{-- Gallery --}}
-    <section class="our-services">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steels') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Carbon Steel 45 Degree Elbow" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON STEEL (A234 WPB)</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="Stainless Steel 45 Degree Elbow" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL (A403)</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex 45 Degree Elbow" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">DUPLEX & SUPER DUPLEX</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel Alloy 45 Degree Elbow" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">NICKEL ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4 ">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steels') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Alloy Steel 45 Degree Elbow" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">ALLOY STEEL (WP11/WP22)</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="Titanium 45 Degree Elbow" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
+    
 
     {{-- Applications --}}
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">

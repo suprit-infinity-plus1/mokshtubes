@@ -219,40 +219,7 @@
     </section>
 
     <!-- Types of Hollow Section Pipes -->
-    <section id="types" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Types of Hollow Section Pipes</h2>
-            </div>
-
-            <div class="row g-4 justify-content-center pt-2">
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-primary">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-primary"><i class="bi bi-square me-2"></i>Square Hollow Sections (SHS)</h4>
-                            <p class="card-text fs-6 mt-3">Used for columns, frames, and load-bearing structures where equal strength in all directions is required.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-success">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-success"><i class="bi bi-app me-2"></i>Rectangular Hollow Sections (RHS)</h4>
-                            <p class="card-text fs-6 mt-3">Ideal for beams, bridges, and heavy structural applications where directional strength is needed.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-warning">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-warning"><i class="bi bi-egg me-2"></i>Oval Hollow Sections</h4>
-                            <p class="card-text fs-6 mt-3">Preferred for architectural, decorative, and furniture designs where aesthetics and elegance are priorities.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- Charts Table -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
@@ -540,31 +507,7 @@
         </div>
     </section>
 
-    <section id="industries" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Industries Served</h2>
-            </div>
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-9">
-                    <div class="d-flex flex-wrap justify-content-center gap-3">
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Construction & Infrastructure</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Automotive & Transport</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Fabrication & Engineering</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Furniture & Interior Design</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Marine & Offshore</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Agriculture & Industrial Projects</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- Manufacturing Process -->
     <!-- Packaging & Export -->
@@ -651,46 +594,7 @@
     </section>
 
     <!-- Material Selection Guide & Buying Guide -->
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="row g-5 justify-content-center">
-                <div class="col-md-6">
-                    <div class="p-4 bg-light rounded shadow-sm border-start border-4 border-info h-100">
-                        <h3 class="fw-bold mb-4" style="color: #174268;">Material Selection Guide</h3>
-                        <ul class="fs-6 list-unstyled">
-                            <li class="mb-3 p-2 bg-white rounded border"><i class="bi bi-arrow-right text-info me-2"></i>
-                                <strong>Construction</strong> → Carbon Steel / Mild Steel</li>
-                            <li class="mb-3 p-2 bg-white rounded border"><i class="bi bi-arrow-right text-info me-2"></i>
-                                <strong>Corrosion Resistance</strong> → Stainless Steel / Duplex</li>
-                            <li class="mb-3 p-2 bg-white rounded border"><i class="bi bi-arrow-right text-info me-2"></i>
-                                <strong>Lightweight Structures</strong> → Aluminium</li>
-                            <li class="mb-3 p-2 bg-white rounded border"><i class="bi bi-arrow-right text-info me-2"></i>
-                                <strong>Marine Use</strong> → Duplex / Cu-Ni Alloys</li>
-                            <li class="mb-3 p-2 bg-white rounded border"><i class="bi bi-arrow-right text-info me-2"></i>
-                                <strong>Decorative / Furniture</strong> → Stainless / Aluminium</li>
-                        </ul>
-                        <p class="fs-6 mt-3 fw-bold text-success small"><i class="bi bi-lightbulb-fill me-2"></i>
-                            Choosing the right material improves durability and cost efficiency.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="p-4 bg-light rounded shadow-sm border-start border-4 border-warning h-100">
-                        <h3 class="fw-bold mb-4" style="color: #174268;">Buying Guide</h3>
-                        <p class="fs-6 text-muted">Before selecting hollow section pipes, consider:</p>
-                        <ul class="fs-6 list-unstyled">
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Shape (Square / Rectangular / Oval)</li>
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Load-bearing requirements</li>
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Material grade for your environment</li>
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Required thickness & size</li>
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Surface finish (coated / polished)</li>
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Certification requirements (ASTM / EN)</li>
-                        </ul>
-                        <p class="fs-6 mt-4 fw-bold p-2 bg-white rounded border">Our team helps you select the best structural solution for your project.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- Why Choose Moksh Tubes -->
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -740,20 +644,7 @@
     </section>
 
     <!-- Related Products / Internal Linking -->
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <div class="p-4 bg-light rounded shadow-sm border border-secondary">
-                        <h4 class="fw-bold mb-4" style="color: #db7227;">Explore Related Products</h4>
-                        <p class="fs-6 mb-3 text-muted">Explore our <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-primary fw-bold text-decoration-none">seamless pipes</a> for high-pressure and critical industrial applications.</p>
-                        <p class="fs-6 mb-3 text-muted">We also supply <a href="{{ route('products.pipes-tubes.welded-pipes') }}" class="text-primary fw-bold text-decoration-none">welded pipes</a> (ERW, EFW, LSAW) for cost-effective piping solutions.</p>
-                        <p class="fs-6 mb-0 text-muted">Check our <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}" class="text-primary fw-bold text-decoration-none">boiler & heat exchanger tubes</a> for GCC industrial projects.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- FAQ Section -->
     <section id="faq" class="sec-padd-top sec-padd-bottom bg-light">

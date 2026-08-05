@@ -1,22 +1,26 @@
 @extends('layouts.master')
-@section('title', 'Full Threaded Rods | Studs, Tie Rods, All-Thread | Moksh Tubes')
-<!-- 52 characters -->
+@section('title', 'Threaded Rods Manufacturer, Supplier & Exporter in India | Moksh Tubes')
+<!-- 69 characters -->
 @section('meta_description',
-    'High-quality Full Threaded Rods for smooth flow direction changes. Available in 3D, 5D, and custom radius in Carbon, Alloy, Stainless Steel & Nickel Alloys.')
+    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Threaded Rods in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM & DIN standards with worldwide delivery.')
 @section('meta_keywords',
-    'Full Threaded Rods, Threaded Rods, 3D Rods, 5D Rods, Custom Threaded Rods, Stainless Steel Rods, Carbon Steel Rods')
-@section('og_image', asset('assets/images/product/flangs/FASTENERS.webp'))
+    'Threaded Rods, Threaded Rods Manufacturer, Threaded Rods Supplier, Threaded Rods Exporter, Stainless Steel Threaded Rods, Carbon Steel Threaded Rods, Alloy Steel Threaded Rods, Duplex Threaded Rods, Super Duplex Threaded Rods, ASTM A193 B7 Threaded Rods, ASTM A320 L7 Threaded Rods, Fully Threaded Rods, Industrial Threaded Rods, Stud Rods, All Thread Rods, Threaded Fasteners, Industrial Fasteners, Stud Bolts, Fully Threaded Bars, Anchor Rods, Structural Fasteners, Heavy Duty Threaded Rods, Construction Fasteners, Pipe Support Rods, Metric Threaded Rods, UNC Threaded Rods, UNF Threaded Rods, High Tensile Threaded Rods')
+@section('og_title', 'Threaded Rods Manufacturer, Supplier & Exporter | Moksh Tubes')
+@section('og_description', 'Premium-quality Threaded Rods manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM & DIN compliant with worldwide export support.')
+@section('og_image', asset('/assets/images/fasteners/full-threaded-rods.png'))
 @section('og_type', 'product')
+@section('twitter_title', 'Threaded Rods Manufacturer in India')
+@section('twitter_description', 'Buy premium-quality Threaded Rods in multiple diameters, thread standards, coatings, and material grades with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/FASTENERS.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/fasteners/full-threaded-rods.png);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1 class="page-title">Full Threaded Rods (B7, B8, B8M, L7, Custom Sizes)</h1>
-                        <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Full Threaded Rods are critical components used to provide continuous threaded fastening solutions across the entire length, offering superior grip and adjustable mounting in structural, electrical, and piping applications. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we manufacture and supply premium high-strength and precision-threaded 90-degree rods in various thread profiles (Metric, UNC, UNF). Our products are available in carbon steel, alloy steel, stainless steel, duplex, and exotic alloys, fully compliant with ASME B18.31.3 and international standards.
+                    <h1 class="page-title">Threaded Rods Manufacturer, Supplier & Exporter in India</h1>
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px; max-width: 900px;">
+                        Threaded Rods are fully threaded fasteners used for fastening, anchoring, bracing, and structural support in construction, industrial, and engineering applications. They provide excellent load-bearing capacity, corrosion resistance, and reliable performance in demanding environments. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we manufacture, supply, and export premium-quality Threaded Rods in stainless steel, carbon steel, alloy steel, duplex, super duplex, and nickel alloy grades. Manufactured to international standards, our threaded rods ensure superior strength, precision, and long service life.
                     </p>
                 </div>
             </div>
@@ -25,18 +29,17 @@
 
     <!-- Quick Navigation (Standardized sticky tabs)-->
     <div class="sticky-top bg-white border-bottom material-tabs w-100 shadow-sm">
-        <div class="container text-center py-2">
-            <a href="#overview">Overview</a> |
+        <div class="container text-center py-3">
+            <a href="#overview">Product Overview</a> |
             <a href="#specifications">Specifications</a> |
-            <a href="#types">Types</a> |
-            <a href="#dimensions">Dimensions</a> |
-            <a href="#chemical-composition">Chemical</a> |
-            <a href="#mechanical-properties">Mechanical</a> |
-            <a href="#applications">Applications</a> |
-            <a href="#industries">Industries</a> |
-            <a href="#manufacturing">Manufacturing</a> |
-            <a href="#export">Export</a> |
-            <a href="#buying-guide">Buying Guide</a> |
+            <a href="#chemical-composition">Chemical Composition</a> |
+            <a href="#size-chart">Size & Weight Chart</a> |
+            <a href="#grades">Grades & Equivalent</a> |
+            <a href="#features">Features & Advantages</a> |
+            <a href="#applications">Applications</a> |<br>
+            <a href="#mechanical-properties">Mechanical Properties</a> |
+            <a href="#testing">Testing & Quality</a> |
+            <a href="#packaging">Packaging & Export</a> |
             <a href="#faq">FAQ</a>
         </div>
     </div>
@@ -44,31 +47,23 @@
     <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Full Threaded Rods</h2>
+                <h2 class="fw-bold" style="color: #174268;">Product Overview</h2>
             </div>
-
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('/assets/images/product/flangs/FASTENERS.webp') }}"
-                        alt="Full Threaded Rods" class="img-fluid rounded shadow-sm" width="550"
+                    <img src="{{ asset('/assets/images/fasteners/full-threaded-rods.png') }}"
+                        alt="Threaded Rods Manufacturer" class="img-fluid rounded shadow-sm" width="550"
                         height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Full Threaded Rods</strong> are engineered to provide a continuous threading from end to end, which allows nuts and washers to be screwed on from either direction. They are highly versatile and widely used in construction, plumbing, and mechanical engineering for tensioning, aligning, and mounting heavy components.
+                        A <strong>Threaded Rod</strong>, also known as an <strong>All Thread Rod</strong> or <strong>Stud Rod</strong>, is a long metal rod with continuous threads along its entire length. It is used with nuts and washers to create strong and adjustable fastening solutions for piping systems, steel structures, machinery, HVAC installations, and construction projects. Threaded rods are available in various diameters, lengths, thread types, and material grades to meet different industrial requirements.
                     </p>
-
-                    <p class="fs-6 mb-3 text-justify">
-                        <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a> is a leading manufacturer,
-                        supplier, and exporter of Full Threaded Rods in India. We utilize advanced thread rolling technology to produce high-integrity rods ensuring high tensile strength and fatigue resistance. Our rods are heavily utilized in <a href="{{ route('materials.austenitic-stainless-Steel') }}">Indian refineries</a> and
-                        major Gulf / GCC nations including UAE, Saudi Arabia, Qatar, Oman, and Kuwait.
-                    </p>
-
                     <p class="fs-6 text-justify">
-                        Available in seamless and welded forms, our rods are subjected to rigorous non-destructive testing, including ultrasonic and radiographic examinations, to ensure flawless performance in extreme temperature and high-pressure environments.
+                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture precision-engineered Threaded Rods using premium-quality raw materials and advanced threading technology. Our rods offer excellent dimensional accuracy, high tensile strength, and outstanding corrosion resistance, making them suitable for both indoor and outdoor applications.
                     </p>
                 </div>
             </div>
@@ -78,17 +73,14 @@
     {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Full Threaded Rods Datasheet</h3>
+            <h3 class="mb-3" style="color:#174268;">Download Threaded Rods Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with dimensional specifications, roding radii, material properties, and manufacturing tolerances.
-                Enter your email below to receive the PDF instantly.
+                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application guidelines. Enter your email below to receive the PDF instantly.
             </p>
-
-            <!-- Lead Capture Form -->
             <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
+                <input type="hidden" name="_token" value="{{ csrf_token() }}" autocomplete="off">
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="full-threaded-rods.pdf">
+                    <input type="hidden" name="pdf" value="threaded-rods-datasheet.pdf">
                     <div class="col-md-6 mb-2">
                         <input type="email" name="email" required="" class="form-control p-3"
                             placeholder="Enter your email address">
@@ -101,7 +93,6 @@
                     </div>
                 </div>
             </form>
-
             <hr class="my-4">
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
@@ -109,986 +100,57 @@
         </div>
     </section>
 
-    <section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
-
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Charts</h2>
-            </div>
-
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h3 class="text-center mb-0" style="color: #db7227;">Size Range Chart</h3>
-                <h4 class="text-center mb-0" style="color: #db7227;">Full Threaded Rods Weight Chart</h4>
-            </div>
-            <!-- Schedule 10C -->
-            <div class="section-title center mb-3 mt-4">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 10C Size & Weight Chart</h4>
-            </div>
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>NB (mm)</th>
-                            <th>NPS</th>
-                            <th>OD (mm)</th>
-                            <th>Wall Thickness (mm)</th>
-                            <th>Weight (kg/m)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>3</td>
-                            <td>1/8</td>
-                            <td>10.3</td>
-                            <td>1.24</td>
-                            <td>0.28</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6</td>
-                            <td>1/4</td>
-                            <td>13.7</td>
-                            <td>1.24</td>
-                            <td>0.39</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10</td>
-                            <td>3/8</td>
-                            <td>17.1</td>
-                            <td>1.24</td>
-                            <td>0.49</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15</td>
-                            <td>1/2</td>
-                            <td>21.3</td>
-                            <td>1.65</td>
-                            <td>0.81</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20</td>
-                            <td>3/4</td>
-                            <td>26.7</td>
-                            <td>1.65</td>
-                            <td>1.04</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>25</td>
-                            <td>1</td>
-                            <td>33.4</td>
-                            <td>1.65</td>
-                            <td>1.32</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>32</td>
-                            <td>1 1/4</td>
-                            <td>42.2</td>
-                            <td>1.65</td>
-                            <td>1.68</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>40</td>
-                            <td>1 1/2</td>
-                            <td>48.3</td>
-                            <td>1.65</td>
-                            <td>1.93</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>50</td>
-                            <td>2</td>
-                            <td>60.3</td>
-                            <td>1.65</td>
-                            <td>2.43</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>65</td>
-                            <td>2 1/2</td>
-                            <td>73.0</td>
-                            <td>1.65</td>
-                            <td>2.96</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>80</td>
-                            <td>3</td>
-                            <td>88.9</td>
-                            <td>1.65</td>
-                            <td>3.62</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100</td>
-                            <td>4</td>
-                            <td>114.3</td>
-                            <td>1.65</td>
-                            <td>4.67</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>125</td>
-                            <td>5</td>
-                            <td>141.3</td>
-                            <td>1.65</td>
-                            <td>5.79</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>150</td>
-                            <td>6</td>
-                            <td>168.3</td>
-                            <td>1.65</td>
-                            <td>6.91</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>200</td>
-                            <td>8</td>
-                            <td>219.1</td>
-                            <td>2.11</td>
-                            <td>11.51</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>250</td>
-                            <td>10</td>
-                            <td>273.1</td>
-                            <td>2.77</td>
-                            <td>18.81</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>300</td>
-                            <td>12</td>
-                            <td>323.9</td>
-                            <td>3.05</td>
-                            <td>24.59</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>350</td>
-                            <td>14</td>
-                            <td>355.6</td>
-                            <td>3.4</td>
-                            <td>30.1</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>400</td>
-                            <td>16</td>
-                            <td>406.4</td>
-                            <td>3.4</td>
-                            <td>34.44</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>450</td>
-                            <td>18</td>
-                            <td>457.2</td>
-                            <td>3.8</td>
-                            <td>43.28</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>500</td>
-                            <td>20</td>
-                            <td>508.0</td>
-                            <td>3.8</td>
-                            <td>48.15</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>600</td>
-                            <td>24</td>
-                            <td>609.6</td>
-                            <td>4.0</td>
-                            <td>60.92</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Schedule 40 -->
-            <div class="section-title center mb-3 mt-4">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 40 Size & Weight Chart</h4>
-            </div>
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>NB (mm)</th>
-                            <th>NPS</th>
-                            <th>OD (mm)</th>
-                            <th>Wall Thickness (mm)</th>
-                            <th>Weight (kg/m)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>3</td>
-                            <td>1/8</td>
-                            <td>10.3</td>
-                            <td>1.73</td>
-                            <td>0.37</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6</td>
-                            <td>1/4</td>
-                            <td>13.7</td>
-                            <td>2.24</td>
-                            <td>0.64</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10</td>
-                            <td>3/8</td>
-                            <td>17.1</td>
-                            <td>2.31</td>
-                            <td>0.86</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15</td>
-                            <td>1/2</td>
-                            <td>21.3</td>
-                            <td>2.77</td>
-                            <td>1.27</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20</td>
-                            <td>3/4</td>
-                            <td>26.7</td>
-                            <td>2.87</td>
-                            <td>1.7</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>25</td>
-                            <td>1</td>
-                            <td>33.4</td>
-                            <td>3.38</td>
-                            <td>2.46</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>32</td>
-                            <td>1 1/4</td>
-                            <td>42.2</td>
-                            <td>3.56</td>
-                            <td>3.61</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>40</td>
-                            <td>1 1/2</td>
-                            <td>48.3</td>
-                            <td>3.68</td>
-                            <td>4.18</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>50</td>
-                            <td>2</td>
-                            <td>60.3</td>
-                            <td>3.91</td>
-                            <td>5.44</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>65</td>
-                            <td>2 1/2</td>
-                            <td>73.0</td>
-                            <td>5.16</td>
-                            <td>8.63</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>80</td>
-                            <td>3</td>
-                            <td>88.9</td>
-                            <td>5.49</td>
-                            <td>11.29</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100</td>
-                            <td>4</td>
-                            <td>114.3</td>
-                            <td>6.02</td>
-                            <td>17.15</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>125</td>
-                            <td>5</td>
-                            <td>141.3</td>
-                            <td>6.55</td>
-                            <td>23.85</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>150</td>
-                            <td>6</td>
-                            <td>168.3</td>
-                            <td>7.11</td>
-                            <td>30.7</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>200</td>
-                            <td>8</td>
-                            <td>219.1</td>
-                            <td>8.18</td>
-                            <td>49.56</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>250</td>
-                            <td>10</td>
-                            <td>273.1</td>
-                            <td>9.27</td>
-                            <td>73.5</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>300</td>
-                            <td>12</td>
-                            <td>323.9</td>
-                            <td>10.31</td>
-                            <td>95.54</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>350</td>
-                            <td>14</td>
-                            <td>355.6</td>
-                            <td>11.13</td>
-                            <td>112.63</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>400</td>
-                            <td>16</td>
-                            <td>406.4</td>
-                            <td>12.7</td>
-                            <td>144.27</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>450</td>
-                            <td>18</td>
-                            <td>457.2</td>
-                            <td>14.27</td>
-                            <td>179.28</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>500</td>
-                            <td>20</td>
-                            <td>508.0</td>
-                            <td>15.09</td>
-                            <td>213.93</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>600</td>
-                            <td>24</td>
-                            <td>609.6</td>
-                            <td>15.88</td>
-                            <td>274.06</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Schedule 80 -->
-            <div class="section-title center mb-3 mt-4">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 80 Size & Weight Chart</h4>
-            </div>
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>NB (mm)</th>
-                            <th>NPS</th>
-                            <th>OD (mm)</th>
-                            <th>Wall Thickness (mm)</th>
-                            <th>Weight (kg/m)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>3</td>
-                            <td>1/8</td>
-                            <td>10.3</td>
-                            <td>1.73</td>
-                            <td>0.37</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6</td>
-                            <td>1/4</td>
-                            <td>13.7</td>
-                            <td>3.02</td>
-                            <td>0.83</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10</td>
-                            <td>3/8</td>
-                            <td>17.1</td>
-                            <td>3.2</td>
-                            <td>1.13</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15</td>
-                            <td>1/2</td>
-                            <td>21.3</td>
-                            <td>3.73</td>
-                            <td>1.63</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20</td>
-                            <td>3/4</td>
-                            <td>26.7</td>
-                            <td>3.91</td>
-                            <td>2.3</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>25</td>
-                            <td>1</td>
-                            <td>33.4</td>
-                            <td>4.55</td>
-                            <td>3.38</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>32</td>
-                            <td>1 1/4</td>
-                            <td>42.2</td>
-                            <td>4.85</td>
-                            <td>4.84</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>40</td>
-                            <td>1 1/2</td>
-                            <td>48.3</td>
-                            <td>5.08</td>
-                            <td>5.61</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>50</td>
-                            <td>2</td>
-                            <td>60.3</td>
-                            <td>5.54</td>
-                            <td>7.48</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>65</td>
-                            <td>2 1/2</td>
-                            <td>73.0</td>
-                            <td>7.01</td>
-                            <td>11.76</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>80</td>
-                            <td>3</td>
-                            <td>88.9</td>
-                            <td>7.62</td>
-                            <td>15.74</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100</td>
-                            <td>4</td>
-                            <td>114.3</td>
-                            <td>8.56</td>
-                            <td>25.1</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>125</td>
-                            <td>5</td>
-                            <td>141.3</td>
-                            <td>9.53</td>
-                            <td>36.46</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>150</td>
-                            <td>6</td>
-                            <td>168.3</td>
-                            <td>10.97</td>
-                            <td>49.56</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>200</td>
-                            <td>8</td>
-                            <td>219.1</td>
-                            <td>12.7</td>
-                            <td>77.1</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>250</td>
-                            <td>10</td>
-                            <td>273.1</td>
-                            <td>15.09</td>
-                            <td>114.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>300</td>
-                            <td>12</td>
-                            <td>323.9</td>
-                            <td>17.48</td>
-                            <td>153.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>350</td>
-                            <td>14</td>
-                            <td>355.6</td>
-                            <td>19.05</td>
-                            <td>180.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>400</td>
-                            <td>16</td>
-                            <td>406.4</td>
-                            <td>21.44</td>
-                            <td>227.5</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>450</td>
-                            <td>18</td>
-                            <td>457.2</td>
-                            <td>23.83</td>
-                            <td>282.5</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>500</td>
-                            <td>20</td>
-                            <td>508.0</td>
-                            <td>26.18</td>
-                            <td>342.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>600</td>
-                            <td>24</td>
-                            <td>609.6</td>
-                            <td>30.96</td>
-                            <td>480.0</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Schedule 160 -->
-            <div class="section-title center mb-3 mt-4">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 160 Size & Weight Chart</h4>
-            </div>
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>NB (mm)</th>
-                            <th>NPS</th>
-                            <th>OD (mm)</th>
-                            <th>Wall Thickness (mm)</th>
-                            <th>Weight (kg/m)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>3</td>
-                            <td>1/8</td>
-                            <td>10.3</td>
-                            <td>2.41</td>
-                            <td>0.49</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6</td>
-                            <td>1/4</td>
-                            <td>13.7</td>
-                            <td>3.02</td>
-                            <td>0.83</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10</td>
-                            <td>3/8</td>
-                            <td>17.1</td>
-                            <td>3.2</td>
-                            <td>1.13</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15</td>
-                            <td>1/2</td>
-                            <td>21.3</td>
-                            <td>4.09</td>
-                            <td>1.75</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20</td>
-                            <td>3/4</td>
-                            <td>26.7</td>
-                            <td>4.55</td>
-                            <td>2.63</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>25</td>
-                            <td>1</td>
-                            <td>33.4</td>
-                            <td>6.35</td>
-                            <td>4.51</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>32</td>
-                            <td>1 1/4</td>
-                            <td>42.2</td>
-                            <td>6.35</td>
-                            <td>6.12</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>40</td>
-                            <td>1 1/2</td>
-                            <td>48.3</td>
-                            <td>7.14</td>
-                            <td>7.92</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>50</td>
-                            <td>2</td>
-                            <td>60.3</td>
-                            <td>8.71</td>
-                            <td>11.06</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>65</td>
-                            <td>2 1/2</td>
-                            <td>73.0</td>
-                            <td>9.53</td>
-                            <td>14.9</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>80</td>
-                            <td>3</td>
-                            <td>88.9</td>
-                            <td>11.13</td>
-                            <td>21.31</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100</td>
-                            <td>4</td>
-                            <td>114.3</td>
-                            <td>13.49</td>
-                            <td>34.35</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>125</td>
-                            <td>5</td>
-                            <td>141.3</td>
-                            <td>15.88</td>
-                            <td>53.3</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>150</td>
-                            <td>6</td>
-                            <td>168.3</td>
-                            <td>18.26</td>
-                            <td>75.53</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>200</td>
-                            <td>8</td>
-                            <td>219.1</td>
-                            <td>23.01</td>
-                            <td>123.9</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>250</td>
-                            <td>10</td>
-                            <td>273.1</td>
-                            <td>28.58</td>
-                            <td>190.5</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>300</td>
-                            <td>12</td>
-                            <td>323.9</td>
-                            <td>33.32</td>
-                            <td>268.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>350</td>
-                            <td>14</td>
-                            <td>355.6</td>
-                            <td>35.71</td>
-                            <td>327.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>400</td>
-                            <td>16</td>
-                            <td>406.4</td>
-                            <td>40.49</td>
-                            <td>429.5</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>450</td>
-                            <td>18</td>
-                            <td>457.2</td>
-                            <td>45.24</td>
-                            <td>544.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>500</td>
-                            <td>20</td>
-                            <td>508.0</td>
-                            <td>50.01</td>
-                            <td>677.5</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>600</td>
-                            <td>24</td>
-                            <td>609.6</td>
-                            <td>59.54</td>
-                            <td>997.0</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Schedule XXC -->
-            <div class="section-title center mb-3 mt-4">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule XXC Size & Weight Chart</h4>
-            </div>
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>NB (mm)</th>
-                            <th>NPS</th>
-                            <th>OD (mm)</th>
-                            <th>Wall Thickness (mm)</th>
-                            <th>Weight (kg/m)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>3</td>
-                            <td>1/8</td>
-                            <td>10.3</td>
-                            <td>2.41</td>
-                            <td>0.49</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6</td>
-                            <td>1/4</td>
-                            <td>13.7</td>
-                            <td>3.02</td>
-                            <td>0.83</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10</td>
-                            <td>3/8</td>
-                            <td>17.1</td>
-                            <td>3.2</td>
-                            <td>1.13</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15</td>
-                            <td>1/2</td>
-                            <td>21.3</td>
-                            <td>4.78</td>
-                            <td>1.98</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20</td>
-                            <td>3/4</td>
-                            <td>26.7</td>
-                            <td>6.02</td>
-                            <td>3.32</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>25</td>
-                            <td>1</td>
-                            <td>33.4</td>
-                            <td>7.47</td>
-                            <td>5.25</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>32</td>
-                            <td>1 1/4</td>
-                            <td>42.2</td>
-                            <td>9.09</td>
-                            <td>8.26</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>40</td>
-                            <td>1 1/2</td>
-                            <td>48.3</td>
-                            <td>10.15</td>
-                            <td>10.68</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>50</td>
-                            <td>2</td>
-                            <td>60.3</td>
-                            <td>11.07</td>
-                            <td>14.82</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>65</td>
-                            <td>2 1/2</td>
-                            <td>73.0</td>
-                            <td>13.49</td>
-                            <td>21.56</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>80</td>
-                            <td>3</td>
-                            <td>88.9</td>
-                            <td>15.24</td>
-                            <td>29.83</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100</td>
-                            <td>4</td>
-                            <td>114.3</td>
-                            <td>18.26</td>
-                            <td>47.17</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>125</td>
-                            <td>5</td>
-                            <td>141.3</td>
-                            <td>21.95</td>
-                            <td>70.65</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>150</td>
-                            <td>6</td>
-                            <td>168.3</td>
-                            <td>25.4</td>
-                            <td>99.57</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>200</td>
-                            <td>8</td>
-                            <td>219.1</td>
-                            <td>28.58</td>
-                            <td>144.45</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>250</td>
-                            <td>10</td>
-                            <td>273.1</td>
-                            <td>31.75</td>
-                            <td>202.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>300</td>
-                            <td>12</td>
-                            <td>323.9</td>
-                            <td>36.53</td>
-                            <td>281.25</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>350</td>
-                            <td>14</td>
-                            <td>355.6</td>
-                            <td>38.89</td>
-                            <td>338.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>400</td>
-                            <td>16</td>
-                            <td>406.4</td>
-                            <td>44.45</td>
-                            <td>442.5</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>450</td>
-                            <td>18</td>
-                            <td>457.2</td>
-                            <td>50.01</td>
-                            <td>562.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>500</td>
-                            <td>20</td>
-                            <td>508.0</td>
-                            <td>55.56</td>
-                            <td>697.0</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>600</td>
-                            <td>24</td>
-                            <td>609.6</td>
-                            <td>63.5</td>
-                            <td>984.0</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        
-    </section>
-
-    <script>
-        // document.addEventListener("DOMContentLoaded", function() {
-        //     const fullTable = document.getElementById("table-5c-full");
-        //     const btn = document.getElementById("toggleBtn");
-
-        //     fullTable.addEventListener("shown.bs.collapse", function() {
-        //         btn.textContent = "Show Less";
-        //     });
-
-        //     fullTable.addEventListener("hidden.bs.collapse", function() {
-        //         btn.textContent = "View Full Chart";
-        //     });
-        // });
-
-        // document.addEventListener("DOMContentLoaded", function() {
-        //     const tables = document.querySelectorAll(".table-5c-full");
-        //     const buttons = document.querySelectorAll(".toggleBtn");
-
-        //     tables.forEach((table) => {
-        //         buttons.forEach((btn) => {
-
-        //             table.addEventListener("shown.bs.collapse", function() {
-        //                 btn.textContent = "Show Less";
-        //             });
-
-        //             table.addEventListener("hidden.bs.collapse", function() {
-        //                 btn.textContent = "View Full Chart";
-        //             });
-
-        //         });
-        //     });
-        // });
-    </script>
-
-
-
-
-
-
-
-
-
-
-    {{-- Grades Available --}}
-    <section id="chemical-composition" class="sec-padd-top sec-padd-bottom">
+    <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Available Grades & Materials</h2>
+                <h2>Specifications</h2>
             </div>
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Full Threaded Rods are offered in a wide
-                    range of materials and grades:</h4>
-            </div>
-
             <div class="row justify-content-center">
-                <div class="col-lg-8">
+                <div class="col-lg-12">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Material</th>
-                                    <th>Grades</th>
+                                    <th>Specification</th>
+                                    <th>Details</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr class="t-row">
-                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>
-                                    </td>
-                                    <td>304, 304L, 316, 316L, 310, 321, 347 for high-temperature resistance.</td>
+                                    <td>Product</td>
+                                    <td>Threaded Rod</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex:
-                                        </a></td>
-                                    <td>2205, S31803, S32750 for high strength and corrosion </td>
+                                    <td>Standards</td>
+                                    <td>ASTM, DIN, ISO, ASME, BS</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td><a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a></td>
-                                    <td>Inconel 600, 625, 718, Monel 400, K500 for extreme environments.</td>
+                                    <td>Material</td>
+                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Alloy Steel</td>
-                                    <td>T11, T12, T22, T91 for high pressure boilers.</td>
+                                    <td>Diameter</td>
+                                    <td>M6 to M100 / ¼" to 4"</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon Steel</td>
-                                    <td>ASTM A179, A192 for low and medium pressure boilers.</td>
+                                    <td>Length</td>
+                                    <td>Up to 6000 mm (Custom Sizes Available)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Copper Alloys</td>
-                                    <td>Cu-Ni 70/30, 90/10 for marine heat exchangers and condensers.</td>
+                                    <td>Thread Type</td>
+                                    <td>Metric, UNC, UNF, BSW, BSP</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium</td>
-                                    <td><a href="{{ route('materials.titanium') }}">Grades 1, 2</a> for desalination
-                                        plants
-                                        and chemical industries.</td>
+                                    <td>Thread Style</td>
+                                    <td>Fully Threaded</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Surface Finish</td>
+                                    <td>Plain, Bright, Zinc Plated, PTFE Coated, Hot Dip Galvanized</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manufacturing</td>
+                                    <td>Cold Drawn / CNC Threaded</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1098,517 +160,552 @@
         </div>
     </section>
 
-    {{-- Gallery --}}
-    <section class="our-services">
+    <section id="chemical-composition" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-            <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition</h2>
+            </div>
+            <p class="text-center pb-3">
+                The chemical composition of <strong>Threaded Rods</strong> varies depending on the selected material grade. At Moksh Tubes & Fittings LLP, our Threaded Rods are manufactured using premium-quality raw materials that comply with ASTM, ASME, DIN, ISO, EN, and BS standards, ensuring excellent corrosion resistance, high tensile strength, and long service life.
+            </p>
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle text-center">
+                            <thead class="table-dark">
+                                <tr class="t-row">
+                                    <th>Element</th>
+                                    <th>SS 304 (%)</th>
+                                    <th>SS 304L (%)</th>
+                                    <th>SS 316 (%)</th>
+                                    <th>SS 316L (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
+                                <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
+                                <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
+                                <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
+                                <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
+                                <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
+                                <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
+                                <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
+                                <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
+                                <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, ASTM A193 B7/B7M, ASTM A320 L7, Duplex, Super Duplex, and Nickel Alloy Threaded Rods are also available in accordance with the relevant ASTM and ASME material specifications.</small></p>
+        </div>
+    </section>
+
+    <!-- charts -->
+    <section id="size-chart" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart</h2>
+            </div>
+            <p class="text-center pb-3">
+                Threaded Rods are available in a wide range of metric and imperial sizes with various lengths to meet industrial and construction requirements.
+            </p>
+            <div class="table-responsive mt-4">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                        <tr class="t-row">
+                            <th>Diameter</th>
+                            <th>Thread Pitch</th>
+                            <th>Standard Length (mm)</th>
+                            <th>Approx. Weight (kg/m)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row"><td>M6</td><td>1.0</td><td>1000–3000</td><td>0.22</td></tr>
+                        <tr class="t-row"><td>M8</td><td>1.25</td><td>1000–3000</td><td>0.39</td></tr>
+                        <tr class="t-row"><td>M10</td><td>1.5</td><td>1000–3000</td><td>0.62</td></tr>
+                        <tr class="t-row"><td>M12</td><td>1.75</td><td>1000–3000</td><td>0.89</td></tr>
+                        <tr class="t-row"><td>M16</td><td>2.0</td><td>1000–3000</td><td>1.58</td></tr>
+                        <tr class="t-row"><td>M20</td><td>2.5</td><td>1000–3000</td><td>2.47</td></tr>
+                        <tr class="t-row"><td>M24</td><td>3.0</td><td>1000–3000</td><td>3.56</td></tr>
+                        <tr class="t-row"><td>M30</td><td>3.5</td><td>1000–3000</td><td>5.55</td></tr>
+                        <tr class="t-row"><td>M36</td><td>4.0</td><td>1000–3000</td><td>7.99</td></tr>
+                        <tr class="t-row"><td>M42</td><td>4.5</td><td>1000–3000</td><td>10.90</td></tr>
+                        <tr class="t-row"><td>M48</td><td>5.0</td><td>1000–3000</td><td>14.20</td></tr>
+                        <tr class="t-row"><td>M56</td><td>5.5</td><td>Up to 6000</td><td>19.40</td></tr>
+                        <tr class="t-row"><td>M64</td><td>6.0</td><td>Up to 6000</td><td>25.30</td></tr>
+                        <tr class="t-row"><td>M72</td><td>6.0</td><td>Up to 6000</td><td>32.00</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and may vary depending on the material grade, thread standard (Metric, UNC, UNF, BSW, BSP), coating, and manufacturing tolerances. Custom diameters, lengths, and thread types are available upon request.</p>
+        </div>
+    </section>
+
+    {{-- Material Pages --}}
+    <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2>Grades & Equivalent</h2>
+            </div>
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center shadow-sm grade-card">
+                        <div class="card-body py-4">
+                            <i class="bi bi-shield-check mb-3 d-block card-icon" style="font-size: 2rem;"></i>
+                            <h5 class="card-title" style="font-weight: 600;">Stainless Steel Grades</h5>
+                            <p class="card-text small mb-0">304 / 304L, 316 / 316L</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center shadow-sm grade-card">
+                        <div class="card-body py-4">
+                            <i class="bi bi-gear-fill mb-3 d-block card-icon" style="font-size: 2rem;"></i>
+                            <h5 class="card-title" style="font-weight: 600;">Carbon & Alloy Steel</h5>
+                            <p class="card-text small mb-0">Carbon Steel, Alloy Steel<br>ASTM A193 Grade B7/B7M, ASTM A320 Grade L7</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center shadow-sm grade-card">
+                        <div class="card-body py-4">
+                            <i class="bi bi-gem mb-3 d-block card-icon" style="font-size: 2rem;"></i>
+                            <h5 class="card-title" style="font-weight: 600;">Duplex & Super Duplex</h5>
+                            <p class="card-text small mb-0">UNS S31803 / 2205<br>UNS S32750 / 2507</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center shadow-sm grade-card">
+                        <div class="card-body py-4">
+                            <i class="bi bi-award-fill mb-3 d-block card-icon" style="font-size: 2rem;"></i>
+                            <h5 class="card-title" style="font-weight: 600;">High-Performance Alloys</h5>
+                            <p class="card-text small mb-0">Inconel&reg;, Monel&reg;, Hastelloy&reg; Alloys</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy rods for heat exchangers" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">NICKEL ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="Stainless steel boiler and condenser rods" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex rods for seawater service" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">DUPLEX & SUPER</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="Titanium heat exchanger and condenser rods" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4 ">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy rods for high-temperature service" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Haynes Superalloys</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Inconel alloy rods for corrosion-resistant applications" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Inconel</h6>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    {{-- Gallery --}}
-
-
-
-    {{-- Applications --}}
-    <section id="applications" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Applications of Full Threaded Rods</h2>
-                <p class="text-center pb-3">
-                    <strong class="text-black">Full Threaded Rods </strong> are crucial for industries where
-                    efficient heat transfer and mechanical strength are required:
-                </p>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-gear-wide-connected"></i>
-                        </div>
-                        <h5>Power Generation</h5>
-                        <ul>
-                            <li>Superheater & reheater rods</li>
-                            <li>Boiler rods for thermal, gas & nuclear plants</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Oil & Gas / Petrochemical</h5>
-                        <ul>
-                            <li>Process heat exchangers</li>
-                            <li>Condensers & coolers</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Chemical & Fertilizer Plants</h5>
-                        <ul>
-                            <li>Reactors, evaporators, cooling towers</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Marine & Offshore</h5>
-                        <ul>
-                            <li>Cu-Ni & Titanium seawater condensers</li>
-                            <li>Marine boiler systems</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Food & Dairy</h5>
-                        <ul>
-                            <li>Hygienic stainless-steel heat exchanger rods</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>HVAC & Refrigeration</h5>
-                        <ul>
-                            <li>Evaporators, condensers, chilled water systems</li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    {{-- Industries We Serve --}}
-    <!-- Buying Guide Section (Styled for Your UI) -->
-    <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Buying Guide:</h2>
-                <h4 style="color: #db7227;">How to Select the Right Full Threaded Rod</h4>
-            </div>
-
-            <div class="row g-4 mt-4">
                 <div class="col-md-12">
-                    <div class="application-card">
-                        {{--    <div class="application-icon center"><i class="bi bi-brightness-high-fill"></i><h5>3. Material Selection Guide</h5></div> --}}
-                        <div class="application-icon center d-flex align-items-center gap-4 justify-content-center">
-                            <i class="bi bi-brightness-high-fill"></i>
-                            <h5 class="m-0">Material Selection Guide</h5>
-                        </div>
-
-
-
-                        <div class="table-responsive mt-3">
-                            <table class="table table-bordered">
-                                <thead class="table-light">
-                                    <tr class="t-row">
-                                        <th>Material</th>
-                                        <th>Ideal For</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="t-row">
-                                        <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless
-                                                Steel</a></td>
-                                        <td>Steam, hygienic systems</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex / Super
-                                                Duplex</a></td>
-                                        <td>Seawater, chlorides</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td><a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a>
-                                        </td>
-                                        <td>Acids, extreme corrosion</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Carbon Steel</td>
-                                        <td>High-pressure full threaded rods</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
+                    <div class="section-title center mb-4">
+                        <h2>International Equivalents</h2>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th style="width: 25%; text-align: left; padding-left: 20px;">Standard</th>
+                                    <th style="text-align: left; padding-left: 20px;">Specification</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-start">
+                                <tr class="t-row"><td style="padding-left: 20px;"><strong>ASTM</strong></td><td style="padding-left: 20px;">ASTM A193, ASTM A320</td></tr>
+                                <tr class="t-row"><td style="padding-left: 20px;"><strong>ASME</strong></td><td style="padding-left: 20px;">ASME SA193, SA320</td></tr>
+                                <tr class="t-row"><td style="padding-left: 20px;"><strong>DIN</strong></td><td style="padding-left: 20px;">DIN 975 / DIN 976</td></tr>
+                                <tr class="t-row"><td style="padding-left: 20px;"><strong>ISO</strong></td><td style="padding-left: 20px;">ISO 898-1</td></tr>
+                                <tr class="t-row"><td style="padding-left: 20px;"><strong>EN</strong></td><td style="padding-left: 20px;">EN ISO 898</td></tr>
+                                <tr class="t-row"><td style="padding-left: 20px;"><strong>BS</strong></td><td style="padding-left: 20px;">BS 3692</td></tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-                <!-- Card 1 -->
-                <!-- Card 1 -->
-
-                <!-- Card 1 -->
-
-
-
             </div>
         </div>
     </section>
 
-    {{-- Uses of Welded Pipes and Rods --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    {{-- Gallery / Products --}}
+    <section class="our-services sec-padd-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}">
+                                <img class="w-100" src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp') }}" alt="Stainless Steel 304" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}" style="color: inherit; text-decoration: none;">Stainless Steel 304</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}">
+                                <img class="w-100" src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}" alt="Stainless Steel 316" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}" style="color: inherit; text-decoration: none;">Stainless Steel 316</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}">
+                                <img class="w-100" src="{{ asset('assets/images/engineering-steels/engineering-steels-1045.webp') }}" alt="Carbon Steel" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}" style="color: inherit; text-decoration: none;">Carbon Steel</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}">
+                                <img class="w-100" src="{{ asset('assets/images/engineering-steels/engineering-steels-4140.webp') }}" alt="Alloy Steel" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}" style="color: inherit; text-decoration: none;">Alloy Steel</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                                <img class="w-100" src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}" alt="Duplex Stainless Steel" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}" style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel.grade', 'inconel-625') }}">
+                                <img class="w-100" src="{{ asset('assets/images/inconel/Inconel-625.webp') }}" alt="Inconel Alloys" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}" style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- Features & Advantages --}}
+    <section id="features" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Uses of Full Threaded Rods</h2>
-            </div>
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Full Threaded Rods are used extensively
-                    across multiple
-                    industries, including:</h4>
+                <h2>Features & Advantages</h2>
             </div>
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Efficient Heat Transfer</h4>
-                        <h5>Ensures efficient heat transfer in industrial systems</h5>
+                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                        <h4>High tensile strength and durability</h4>
                     </div>
                 </div>
-
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-link-45deg"></i></div>
+                        <h4>Fully threaded design for secure fastening</h4>
+                    </div>
+                </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h4>Extreme Condition Performance</h4>
-                        <h5>Handles extreme temperature and pressure conditions</h5>
+                        <h4>Excellent corrosion and oxidation resistance</h4>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h4>Corrosion Resistance</h4>
-                        <h5>Provides corrosion resistance in aggressive environments</h5>
+                        <div class="advantage-icon"><i class="bi bi-building"></i></div>
+                        <h4>Suitable for heavy-duty industrial applications</h4>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h4>Energy Efficiency Support</h4>
-                        <h5>Supports energy efficiency in power plants and process industries</h5>
+                        <div class="advantage-icon"><i class="bi bi-gear"></i></div>
+                        <h4>Available in multiple thread standards and coatings</h4>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h4>Multi-Media Compatibility</h4>
-                        <h5>Suitable for steam, gas, liquid, and chemical transport in heat systems</h5>
+                        <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
+                        <h4>Easy installation with nuts and washers</h4>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h4>Operational Reliability</h4>
-                        <h5>Delivers long term reliability and consistent performance in demanding applications</h5>
+                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                        <h4>Precision-machined threads for accurate fit</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h4>Long service life with low maintenance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
+                        <h4>Manufactured according to international quality standards</h4>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    {{-- Advantages of Welded Pipes & Rods --}}
-    <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom bg-light">
+
+    {{-- Applications --}}
+    <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Applications</h2>
+                <p class="text-center pb-3">Threaded Rods are widely used in:</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-building"></i></div>
+                        <h5>Construction & Infrastructure</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-bounding-box-circles"></i></div>
+                        <h5>Structural Steel Fabrication</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Industrial Machinery</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
+                        <h5>Oil & Gas Industry</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-ev-station"></i></div>
+                        <h5>Petrochemical Plants</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
+                        <h5>Power Generation Plants</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-snow"></i></div>
+                        <h5>HVAC Systems</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-wrench"></i></div>
+                        <h5>Plumbing Installations</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-diagram-3"></i></div>
+                        <h5>Pipe Support Systems</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-water"></i></div>
+                        <h5>Marine & Offshore Projects</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-anchor"></i></div>
+                        <h5>Equipment Mounting & Anchoring</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom">
         <div class="container">
              <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties – Full Threaded Rods</h2>
-                 <p class="text-center">(Typical values as per ASTM standards)</p>
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
+                 <p class="text-center">The mechanical properties of <strong>Threaded Rods</strong> depend on the selected material grade and comply with applicable ASTM and ASME standards. The table below shows the typical mechanical properties for commonly supplied stainless steel grades.</p>
             </div>
-
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
                         <tr class="t-row">
-                            <th>Standard</th>
-                            <th>Tensile Strength (MPa)</th>
-                            <th>Yield Strength (MPa)</th>
-                            <th>Elongation (%)</th>
+                            <th>Property</th>
+                            <th>SS 304 / 304L</th>
+                            <th>SS 316 / 316L</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="t-row">
-                            <td>ASTM A179</td>
-                            <td>325</td>
-                            <td>180</td>
-                            <td>35</td>
+                            <td>Tensile Strength (MPa)</td>
+                            <td>515 Min</td>
+                            <td>515 Min</td>
                         </tr>
-                         <tr class="t-row">
-                            <td>ASTM A192</td>
-                            <td>325</td>
-                            <td>180</td>
-                            <td>35</td>
+                        <tr class="t-row">
+                            <td>Yield Strength (MPa)</td>
+                            <td>205 Min</td>
+                            <td>205 Min</td>
                         </tr>
-                         <tr class="t-row">
-                            <td>ASTM A213 (SS Grades)</td>
-                            <td>515</td>
-                            <td>205</td>
-                            <td>40</td>
+                        <tr class="t-row">
+                            <td>Elongation (%)</td>
+                            <td>40 Min</td>
+                            <td>40 Min</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (HB Max)</td>
+                            <td>201</td>
+                            <td>217</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-             <p class="mt-2 text-muted text-center"><small>📌 Actual values depend on material grade and heat treatment.</small></p>
+            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Mechanical properties for Carbon Steel, Alloy Steel, ASTM A193 B7/B7M, ASTM A320 L7, Duplex, Super Duplex, and Nickel Alloy Threaded Rods are available in accordance with their respective ASTM/ASME material specifications upon request.</p>
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Buying Guide – Full Threaded Rods</h2>
-                <p>Before selecting boiler or heat exchanger rods, consider the following factors:</p>
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Testing & Quality</h2>
             </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <ul class="list-group">
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Applicable standard (ASTM A179 / A192 / A213)</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Operating temperature and pressure</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Required material (carbon, alloy, stainless, Cu-Ni, titanium)</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Seamless or welded construction</li>
-                    </ul>
-                </div>
-                 <div class="col-lg-6">
-                    <ul class="list-group">
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Schedule and wall thickness</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Heat treatment and surface finish</li>
-                         <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Required testing and certification</li>
-                    </ul>
-                </div>
-            </div>
-            <p class="mt-3 text-center fw-bold">For GCC and export projects, ensure EN 10204 3.1 certification, proper marking, and export-grade packaging.</p>
-        </div>
-    </section>
-
-     <section id="export" class="sec-padd-top sec-padd-bottom">
-        <div class="container text-center">
-             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>
-            </div>
-            <p class="fs-5">We supply Full Threaded Rods across major Indian industrial locations including Mumbai, Chennai, Ahmedabad, Pune, and Hyderabad, with efficient logistics support for domestic power and process industry projects.</p>
-            <p class="fs-5">We also regularly export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait, supplying rods for power plants, refineries, desalination units, and EPC contractors.</p>
-        </div>
-    </section>
-
-     <!-- Testing & Quality Control for Full Threaded Rods -->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Testing & Quality Control for Full Threaded Rods</h2>
-            </div>
-
             <div class="row g-4 mt-4">
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-fill"></i></div>
-                        <h4>Hydrostatic Test</h4>
-                        <h5>Hydrostatic test for pressure integrity verification.</h5>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testing-card">
+                        <div class="testing-icon"><i class="bi bi-hammer"></i></div>
+                        <h5>Tensile Test</h5>
                     </div>
                 </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
-                        <h4>Eddy Current Test</h4>
-                        <h5>Eddy current testing for detecting surface-level defects.</h5>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testing-card">
+                        <div class="testing-icon"><i class="bi bi-shield"></i></div>
+                        <h5>Proof Load Test</h5>
                     </div>
                 </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                        <h4>PMI Test</h4>
-                        <h5>PMI testing to verify material grade and composition.</h5>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testing-card">
+                        <div class="testing-icon"><i class="bi bi-check2-circle"></i></div>
+                        <h5>PMI Test</h5>
                     </div>
                 </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                        <h4>Hardness Test</h4>
-                        <h5>Hardness testing for strength and durability confirmation.</h5>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testing-card">
+                        <div class="testing-icon"><i class="bi bi-rulers"></i></div>
+                        <h5>Thread Gauging</h5>
                     </div>
                 </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
-                        <h4>Flattening & Flaring Test</h4>
-                        <h5>Flattening and flaring to assess ductility and deformation.</h5>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testing-card">
+                        <div class="testing-icon"><i class="bi bi-bullseye"></i></div>
+                        <h5>Hardness Test</h5>
                     </div>
                 </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-broadcast-pin"></i></div>
-                        <h4>Ultrasonic Test (UT)</h4>
-                        <h5>Ultrasonic testing for internal and volumetric defects.</h5>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testing-card">
+                        <div class="testing-icon"><i class="bi bi-brightness-high"></i></div>
+                        <h5>Magnetic Particle Inspection</h5>
                     </div>
                 </div>
-
             </div>
-
+        </div>
     </section>
 
-
-
-    {{-- why choose us --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>Why Choose Moksh Tubes & Fittings?</h2>
+    <section id="packaging" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
             </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <p class="fs-6 text-muted">
+                        We ensure that our Threaded Rods are securely packaged to prevent damage during transit. We use high-quality wooden crates, pallets, and shrink-wrapping for export shipments.<br>
+                        We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe, Africa, and Southeast Asia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Why Choose Moksh Tubes & Fittings LLP?</h2>
+            </div>
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Ready stock for fast dispatch
-                        </h5>
+                        <h5>Leading Manufacturer, Supplier & Exporter</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Project-based sourcing & bulk supply capability
-                        </h5>
+                        <div class="why-banner-icon"><i class="bi bi-nut"></i></div>
+                        <h5>Premium Quality Industrial Fasteners</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Compliance with Indian & Gulf standards</h5>
+                        <h5>Wide Range of Sizes, Thread Types & Material Grades</h5>
                     </div>
                 </div>
-
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-box-seam"></i></div>
+                        <h5>Ready Stock for Immediate Dispatch</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-tags"></i></div>
+                        <h5>Competitive Pricing</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Strict Quality Assurance</h5>
+                    </div>
+                </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Export-grade packaging & complete documentation</h5>
+                        <h5>Global Export Experience</h5>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Reliable delivery timelines</h5>
+                        <div class="why-banner-icon"><i class="bi bi-file-earmark-text"></i></div>
+                        <h5>Complete Documentation Support</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Technical support for EPC & industrial projects</h5>
+                        <div class="why-banner-icon"><i class="bi bi-tools"></i></div>
+                        <h5>Expert Technical Assistance</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-    <!--End breadcrumb area-->
-
 
     <!--Start faq content area-->
     <section id="faq" class="faq-content-area sec-padd2">
@@ -1618,110 +715,62 @@
                     <div class="accordion-box">
                         <div class="section-title center">
                             <h2>Frequently Asked Questions (FAQ)</h2>
-
                         </div>
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What are Full Threaded Rods?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Full Threaded Rods are precision-engineered components used in power plants,
-                                    refineries, chemical industries, and various heat-transfer systems. They are built to
-                                    withstand high temperature, high pressure, and corrosive environments while maintaining
-                                    stable heat transfer efficiency.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What materials are used to manufacture these rods?</h4>
+                                <h4>What is a Threaded Rod?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    These rods are manufactured in Stainless Steel, Duplex/Super Duplex, Nickel Alloys
-                                    (Inconel, Monel), Alloy Steel, Carbon Steel, Copper Alloys, and Titanium. The selection
-                                    depends on the operating temperature, pressure, and fluid medium.
+                                    A Threaded Rod is a fully threaded metal rod used with nuts and washers for fastening, anchoring, bracing, and structural support in industrial and construction applications.
                                 </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What sizes and dimensions are available?</h4>
+                                <h4>Where are Threaded Rods commonly used?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Full Threaded Rods are available from 6 mm to 219 mm OD, 0.5 mm to 12.7 mm
-                                    wall thickness, and lengths up to 12 meters. Available in Seamless, Welded, ERW, EFW,
-                                    and U-Bent forms.
+                                    Threaded Rods are widely used in construction, steel fabrication, piping systems, HVAC installations, industrial machinery, power plants, and offshore projects.
                                 </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What standards do these rods meet?</h4>
+                                <h4>Which materials are available?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    These rods are manufactured according to ASTM A179, A192, A213, A249, A269, A333, ASME
-                                    SA213, EN 10216, DIN, and related global specifications with strict inspection and QC.
+                                    We manufacture Threaded Rods in stainless steel, carbon steel, alloy steel, duplex, super duplex, and nickel alloy grades.
                                 </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are the main applications of Full Threaded Rods?</h4>
+                                <h4>Do you provide material test certificates?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Used in boilers, superheaters, reheaters, economizers, heat exchangers, condensers,
-                                    petrochemical heaters, chemical processing, marine applications (Cu-Ni & titanium), food
-                                    & dairy systems, and HVAC/refrigeration.
+                                    Yes. EN 10204 3.1 Material Test Certificates are supplied with every order.
                                 </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
-
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What is the MOQ and typical lead time?</h4>
+                                <h4>Can you manufacture custom sizes?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Ex-stock sizes dispatch 2-5 days; make-to-order 2-6 weeks, grade/OD/WT par
-                                    depend karta
-                                    hai.
+                                    Yes. We manufacture Threaded Rods in custom diameters, lengths, thread types, coatings, and material grades according to customer specifications.
                                 </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
-
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What test certificates and NDT do you provide?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    EN 10204 3.1 MTC with heat/lot traceability; Hydro, Eddy Current, UT, PMI, Hardness
-                                    testing available as per PO.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-
                     </div>
                 </div>
             </div>
@@ -1729,16 +778,14 @@
     </section>
     <!--End faq content area-->
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-            <div class="contact-cta-box">
-                <h2>Contact Us</h2>
+            <div class="contact-cta-box text-center">
+                <h2>Request a Quote</h2>
                 <p>
-                    For further information, quotes, or customized boiler and heat exchanger rod products, <strong>Moksh
-                        Rods & Fittings
-                        LLP</strong> is your dependable partner for Boiler & Heat Exchanger Tubing Solutions.</p>
-                <!-- Call button -->
-                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    Looking for a trusted <strong>Threaded Rods</strong> manufacturer and supplier? Contact <strong>Moksh Tubes & Fittings LLP</strong> for premium-quality industrial threaded rods, competitive pricing, ready stock, technical support, and fast worldwide delivery. Request your free quotation today.
+                </p>
+                <a href="javascript:void(0);" class="contact-cta-btn btn btn-primary mt-3" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
                 </a>
@@ -1750,236 +797,161 @@
 
 @push('styles')
     <style>
-        /* Base state for collapsed rows */
         tr.collapse {
             opacity: 0;
             transform: translateY(-6px) scale(0.98);
-            transition:
-                opacity .35s ease,
-                transform .35s ease;
+            transition: opacity .35s ease, transform .35s ease;
         }
-
-        /* When collapsing (Bootstrap interim state) */
         tr.collapsing {
             opacity: 0;
             transform: translateY(-10px) scale(0.96);
             display: table-row !important;
         }
-
-        /* When fully shown */
         tr.collapse.show {
             opacity: 1;
             transform: translateY(0) scale(1);
             display: table-row;
         }
+
+        /* Gallery Images Fix */
+        .single-our-service .img-box img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        /* Custom Check List */
+        .custom-check-list li {
+            position: relative;
+            padding-left: 30px;
+        }
+        .custom-check-list li i {
+            position: absolute;
+            left: 0;
+            top: 4px;
+            font-size: 1.1rem;
+        }
+
+
+        .material-tabs a {
+            color: #174268;
+            font-weight: 700;
+            font-size: 14px;
+            padding: 5px 8px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+        .material-tabs a:hover {
+            color: #e67e22;
+        }
+
+        /* Card Styles */
+        .advantage-card, .application-card, .why-banner-block {
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            text-align: center;
+            height: 100%;
+            transition: all 0.3s ease;
+            border: 1px solid #f1f1f1;
+            cursor: pointer;
+        }
+        .advantage-card:hover, .application-card:hover, .why-banner-block:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(230, 126, 34, 0.2) !important;
+            border-color: #e67e22;
+            background-color: #fff;
+        }
+        .advantage-icon, .application-icon, .why-banner-icon {
+            font-size: 2.2rem;
+            color: #ffffff;
+            margin: 0 auto 15px auto;
+            transition: all 0.3s ease;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: #e67e22;
+        }
+        .advantage-card h4, .application-card h5, .why-banner-block h5 {
+            font-size: 1.1rem;
+            margin-bottom: 0;
+            color: #174268;
+            transition: color 0.3s ease;
+        }
+        .advantage-card:hover .advantage-icon i, 
+        .application-card:hover .application-icon i,
+        .why-banner-block:hover .why-banner-icon i {
+            color: #ffffff !important;
+        }
+        .advantage-card:hover .advantage-icon, 
+        .application-card:hover .application-icon,
+        .why-banner-block:hover .why-banner-icon {
+            background-color: #174268;
+        }
+        .grade-card {
+            border: 1px solid #e67e22;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            background-color: #ffffff;
+        }
+        .grade-card .card-icon,
+        .grade-card .card-title {
+            color: #003366;
+            transition: color 0.3s ease;
+        }
+        .grade-card .card-text {
+            color: #6c757d;
+            transition: color 0.3s ease;
+        }
+        .grade-card:hover {
+            background-color: #e67e22;
+            border-color: #e67e22;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(230, 126, 34, 0.2) !important;
+        }
+        .grade-card:hover .card-icon,
+        .grade-card:hover .card-title,
+        .grade-card:hover .card-text {
+            color: #ffffff !important;
+        }
+
+        /* Testing Cards */
+        .testing-card {
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+            height: 100%;
+            transition: all 0.3s ease;
+            border: 1px solid #e67e22;
+            cursor: pointer;
+        }
+        .testing-card .testing-icon i {
+            font-size: 2.2rem;
+            color: #174268;
+            margin: 0 auto 15px auto;
+            transition: all 0.3s ease;
+            display: block;
+        }
+        .testing-card h5 {
+            font-size: 1.1rem;
+            margin-bottom: 0;
+            color: #174268;
+            font-weight: 600;
+        }
+        .testing-card:hover {
+            background-color: #e67e22;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(230, 126, 34, 0.2) !important;
+        }
+        .testing-card:hover .testing-icon i {
+            color: #ffffff !important;
+        }
     </style>
 @endpush
-
-
-
-@section('jsscripts')
-    @verbatim
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@graph": [
-
-            /* ======================================================
-               0. INLINE ORGANIZATION (LIGHT VERSION FOR LINKING)
-               (Full version will be in layouts.master)
-            ====================================================== */
-            {
-              "@type": ["Organization", "LocalBusiness"],
-              "@id": "https://mokshrods.com/#organization",
-              "name": "Moksh Tubes & Fittings LLP",
-              "url": "https://mokshrods.com/",
-              "logo": "https://mokshrods.com/assets/images/logo.webp",
-              "telephone": "+91-9769584950",
-              "email": "info@mokshrods.com",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Mumbai",
-                "addressRegion": "MH",
-                "addressCountry": "IN"
-              }
-            },
-
-            /* ======================================================
-               1. WEBSITE REFERENCE (FULL VERSION IN HEAD)
-            ====================================================== */
-            {
-              "@type": "WebSite",
-              "@id": "https://mokshrods.com/#website",
-              "url": "https://mokshrods.com/",
-              "name": "Moksh Tubes & Fittings LLP"
-            },
-
-            /* ======================================================
-               2. PAGE LEVEL - WebPage Schema
-            ====================================================== */
-            {
-              "@type": "WebPage",
-              "@id": "https://mokshrods.com/products/pipes-rods/full-threaded-rods#webpage",
-              "name": "Full Threaded Rods | Moksh Tubes & Fittings LLP",
-              "url": "https://mokshrods.com/products/pipes-rods/full-threaded-rods",
-              "description": "Industrial boiler & heat exchanger rods for power plants, refineries, petrochemical, marine, HVAC, and process industries. Available in seamless, welded, ERW, EFW, and U-bent configurations.",
-              "isPartOf": { "@id": "https://mokshrods.com/#website" },
-              "primaryImageOfPage": { "@id": "https://mokshrods.com/#product-image" }
-            },
-
-            /* ======================================================
-               3. PRODUCT + SERVICE (FULL)
-            ====================================================== */
-            {
-              "@type": ["Product", "Service"],
-              "@id": "https://mokshrods.com/#full-threaded-rods",
-              "name": "Full Threaded Rods",
-              "url": "https://mokshrods.com/products/pipes-rods/full-threaded-rods",
-              "image": "https://mokshrods.com/assets/images/product/full-threaded-rods.webp",
-              "category": "Industrial Rods",
-              "description": "Seamless, welded (ERW/EFW), and U-bent boiler & heat exchanger rods with OD 6-219 mm, WT 0.5-12.7 mm, lengths up to 12 m. Manufactured in stainless steel, alloy steel, carbon steel, nickel alloys, copper alloys, and titanium.",
-
-              "brand": {
-                "@type": "Brand",
-                "@id": "https://mokshrods.com/#organization",
-                "name": "Moksh Tubes & Fittings LLP"
-              },
-
-              "manufacturer": {
-                "@type": "Organization",
-                "@id": "https://mokshrods.com/#organization"
-              },
-
-              "material": [
-                "Stainless Steel",
-                "Duplex & Super Duplex",
-                "Nickel Alloys (Inconel, Monel)",
-                "Alloy Steel",
-                "Carbon Steel",
-                "Copper Alloys",
-                "Titanium"
-              ],
-
-              /* --------------------------------------------------
-                 Technical Specifications
-              -------------------------------------------------- */
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Diameter", "value": "6-219 mm" },
-                { "@type": "PropertyValue", "name": "Wall Thickness (WT)", "value": "0.5-12.7 mm" },
-                { "@type": "PropertyValue", "name": "Length", "value": "Up to 12 m (cut-to-length)" },
-                { "@type": "PropertyValue", "name": "Types", "value": "Seamless, ERW, EFW, U-bent" },
-                { "@type": "PropertyValue", "name": "Standards", "value": "ASTM A179/A192/A213/A249/A269/A333; ASME SA213; EN 10216; DIN" },
-                { "@type": "PropertyValue", "name": "Finishes", "value": "Bright Annealed, Pickled & Passivated, Electro Polished, Matte" },
-                { "@type": "PropertyValue", "name": "Testing", "value": "Hydrostatic, UT, Eddy Current, PMI, Hardness, Flaring/Flattening" },
-                { "@type": "PropertyValue", "name": "Temperature Resistance", "value": "Up to 750C (grade-dependent)" },
-                { "@type": "PropertyValue", "name": "Corrosion Resistance", "value": "High resistance to oxidation & aggressive media" }
-              ],
-
-              /* --------------------------------------------------
-                 OFFER SCHEMA (B2B)
-              -------------------------------------------------- */
-              "offers": {
-                "@type": "Offer",
-                "@id": "https://mokshrods.com/#offer",
-                "url": "https://mokshrods.com/products/pipes-rods/full-threaded-rods",
-                "availability": "https://schema.org/InStock",
-                "priceCurrency": "USD",
-                "price": "0.00",
-                "priceValidUntil": "2030-12-31",
-                "businessFunction": "https://schema.org/Sell",
-                "seller": { "@id": "https://mokshrods.com/#organization" }
-              },
-
-              /* --------------------------------------------------
-                 AGGREGATE RATING (Stars)
-              -------------------------------------------------- */
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "bestRating": "5",
-                "worstRating": "1",
-                "reviewCount": "112"
-              },
-
-              /* --------------------------------------------------
-                 OPTIONAL REVIEWS (PLACEHOLDERS)
-              -------------------------------------------------- */
-              "review": [
-                {
-                  "@type": "Review",
-                  "author": "Client",
-                  "reviewBody": "Excellent quality full threaded rods and fast delivery.",
-                  "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
-                }
-              ]
-            },
-
-            /* ======================================================
-               4. IMAGE OBJECT
-            ====================================================== */
-            {
-              "@type": "ImageObject",
-              "@id": "https://mokshrods.com/#product-image",
-              "url": "https://mokshrods.com/assets/images/product/full-threaded-rods.webp",
-              "description": "Full Threaded Rods"
-            },
-
-            /* ======================================================
-               5. BREADCRUMB LIST
-            ====================================================== */
-            {
-              "@type": "BreadcrumbList",
-              "@id": "https://mokshrods.com/#breadcrumb",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshrods.com/" },
-                { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://mokshrods.com/products" },
-                { "@type": "ListItem", "position": 3, "name": "Pipes & Rods", "item": "https://mokshrods.com/products/pipes-rods" },
-                { "@type": "ListItem", "position": 4, "name": "Full Threaded Rods", "item": "https://mokshrods.com/products/pipes-rods/full-threaded-rods" }
-              ]
-            },
-
-            /* ======================================================
-               6. FAQ SCHEMA
-            ====================================================== */
-            {
-              "@type": "FAQPage",
-              "@id": "https://mokshrods.com/#faq-boiler-rods",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "What are Full Threaded Rods?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Full Threaded Rods are precision-engineered components used in high temperature and high pressure heat transfer systems." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What materials are used?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Manufactured in Stainless Steel, Alloy Steel, Carbon Steel, Duplex, Super Duplex, Nickel Alloys, Copper Alloys, and Titanium." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What sizes are available?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "OD 6-219 mm, WT 0.5-12.7 mm, lengths up to 12 meters in Seamless, ERW, EFW, and U-bent forms." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Which standards are followed?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "ASTM A179, A192, A213, A249, A269, A333, ASME SA213, EN 10216, DIN." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What are the applications?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Used in boilers, superheaters, condensers, economizers, heat exchangers, petrochemical heaters, marine systems, desalination, food & dairy, HVAC." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Lead time?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Ex-stock: 2-5 days. Make to order: 2-6 weeks." }
-                }
-              ]
-            }
-
-          ]
-        }
-        </script>
-    @endverbatim
-@endsection

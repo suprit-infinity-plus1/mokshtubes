@@ -391,62 +391,7 @@
                 </div>
             </div>
     </section>
-    <section class="bg-light" style="padding-top: 80px;">
-        <div class="container">
-
-            <!-- Parent Title -->
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Tolerances</h2>
-            </div>
-
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Expanded Table (Fabricated Fittings – as per ASME
-                    B16.9)
-                </h4>
-            </div>
-
-
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="table-responsive">
-                        <div class="table-responsive">
-                            <table class="table table-bordered table-striped align-middle">
-                                <thead class="table-dark text-center">
-                                    <tr class="t-row">
-                                        <th>Parameter</th>
-                                        <th>Tolerance</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="text-center">
-                                    <tr class="t-row">
-                                        <td>Outside Diameter (D)</td>
-                                        <td>±1% or ±1.5 mm (whichever is greater)</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Wall Thickness (t)</td>
-                                        <td>Not less than 87.5% of specified</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Center-to-End (A)</td>
-                                        <td>±3 mm (NPS ≤ 12&quot;), ±5 mm (NPS &gt; 12&quot;)</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Angularity</td>
-                                        <td>±0.5°</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Straightness</td>
-                                        <td>0.03 mm per mm</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
+    
 
     {{-- Grades Available --}}
     <section class="sec-padd-top sec-padd-bottom">
@@ -509,95 +454,7 @@
 
     {{-- Gallery --}}
     {{-- Gallery --}}
-    <section class="our-services">
-        <div class="container">
-            <div class="container">
-            </div>
-
-            <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="NICKLE ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">NICKLE ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="STAINLESS STEEL">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="DUPLEX & SUPER">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">DUPLEX & SUPER</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="TITANIUM ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4 ">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes Superalloys">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Haynes Superalloys</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Inconel">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Inconel</h6>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
+    
 
 
     {{-- Applications --}}
@@ -691,59 +548,7 @@
     </section>
 
     {{-- Uses of Welded Pipes and Tubes --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses of Custom Fabricated Fittings</h2>
-            </div>
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Custom Fabricated Fittings</h4>
-            </div>
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-layout-text-sidebar-reverse"></i></div>
-                        <h4>Special Layouts</h4>
-                        <h5>Enables complex piping designs not possible with standard fittings.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                        <h4>Project-Specific Needs</h4>
-                        <h5>Tailored for unique pressures, temperatures, and flow requirements.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrow-counterclockwise"></i></div>
-                        <h4>Repair & Replacement</h4>
-                        <h5>Used for retrofit projects where older pipelines require non-standard fittings.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-fill-check"></i></div>
-                        <h4>Heavy-Duty Service</h4>
-                        <h5>Handles harsh chemicals, seawater, and extreme conditions.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-vector-pen"></i></div>
-                        <h4>Design Flexibility</h4>
-                        <h5>Allows architects and engineers to integrate fittings into challenging spaces.</h5>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
+    
     {{-- Advantages of Welded Pipes & Tubes --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">

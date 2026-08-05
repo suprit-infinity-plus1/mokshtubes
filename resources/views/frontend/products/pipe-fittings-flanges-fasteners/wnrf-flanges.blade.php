@@ -194,32 +194,7 @@
     </section>
 
     <!-- 4. Types of WN Flanges -->
-    <section id="types" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Types of WN Flanges</h2>
-            </div>
-
-            <div class="row g-4 justify-content-center pt-2">
-                <div class="col-md-5 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-primary">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-primary"><i class="bi bi-circle-square me-2"></i>WN RF (Raised Face)</h4>
-                            <p class="card-text fs-6 mt-3">Most commonly used for general industrial applications. Offers excellent sealing performance with flat ring or spiral wound gaskets.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-success">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-success"><i class="bi bi-record-circle me-2"></i>WN RTJ (Ring Type Joint)</h4>
-                            <p class="card-text fs-6 mt-3">Used in high-pressure and critical sealing systems. The ring groove allows for a metal-to-metal seal ideal for extreme conditions.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- 5. Size Chart -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
@@ -363,29 +338,7 @@
     </section>
 
     <!-- 8. Industries Served -->
-    <section id="industries" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Industries Served</h2>
-            </div>
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-8">
-                    <div class="d-flex flex-wrap justify-content-center gap-3">
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Oil & Gas</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Power Generation</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Petrochemical</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Marine & Offshore</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Construction & Infrastructure</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- 9. Manufacturing Process -->
     <!-- 10. Packaging & Export -->
@@ -577,20 +530,7 @@
     </section>
 
     <!-- Related Products / Internal Linking -->
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <div class="p-4 bg-light rounded shadow-sm border border-secondary">
-                        <h4 class="fw-bold mb-4" style="color: #db7227;">Explore Related Products</h4>
-                        <p class="fs-6 mb-3 text-muted">Explore our <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-primary fw-bold text-decoration-none">seamless pipes</a> for high-pressure and critical industrial applications.</p>
-                        <p class="fs-6 mb-3 text-muted">We also supply <a href="{{ route('products.pipes-tubes.welded-pipes') }}" class="text-primary fw-bold text-decoration-none">welded pipes</a> (ERW, EFW, LSAW) for cost-effective piping solutions.</p>
-                        <p class="fs-6 mb-0 text-muted">Check our <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}" class="text-primary fw-bold text-decoration-none">boiler & heat exchanger tubes</a> for GCC industrial projects.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- 16. Strong CTA -->
     <section id="contact-us" class="sec-padd-top sec-padd-bottom bg-light">

@@ -186,64 +186,7 @@
     </section>
 
     <!-- 4. Types of LF2 Flanges -->
-    <section id="types" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Types of LF2 Flanges</h2>
-            </div>
-
-            <div class="row g-4 justify-content-center pt-2">
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-primary">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-primary"><i class="bi bi-circle-square me-2"></i><a href="{{ route('products.flanges.weld-neck-flanges') }}" style="color: #0d6efd; text-decoration: none;">Weld Neck Flanges (WN)</a></h4>
-                            <p class="card-text fs-6 mt-3">Used in high-pressure and low-temperature pipelines.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-info">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-info"><i class="bi bi-dash-square me-2"></i>Slip-On Flanges (SORF)</h4>
-                            <p class="card-text fs-6 mt-3">Easy installation for general <a href="{{ route('products.pipes-tubes') }}" style="color: blue; text-decoration: underline;">piping systems</a>.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-success">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-success"><i class="bi bi-record-circle me-2"></i><a href="{{ route('products.flanges.blind-flanges') }}" style="color: #198754; text-decoration: none;">Blind Flanges</a></h4>
-                            <p class="card-text fs-6 mt-3">Used for pipeline closure and isolation.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-warning">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-warning"><i class="bi bi-vinyl me-2"></i>Socket Weld Flanges</h4>
-                            <p class="card-text fs-6 mt-3">Used in small diameter high-pressure systems.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-danger">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-danger"><i class="bi bi-gear-wide me-2"></i>Threaded Flanges</h4>
-                            <p class="card-text fs-6 mt-3">Used where welding is not feasible.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-secondary">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-secondary"><i class="bi bi-disc me-2"></i><a href="{{ route('products.flanges.lap-joint-flanges') }}" style="color: #6c757d; text-decoration: none;">Lap Joint Flanges</a></h4>
-                            <p class="card-text fs-6 mt-3">Used with stub ends for flexibility.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- 5. Size Chart -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
@@ -410,29 +353,7 @@
     </section>
 
     <!-- 9. Industries Served -->
-    <section id="industries" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Industries Served</h2>
-            </div>
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-10">
-                    <div class="d-flex flex-wrap justify-content-center gap-3">
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Oil & Gas</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• LNG & Cryogenic Plants</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Petrochemical</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Power Generation</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Marine & Offshore</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- 10. Manufacturing Process -->
     <!-- 11. Packaging & Export -->

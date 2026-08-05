@@ -203,36 +203,7 @@
     </section>
 
     <!-- 4. Types of Threaded Flanges -->
-    <section id="types" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Types of Threaded Flanges</h2>
-            </div>
-
-            <div class="row g-4 justify-content-center pt-2">
-                <div class="col-md-5 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-primary">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-primary"><i class="bi bi-circle-square me-2"></i>NPT Threaded
-                                Flanges</h4>
-                            <p class="card-text fs-6 mt-3">Tapered threads widely used in North American and industrial
-                                standards.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5 mb-4">
-                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-info">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold text-info"><i class="bi bi-dash-square me-2"></i>BSPT/BSPP
-                                Threaded Flanges</h4>
-                            <p class="card-text fs-6 mt-3">British Standard threads commonly used in European and Asian
-                                markets.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- 5. Size Chart -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
@@ -370,27 +341,7 @@
     </section>
 
     <!-- 8. Industries Served -->
-    <section id="industries" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Industries Served</h2>
-            </div>
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-10">
-                    <div class="d-flex flex-wrap justify-content-center gap-3">
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Utility & HVAC</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Water Treatment</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Mining</span>
-                        <span class="badge bg-primary fs-6 py-2 px-4 shadow-sm border border-secondary"
-                            style="background-color: #174268 !important;">• Chemical Processing</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- 10. Packaging & Export -->
     <section id="export" class="sec-padd-top sec-padd-bottom">

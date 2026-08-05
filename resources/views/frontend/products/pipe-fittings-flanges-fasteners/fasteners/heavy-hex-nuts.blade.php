@@ -79,39 +79,7 @@
     </section>
 
     {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Heavy Hex Nuts Datasheet</h3>
-            <p class="mb-3">
-                Get the complete datasheet with dimensional specifications, weight charts, material properties, and
-                application guidelines.
-                Enter your email below to receive the PDF instantly.
-            </p>
-
-            <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
-                <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="heavy-hex-nuts.pdf">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Datasheet
-                        </button>
-                    </div>
-                </div>
-            </form>
-
-            <hr class="my-4">
-            <p class="small text-muted">
-                We respect your privacy. Your email will only be used to send the datasheet.
-            </p>
-        </div>
-    </section>
+    
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -206,60 +174,7 @@
         </div>
     </section>
 
-    <section id="heavy-vs-standard" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Heavy Hex vs Standard Hex Nuts</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                     <p class="fs-6 mb-3 text-justify">
-                        Heavy Hex Nuts are specifically designed for applications that require massive clamping force. Here is how they compare to standard hex nuts:
-                    </p>
-
-                    <div class="table-responsive ">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Feature</th>
-                                    <th>Heavy Hex Nut</th>
-                                    <th>Standard Hex Nut</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td class="fw-bold">Width Across Flats</td>
-                                    <td>Larger (wider profile)</td>
-                                    <td>Smaller (narrower profile)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Thickness / Height</td>
-                                    <td>Thicker (more threads engaged)</td>
-                                    <td>Thinner</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Bearing Surface Area</td>
-                                    <td>High (distributes load better)</td>
-                                    <td>Lower</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Primary Application</td>
-                                    <td>Structural steel, high-pressure flanges</td>
-                                    <td>General construction, automotive</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Common Standard</td>
-                                    <td>ASME B18.2.2, ASTM A194</td>
-                                    <td>ASME B18.2.2, ASTM A563 Grade A</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     {{-- Grades Available --}}
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">

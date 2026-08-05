@@ -78,38 +78,7 @@
     </section>
 
     {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download 90 Degree Elbow Datasheet</h3>
-            <p class="mb-3">
-                Get the complete datasheet with dimensional specifications (LR & SR), weight charts, and material properties.
-                Enter your email below to receive the PDF instantly.
-            </p>
-
-            <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
-                <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="90-degree-elbow.pdf">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Datasheet
-                        </button>
-                    </div>
-                </div>
-            </form>
-
-            <hr class="my-4">
-            <p class="small text-muted">
-                We respect your privacy. Your email will only be used to send the datasheet.
-            </p>
-        </div>
-    </section>
+    
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -213,55 +182,7 @@
         </div>
     </section>
 
-    <section id="lr-vs-sr" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Long Radius (LR) vs Short Radius (SR) Elbows</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                     <p class="fs-6 mb-3 text-justify">
-                        90 Degree Elbows are manufactured in two primary geometries. Selecting the right one depends on space constraints and fluid dynamics:
-                    </p>
-
-                    <div class="table-responsive ">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Feature</th>
-                                    <th>Long Radius (LR) Elbow</th>
-                                    <th>Short Radius (SR) Elbow</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td class="fw-bold">Radius of Curvature</td>
-                                    <td>R = 1.5 × Nominal Pipe Size (NPS)</td>
-                                    <td>R = 1.0 × Nominal Pipe Size (NPS)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Flow Resistance</td>
-                                    <td>Low friction, smooth fluid flow.</td>
-                                    <td>Higher friction and pressure drop.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Erosion</td>
-                                    <td>Less prone to internal erosion.</td>
-                                    <td>More susceptible to erosion from high-velocity fluids.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Primary Application</td>
-                                    <td>Standard default for most industrial pipelines.</td>
-                                    <td>Tight spaces where an LR elbow will not fit (e.g., ship building, skid packages).</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     {{-- Grades Available --}}
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
@@ -314,98 +235,7 @@
     </section>
 
     {{-- Gallery --}}
-    <section class="our-services">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steels') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Carbon Steel 90 Degree Elbow" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON STEEL (A234 WPB)</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="Stainless Steel 90 Degree Elbow" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL (A403)</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex 90 Degree Elbow" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">DUPLEX & SUPER DUPLEX</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel Alloy 90 Degree Elbow" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">NICKEL ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4 ">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steels') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Alloy Steel 90 Degree Elbow" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">ALLOY STEEL (WP11/WP22)</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="Titanium 90 Degree Elbow" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
+    
 
     {{-- Applications --}}
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">

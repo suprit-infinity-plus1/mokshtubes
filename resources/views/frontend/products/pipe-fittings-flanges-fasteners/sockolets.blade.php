@@ -78,38 +78,7 @@
     </section>
 
     {{-- datasheet --}}
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Sockolet Datasheet</h3>
-            <p class="mb-3">
-                Get the complete datasheet with dimensional specifications (3000# & 6000#), consolidation charts, and material properties.
-                Enter your email below to receive the PDF instantly.
-            </p>
-
-            <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
-                <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="sockolet.pdf">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Datasheet
-                        </button>
-                    </div>
-                </div>
-            </form>
-
-            <hr class="my-4">
-            <p class="small text-muted">
-                We respect your privacy. Your email will only be used to send the datasheet.
-            </p>
-        </div>
-    </section>
+    
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -204,60 +173,7 @@
         </div>
     </section>
 
-    <section id="sockolet-vs-weldolet" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Sockolet vs Weldolet</h2>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                     <p class="fs-6 mb-3 text-justify">
-                        Both are branch connection fittings (Olets), but they differ entirely in how they connect to the smaller branch pipe:
-                    </p>
-
-                    <div class="table-responsive ">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Feature</th>
-                                    <th>Sockolet</th>
-                                    <th>Weldolet</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td class="fw-bold">Branch Connection Type</td>
-                                    <td>Socket Weld (SW). The branch pipe slides into a recessed socket.</td>
-                                    <td>Butt Weld (BW). The branch pipe is welded edge-to-edge.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Welding Process</td>
-                                    <td>Requires a fillet weld around the socket lip.</td>
-                                    <td>Requires full penetration V-groove butt welding.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Branch Pipe Preparation</td>
-                                    <td>Pipe ends are cut square (plain end), no beveling needed.</td>
-                                    <td>Pipe ends must be precisely beveled.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Typical Size Range</td>
-                                    <td>Small bore (typically 1/8" to 4" max).</td>
-                                    <td>Small to very large bore (1/2" up to 36"+).</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td class="fw-bold">Primary Advantage</td>
-                                    <td>Faster, easier fit-up and welding without slag entering the pipe.</td>
-                                    <td>Highest strength, easily radiographed (X-ray tested).</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     {{-- Grades Available --}}
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
@@ -310,98 +226,7 @@
     </section>
 
     {{-- Gallery --}}
-    <section class="our-services">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steels') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Carbon Steel Sockolet" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON STEEL (A105N)</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="Stainless Steel Sockolet" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL (F316L)</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex Sockolet" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">DUPLEX & SUPER DUPLEX</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel Alloy Sockolet" loading="lazy" width="400"
-                                    height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">NICKEL ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4 ">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steels') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Alloy Steel Sockolet" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">ALLOY STEEL (F11/F22)</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="Titanium Sockolet" loading="lazy"
-                                    width="400" height="260">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
+    
 
     {{-- Applications --}}
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
@@ -473,68 +298,7 @@
     </section>
 
     <!-- Buying Guide Section (Styled for Your UI) -->
-    <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Buying Guide:</h2>
-                <h4 style="color: #db7227;">How to Select the Right Sockolet</h4>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-md-12">
-                    <div class="application-card">
-                        {{--    <div class="application-icon center"><i class="bi bi-brightness-high-fill"></i><h5>3. Material Selection Guide</h5></div> --}}
-                        <div class="application-icon center d-flex align-items-center gap-4 justify-content-center">
-                            <i class="bi bi-brightness-high-fill"></i>
-                            <h5 class="m-0">Material Selection Guide</h5>
-                        </div>
-
-
-
-                        <div class="table-responsive mt-3">
-                            <table class="table table-bordered">
-                                <thead class="table-light">
-                                    <tr class="t-row">
-                                        <th>Material</th>
-                                        <th>Ideal For</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="t-row">
-                                        <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless
-                                                Steel</a></td>
-                                        <td>Steam, hygienic systems</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex / Super
-                                                Duplex</a></td>
-                                        <td>Seawater, chlorides</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td><a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a>
-                                        </td>
-                                        <td>Acids, extreme corrosion</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Carbon Steel</td>
-                                        <td>High-pressure sockolets</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- Card 1 -->
-                <!-- Card 1 -->
-
-                <!-- Card 1 -->
-
-
-
-            </div>
-        </div>
-    </section>
+    
 
     {{-- Uses of Welded Pipes and Sockolets --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -632,32 +396,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Buying Guide – Sockolets</h2>
-                <p>Before selecting boiler or heat exchanger sockolets, consider the following factors:</p>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <ul class="list-group">
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Applicable standard (ASTM A179 / A192 / A213)</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Operating temperature and pressure</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Required material (carbon, alloy, stainless, Cu-Ni, titanium)</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Seamless or welded construction</li>
-                    </ul>
-                </div>
-                 <div class="col-lg-6">
-                    <ul class="list-group">
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Schedule and wall thickness</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Heat treatment and surface finish</li>
-                         <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Required testing and certification</li>
-                    </ul>
-                </div>
-            </div>
-            <p class="mt-3 text-center fw-bold">For GCC and export projects, ensure EN 10204 3.1 certification, proper marking, and export-grade packaging.</p>
-        </div>
-    </section>
+    
 
      <section id="export" class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
