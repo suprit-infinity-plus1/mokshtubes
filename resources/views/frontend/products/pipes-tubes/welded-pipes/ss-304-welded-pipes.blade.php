@@ -17,7 +17,10 @@
 
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        SS 304 Welded Pipes are corrosion-resistant, hygienic, and cost-effective stainless steel pipes widely used in industrial, commercial, and structural applications. Manufactured by welding stainless steel strips or plates, these pipes offer excellent dimensional accuracy, smooth surface finish, and reliable performance for low to medium pressure services.
+                        SS 304 Welded Pipes are corrosion-resistant, hygienic, and cost-effective stainless steel pipes
+                        widely used in industrial, commercial, and structural applications. Manufactured by welding
+                        stainless steel strips or plates, these pipes offer excellent dimensional accuracy, smooth surface
+                        finish, and reliable performance for low to medium pressure services.
                     </p>
                 </div>
             </div>
@@ -65,15 +68,24 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong class="text-black">SS 304 Welded Pipes</strong> are manufactured from austenitic stainless steel containing chromium and nickel, providing excellent corrosion resistance, formability, and weldability. These pipes are produced by forming stainless steel coils or plates into tubular shapes and welding the seam using advanced welding techniques such as ERW, EFW, or TIG welding, followed by heat treatment and finishing.
+                            <strong class="text-black">SS 304 Welded Pipes</strong> are manufactured from austenitic
+                            stainless steel containing chromium and nickel, providing excellent corrosion resistance,
+                            formability, and weldability. These pipes are produced by forming stainless steel coils or
+                            plates into tubular shapes and welding the seam using advanced welding techniques such as ERW,
+                            EFW, or TIG welding, followed by heat treatment and finishing.
                         </p>
 
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings LLP</a></strong>, we are a leading manufacturer, supplier, and exporter of SS 304 Welded Pipes in India, supplying high-quality pipes to domestic infrastructure projects and international markets including UAE, Saudi Arabia, Qatar, Oman, and Kuwait.
+                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings
+                                    LLP</a></strong>, we are a leading manufacturer, supplier, and exporter of SS 304 Welded
+                            Pipes in India, supplying high-quality pipes to domestic infrastructure projects and
+                            international markets including UAE, Saudi Arabia, Qatar, Oman, and Kuwait.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            SS 304 Welded Pipes are widely used in food processing, dairy, pharmaceuticals, water pipelines, oil & gas utilities, fabrication, and architectural applications where hygiene, corrosion resistance, and cost efficiency are essential.
+                            SS 304 Welded Pipes are widely used in food processing, dairy, pharmaceuticals, water pipelines,
+                            oil & gas utilities, fabrication, and architectural applications where hygiene, corrosion
+                            resistance, and cost efficiency are essential.
                         </p>
                     </div>
                 </div>
@@ -81,7 +93,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -100,17 +112,50 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Material</td><td>Stainless Steel 304 / 304L</td></tr>
-                                <tr class="t-row"><td>Standard</td><td>ASTM A312 / ASME SA312</td></tr>
-                                <tr class="t-row"><td>Manufacturing</td><td>Welded (ERW / EFW / TIG)</td></tr>
-                                <tr class="t-row"><td>Outer Diameter (OD)</td><td>6 mm to 1200 mm</td></tr>
-                                <tr class="t-row"><td>Wall Thickness</td><td>0.8 mm to 20 mm</td></tr>
-                                <tr class="t-row"><td>Length</td><td>6 m, 12 m, or cut-to-length</td></tr>
-                                <tr class="t-row"><td>Surface Finish</td><td>Mill Finish, Pickled & Passivated, Polished</td></tr>
-                                <tr class="t-row"><td>Pipe Ends</td><td>Plain End, Beveled End</td></tr>
-                                <tr class="t-row"><td>Form</td><td>Round Pipes</td></tr>
-                                <tr class="t-row"><td>Heat Treatment</td><td>Solution Annealed</td></tr>
-                                <tr class="t-row"><td>Applications</td><td>Industrial, Structural, Hygienic</td></tr>
+                                <tr class="t-row">
+                                    <td>Material</td>
+                                    <td>Stainless Steel 304 / 304L</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standard</td>
+                                    <td>ASTM A312 / ASME SA312</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manufacturing</td>
+                                    <td>Welded (ERW / EFW / TIG)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Outer Diameter (OD)</td>
+                                    <td>6 mm to 1200 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Wall Thickness</td>
+                                    <td>0.8 mm to 20 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Length</td>
+                                    <td>6 m, 12 m, or cut-to-length</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Surface Finish</td>
+                                    <td>Mill Finish, Pickled & Passivated, Polished</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Pipe Ends</td>
+                                    <td>Plain End, Beveled End</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Form</td>
+                                    <td>Round Pipes</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Solution Annealed</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Applications</td>
+                                    <td>Industrial, Structural, Hygienic</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -124,8 +169,9 @@
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart – SS 304 Welded Pipes</h2>
             </div>
-            
-            <p class="text-center mb-4">SS 304 Welded Pipes are available in standard schedules such as 5S, 10S, 40S, and 80S.</p>
+
+            <p class="text-center mb-4">SS 304 Welded Pipes are available in standard schedules such as 5S, 10S, 40S, and
+                80S.</p>
 
             <div class="row justify-content-center">
                 <div class="col-lg-6 mb-4">
@@ -133,18 +179,68 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>NB (Inch)</th><th>OD (mm)</th><th>WT (mm)</th><th>Weight (kg/m)</th></tr>
+                                <tr class="t-row">
+                                    <th>NB (Inch)</th>
+                                    <th>OD (mm)</th>
+                                    <th>WT (mm)</th>
+                                    <th>Weight (kg/m)</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>1/2"</td><td>21.34</td><td>1.65</td><td>0.79</td></tr>
-                                <tr class="t-row"><td>3/4"</td><td>26.67</td><td>1.65</td><td>1.02</td></tr>
-                                <tr class="t-row"><td>1"</td><td>33.40</td><td>1.65</td><td>1.29</td></tr>
-                                <tr class="t-row"><td>1½"</td><td>48.30</td><td>1.65</td><td>1.88</td></tr>
-                                <tr class="t-row"><td>2"</td><td>60.33</td><td>1.65</td><td>2.36</td></tr>
-                                <tr class="t-row"><td>2½"</td><td>73.03</td><td>2.11</td><td>3.54</td></tr>
-                                <tr class="t-row"><td>3"</td><td>88.90</td><td>2.11</td><td>4.35</td></tr>
-                                <tr class="t-row"><td>4"</td><td>114.30</td><td>2.11</td><td>5.63</td></tr>
-                                <tr class="t-row"><td>6"</td><td>168.28</td><td>2.77</td><td>11.2</td></tr>
+                                <tr class="t-row">
+                                    <td>1/2"</td>
+                                    <td>21.34</td>
+                                    <td>1.65</td>
+                                    <td>0.79</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3/4"</td>
+                                    <td>26.67</td>
+                                    <td>1.65</td>
+                                    <td>1.02</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1"</td>
+                                    <td>33.40</td>
+                                    <td>1.65</td>
+                                    <td>1.29</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1½"</td>
+                                    <td>48.30</td>
+                                    <td>1.65</td>
+                                    <td>1.88</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2"</td>
+                                    <td>60.33</td>
+                                    <td>1.65</td>
+                                    <td>2.36</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2½"</td>
+                                    <td>73.03</td>
+                                    <td>2.11</td>
+                                    <td>3.54</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3"</td>
+                                    <td>88.90</td>
+                                    <td>2.11</td>
+                                    <td>4.35</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>4"</td>
+                                    <td>114.30</td>
+                                    <td>2.11</td>
+                                    <td>5.63</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>6"</td>
+                                    <td>168.28</td>
+                                    <td>2.77</td>
+                                    <td>11.2</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -155,18 +251,68 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>NB (Inch)</th><th>OD (mm)</th><th>WT (mm)</th><th>Weight (kg/m)</th></tr>
+                                <tr class="t-row">
+                                    <th>NB (Inch)</th>
+                                    <th>OD (mm)</th>
+                                    <th>WT (mm)</th>
+                                    <th>Weight (kg/m)</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>1/2"</td><td>21.34</td><td>2.11</td><td>1.00</td></tr>
-                                <tr class="t-row"><td>3/4"</td><td>26.67</td><td>2.11</td><td>1.27</td></tr>
-                                <tr class="t-row"><td>1"</td><td>33.40</td><td>2.77</td><td>2.13</td></tr>
-                                <tr class="t-row"><td>1½"</td><td>48.30</td><td>2.77</td><td>3.16</td></tr>
-                                <tr class="t-row"><td>2"</td><td>60.33</td><td>2.77</td><td>3.99</td></tr>
-                                <tr class="t-row"><td>2½"</td><td>73.03</td><td>3.05</td><td>5.44</td></tr>
-                                <tr class="t-row"><td>3"</td><td>88.90</td><td>3.05</td><td>6.44</td></tr>
-                                <tr class="t-row"><td>4"</td><td>114.30</td><td>3.05</td><td>8.87</td></tr>
-                                <tr class="t-row"><td>6"</td><td>168.28</td><td>3.40</td><td>13.6</td></tr>
+                                <tr class="t-row">
+                                    <td>1/2"</td>
+                                    <td>21.34</td>
+                                    <td>2.11</td>
+                                    <td>1.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3/4"</td>
+                                    <td>26.67</td>
+                                    <td>2.11</td>
+                                    <td>1.27</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1"</td>
+                                    <td>33.40</td>
+                                    <td>2.77</td>
+                                    <td>2.13</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1½"</td>
+                                    <td>48.30</td>
+                                    <td>2.77</td>
+                                    <td>3.16</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2"</td>
+                                    <td>60.33</td>
+                                    <td>2.77</td>
+                                    <td>3.99</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2½"</td>
+                                    <td>73.03</td>
+                                    <td>3.05</td>
+                                    <td>5.44</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3"</td>
+                                    <td>88.90</td>
+                                    <td>3.05</td>
+                                    <td>6.44</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>4"</td>
+                                    <td>114.30</td>
+                                    <td>3.05</td>
+                                    <td>8.87</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>6"</td>
+                                    <td>168.28</td>
+                                    <td>3.40</td>
+                                    <td>13.6</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -177,18 +323,68 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>NB (Inch)</th><th>OD (mm)</th><th>WT (mm)</th><th>Weight (kg/m)</th></tr>
+                                <tr class="t-row">
+                                    <th>NB (Inch)</th>
+                                    <th>OD (mm)</th>
+                                    <th>WT (mm)</th>
+                                    <th>Weight (kg/m)</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>1/2"</td><td>21.34</td><td>2.77</td><td>1.29</td></tr>
-                                <tr class="t-row"><td>3/4"</td><td>26.67</td><td>2.87</td><td>1.71</td></tr>
-                                <tr class="t-row"><td>1"</td><td>33.40</td><td>3.38</td><td>2.54</td></tr>
-                                <tr class="t-row"><td>1½"</td><td>48.30</td><td>3.68</td><td>4.11</td></tr>
-                                <tr class="t-row"><td>2"</td><td>60.33</td><td>3.91</td><td>5.52</td></tr>
-                                <tr class="t-row"><td>2½"</td><td>73.03</td><td>5.16</td><td>8.63</td></tr>
-                                <tr class="t-row"><td>3"</td><td>88.90</td><td>5.49</td><td>11.3</td></tr>
-                                <tr class="t-row"><td>4"</td><td>114.30</td><td>6.02</td><td>16.1</td></tr>
-                                <tr class="t-row"><td>6"</td><td>168.28</td><td>7.11</td><td>28.3</td></tr>
+                                <tr class="t-row">
+                                    <td>1/2"</td>
+                                    <td>21.34</td>
+                                    <td>2.77</td>
+                                    <td>1.29</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3/4"</td>
+                                    <td>26.67</td>
+                                    <td>2.87</td>
+                                    <td>1.71</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1"</td>
+                                    <td>33.40</td>
+                                    <td>3.38</td>
+                                    <td>2.54</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1½"</td>
+                                    <td>48.30</td>
+                                    <td>3.68</td>
+                                    <td>4.11</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2"</td>
+                                    <td>60.33</td>
+                                    <td>3.91</td>
+                                    <td>5.52</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2½"</td>
+                                    <td>73.03</td>
+                                    <td>5.16</td>
+                                    <td>8.63</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3"</td>
+                                    <td>88.90</td>
+                                    <td>5.49</td>
+                                    <td>11.3</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>4"</td>
+                                    <td>114.30</td>
+                                    <td>6.02</td>
+                                    <td>16.1</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>6"</td>
+                                    <td>168.28</td>
+                                    <td>7.11</td>
+                                    <td>28.3</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -199,18 +395,68 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>NB (Inch)</th><th>OD (mm)</th><th>WT (mm)</th><th>Weight (kg/m)</th></tr>
+                                <tr class="t-row">
+                                    <th>NB (Inch)</th>
+                                    <th>OD (mm)</th>
+                                    <th>WT (mm)</th>
+                                    <th>Weight (kg/m)</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>1/2"</td><td>21.34</td><td>3.73</td><td>1.65</td></tr>
-                                <tr class="t-row"><td>3/4"</td><td>26.67</td><td>3.91</td><td>2.23</td></tr>
-                                <tr class="t-row"><td>1"</td><td>33.40</td><td>4.55</td><td>3.29</td></tr>
-                                <tr class="t-row"><td>1½"</td><td>48.30</td><td>5.08</td><td>5.49</td></tr>
-                                <tr class="t-row"><td>2"</td><td>60.33</td><td>5.54</td><td>7.60</td></tr>
-                                <tr class="t-row"><td>2½"</td><td>73.03</td><td>7.01</td><td>11.4</td></tr>
-                                <tr class="t-row"><td>3"</td><td>88.90</td><td>7.62</td><td>15.3</td></tr>
-                                <tr class="t-row"><td>4"</td><td>114.30</td><td>8.56</td><td>22.3</td></tr>
-                                <tr class="t-row"><td>6"</td><td>168.28</td><td>10.97</td><td>42.6</td></tr>
+                                <tr class="t-row">
+                                    <td>1/2"</td>
+                                    <td>21.34</td>
+                                    <td>3.73</td>
+                                    <td>1.65</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3/4"</td>
+                                    <td>26.67</td>
+                                    <td>3.91</td>
+                                    <td>2.23</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1"</td>
+                                    <td>33.40</td>
+                                    <td>4.55</td>
+                                    <td>3.29</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1½"</td>
+                                    <td>48.30</td>
+                                    <td>5.08</td>
+                                    <td>5.49</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2"</td>
+                                    <td>60.33</td>
+                                    <td>5.54</td>
+                                    <td>7.60</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2½"</td>
+                                    <td>73.03</td>
+                                    <td>7.01</td>
+                                    <td>11.4</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3"</td>
+                                    <td>88.90</td>
+                                    <td>7.62</td>
+                                    <td>15.3</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>4"</td>
+                                    <td>114.30</td>
+                                    <td>8.56</td>
+                                    <td>22.3</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>6"</td>
+                                    <td>168.28</td>
+                                    <td>10.97</td>
+                                    <td>42.6</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -303,40 +549,40 @@
         </div>
     </section>
 
-    <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of SS 304 / 304L Welded Pipes</h4>
-                    <p class="text-center mb-4">(As per ASTM A312 / ASME SA312)</p>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>SS 304</th>
-                                    <th>SS 304L</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row"><td>Tensile Strength</td><td>Min. 515 MPa</td><td>Min. 485 MPa</td></tr>
-                                <tr class="t-row"><td>Yield Strength (0.2%)</td><td>Min. 205 MPa</td><td>Min. 170 MPa</td></tr>
-                                <tr class="t-row"><td>Elongation</td><td>Min. 40%</td><td>Min. 40%</td></tr>
-                                <tr class="t-row"><td>Hardness (HB)</td><td>Max. 201</td><td>Max. 201</td></tr>
-                            </tbody>
-                        </table>
+    <!-- <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
+                <div class="container">
+                    <div class="section-title center mb-5">
+                        <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
                     </div>
-                    <p class="text-center mt-3">
-                        📌 <strong>SS 304L</strong> provides improved resistance to intergranular corrosion after welding, making it ideal for fabrication and pressure piping.
-                    </p>
+
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of SS 304 / 304L Welded Pipes</h4>
+                            <p class="text-center mb-4">(As per ASTM A312 / ASME SA312)</p>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped align-middle">
+                                    <thead class="table-dark text-center">
+                                        <tr class="t-row">
+                                            <th>Property</th>
+                                            <th>SS 304</th>
+                                            <th>SS 304L</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="text-center">
+                                        <tr class="t-row"><td>Tensile Strength</td><td>Min. 515 MPa</td><td>Min. 485 MPa</td></tr>
+                                        <tr class="t-row"><td>Yield Strength (0.2%)</td><td>Min. 205 MPa</td><td>Min. 170 MPa</td></tr>
+                                        <tr class="t-row"><td>Elongation</td><td>Min. 40%</td><td>Min. 40%</td></tr>
+                                        <tr class="t-row"><td>Hardness (HB)</td><td>Max. 201</td><td>Max. 201</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p class="text-center mt-3">
+                                📌 <strong>SS 304L</strong> provides improved resistance to intergranular corrosion after welding, making it ideal for fabrication and pressure piping.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section> -->
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
@@ -379,7 +625,7 @@
                         <h5>Reliable logistics & documentation</h5>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-headset"></i></div>
@@ -407,7 +653,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    A stainless steel pipe manufactured by forming and welding SS 304 strips or plates, suitable for corrosion-resistant applications.
+                                    A stainless steel pipe manufactured by forming and welding SS 304 strips or plates,
+                                    suitable for corrosion-resistant applications.
                                 </p>
                             </div>
                         </div>
@@ -423,7 +670,7 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -431,7 +678,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Welded pipes are economical and precise, while seamless pipes are preferred for very high-pressure applications.
+                                    Welded pipes are economical and precise, while seamless pipes are preferred for very
+                                    high-pressure applications.
                                 </p>
                             </div>
                         </div>
@@ -447,7 +695,7 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -492,100 +740,100 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-        [{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Moksh Tubes & Fittings LLP",
-            "url": "https://www.mokshtubes.com",
-            "logo": "https://www.mokshtubes.com/assets/logo.png",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91-97695-84950",
-                "contactType": "sales",
-                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                "availableLanguage": ["English"]
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "SS 304 Welded Pipes ASTM A312 TP304 / TP304L",
-            "description": "SS 304 Welded Pipes as per ASTM A312 TP304/TP304L. Manufacturer, supplier & exporter to India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.",
-            "brand": {
-                "@type": "Brand",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "manufacturer": {
-                "@type": "Organization",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "material": "Stainless Steel 304 / 304L",
-            "url": "https://www.mokshtubes.com/products/pipes-tubes/ss-304-welded-pipes",
-            "offers": {
-                "@type": "Offer",
-                "availability": "https://schema.org/InStock",
-                "priceCurrency": "INR",
-                "url": "https://www.mokshtubes.com/contact-us"
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [{
-                "@type": "Question",
-                "name": "What is SS 304 Welded Pipe?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "A stainless steel pipe manufactured by forming and welding SS 304 strips or plates, suitable for corrosion-resistant applications."
-                }
-            },{
-                "@type": "Question",
-                "name": "Is SS 304 Welded Pipe food-grade?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, it is widely used in food, dairy, and beverage industries."
-                }
-            },{
-                "@type": "Question",
-                "name": "Difference between Welded and Seamless pipes?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Welded pipes are economical and precise, while seamless pipes are preferred for very high-pressure applications."
-                }
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.mokshtubes.com"
-            },{
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Pipes & Tubes",
-                "item": "https://www.mokshtubes.com/products/pipes-tubes"
-            },{
-                "@type": "ListItem",
-                "position": 3,
-                "name": "SS 304 Welded Pipes",
-                "item": "https://www.mokshtubes.com/products/pipes-tubes/ss-304-welded-pipes"
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Moksh Tubes & Fittings LLP",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "India"
-            },
-            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-            "telephone": "+91-97695-84950"
-        }]
-        @endverbatim
-    </script>
+                @verbatim
+                    [{
+                        "@context": "https://schema.org",
+                        "@type": "Organization",
+                        "name": "Moksh Tubes & Fittings LLP",
+                        "url": "https://www.mokshtubes.com",
+                        "logo": "https://www.mokshtubes.com/assets/logo.png",
+                        "contactPoint": {
+                            "@type": "ContactPoint",
+                            "telephone": "+91-97695-84950",
+                            "contactType": "sales",
+                            "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                            "availableLanguage": ["English"]
+                        }
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Product",
+                        "name": "SS 304 Welded Pipes ASTM A312 TP304 / TP304L",
+                        "description": "SS 304 Welded Pipes as per ASTM A312 TP304/TP304L. Manufacturer, supplier & exporter to India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.",
+                        "brand": {
+                            "@type": "Brand",
+                            "name": "Moksh Tubes & Fittings LLP"
+                        },
+                        "manufacturer": {
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP"
+                        },
+                        "material": "Stainless Steel 304 / 304L",
+                        "url": "https://www.mokshtubes.com/products/pipes-tubes/ss-304-welded-pipes",
+                        "offers": {
+                            "@type": "Offer",
+                            "availability": "https://schema.org/InStock",
+                            "priceCurrency": "INR",
+                            "url": "https://www.mokshtubes.com/contact-us"
+                        }
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [{
+                            "@type": "Question",
+                            "name": "What is SS 304 Welded Pipe?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "A stainless steel pipe manufactured by forming and welding SS 304 strips or plates, suitable for corrosion-resistant applications."
+                            }
+                        },{
+                            "@type": "Question",
+                            "name": "Is SS 304 Welded Pipe food-grade?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, it is widely used in food, dairy, and beverage industries."
+                            }
+                        },{
+                            "@type": "Question",
+                            "name": "Difference between Welded and Seamless pipes?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Welded pipes are economical and precise, while seamless pipes are preferred for very high-pressure applications."
+                            }
+                        }]
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [{
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https://www.mokshtubes.com"
+                        },{
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Pipes & Tubes",
+                            "item": "https://www.mokshtubes.com/products/pipes-tubes"
+                        },{
+                            "@type": "ListItem",
+                            "position": 3,
+                            "name": "SS 304 Welded Pipes",
+                            "item": "https://www.mokshtubes.com/products/pipes-tubes/ss-304-welded-pipes"
+                        }]
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "LocalBusiness",
+                        "name": "Moksh Tubes & Fittings LLP",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressCountry": "India"
+                        },
+                        "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                        "telephone": "+91-97695-84950"
+                    }]
+                @endverbatim
+            </script>
 @endsection
