@@ -1,26 +1,26 @@
 @extends('layouts.master')
-@section('title', 'Lap Joint Flanges Manufacturer, Supplier & Exporter in India | Moksh Tubes')
-<!-- 72 Characters -->
+@section('title', 'Socket Weld Flanges Manufacturer, Supplier & Exporter in India | Moksh Tubes')
+<!-- 76 characters -->
 @section('meta_description',
-    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Lap Joint Flanges in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 certified with worldwide delivery.')
+    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Socket Weld Flanges in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 certified with worldwide delivery.')
 @section('meta_keywords',
-    'Lap Joint Flanges, Lap Joint Flanges Manufacturer, Lap Joint Flanges Supplier, Lap Joint Flanges Exporter, Stainless Steel Lap Joint Flanges, Carbon Steel Lap Joint Flanges, Alloy Steel Lap Joint Flanges, Duplex Lap Joint Flanges, Super Duplex Lap Joint Flanges, Forged Lap Joint Flanges, ASME B16.5 Lap Joint Flanges, LJ Flanges, Stub End Flanges, Rotating Flanges, Industrial Lap Joint Flanges, Pipe Flanges with Stub End')
-@section('og_title', 'Lap Joint Flanges Manufacturer, Supplier & Exporter | Moksh Tubes')
-@section('og_description', 'Premium-quality Lap Joint Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified with worldwide export support.')
-@section('og_image', asset('assets/images/fasteners/ljff-flanges_11zon.jpeg'))
+    'Socket Weld Flanges, Socket Weld Flanges Manufacturer, Socket Weld Flanges Supplier, Socket Weld Flanges Exporter, Stainless Steel Socket Weld Flanges, Carbon Steel Socket Weld Flanges, Alloy Steel Socket Weld Flanges, Duplex Socket Weld Flanges, Super Duplex Socket Weld Flanges, Forged Socket Weld Flanges, ASME B16.5 Socket Weld Flanges, SW Flanges, High Pressure Socket Weld Flanges, Industrial Socket Weld Flanges, RF Socket Weld Flanges, RTJ Socket Weld Flanges, Forged Pipe Flanges, High Pressure Pipe Flanges, Socket Weld Pipe Connection, Industrial Pipe Flanges, Corrosion Resistant Flanges, Raised Face Flanges, Ring Type Joint Flanges, Flat Face Flanges, Oil & Gas Pipe Flanges, Petrochemical Flanges, Process Piping Components, Small Bore Pipe Flanges')
+@section('og_title', 'Socket Weld Flanges Manufacturer, Supplier & Exporter | Moksh Tubes')
+@section('og_description', 'Premium-quality Socket Weld Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified with worldwide export support.')
+@section('og_image', asset('assets/images/fasteners/sorf-flanges_11zon.jpg'))
 @section('og_type', 'product')
-@section('twitter_title', 'Lap Joint Flanges Manufacturer in India')
-@section('twitter_description', 'Buy premium-quality Lap Joint Flanges for industrial piping systems. Available for use with stub ends in multiple pressure classes and material grades with fast worldwide delivery.')
+@section('twitter_title', 'Socket Weld Flanges Manufacturer in India')
+@section('twitter_description', 'Buy premium-quality Socket Weld Flanges for high-pressure piping systems. Available in RF, RTJ & FF facing types, multiple pressure classes, and material grades with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/fasteners/ljff-flanges_11zon.jpeg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/fasteners/sorf-flanges_11zon.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1 class="page-title">Lap Joint Flanges Manufacturer, Supplier & Exporter in India</h1>
+                    <h1 class="page-title">Socket Weld Flanges Manufacturer, Supplier & Exporter in India</h1>
                         <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Lap Joint Flanges are two-piece flanges designed to work with a stub end, providing a flexible and cost-effective solution for piping systems that require frequent dismantling, inspection, or maintenance. Their rotating design allows easy bolt alignment, making installation faster and more efficient. At Moksh Tubes & Fittings LLP, we manufacture, supply, and export premium-quality Lap Joint Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades. Manufactured to international standards, our flanges offer excellent corrosion resistance, strength, and reliable performance across a wide range of industrial applications.
+                        Socket Weld Flanges are high-strength pipe flanges designed with a recessed socket that allows the pipe to be inserted before fillet welding. They are commonly used in small-diameter, high-pressure piping systems where a strong, leak-resistant connection is required. At Moksh Tubes & Fittings LLP, we manufacture, supply, and export premium-quality Socket Weld Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades. Manufactured to international standards, our flanges provide excellent strength, corrosion resistance, and reliable performance for demanding industrial applications.
                     </p>
 
                 </div>
@@ -54,19 +54,19 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/fasteners/ljff-flanges_11zon.jpeg') }}"
-                        alt="Lap Joint Flanges Manufacturer" class="img-fluid rounded shadow-sm" width="550"
+                    <img src="{{ asset('assets/images/fasteners/sorf-flanges_11zon.jpg') }}"
+                        alt="Socket Weld Flanges Manufacturer" class="img-fluid rounded shadow-sm" width="550"
                         height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        A <strong>Lap Joint Flange (LJ Flange)</strong> is used together with a <strong>Stub End</strong> to create a flanged connection. Unlike other flanges, the flange itself is not welded directly to the pipe. Instead, the stub end is welded to the pipe while the flange rotates freely around it. This design makes alignment of bolt holes simple and allows easy removal of piping components for maintenance or inspection.
+                        A <strong>Socket Weld Flange (SW Flange)</strong> is designed with a socket or recessed bore that allows the pipe to fit inside the flange before being secured with a fillet weld around the outside. This design ensures proper pipe alignment, reduces installation time, and provides a strong connection capable of handling high-pressure services. Socket Weld Flanges are widely used for small-bore piping systems where leak-free performance and structural integrity are essential.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture precision-engineered Lap Joint Flanges using high-quality forged materials and advanced CNC machining technology. Our flanges are available in a wide range of sizes, pressure classes, and material grades, making them suitable for corrosive environments, process piping, and systems that require regular maintenance.
+                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture precision-engineered Socket Weld Flanges using premium-quality forged materials and advanced CNC machining technology. Our flanges are available in a variety of sizes, pressure classes, and material grades to meet the needs of industrial piping systems across multiple industries.
                     </p>
 
                 </div>
@@ -77,16 +77,16 @@
     {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Lap Joint Flanges Datasheet</h3>
+            <h3 class="mb-3" style="color:#174268;">Download Socket Weld Flanges Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with chemical composition, mechanical properties, dimension charts, and application guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application guidelines. Enter your email below to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
             <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}" autocomplete="off">
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="lap-joint-flanges-datasheet.pdf">
+                    <input type="hidden" name="pdf" value="socket-weld-flanges-datasheet.pdf">
                     <div class="col-md-6 mb-2">
                         <input type="email" name="email" required="" class="form-control p-3"
                             placeholder="Enter your email address">
@@ -126,40 +126,19 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Product</td>
-                                    <td>Lap Joint Flange</td>
+                                    <td>Socket Weld Flange</td>
                                 </tr>
-                                <tr class="t-row">
-                                    <td>Standards</td>
-                                    <td>ASME B16.5, ASME B16.47, EN 1092-1, DIN, BS, JIS</td>
-                                </tr>
+                                <tr class="t-row"><td>Standards</td><td>ASME B16.5, ASME B16.47, EN 1092-1, DIN, BS, JIS</td></tr>
                                 <tr class="t-row">
                                     <td>Material</td>
                                     <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium</td>
                                 </tr>
-                                <tr class="t-row">
-                                    <td>Size Range</td>
-                                    <td>½" NB to 60" NB</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Pressure Class</td>
-                                    <td>Class 150, 300, 600, 900, 1500 & 2500</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Facing Type</td>
-                                    <td>Raised Face (RF) & Flat Face (FF)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>End</td>
-                                    <td>Used with Stub End</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Surface Finish</td>
-                                    <td>Machined, Pickled, Polished or Anti-Rust Coated</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Manufacturing</td>
-                                    <td>Forged & CNC Machined</td>
-                                </tr>
+                                <tr class="t-row"><td>Size Range</td><td>½" NB to 24" NB</td></tr>
+                                <tr class="t-row"><td>Pressure Classes</td><td>Class 150, 300, 600, 900, 1500 & 2500</td></tr>
+                                <tr class="t-row"><td>Facing Type</td><td>Raised Face (RF), Ring Type Joint (RTJ) & Flat Face (FF)</td></tr>
+                                <tr class="t-row"><td>End Connection</td><td>Socket Weld</td></tr>
+                                <tr class="t-row"><td>Surface Finish</td><td>Machined, Pickled, Polished or Anti-Rust Coated</td></tr>
+                                <tr class="t-row"><td>Manufacturing</td><td>Forged & CNC Machined</td></tr>
                             </tbody>
                         </table>
                     </div>
@@ -174,7 +153,7 @@
                 <h2>Chemical Composition</h2>
             </div>
             <p class="text-center pb-3">
-                The chemical composition of <strong>Lap Joint Flanges</strong> depends on the selected material grade. At Moksh Tubes & Fittings LLP, our Lap Joint Flanges are manufactured from premium-quality raw materials in accordance with ASTM, ASME, EN, DIN, BS, and JIS standards, ensuring excellent corrosion resistance, high mechanical strength, and long service life.
+                The chemical composition of <strong>Socket Weld Flanges</strong> depends on the selected material grade. At Moksh Tubes & Fittings LLP, our Socket Weld Flanges are manufactured from premium-quality raw materials that comply with ASTM, ASME, EN, DIN, BS, and JIS standards, ensuring superior corrosion resistance, high mechanical strength, and long service life.
             </p>
 
             <div class="row justify-content-center">
@@ -206,7 +185,7 @@
                     </div>
                 </div>
             </div>
-            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Lap Joint Flanges are manufactured in accordance with the relevant ASTM and ASME material specifications.</small></p>
+            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Socket Weld Flanges are manufactured in accordance with the relevant ASTM and ASME material specifications.</small></p>
         </div>
     </section>
 
@@ -217,7 +196,7 @@
                 <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart</h2>
             </div>
             <p class="text-center pb-3">
-                Lap Joint Flanges are manufactured in accordance with <strong>ASME B16.5</strong> and <strong>ASME B16.47</strong> standards and are available in a wide range of nominal pipe sizes and pressure classes.
+                Socket Weld Flanges are manufactured in accordance with <strong>ASME B16.5</strong> and <strong>ASME B16.47</strong> standards and are available in various nominal pipe sizes, pressure classes, and facing types.
             </p>
             
             <div class="table-responsive mt-4">
@@ -232,24 +211,24 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>½"</td><td>150</td><td>90</td><td>11</td><td>0.50</td></tr>
-                        <tr class="t-row"><td>¾"</td><td>150</td><td>100</td><td>12</td><td>0.70</td></tr>
-                        <tr class="t-row"><td>1"</td><td>150</td><td>108</td><td>14</td><td>0.95</td></tr>
-                        <tr class="t-row"><td>1½"</td><td>150</td><td>127</td><td>16</td><td>1.60</td></tr>
-                        <tr class="t-row"><td>2"</td><td>150</td><td>152</td><td>19</td><td>2.50</td></tr>
-                        <tr class="t-row"><td>3"</td><td>150</td><td>191</td><td>24</td><td>4.70</td></tr>
-                        <tr class="t-row"><td>4"</td><td>150</td><td>229</td><td>24</td><td>7.10</td></tr>
-                        <tr class="t-row"><td>6"</td><td>150</td><td>279</td><td>27</td><td>12.40</td></tr>
-                        <tr class="t-row"><td>8"</td><td>150</td><td>343</td><td>30</td><td>20.10</td></tr>
-                        <tr class="t-row"><td>10"</td><td>150</td><td>406</td><td>32</td><td>30.90</td></tr>
-                        <tr class="t-row"><td>12"</td><td>150</td><td>483</td><td>35</td><td>46.30</td></tr>
-                        <tr class="t-row"><td>16"</td><td>150</td><td>597</td><td>38</td><td>77.20</td></tr>
-                        <tr class="t-row"><td>20"</td><td>150</td><td>711</td><td>43</td><td>125.60</td></tr>
-                        <tr class="t-row"><td>24"</td><td>150</td><td>813</td><td>48</td><td>185.80</td></tr>
+                        <tr class="t-row"><td>½"</td><td>150</td><td>90</td><td>11</td><td>0.60</td></tr>
+                        <tr class="t-row"><td>¾"</td><td>150</td><td>100</td><td>12</td><td>0.80</td></tr>
+                        <tr class="t-row"><td>1"</td><td>150</td><td>108</td><td>14</td><td>1.10</td></tr>
+                        <tr class="t-row"><td>1½"</td><td>150</td><td>127</td><td>16</td><td>1.80</td></tr>
+                        <tr class="t-row"><td>2"</td><td>150</td><td>152</td><td>19</td><td>2.80</td></tr>
+                        <tr class="t-row"><td>3"</td><td>150</td><td>191</td><td>24</td><td>5.10</td></tr>
+                        <tr class="t-row"><td>4"</td><td>150</td><td>229</td><td>24</td><td>7.70</td></tr>
+                        <tr class="t-row"><td>6"</td><td>150</td><td>279</td><td>27</td><td>13.20</td></tr>
+                        <tr class="t-row"><td>8"</td><td>150</td><td>343</td><td>30</td><td>21.20</td></tr>
+                        <tr class="t-row"><td>10"</td><td>150</td><td>406</td><td>32</td><td>32.80</td></tr>
+                        <tr class="t-row"><td>12"</td><td>150</td><td>483</td><td>35</td><td>48.90</td></tr>
+                        <tr class="t-row"><td>16"</td><td>150</td><td>597</td><td>38</td><td>81.20</td></tr>
+                        <tr class="t-row"><td>20"</td><td>150</td><td>711</td><td>43</td><td>131.00</td></tr>
+                        <tr class="t-row"><td>24"</td><td>150</td><td>813</td><td>48</td><td>193.50</td></tr>
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and may vary depending on the pressure class (Class 150–2500), material grade, and ASME B16.5/B16.47 requirements. Custom sizes and specifications are available upon request.</p>
+            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and may vary depending on the pressure class (Class 150–2500), facing type (RF, RTJ, FF), material grade, and ASME B16.5/B16.47 requirements. Custom sizes and pressure classes are available upon request.</p>
         </div>
     </section>
 
@@ -307,7 +286,7 @@
                         <div class="card-body py-4">
                             <i class="bi bi-gear-fill mb-3 d-block card-icon" style="font-size: 2rem;"></i>
                             <h5 class="card-title" style="font-weight: 600;">Carbon &amp; Alloy Steel</h5>
-                            <p class="card-text small mb-0">Carbon Steel ASTM A105,<br>Low Temp A350 LF2, Alloy A182 F11/F22/F91</p>
+                            <p class="card-text small mb-0">Carbon Steel ASTM A105, LF2<br>Alloy Steel ASTM A182 F11/F22/F91</p>
                         </div>
                     </div>
                 </div>
@@ -329,7 +308,7 @@
                         <div class="card-body py-4">
                             <i class="bi bi-award-fill mb-3 d-block card-icon" style="font-size: 2rem;"></i>
                             <h5 class="card-title" style="font-weight: 600;">High-Performance Alloys</h5>
-                            <p class="card-text small mb-0">Inconel&reg;, Monel&reg;, Hastelloy&reg; &amp; Titanium Grade 2</p>
+                            <p class="card-text small mb-0">Inconel&reg;, Monel&reg;, Hastelloy&reg;, Titanium Grade 2</p>
                         </div>
                     </div>
                 </div>
@@ -363,7 +342,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td style="padding-left: 20px;"><strong>DIN</strong></td>
-                                    <td style="padding-left: 20px;">DIN 2642</td>
+                                    <td style="padding-left: 20px;">DIN 2563</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td style="padding-left: 20px;"><strong>BS</strong></td>
@@ -488,50 +467,50 @@
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrow-repeat"></i></div>
-                        <h4>Rotating flange for easy bolt hole alignment</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                        <h4>Simplifies installation and maintenance</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h4>Used with stub ends for flexible piping connections</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Excellent corrosion and oxidation resistance</h4>
+                        <h4>Secure socket weld connection</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                        <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
+                        <h4>Excellent strength for high-pressure applications</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-box-arrow-in-down-right"></i></div>
+                        <h4>Easy pipe alignment during installation</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h4>Superior corrosion and oxidation resistance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
                         <h4>High mechanical strength and durability</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-wrench"></i></div>
-                        <h4>Ideal for systems requiring frequent dismantling</h4>
+                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                        <h4>Leak-resistant and reliable performance</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-piggy-bank"></i></div>
-                        <h4>Cost-effective solution for expensive alloy piping</h4>
+                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                        <h4>Suitable for small-diameter piping systems</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
-                        <h4>Precision-machined sealing surface</h4>
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h4>Long service life with minimal maintenance</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
@@ -549,74 +528,80 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications</h2>
-                <p class="text-center pb-3">Lap Joint Flanges are widely used in:</p>
+                <p class="text-center pb-3">Socket Weld Flanges are widely used in:</p>
             </div>
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Oil & Gas Pipelines</h5>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-ev-station"></i></div>
+                        <div class="application-icon"><i class="bi bi-car-front"></i></div>
                         <h5>Petrochemical Plants</h5>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-funnel"></i></div>
+                        <div class="application-icon"><i class="bi bi-airplane"></i></div>
                         <h5>Chemical Processing Industries</h5>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-droplet-half"></i></div>
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h5>Power Generation Plants</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-ev-station"></i></div>
                         <h5>Water & Wastewater Treatment</h5>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
-                        <h5>Pharmaceutical Industry</h5>
+                        <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
+                        <h5>Refineries</h5>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-cup-straw"></i></div>
-                        <h5>Food & Beverage Processing</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-water"></i></div>
+                        <div class="application-icon"><i class="bi bi-cpu"></i></div>
                         <h5>Marine & Offshore Applications</h5>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <div class="application-icon"><i class="bi bi-tools"></i></div>
+                        <h5>Pharmaceutical Industry</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-water"></i></div>
+                        <h5>Food & Beverage Processing</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-building-gear"></i></div>
                         <h5>Industrial Process Piping</h5>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
-                        <h5>Power Generation Plants</h5>
+                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
+                        <h5>High-Pressure Steam Systems</h5>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6">
+                <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-building-gear"></i></div>
+                        <div class="application-icon"><i class="bi bi-building"></i></div>
                         <h5>Construction & Infrastructure</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-tools"></i></div>
-                        <h5>Piping Systems Requiring Frequent Maintenance</h5>
                     </div>
                 </div>
             </div>
@@ -627,7 +612,7 @@
         <div class="container">
              <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-                 <p class="text-center">The mechanical properties of <strong>Lap Joint Flanges</strong> depend on the selected material grade and comply with applicable ASTM and ASME standards. The table below shows the typical mechanical properties for commonly supplied stainless steel grades.</p>
+                 <p class="text-center">The mechanical properties of <strong>Socket Weld Flanges</strong> depend on the selected material grade and comply with applicable ASTM and ASME standards. The table below shows the typical mechanical properties for commonly supplied stainless steel grades.</p>
             </div>
 
             <div class="table-responsive">
@@ -663,7 +648,7 @@
                     </tbody>
                 </table>
             </div>
-             <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Lap Joint Flanges are available in accordance with their respective ASTM/ASME material specifications upon request.</small></p>
+             <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Socket Weld Flanges are available in accordance with their respective ASTM/ASME material specifications upon request.</small></p>
         </div>
     </section>
 
@@ -717,19 +702,8 @@
         </div>
     </section>
 
-    <!-- Packaging & Export -->
-    <section id="packaging" class="sec-padd-top sec-padd-bottom">
-        <div class="container text-center">
-             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
-            </div>
-            <p class="fs-5">We ensure that our <strong>Lap Joint Flanges</strong> are securely packaged to prevent damage during transit. We use high-quality wooden crates, pallets, and shrink-wrapping for export shipments.</p>
-            <p class="fs-5">We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe, Africa, and Southeast Asia.</p>
-        </div>
-    </section>
-
     {{-- why choose us --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
@@ -787,59 +761,17 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-tools"></i></div>
-                        <h5>Expert Technical Support</h5>
+                        <h5>Expert Technical Assistance</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    {{-- Packaging & Export --}}
-    <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Packaging & Export</h2>
-            </div>
-            <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
-                We ensure secure and standardized packaging to prevent damage during transit. Our <strong>Lap Joint Flanges</strong> are packed in high-quality wooden crates, shrink-wrapped, and securely strapped on pallets for international shipping.
-                Moksh Tubes & Fittings LLP is a trusted exporter with a strong presence in the Middle East, Europe, Africa, and Southeast Asia.
-            </p>
-        </div>
-    </section>
-
-    {{-- Export Locations --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>Global Export Locations</h2>
-            </div>
-            <div class="row g-3 justify-content-center mt-4">
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Saudi Arabia</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">UAE</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Qatar</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Oman</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Kuwait</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Bahrain</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Egypt</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">South Africa</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Nigeria</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Indonesia</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Malaysia</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Vietnam</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Thailand</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Australia</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">United Kingdom</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Germany</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">United States</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Canada</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Mexico</span></div>
-                <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Brazil</span></div>
-            </div>
-        </div>
-    </section>
+   
 
     {{-- faq --}}
-    <section id="faq" class="sec-padd-top sec-padd-bottom">
+    <section id="faq" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5 text-center">
                 <h2 style="color: #174268;">Frequently Asked Questions (FAQ)</h2>
@@ -852,12 +784,12 @@
                 <div class="accordion-item mb-3 border-0">
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            What is a Lap Joint Flange?
+                            What is a Socket Weld Flange?
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
                         <div class="accordion-body text-muted">
-                            A Lap Joint Flange is a two-piece flange used with a stub end. The flange rotates freely around the stub end, allowing easy alignment and simplified maintenance.
+                            A Socket Weld Flange is a flange with a recessed socket that allows a pipe to be inserted and fillet welded, creating a strong and leak-resistant connection.
                         </div>
                     </div>
                 </div>
@@ -866,12 +798,12 @@
                 <div class="accordion-item mb-3 border-0">
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Where are Lap Joint Flanges commonly used?
+                            Where are Socket Weld Flanges commonly used?
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
                         <div class="accordion-body text-muted">
-                            They are commonly used in chemical processing, pharmaceutical, food processing, marine, and industrial piping systems where frequent dismantling and inspection are required.
+                            They are commonly used in high-pressure, small-diameter piping systems found in oil & gas, petrochemical, power generation, chemical processing, and industrial plants.
                         </div>
                     </div>
                 </div>
@@ -885,7 +817,7 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
                         <div class="accordion-body text-muted">
-                            We manufacture Lap Joint Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades.
+                            We manufacture Socket Weld Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades.
                         </div>
                     </div>
                 </div>
@@ -913,7 +845,7 @@
                     </h2>
                     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
                         <div class="accordion-body text-muted">
-                            Yes. We manufacture Lap Joint Flanges in standard and customized sizes, pressure classes, and material grades according to customer specifications.
+                            Yes. We manufacture Socket Weld Flanges in standard and customized sizes, pressure classes, and material grades according to customer specifications.
                         </div>
                     </div>
                 </div>
@@ -922,12 +854,13 @@
         </div>
     </section>
 
-      <section class="sec-padd-top sec-padd-bottom bg-light">
+
+    <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Request a Quote</h2>
                 <p>
-                    Looking for a trusted <strong>Lap Joint Flanges</strong> manufacturer and supplier? Contact <strong>Moksh Tubes & Fittings LLP</strong> for premium-quality forged lap joint flanges, competitive pricing, ready stock, technical support, and fast worldwide delivery. Request your free quotation today.
+                    Looking for a trusted <strong>Socket Weld Flanges</strong> manufacturer and supplier? Contact <strong>Moksh Tubes & Fittings LLP</strong> for premium-quality forged socket weld flanges, competitive pricing, ready stock, technical support, and fast worldwide delivery. Request your free quotation today.
                 </p>
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
@@ -993,9 +926,9 @@
         {
           "@context": "https://schema.org/",
           "@type": "Product",
-          "name": "Lap Joint Flanges",
-          "image": "https://mokshtubes.com/assets/images/fasteners/ljff-flanges_11zon.jpeg",
-          "description": "Premium-quality Lap Joint Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified with worldwide export support.",
+          "name": "Socket Weld Flanges",
+          "image": "https://mokshtubes.com/assets/images/fasteners/sorf-flanges_11zon.jpg",
+          "description": "Premium-quality Socket Weld Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified.",
           "brand": {
             "@type": "Brand",
             "name": "Moksh Tubes & Fittings LLP"
@@ -1007,7 +940,7 @@
           },
           "offers": {
             "@type": "AggregateOffer",
-            "url": "https://mokshtubes.com/lap-joint-flanges",
+            "url": "https://mokshtubes.com",
             "priceCurrency": "USD",
             "price": "1.00",
             "availability": "https://schema.org/InStock"
@@ -1017,18 +950,18 @@
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "What is a Lap Joint Flange?",
+                "name": "What is a Socket Weld Flange?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A Lap Joint Flange is a two-piece flange used with a stub end. The flange rotates freely around the stub end, allowing easy alignment and simplified maintenance."
+                  "text": "A Socket Weld Flange is a flange with a recessed socket that allows a pipe to be inserted and fillet welded, creating a strong and leak-resistant connection."
                 }
               },
               {
                 "@type": "Question",
-                "name": "Where are Lap Joint Flanges commonly used?",
+                "name": "Where are Socket Weld Flanges commonly used?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "They are commonly used in chemical processing, pharmaceutical, food processing, marine, and industrial piping systems where frequent dismantling and inspection are required."
+                  "text": "They are commonly used in high-pressure, small-diameter piping systems found in oil & gas, petrochemical, power generation, chemical processing, and industrial plants."
                 }
               },
               {
@@ -1036,7 +969,7 @@
                 "name": "Which materials are available?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We manufacture Lap Joint Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades."
+                  "text": "We manufacture Socket Weld Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades."
                 }
               },
               {
@@ -1052,7 +985,7 @@
                 "name": "Can you manufacture custom sizes and pressure classes?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. We manufacture Lap Joint Flanges in standard and customized sizes, pressure classes, and material grades according to customer specifications."
+                  "text": "Yes. We manufacture Socket Weld Flanges in standard and customized sizes, pressure classes, and material grades according to customer specifications."
                 }
               }
             ]
