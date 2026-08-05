@@ -16,8 +16,15 @@
                     <!-- Short Introduction -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        SORF Flanges (Slip-On Raised Face Flanges) are widely used in <a href="{{ route('products.pipes-tubes') }}" style="color: blue; text-decoration: underline;">piping systems</a> for their <br>ease of installation, cost-effectiveness, and reliable sealing performance. These <br><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}" style="color: blue; text-decoration: underline;">flanges</a> are slipped over the pipe and welded from both sides to provide a secure <br>connection.
-                        At Moksh Tubes & Fittings LLP, we are a trusted SORF flange supplier and exporter, <br>delivering high-quality flanges in accordance with ASTM, ASME, ANSI, DIN, and EN <br>standards.
+                        SORF Flanges (Slip-On Raised Face Flanges) are widely used in <a
+                            href="{{ route('products.pipes-tubes') }}"
+                            style="color: blue; text-decoration: underline;">piping systems</a> for their <br>ease of
+                        installation, cost-effectiveness, and reliable sealing performance. These <br><a
+                            href="{{ route('products.pipe-fittings-flanges-fasteners') }}"
+                            style="color: blue; text-decoration: underline;">flanges</a> are slipped over the pipe and
+                        welded from both sides to provide a secure <br>connection.
+                        At Moksh Tubes & Fittings LLP, we are a trusted SORF flange supplier and exporter, <br>delivering
+                        high-quality flanges in accordance with ASTM, ASME, ANSI, DIN, and EN <br>standards.
                     </p>
                     <!-- End extra content -->
                 </div>
@@ -65,25 +72,34 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-3 text-justify" style="text-align: justify;">
-                            <strong class="text-black">Slip-On Raised Face (SORF) flanges</strong> are designed for easy installation and cost efficiency, making them ideal for general piping applications.
+                            <strong class="text-black">Slip-On Raised Face (SORF) flanges</strong> are designed for easy
+                            installation and cost efficiency, making them ideal for general piping applications.
                         </p>
 
-                        <p class="fs-6 mb-2">Unlike <a href="{{ route('products.flanges.weld-neck-flanges') }}" style="color: blue;">weld neck flanges</a>:</p>
+                        <p class="fs-6 mb-2">Unlike <a href="{{ route('products.flanges.weld-neck-flanges') }}"
+                                style="color: blue;">weld neck flanges</a>:</p>
                         <ul class="fs-6 mb-3 list-unstyled">
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> <a href="{{ route('products.pipes-tubes') }}" style="color: blue;">Pipe</a> is inserted into the flange</li>
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Welding is done on both sides</li>
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Alignment is simpler and faster</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> <a
+                                    href="{{ route('products.pipes-tubes') }}" style="color: blue;">Pipe</a> is inserted
+                                into the flange</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Welding is done on both
+                                sides</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Alignment is simpler and
+                                faster</li>
                         </ul>
 
                         <p class="fs-6 mb-2">Raised Face (RF):</p>
                         <ul class="fs-6 mb-3 list-unstyled">
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Provides improved sealing</li>
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Enhances gasket compression</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Provides improved sealing
+                            </li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Enhances gasket
+                                compression</li>
                             <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Reduces leakage risk</li>
                         </ul>
 
                         <p class="fs-6 text-justify" style="text-align: justify;">
-                            These flanges are commonly used in water lines, low-pressure pipelines, and general industrial systems.
+                            These flanges are commonly used in water lines, low-pressure pipelines, and general industrial
+                            systems.
                         </p>
                     </div>
                 </div>
@@ -91,52 +107,6 @@
         </div>
     </section>
 
-    <!-- 2. Key Features -->
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-5">
-                <h2>Key Features</h2>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card" style="min-height: 120px;">
-                        <div class="advantage-icon"><i class="bi bi-arrow-repeat"></i></div>
-                        <h5>Easy installation & alignment</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card" style="min-height: 120px;">
-                        <div class="advantage-icon"><i class="bi bi-fast-forward-circle"></i></div>
-                        <h5>Double welding for better strength</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card" style="min-height: 120px;">
-                        <div class="advantage-icon"><i class="bi bi-tag-fill"></i></div>
-                        <h5>Cost-effective compared to <a href="{{ route('products.flanges.weld-neck-flanges') }}" style="color: blue; text-decoration: none;">WN flanges</a></h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card" style="min-height: 120px;">
-                        <div class="advantage-icon"><i class="bi bi-lock-fill"></i></div>
-                        <h5>Good sealing performance (RF face)</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card" style="min-height: 120px;">
-                        <div class="advantage-icon"><i class="bi bi-speedometer2"></i></div>
-                        <h5>Suitable for low & medium pressure</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card" style="min-height: 120px;">
-                        <div class="advantage-icon"><i class="bi bi-layers"></i></div>
-                        <h5>Available in wide material range</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- 3. Specifications -->
     <section class="sec-padd-top sec-padd-bottom bg-light" id="specifications">
@@ -170,7 +140,12 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Material</strong></td>
-                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}" style="color: blue; text-decoration: none;">SS</a>, CS, Alloy Steel, <a href="{{ route('materials.duplex-and-super-duplex') }}" style="color: blue; text-decoration: none;">Duplex</a>, <a href="{{ route('materials.nickel-Based-Superalloys') }}" style="color: blue; text-decoration: none;">Nickel Alloys</a></td>
+                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}"
+                                            style="color: blue; text-decoration: none;">SS</a>, CS, Alloy Steel, <a
+                                            href="{{ route('materials.duplex-and-super-duplex') }}"
+                                            style="color: blue; text-decoration: none;">Duplex</a>, <a
+                                            href="{{ route('materials.nickel-Based-Superalloys') }}"
+                                            style="color: blue; text-decoration: none;">Nickel Alloys</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Standards</strong></td>
@@ -193,7 +168,7 @@
     </section>
 
     <!-- 4. Types of Slip-On Flanges -->
-    
+
 
     <!-- 5. Size Chart -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
@@ -222,7 +197,8 @@
                             </div>
                         </div>
                     </div>
-                    <p class="text-center mt-3 text-muted">For detailed dimension charts including bolt hole patterns and weights, please contact our technical team.</p>
+                    <p class="text-center mt-3 text-muted">For detailed dimension charts including bolt hole patterns and
+                        weights, please contact our technical team.</p>
                 </div>
             </div>
         </div>
@@ -240,7 +216,8 @@
                         <div class="application-icon"><i class="bi bi-shield-check"></i></div>
                         <h5>Stainless Steel</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• <a href="{{ route('materials.austenitic-stainless-Steel') }}" style="color: blue;">304, 304L, 316, 316L, 321</a></li>
+                            <li>• <a href="{{ route('materials.austenitic-stainless-Steel') }}" style="color: blue;">304,
+                                    304L, 316, 316L, 321</a></li>
                         </ul>
                     </div>
                 </div>
@@ -249,7 +226,8 @@
                         <div class="application-icon"><i class="bi bi-layers"></i></div>
                         <h5>Carbon Steel</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• ASTM A105, <a href="{{ route('products.flanges.astm-a350-lf2-flanges') }}" style="color: blue;">A350 LF2</a></li>
+                            <li>• ASTM A105, <a href="{{ route('products.flanges.astm-a350-lf2-flanges') }}"
+                                    style="color: blue;">A350 LF2</a></li>
                         </ul>
                     </div>
                 </div>
@@ -267,7 +245,8 @@
                         <div class="application-icon"><i class="bi bi-box"></i></div>
                         <h5>Duplex & Super Duplex</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• <a href="{{ route('materials.duplex-and-super-duplex') }}" style="color: blue;">S31803, S32750</a></li>
+                            <li>• <a href="{{ route('materials.duplex-and-super-duplex') }}" style="color: blue;">S31803,
+                                    S32750</a></li>
                         </ul>
                     </div>
                 </div>
@@ -276,13 +255,113 @@
                         <div class="application-icon"><i class="bi bi-nut"></i></div>
                         <h5>Nickel Alloys</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• <a href="{{ route('materials.inconel') }}" style="color: blue;">Inconel</a>, <a href="{{ route('materials.monel') }}" style="color: blue;">Monel</a>, <a href="{{ route('materials.hastelloy') }}" style="color: blue;">Hastelloy</a></li>
+                            <li>• <a href="{{ route('materials.inconel') }}" style="color: blue;">Inconel</a>, <a
+                                    href="{{ route('materials.monel') }}" style="color: blue;">Monel</a>, <a
+                                    href="{{ route('materials.hastelloy') }}" style="color: blue;">Hastelloy</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
 
     <!-- 7. Applications -->
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
@@ -326,7 +405,8 @@
                         <div class="application-icon"><i class="bi bi-gear"></i></div>
                         <h5>Industrial Systems</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• <a href="{{ route('products.pipes-tubes.welded-pipes') }}" style="color: blue;">Process piping</a></li>
+                            <li>• <a href="{{ route('products.pipes-tubes.welded-pipes') }}" style="color: blue;">Process
+                                    piping</a></li>
                             <li>• General fabrication</li>
                         </ul>
                     </div>
@@ -335,48 +415,95 @@
         </div>
     </section>
 
-    <!-- 8. Industries Served -->
-    
-
-    <!-- 9. Manufacturing Process -->
-    <!-- 10. Packaging & Export -->
-    <section id="export" class="sec-padd-top sec-padd-bottom">
+    <!-- 2. Key Features -->
+    <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Packaging & Export</h2>
+            <div class="section-title center mb-5">
+                <h2>Key Features</h2>
             </div>
-            <p class="fs-6 text-center text-muted mb-4">
-                We are a reliable SORF flange supplier and exporter, supplying globally. <br>Trusted by EPC contractors and industrial buyers.
-            </p>
-
             <div class="row g-4 justify-content-center">
-                <div class="col-md-6 col-lg-5">
-                    <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
-                        <h4 class="fw-bold mb-3 text-primary border-bottom pb-2">Export Markets</h4>
-                        <ul class="fs-6 list-unstyled mb-0 custom-list">
-                            <li><i class="bi bi-chevron-right text-warning"></i> UAE</li>
-                            <li><i class="bi bi-chevron-right text-warning"></i> Saudi Arabia</li>
-                            <li><i class="bi bi-chevron-right text-warning"></i> Qatar</li>
-                            <li><i class="bi bi-chevron-right text-warning"></i> Oman</li>
-                            <li><i class="bi bi-chevron-right text-warning"></i> Kuwait</li>
-                            <li><i class="bi bi-chevron-right text-warning"></i> Europe & Southeast Asia</li>
-                        </ul>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card" style="min-height: 120px;">
+                        <div class="advantage-icon"><i class="bi bi-arrow-repeat"></i></div>
+                        <h5>Easy installation & alignment</h5>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-5">
-                    <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
-                        <h4 class="fw-bold mb-3 text-success border-bottom pb-2">Export Services</h4>
-                        <ul class="fs-6 list-unstyled mb-0 custom-list">
-                            <li><i class="bi bi-box-seam text-success me-2"></i> Export packaging</li>
-                            <li><i class="bi bi-file-earmark-check text-success me-2"></i> EN 10204 3.1 certification</li>
-                            <li><i class="bi bi-geo-alt text-success me-2"></i> Third-party inspection</li>
-                            <li><i class="bi bi-truck text-success me-2"></i> Bulk project supply</li>
-                        </ul>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card" style="min-height: 120px;">
+                        <div class="advantage-icon"><i class="bi bi-fast-forward-circle"></i></div>
+                        <h5>Double welding for better strength</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card" style="min-height: 120px;">
+                        <div class="advantage-icon"><i class="bi bi-tag-fill"></i></div>
+                        <h5>Cost-effective compared to <a href="{{ route('products.flanges.weld-neck-flanges') }}"
+                                style="color: blue; text-decoration: none;">WN flanges</a></h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card" style="min-height: 120px;">
+                        <div class="advantage-icon"><i class="bi bi-lock-fill"></i></div>
+                        <h5>Good sealing performance (RF face)</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card" style="min-height: 120px;">
+                        <div class="advantage-icon"><i class="bi bi-speedometer2"></i></div>
+                        <h5>Suitable for low & medium pressure</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card" style="min-height: 120px;">
+                        <div class="advantage-icon"><i class="bi bi-layers"></i></div>
+                        <h5>Available in wide material range</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <!-- 9. Manufacturing Process -->
+    <!-- 10. Packaging & Export -->
+    <!-- <section id="export" class="sec-padd-top sec-padd-bottom">
+                    <div class="container">
+                        <div class="section-title center mb-4">
+                            <h2>Packaging & Export</h2>
+                        </div>
+                        <p class="fs-6 text-center text-muted mb-4">
+                            We are a reliable SORF flange supplier and exporter, supplying globally. <br>Trusted by EPC contractors and
+                            industrial buyers.
+                        </p>
+
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-md-6 col-lg-5">
+                                <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
+                                    <h4 class="fw-bold mb-3 text-primary border-bottom pb-2">Export Markets</h4>
+                                    <ul class="fs-6 list-unstyled mb-0 custom-list">
+                                        <li><i class="bi bi-chevron-right text-warning"></i> UAE</li>
+                                        <li><i class="bi bi-chevron-right text-warning"></i> Saudi Arabia</li>
+                                        <li><i class="bi bi-chevron-right text-warning"></i> Qatar</li>
+                                        <li><i class="bi bi-chevron-right text-warning"></i> Oman</li>
+                                        <li><i class="bi bi-chevron-right text-warning"></i> Kuwait</li>
+                                        <li><i class="bi bi-chevron-right text-warning"></i> Europe & Southeast Asia</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-5">
+                                <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
+                                    <h4 class="fw-bold mb-3 text-success border-bottom pb-2">Export Services</h4>
+                                    <ul class="fs-6 list-unstyled mb-0 custom-list">
+                                        <li><i class="bi bi-box-seam text-success me-2"></i> Export packaging</li>
+                                        <li><i class="bi bi-file-earmark-check text-success me-2"></i> EN 10204 3.1 certification</li>
+                                        <li><i class="bi bi-geo-alt text-success me-2"></i> Third-party inspection</li>
+                                        <li><i class="bi bi-truck text-success me-2"></i> Bulk project supply</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
 
     <!-- 11. Advantages & 12. SORF vs WN Flanges & 13. Buying Guide -->
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -388,68 +515,80 @@
                     </div>
                     <ul class="fs-6 list-unstyled mb-5">
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Easy installation reduces labor cost</li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Easy installation reduces labor cost
+                        </li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Lower cost than <a href="{{ route('products.flanges.weld-neck-flanges') }}" style="color: blue; text-decoration: none;">weld neck flanges</a></li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Lower cost than <a
+                                href="{{ route('products.flanges.weld-neck-flanges') }}"
+                                style="color: blue; text-decoration: none;">weld neck flanges</a></li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Suitable for standard piping systems</li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Suitable for standard piping systems
+                        </li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
                                 class="bi bi-check-circle-fill text-primary me-2"></i> Reliable sealing with RF face</li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Flexible for various applications</li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Flexible for various applications
+                        </li>
                     </ul>
 
-                    <div class="section-title mb-4">
-                        <h2>SORF vs WN Flanges</h2>
-                    </div>
-                    <div class="table-responsive bg-white rounded shadow-sm border">
-                        <table class="table table-bordered table-striped align-middle mb-0">
-                            <thead class="table-dark text-center">
-                                <tr>
-                                    <th>Parameter</th>
-                                    <th>SORF Flanges</th>
-                                    <th>WN Flanges</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><strong>Cost</strong></td>
-                                    <td>Lower</td>
-                                    <td>Higher</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Strength</strong></td>
-                                    <td>Moderate</td>
-                                    <td>Very High</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Installation</strong></td>
-                                    <td>Easy</td>
-                                    <td>Complex</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Applications</strong></td>
-                                    <td>Low/Medium pressure</td>
-                                    <td>High pressure</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <p class="fs-6 mt-3 text-muted"><strong>Note:</strong> SORF is ideal for cost-effective systems, while WN is for critical applications.</p>
+                    <!-- <div class="section-title mb-4">
+                                <h2>SORF vs WN Flanges</h2>
+                            </div>
+                            <div class="table-responsive bg-white rounded shadow-sm border">
+                                <table class="table table-bordered table-striped align-middle mb-0">
+                                    <thead class="table-dark text-center">
+                                        <tr>
+                                            <th>Parameter</th>
+                                            <th>SORF Flanges</th>
+                                            <th>WN Flanges</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Cost</strong></td>
+                                            <td>Lower</td>
+                                            <td>Higher</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Strength</strong></td>
+                                            <td>Moderate</td>
+                                            <td>Very High</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Installation</strong></td>
+                                            <td>Easy</td>
+                                            <td>Complex</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Applications</strong></td>
+                                            <td>Low/Medium pressure</td>
+                                            <td>High pressure</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p class="fs-6 mt-3 text-muted"><strong>Note:</strong> SORF is ideal for cost-effective systems, while
+                                WN is for critical applications.</p> -->
                 </div>
 
                 <div id="buying-guide" class="col-lg-6">
                     <div class="p-4 bg-white rounded shadow-sm border-start border-4 border-warning h-100">
                         <h3 class="fw-bold mb-4" style="color: #174268;">Buying Guide</h3>
-                        <p class="fs-6 text-muted">Before selecting SORF flanges or other <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}" style="color: blue; text-decoration: underline;">pipe fittings</a>, consider:</p>
+                        <p class="fs-6 text-muted">Before selecting SORF flanges or other <a
+                                href="{{ route('products.pipe-fittings-flanges-fasteners') }}"
+                                style="color: blue; text-decoration: underline;">pipe fittings</a>, consider:</p>
                         <ul class="fs-6 list-unstyled font-weight-bold">
                             <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Check pressure class</li>
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Select correct material</li>
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Verify <a href="{{ route('products.pipes-tubes') }}" style="color: blue;">pipe</a> size compatibility</li>
+                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Select correct material
+                            </li>
+                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Verify <a
+                                    href="{{ route('products.pipes-tubes') }}" style="color: blue;">pipe</a> size
+                                compatibility</li>
                             <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Confirm gasket type</li>
                             <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Ensure certification</li>
                         </ul>
-                        <p class="fs-6 mt-4 fw-bold p-3 bg-light rounded border text-center border-warning">We help you choose the right flange for your system.</p>
+                        <p class="fs-6 mt-4 fw-bold p-3 bg-light rounded border text-center border-warning">We help you
+                            choose the right flange for your system.</p>
                     </div>
                 </div>
             </div>
@@ -457,37 +596,39 @@
     </section>
 
     <!-- 14. Testing & Quality Control -->
-    <section id="quality" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-9">
-                    <div class="p-4 bg-light rounded shadow-sm border-start border-4 border-primary h-100">
-                        <h3 class="fw-bold mb-4 text-center" style="color: #174268;">Testing & Quality Control</h3>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <ul class="fs-6 list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Dimensional inspection</li>
-                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Hydro testing</li>
-                                </ul>
+    <!-- <section id="quality" class="sec-padd-top sec-padd-bottom">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-9">
+                        <div class="p-4 bg-light rounded shadow-sm border-start border-4 border-primary h-100">
+                            <h3 class="fw-bold mb-4 text-center" style="color: #174268;">Testing & Quality Control</h3>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <ul class="fs-6 list-unstyled">
+                                        <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Dimensional inspection
+                                        </li>
+                                        <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Hydro testing</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <ul class="fs-6 list-unstyled">
+                                        <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • PMI testing</li>
+                                        <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Hardness testing</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <ul class="fs-6 list-unstyled">
+                                        <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Visual inspection</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="col-md-4">
-                                <ul class="fs-6 list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • PMI testing</li>
-                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Hardness testing</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-4">
-                                <ul class="fs-6 list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Visual inspection</li>
-                                </ul>
-                            </div>
+                            <p class="fs-6 mt-4 fw-bold text-success text-center"><i class="bi bi-patch-check-fill me-2"></i> EN
+                                10204 3.1 certification available.</p>
                         </div>
-                        <p class="fs-6 mt-4 fw-bold text-success text-center"><i class="bi bi-patch-check-fill me-2"></i> EN 10204 3.1 certification available.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section> -->
 
     <!-- 15. Why Choose Us -->
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -576,7 +717,9 @@
                 <h2>Request a Quote for SORF Flanges</h2>
                 <p>
                     Looking for a reliable SORF flange supplier & exporter?<br>
-                    Contact <a href="{{ route('contact-us') }}" style="color: blue; text-decoration: underline;"><strong>Moksh Tubes & Fittings LLP</strong></a> for bulk supply, custom sizes, and fast delivery. Get the best price today.
+                    Contact <a href="{{ route('contact-us') }}"
+                        style="color: blue; text-decoration: underline;"><strong>Moksh Tubes & Fittings LLP</strong></a> for
+                    bulk supply, custom sizes, and fast delivery. Get the best price today.
                 </p>
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
@@ -591,38 +734,37 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-            {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [
-                    {
-                        "@type": "Question",
-                        "name": "What are SORF flanges used for?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "They are used in low to medium pressure piping systems."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "What is the advantage of slip-on flange?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Easy alignment and lower cost."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Do you export SORF flanges?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes, we export globally including GCC countries."
-                        }
-                    }
-                ]
-            }
-        @endverbatim
-    </script>
+                                @verbatim
+                                    {
+                                        "@context": "https://schema.org",
+                                        "@type": "FAQPage",
+                                        "mainEntity": [
+                                            {
+                                                "@type": "Question",
+                                                "name": "What are SORF flanges used for?",
+                                                "acceptedAnswer": {
+                                                    "@type": "Answer",
+                                                    "text": "They are used in low to medium pressure piping systems."
+                                                }
+                                            },
+                                            {
+                                                "@type": "Question",
+                                                "name": "What is the advantage of slip-on flange?",
+                                                "acceptedAnswer": {
+                                                    "@type": "Answer",
+                                                    "text": "Easy alignment and lower cost."
+                                                }
+                                            },
+                                            {
+                                                "@type": "Question",
+                                                "name": "Do you export SORF flanges?",
+                                                "acceptedAnswer": {
+                                                    "@type": "Answer",
+                                                    "text": "Yes, we export globally including GCC countries."
+                                                }
+                                            }
+                                        ]
+                                    }
+                                @endverbatim
+                            </script>
 @endsection
-

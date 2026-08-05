@@ -1,22 +1,33 @@
 @extends('layouts.master')
 @section('title', 'Concentric Reducer | Buttweld Pipe Reducers | Moksh Tubes')
 <!-- 52 characters -->
-@section('meta_description',
-    'High-quality Concentric Reducers for connecting pipes of different diameters on the same axis. Available in Stainless Steel, Carbon Steel, and Alloy Steel.')
-@section('meta_keywords',
-    'Concentric Reducer, Pipe Reducer, Buttweld Reducer, Stainless Steel Reducer, Carbon Steel Reducer, ASME B16.9')
+@section(
+    'meta_description',
+    'High-quality Concentric Reducers for connecting pipes of different diameters on the same axis. Available in Stainless Steel, Carbon Steel, and Alloy Steel.'
+)
+@section(
+    'meta_keywords',
+    'Concentric Reducer, Pipe Reducer, Buttweld Reducer, Stainless Steel Reducer, Carbon Steel Reducer, ASME B16.9'
+)
 @section('og_image', asset('assets/images/product/flangs/concentric-reducers_11zon.jpg'))
 @section('og_type', 'product')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/concentric-reducers_11zon.jpg);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/product/flangs/concentric-reducers_11zon.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1 class="page-title">Concentric Reducer</h1>
-                        <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        A Concentric Reducer is a cone-shaped pipe fitting used to join two pipes of different diameters along the same central axis. It ensures a smooth transition of fluid flow, minimizing turbulence and friction. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we manufacture and supply premium quality seamless and welded concentric reducers in carbon steel, stainless steel, alloy steel, and exotic metals, strictly adhering to ASME B16.9 and MSS-SP-43 standards.
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        A Concentric Reducer is a cone-shaped pipe fitting used to join two pipes of different diameters
+                        along the same central axis. It ensures a smooth transition of fluid flow, minimizing turbulence and
+                        friction. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes
+                            & Fittings LLP</a>, we manufacture and supply premium quality seamless and welded concentric
+                        reducers in carbon steel, stainless steel, alloy steel, and exotic metals, strictly adhering to ASME
+                        B16.9 and MSS-SP-43 standards.
                     </p>
 
                 </div>
@@ -52,24 +63,31 @@
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('/assets/images/product/flangs/concentric-reducers_11zon.jpg') }}"
-                        alt="Concentric Buttweld Reducers" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                        alt="Concentric Buttweld Reducers" class="img-fluid rounded shadow-sm" width="550" height="350"
+                        loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Concentric Reducers</strong> feature a symmetrical, cone-like shape where the center lines of both the larger (run) and smaller (branch) pipes perfectly align. This geometry ensures an even distribution of fluid pressure and is typically installed in vertical piping systems to prevent cavitation.
+                        <strong class="text-black">Concentric Reducers</strong> feature a symmetrical, cone-like shape where
+                        the center lines of both the larger (run) and smaller (branch) pipes perfectly align. This geometry
+                        ensures an even distribution of fluid pressure and is typically installed in vertical piping systems
+                        to prevent cavitation.
                     </p>
 
                     <p class="fs-6 mb-3 text-justify">
                         <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a> is a leading manufacturer,
-                        supplier, and exporter of Concentric Reducers in India. We cater to high-pressure pipeline requirements across <a href="{{ route('materials.austenitic-stainless-Steel') }}">Indian refineries</a> and
+                        supplier, and exporter of Concentric Reducers in India. We cater to high-pressure pipeline
+                        requirements across <a href="{{ route('materials.austenitic-stainless-Steel') }}">Indian
+                            refineries</a> and
                         major Gulf / GCC nations including UAE, Saudi Arabia, Qatar, Oman, and Kuwait.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        Manufactured through advanced pressing and machining techniques, our reducers provide a seamless transition between varying pipe schedules and diameters, featuring precision-beveled ends for flawless butt-welding.
+                        Manufactured through advanced pressing and machining techniques, our reducers provide a seamless
+                        transition between varying pipe schedules and diameters, featuring precision-beveled ends for
+                        flawless butt-welding.
                     </p>
 
                 </div>
@@ -78,7 +96,7 @@
     </section>
 
     {{-- datasheet --}}
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -99,7 +117,9 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td><a href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a>, <a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>, Alloy Steel, 
+                                    <td><a href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a>, <a
+                                            href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>,
+                                        Alloy Steel,
                                         <a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex / Super Duplex
                                             Steel</a>, <a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel
                                             Alloys</a>, <a href="{{ route('materials.titanium') }}">Titanium</a>
@@ -137,7 +157,7 @@
         </div>
     </section>
 
-   <!-- charts -->
+    <!-- charts -->
     <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
 
         <div class="container">
@@ -148,7 +168,7 @@
             <div class="section-title center mb-3">
                 <h3 class="text-center mb-0" style="color: #db7227;">Concentric Reducer Dimensions</h3>
             </div>
-            
+
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
@@ -161,24 +181,85 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>3/4" × 1/2"</td><td>26.7</td><td>21.3</td><td>38</td><td>0.12</td></tr>
-                        <tr class="t-row"><td>1" × 3/4"</td><td>33.4</td><td>26.7</td><td>51</td><td>0.20</td></tr>
-                        <tr class="t-row"><td>1-1/2" × 1"</td><td>48.3</td><td>33.4</td><td>64</td><td>0.35</td></tr>
-                        <tr class="t-row"><td>2" × 1-1/2"</td><td>60.3</td><td>48.3</td><td>76</td><td>0.50</td></tr>
-                        <tr class="t-row"><td>3" × 2"</td><td>88.9</td><td>60.3</td><td>89</td><td>1.20</td></tr>
-                        <tr class="t-row"><td>4" × 3"</td><td>114.3</td><td>88.9</td><td>102</td><td>1.85</td></tr>
-                        <tr class="t-row"><td>6" × 4"</td><td>168.3</td><td>114.3</td><td>140</td><td>4.20</td></tr>
-                        <tr class="t-row"><td>8" × 6"</td><td>219.1</td><td>168.3</td><td>152</td><td>6.80</td></tr>
-                        <tr class="t-row"><td>10" × 8"</td><td>273.0</td><td>219.1</td><td>178</td><td>11.30</td></tr>
-                        <tr class="t-row"><td>12" × 10"</td><td>323.8</td><td>273.0</td><td>203</td><td>16.50</td></tr>
+                        <tr class="t-row">
+                            <td>3/4" × 1/2"</td>
+                            <td>26.7</td>
+                            <td>21.3</td>
+                            <td>38</td>
+                            <td>0.12</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1" × 3/4"</td>
+                            <td>33.4</td>
+                            <td>26.7</td>
+                            <td>51</td>
+                            <td>0.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1-1/2" × 1"</td>
+                            <td>48.3</td>
+                            <td>33.4</td>
+                            <td>64</td>
+                            <td>0.35</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2" × 1-1/2"</td>
+                            <td>60.3</td>
+                            <td>48.3</td>
+                            <td>76</td>
+                            <td>0.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3" × 2"</td>
+                            <td>88.9</td>
+                            <td>60.3</td>
+                            <td>89</td>
+                            <td>1.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4" × 3"</td>
+                            <td>114.3</td>
+                            <td>88.9</td>
+                            <td>102</td>
+                            <td>1.85</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>6" × 4"</td>
+                            <td>168.3</td>
+                            <td>114.3</td>
+                            <td>140</td>
+                            <td>4.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>8" × 6"</td>
+                            <td>219.1</td>
+                            <td>168.3</td>
+                            <td>152</td>
+                            <td>6.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>10" × 8"</td>
+                            <td>273.0</td>
+                            <td>219.1</td>
+                            <td>178</td>
+                            <td>11.30</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>12" × 10"</td>
+                            <td>323.8</td>
+                            <td>273.0</td>
+                            <td>203</td>
+                            <td>16.50</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted">*Dimensions conform to ASME B16.9. The End-to-End length (H) determines the slope angle of the reducer.</p>
+            <p class="text-center mt-2 small text-muted">*Dimensions conform to ASME B16.9. The End-to-End length (H)
+                determines the slope angle of the reducer.</p>
         </div>
     </section>
 
-    
+
 
     {{-- Grades Available --}}
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
@@ -211,11 +292,13 @@
                                     <td>ASTM A234 WP1, WP5, WP9, WP11, WP22, WP91</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a></td>
+                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>
+                                    </td>
                                     <td>ASTM A403 WP304/304L, WP316/316L, WP321, WP347</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex</a></td>
+                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex</a>
+                                    </td>
                                     <td>ASTM A815 UNS S31803, S32205, S32750, S32760</td>
                                 </tr>
                                 <tr class="t-row">
@@ -231,7 +314,102 @@
     </section>
 
     {{-- Gallery --}}
-    
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
 
     {{-- Applications --}}
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
@@ -239,7 +417,8 @@
             <div class="section-title center">
                 <h2>Applications of Concentric Reducers</h2>
                 <p class="text-center pb-3">
-                    <strong class="text-black">Concentric Reducers</strong> are universally employed to transition between pipe sizes:
+                    <strong class="text-black">Concentric Reducers</strong> are universally employed to transition between
+                    pipe sizes:
                 </p>
             </div>
 
@@ -249,7 +428,8 @@
                         <div class="application-icon"><i class="bi bi-fan"></i></div>
                         <h5>Pump Discharge Lines</h5>
                         <ul>
-                            <li>Placed at the discharge side of a centrifugal pump to smoothly transition to a larger pipe diameter.</li>
+                            <li>Placed at the discharge side of a centrifugal pump to smoothly transition to a larger pipe
+                                diameter.</li>
                         </ul>
                     </div>
                 </div>
@@ -258,7 +438,8 @@
                         <div class="application-icon"><i class="bi bi-droplet-half"></i></div>
                         <h5>Vertical Pipelines</h5>
                         <ul>
-                            <li>Ideal for vertical pipe runs in chemical plants where gas pocket accumulation is not an issue.</li>
+                            <li>Ideal for vertical pipe runs in chemical plants where gas pocket accumulation is not an
+                                issue.</li>
                         </ul>
                     </div>
                 </div>
@@ -294,7 +475,8 @@
                         <div class="application-icon"><i class="bi bi-water"></i></div>
                         <h5>Water Treatment</h5>
                         <ul>
-                            <li>Municipal water supply mains, transitioning from large header pipes to smaller distribution lines.</li>
+                            <li>Municipal water supply mains, transitioning from large header pipes to smaller distribution
+                                lines.</li>
                         </ul>
                     </div>
                 </div>
@@ -302,9 +484,10 @@
         </div>
     </section>
 
+
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties (Carbon Steel A234 WPB)</h2>
             </div>
 
@@ -337,7 +520,8 @@
                     </tbody>
                 </table>
             </div>
-             <p class="text-center mt-2 small text-muted">*Properties must match the corresponding seamless pipe specification (e.g., A106 Gr. B for A234 WPB).</p>
+            <p class="text-center mt-2 small text-muted">*Properties must match the corresponding seamless pipe
+                specification (e.g., A106 Gr. B for A234 WPB).</p>
         </div>
     </section>
 
@@ -405,7 +589,10 @@
                                 <h4>Why use a Concentric Reducer instead of an Eccentric Reducer?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Concentric reducers are generally used in vertical piping systems or at pump discharges. They provide a smooth, symmetrical transition that minimizes pressure loss. However, if installed horizontally on a pump suction line, they can trap air pockets; in that specific case, an eccentric reducer with the flat side up is required.</p>
+                                <p>Concentric reducers are generally used in vertical piping systems or at pump discharges.
+                                    They provide a smooth, symmetrical transition that minimizes pressure loss. However, if
+                                    installed horizontally on a pump suction line, they can trap air pockets; in that
+                                    specific case, an eccentric reducer with the flat side up is required.</p>
                             </div>
                         </div>
 
@@ -414,7 +601,9 @@
                                 <h4>Are reducers seamless or welded?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Both. Reducers up to 24" are typically seamless, pressed from seamless pipe. For sizes larger than 24", they are commonly manufactured from welded pipe or rolled and welded steel plates (often referred to as fabricated reducers).</p>
+                                <p>Both. Reducers up to 24" are typically seamless, pressed from seamless pipe. For sizes
+                                    larger than 24", they are commonly manufactured from welded pipe or rolled and welded
+                                    steel plates (often referred to as fabricated reducers).</p>
                             </div>
                         </div>
 
@@ -423,7 +612,9 @@
                                 <h4>Can I order a reducer with different schedules on each end?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Typically, a reducer maintains the same wall thickness (e.g., Sch 40) across both ends. However, custom reducers with varying wall thicknesses can be manufactured or specially bored to match the inner diameter of specific pipes.</p>
+                                <p>Typically, a reducer maintains the same wall thickness (e.g., Sch 40) across both ends.
+                                    However, custom reducers with varying wall thicknesses can be manufactured or specially
+                                    bored to match the inner diameter of specific pipes.</p>
                             </div>
                         </div>
 
@@ -432,7 +623,9 @@
                                 <h4>What standards govern concentric reducers?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>The most widely accepted dimensional standard is ASME B16.9 (Factory-Made Wrought Buttwelding Fittings). Material standards include ASTM A234 for carbon/alloy steel and ASTM A403 for stainless steel.</p>
+                                <p>The most widely accepted dimensional standard is ASME B16.9 (Factory-Made Wrought
+                                    Buttwelding Fittings). Material standards include ASTM A234 for carbon/alloy steel and
+                                    ASTM A403 for stainless steel.</p>
                             </div>
                         </div>
 
@@ -446,8 +639,10 @@
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
-                <p>For further information, CAD models, quotes, or custom thickness requirements for Concentric Reducers, <strong>Moksh Tubes & Fittings LLP</strong> is your trusted partner for premium buttweld fittings.</p>
-                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal" data-bs-target="#contactFormModal">
+                <p>For further information, CAD models, quotes, or custom thickness requirements for Concentric Reducers,
+                    <strong>Moksh Tubes & Fittings LLP</strong> is your trusted partner for premium buttweld fittings.</p>
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
                     Get in Touch
                 </a>
             </div>
@@ -484,32 +679,32 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": ["Organization", "LocalBusiness"],
-              "@id": "https://mokshtubes.com/#organization",
-              "name": "Moksh Tubes & Fittings LLP",
-              "url": "https://mokshtubes.com/",
-              "logo": "https://mokshtubes.com/assets/images/logo.webp",
-              "telephone": "+91-9769584950",
-              "email": "info@mokshtubes.com"
-            },
-            {
-              "@type": "Product",
-              "@id": "https://mokshtubes.com/#concentric-reducer",
-              "name": "Concentric Buttweld Reducer",
-              "image": "https://mokshtubes.com/assets/images/product/flangs/concentric-reducers_11zon.jpg",
-              "category": "Pipe Fittings",
-              "description": "Premium Concentric Pipe Reducers (ASME B16.9) in Carbon Steel (A234 WPB) and Stainless Steel for inline diameter transitions.",
-              "brand": {
-                "@type": "Brand",
-                "@id": "https://mokshtubes.com/#organization"
-              }
-            }
-          ]
-        }
-        </script>
+                {
+                  "@context": "https://schema.org",
+                  "@graph": [
+                    {
+                      "@type": ["Organization", "LocalBusiness"],
+                      "@id": "https://mokshtubes.com/#organization",
+                      "name": "Moksh Tubes & Fittings LLP",
+                      "url": "https://mokshtubes.com/",
+                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                      "telephone": "+91-9769584950",
+                      "email": "info@mokshtubes.com"
+                    },
+                    {
+                      "@type": "Product",
+                      "@id": "https://mokshtubes.com/#concentric-reducer",
+                      "name": "Concentric Buttweld Reducer",
+                      "image": "https://mokshtubes.com/assets/images/product/flangs/concentric-reducers_11zon.jpg",
+                      "category": "Pipe Fittings",
+                      "description": "Premium Concentric Pipe Reducers (ASME B16.9) in Carbon Steel (A234 WPB) and Stainless Steel for inline diameter transitions.",
+                      "brand": {
+                        "@type": "Brand",
+                        "@id": "https://mokshtubes.com/#organization"
+                      }
+                    }
+                  ]
+                }
+                </script>
     @endverbatim
 @endsection

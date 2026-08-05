@@ -9,7 +9,8 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/Sheets-Plates-and-Coils/Sheets-and-Plates.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/product/Sheets-Plates-and-Coils/Sheets-and-Plates.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -17,7 +18,12 @@
 
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Sheets & Plates are essential flat-rolled metal products used in construction, fabrication, oil & gas, marine, and heavy engineering industries. Moksh Tubes & Fittings LLP supplies high-quality sheets and plates in stainless steel, carbon steel, aluminium, copper, nickel alloys, and specialty metals. Our products offer excellent strength, corrosion resistance, and dimensional accuracy, making them ideal for structural, industrial, and decorative applications across India and global markets.
+                        Sheets & Plates are essential flat-rolled metal products used in construction, fabrication, oil &
+                        gas, marine, and heavy engineering industries. Moksh Tubes & Fittings LLP supplies high-quality
+                        sheets and plates in stainless steel, carbon steel, aluminium, copper, nickel alloys, and specialty
+                        metals. Our products offer excellent strength, corrosion resistance, and dimensional accuracy,
+                        making them ideal for structural, industrial, and decorative applications across India and global
+                        markets.
                     </p>
                 </div>
             </div>
@@ -58,23 +64,31 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Sheets-and-Plates.webp') }}" alt="Sheets & Plates"
-                        class="img-fluid rounded shadow-sm" loading="lazy">
+                    <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Sheets-and-Plates.webp') }}"
+                        alt="Sheets & Plates" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong class="text-black">Sheets & Plates</strong> are flat metal products manufactured through rolling processes and widely used across industrial and structural applications. The key difference lies in thickness — sheets are generally thinner (up to 6 mm), while plates are thicker and used for heavy-duty structural applications.
+                            <strong class="text-black">Sheets & Plates</strong> are flat metal products manufactured through
+                            rolling processes and widely used across industrial and structural applications. The key
+                            difference lies in thickness — sheets are generally thinner (up to 6 mm), while plates are
+                            thicker and used for heavy-duty structural applications.
                         </p>
 
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            These products are critical for industries such as construction, shipbuilding, automotive, oil & gas, and manufacturing. Their versatility allows them to be cut, welded, and fabricated into complex components.
+                            These products are critical for industries such as construction, shipbuilding, automotive, oil &
+                            gas, and manufacturing. Their versatility allows them to be cut, welded, and fabricated into
+                            complex components.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings LLP</a></strong>, we supply premium-quality sheets and plates in multiple materials and grades, complying with ASTM, ASME, EN, JIS, and DIN standards. Our products are known for their durability, surface finish, and performance in demanding environments.
+                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings
+                                    LLP</a></strong>, we supply premium-quality sheets and plates in multiple materials and
+                            grades, complying with ASTM, ASME, EN, JIS, and DIN standards. Our products are known for their
+                            durability, surface finish, and performance in demanding environments.
                         </p>
                     </div>
                 </div>
@@ -82,7 +96,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -101,14 +115,39 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Material</td><td>Stainless Steel, Carbon Steel, Alloy Steel, Aluminium, Copper, Brass, Nickel Alloys, Titanium</td></tr>
-                                <tr class="t-row"><td>Grades</td><td>ASTM / ASME / EN / JIS / DIN compliant</td></tr>
-                                <tr class="t-row"><td>Thickness</td><td>Sheets: 0.3–6 mm; Plates: 6–150 mm+</td></tr>
-                                <tr class="t-row"><td>Width</td><td>1000 mm – 3000 mm</td></tr>
-                                <tr class="t-row"><td>Length</td><td>Up to 12 meters or cut-to-size</td></tr>
-                                <tr class="t-row"><td>Finishes</td><td>No.1, 2B, BA, Mirror, Matte, Hairline, Pickled & Passivated</td></tr>
-                                <tr class="t-row"><td>Types</td><td>Hot Rolled, Cold Rolled, Chequered, Perforated</td></tr>
-                                <tr class="t-row"><td>Standards</td><td>ASTM A240, A36, EN 10088, IS 2062</td></tr>
+                                <tr class="t-row">
+                                    <td>Material</td>
+                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Aluminium, Copper, Brass, Nickel Alloys,
+                                        Titanium</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Grades</td>
+                                    <td>ASTM / ASME / EN / JIS / DIN compliant</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Thickness</td>
+                                    <td>Sheets: 0.3–6 mm; Plates: 6–150 mm+</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Width</td>
+                                    <td>1000 mm – 3000 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Length</td>
+                                    <td>Up to 12 meters or cut-to-size</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Finishes</td>
+                                    <td>No.1, 2B, BA, Mirror, Matte, Hairline, Pickled & Passivated</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Types</td>
+                                    <td>Hot Rolled, Cold Rolled, Chequered, Perforated</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM A240, A36, EN 10088, IS 2062</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -129,13 +168,28 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Type</th><th>Thickness (mm)</th></tr>
+                                <tr class="t-row">
+                                    <th>Type</th>
+                                    <th>Thickness (mm)</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Thin Sheets</td><td>0.5 – 5</td></tr>
-                                <tr class="t-row"><td>Medium Plates</td><td>5 – 25</td></tr>
-                                <tr class="t-row"><td>Heavy Plates</td><td>25 – 150</td></tr>
-                                <tr class="t-row"><td>Extra Heavy</td><td>150+</td></tr>
+                                <tr class="t-row">
+                                    <td>Thin Sheets</td>
+                                    <td>0.5 – 5</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Medium Plates</td>
+                                    <td>5 – 25</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heavy Plates</td>
+                                    <td>25 – 150</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Extra Heavy</td>
+                                    <td>150+</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -146,14 +200,32 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Size (mm)</th><th>Usage</th></tr>
+                                <tr class="t-row">
+                                    <th>Size (mm)</th>
+                                    <th>Usage</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>1000 × 2000</td><td>General fabrication</td></tr>
-                                <tr class="t-row"><td>1250 × 2500</td><td>Industrial</td></tr>
-                                <tr class="t-row"><td>1500 × 3000</td><td>Structural</td></tr>
-                                <tr class="t-row"><td>2000 × 4000</td><td>Pressure vessels</td></tr>
-                                <tr class="t-row"><td>2500 × 6000</td><td>Heavy engineering</td></tr>
+                                <tr class="t-row">
+                                    <td>1000 × 2000</td>
+                                    <td>General fabrication</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1250 × 2500</td>
+                                    <td>Industrial</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1500 × 3000</td>
+                                    <td>Structural</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2000 × 4000</td>
+                                    <td>Pressure vessels</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2500 × 6000</td>
+                                    <td>Heavy engineering</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -164,14 +236,32 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Thickness</th><th>Tolerance</th></tr>
+                                <tr class="t-row">
+                                    <th>Thickness</th>
+                                    <th>Tolerance</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>0.5 – 1 mm</td><td>±0.03</td></tr>
-                                <tr class="t-row"><td>1 – 3 mm</td><td>±0.05</td></tr>
-                                <tr class="t-row"><td>3 – 10 mm</td><td>±0.10</td></tr>
-                                <tr class="t-row"><td>10 – 25 mm</td><td>±0.20</td></tr>
-                                <tr class="t-row"><td>25+ mm</td><td>±0.30 to ±1.00</td></tr>
+                                <tr class="t-row">
+                                    <td>0.5 – 1 mm</td>
+                                    <td>±0.03</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1 – 3 mm</td>
+                                    <td>±0.05</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3 – 10 mm</td>
+                                    <td>±0.10</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>10 – 25 mm</td>
+                                    <td>±0.20</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>25+ mm</td>
+                                    <td>±0.30 to ±1.00</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -182,13 +272,43 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Thickness</th><th>SS</th><th>MS</th><th>Aluminium</th><th>Copper</th></tr>
+                                <tr class="t-row">
+                                    <th>Thickness</th>
+                                    <th>SS</th>
+                                    <th>MS</th>
+                                    <th>Aluminium</th>
+                                    <th>Copper</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>1 mm</td><td>7.93</td><td>7.85</td><td>2.70</td><td>8.94</td></tr>
-                                <tr class="t-row"><td>2 mm</td><td>15.86</td><td>15.70</td><td>5.40</td><td>17.88</td></tr>
-                                <tr class="t-row"><td>5 mm</td><td>39.65</td><td>39.25</td><td>13.50</td><td>44.70</td></tr>
-                                <tr class="t-row"><td>10 mm</td><td>79.30</td><td>78.50</td><td>27.00</td><td>89.40</td></tr>
+                                <tr class="t-row">
+                                    <td>1 mm</td>
+                                    <td>7.93</td>
+                                    <td>7.85</td>
+                                    <td>2.70</td>
+                                    <td>8.94</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2 mm</td>
+                                    <td>15.86</td>
+                                    <td>15.70</td>
+                                    <td>5.40</td>
+                                    <td>17.88</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>5 mm</td>
+                                    <td>39.65</td>
+                                    <td>39.25</td>
+                                    <td>13.50</td>
+                                    <td>44.70</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>10 mm</td>
+                                    <td>79.30</td>
+                                    <td>78.50</td>
+                                    <td>27.00</td>
+                                    <td>89.40</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -243,7 +363,7 @@
                         <p>1100, 5052, 6061, 6082</p>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-lightbulb"></i></div>
@@ -263,7 +383,105 @@
         </div>
     </section>
 
-    
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
+
+
 
     <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -327,7 +545,7 @@
                         <p>✔ Boilers & turbines<br>✔ Solar & wind systems</p>
                     </div>
                 </div>
-                
+
                 <div class="col-md-6 col-lg-3">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-house"></i></div>
@@ -356,10 +574,22 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Stainless Steel</td><td>515</td></tr>
-                                <tr class="t-row"><td>Carbon Steel</td><td>400–550</td></tr>
-                                <tr class="t-row"><td>Aluminium</td><td>150–300</td></tr>
-                                <tr class="t-row"><td>Copper</td><td>200–400</td></tr>
+                                <tr class="t-row">
+                                    <td>Stainless Steel</td>
+                                    <td>515</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon Steel</td>
+                                    <td>400–550</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Aluminium</td>
+                                    <td>150–300</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Copper</td>
+                                    <td>200–400</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -411,22 +641,23 @@
                 </div>
             </div>
 
-            <div class="row mt-5 justify-content-center text-start">
-                <div class="col-lg-8">
-                    <div class="p-4 rounded shadow-sm bg-white border">
-                        <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Sheets & Plates</h4>
-                        <p class="mb-2"><strong>Before selecting:</strong></p>
-                        <ul class="list-unstyled">
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness requirement</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (structural / decorative)</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Surface finish</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Standard compliance</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Custom size requirement</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <!-- <div class="row mt-5 justify-content-center text-start">
+                        <div class="col-lg-8">
+                            <div class="p-4 rounded shadow-sm bg-white border">
+                                <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Sheets & Plates</h4>
+                                <p class="mb-2"><strong>Before selecting:</strong></p>
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness requirement</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (structural /
+                                        decorative)</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Surface finish</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Standard compliance</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Custom size requirement</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
         </div>
     </section>
 
@@ -459,7 +690,7 @@
                                 <p>SS, MS, aluminium, copper, titanium, and more.</p>
                             </div>
                         </div>
-                        
+
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -479,7 +710,7 @@
                                 <p>Construction, pressure vessels, fabrication.</p>
                             </div>
                         </div>
-                        
+
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -520,114 +751,114 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-        [{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Moksh Tubes & Fittings LLP",
-            "url": "https://www.mokshtubes.com",
-            "logo": "https://www.mokshtubes.com/assets/logo.png",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91-97695-84950",
-                "contactType": "sales",
-                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                "availableLanguage": ["English"]
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "Sheets & Plates | Stainless Steel, Carbon Steel & Alloy Plates",
-            "description": "Buy sheets & plates in stainless steel, carbon steel & alloys. Wide thickness range, custom sizes, and industrial-grade materials.",
-            "brand": {
-                "@type": "Brand",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "manufacturer": {
-                "@type": "Organization",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "material": "Stainless Steel, Carbon Steel, Alloy Steel, Aluminium, Copper, Brass, Nickel Alloys, Titanium",
-            "url": "https://www.mokshtubes.com/sheets-plates",
-            "offers": {
-                "@type": "Offer",
-                "availability": "https://schema.org/InStock",
-                "priceCurrency": "INR",
-                "url": "https://www.mokshtubes.com/contact-us"
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [{
-                "@type": "Question",
-                "name": "Q1. Difference between sheets and plates?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sheets are thinner (<6 mm), plates are thicker (>6 mm)."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q2. What materials are available?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "SS, MS, aluminium, copper, titanium, and more."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q3. What sizes are available?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Thickness 0.3–150 mm+, custom sizes available."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q4. What are common uses?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Construction, pressure vessels, fabrication."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q5. What finishes are available?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "2B, BA, HR, polished, matte, chequered."
-                }
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.mokshtubes.com"
-            },{
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Products",
-                "item": "https://www.mokshtubes.com/products"
-            },{
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Sheets & Plates",
-                "item": "https://www.mokshtubes.com/sheets-plates"
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Moksh Tubes & Fittings LLP",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "India"
-            },
-            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-            "telephone": "+91-97695-84950"
-        }]
-        @endverbatim
-    </script>
+                    @verbatim
+                        [{
+                            "@context": "https://schema.org",
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "url": "https://www.mokshtubes.com",
+                            "logo": "https://www.mokshtubes.com/assets/logo.png",
+                            "contactPoint": {
+                                "@type": "ContactPoint",
+                                "telephone": "+91-97695-84950",
+                                "contactType": "sales",
+                                "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                "availableLanguage": ["English"]
+                            }
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Product",
+                            "name": "Sheets & Plates | Stainless Steel, Carbon Steel & Alloy Plates",
+                            "description": "Buy sheets & plates in stainless steel, carbon steel & alloys. Wide thickness range, custom sizes, and industrial-grade materials.",
+                            "brand": {
+                                "@type": "Brand",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "manufacturer": {
+                                "@type": "Organization",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "material": "Stainless Steel, Carbon Steel, Alloy Steel, Aluminium, Copper, Brass, Nickel Alloys, Titanium",
+                            "url": "https://www.mokshtubes.com/sheets-plates",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "priceCurrency": "INR",
+                                "url": "https://www.mokshtubes.com/contact-us"
+                            }
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "FAQPage",
+                            "mainEntity": [{
+                                "@type": "Question",
+                                "name": "Q1. Difference between sheets and plates?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Sheets are thinner (<6 mm), plates are thicker (>6 mm)."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q2. What materials are available?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "SS, MS, aluminium, copper, titanium, and more."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q3. What sizes are available?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Thickness 0.3–150 mm+, custom sizes available."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q4. What are common uses?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Construction, pressure vessels, fabrication."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q5. What finishes are available?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "2B, BA, HR, polished, matte, chequered."
+                                }
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [{
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://www.mokshtubes.com"
+                            },{
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Products",
+                                "item": "https://www.mokshtubes.com/products"
+                            },{
+                                "@type": "ListItem",
+                                "position": 3,
+                                "name": "Sheets & Plates",
+                                "item": "https://www.mokshtubes.com/sheets-plates"
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "LocalBusiness",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "India"
+                            },
+                            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                            "telephone": "+91-97695-84950"
+                        }]
+                    @endverbatim
+                </script>
 @endsection

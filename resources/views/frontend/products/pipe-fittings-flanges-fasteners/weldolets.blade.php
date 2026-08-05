@@ -1,10 +1,14 @@
 @extends('layouts.master')
 @section('title', 'Weldolet | Butt Weld Branch Fitting | Moksh Tubes')
 <!-- 52 characters -->
-@section('meta_description',
-    'Premium Weldolets (Butt Weld Olets) for high-pressure 90-degree branch connections. Available in STD, XS, and Sch 160 in Stainless, Carbon, and Alloy Steel.')
-@section('meta_keywords',
-    'Weldolet, Butt Weld Olet, Branch Connection, MSS-SP-97, Schedule 80 Weldolet, Stainless Steel Weldolet, Carbon Steel Weldolet')
+@section(
+    'meta_description',
+    'Premium Weldolets (Butt Weld Olets) for high-pressure 90-degree branch connections. Available in STD, XS, and Sch 160 in Stainless, Carbon, and Alloy Steel.'
+)
+@section(
+    'meta_keywords',
+    'Weldolet, Butt Weld Olet, Branch Connection, MSS-SP-97, Schedule 80 Weldolet, Stainless Steel Weldolet, Carbon Steel Weldolet'
+)
 @section('og_image', asset('assets/images/product/flangs/weldolets_11zon.jpg'))
 @section('og_type', 'product')
 @section('content')
@@ -15,8 +19,15 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1 class="page-title">Weldolet</h1>
-                        <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        A Weldolet is the most common and versatile forged branch connection fitting. It provides a heavily reinforced, 90-degree butt-weld connection from a larger run pipe to a smaller branch pipe. Because both the run and branch sides are butt-welded, it offers the highest structural integrity and is fully radiographable (X-ray tested). At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply premium Weldolets conforming to MSS-SP-97 in Standard (STD), Extra Strong (XS), and Schedule 160 thicknesses.
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        A Weldolet is the most common and versatile forged branch connection fitting. It provides a heavily
+                        reinforced, 90-degree butt-weld connection from a larger run pipe to a smaller branch pipe. Because
+                        both the run and branch sides are butt-welded, it offers the highest structural integrity and is
+                        fully radiographable (X-ray tested). At <a href="{{ route('index') }}"
+                            class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply premium
+                        Weldolets conforming to MSS-SP-97 in Standard (STD), Extra Strong (XS), and Schedule 160
+                        thicknesses.
                     </p>
 
                 </div>
@@ -51,25 +62,30 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('/assets/images/product/flangs/weldolets_11zon.jpg') }}"
-                        alt="Forged Weldolets" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                    <img src="{{ asset('/assets/images/product/flangs/weldolets_11zon.jpg') }}" alt="Forged Weldolets"
+                        class="img-fluid rounded shadow-sm" width="550" height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Weldolets</strong> drastically reduce pipeline fabrication time compared to traditional tee fittings. The contoured base seamlessly saddles onto the main run pipe, while the beveled top allows for a full penetration butt-weld to the branch pipe. This design restores the mechanical strength lost when a hole is cut into the header.
+                        <strong class="text-black">Weldolets</strong> drastically reduce pipeline fabrication time compared
+                        to traditional tee fittings. The contoured base seamlessly saddles onto the main run pipe, while the
+                        beveled top allows for a full penetration butt-weld to the branch pipe. This design restores the
+                        mechanical strength lost when a hole is cut into the header.
                     </p>
 
                     <p class="fs-6 mb-3 text-justify">
                         <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a> is a leading manufacturer,
-                        supplier, and exporter of Weldolets in India. We cater to high-pressure piping manifolds in <a href="{{ route('materials.austenitic-stainless-Steel') }}">Indian petrochemical plants</a> and
+                        supplier, and exporter of Weldolets in India. We cater to high-pressure piping manifolds in <a
+                            href="{{ route('materials.austenitic-stainless-Steel') }}">Indian petrochemical plants</a> and
                         major Gulf / GCC nations including UAE, Saudi Arabia, Qatar, Oman, and Kuwait.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        Manufactured through closed-die hot forging, our Weldolets are devoid of internal porosity. We supply them in Carbon Steel (A105N), Low-Temp Carbon Steel (LF2), Stainless Steel (316L), and exotic superalloys to handle the most demanding corrosive environments.
+                        Manufactured through closed-die hot forging, our Weldolets are devoid of internal porosity. We
+                        supply them in Carbon Steel (A105N), Low-Temp Carbon Steel (LF2), Stainless Steel (316L), and exotic
+                        superalloys to handle the most demanding corrosive environments.
                     </p>
 
                 </div>
@@ -78,7 +94,7 @@
     </section>
 
     {{-- datasheet --}}
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -99,7 +115,9 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td><a href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a>, <a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>, Alloy Steel, 
+                                    <td><a href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a>, <a
+                                            href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>,
+                                        Alloy Steel,
                                         <a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex / Super Duplex
                                             Steel</a>, <a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel
                                             Alloys</a>, <a href="{{ route('materials.titanium') }}">Titanium</a>
@@ -133,7 +151,7 @@
         </div>
     </section>
 
-   <!-- charts -->
+    <!-- charts -->
     <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
 
         <div class="container">
@@ -144,7 +162,7 @@
             <div class="section-title center mb-3">
                 <h3 class="text-center mb-0" style="color: #db7227;">Standard (STD) Weldolet Dimensions</h3>
             </div>
-            
+
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
@@ -157,24 +175,85 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>1/2"</td><td>15.9</td><td>21.3</td><td>15.8</td><td>0.10</td></tr>
-                        <tr class="t-row"><td>3/4"</td><td>19.1</td><td>26.7</td><td>20.9</td><td>0.15</td></tr>
-                        <tr class="t-row"><td>1"</td><td>22.2</td><td>33.4</td><td>26.6</td><td>0.25</td></tr>
-                        <tr class="t-row"><td>1-1/2"</td><td>33.3</td><td>48.3</td><td>40.9</td><td>0.50</td></tr>
-                        <tr class="t-row"><td>2"</td><td>38.1</td><td>60.3</td><td>52.5</td><td>0.80</td></tr>
-                        <tr class="t-row"><td>3"</td><td>44.5</td><td>88.9</td><td>77.9</td><td>1.60</td></tr>
-                        <tr class="t-row"><td>4"</td><td>50.8</td><td>114.3</td><td>102.3</td><td>2.40</td></tr>
-                        <tr class="t-row"><td>6"</td><td>60.3</td><td>168.3</td><td>154.1</td><td>5.50</td></tr>
-                        <tr class="t-row"><td>8"</td><td>69.9</td><td>219.1</td><td>202.7</td><td>10.00</td></tr>
-                        <tr class="t-row"><td>10"</td><td>77.8</td><td>273.0</td><td>254.5</td><td>16.50</td></tr>
+                        <tr class="t-row">
+                            <td>1/2"</td>
+                            <td>15.9</td>
+                            <td>21.3</td>
+                            <td>15.8</td>
+                            <td>0.10</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3/4"</td>
+                            <td>19.1</td>
+                            <td>26.7</td>
+                            <td>20.9</td>
+                            <td>0.15</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1"</td>
+                            <td>22.2</td>
+                            <td>33.4</td>
+                            <td>26.6</td>
+                            <td>0.25</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1-1/2"</td>
+                            <td>33.3</td>
+                            <td>48.3</td>
+                            <td>40.9</td>
+                            <td>0.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2"</td>
+                            <td>38.1</td>
+                            <td>60.3</td>
+                            <td>52.5</td>
+                            <td>0.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3"</td>
+                            <td>44.5</td>
+                            <td>88.9</td>
+                            <td>77.9</td>
+                            <td>1.60</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4"</td>
+                            <td>50.8</td>
+                            <td>114.3</td>
+                            <td>102.3</td>
+                            <td>2.40</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>6"</td>
+                            <td>60.3</td>
+                            <td>168.3</td>
+                            <td>154.1</td>
+                            <td>5.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>8"</td>
+                            <td>69.9</td>
+                            <td>219.1</td>
+                            <td>202.7</td>
+                            <td>10.00</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>10"</td>
+                            <td>77.8</td>
+                            <td>273.0</td>
+                            <td>254.5</td>
+                            <td>16.50</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted">*Dimensions based on MSS-SP-97. The branch is beveled to a 37.5° angle per ASME B16.25 for full penetration butt welding.</p>
+            <p class="text-center mt-2 small text-muted">*Dimensions based on MSS-SP-97. The branch is beveled to a 37.5°
+                angle per ASME B16.25 for full penetration butt welding.</p>
         </div>
     </section>
 
-    
+
 
     {{-- Grades Available --}}
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
@@ -207,11 +286,13 @@
                                     <td>ASTM A182 F1, F5, F9, F11, F22, F91</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a></td>
+                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>
+                                    </td>
                                     <td>ASTM A182 F304/304L, F316/316L, F321, F347</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex</a></td>
+                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex</a>
+                                    </td>
                                     <td>ASTM A182 F51 (UNS S31803), F53 (UNS S32750)</td>
                                 </tr>
                                 <tr class="t-row">
@@ -227,7 +308,102 @@
     </section>
 
     {{-- Gallery --}}
-    
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
 
     {{-- Applications --}}
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
@@ -235,7 +411,8 @@
             <div class="section-title center">
                 <h2>Applications of Weldolets</h2>
                 <p class="text-center pb-3">
-                    <strong class="text-black">Weldolets</strong> are the standard for high-criticality branch connections in heavy industry:
+                    <strong class="text-black">Weldolets</strong> are the standard for high-criticality branch connections
+                    in heavy industry:
                 </p>
             </div>
 
@@ -245,7 +422,8 @@
                         <div class="application-icon"><i class="bi bi-droplet-half"></i></div>
                         <h5>Oil & Gas Pipelines</h5>
                         <ul>
-                            <li>Branching off crude oil mains into distribution headers without compromising structural integrity.</li>
+                            <li>Branching off crude oil mains into distribution headers without compromising structural
+                                integrity.</li>
                         </ul>
                     </div>
                 </div>
@@ -254,7 +432,8 @@
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Petrochemical Plants</h5>
                         <ul>
-                            <li>Used for large-bore branch connections where high flow rates and high pressures are present.</li>
+                            <li>Used for large-bore branch connections where high flow rates and high pressures are present.
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -263,7 +442,8 @@
                         <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
                         <h5>Power Generation</h5>
                         <ul>
-                            <li>Critical for tapping into ultra-high-pressure steam lines (requiring Alloy Steel F91 Weldolets).</li>
+                            <li>Critical for tapping into ultra-high-pressure steam lines (requiring Alloy Steel F91
+                                Weldolets).</li>
                         </ul>
                     </div>
                 </div>
@@ -272,7 +452,8 @@
                         <div class="application-icon"><i class="bi bi-prescription2"></i></div>
                         <h5>Chemical & Pharmaceutical</h5>
                         <ul>
-                            <li>Smooth internal bore prevents crevices, making it ideal for corrosive and sanitary environments (316L).</li>
+                            <li>Smooth internal bore prevents crevices, making it ideal for corrosive and sanitary
+                                environments (316L).</li>
                         </ul>
                     </div>
                 </div>
@@ -281,7 +462,8 @@
                         <div class="application-icon"><i class="bi bi-water"></i></div>
                         <h5>Desalination Plants</h5>
                         <ul>
-                            <li>Duplex and Super Duplex Weldolets are used to branch highly corrosive seawater pipelines.</li>
+                            <li>Duplex and Super Duplex Weldolets are used to branch highly corrosive seawater pipelines.
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -290,7 +472,8 @@
                         <div class="application-icon"><i class="bi bi-shield-check"></i></div>
                         <h5>Offshore Platforms</h5>
                         <ul>
-                            <li>High-strength, fully radiographable joints are mandatory on offshore oil rigs to prevent catastrophic leaks.</li>
+                            <li>High-strength, fully radiographable joints are mandatory on offshore oil rigs to prevent
+                                catastrophic leaks.</li>
                         </ul>
                     </div>
                 </div>
@@ -300,7 +483,7 @@
 
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties (Forged Carbon Steel A105N)</h2>
             </div>
 
@@ -326,7 +509,8 @@
                     </tbody>
                 </table>
             </div>
-             <p class="text-center mt-2 small text-muted">*A105N indicates the forging has been Normalized, guaranteeing superior toughness and impact resistance at low temperatures.</p>
+            <p class="text-center mt-2 small text-muted">*A105N indicates the forging has been Normalized, guaranteeing
+                superior toughness and impact resistance at low temperatures.</p>
         </div>
     </section>
 
@@ -394,7 +578,10 @@
                                 <h4>Why use a Weldolet instead of a standard Tee fitting?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Weldolets are much cheaper and easier to install than cutting a large section out of a main pipe to install a Tee. They also cause less flow disruption and require only one hole to be cut and two welds to be made (one to the header, one to the branch), compared to three welds for a Tee.</p>
+                                <p>Weldolets are much cheaper and easier to install than cutting a large section out of a
+                                    main pipe to install a Tee. They also cause less flow disruption and require only one
+                                    hole to be cut and two welds to be made (one to the header, one to the branch), compared
+                                    to three welds for a Tee.</p>
                             </div>
                         </div>
 
@@ -403,7 +590,10 @@
                                 <h4>Can a Weldolet be X-rayed?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Yes. Because the branch connection is a full penetration butt-weld, it can be 100% radiographically tested (X-rayed) to ensure there are no internal weld defects. This makes Weldolets the mandatory choice for highly critical, high-pressure pipelines where Sockolets cannot be used.</p>
+                                <p>Yes. Because the branch connection is a full penetration butt-weld, it can be 100%
+                                    radiographically tested (X-rayed) to ensure there are no internal weld defects. This
+                                    makes Weldolets the mandatory choice for highly critical, high-pressure pipelines where
+                                    Sockolets cannot be used.</p>
                             </div>
                         </div>
 
@@ -412,7 +602,9 @@
                                 <h4>What does "XS" mean in Weldolet sizing?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>XS stands for "Extra Strong". It dictates the wall thickness of the branch connection. An XS Weldolet is designed to be butt-welded to a Schedule 80 pipe. A "STD" Weldolet matches a Schedule 40 pipe, and a "Sch 160" Weldolet matches a Schedule 160 pipe.</p>
+                                <p>XS stands for "Extra Strong". It dictates the wall thickness of the branch connection. An
+                                    XS Weldolet is designed to be butt-welded to a Schedule 80 pipe. A "STD" Weldolet
+                                    matches a Schedule 40 pipe, and a "Sch 160" Weldolet matches a Schedule 160 pipe.</p>
                             </div>
                         </div>
 
@@ -421,7 +613,9 @@
                                 <h4>How is the hole cut into the run pipe?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>The hole in the run pipe perfectly matches the inside diameter (ID) of the Weldolet. It is usually cut using a hole saw, plasma cutter, or oxy-acetylene torch, and then ground smooth before the Weldolet is welded over it.</p>
+                                <p>The hole in the run pipe perfectly matches the inside diameter (ID) of the Weldolet. It
+                                    is usually cut using a hole saw, plasma cutter, or oxy-acetylene torch, and then ground
+                                    smooth before the Weldolet is welded over it.</p>
                             </div>
                         </div>
 
@@ -435,8 +629,11 @@
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
-                <p>For further information, technical specifications, quotes, or custom alloy requirements for Weldolets, <strong>Moksh Tubes & Fittings LLP</strong> is your trusted manufacturer for forged branch connections.</p>
-                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal" data-bs-target="#contactFormModal">
+                <p>For further information, technical specifications, quotes, or custom alloy requirements for Weldolets,
+                    <strong>Moksh Tubes & Fittings LLP</strong> is your trusted manufacturer for forged branch connections.
+                </p>
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
                     Get in Touch
                 </a>
             </div>
@@ -473,32 +670,32 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": ["Organization", "LocalBusiness"],
-              "@id": "https://mokshtubes.com/#organization",
-              "name": "Moksh Tubes & Fittings LLP",
-              "url": "https://mokshtubes.com/",
-              "logo": "https://mokshtubes.com/assets/images/logo.webp",
-              "telephone": "+91-9769584950",
-              "email": "info@mokshtubes.com"
-            },
-            {
-              "@type": "Product",
-              "@id": "https://mokshtubes.com/#weldolet",
-              "name": "Weldolet (Butt Weld Olet)",
-              "image": "https://mokshtubes.com/assets/images/product/flangs/weldolets_11zon.jpg",
-              "category": "Forged Fittings",
-              "description": "High-pressure forged Weldolets (MSS-SP-97) for butt-welded branch connections. Available in STD, XS, and Sch 160 in Carbon and Stainless Steel.",
-              "brand": {
-                "@type": "Brand",
-                "@id": "https://mokshtubes.com/#organization"
-              }
-            }
-          ]
-        }
-        </script>
+                {
+                  "@context": "https://schema.org",
+                  "@graph": [
+                    {
+                      "@type": ["Organization", "LocalBusiness"],
+                      "@id": "https://mokshtubes.com/#organization",
+                      "name": "Moksh Tubes & Fittings LLP",
+                      "url": "https://mokshtubes.com/",
+                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                      "telephone": "+91-9769584950",
+                      "email": "info@mokshtubes.com"
+                    },
+                    {
+                      "@type": "Product",
+                      "@id": "https://mokshtubes.com/#weldolet",
+                      "name": "Weldolet (Butt Weld Olet)",
+                      "image": "https://mokshtubes.com/assets/images/product/flangs/weldolets_11zon.jpg",
+                      "category": "Forged Fittings",
+                      "description": "High-pressure forged Weldolets (MSS-SP-97) for butt-welded branch connections. Available in STD, XS, and Sch 160 in Carbon and Stainless Steel.",
+                      "brand": {
+                        "@type": "Brand",
+                        "@id": "https://mokshtubes.com/#organization"
+                      }
+                    }
+                  ]
+                }
+                </script>
     @endverbatim
 @endsection

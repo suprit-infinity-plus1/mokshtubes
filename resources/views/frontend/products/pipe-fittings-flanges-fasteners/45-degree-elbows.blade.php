@@ -1,22 +1,34 @@
 @extends('layouts.master')
 @section('title', '45 Degree Elbow | Buttweld Pipe Elbows | Moksh Tubes')
 <!-- 52 characters -->
-@section('meta_description',
-    'High-quality 45 Degree Pipe Elbows for altering flow direction in pipelines. Available in Stainless Steel, Carbon Steel, and Alloy Steel in seamless and welded forms.')
-@section('meta_keywords',
-    '45 Degree Elbow, Pipe Elbow, Buttweld Elbow, Stainless Steel Elbow, Carbon Steel Elbow, ASME B16.9')
+@section(
+    'meta_description',
+    'High-quality 45 Degree Pipe Elbows for altering flow direction in pipelines. Available in Stainless Steel, Carbon Steel, and Alloy Steel in seamless and welded forms.'
+)
+@section(
+    'meta_keywords',
+    '45 Degree Elbow, Pipe Elbow, Buttweld Elbow, Stainless Steel Elbow, Carbon Steel Elbow, ASME B16.9'
+)
 @section('og_image', asset('assets/images/product/flangs/45-degree-elbows_11zon.jpg'))
 @section('og_type', 'product')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/45-degree-elbows_11zon.jpg);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/product/flangs/45-degree-elbows_11zon.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1 class="page-title">45 Degree Elbow</h1>
-                        <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        A 45 Degree Elbow is a critical pipe fitting used to change the direction of flow in a piping system by 45 degrees. It provides a smoother flow path with less frictional resistance and pressure drop compared to a 90-degree elbow. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we manufacture and supply premium quality seamless and welded 45-degree elbows in carbon steel, stainless steel, alloy steel, and exotic metals, strictly adhering to ASME B16.9 and MSS-SP-43 standards for butt-welding fittings.
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        A 45 Degree Elbow is a critical pipe fitting used to change the direction of flow in a piping system
+                        by 45 degrees. It provides a smoother flow path with less frictional resistance and pressure drop
+                        compared to a 90-degree elbow. At <a href="{{ route('index') }}"
+                            class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we manufacture and
+                        supply premium quality seamless and welded 45-degree elbows in carbon steel, stainless steel, alloy
+                        steel, and exotic metals, strictly adhering to ASME B16.9 and MSS-SP-43 standards for butt-welding
+                        fittings.
                     </p>
 
                 </div>
@@ -52,24 +64,30 @@
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('/assets/images/product/flangs/45-degree-elbows_11zon.jpg') }}"
-                        alt="45 Degree Buttweld Elbows" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                        alt="45 Degree Buttweld Elbows" class="img-fluid rounded shadow-sm" width="550" height="350"
+                        loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">45 Degree Elbows</strong> are utilized to offset pipe routing and bypass obstacles in complex industrial layouts. By altering the flow path by 45°, they minimize turbulence and fluid resistance, making them ideal for high-velocity or high-viscosity applications.
+                        <strong class="text-black">45 Degree Elbows</strong> are utilized to offset pipe routing and bypass
+                        obstacles in complex industrial layouts. By altering the flow path by 45°, they minimize turbulence
+                        and fluid resistance, making them ideal for high-velocity or high-viscosity applications.
                     </p>
 
                     <p class="fs-6 mb-3 text-justify">
                         <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a> is a renowned manufacturer,
-                        supplier, and exporter of 45 Degree Buttweld Elbows in India. We cater to high-pressure pipeline requirements across <a href="{{ route('materials.austenitic-stainless-Steel') }}">Indian refineries</a> and
+                        supplier, and exporter of 45 Degree Buttweld Elbows in India. We cater to high-pressure pipeline
+                        requirements across <a href="{{ route('materials.austenitic-stainless-Steel') }}">Indian
+                            refineries</a> and
                         major Gulf / GCC nations including UAE, Saudi Arabia, Qatar, Oman, and Kuwait.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        Available in Long Radius (LR) configurations, our 45-degree elbows feature beveled ends for perfect penetration during butt welding, ensuring a permanent, leak-proof, and radiographically testable joint.
+                        Available in Long Radius (LR) configurations, our 45-degree elbows feature beveled ends for perfect
+                        penetration during butt welding, ensuring a permanent, leak-proof, and radiographically testable
+                        joint.
                     </p>
 
                 </div>
@@ -78,7 +96,7 @@
     </section>
 
     {{-- datasheet --}}
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -99,7 +117,9 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td><a href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a>, <a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>, Alloy Steel, 
+                                    <td><a href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a>, <a
+                                            href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>,
+                                        Alloy Steel,
                                         <a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex / Super Duplex
                                             Steel</a>, <a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel
                                             Alloys</a>, <a href="{{ route('materials.titanium') }}">Titanium</a>
@@ -137,7 +157,7 @@
         </div>
     </section>
 
-   <!-- charts -->
+    <!-- charts -->
     <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
 
         <div class="container">
@@ -148,9 +168,11 @@
             <div class="section-title center mb-3">
                 <h3 class="text-center mb-0" style="color: #db7227;">45 Degree Long Radius (LR) Elbow Dimensions</h3>
             </div>
-            
+
             <div class="text-center mb-4">
-                <img src="{{ asset('assets/images/product/flangs/45-degree-elbows_11zon.jpg') }}" alt="45 Degree Elbow Dimensions" class="img-fluid border p-2 bg-white" style="max-width: 600px; border-radius: 8px;">
+                <img src="{{ asset('assets/images/product/flangs/45-degree-elbows_11zon.jpg') }}"
+                    alt="45 Degree Elbow Dimensions" class="img-fluid border p-2 bg-white"
+                    style="max-width: 600px; border-radius: 8px;">
             </div>
 
             <div class="table-responsive">
@@ -164,25 +186,81 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>1/2"</td><td>21.3</td><td>16</td><td>0.04</td></tr>
-                        <tr class="t-row"><td>3/4"</td><td>26.7</td><td>19</td><td>0.05</td></tr>
-                        <tr class="t-row"><td>1"</td><td>33.4</td><td>22</td><td>0.09</td></tr>
-                        <tr class="t-row"><td>1-1/2"</td><td>48.3</td><td>29</td><td>0.18</td></tr>
-                        <tr class="t-row"><td>2"</td><td>60.3</td><td>35</td><td>0.31</td></tr>
-                        <tr class="t-row"><td>3"</td><td>88.9</td><td>51</td><td>0.90</td></tr>
-                        <tr class="t-row"><td>4"</td><td>114.3</td><td>64</td><td>1.73</td></tr>
-                        <tr class="t-row"><td>6"</td><td>168.3</td><td>95</td><td>4.50</td></tr>
-                        <tr class="t-row"><td>8"</td><td>219.1</td><td>127</td><td>8.90</td></tr>
-                        <tr class="t-row"><td>10"</td><td>273.0</td><td>159</td><td>14.80</td></tr>
-                        <tr class="t-row"><td>12"</td><td>323.8</td><td>190</td><td>22.50</td></tr>
+                        <tr class="t-row">
+                            <td>1/2"</td>
+                            <td>21.3</td>
+                            <td>16</td>
+                            <td>0.04</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3/4"</td>
+                            <td>26.7</td>
+                            <td>19</td>
+                            <td>0.05</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1"</td>
+                            <td>33.4</td>
+                            <td>22</td>
+                            <td>0.09</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1-1/2"</td>
+                            <td>48.3</td>
+                            <td>29</td>
+                            <td>0.18</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2"</td>
+                            <td>60.3</td>
+                            <td>35</td>
+                            <td>0.31</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3"</td>
+                            <td>88.9</td>
+                            <td>51</td>
+                            <td>0.90</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4"</td>
+                            <td>114.3</td>
+                            <td>64</td>
+                            <td>1.73</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>6"</td>
+                            <td>168.3</td>
+                            <td>95</td>
+                            <td>4.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>8"</td>
+                            <td>219.1</td>
+                            <td>127</td>
+                            <td>8.90</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>10"</td>
+                            <td>273.0</td>
+                            <td>159</td>
+                            <td>14.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>12"</td>
+                            <td>323.8</td>
+                            <td>190</td>
+                            <td>22.50</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted">*Dimensions conform to ASME B16.9. Center to End (A) dimension is measured from the center line to the face of the fitting.</p>
+            <p class="text-center mt-2 small text-muted">*Dimensions conform to ASME B16.9. Center to End (A) dimension is
+                measured from the center line to the face of the fitting.</p>
         </div>
     </section>
 
-    
+
 
     {{-- Grades Available --}}
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
@@ -215,11 +293,13 @@
                                     <td>ASTM A234 WP1, WP5, WP9, WP11, WP22, WP91</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a></td>
+                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>
+                                    </td>
                                     <td>ASTM A403 WP304/304L, WP316/316L, WP321, WP347</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex</a></td>
+                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex</a>
+                                    </td>
                                     <td>ASTM A815 UNS S31803, S32205, S32750, S32760</td>
                                 </tr>
                                 <tr class="t-row">
@@ -235,7 +315,102 @@
     </section>
 
     {{-- Gallery --}}
-    
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
 
     {{-- Applications --}}
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
@@ -243,7 +418,8 @@
             <div class="section-title center">
                 <h2>Applications of 45 Degree Elbows</h2>
                 <p class="text-center pb-3">
-                    <strong class="text-black">45 Degree Elbows</strong> are chosen when minimizing pressure loss is critical:
+                    <strong class="text-black">45 Degree Elbows</strong> are chosen when minimizing pressure loss is
+                    critical:
                 </p>
             </div>
 
@@ -271,7 +447,8 @@
                         <div class="application-icon"><i class="bi bi-water"></i></div>
                         <h5>Water & Slurry Transport</h5>
                         <ul>
-                            <li>Used in municipal water treatment and mining to prevent clogs and sediment buildup at corners.</li>
+                            <li>Used in municipal water treatment and mining to prevent clogs and sediment buildup at
+                                corners.</li>
                         </ul>
                     </div>
                 </div>
@@ -280,7 +457,8 @@
                         <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
                         <h5>Power Generation</h5>
                         <ul>
-                            <li>High-pressure steam routing in thermal and nuclear power plants using Alloy Steel (WP91).</li>
+                            <li>High-pressure steam routing in thermal and nuclear power plants using Alloy Steel (WP91).
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -308,7 +486,7 @@
 
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties (Carbon Steel A234 WPB)</h2>
             </div>
 
@@ -341,7 +519,8 @@
                     </tbody>
                 </table>
             </div>
-             <p class="text-center mt-2 small text-muted">*Properties must match the corresponding seamless pipe specification (e.g., A106 Gr. B for A234 WPB).</p>
+            <p class="text-center mt-2 small text-muted">*Properties must match the corresponding seamless pipe
+                specification (e.g., A106 Gr. B for A234 WPB).</p>
         </div>
     </section>
 
@@ -409,7 +588,10 @@
                                 <h4>When should a 45 Degree Elbow be used instead of a 90 Degree Elbow?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>A 45 degree elbow is used when you need to offset a pipe but want to minimize pressure drop and fluid friction. It creates a gentler turn, which is especially important in high-velocity pipelines, slurry transport, or gravity-fed drainage systems where a 90 degree turn might cause clogs or excessive turbulence.</p>
+                                <p>A 45 degree elbow is used when you need to offset a pipe but want to minimize pressure
+                                    drop and fluid friction. It creates a gentler turn, which is especially important in
+                                    high-velocity pipelines, slurry transport, or gravity-fed drainage systems where a 90
+                                    degree turn might cause clogs or excessive turbulence.</p>
                             </div>
                         </div>
 
@@ -418,7 +600,9 @@
                                 <h4>Are 45 Degree Elbows available in Short Radius (SR)?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>No, standard 45 degree elbows are manufactured only as Long Radius (LR) according to ASME B16.9. Short Radius (SR) is practically only applicable to 90 degree and 180 degree elbows.</p>
+                                <p>No, standard 45 degree elbows are manufactured only as Long Radius (LR) according to ASME
+                                    B16.9. Short Radius (SR) is practically only applicable to 90 degree and 180 degree
+                                    elbows.</p>
                             </div>
                         </div>
 
@@ -427,7 +611,9 @@
                                 <h4>What does "WPB" stand for in ASTM A234 WPB?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>WPB stands for "Wrought Pipe Grade B". Wrought indicates it is formed from a pipe (not cast). Grade B signifies the mechanical strength (matching ASTM A106 Grade B carbon steel pipe).</p>
+                                <p>WPB stands for "Wrought Pipe Grade B". Wrought indicates it is formed from a pipe (not
+                                    cast). Grade B signifies the mechanical strength (matching ASTM A106 Grade B carbon
+                                    steel pipe).</p>
                             </div>
                         </div>
 
@@ -436,7 +622,9 @@
                                 <h4>Why are the ends beveled?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>The ends are machined with a bevel (usually 37.5 degrees) to facilitate V-groove butt welding. This allows the welding filler metal to fully penetrate the joint, resulting in a weld that is as strong as the pipe itself.</p>
+                                <p>The ends are machined with a bevel (usually 37.5 degrees) to facilitate V-groove butt
+                                    welding. This allows the welding filler metal to fully penetrate the joint, resulting in
+                                    a weld that is as strong as the pipe itself.</p>
                             </div>
                         </div>
 
@@ -450,8 +638,10 @@
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
-                <p>For further information, CAD models, quotes, or custom thickness requirements for 45 Degree Elbows, <strong>Moksh Tubes & Fittings LLP</strong> is your trusted partner for premium buttweld fittings.</p>
-                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal" data-bs-target="#contactFormModal">
+                <p>For further information, CAD models, quotes, or custom thickness requirements for 45 Degree Elbows,
+                    <strong>Moksh Tubes & Fittings LLP</strong> is your trusted partner for premium buttweld fittings.</p>
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
                     Get in Touch
                 </a>
             </div>
@@ -488,32 +678,32 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": ["Organization", "LocalBusiness"],
-              "@id": "https://mokshtubes.com/#organization",
-              "name": "Moksh Tubes & Fittings LLP",
-              "url": "https://mokshtubes.com/",
-              "logo": "https://mokshtubes.com/assets/images/logo.webp",
-              "telephone": "+91-9769584950",
-              "email": "info@mokshtubes.com"
-            },
-            {
-              "@type": "Product",
-              "@id": "https://mokshtubes.com/#45-degree-elbow",
-              "name": "45 Degree Buttweld Elbow",
-              "image": "https://mokshtubes.com/assets/images/product/flangs/45-degree-elbows_11zon.jpg",
-              "category": "Pipe Fittings",
-              "description": "Premium 45 Degree Pipe Elbows (ASME B16.9) in Carbon Steel (A234 WPB) and Stainless Steel for high-pressure pipeline routing.",
-              "brand": {
-                "@type": "Brand",
-                "@id": "https://mokshtubes.com/#organization"
-              }
-            }
-          ]
-        }
-        </script>
+                {
+                  "@context": "https://schema.org",
+                  "@graph": [
+                    {
+                      "@type": ["Organization", "LocalBusiness"],
+                      "@id": "https://mokshtubes.com/#organization",
+                      "name": "Moksh Tubes & Fittings LLP",
+                      "url": "https://mokshtubes.com/",
+                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                      "telephone": "+91-9769584950",
+                      "email": "info@mokshtubes.com"
+                    },
+                    {
+                      "@type": "Product",
+                      "@id": "https://mokshtubes.com/#45-degree-elbow",
+                      "name": "45 Degree Buttweld Elbow",
+                      "image": "https://mokshtubes.com/assets/images/product/flangs/45-degree-elbows_11zon.jpg",
+                      "category": "Pipe Fittings",
+                      "description": "Premium 45 Degree Pipe Elbows (ASME B16.9) in Carbon Steel (A234 WPB) and Stainless Steel for high-pressure pipeline routing.",
+                      "brand": {
+                        "@type": "Brand",
+                        "@id": "https://mokshtubes.com/#organization"
+                      }
+                    }
+                  ]
+                }
+                </script>
     @endverbatim
 @endsection

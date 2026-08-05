@@ -11,7 +11,8 @@
 
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url('{{ asset('assets/images/product/Sheets-Plates-and-Coils/Shim-Sheets.webp') }}');">
+    <section class="breadcrumb-area"
+        style="background-image: url('{{ asset('assets/images/product/Sheets-Plates-and-Coils/Shim-Sheets.webp') }}');">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -19,7 +20,12 @@
 
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Shim Sheets are ultra-thin precision metal sheets used for alignment, spacing, and leveling in industrial and engineering applications. Moksh Tubes & Fittings LLP supplies high-quality shim sheets in stainless steel, carbon steel, brass, copper, aluminium, and specialty alloys. Manufactured with tight tolerances and excellent surface finishes, our shim sheets are ideal for automotive, aerospace, industrial machinery, and precision engineering applications across India and global markets.
+                        Shim Sheets are ultra-thin precision metal sheets used for alignment, spacing, and leveling in
+                        industrial and engineering applications. Moksh Tubes & Fittings LLP supplies high-quality shim
+                        sheets in stainless steel, carbon steel, brass, copper, aluminium, and specialty alloys.
+                        Manufactured with tight tolerances and excellent surface finishes, our shim sheets are ideal for
+                        automotive, aerospace, industrial machinery, and precision engineering applications across India and
+                        global markets.
                     </p>
                 </div>
             </div>
@@ -60,8 +66,8 @@
                 <!-- Image Left -->
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Shim-Sheets.webp') }}" alt="Shim Sheets"
-                        class="img-fluid rounded shadow-sm" loading="lazy">
+                    <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Shim-Sheets.webp') }}"
+                        alt="Shim Sheets" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
@@ -69,15 +75,22 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong class="text-black">Shim Sheets</strong> are thin metal sheets specifically designed for precision alignment, spacing, and tolerance adjustments in mechanical and structural systems. These sheets are manufactured with highly accurate thicknesses to ensure proper fitment in critical applications.
+                            <strong class="text-black">Shim Sheets</strong> are thin metal sheets specifically designed for
+                            precision alignment, spacing, and tolerance adjustments in mechanical and structural systems.
+                            These sheets are manufactured with highly accurate thicknesses to ensure proper fitment in
+                            critical applications.
                         </p>
 
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            Shim sheets play a vital role in industries such as automotive, aerospace, heavy machinery, and tool manufacturing, where even minor misalignment can affect performance and safety.
+                            Shim sheets play a vital role in industries such as automotive, aerospace, heavy machinery, and
+                            tool manufacturing, where even minor misalignment can affect performance and safety.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings LLP</a></strong>, we supply premium-quality shim sheets in a wide range of materials, thicknesses, and finishes. Our products comply with ASTM, ASME, DIN, EN, and JIS standards, ensuring consistent quality and reliability for precision applications.
+                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings
+                                    LLP</a></strong>, we supply premium-quality shim sheets in a wide range of materials,
+                            thicknesses, and finishes. Our products comply with ASTM, ASME, DIN, EN, and JIS standards,
+                            ensuring consistent quality and reliability for precision applications.
                         </p>
                     </div>
                 </div>
@@ -85,7 +98,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -104,14 +117,39 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Material</td><td>Stainless Steel, Carbon Steel, Brass, Copper, Aluminium, Nickel Alloys, Titanium</td></tr>
-                                <tr class="t-row"><td>Grades</td><td>ASTM / ASME / DIN / EN / IS compliant</td></tr>
-                                <tr class="t-row"><td>Thickness</td><td>0.02 mm to 3 mm</td></tr>
-                                <tr class="t-row"><td>Width</td><td>150 mm to 1000 mm</td></tr>
-                                <tr class="t-row"><td>Length</td><td>500 mm to 2000 mm or coil form</td></tr>
-                                <tr class="t-row"><td>Finishes</td><td>Cold Rolled, 2B, BA, Matte, Mirror, PVC Coated</td></tr>
-                                <tr class="t-row"><td>Types</td><td>Shim Sheets, Shim Coils, Pre-cut Shim Packs</td></tr>
-                                <tr class="t-row"><td>Standards</td><td>ASTM A240, A666, EN 10151, IS 6911</td></tr>
+                                <tr class="t-row">
+                                    <td>Material</td>
+                                    <td>Stainless Steel, Carbon Steel, Brass, Copper, Aluminium, Nickel Alloys, Titanium
+                                    </td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Grades</td>
+                                    <td>ASTM / ASME / DIN / EN / IS compliant</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Thickness</td>
+                                    <td>0.02 mm to 3 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Width</td>
+                                    <td>150 mm to 1000 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Length</td>
+                                    <td>500 mm to 2000 mm or coil form</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Finishes</td>
+                                    <td>Cold Rolled, 2B, BA, Matte, Mirror, PVC Coated</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Types</td>
+                                    <td>Shim Sheets, Shim Coils, Pre-cut Shim Packs</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM A240, A666, EN 10151, IS 6911</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -132,14 +170,32 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Thickness (mm)</th><th>Tolerance</th></tr>
+                                <tr class="t-row">
+                                    <th>Thickness (mm)</th>
+                                    <th>Tolerance</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>0.02 – 0.05</td><td>±0.005</td></tr>
-                                <tr class="t-row"><td>0.05 – 0.10</td><td>±0.008</td></tr>
-                                <tr class="t-row"><td>0.10 – 0.25</td><td>±0.010</td></tr>
-                                <tr class="t-row"><td>0.25 – 0.50</td><td>±0.015</td></tr>
-                                <tr class="t-row"><td>0.50 – 1.00</td><td>±0.020</td></tr>
+                                <tr class="t-row">
+                                    <td>0.02 – 0.05</td>
+                                    <td>±0.005</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>0.05 – 0.10</td>
+                                    <td>±0.008</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>0.10 – 0.25</td>
+                                    <td>±0.010</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>0.25 – 0.50</td>
+                                    <td>±0.015</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>0.50 – 1.00</td>
+                                    <td>±0.020</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -150,13 +206,28 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Size (mm)</th><th>Size (inch)</th></tr>
+                                <tr class="t-row">
+                                    <th>Size (mm)</th>
+                                    <th>Size (inch)</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>300 × 300</td><td>12” × 12”</td></tr>
-                                <tr class="t-row"><td>600 × 600</td><td>24” × 24”</td></tr>
-                                <tr class="t-row"><td>1000 × 1000</td><td>39” × 39”</td></tr>
-                                <tr class="t-row"><td>Custom</td><td>As required</td></tr>
+                                <tr class="t-row">
+                                    <td>300 × 300</td>
+                                    <td>12” × 12”</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>600 × 600</td>
+                                    <td>24” × 24”</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1000 × 1000</td>
+                                    <td>39” × 39”</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Custom</td>
+                                    <td>As required</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -167,14 +238,32 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Material</th><th>Thickness (mm)</th></tr>
+                                <tr class="t-row">
+                                    <th>Material</th>
+                                    <th>Thickness (mm)</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Stainless Steel</td><td>0.02 – 3.0</td></tr>
-                                <tr class="t-row"><td>Brass</td><td>0.05 – 2.0</td></tr>
-                                <tr class="t-row"><td>Copper</td><td>0.05 – 1.5</td></tr>
-                                <tr class="t-row"><td>Aluminium</td><td>0.05 – 2.0</td></tr>
-                                <tr class="t-row"><td>Carbon Steel</td><td>0.10 – 3.0</td></tr>
+                                <tr class="t-row">
+                                    <td>Stainless Steel</td>
+                                    <td>0.02 – 3.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Brass</td>
+                                    <td>0.05 – 2.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Copper</td>
+                                    <td>0.05 – 1.5</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Aluminium</td>
+                                    <td>0.05 – 2.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon Steel</td>
+                                    <td>0.10 – 3.0</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -185,13 +274,43 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Thickness</th><th>SS</th><th>MS</th><th>Aluminium</th><th>Copper</th></tr>
+                                <tr class="t-row">
+                                    <th>Thickness</th>
+                                    <th>SS</th>
+                                    <th>MS</th>
+                                    <th>Aluminium</th>
+                                    <th>Copper</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>0.5 mm</td><td>3.965</td><td>3.925</td><td>1.35</td><td>4.47</td></tr>
-                                <tr class="t-row"><td>1.0 mm</td><td>7.93</td><td>7.85</td><td>2.70</td><td>8.94</td></tr>
-                                <tr class="t-row"><td>2.0 mm</td><td>15.86</td><td>15.70</td><td>5.40</td><td>17.88</td></tr>
-                                <tr class="t-row"><td>3.0 mm</td><td>23.79</td><td>23.55</td><td>8.10</td><td>26.82</td></tr>
+                                <tr class="t-row">
+                                    <td>0.5 mm</td>
+                                    <td>3.965</td>
+                                    <td>3.925</td>
+                                    <td>1.35</td>
+                                    <td>4.47</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1.0 mm</td>
+                                    <td>7.93</td>
+                                    <td>7.85</td>
+                                    <td>2.70</td>
+                                    <td>8.94</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2.0 mm</td>
+                                    <td>15.86</td>
+                                    <td>15.70</td>
+                                    <td>5.40</td>
+                                    <td>17.88</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3.0 mm</td>
+                                    <td>23.79</td>
+                                    <td>23.55</td>
+                                    <td>8.10</td>
+                                    <td>26.82</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -258,6 +377,104 @@
         </div>
     </section>
 
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
+
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -312,7 +529,7 @@
                         <p>✔ Transformers & motors<br>✔ Precision instruments</p>
                     </div>
                 </div>
-                
+
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-tools"></i></div>
@@ -341,11 +558,26 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>SS 304</td><td>215 – 250</td></tr>
-                                <tr class="t-row"><td>SS 316</td><td>205 – 240</td></tr>
-                                <tr class="t-row"><td>Brass</td><td>120 – 200</td></tr>
-                                <tr class="t-row"><td>Copper</td><td>70 – 140</td></tr>
-                                <tr class="t-row"><td>Aluminium</td><td>35 – 100</td></tr>
+                                <tr class="t-row">
+                                    <td>SS 304</td>
+                                    <td>215 – 250</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>SS 316</td>
+                                    <td>205 – 240</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Brass</td>
+                                    <td>120 – 200</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Copper</td>
+                                    <td>70 – 140</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Aluminium</td>
+                                    <td>35 – 100</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -397,22 +629,24 @@
                 </div>
             </div>
 
-            <div class="row mt-5 justify-content-center text-start">
-                <div class="col-lg-8">
-                    <div class="p-4 rounded shadow-sm bg-light border">
-                        <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Shim Sheets</h4>
-                        <p class="mb-2"><strong>Before selecting shim sheets:</strong></p>
-                        <ul class="list-unstyled">
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Required thickness accuracy</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (industrial / precision)</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Sheet vs coil format</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Corrosion resistance requirement</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Standards compliance</li>
-                        </ul>
+            <!-- <div class="row mt-5 justify-content-center text-start">
+                    <div class="col-lg-8">
+                        <div class="p-4 rounded shadow-sm bg-light border">
+                            <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Shim Sheets</h4>
+                            <p class="mb-2"><strong>Before selecting shim sheets:</strong></p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Required thickness accuracy</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (industrial /
+                                    precision)</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Sheet vs coil format</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Corrosion resistance requirement
+                                </li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Standards compliance</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </div> -->
         </div>
     </section>
 
@@ -447,7 +681,7 @@
                                 <p>SS, brass, copper, aluminium, carbon steel, titanium.</p>
                             </div>
                         </div>
-                        
+
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -468,7 +702,7 @@
                                 <p>Automotive, aerospace, machinery, and tooling.</p>
                             </div>
                         </div>
-                        
+
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -510,114 +744,114 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-        [{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Moksh Tubes & Fittings LLP",
-            "url": "https://www.mokshtubes.com",
-            "logo": "https://www.mokshtubes.com/assets/logo.png",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91-97695-84950",
-                "contactType": "sales",
-                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                "availableLanguage": ["English"]
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "Shim Sheets | Precision Stainless Steel & Metal Shims",
-            "description": "Buy precision shim sheets in SS, brass, copper & aluminium. Tight tolerance shims for industrial, automotive & aerospace use.",
-            "brand": {
-                "@type": "Brand",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "manufacturer": {
-                "@type": "Organization",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "material": "Stainless Steel, Brass, Copper, Aluminium, Alloy Steel",
-            "url": "https://www.mokshtubes.com/shim-sheets",
-            "offers": {
-                "@type": "Offer",
-                "availability": "https://schema.org/InStock",
-                "priceCurrency": "INR",
-                "url": "https://www.mokshtubes.com/contact-us"
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [{
-                "@type": "Question",
-                "name": "Q1. What are shim sheets?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Thin metal sheets used for precision alignment and spacing."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q2. What materials are available?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "SS, brass, copper, aluminium, carbon steel, titanium."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q3. What thickness range is available?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "0.02 mm to 3 mm."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q4. Where are shim sheets used?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Automotive, aerospace, machinery, and tooling."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q5. Can they be customized?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, available in sheets, coils, and cut sizes."
-                }
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.mokshtubes.com"
-            },{
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Products",
-                "item": "https://www.mokshtubes.com/products"
-            },{
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Shim Sheets",
-                "item": "https://www.mokshtubes.com/shim-sheets"
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Moksh Tubes & Fittings LLP",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "India"
-            },
-            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-            "telephone": "+91-97695-84950"
-        }]
-        @endverbatim
-    </script>
+                @verbatim
+                    [{
+                        "@context": "https://schema.org",
+                        "@type": "Organization",
+                        "name": "Moksh Tubes & Fittings LLP",
+                        "url": "https://www.mokshtubes.com",
+                        "logo": "https://www.mokshtubes.com/assets/logo.png",
+                        "contactPoint": {
+                            "@type": "ContactPoint",
+                            "telephone": "+91-97695-84950",
+                            "contactType": "sales",
+                            "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                            "availableLanguage": ["English"]
+                        }
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Product",
+                        "name": "Shim Sheets | Precision Stainless Steel & Metal Shims",
+                        "description": "Buy precision shim sheets in SS, brass, copper & aluminium. Tight tolerance shims for industrial, automotive & aerospace use.",
+                        "brand": {
+                            "@type": "Brand",
+                            "name": "Moksh Tubes & Fittings LLP"
+                        },
+                        "manufacturer": {
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP"
+                        },
+                        "material": "Stainless Steel, Brass, Copper, Aluminium, Alloy Steel",
+                        "url": "https://www.mokshtubes.com/shim-sheets",
+                        "offers": {
+                            "@type": "Offer",
+                            "availability": "https://schema.org/InStock",
+                            "priceCurrency": "INR",
+                            "url": "https://www.mokshtubes.com/contact-us"
+                        }
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [{
+                            "@type": "Question",
+                            "name": "Q1. What are shim sheets?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Thin metal sheets used for precision alignment and spacing."
+                            }
+                        },{
+                            "@type": "Question",
+                            "name": "Q2. What materials are available?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "SS, brass, copper, aluminium, carbon steel, titanium."
+                            }
+                        },{
+                            "@type": "Question",
+                            "name": "Q3. What thickness range is available?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "0.02 mm to 3 mm."
+                            }
+                        },{
+                            "@type": "Question",
+                            "name": "Q4. Where are shim sheets used?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Automotive, aerospace, machinery, and tooling."
+                            }
+                        },{
+                            "@type": "Question",
+                            "name": "Q5. Can they be customized?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, available in sheets, coils, and cut sizes."
+                            }
+                        }]
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [{
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https://www.mokshtubes.com"
+                        },{
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Products",
+                            "item": "https://www.mokshtubes.com/products"
+                        },{
+                            "@type": "ListItem",
+                            "position": 3,
+                            "name": "Shim Sheets",
+                            "item": "https://www.mokshtubes.com/shim-sheets"
+                        }]
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "LocalBusiness",
+                        "name": "Moksh Tubes & Fittings LLP",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressCountry": "India"
+                        },
+                        "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                        "telephone": "+91-97695-84950"
+                    }]
+                @endverbatim
+            </script>
 @endsection

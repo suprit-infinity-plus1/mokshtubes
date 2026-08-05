@@ -71,7 +71,8 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-3 text-justify" style="text-align: justify;">
-                            In today's construction and industrial landscape, <strong class="text-black">hollow section pipes</strong>
+                            In today's construction and industrial landscape, <strong class="text-black">hollow section
+                                pipes</strong>
                             have become the preferred choice due to their efficient load distribution, modern appearance,
                             and versatility. Unlike conventional round pipes, hollow sections offer better structural
                             stability, improved resistance to bending and torsion, and enhanced design flexibility for
@@ -91,9 +92,12 @@
                             At <strong class="text-black">Moksh Tubes & Fittings LLP</strong>, we manufacture hollow
                             section pipes using advanced ERW, EFW, and seamless processes. Wide range of alloys available
                             including
-                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.austenitic-stainless-Steel') }}">stainless steel</a>,
-                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.engineering-Steels') }}">carbon steel</a>,
-                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.duplex-and-super-duplex') }}">duplex steel</a>, and
+                            <a class="text-primary text-decoration-none fw-semibold"
+                                href="{{ route('materials.austenitic-stainless-Steel') }}">stainless steel</a>,
+                            <a class="text-primary text-decoration-none fw-semibold"
+                                href="{{ route('materials.engineering-Steels') }}">carbon steel</a>,
+                            <a class="text-primary text-decoration-none fw-semibold"
+                                href="{{ route('materials.duplex-and-super-duplex') }}">duplex steel</a>, and
                             aluminium alloys.
                         </p>
                     </div>
@@ -103,57 +107,57 @@
     </section>
 
     <!-- Key Features -->
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-5">
-                <h2>Key Features</h2>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                        <i class="bi bi-shield-shaded fs-1 text-primary mb-3"></i>
-                        <h4 class="fw-bold mb-3">High Strength-to-Weight Ratio</h4>
-                        <p class="text-muted">Maximum structural performance with minimal material weight.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                        <i class="bi bi-distribute-vertical fs-1 text-success mb-3"></i>
-                        <h4 class="fw-bold mb-3">Uniform Load Distribution</h4>
-                        <p class="text-muted">Consistent cross-section ensures even load distribution in structures.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                        <i class="bi bi-tools fs-1 text-info mb-3"></i>
-                        <h4 class="fw-bold mb-3">Excellent Weldability</h4>
-                        <p class="text-muted">Easy to weld, cut, drill, and fabricate for all project types.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                        <i class="bi bi-droplet-half fs-1 text-warning mb-3"></i>
-                        <h4 class="fw-bold mb-3">Corrosion Resistant Options</h4>
-                        <p class="text-muted">Available in stainless steel and duplex grades for harsh environments.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                        <i class="bi bi-grid-3x3-gap-fill fs-1 text-secondary mb-3"></i>
-                        <h4 class="fw-bold mb-3">Wide Range of Shapes & Sizes</h4>
-                        <p class="text-muted">Square, rectangular, and oval profiles in custom dimensions.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                        <i class="bi bi-star-half fs-1 text-danger mb-3"></i>
-                        <h4 class="fw-bold mb-3">Structural & Decorative Use</h4>
-                        <p class="text-muted">Suitable for both load-bearing structures and architectural finishes.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- <section class="sec-padd-top sec-padd-bottom">
+                        <div class="container">
+                            <div class="section-title center mb-5">
+                                <h2>Key Features</h2>
+                            </div>
+                            <div class="row g-4 justify-content-center">
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                        <i class="bi bi-shield-shaded fs-1 text-primary mb-3"></i>
+                                        <h4 class="fw-bold mb-3">High Strength-to-Weight Ratio</h4>
+                                        <p class="text-muted">Maximum structural performance with minimal material weight.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                        <i class="bi bi-distribute-vertical fs-1 text-success mb-3"></i>
+                                        <h4 class="fw-bold mb-3">Uniform Load Distribution</h4>
+                                        <p class="text-muted">Consistent cross-section ensures even load distribution in structures.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                        <i class="bi bi-tools fs-1 text-info mb-3"></i>
+                                        <h4 class="fw-bold mb-3">Excellent Weldability</h4>
+                                        <p class="text-muted">Easy to weld, cut, drill, and fabricate for all project types.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                        <i class="bi bi-droplet-half fs-1 text-warning mb-3"></i>
+                                        <h4 class="fw-bold mb-3">Corrosion Resistant Options</h4>
+                                        <p class="text-muted">Available in stainless steel and duplex grades for harsh environments.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                        <i class="bi bi-grid-3x3-gap-fill fs-1 text-secondary mb-3"></i>
+                                        <h4 class="fw-bold mb-3">Wide Range of Shapes & Sizes</h4>
+                                        <p class="text-muted">Square, rectangular, and oval profiles in custom dimensions.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                        <i class="bi bi-star-half fs-1 text-danger mb-3"></i>
+                                        <h4 class="fw-bold mb-3">Structural & Decorative Use</h4>
+                                        <p class="text-muted">Suitable for both load-bearing structures and architectural finishes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section> -->
 
     <!-- Specifications -->
     <section class="sec-padd-top sec-padd-bottom bg-light" id="specifications">
@@ -176,9 +180,12 @@
                                 <tr>
                                     <td class="fw-bold">Material</td>
                                     <td>
-                                        <a class="text-primary text-decoration-none" href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>,
-                                        <a class="text-primary text-decoration-none" href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a>,
-                                        <a class="text-primary text-decoration-none" href="{{ route('materials.duplex-and-super-duplex') }}">Duplex</a>,
+                                        <a class="text-primary text-decoration-none"
+                                            href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>,
+                                        <a class="text-primary text-decoration-none"
+                                            href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a>,
+                                        <a class="text-primary text-decoration-none"
+                                            href="{{ route('materials.duplex-and-super-duplex') }}">Duplex</a>,
                                         Aluminium, Copper Alloys
                                     </td>
                                 </tr>
@@ -219,7 +226,7 @@
     </section>
 
     <!-- Types of Hollow Section Pipes -->
-    
+
 
     <!-- Charts Table -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
@@ -231,7 +238,8 @@
             <div class="section-title center mb-4">
                 <h4 class="fw-bold" style="color: #db7227;">Hollow Section Pipes – Weight Charts (kg/m)</h4>
             </div>
-            <p class="text-center text-muted mb-4">Weight charts for square, rectangular, and oval hollow sections across standard wall thicknesses.</p>
+            <p class="text-center text-muted mb-4">Weight charts for square, rectangular, and oval hollow sections across
+                standard wall thicknesses.</p>
 
             <!-- Accordion Charts -->
             <div class="row justify-content-center">
@@ -243,11 +251,12 @@
                             <h2 class="accordion-header" id="headingSquare">
                                 <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseSquare" aria-expanded="true" aria-controls="collapseSquare">
-                                    <i class="bi bi-square me-2 text-primary"></i> Square Hollow Sections (SHS) – Weight Chart
+                                    <i class="bi bi-square me-2 text-primary"></i> Square Hollow Sections (SHS) – Weight
+                                    Chart
                                 </button>
                             </h2>
-                            <div id="collapseSquare" class="accordion-collapse collapse show" aria-labelledby="headingSquare"
-                                data-bs-parent="#accordionSizeCharts">
+                            <div id="collapseSquare" class="accordion-collapse collapse show"
+                                aria-labelledby="headingSquare" data-bs-parent="#accordionSizeCharts">
                                 <div class="accordion-body">
                                     <div class="table-responsive">
                                         <table class="table table-bordered table-striped text-center align-middle mb-0">
@@ -265,20 +274,160 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr><td>20×20</td><td>20</td><td>0.59</td><td>1.10</td><td>1.60</td><td>2.10</td><td>2.60</td><td>3.10</td><td>4.10</td></tr>
-                                                <tr><td>25×25</td><td>25</td><td>0.74</td><td>1.38</td><td>2.02</td><td>2.67</td><td>3.32</td><td>3.96</td><td>5.24</td></tr>
-                                                <tr><td>30×30</td><td>30</td><td>0.89</td><td>1.66</td><td>2.42</td><td>3.18</td><td>3.94</td><td>4.70</td><td>6.23</td></tr>
-                                                <tr><td>40×40</td><td>40</td><td>1.18</td><td>2.22</td><td>3.26</td><td>4.31</td><td>5.36</td><td>6.39</td><td>8.46</td></tr>
-                                                <tr><td>50×50</td><td>50</td><td>1.48</td><td>2.83</td><td>4.18</td><td>5.53</td><td>6.88</td><td>8.21</td><td>10.88</td></tr>
-                                                <tr><td>60×60</td><td>60</td><td>1.77</td><td>3.38</td><td>4.98</td><td>6.59</td><td>8.19</td><td>9.78</td><td>13.00</td></tr>
-                                                <tr><td>70×70</td><td>70</td><td>2.06</td><td>3.94</td><td>5.78</td><td>7.65</td><td>9.42</td><td>11.18</td><td>15.12</td></tr>
-                                                <tr><td>80×80</td><td>80</td><td>2.36</td><td>4.51</td><td>6.60</td><td>8.72</td><td>10.75</td><td>12.78</td><td>17.26</td></tr>
-                                                <tr><td>100×100</td><td>100</td><td>2.97</td><td>5.70</td><td>8.43</td><td>11.17</td><td>13.90</td><td>16.61</td><td>22.05</td></tr>
-                                                <tr><td>120×120</td><td>120</td><td>3.56</td><td>6.86</td><td>10.15</td><td>13.43</td><td>16.72</td><td>20.00</td><td>26.56</td></tr>
-                                                <tr><td>150×150</td><td>150</td><td>4.45</td><td>8.60</td><td>12.74</td><td>16.88</td><td>21.02</td><td>25.16</td><td>33.44</td></tr>
-                                                <tr><td>200×200</td><td>200</td><td>5.94</td><td>11.50</td><td>17.04</td><td>22.59</td><td>28.13</td><td>33.67</td><td>44.74</td></tr>
-                                                <tr><td>250×250</td><td>250</td><td>7.43</td><td>14.40</td><td>21.33</td><td>28.30</td><td>35.23</td><td>42.16</td><td>56.05</td></tr>
-                                                <tr><td>300×300</td><td>300</td><td>8.92</td><td>17.30</td><td>25.63</td><td>34.01</td><td>42.33</td><td>50.67</td><td>67.36</td></tr>
+                                                <tr>
+                                                    <td>20×20</td>
+                                                    <td>20</td>
+                                                    <td>0.59</td>
+                                                    <td>1.10</td>
+                                                    <td>1.60</td>
+                                                    <td>2.10</td>
+                                                    <td>2.60</td>
+                                                    <td>3.10</td>
+                                                    <td>4.10</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>25×25</td>
+                                                    <td>25</td>
+                                                    <td>0.74</td>
+                                                    <td>1.38</td>
+                                                    <td>2.02</td>
+                                                    <td>2.67</td>
+                                                    <td>3.32</td>
+                                                    <td>3.96</td>
+                                                    <td>5.24</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>30×30</td>
+                                                    <td>30</td>
+                                                    <td>0.89</td>
+                                                    <td>1.66</td>
+                                                    <td>2.42</td>
+                                                    <td>3.18</td>
+                                                    <td>3.94</td>
+                                                    <td>4.70</td>
+                                                    <td>6.23</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>40×40</td>
+                                                    <td>40</td>
+                                                    <td>1.18</td>
+                                                    <td>2.22</td>
+                                                    <td>3.26</td>
+                                                    <td>4.31</td>
+                                                    <td>5.36</td>
+                                                    <td>6.39</td>
+                                                    <td>8.46</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>50×50</td>
+                                                    <td>50</td>
+                                                    <td>1.48</td>
+                                                    <td>2.83</td>
+                                                    <td>4.18</td>
+                                                    <td>5.53</td>
+                                                    <td>6.88</td>
+                                                    <td>8.21</td>
+                                                    <td>10.88</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>60×60</td>
+                                                    <td>60</td>
+                                                    <td>1.77</td>
+                                                    <td>3.38</td>
+                                                    <td>4.98</td>
+                                                    <td>6.59</td>
+                                                    <td>8.19</td>
+                                                    <td>9.78</td>
+                                                    <td>13.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>70×70</td>
+                                                    <td>70</td>
+                                                    <td>2.06</td>
+                                                    <td>3.94</td>
+                                                    <td>5.78</td>
+                                                    <td>7.65</td>
+                                                    <td>9.42</td>
+                                                    <td>11.18</td>
+                                                    <td>15.12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>80×80</td>
+                                                    <td>80</td>
+                                                    <td>2.36</td>
+                                                    <td>4.51</td>
+                                                    <td>6.60</td>
+                                                    <td>8.72</td>
+                                                    <td>10.75</td>
+                                                    <td>12.78</td>
+                                                    <td>17.26</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>100×100</td>
+                                                    <td>100</td>
+                                                    <td>2.97</td>
+                                                    <td>5.70</td>
+                                                    <td>8.43</td>
+                                                    <td>11.17</td>
+                                                    <td>13.90</td>
+                                                    <td>16.61</td>
+                                                    <td>22.05</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>120×120</td>
+                                                    <td>120</td>
+                                                    <td>3.56</td>
+                                                    <td>6.86</td>
+                                                    <td>10.15</td>
+                                                    <td>13.43</td>
+                                                    <td>16.72</td>
+                                                    <td>20.00</td>
+                                                    <td>26.56</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>150×150</td>
+                                                    <td>150</td>
+                                                    <td>4.45</td>
+                                                    <td>8.60</td>
+                                                    <td>12.74</td>
+                                                    <td>16.88</td>
+                                                    <td>21.02</td>
+                                                    <td>25.16</td>
+                                                    <td>33.44</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>200×200</td>
+                                                    <td>200</td>
+                                                    <td>5.94</td>
+                                                    <td>11.50</td>
+                                                    <td>17.04</td>
+                                                    <td>22.59</td>
+                                                    <td>28.13</td>
+                                                    <td>33.67</td>
+                                                    <td>44.74</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>250×250</td>
+                                                    <td>250</td>
+                                                    <td>7.43</td>
+                                                    <td>14.40</td>
+                                                    <td>21.33</td>
+                                                    <td>28.30</td>
+                                                    <td>35.23</td>
+                                                    <td>42.16</td>
+                                                    <td>56.05</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>300×300</td>
+                                                    <td>300</td>
+                                                    <td>8.92</td>
+                                                    <td>17.30</td>
+                                                    <td>25.63</td>
+                                                    <td>34.01</td>
+                                                    <td>42.33</td>
+                                                    <td>50.67</td>
+                                                    <td>67.36</td>
+                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -291,7 +440,8 @@
                             <h2 class="accordion-header" id="headingRect">
                                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseRect" aria-expanded="false" aria-controls="collapseRect">
-                                    <i class="bi bi-app me-2 text-success"></i> Rectangular Hollow Sections (RHS) – Weight Chart
+                                    <i class="bi bi-app me-2 text-success"></i> Rectangular Hollow Sections (RHS) – Weight
+                                    Chart
                                 </button>
                             </h2>
                             <div id="collapseRect" class="accordion-collapse collapse" aria-labelledby="headingRect"
@@ -313,16 +463,116 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr><td>40×20</td><td>20×40</td><td>1.02</td><td>1.93</td><td>2.83</td><td>3.74</td><td>4.63</td><td>5.52</td><td>7.31</td></tr>
-                                                <tr><td>50×25</td><td>25×50</td><td>1.27</td><td>2.41</td><td>3.54</td><td>4.67</td><td>5.79</td><td>6.90</td><td>9.14</td></tr>
-                                                <tr><td>60×40</td><td>40×60</td><td>1.77</td><td>3.38</td><td>4.98</td><td>6.59</td><td>8.19</td><td>9.78</td><td>13.00</td></tr>
-                                                <tr><td>80×40</td><td>40×80</td><td>2.12</td><td>4.04</td><td>5.96</td><td>7.88</td><td>9.80</td><td>11.72</td><td>15.55</td></tr>
-                                                <tr><td>100×50</td><td>50×100</td><td>2.70</td><td>5.15</td><td>7.60</td><td>10.05</td><td>12.49</td><td>14.92</td><td>19.78</td></tr>
-                                                <tr><td>120×60</td><td>60×120</td><td>3.28</td><td>6.26</td><td>9.23</td><td>12.20</td><td>15.16</td><td>18.12</td><td>24.01</td></tr>
-                                                <tr><td>150×100</td><td>100×150</td><td>4.45</td><td>8.60</td><td>12.74</td><td>16.88</td><td>21.02</td><td>25.16</td><td>33.44</td></tr>
-                                                <tr><td>200×100</td><td>100×200</td><td>5.70</td><td>11.10</td><td>16.41</td><td>21.71</td><td>27.02</td><td>32.31</td><td>43.00</td></tr>
-                                                <tr><td>250×150</td><td>150×250</td><td>7.43</td><td>14.40</td><td>21.33</td><td>28.30</td><td>35.23</td><td>42.16</td><td>56.05</td></tr>
-                                                <tr><td>300×150</td><td>150×300</td><td>8.45</td><td>16.38</td><td>24.30</td><td>32.22</td><td>40.14</td><td>48.06</td><td>63.90</td></tr>
+                                                <tr>
+                                                    <td>40×20</td>
+                                                    <td>20×40</td>
+                                                    <td>1.02</td>
+                                                    <td>1.93</td>
+                                                    <td>2.83</td>
+                                                    <td>3.74</td>
+                                                    <td>4.63</td>
+                                                    <td>5.52</td>
+                                                    <td>7.31</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>50×25</td>
+                                                    <td>25×50</td>
+                                                    <td>1.27</td>
+                                                    <td>2.41</td>
+                                                    <td>3.54</td>
+                                                    <td>4.67</td>
+                                                    <td>5.79</td>
+                                                    <td>6.90</td>
+                                                    <td>9.14</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>60×40</td>
+                                                    <td>40×60</td>
+                                                    <td>1.77</td>
+                                                    <td>3.38</td>
+                                                    <td>4.98</td>
+                                                    <td>6.59</td>
+                                                    <td>8.19</td>
+                                                    <td>9.78</td>
+                                                    <td>13.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>80×40</td>
+                                                    <td>40×80</td>
+                                                    <td>2.12</td>
+                                                    <td>4.04</td>
+                                                    <td>5.96</td>
+                                                    <td>7.88</td>
+                                                    <td>9.80</td>
+                                                    <td>11.72</td>
+                                                    <td>15.55</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>100×50</td>
+                                                    <td>50×100</td>
+                                                    <td>2.70</td>
+                                                    <td>5.15</td>
+                                                    <td>7.60</td>
+                                                    <td>10.05</td>
+                                                    <td>12.49</td>
+                                                    <td>14.92</td>
+                                                    <td>19.78</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>120×60</td>
+                                                    <td>60×120</td>
+                                                    <td>3.28</td>
+                                                    <td>6.26</td>
+                                                    <td>9.23</td>
+                                                    <td>12.20</td>
+                                                    <td>15.16</td>
+                                                    <td>18.12</td>
+                                                    <td>24.01</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>150×100</td>
+                                                    <td>100×150</td>
+                                                    <td>4.45</td>
+                                                    <td>8.60</td>
+                                                    <td>12.74</td>
+                                                    <td>16.88</td>
+                                                    <td>21.02</td>
+                                                    <td>25.16</td>
+                                                    <td>33.44</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>200×100</td>
+                                                    <td>100×200</td>
+                                                    <td>5.70</td>
+                                                    <td>11.10</td>
+                                                    <td>16.41</td>
+                                                    <td>21.71</td>
+                                                    <td>27.02</td>
+                                                    <td>32.31</td>
+                                                    <td>43.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>250×150</td>
+                                                    <td>150×250</td>
+                                                    <td>7.43</td>
+                                                    <td>14.40</td>
+                                                    <td>21.33</td>
+                                                    <td>28.30</td>
+                                                    <td>35.23</td>
+                                                    <td>42.16</td>
+                                                    <td>56.05</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>300×150</td>
+                                                    <td>150×300</td>
+                                                    <td>8.45</td>
+                                                    <td>16.38</td>
+                                                    <td>24.30</td>
+                                                    <td>32.22</td>
+                                                    <td>40.14</td>
+                                                    <td>48.06</td>
+                                                    <td>63.90</td>
+                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -357,14 +607,94 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr><td>25×13</td><td>25×13</td><td>0.45</td><td>0.87</td><td>1.29</td><td>1.71</td><td>2.13</td><td>2.54</td><td>3.37</td></tr>
-                                                <tr><td>38×25</td><td>38×25</td><td>0.80</td><td>1.54</td><td>2.28</td><td>3.02</td><td>3.76</td><td>4.50</td><td>5.96</td></tr>
-                                                <tr><td>50×30</td><td>50×30</td><td>1.02</td><td>1.96</td><td>2.90</td><td>3.83</td><td>4.76</td><td>5.68</td><td>7.52</td></tr>
-                                                <tr><td>63×38</td><td>63×38</td><td>1.30</td><td>2.51</td><td>3.72</td><td>4.93</td><td>6.14</td><td>7.35</td><td>9.78</td></tr>
-                                                <tr><td>76×38</td><td>76×38</td><td>1.52</td><td>2.94</td><td>4.36</td><td>5.78</td><td>7.20</td><td>8.62</td><td>11.48</td></tr>
-                                                <tr><td>100×50</td><td>100×50</td><td>2.00</td><td>3.85</td><td>5.70</td><td>7.56</td><td>9.41</td><td>11.26</td><td>15.00</td></tr>
-                                                <tr><td>120×60</td><td>120×60</td><td>2.45</td><td>4.72</td><td>6.98</td><td>9.25</td><td>11.51</td><td>13.77</td><td>18.34</td></tr>
-                                                <tr><td>150×75</td><td>150×75</td><td>3.15</td><td>6.06</td><td>8.96</td><td>11.85</td><td>14.75</td><td>17.64</td><td>23.42</td></tr>
+                                                <tr>
+                                                    <td>25×13</td>
+                                                    <td>25×13</td>
+                                                    <td>0.45</td>
+                                                    <td>0.87</td>
+                                                    <td>1.29</td>
+                                                    <td>1.71</td>
+                                                    <td>2.13</td>
+                                                    <td>2.54</td>
+                                                    <td>3.37</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>38×25</td>
+                                                    <td>38×25</td>
+                                                    <td>0.80</td>
+                                                    <td>1.54</td>
+                                                    <td>2.28</td>
+                                                    <td>3.02</td>
+                                                    <td>3.76</td>
+                                                    <td>4.50</td>
+                                                    <td>5.96</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>50×30</td>
+                                                    <td>50×30</td>
+                                                    <td>1.02</td>
+                                                    <td>1.96</td>
+                                                    <td>2.90</td>
+                                                    <td>3.83</td>
+                                                    <td>4.76</td>
+                                                    <td>5.68</td>
+                                                    <td>7.52</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>63×38</td>
+                                                    <td>63×38</td>
+                                                    <td>1.30</td>
+                                                    <td>2.51</td>
+                                                    <td>3.72</td>
+                                                    <td>4.93</td>
+                                                    <td>6.14</td>
+                                                    <td>7.35</td>
+                                                    <td>9.78</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>76×38</td>
+                                                    <td>76×38</td>
+                                                    <td>1.52</td>
+                                                    <td>2.94</td>
+                                                    <td>4.36</td>
+                                                    <td>5.78</td>
+                                                    <td>7.20</td>
+                                                    <td>8.62</td>
+                                                    <td>11.48</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>100×50</td>
+                                                    <td>100×50</td>
+                                                    <td>2.00</td>
+                                                    <td>3.85</td>
+                                                    <td>5.70</td>
+                                                    <td>7.56</td>
+                                                    <td>9.41</td>
+                                                    <td>11.26</td>
+                                                    <td>15.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>120×60</td>
+                                                    <td>120×60</td>
+                                                    <td>2.45</td>
+                                                    <td>4.72</td>
+                                                    <td>6.98</td>
+                                                    <td>9.25</td>
+                                                    <td>11.51</td>
+                                                    <td>13.77</td>
+                                                    <td>18.34</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>150×75</td>
+                                                    <td>150×75</td>
+                                                    <td>3.15</td>
+                                                    <td>6.06</td>
+                                                    <td>8.96</td>
+                                                    <td>11.85</td>
+                                                    <td>14.75</td>
+                                                    <td>17.64</td>
+                                                    <td>23.42</td>
+                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -441,6 +771,104 @@
         </div>
     </section>
 
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
+
     <!-- Applications -->
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -507,52 +935,54 @@
         </div>
     </section>
 
-    
 
-    <!-- Manufacturing Process -->
     <!-- Packaging & Export -->
-    <section id="export" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Hollow Section Pipes Exporter to UAE, Saudi Arabia & GCC</h2>
-            </div>
-            <p class="fs-6 text-center text-muted mb-4">
-                Moksh Tubes & Fittings LLP is a trusted hollow section pipes supplier for UAE, Saudi Arabia, Qatar, Oman,
-                and Kuwait. We supply square (SHS), rectangular (RHS), and oval hollow sections for construction,
-                infrastructure, and fabrication projects across the Gulf region. We regularly supply to Dubai, Abu Dhabi,
-                Riyadh, Jeddah, Doha, and Muscat.
-            </p>
+    <!-- <section id="export" class="sec-padd-top sec-padd-bottom">
+                <div class="container">
+                    <div class="section-title center mb-4">
+                        <h2>Hollow Section Pipes Exporter to UAE, Saudi Arabia & GCC</h2>
+                    </div>
+                    <p class="fs-6 text-center text-muted mb-4">
+                        Moksh Tubes & Fittings LLP is a trusted hollow section pipes supplier for UAE, Saudi Arabia, Qatar, Oman,
+                        and Kuwait. We supply square (SHS), rectangular (RHS), and oval hollow sections for construction,
+                        infrastructure, and fabrication projects across the Gulf region. We regularly supply to Dubai, Abu Dhabi,
+                        Riyadh, Jeddah, Doha, and Muscat.
+                    </p>
 
-            <div class="row g-4 justify-content-center">
-                <div class="col-md-6 col-lg-5">
-                    <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
-                        <h4 class="fw-bold text-primary mb-3"><i class="bi bi-globe me-2"></i>Export Countries</h4>
-                        <ul class="fs-6 list-unstyled text-muted">
-                            <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> UAE (Dubai, Abu Dhabi)</li>
-                            <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Saudi Arabia (Riyadh, Jeddah)</li>
-                            <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Qatar (Doha)</li>
-                            <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Oman (Muscat)</li>
-                            <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Kuwait & Bahrain</li>
-                            <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Europe & Southeast Asia</li>
-                        </ul>
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
+                                <h4 class="fw-bold text-primary mb-3"><i class="bi bi-globe me-2"></i>Export Countries</h4>
+                                <ul class="fs-6 list-unstyled text-muted">
+                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> UAE (Dubai, Abu Dhabi)</li>
+                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Saudi Arabia (Riyadh, Jeddah)
+                                    </li>
+                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Qatar (Doha)</li>
+                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Oman (Muscat)</li>
+                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Kuwait & Bahrain</li>
+                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Europe & Southeast Asia</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
+                                <h4 class="fw-bold text-primary mb-3"><i class="bi bi-box-seam me-2"></i>Export Services</h4>
+                                <ul class="fs-6 list-unstyled text-muted">
+                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Fast delivery to GCC countries
+                                    </li>
+                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> EN 10204 3.1 certification</li>
+                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Third-party inspection (TPI)</li>
+                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Export-grade packaging</li>
+                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Bulk structural supply capability
+                                    </li>
+                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Complete technical documentation
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-5">
-                    <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
-                        <h4 class="fw-bold text-primary mb-3"><i class="bi bi-box-seam me-2"></i>Export Services</h4>
-                        <ul class="fs-6 list-unstyled text-muted">
-                            <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Fast delivery to GCC countries</li>
-                            <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> EN 10204 3.1 certification</li>
-                            <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Third-party inspection (TPI)</li>
-                            <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Export-grade packaging</li>
-                            <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Bulk structural supply capability</li>
-                            <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Complete technical documentation</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            </section> -->
 
     <!-- Advantages & Quality Control -->
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -564,15 +994,19 @@
                     </div>
                     <ul class="fs-6 list-unstyled">
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Strong yet lightweight structures</li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Strong yet lightweight structures
+                        </li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Reduced material cost in construction</li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Reduced material cost in construction
+                        </li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
                                 class="bi bi-check-circle-fill text-primary me-2"></i> Easy to weld, cut, and fabricate</li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Modern aesthetic finish for architectural use</li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Modern aesthetic finish for
+                            architectural use</li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Long service life in harsh environments</li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Long service life in harsh
+                            environments</li>
                     </ul>
                 </div>
 
@@ -584,9 +1018,11 @@
                             <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Weld integrity testing</li>
                             <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Ultrasonic testing (UT)</li>
                             <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Surface quality checks</li>
-                            <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Mechanical strength testing</li>
+                            <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Mechanical strength testing
+                            </li>
                         </ul>
-                        <p class="fs-6 mt-4 fw-bold text-success"><i class="bi bi-patch-check-fill me-2"></i> Supplied with standard test certificates.</p>
+                        <p class="fs-6 mt-4 fw-bold text-success"><i class="bi bi-patch-check-fill me-2"></i> Supplied with
+                            standard test certificates.</p>
                     </div>
                 </div>
             </div>
@@ -594,7 +1030,51 @@
     </section>
 
     <!-- Material Selection Guide & Buying Guide -->
-    
+
+    <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties – Hollow Section Pipes</h2>
+                <p class="text-center">(Typical values as per ASTM standards)</p>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>coming soon</th>
+                            <th>coming soon</th>
+                            <th>coming soon</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <th class="fw-bold text-start">Tensile Strength (MPa)</th>
+                            <td>coming soon</td>
+                            <td>coming soon</td>
+                            <td>coming soon</td>
+                        </tr>
+                        <tr class="t-row">
+                            <th class="fw-bold text-start">Yield Strength (MPa)</th>
+                            <td>coming soon</td>
+                            <td>coming soon</td>
+                            <td>coming soon</td>
+                        </tr>
+                        <tr class="t-row">
+                            <th class="fw-bold text-start">Elongation (%)</th>
+                            <td>coming soon</td>
+                            <td>coming soon</td>
+                            <td>coming soon</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="mt-2 text-muted text-center"><small>📌 Actual values depend on material grade and heat
+                    treatment.</small></p>
+        </div>
+    </section>
+
 
     <!-- Why Choose Moksh Tubes -->
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -644,7 +1124,7 @@
     </section>
 
     <!-- Related Products / Internal Linking -->
-    
+
 
     <!-- FAQ Section -->
     <section id="faq" class="sec-padd-top sec-padd-bottom bg-light">
@@ -660,7 +1140,9 @@
                                 <h4>What are hollow section pipes used for?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Hollow section pipes are used in construction, fabrication, furniture, and automotive industries for structural support and design applications. They are ideal for columns, beams, trusses, vehicle frames, and architectural features.</p>
+                                <p>Hollow section pipes are used in construction, fabrication, furniture, and automotive
+                                    industries for structural support and design applications. They are ideal for columns,
+                                    beams, trusses, vehicle frames, and architectural features.</p>
                             </div>
                         </div>
                         <div class="accordion accordion-block">
@@ -668,7 +1150,8 @@
                                 <h4>Which shapes are available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>We supply Square Hollow Sections (SHS), Rectangular Hollow Sections (RHS), oval sections, and custom profiles as per your project requirements.</p>
+                                <p>We supply Square Hollow Sections (SHS), Rectangular Hollow Sections (RHS), oval sections,
+                                    and custom profiles as per your project requirements.</p>
                             </div>
                         </div>
                         <div class="accordion accordion-block">
@@ -676,7 +1159,9 @@
                                 <h4>What materials are available for hollow sections?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>We offer hollow section pipes in stainless steel (304, 316, 316L), carbon/mild steel (IS 2062, ASTM A36, A500), duplex (2205, S32750), aluminium alloys (6061, 6063, 6082), and copper alloys (Cu-Ni, Brass).</p>
+                                <p>We offer hollow section pipes in stainless steel (304, 316, 316L), carbon/mild steel (IS
+                                    2062, ASTM A36, A500), duplex (2205, S32750), aluminium alloys (6061, 6063, 6082), and
+                                    copper alloys (Cu-Ni, Brass).</p>
                             </div>
                         </div>
                         <div class="accordion accordion-block">
@@ -684,7 +1169,9 @@
                                 <h4>Can you provide custom sizes and finishes?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Yes, Moksh Tubes & Fittings LLP provides custom dimensions, wall thicknesses, lengths, and finishes including hot rolled, polished, powder coated, and galvanized options based on your project requirements.</p>
+                                <p>Yes, Moksh Tubes & Fittings LLP provides custom dimensions, wall thicknesses, lengths,
+                                    and finishes including hot rolled, polished, powder coated, and galvanized options based
+                                    on your project requirements.</p>
                             </div>
                         </div>
                         <div class="accordion accordion-block">
@@ -692,7 +1179,9 @@
                                 <h4>Do you export hollow sections to UAE and Saudi Arabia?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Yes, we are a leading exporter of hollow section pipes to UAE, Saudi Arabia, Qatar, Oman, and Kuwait. We provide fast delivery to Dubai, Abu Dhabi, Riyadh, Jeddah, Doha, and Muscat with full EN 10204 3.1 certification and export-grade packaging.</p>
+                                <p>Yes, we are a leading exporter of hollow section pipes to UAE, Saudi Arabia, Qatar, Oman,
+                                    and Kuwait. We provide fast delivery to Dubai, Abu Dhabi, Riyadh, Jeddah, Doha, and
+                                    Muscat with full EN 10204 3.1 certification and export-grade packaging.</p>
                             </div>
                         </div>
                     </div>
@@ -724,69 +1213,69 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-            {
-                "@context": "https://schema.org",
-                "@type": "Product",
-                "name": "Hollow Section Pipes",
-                "description": "Hollow section pipes (SHS, RHS, Oval) supplier and exporter to UAE, Saudi Arabia, Qatar and Oman",
-                "brand": {
-                    "@type": "Brand",
-                    "name": "Moksh Tubes & Fittings LLP"
-                },
-                "areaServed": ["UAE","Saudi Arabia","Qatar","Oman","Kuwait"]
-            }
-        @endverbatim
-    </script>
+                        @verbatim
+                            {
+                                "@context": "https://schema.org",
+                                "@type": "Product",
+                                "name": "Hollow Section Pipes",
+                                "description": "Hollow section pipes (SHS, RHS, Oval) supplier and exporter to UAE, Saudi Arabia, Qatar and Oman",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Moksh Tubes & Fittings LLP"
+                                },
+                                "areaServed": ["UAE","Saudi Arabia","Qatar","Oman","Kuwait"]
+                            }
+                        @endverbatim
+                    </script>
 
     <script type="application/ld+json">
-        @verbatim
-            {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [
-                    {
-                        "@type": "Question",
-                        "name": "What are hollow section pipes used for?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "They are used in construction, fabrication, furniture, and automotive industries for structural support and design applications."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Which shapes are available?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Square (SHS), rectangular (RHS), oval sections, and custom profiles."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "What materials are available for hollow sections?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Stainless steel, carbon steel, duplex, aluminium alloys, and copper alloys."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Can you provide custom sizes and finishes?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes, we offer custom dimensions, thickness, finishes including hot rolled, polished, powder coated, and galvanized options."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Do you export hollow sections to UAE and Saudi Arabia?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes, we export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait with fast delivery to Dubai, Abu Dhabi, Riyadh, Jeddah, Doha, and Muscat."
-                        }
-                    }
-                ]
-            }
-        @endverbatim
-    </script>
+                        @verbatim
+                            {
+                                "@context": "https://schema.org",
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "What are hollow section pipes used for?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "They are used in construction, fabrication, furniture, and automotive industries for structural support and design applications."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Which shapes are available?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Square (SHS), rectangular (RHS), oval sections, and custom profiles."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "What materials are available for hollow sections?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Stainless steel, carbon steel, duplex, aluminium alloys, and copper alloys."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Can you provide custom sizes and finishes?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Yes, we offer custom dimensions, thickness, finishes including hot rolled, polished, powder coated, and galvanized options."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Do you export hollow sections to UAE and Saudi Arabia?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Yes, we export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait with fast delivery to Dubai, Abu Dhabi, Riyadh, Jeddah, Doha, and Muscat."
+                                        }
+                                    }
+                                ]
+                            }
+                        @endverbatim
+                    </script>
 @endsection

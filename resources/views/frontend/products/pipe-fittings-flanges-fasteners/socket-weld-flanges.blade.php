@@ -1,10 +1,14 @@
 @extends('layouts.master')
 @section('title', 'Socket Weld Flanges Manufacturer, Supplier & Exporter in India | Moksh Tubes')
 <!-- 76 characters -->
-@section('meta_description',
-    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Socket Weld Flanges in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 certified with worldwide delivery.')
-@section('meta_keywords',
-    'Socket Weld Flanges, Socket Weld Flanges Manufacturer, Socket Weld Flanges Supplier, Socket Weld Flanges Exporter, Stainless Steel Socket Weld Flanges, Carbon Steel Socket Weld Flanges, Alloy Steel Socket Weld Flanges, Duplex Socket Weld Flanges, Super Duplex Socket Weld Flanges, Forged Socket Weld Flanges, ASME B16.5 Socket Weld Flanges, SW Flanges, High Pressure Socket Weld Flanges, Industrial Socket Weld Flanges, RF Socket Weld Flanges, RTJ Socket Weld Flanges, Forged Pipe Flanges, High Pressure Pipe Flanges, Socket Weld Pipe Connection, Industrial Pipe Flanges, Corrosion Resistant Flanges, Raised Face Flanges, Ring Type Joint Flanges, Flat Face Flanges, Oil & Gas Pipe Flanges, Petrochemical Flanges, Process Piping Components, Small Bore Pipe Flanges')
+@section(
+    'meta_description',
+    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Socket Weld Flanges in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 certified with worldwide delivery.'
+)
+@section(
+    'meta_keywords',
+    'Socket Weld Flanges, Socket Weld Flanges Manufacturer, Socket Weld Flanges Supplier, Socket Weld Flanges Exporter, Stainless Steel Socket Weld Flanges, Carbon Steel Socket Weld Flanges, Alloy Steel Socket Weld Flanges, Duplex Socket Weld Flanges, Super Duplex Socket Weld Flanges, Forged Socket Weld Flanges, ASME B16.5 Socket Weld Flanges, SW Flanges, High Pressure Socket Weld Flanges, Industrial Socket Weld Flanges, RF Socket Weld Flanges, RTJ Socket Weld Flanges, Forged Pipe Flanges, High Pressure Pipe Flanges, Socket Weld Pipe Connection, Industrial Pipe Flanges, Corrosion Resistant Flanges, Raised Face Flanges, Ring Type Joint Flanges, Flat Face Flanges, Oil & Gas Pipe Flanges, Petrochemical Flanges, Process Piping Components, Small Bore Pipe Flanges'
+)
 @section('og_title', 'Socket Weld Flanges Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Premium-quality Socket Weld Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified with worldwide export support.')
 @section('og_image', asset('assets/images/fasteners/sorf-flanges_11zon.jpg'))
@@ -19,8 +23,15 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1 class="page-title">Socket Weld Flanges Manufacturer, Supplier & Exporter in India</h1>
-                        <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Socket Weld Flanges are high-strength pipe flanges designed with a recessed socket that allows the pipe to be inserted before fillet welding. They are commonly used in small-diameter, high-pressure piping systems where a strong, leak-resistant connection is required. At Moksh Tubes & Fittings LLP, we manufacture, supply, and export premium-quality Socket Weld Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades. Manufactured to international standards, our flanges provide excellent strength, corrosion resistance, and reliable performance for demanding industrial applications.
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Socket Weld Flanges are high-strength pipe flanges designed with a recessed socket that allows the
+                        pipe to be inserted before fillet welding. They are commonly used in small-diameter, high-pressure
+                        piping systems where a strong, leak-resistant connection is required. At Moksh Tubes & Fittings LLP,
+                        we manufacture, supply, and export premium-quality Socket Weld Flanges in stainless steel, carbon
+                        steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades. Manufactured to
+                        international standards, our flanges provide excellent strength, corrosion resistance, and reliable
+                        performance for demanding industrial applications.
                     </p>
 
                 </div>
@@ -55,31 +66,39 @@
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/fasteners/sorf-flanges_11zon.jpg') }}"
-                        alt="Socket Weld Flanges Manufacturer" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                        alt="Socket Weld Flanges Manufacturer" class="img-fluid rounded shadow-sm" width="550" height="350"
+                        loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        A <strong>Socket Weld Flange (SW Flange)</strong> is designed with a socket or recessed bore that allows the pipe to fit inside the flange before being secured with a fillet weld around the outside. This design ensures proper pipe alignment, reduces installation time, and provides a strong connection capable of handling high-pressure services. Socket Weld Flanges are widely used for small-bore piping systems where leak-free performance and structural integrity are essential.
+                        A <strong>Socket Weld Flange (SW Flange)</strong> is designed with a socket or recessed bore that
+                        allows the pipe to fit inside the flange before being secured with a fillet weld around the outside.
+                        This design ensures proper pipe alignment, reduces installation time, and provides a strong
+                        connection capable of handling high-pressure services. Socket Weld Flanges are widely used for
+                        small-bore piping systems where leak-free performance and structural integrity are essential.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture precision-engineered Socket Weld Flanges using premium-quality forged materials and advanced CNC machining technology. Our flanges are available in a variety of sizes, pressure classes, and material grades to meet the needs of industrial piping systems across multiple industries.
+                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture
+                        precision-engineered Socket Weld Flanges using premium-quality forged materials and advanced CNC
+                        machining technology. Our flanges are available in a variety of sizes, pressure classes, and
+                        material grades to meet the needs of industrial piping systems across multiple industries.
                     </p>
 
                 </div>
             </div>
         </div>
     </section>
-    
+
     {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Socket Weld Flanges Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application
+                guidelines. Enter your email below to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
@@ -106,7 +125,7 @@
             </p>
         </div>
     </section>
-    
+
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -128,77 +147,101 @@
                                     <td>Product</td>
                                     <td>Socket Weld Flange</td>
                                 </tr>
-                                <tr class="t-row"><td>Standards</td><td>ASME B16.5, ASME B16.47, EN 1092-1, DIN, BS, JIS</td></tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASME B16.5, ASME B16.47, EN 1092-1, DIN, BS, JIS</td>
+                                </tr>
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium</td>
+                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys &
+                                        Titanium</td>
                                 </tr>
-                                <tr class="t-row"><td>Size Range</td><td>½" NB to 24" NB</td></tr>
-                                <tr class="t-row"><td>Pressure Classes</td><td>Class 150, 300, 600, 900, 1500 & 2500</td></tr>
-                                <tr class="t-row"><td>Facing Type</td><td>Raised Face (RF), Ring Type Joint (RTJ) & Flat Face (FF)</td></tr>
-                                <tr class="t-row"><td>End Connection</td><td>Socket Weld</td></tr>
-                                <tr class="t-row"><td>Surface Finish</td><td>Machined, Pickled, Polished or Anti-Rust Coated</td></tr>
-                                <tr class="t-row"><td>Manufacturing</td><td>Forged & CNC Machined</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="chemical-composition" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Chemical Composition</h2>
-            </div>
-            <p class="text-center pb-3">
-                The chemical composition of <strong>Socket Weld Flanges</strong> depends on the selected material grade. At Moksh Tubes & Fittings LLP, our Socket Weld Flanges are manufactured from premium-quality raw materials that comply with ASTM, ASME, EN, DIN, BS, and JIS standards, ensuring superior corrosion resistance, high mechanical strength, and long service life.
-            </p>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle text-center">
-                            <thead class="table-dark">
                                 <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>SS 304 (%)</th>
-                                    <th>SS 304L (%)</th>
-                                    <th>SS 316 (%)</th>
-                                    <th>SS 316L (%)</th>
+                                    <td>Size Range</td>
+                                    <td>½" NB to 24" NB</td>
                                 </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
-                                <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
-                                <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
-                                <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
-                                <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
-                                <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
-                                <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
-                                <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
-                                <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
-                                <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
+                                <tr class="t-row">
+                                    <td>Pressure Classes</td>
+                                    <td>Class 150, 300, 600, 900, 1500 & 2500</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Facing Type</td>
+                                    <td>Raised Face (RF), Ring Type Joint (RTJ) & Flat Face (FF)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>End Connection</td>
+                                    <td>Socket Weld</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Surface Finish</td>
+                                    <td>Machined, Pickled, Polished or Anti-Rust Coated</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manufacturing</td>
+                                    <td>Forged & CNC Machined</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Socket Weld Flanges are manufactured in accordance with the relevant ASTM and ASME material specifications.</small></p>
         </div>
     </section>
 
-   <!-- charts -->
+    <!-- <section id="chemical-composition" class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Chemical Composition</h2>
+                </div>
+                <p class="text-center pb-3">
+                    The chemical composition of <strong>Socket Weld Flanges</strong> depends on the selected material grade. At Moksh Tubes & Fittings LLP, our Socket Weld Flanges are manufactured from premium-quality raw materials that comply with ASTM, ASME, EN, DIN, BS, and JIS standards, ensuring superior corrosion resistance, high mechanical strength, and long service life.
+                </p>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped align-middle text-center">
+                                <thead class="table-dark">
+                                    <tr class="t-row">
+                                        <th>Element</th>
+                                        <th>SS 304 (%)</th>
+                                        <th>SS 304L (%)</th>
+                                        <th>SS 316 (%)</th>
+                                        <th>SS 316L (%)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
+                                    <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
+                                    <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
+                                    <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
+                                    <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
+                                    <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
+                                    <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
+                                    <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
+                                    <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
+                                    <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Socket Weld Flanges are manufactured in accordance with the relevant ASTM and ASME material specifications.</small></p>
+            </div>
+        </section> -->
+
+    <!-- charts -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart</h2>
             </div>
             <p class="text-center pb-3">
-                Socket Weld Flanges are manufactured in accordance with <strong>ASME B16.5</strong> and <strong>ASME B16.47</strong> standards and are available in various nominal pipe sizes, pressure classes, and facing types.
+                Socket Weld Flanges are manufactured in accordance with <strong>ASME B16.5</strong> and <strong>ASME
+                    B16.47</strong> standards and are available in various nominal pipe sizes, pressure classes, and facing
+                types.
             </p>
-            
+
             <div class="table-responsive mt-4">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
@@ -211,24 +254,110 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>½"</td><td>150</td><td>90</td><td>11</td><td>0.60</td></tr>
-                        <tr class="t-row"><td>¾"</td><td>150</td><td>100</td><td>12</td><td>0.80</td></tr>
-                        <tr class="t-row"><td>1"</td><td>150</td><td>108</td><td>14</td><td>1.10</td></tr>
-                        <tr class="t-row"><td>1½"</td><td>150</td><td>127</td><td>16</td><td>1.80</td></tr>
-                        <tr class="t-row"><td>2"</td><td>150</td><td>152</td><td>19</td><td>2.80</td></tr>
-                        <tr class="t-row"><td>3"</td><td>150</td><td>191</td><td>24</td><td>5.10</td></tr>
-                        <tr class="t-row"><td>4"</td><td>150</td><td>229</td><td>24</td><td>7.70</td></tr>
-                        <tr class="t-row"><td>6"</td><td>150</td><td>279</td><td>27</td><td>13.20</td></tr>
-                        <tr class="t-row"><td>8"</td><td>150</td><td>343</td><td>30</td><td>21.20</td></tr>
-                        <tr class="t-row"><td>10"</td><td>150</td><td>406</td><td>32</td><td>32.80</td></tr>
-                        <tr class="t-row"><td>12"</td><td>150</td><td>483</td><td>35</td><td>48.90</td></tr>
-                        <tr class="t-row"><td>16"</td><td>150</td><td>597</td><td>38</td><td>81.20</td></tr>
-                        <tr class="t-row"><td>20"</td><td>150</td><td>711</td><td>43</td><td>131.00</td></tr>
-                        <tr class="t-row"><td>24"</td><td>150</td><td>813</td><td>48</td><td>193.50</td></tr>
+                        <tr class="t-row">
+                            <td>½"</td>
+                            <td>150</td>
+                            <td>90</td>
+                            <td>11</td>
+                            <td>0.60</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>¾"</td>
+                            <td>150</td>
+                            <td>100</td>
+                            <td>12</td>
+                            <td>0.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1"</td>
+                            <td>150</td>
+                            <td>108</td>
+                            <td>14</td>
+                            <td>1.10</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1½"</td>
+                            <td>150</td>
+                            <td>127</td>
+                            <td>16</td>
+                            <td>1.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2"</td>
+                            <td>150</td>
+                            <td>152</td>
+                            <td>19</td>
+                            <td>2.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3"</td>
+                            <td>150</td>
+                            <td>191</td>
+                            <td>24</td>
+                            <td>5.10</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4"</td>
+                            <td>150</td>
+                            <td>229</td>
+                            <td>24</td>
+                            <td>7.70</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>6"</td>
+                            <td>150</td>
+                            <td>279</td>
+                            <td>27</td>
+                            <td>13.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>8"</td>
+                            <td>150</td>
+                            <td>343</td>
+                            <td>30</td>
+                            <td>21.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>10"</td>
+                            <td>150</td>
+                            <td>406</td>
+                            <td>32</td>
+                            <td>32.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>12"</td>
+                            <td>150</td>
+                            <td>483</td>
+                            <td>35</td>
+                            <td>48.90</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>16"</td>
+                            <td>150</td>
+                            <td>597</td>
+                            <td>38</td>
+                            <td>81.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>20"</td>
+                            <td>150</td>
+                            <td>711</td>
+                            <td>43</td>
+                            <td>131.00</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>24"</td>
+                            <td>150</td>
+                            <td>813</td>
+                            <td>48</td>
+                            <td>193.50</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and may vary depending on the pressure class (Class 150–2500), facing type (RF, RTJ, FF), material grade, and ASME B16.5/B16.47 requirements. Custom sizes and pressure classes are available upon request.</p>
+            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and
+                may vary depending on the pressure class (Class 150–2500), facing type (RF, RTJ, FF), material grade, and
+                ASME B16.5/B16.47 requirements. Custom sizes and pressure classes are available upon request.</p>
         </div>
     </section>
 
@@ -241,21 +370,25 @@
             cursor: pointer;
             background-color: #ffffff;
         }
+
         .grade-card .card-icon,
         .grade-card .card-title {
             color: #003366;
             transition: color 0.3s ease;
         }
+
         .grade-card .card-text {
             color: #6c757d;
             transition: color 0.3s ease;
         }
+
         .grade-card:hover {
             background-color: #e67e22;
             border-color: #e67e22;
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(230, 126, 34, 0.2) !important;
         }
+
         .grade-card:hover .card-icon,
         .grade-card:hover .card-title,
         .grade-card:hover .card-text {
@@ -267,7 +400,7 @@
             <div class="section-title center mb-5">
                 <h2>Grades &amp; Equivalent</h2>
             </div>
-            
+
             <div class="row justify-content-center mb-5">
                 <!-- Stainless Steel Grades -->
                 <div class="col-md-4 mb-4">
@@ -286,7 +419,8 @@
                         <div class="card-body py-4">
                             <i class="bi bi-gear-fill mb-3 d-block card-icon" style="font-size: 2rem;"></i>
                             <h5 class="card-title" style="font-weight: 600;">Carbon &amp; Alloy Steel</h5>
-                            <p class="card-text small mb-0">Carbon Steel ASTM A105, LF2<br>Alloy Steel ASTM A182 F11/F22/F91</p>
+                            <p class="card-text small mb-0">Carbon Steel ASTM A105, LF2<br>Alloy Steel ASTM A182 F11/F22/F91
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -368,28 +502,36 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}">
-                                <img class="w-100" src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp') }}"
                                     alt="Stainless Steel 304" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}" style="color: inherit; text-decoration: none;">Stainless Steel 304</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}"
+                                    style="color: inherit; text-decoration: none;">Stainless Steel 304</a></h6>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Stainless Steel 316 -->
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}">
-                                <img class="w-100" src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"
                                     alt="Stainless Steel 316" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}" style="color: inherit; text-decoration: none;">Stainless Steel 316</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}"
+                                    style="color: inherit; text-decoration: none;">Stainless Steel 316</a></h6>
                         </div>
                     </div>
                 </div>
@@ -398,13 +540,17 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}">
-                                <img class="w-100" src="{{ asset('assets/images/engineering-steels/engineering-steels-1045.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/engineering-steels/engineering-steels-1045.webp') }}"
                                     alt="Carbon Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}" style="color: inherit; text-decoration: none;">Carbon Steel</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}"
+                                    style="color: inherit; text-decoration: none;">Carbon Steel</a></h6>
                         </div>
                     </div>
                 </div>
@@ -413,13 +559,17 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}">
-                                <img class="w-100" src="{{ asset('assets/images/engineering-steels/engineering-steels-4140.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/engineering-steels/engineering-steels-4140.webp') }}"
                                     alt="Alloy Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}" style="color: inherit; text-decoration: none;">Alloy Steel</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}"
+                                    style="color: inherit; text-decoration: none;">Alloy Steel</a></h6>
                         </div>
                     </div>
                 </div>
@@ -429,12 +579,15 @@
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
-                                <img class="w-100" src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}" style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}"
+                                    style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
                         </div>
                     </div>
                 </div>
@@ -449,74 +602,9 @@
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}" style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}"
+                                    style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{-- Features & Advantages --}}
-    <section id="features" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Features & Advantages</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Secure socket weld connection</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
-                        <h4>Excellent strength for high-pressure applications</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-box-arrow-in-down-right"></i></div>
-                        <h4>Easy pipe alignment during installation</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h4>Superior corrosion and oxidation resistance</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h4>High mechanical strength and durability</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                        <h4>Leak-resistant and reliable performance</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
-                        <h4>Suitable for small-diameter piping systems</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
-                        <h4>Long service life with minimal maintenance</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
-                        <h4>Manufactured according to international quality standards</h4>
                     </div>
                 </div>
             </div>
@@ -608,11 +696,79 @@
         </div>
     </section>
 
+    {{-- Features & Advantages --}}
+    <section id="features" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Features & Advantages</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>Secure socket weld connection</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
+                        <h4>Excellent strength for high-pressure applications</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-box-arrow-in-down-right"></i></div>
+                        <h4>Easy pipe alignment during installation</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h4>Superior corrosion and oxidation resistance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h4>High mechanical strength and durability</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                        <h4>Leak-resistant and reliable performance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                        <h4>Suitable for small-diameter piping systems</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h4>Long service life with minimal maintenance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
+                        <h4>Manufactured according to international quality standards</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom">
         <div class="container">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-                 <p class="text-center">The mechanical properties of <strong>Socket Weld Flanges</strong> depend on the selected material grade and comply with applicable ASTM and ASME standards. The table below shows the typical mechanical properties for commonly supplied stainless steel grades.</p>
+                <p class="text-center">The mechanical properties of <strong>Socket Weld Flanges</strong> depend on the
+                    selected material grade and comply with applicable ASTM and ASME standards. The table below shows the
+                    typical mechanical properties for commonly supplied stainless steel grades.</p>
             </div>
 
             <div class="table-responsive">
@@ -648,12 +804,14 @@
                     </tbody>
                 </table>
             </div>
-             <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Socket Weld Flanges are available in accordance with their respective ASTM/ASME material specifications upon request.</small></p>
+            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel,
+                    Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Socket Weld Flanges are available in
+                    accordance with their respective ASTM/ASME material specifications upon request.</small></p>
         </div>
     </section>
 
-     <!-- Testing & Quality Control -->
-    <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Testing & Quality Control -->
+    <!-- <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Testing & Quality</h2>
@@ -700,7 +858,7 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
     {{-- why choose us --}}
     <section class="sec-padd-top sec-padd-bottom">
@@ -768,7 +926,7 @@
         </div>
     </section>
 
-   
+
 
     {{-- faq --}}
     <section id="faq" class="sec-padd-top sec-padd-bottom bg-light">
@@ -779,17 +937,20 @@
             </div>
 
             <div class="accordion faq-accordion" id="faqAccordion">
-                
+
                 <!-- FAQ Item 1 -->
                 <div class="accordion-item mb-3 border-0">
                     <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             What is a Socket Weld Flange?
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#faqAccordion">
                         <div class="accordion-body text-muted">
-                            A Socket Weld Flange is a flange with a recessed socket that allows a pipe to be inserted and fillet welded, creating a strong and leak-resistant connection.
+                            A Socket Weld Flange is a flange with a recessed socket that allows a pipe to be inserted and
+                            fillet welded, creating a strong and leak-resistant connection.
                         </div>
                     </div>
                 </div>
@@ -797,13 +958,16 @@
                 <!-- FAQ Item 2 -->
                 <div class="accordion-item mb-3 border-0">
                     <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             Where are Socket Weld Flanges commonly used?
                         </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#faqAccordion">
                         <div class="accordion-body text-muted">
-                            They are commonly used in high-pressure, small-diameter piping systems found in oil & gas, petrochemical, power generation, chemical processing, and industrial plants.
+                            They are commonly used in high-pressure, small-diameter piping systems found in oil & gas,
+                            petrochemical, power generation, chemical processing, and industrial plants.
                         </div>
                     </div>
                 </div>
@@ -811,13 +975,16 @@
                 <!-- FAQ Item 3 -->
                 <div class="accordion-item mb-3 border-0">
                     <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             Which materials are available?
                         </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#faqAccordion">
                         <div class="accordion-body text-muted">
-                            We manufacture Socket Weld Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades.
+                            We manufacture Socket Weld Flanges in stainless steel, carbon steel, alloy steel, duplex, super
+                            duplex, nickel alloys, and titanium grades.
                         </div>
                     </div>
                 </div>
@@ -825,11 +992,13 @@
                 <!-- FAQ Item 4 -->
                 <div class="accordion-item mb-3 border-0">
                     <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             Do you provide material test certificates?
                         </button>
                     </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#faqAccordion">
                         <div class="accordion-body text-muted">
                             Yes. EN 10204 3.1 Material Test Certificates are supplied with every order.
                         </div>
@@ -839,13 +1008,16 @@
                 <!-- FAQ Item 5 -->
                 <div class="accordion-item border-0">
                     <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                             Can you manufacture custom sizes and pressure classes?
                         </button>
                     </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#faqAccordion">
                         <div class="accordion-body text-muted">
-                            Yes. We manufacture Socket Weld Flanges in standard and customized sizes, pressure classes, and material grades according to customer specifications.
+                            Yes. We manufacture Socket Weld Flanges in standard and customized sizes, pressure classes, and
+                            material grades according to customer specifications.
                         </div>
                     </div>
                 </div>
@@ -860,7 +1032,9 @@
             <div class="contact-cta-box">
                 <h2>Request a Quote</h2>
                 <p>
-                    Looking for a trusted <strong>Socket Weld Flanges</strong> manufacturer and supplier? Contact <strong>Moksh Tubes & Fittings LLP</strong> for premium-quality forged socket weld flanges, competitive pricing, ready stock, technical support, and fast worldwide delivery. Request your free quotation today.
+                    Looking for a trusted <strong>Socket Weld Flanges</strong> manufacturer and supplier? Contact
+                    <strong>Moksh Tubes & Fittings LLP</strong> for premium-quality forged socket weld flanges, competitive
+                    pricing, ready stock, technical support, and fast worldwide delivery. Request your free quotation today.
                 </p>
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
@@ -870,7 +1044,7 @@
         </div>
     </section>
 
-    
+
     <style>
         .faq-accordion .accordion-button {
             background-color: #e9ecef !important;
@@ -881,14 +1055,17 @@
             padding: 15px 20px;
             border-radius: 0 !important;
         }
+
         .faq-accordion .accordion-button:focus {
             box-shadow: none;
         }
+
         .faq-accordion .accordion-button:not(.collapsed) {
             background-color: #db7227 !important;
             color: #ffffff !important;
             box-shadow: none;
         }
+
         .faq-accordion .accordion-button::after {
             background-image: none !important;
             content: '+';
@@ -904,14 +1081,17 @@
             font-weight: bold;
             line-height: 1;
         }
+
         .faq-accordion .accordion-button:not(.collapsed)::after {
             content: '-';
         }
+
         .faq-accordion .accordion-item {
             border: none;
             margin-bottom: 5px;
             background-color: transparent;
         }
+
         .faq-accordion .accordion-body {
             background-color: #fff;
             border: 1px solid #e9ecef;
@@ -923,74 +1103,74 @@
 
     @verbatim
         <script type="application/ld+json">
-        {
-          "@context": "https://schema.org/",
-          "@type": "Product",
-          "name": "Socket Weld Flanges",
-          "image": "https://mokshtubes.com/assets/images/fasteners/sorf-flanges_11zon.jpg",
-          "description": "Premium-quality Socket Weld Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified.",
-          "brand": {
-            "@type": "Brand",
-            "name": "Moksh Tubes & Fittings LLP"
-          },
-          "manufacturer": {
-            "@type": "Organization",
-            "name": "Moksh Tubes & Fittings LLP",
-            "url": "https://mokshtubes.com"
-          },
-          "offers": {
-            "@type": "AggregateOffer",
-            "url": "https://mokshtubes.com",
-            "priceCurrency": "USD",
-            "price": "1.00",
-            "availability": "https://schema.org/InStock"
-          },
-          "mainEntityOfPage": {
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "What is a Socket Weld Flange?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "A Socket Weld Flange is a flange with a recessed socket that allows a pipe to be inserted and fillet welded, creating a strong and leak-resistant connection."
+                {
+                  "@context": "https://schema.org/",
+                  "@type": "Product",
+                  "name": "Socket Weld Flanges",
+                  "image": "https://mokshtubes.com/assets/images/fasteners/sorf-flanges_11zon.jpg",
+                  "description": "Premium-quality Socket Weld Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified.",
+                  "brand": {
+                    "@type": "Brand",
+                    "name": "Moksh Tubes & Fittings LLP"
+                  },
+                  "manufacturer": {
+                    "@type": "Organization",
+                    "name": "Moksh Tubes & Fittings LLP",
+                    "url": "https://mokshtubes.com"
+                  },
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "url": "https://mokshtubes.com",
+                    "priceCurrency": "USD",
+                    "price": "1.00",
+                    "availability": "https://schema.org/InStock"
+                  },
+                  "mainEntityOfPage": {
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                      {
+                        "@type": "Question",
+                        "name": "What is a Socket Weld Flange?",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "A Socket Weld Flange is a flange with a recessed socket that allows a pipe to be inserted and fillet welded, creating a strong and leak-resistant connection."
+                        }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Where are Socket Weld Flanges commonly used?",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "They are commonly used in high-pressure, small-diameter piping systems found in oil & gas, petrochemical, power generation, chemical processing, and industrial plants."
+                        }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Which materials are available?",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "We manufacture Socket Weld Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades."
+                        }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Do you provide material test certificates?",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order."
+                        }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Can you manufacture custom sizes and pressure classes?",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Yes. We manufacture Socket Weld Flanges in standard and customized sizes, pressure classes, and material grades according to customer specifications."
+                        }
+                      }
+                    ]
+                  }
                 }
-              },
-              {
-                "@type": "Question",
-                "name": "Where are Socket Weld Flanges commonly used?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "They are commonly used in high-pressure, small-diameter piping systems found in oil & gas, petrochemical, power generation, chemical processing, and industrial plants."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Which materials are available?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We manufacture Socket Weld Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you provide material test certificates?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can you manufacture custom sizes and pressure classes?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes. We manufacture Socket Weld Flanges in standard and customized sizes, pressure classes, and material grades according to customer specifications."
-                }
-              }
-            ]
-          }
-        }
-        </script>
+                </script>
     @endverbatim
 @endsection

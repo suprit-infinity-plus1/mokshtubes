@@ -1,22 +1,34 @@
 @extends('layouts.master')
 @section('title', 'Eccentric Reducers | Seamless & Welded Pipe Reducers | Moksh Tubes')
 <!-- 52 characters -->
-@section('meta_description',
-    'High-quality Eccentric Reducers for horizontal pipeline size transitions. Available in Stainless Steel, Carbon Steel, and Alloy Steel in seamless and welded forms.')
-@section('meta_keywords',
-    'Eccentric Reducers, Pipe Reducers, Seamless Reducers, Welded Reducers, Stainless Steel Eccentric Reducer, Carbon Steel Reducers')
+@section(
+    'meta_description',
+    'High-quality Eccentric Reducers for horizontal pipeline size transitions. Available in Stainless Steel, Carbon Steel, and Alloy Steel in seamless and welded forms.'
+)
+@section(
+    'meta_keywords',
+    'Eccentric Reducers, Pipe Reducers, Seamless Reducers, Welded Reducers, Stainless Steel Eccentric Reducer, Carbon Steel Reducers'
+)
 @section('og_image', asset('assets/images/product/flangs/eccentric-reducers_11zon.jpg'))
 @section('og_type', 'product')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/eccentric-reducers_11zon.jpg);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/product/flangs/eccentric-reducers_11zon.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1 class="page-title">Eccentric Reducers (Seamless & Welded)</h1>
-                        <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Eccentric Reducers are essential pipe fittings designed to connect pipes of different diameters in horizontal piping systems. By maintaining a flat side (usually at the bottom), they prevent the accumulation of liquids and trapping of gases. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply precision-manufactured seamless and welded eccentric reducers in carbon steel, alloy steel, stainless steel, duplex, nickel alloys, and titanium—fully compliant with ASME, ANSI, DIN, and EN standards.  
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Eccentric Reducers are essential pipe fittings designed to connect pipes of different diameters in
+                        horizontal piping systems. By maintaining a flat side (usually at the bottom), they prevent the
+                        accumulation of liquids and trapping of gases. At <a href="{{ route('index') }}"
+                            class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply
+                        precision-manufactured seamless and welded eccentric reducers in carbon steel, alloy steel,
+                        stainless steel, duplex, nickel alloys, and titanium—fully compliant with ASME, ANSI, DIN, and EN
+                        standards.
                     </p>
 
                 </div>
@@ -52,14 +64,17 @@
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('/assets/images/product/flangs/eccentric-reducers_11zon.jpg') }}"
-                        alt="Eccentric Reducers" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                        alt="Eccentric Reducers" class="img-fluid rounded shadow-sm" width="550" height="350"
+                        loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Eccentric Reducers</strong> are critical pipeline components designed to reduce the pipe size while keeping one side of the fitting flat. This unique geometry ensures that the bottom (or top) of the pipeline remains level, facilitating complete drainage and preventing cavitation, especially near pump suction lines.
+                        <strong class="text-black">Eccentric Reducers</strong> are critical pipeline components designed to
+                        reduce the pipe size while keeping one side of the fitting flat. This unique geometry ensures that
+                        the bottom (or top) of the pipeline remains level, facilitating complete drainage and preventing
+                        cavitation, especially near pump suction lines.
                     </p>
 
                     <p class="fs-6 mb-3 text-justify">
@@ -71,7 +86,9 @@
                     </p>
 
                     <p class="fs-6 text-justify">
-                        Manufactured using advanced hot-forming and cold-forming processes, our seamless and welded eccentric reducers offer excellent mechanical strength, corrosion resistance, dimensional accuracy, and long service life, even in extreme high-pressure operating conditions.
+                        Manufactured using advanced hot-forming and cold-forming processes, our seamless and welded
+                        eccentric reducers offer excellent mechanical strength, corrosion resistance, dimensional accuracy,
+                        and long service life, even in extreme high-pressure operating conditions.
                     </p>
 
                 </div>
@@ -79,7 +96,7 @@
         </div>
     </section>
     {{-- datasheet --}}
-    
+
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -113,7 +130,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Thickness</td>
-                                    <td>Schedule 5S, 10S, 20S, S10, S20, S30, STD, 40S, S40, S60, XS, 80S, S80, S100, S120, S140, S160, XXS</td>
+                                    <td>Schedule 5S, 10S, 20S, S10, S20, S30, STD, 40S, S40, S60, XS, 80S, S80, S100, S120,
+                                        S140, S160, XXS</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Type</td>
@@ -144,7 +162,7 @@
         </div>
     </section>
 
-   <!-- charts -->
+    <!-- charts -->
     <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
 
         <div class="container">
@@ -173,16 +191,76 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>1" x 1/2"</td><td>33.4</td><td>21.3</td><td>51</td><td>0.12</td></tr>
-                        <tr class="t-row"><td>1-1/2" x 1"</td><td>48.3</td><td>33.4</td><td>64</td><td>0.24</td></tr>
-                        <tr class="t-row"><td>2" x 1"</td><td>60.3</td><td>33.4</td><td>76</td><td>0.40</td></tr>
-                        <tr class="t-row"><td>2" x 1-1/2"</td><td>60.3</td><td>48.3</td><td>76</td><td>0.45</td></tr>
-                        <tr class="t-row"><td>3" x 2"</td><td>88.9</td><td>60.3</td><td>89</td><td>0.85</td></tr>
-                        <tr class="t-row"><td>4" x 2"</td><td>114.3</td><td>60.3</td><td>102</td><td>1.30</td></tr>
-                        <tr class="t-row"><td>4" x 3"</td><td>114.3</td><td>88.9</td><td>102</td><td>1.50</td></tr>
-                        <tr class="t-row"><td>6" x 4"</td><td>168.3</td><td>114.3</td><td>140</td><td>3.20</td></tr>
-                        <tr class="t-row"><td>8" x 6"</td><td>219.1</td><td>168.3</td><td>152</td><td>5.10</td></tr>
-                        <tr class="t-row"><td>10" x 8"</td><td>273.0</td><td>219.1</td><td>178</td><td>7.50</td></tr>
+                        <tr class="t-row">
+                            <td>1" x 1/2"</td>
+                            <td>33.4</td>
+                            <td>21.3</td>
+                            <td>51</td>
+                            <td>0.12</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1-1/2" x 1"</td>
+                            <td>48.3</td>
+                            <td>33.4</td>
+                            <td>64</td>
+                            <td>0.24</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2" x 1"</td>
+                            <td>60.3</td>
+                            <td>33.4</td>
+                            <td>76</td>
+                            <td>0.40</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2" x 1-1/2"</td>
+                            <td>60.3</td>
+                            <td>48.3</td>
+                            <td>76</td>
+                            <td>0.45</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3" x 2"</td>
+                            <td>88.9</td>
+                            <td>60.3</td>
+                            <td>89</td>
+                            <td>0.85</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4" x 2"</td>
+                            <td>114.3</td>
+                            <td>60.3</td>
+                            <td>102</td>
+                            <td>1.30</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4" x 3"</td>
+                            <td>114.3</td>
+                            <td>88.9</td>
+                            <td>102</td>
+                            <td>1.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>6" x 4"</td>
+                            <td>168.3</td>
+                            <td>114.3</td>
+                            <td>140</td>
+                            <td>3.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>8" x 6"</td>
+                            <td>219.1</td>
+                            <td>168.3</td>
+                            <td>152</td>
+                            <td>5.10</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>10" x 8"</td>
+                            <td>273.0</td>
+                            <td>219.1</td>
+                            <td>178</td>
+                            <td>7.50</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -203,18 +281,90 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>1" x 1/2"</td><td>33.4</td><td>21.3</td><td>51</td><td>0.18</td></tr>
-                        <tr class="t-row"><td>1-1/2" x 1"</td><td>48.3</td><td>33.4</td><td>64</td><td>0.35</td></tr>
-                        <tr class="t-row"><td>2" x 1"</td><td>60.3</td><td>33.4</td><td>76</td><td>0.55</td></tr>
-                        <tr class="t-row"><td>2" x 1-1/2"</td><td>60.3</td><td>48.3</td><td>76</td><td>0.65</td></tr>
-                        <tr class="t-row"><td>3" x 2"</td><td>88.9</td><td>60.3</td><td>89</td><td>1.25</td></tr>
-                        <tr class="t-row"><td>4" x 2"</td><td>114.3</td><td>60.3</td><td>102</td><td>1.95</td></tr>
-                        <tr class="t-row"><td>4" x 3"</td><td>114.3</td><td>88.9</td><td>102</td><td>2.25</td></tr>
-                        <tr class="t-row"><td>6" x 4"</td><td>168.3</td><td>114.3</td><td>140</td><td>4.75</td></tr>
-                        <tr class="t-row"><td>8" x 6"</td><td>219.1</td><td>168.3</td><td>152</td><td>7.80</td></tr>
-                        <tr class="t-row"><td>10" x 8"</td><td>273.0</td><td>219.1</td><td>178</td><td>12.5</td></tr>
-                        <tr class="t-row"><td>12" x 10"</td><td>323.8</td><td>273.0</td><td>203</td><td>18.0</td></tr>
-                        <tr class="t-row"><td>16" x 12"</td><td>406.4</td><td>323.8</td><td>356</td><td>35.5</td></tr>
+                        <tr class="t-row">
+                            <td>1" x 1/2"</td>
+                            <td>33.4</td>
+                            <td>21.3</td>
+                            <td>51</td>
+                            <td>0.18</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1-1/2" x 1"</td>
+                            <td>48.3</td>
+                            <td>33.4</td>
+                            <td>64</td>
+                            <td>0.35</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2" x 1"</td>
+                            <td>60.3</td>
+                            <td>33.4</td>
+                            <td>76</td>
+                            <td>0.55</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2" x 1-1/2"</td>
+                            <td>60.3</td>
+                            <td>48.3</td>
+                            <td>76</td>
+                            <td>0.65</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3" x 2"</td>
+                            <td>88.9</td>
+                            <td>60.3</td>
+                            <td>89</td>
+                            <td>1.25</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4" x 2"</td>
+                            <td>114.3</td>
+                            <td>60.3</td>
+                            <td>102</td>
+                            <td>1.95</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4" x 3"</td>
+                            <td>114.3</td>
+                            <td>88.9</td>
+                            <td>102</td>
+                            <td>2.25</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>6" x 4"</td>
+                            <td>168.3</td>
+                            <td>114.3</td>
+                            <td>140</td>
+                            <td>4.75</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>8" x 6"</td>
+                            <td>219.1</td>
+                            <td>168.3</td>
+                            <td>152</td>
+                            <td>7.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>10" x 8"</td>
+                            <td>273.0</td>
+                            <td>219.1</td>
+                            <td>178</td>
+                            <td>12.5</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>12" x 10"</td>
+                            <td>323.8</td>
+                            <td>273.0</td>
+                            <td>203</td>
+                            <td>18.0</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>16" x 12"</td>
+                            <td>406.4</td>
+                            <td>323.8</td>
+                            <td>356</td>
+                            <td>35.5</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -235,18 +385,90 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>1" x 1/2"</td><td>33.4</td><td>21.3</td><td>51</td><td>0.25</td></tr>
-                        <tr class="t-row"><td>1-1/2" x 1"</td><td>48.3</td><td>33.4</td><td>64</td><td>0.50</td></tr>
-                        <tr class="t-row"><td>2" x 1"</td><td>60.3</td><td>33.4</td><td>76</td><td>0.80</td></tr>
-                        <tr class="t-row"><td>2" x 1-1/2"</td><td>60.3</td><td>48.3</td><td>76</td><td>0.90</td></tr>
-                        <tr class="t-row"><td>3" x 2"</td><td>88.9</td><td>60.3</td><td>89</td><td>1.75</td></tr>
-                        <tr class="t-row"><td>4" x 2"</td><td>114.3</td><td>60.3</td><td>102</td><td>2.85</td></tr>
-                        <tr class="t-row"><td>4" x 3"</td><td>114.3</td><td>88.9</td><td>102</td><td>3.20</td></tr>
-                        <tr class="t-row"><td>6" x 4"</td><td>168.3</td><td>114.3</td><td>140</td><td>7.15</td></tr>
-                        <tr class="t-row"><td>8" x 6"</td><td>219.1</td><td>168.3</td><td>152</td><td>12.2</td></tr>
-                        <tr class="t-row"><td>10" x 8"</td><td>273.0</td><td>219.1</td><td>178</td><td>18.5</td></tr>
-                        <tr class="t-row"><td>12" x 10"</td><td>323.8</td><td>273.0</td><td>203</td><td>26.5</td></tr>
-                        <tr class="t-row"><td>16" x 12"</td><td>406.4</td><td>323.8</td><td>356</td><td>52.0</td></tr>
+                        <tr class="t-row">
+                            <td>1" x 1/2"</td>
+                            <td>33.4</td>
+                            <td>21.3</td>
+                            <td>51</td>
+                            <td>0.25</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1-1/2" x 1"</td>
+                            <td>48.3</td>
+                            <td>33.4</td>
+                            <td>64</td>
+                            <td>0.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2" x 1"</td>
+                            <td>60.3</td>
+                            <td>33.4</td>
+                            <td>76</td>
+                            <td>0.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2" x 1-1/2"</td>
+                            <td>60.3</td>
+                            <td>48.3</td>
+                            <td>76</td>
+                            <td>0.90</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3" x 2"</td>
+                            <td>88.9</td>
+                            <td>60.3</td>
+                            <td>89</td>
+                            <td>1.75</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4" x 2"</td>
+                            <td>114.3</td>
+                            <td>60.3</td>
+                            <td>102</td>
+                            <td>2.85</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4" x 3"</td>
+                            <td>114.3</td>
+                            <td>88.9</td>
+                            <td>102</td>
+                            <td>3.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>6" x 4"</td>
+                            <td>168.3</td>
+                            <td>114.3</td>
+                            <td>140</td>
+                            <td>7.15</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>8" x 6"</td>
+                            <td>219.1</td>
+                            <td>168.3</td>
+                            <td>152</td>
+                            <td>12.2</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>10" x 8"</td>
+                            <td>273.0</td>
+                            <td>219.1</td>
+                            <td>178</td>
+                            <td>18.5</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>12" x 10"</td>
+                            <td>323.8</td>
+                            <td>273.0</td>
+                            <td>203</td>
+                            <td>26.5</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>16" x 12"</td>
+                            <td>406.4</td>
+                            <td>323.8</td>
+                            <td>356</td>
+                            <td>52.0</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -267,16 +489,76 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>1" x 1/2"</td><td>33.4</td><td>21.3</td><td>51</td><td>0.35</td></tr>
-                        <tr class="t-row"><td>1-1/2" x 1"</td><td>48.3</td><td>33.4</td><td>64</td><td>0.75</td></tr>
-                        <tr class="t-row"><td>2" x 1"</td><td>60.3</td><td>33.4</td><td>76</td><td>1.25</td></tr>
-                        <tr class="t-row"><td>2" x 1-1/2"</td><td>60.3</td><td>48.3</td><td>76</td><td>1.40</td></tr>
-                        <tr class="t-row"><td>3" x 2"</td><td>88.9</td><td>60.3</td><td>89</td><td>2.60</td></tr>
-                        <tr class="t-row"><td>4" x 2"</td><td>114.3</td><td>60.3</td><td>102</td><td>4.50</td></tr>
-                        <tr class="t-row"><td>4" x 3"</td><td>114.3</td><td>88.9</td><td>102</td><td>5.10</td></tr>
-                        <tr class="t-row"><td>6" x 4"</td><td>168.3</td><td>114.3</td><td>140</td><td>11.5</td></tr>
-                        <tr class="t-row"><td>8" x 6"</td><td>219.1</td><td>168.3</td><td>152</td><td>20.5</td></tr>
-                        <tr class="t-row"><td>10" x 8"</td><td>273.0</td><td>219.1</td><td>178</td><td>31.0</td></tr>
+                        <tr class="t-row">
+                            <td>1" x 1/2"</td>
+                            <td>33.4</td>
+                            <td>21.3</td>
+                            <td>51</td>
+                            <td>0.35</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1-1/2" x 1"</td>
+                            <td>48.3</td>
+                            <td>33.4</td>
+                            <td>64</td>
+                            <td>0.75</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2" x 1"</td>
+                            <td>60.3</td>
+                            <td>33.4</td>
+                            <td>76</td>
+                            <td>1.25</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2" x 1-1/2"</td>
+                            <td>60.3</td>
+                            <td>48.3</td>
+                            <td>76</td>
+                            <td>1.40</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3" x 2"</td>
+                            <td>88.9</td>
+                            <td>60.3</td>
+                            <td>89</td>
+                            <td>2.60</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4" x 2"</td>
+                            <td>114.3</td>
+                            <td>60.3</td>
+                            <td>102</td>
+                            <td>4.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4" x 3"</td>
+                            <td>114.3</td>
+                            <td>88.9</td>
+                            <td>102</td>
+                            <td>5.10</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>6" x 4"</td>
+                            <td>168.3</td>
+                            <td>114.3</td>
+                            <td>140</td>
+                            <td>11.5</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>8" x 6"</td>
+                            <td>219.1</td>
+                            <td>168.3</td>
+                            <td>152</td>
+                            <td>20.5</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>10" x 8"</td>
+                            <td>273.0</td>
+                            <td>219.1</td>
+                            <td>178</td>
+                            <td>31.0</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -297,15 +579,69 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>1" x 1/2"</td><td>33.4</td><td>21.3</td><td>51</td><td>0.45</td></tr>
-                        <tr class="t-row"><td>1-1/2" x 1"</td><td>48.3</td><td>33.4</td><td>64</td><td>0.95</td></tr>
-                        <tr class="t-row"><td>2" x 1"</td><td>60.3</td><td>33.4</td><td>76</td><td>1.60</td></tr>
-                        <tr class="t-row"><td>2" x 1-1/2"</td><td>60.3</td><td>48.3</td><td>76</td><td>1.85</td></tr>
-                        <tr class="t-row"><td>3" x 2"</td><td>88.9</td><td>60.3</td><td>89</td><td>3.50</td></tr>
-                        <tr class="t-row"><td>4" x 2"</td><td>114.3</td><td>60.3</td><td>102</td><td>5.80</td></tr>
-                        <tr class="t-row"><td>4" x 3"</td><td>114.3</td><td>88.9</td><td>102</td><td>6.50</td></tr>
-                        <tr class="t-row"><td>6" x 4"</td><td>168.3</td><td>114.3</td><td>140</td><td>14.8</td></tr>
-                        <tr class="t-row"><td>8" x 6"</td><td>219.1</td><td>168.3</td><td>152</td><td>26.5</td></tr>
+                        <tr class="t-row">
+                            <td>1" x 1/2"</td>
+                            <td>33.4</td>
+                            <td>21.3</td>
+                            <td>51</td>
+                            <td>0.45</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1-1/2" x 1"</td>
+                            <td>48.3</td>
+                            <td>33.4</td>
+                            <td>64</td>
+                            <td>0.95</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2" x 1"</td>
+                            <td>60.3</td>
+                            <td>33.4</td>
+                            <td>76</td>
+                            <td>1.60</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2" x 1-1/2"</td>
+                            <td>60.3</td>
+                            <td>48.3</td>
+                            <td>76</td>
+                            <td>1.85</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3" x 2"</td>
+                            <td>88.9</td>
+                            <td>60.3</td>
+                            <td>89</td>
+                            <td>3.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4" x 2"</td>
+                            <td>114.3</td>
+                            <td>60.3</td>
+                            <td>102</td>
+                            <td>5.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4" x 3"</td>
+                            <td>114.3</td>
+                            <td>88.9</td>
+                            <td>102</td>
+                            <td>6.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>6" x 4"</td>
+                            <td>168.3</td>
+                            <td>114.3</td>
+                            <td>140</td>
+                            <td>14.8</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>8" x 6"</td>
+                            <td>219.1</td>
+                            <td>168.3</td>
+                            <td>152</td>
+                            <td>26.5</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -358,7 +694,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Titanium</td>
-                                    <td><a href="{{ route('materials.titanium') }}">Grades 1, 2</a> for desalination and chemical industries.</td>
+                                    <td><a href="{{ route('materials.titanium') }}">Grades 1, 2</a> for desalination and
+                                        chemical industries.</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -369,7 +706,102 @@
     </section>
 
     {{-- Gallery --}}
-    
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
 
     {{-- Applications --}}
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
@@ -377,7 +809,8 @@
             <div class="section-title center">
                 <h2>Applications of Eccentric Reducers</h2>
                 <p class="text-center pb-3">
-                    <strong class="text-black">Eccentric Reducers</strong> are crucial for industries where horizontal pipelines require diameter reduction without trapping air or fluids:
+                    <strong class="text-black">Eccentric Reducers</strong> are crucial for industries where horizontal
+                    pipelines require diameter reduction without trapping air or fluids:
                 </p>
             </div>
 
@@ -442,9 +875,9 @@
 
     {{-- Industries We Serve --}}
     <!-- Buying Guide Section -->
-    
 
-    
+
+
 
     {{-- Uses --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -453,7 +886,8 @@
                 <h2>Uses of Eccentric Reducers</h2>
             </div>
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Eccentric Reducers provide critical advantages across multiple piping scenarios:</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Eccentric Reducers provide critical advantages across
+                    multiple piping scenarios:</h4>
             </div>
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
@@ -530,9 +964,9 @@
 
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties – Eccentric Reducers</h2>
-                 <p class="text-center">(Typical values for common grades)</p>
+                <p class="text-center">(Typical values for common grades)</p>
             </div>
 
             <div class="table-responsive">
@@ -552,13 +986,13 @@
                             <td>240</td>
                             <td>22</td>
                         </tr>
-                         <tr class="t-row">
+                        <tr class="t-row">
                             <td>A403 WP316 (Stainless)</td>
                             <td>515</td>
                             <td>205</td>
                             <td>28</td>
                         </tr>
-                         <tr class="t-row">
+                        <tr class="t-row">
                             <td>A815 S31803 (Duplex)</td>
                             <td>620</td>
                             <td>450</td>
@@ -570,20 +1004,22 @@
         </div>
     </section>
 
-    
 
-     <section class="sec-padd-top sec-padd-bottom bg-light">
+
+    <!-- <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>
             </div>
-            <p class="fs-5">We supply Eccentric Reducers to major Indian industrial hubs including Mumbai, Chennai, Ahmedabad, Pune, and Hyderabad, supporting domestic EPC and oil & gas projects.</p>
-            <p class="fs-5">We actively export to the Middle East, supplying high-quality fittings to UAE, Saudi Arabia, Qatar, Oman, and Kuwait for petrochemical, refinery, and pipeline infrastructure.</p>
+            <p class="fs-5">We supply Eccentric Reducers to major Indian industrial hubs including Mumbai, Chennai,
+                Ahmedabad, Pune, and Hyderabad, supporting domestic EPC and oil & gas projects.</p>
+            <p class="fs-5">We actively export to the Middle East, supplying high-quality fittings to UAE, Saudi Arabia,
+                Qatar, Oman, and Kuwait for petrochemical, refinery, and pipeline infrastructure.</p>
         </div>
-    </section>
+    </section> -->
 
-     <!-- Testing & Quality Control -->
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Testing & Quality Control -->
+    <!-- <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Testing & Quality Control for Eccentric Reducers</h2>
@@ -633,7 +1069,7 @@
                     </div>
                 </div>
             </div>
-    </section>
+    </section> -->
 
     {{-- why choose us --}}
     <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
@@ -699,7 +1135,10 @@
                                 <h4>What is the difference between an eccentric and a concentric reducer?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>An eccentric reducer reduces the pipe size while keeping one edge of the pipe straight (offset), preventing liquid pooling or gas trapping in horizontal pipelines. A concentric reducer reduces the pipe size symmetrically, keeping the centerline the same, and is primarily used in vertical pipelines.</p>
+                                <p>An eccentric reducer reduces the pipe size while keeping one edge of the pipe straight
+                                    (offset), preventing liquid pooling or gas trapping in horizontal pipelines. A
+                                    concentric reducer reduces the pipe size symmetrically, keeping the centerline the same,
+                                    and is primarily used in vertical pipelines.</p>
                             </div>
                         </div>
 
@@ -708,7 +1147,9 @@
                                 <h4>Why use an eccentric reducer at a pump suction?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>At pump suctions, eccentric reducers are installed Top Flat (FOT). This prevents air or gas pockets from accumulating at the top of the pipe, which could enter the pump and cause cavitation damage.</p>
+                                <p>At pump suctions, eccentric reducers are installed Top Flat (FOT). This prevents air or
+                                    gas pockets from accumulating at the top of the pipe, which could enter the pump and
+                                    cause cavitation damage.</p>
                             </div>
                         </div>
 
@@ -717,7 +1158,9 @@
                                 <h4>When should the reducer be installed Bottom Flat (FOB)?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Eccentric reducers are installed Bottom Flat on horizontal piperacks. This maintains a consistent bottom-of-pipe (BOP) elevation across pipe supports and ensures complete drainage of the pipeline during shutdowns.</p>
+                                <p>Eccentric reducers are installed Bottom Flat on horizontal piperacks. This maintains a
+                                    consistent bottom-of-pipe (BOP) elevation across pipe supports and ensures complete
+                                    drainage of the pipeline during shutdowns.</p>
                             </div>
                         </div>
 
@@ -726,7 +1169,9 @@
                                 <h4>What materials do you offer for eccentric reducers?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>We offer them in Stainless Steel (304, 316), Carbon Steel (WPB), Alloy Steel, Duplex/Super Duplex, and Nickel Alloys, depending on the pressure, temperature, and corrosive nature of the fluid.</p>
+                                <p>We offer them in Stainless Steel (304, 316), Carbon Steel (WPB), Alloy Steel,
+                                    Duplex/Super Duplex, and Nickel Alloys, depending on the pressure, temperature, and
+                                    corrosive nature of the fluid.</p>
                             </div>
                         </div>
 
@@ -740,8 +1185,10 @@
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
-                <p>For further information, quotes, or customized eccentric reducers, <strong>Moksh Tubes & Fittings LLP</strong> is your dependable partner for industrial piping solutions.</p>
-                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal" data-bs-target="#contactFormModal">
+                <p>For further information, quotes, or customized eccentric reducers, <strong>Moksh Tubes & Fittings
+                        LLP</strong> is your dependable partner for industrial piping solutions.</p>
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
                     Get in Touch
                 </a>
             </div>
@@ -778,103 +1225,103 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": ["Organization", "LocalBusiness"],
-              "@id": "https://mokshtubes.com/#organization",
-              "name": "Moksh Tubes & Fittings LLP",
-              "url": "https://mokshtubes.com/",
-              "logo": "https://mokshtubes.com/assets/images/logo.webp",
-              "telephone": "+91-9769584950",
-              "email": "info@mokshtubes.com",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Mumbai",
-                "addressRegion": "MH",
-                "addressCountry": "IN"
-              }
-            },
-            {
-              "@type": "WebSite",
-              "@id": "https://mokshtubes.com/#website",
-              "url": "https://mokshtubes.com/",
-              "name": "Moksh Tubes & Fittings LLP"
-            },
-            {
-              "@type": "WebPage",
-              "@id": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers#webpage",
-              "name": "Eccentric Reducers | Moksh Tubes & Fittings LLP",
-              "url": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers",
-              "description": "High-quality Eccentric Reducers for horizontal pipeline size transitions. Available in Stainless Steel, Carbon Steel, and Alloy Steel.",
-              "isPartOf": { "@id": "https://mokshtubes.com/#website" },
-              "primaryImageOfPage": { "@id": "https://mokshtubes.com/#product-image" }
-            },
-            {
-              "@type": ["Product", "Service"],
-              "@id": "https://mokshtubes.com/#eccentric-reducers",
-              "name": "Eccentric Reducers",
-              "url": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers",
-              "image": "https://mokshtubes.com/assets/images/product/flangs/eccentric-reducers_11zon.jpg",
-              "category": "Pipe Fittings",
-              "description": "Seamless and welded eccentric reducers designed to prevent cavitation and fluid pooling in horizontal pipelines. Manufactured to ASME B16.9 standards.",
-              "brand": {
-                "@type": "Brand",
-                "@id": "https://mokshtubes.com/#organization",
-                "name": "Moksh Tubes & Fittings LLP"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "@id": "https://mokshtubes.com/#organization"
-              },
-              "material": [
-                "Stainless Steel",
-                "Carbon Steel",
-                "Alloy Steel",
-                "Duplex & Super Duplex"
-              ],
-              "offers": {
-                "@type": "Offer",
-                "@id": "https://mokshtubes.com/#offer",
-                "url": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers",
-                "availability": "https://schema.org/InStock",
-                "priceCurrency": "USD",
-                "price": "0.00",
-                "priceValidUntil": "2030-12-31",
-                "businessFunction": "https://schema.org/Sell",
-                "seller": { "@id": "https://mokshtubes.com/#organization" }
-              }
-            },
-            {
-              "@type": "ImageObject",
-              "@id": "https://mokshtubes.com/#product-image",
-              "url": "https://mokshtubes.com/assets/images/product/flangs/eccentric-reducers_11zon.jpg",
-              "description": "Eccentric Reducers"
-            },
-            {
-              "@type": "FAQPage",
-              "@id": "https://mokshtubes.com/#faq-eccentric-reducers",
-              "mainEntity": [
                 {
-                  "@type": "Question",
-                  "name": "What is the difference between an eccentric and a concentric reducer?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "An eccentric reducer reduces the pipe size while keeping one edge straight to prevent pooling in horizontal lines, while a concentric reducer reduces symmetrically for vertical lines." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Why use an eccentric reducer at a pump suction?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Top Flat (FOT) installation prevents air pockets from forming before the fluid enters the pump, avoiding cavitation damage." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "When should the reducer be installed Bottom Flat (FOB)?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Bottom Flat installation is used on horizontal piperacks to maintain pipe support elevation and allow for complete drainage." }
+                  "@context": "https://schema.org",
+                  "@graph": [
+                    {
+                      "@type": ["Organization", "LocalBusiness"],
+                      "@id": "https://mokshtubes.com/#organization",
+                      "name": "Moksh Tubes & Fittings LLP",
+                      "url": "https://mokshtubes.com/",
+                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                      "telephone": "+91-9769584950",
+                      "email": "info@mokshtubes.com",
+                      "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Mumbai",
+                        "addressRegion": "MH",
+                        "addressCountry": "IN"
+                      }
+                    },
+                    {
+                      "@type": "WebSite",
+                      "@id": "https://mokshtubes.com/#website",
+                      "url": "https://mokshtubes.com/",
+                      "name": "Moksh Tubes & Fittings LLP"
+                    },
+                    {
+                      "@type": "WebPage",
+                      "@id": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers#webpage",
+                      "name": "Eccentric Reducers | Moksh Tubes & Fittings LLP",
+                      "url": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers",
+                      "description": "High-quality Eccentric Reducers for horizontal pipeline size transitions. Available in Stainless Steel, Carbon Steel, and Alloy Steel.",
+                      "isPartOf": { "@id": "https://mokshtubes.com/#website" },
+                      "primaryImageOfPage": { "@id": "https://mokshtubes.com/#product-image" }
+                    },
+                    {
+                      "@type": ["Product", "Service"],
+                      "@id": "https://mokshtubes.com/#eccentric-reducers",
+                      "name": "Eccentric Reducers",
+                      "url": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers",
+                      "image": "https://mokshtubes.com/assets/images/product/flangs/eccentric-reducers_11zon.jpg",
+                      "category": "Pipe Fittings",
+                      "description": "Seamless and welded eccentric reducers designed to prevent cavitation and fluid pooling in horizontal pipelines. Manufactured to ASME B16.9 standards.",
+                      "brand": {
+                        "@type": "Brand",
+                        "@id": "https://mokshtubes.com/#organization",
+                        "name": "Moksh Tubes & Fittings LLP"
+                      },
+                      "manufacturer": {
+                        "@type": "Organization",
+                        "@id": "https://mokshtubes.com/#organization"
+                      },
+                      "material": [
+                        "Stainless Steel",
+                        "Carbon Steel",
+                        "Alloy Steel",
+                        "Duplex & Super Duplex"
+                      ],
+                      "offers": {
+                        "@type": "Offer",
+                        "@id": "https://mokshtubes.com/#offer",
+                        "url": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers",
+                        "availability": "https://schema.org/InStock",
+                        "priceCurrency": "USD",
+                        "price": "0.00",
+                        "priceValidUntil": "2030-12-31",
+                        "businessFunction": "https://schema.org/Sell",
+                        "seller": { "@id": "https://mokshtubes.com/#organization" }
+                      }
+                    },
+                    {
+                      "@type": "ImageObject",
+                      "@id": "https://mokshtubes.com/#product-image",
+                      "url": "https://mokshtubes.com/assets/images/product/flangs/eccentric-reducers_11zon.jpg",
+                      "description": "Eccentric Reducers"
+                    },
+                    {
+                      "@type": "FAQPage",
+                      "@id": "https://mokshtubes.com/#faq-eccentric-reducers",
+                      "mainEntity": [
+                        {
+                          "@type": "Question",
+                          "name": "What is the difference between an eccentric and a concentric reducer?",
+                          "acceptedAnswer": { "@type": "Answer", "text": "An eccentric reducer reduces the pipe size while keeping one edge straight to prevent pooling in horizontal lines, while a concentric reducer reduces symmetrically for vertical lines." }
+                        },
+                        {
+                          "@type": "Question",
+                          "name": "Why use an eccentric reducer at a pump suction?",
+                          "acceptedAnswer": { "@type": "Answer", "text": "Top Flat (FOT) installation prevents air pockets from forming before the fluid enters the pump, avoiding cavitation damage." }
+                        },
+                        {
+                          "@type": "Question",
+                          "name": "When should the reducer be installed Bottom Flat (FOB)?",
+                          "acceptedAnswer": { "@type": "Answer", "text": "Bottom Flat installation is used on horizontal piperacks to maintain pipe support elevation and allow for complete drainage." }
+                        }
+                      ]
+                    }
+                  ]
                 }
-              ]
-            }
-          ]
-        }
-        </script>
+                </script>
     @endverbatim
 @endsection

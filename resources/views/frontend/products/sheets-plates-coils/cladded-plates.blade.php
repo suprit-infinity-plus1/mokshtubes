@@ -9,7 +9,8 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/Sheets-Plates-and-Coils/Cladded-Plates.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/product/Sheets-Plates-and-Coils/Cladded-Plates.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -17,7 +18,11 @@
 
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Cladded Plates are advanced composite metal plates combining a corrosion-resistant alloy layer with a strong structural base material. Moksh Tubes & Fittings LLP supplies high-quality cladded plates manufactured using explosive bonding, roll bonding, and weld overlay techniques. These plates offer superior corrosion resistance, strength, and cost efficiency, making them ideal for oil & gas, petrochemical, marine, and power generation industries across India and global markets.
+                        Cladded Plates are advanced composite metal plates combining a corrosion-resistant alloy layer with
+                        a strong structural base material. Moksh Tubes & Fittings LLP supplies high-quality cladded plates
+                        manufactured using explosive bonding, roll bonding, and weld overlay techniques. These plates offer
+                        superior corrosion resistance, strength, and cost efficiency, making them ideal for oil & gas,
+                        petrochemical, marine, and power generation industries across India and global markets.
                     </p>
                 </div>
             </div>
@@ -57,23 +62,31 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Cladded-Plates.webp') }}" alt="Cladded Plates"
-                        class="img-fluid rounded shadow-sm" loading="lazy">
+                    <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Cladded-Plates.webp') }}"
+                        alt="Cladded Plates" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong class="text-black">Cladded Plates</strong> are composite materials formed by bonding two or more metals to achieve combined properties that cannot be obtained with a single material. Typically, a corrosion-resistant alloy such as stainless steel, nickel alloy, or titanium is bonded to a carbon steel or low-alloy steel base.
+                            <strong class="text-black">Cladded Plates</strong> are composite materials formed by bonding two
+                            or more metals to achieve combined properties that cannot be obtained with a single material.
+                            Typically, a corrosion-resistant alloy such as stainless steel, nickel alloy, or titanium is
+                            bonded to a carbon steel or low-alloy steel base.
                         </p>
 
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            This combination provides the structural strength and cost efficiency of the base metal while offering corrosion resistance and durability from the cladding layer. Cladded plates are widely used in critical applications where both performance and cost optimization are required.
+                            This combination provides the structural strength and cost efficiency of the base metal while
+                            offering corrosion resistance and durability from the cladding layer. Cladded plates are widely
+                            used in critical applications where both performance and cost optimization are required.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings LLP</a></strong>, we supply premium-quality cladded plates manufactured through advanced techniques such as explosive bonding, roll bonding, and weld overlay. Our products comply with ASTM, ASME, and API standards for demanding industrial environments.
+                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings
+                                    LLP</a></strong>, we supply premium-quality cladded plates manufactured through advanced
+                            techniques such as explosive bonding, roll bonding, and weld overlay. Our products comply with
+                            ASTM, ASME, and API standards for demanding industrial environments.
                         </p>
                     </div>
                 </div>
@@ -81,7 +94,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -100,14 +113,38 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Base Material</td><td>Carbon Steel (ASTM A516, A36), Low Alloy Steel</td></tr>
-                                <tr class="t-row"><td>Cladding Material</td><td>Stainless Steel, Duplex, Nickel Alloys, Titanium, Copper Alloys</td></tr>
-                                <tr class="t-row"><td>Total Thickness</td><td>3 mm to 200 mm</td></tr>
-                                <tr class="t-row"><td>Cladding Thickness</td><td>1 mm to 25 mm</td></tr>
-                                <tr class="t-row"><td>Plate Size</td><td>Up to 3000 mm × 12000 mm</td></tr>
-                                <tr class="t-row"><td>Bonding Methods</td><td>Explosive Bonding, Roll Bonding, Weld Overlay</td></tr>
-                                <tr class="t-row"><td>Finishes</td><td>Mill Finish, Pickled & Passivated, Polished</td></tr>
-                                <tr class="t-row"><td>Standards</td><td>ASTM B898, ASME SA263/264/265, API</td></tr>
+                                <tr class="t-row">
+                                    <td>Base Material</td>
+                                    <td>Carbon Steel (ASTM A516, A36), Low Alloy Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Cladding Material</td>
+                                    <td>Stainless Steel, Duplex, Nickel Alloys, Titanium, Copper Alloys</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Total Thickness</td>
+                                    <td>3 mm to 200 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Cladding Thickness</td>
+                                    <td>1 mm to 25 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Plate Size</td>
+                                    <td>Up to 3000 mm × 12000 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Bonding Methods</td>
+                                    <td>Explosive Bonding, Roll Bonding, Weld Overlay</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Finishes</td>
+                                    <td>Mill Finish, Pickled & Passivated, Polished</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM B898, ASME SA263/264/265, API</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -128,14 +165,44 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Thickness</th><th>MS + SS</th><th>MS + Copper</th><th>SS + Aluminium</th></tr>
+                                <tr class="t-row">
+                                    <th>Thickness</th>
+                                    <th>MS + SS</th>
+                                    <th>MS + Copper</th>
+                                    <th>SS + Aluminium</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>5 mm</td><td>39.2</td><td>40.2</td><td>37.1</td></tr>
-                                <tr class="t-row"><td>10 mm</td><td>78.5</td><td>80.6</td><td>73.8</td></tr>
-                                <tr class="t-row"><td>20 mm</td><td>157.0</td><td>161.2</td><td>147.6</td></tr>
-                                <tr class="t-row"><td>30 mm</td><td>235.5</td><td>241.8</td><td>221.5</td></tr>
-                                <tr class="t-row"><td>50 mm</td><td>392.5</td><td>402.9</td><td>368.9</td></tr>
+                                <tr class="t-row">
+                                    <td>5 mm</td>
+                                    <td>39.2</td>
+                                    <td>40.2</td>
+                                    <td>37.1</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>10 mm</td>
+                                    <td>78.5</td>
+                                    <td>80.6</td>
+                                    <td>73.8</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>20 mm</td>
+                                    <td>157.0</td>
+                                    <td>161.2</td>
+                                    <td>147.6</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>30 mm</td>
+                                    <td>235.5</td>
+                                    <td>241.8</td>
+                                    <td>221.5</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>50 mm</td>
+                                    <td>392.5</td>
+                                    <td>402.9</td>
+                                    <td>368.9</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -201,6 +268,104 @@
             </div>
         </div>
     </section>
+
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
 
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -269,9 +434,18 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Carbon Steel Base</td><td>400–550</td></tr>
-                                <tr class="t-row"><td>Stainless Steel Clad</td><td>515</td></tr>
-                                <tr class="t-row"><td>Nickel Alloy</td><td>600+</td></tr>
+                                <tr class="t-row">
+                                    <td>Carbon Steel Base</td>
+                                    <td>400–550</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Stainless Steel Clad</td>
+                                    <td>515</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nickel Alloy</td>
+                                    <td>600+</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -323,22 +497,24 @@
                 </div>
             </div>
 
-            <div class="row mt-5 justify-content-center text-start">
-                <div class="col-lg-8">
-                    <div class="p-4 rounded shadow-sm bg-light border">
-                        <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Cladded Plates</h4>
-                        <p class="mb-2"><strong>Before selecting:</strong></p>
-                        <ul class="list-unstyled">
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Base material strength requirement</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Cladding material type</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness ratio (base vs clad)</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application environment</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Corrosion resistance needs</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Standard compliance</li>
-                        </ul>
+            <!-- <div class="row mt-5 justify-content-center text-start">
+                    <div class="col-lg-8">
+                        <div class="p-4 rounded shadow-sm bg-light border">
+                            <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Cladded Plates</h4>
+                            <p class="mb-2"><strong>Before selecting:</strong></p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Base material strength requirement
+                                </li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Cladding material type</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness ratio (base vs clad)
+                                </li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application environment</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Corrosion resistance needs</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Standard compliance</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </div> -->
         </div>
     </section>
 
@@ -371,7 +547,7 @@
                                 <p>Carbon steel base with SS, nickel, titanium, or copper cladding.</p>
                             </div>
                         </div>
-                        
+
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -391,7 +567,7 @@
                                 <p>3 mm to 200 mm total thickness.</p>
                             </div>
                         </div>
-                        
+
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -432,114 +608,114 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-        [{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Moksh Tubes & Fittings LLP",
-            "url": "https://www.mokshtubes.com",
-            "logo": "https://www.mokshtubes.com/assets/logo.png",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91-97695-84950",
-                "contactType": "sales",
-                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                "availableLanguage": ["English"]
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "Cladded Plates | Stainless Steel & Nickel Alloy Clad Plates",
-            "description": "Buy cladded plates with stainless steel, nickel alloy & titanium cladding. High strength, corrosion-resistant plates for industrial use.",
-            "brand": {
-                "@type": "Brand",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "manufacturer": {
-                "@type": "Organization",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "material": "Carbon Steel Base with Stainless Steel, Duplex, Nickel Alloys, Titanium, Copper Alloys Cladding",
-            "url": "https://www.mokshtubes.com/cladded-plates",
-            "offers": {
-                "@type": "Offer",
-                "availability": "https://schema.org/InStock",
-                "priceCurrency": "INR",
-                "url": "https://www.mokshtubes.com/contact-us"
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [{
-                "@type": "Question",
-                "name": "Q1. What are cladded plates?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Composite plates combining two metals for strength and corrosion resistance."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q2. What materials are used?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Carbon steel base with SS, nickel, titanium, or copper cladding."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q3. What bonding methods are used?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Explosive bonding, roll bonding, weld overlay."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q4. What thickness range is available?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "3 mm to 200 mm total thickness."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q5. Where are they used?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Oil & gas, petrochemical, marine, power plants."
-                }
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.mokshtubes.com"
-            },{
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Products",
-                "item": "https://www.mokshtubes.com/products"
-            },{
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Cladded Plates",
-                "item": "https://www.mokshtubes.com/cladded-plates"
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Moksh Tubes & Fittings LLP",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "India"
-            },
-            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-            "telephone": "+91-97695-84950"
-        }]
-        @endverbatim
-    </script>
+                @verbatim
+                    [{
+                        "@context": "https://schema.org",
+                        "@type": "Organization",
+                        "name": "Moksh Tubes & Fittings LLP",
+                        "url": "https://www.mokshtubes.com",
+                        "logo": "https://www.mokshtubes.com/assets/logo.png",
+                        "contactPoint": {
+                            "@type": "ContactPoint",
+                            "telephone": "+91-97695-84950",
+                            "contactType": "sales",
+                            "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                            "availableLanguage": ["English"]
+                        }
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Product",
+                        "name": "Cladded Plates | Stainless Steel & Nickel Alloy Clad Plates",
+                        "description": "Buy cladded plates with stainless steel, nickel alloy & titanium cladding. High strength, corrosion-resistant plates for industrial use.",
+                        "brand": {
+                            "@type": "Brand",
+                            "name": "Moksh Tubes & Fittings LLP"
+                        },
+                        "manufacturer": {
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP"
+                        },
+                        "material": "Carbon Steel Base with Stainless Steel, Duplex, Nickel Alloys, Titanium, Copper Alloys Cladding",
+                        "url": "https://www.mokshtubes.com/cladded-plates",
+                        "offers": {
+                            "@type": "Offer",
+                            "availability": "https://schema.org/InStock",
+                            "priceCurrency": "INR",
+                            "url": "https://www.mokshtubes.com/contact-us"
+                        }
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [{
+                            "@type": "Question",
+                            "name": "Q1. What are cladded plates?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Composite plates combining two metals for strength and corrosion resistance."
+                            }
+                        },{
+                            "@type": "Question",
+                            "name": "Q2. What materials are used?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Carbon steel base with SS, nickel, titanium, or copper cladding."
+                            }
+                        },{
+                            "@type": "Question",
+                            "name": "Q3. What bonding methods are used?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Explosive bonding, roll bonding, weld overlay."
+                            }
+                        },{
+                            "@type": "Question",
+                            "name": "Q4. What thickness range is available?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "3 mm to 200 mm total thickness."
+                            }
+                        },{
+                            "@type": "Question",
+                            "name": "Q5. Where are they used?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oil & gas, petrochemical, marine, power plants."
+                            }
+                        }]
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [{
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https://www.mokshtubes.com"
+                        },{
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Products",
+                            "item": "https://www.mokshtubes.com/products"
+                        },{
+                            "@type": "ListItem",
+                            "position": 3,
+                            "name": "Cladded Plates",
+                            "item": "https://www.mokshtubes.com/cladded-plates"
+                        }]
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "LocalBusiness",
+                        "name": "Moksh Tubes & Fittings LLP",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressCountry": "India"
+                        },
+                        "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                        "telephone": "+91-97695-84950"
+                    }]
+                @endverbatim
+            </script>
 @endsection

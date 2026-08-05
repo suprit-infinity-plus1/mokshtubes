@@ -11,14 +11,21 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/90-degree-elbows_11zon.jpeg);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/product/flangs/90-degree-elbows_11zon.jpeg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1 class="page-title">90 Degree Bend Manufacturer, Supplier & Exporter in India</h1>
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        90 Degree Bends are high-quality pipe fittings designed to change the direction of fluid flow by 90 degrees while providing a smoother flow path than standard elbows. They are commonly used in industrial piping systems where a larger bending radius helps reduce pressure loss and improve flow efficiency. At Moksh Tubes & Fittings LLP, we manufacture, supply, and export premium-quality 90 Degree Bends in stainless steel, carbon steel, alloy steel, duplex, and super duplex materials. Our bends are manufactured to international standards, ensuring superior strength, corrosion resistance, and long-lasting performance for demanding industrial applications.
+                        90 Degree Bends are high-quality pipe fittings designed to change the direction of fluid flow by 90
+                        degrees while providing a smoother flow path than standard elbows. They are commonly used in
+                        industrial piping systems where a larger bending radius helps reduce pressure loss and improve flow
+                        efficiency. At Moksh Tubes & Fittings LLP, we manufacture, supply, and export premium-quality 90
+                        Degree Bends in stainless steel, carbon steel, alloy steel, duplex, and super duplex materials. Our
+                        bends are manufactured to international standards, ensuring superior strength, corrosion resistance,
+                        and long-lasting performance for demanding industrial applications.
                     </p>
                 </div>
             </div>
@@ -51,17 +58,24 @@
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('/assets/images/product/flangs/90-degree-elbows_11zon.jpeg') }}"
-                        alt="90 Degree Bend Manufacturer in India" class="img-fluid rounded shadow-sm" width="550" height="350"
-                        loading="lazy">
+                        alt="90 Degree Bend Manufacturer in India" class="img-fluid rounded shadow-sm" width="550"
+                        height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        A <strong>90 Degree Bend</strong> is a pipe fitting used to redirect the flow of liquids, gases, or steam by 90 degrees with a larger radius than a standard elbow. This larger bend radius minimizes turbulence, reduces pressure drop, and improves flow efficiency, making it ideal for high-flow and high-pressure piping systems. These bends are widely used in oil & gas, chemical processing, power plants, water treatment, marine, petrochemical, and industrial process piping.
+                        A <strong>90 Degree Bend</strong> is a pipe fitting used to redirect the flow of liquids, gases, or
+                        steam by 90 degrees with a larger radius than a standard elbow. This larger bend radius minimizes
+                        turbulence, reduces pressure drop, and improves flow efficiency, making it ideal for high-flow and
+                        high-pressure piping systems. These bends are widely used in oil & gas, chemical processing, power
+                        plants, water treatment, marine, petrochemical, and industrial process piping.
                     </p>
                     <p class="fs-6 mb-3 text-justify">
-                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture 90 Degree Bends in various sizes, wall thicknesses, and material grades to meet the requirements of industrial projects in India and international export markets. Our products undergo strict quality inspections to ensure reliable performance, dimensional accuracy, and long service life.
+                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture 90 Degree Bends in
+                        various sizes, wall thicknesses, and material grades to meet the requirements of industrial projects
+                        in India and international export markets. Our products undergo strict quality inspections to ensure
+                        reliable performance, dimensional accuracy, and long service life.
                     </p>
                 </div>
             </div>
@@ -69,7 +83,7 @@
     </section>
 
     {{-- datasheet --}}
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -127,13 +141,15 @@
         </div>
     </section>
 
-    
+
 
     <section id="dimensions" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart</h2>
-                <p class="text-center">The dimensions and approximate weights of 90 Degree Bends vary depending on the nominal pipe size, schedule, and bend radius. Below is a standard reference chart for Long Radius (3D) 90 Degree Bends.</p>
+                <p class="text-center">The dimensions and approximate weights of 90 Degree Bends vary depending on the
+                    nominal pipe size, schedule, and bend radius. Below is a standard reference chart for Long Radius (3D)
+                    90 Degree Bends.</p>
             </div>
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
@@ -227,7 +243,9 @@
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-3">Note: Dimensions and weights are approximate and may vary based on the selected material grade, wall thickness (Schedule), manufacturing standard, and bend radius (3D, 5D, 10D, or custom). Custom sizes and dimensions are available on request.</p>
+            <p class="text-center mt-3">Note: Dimensions and weights are approximate and may vary based on the selected
+                material grade, wall thickness (Schedule), manufacturing standard, and bend radius (3D, 5D, 10D, or custom).
+                Custom sizes and dimensions are available on request.</p>
         </div>
     </section>
 
@@ -241,12 +259,18 @@
                     <div class="card p-4 shadow-sm mb-4">
                         <h4 class="text-center" style="color: #db7227;">Available Grades</h4>
                         <ul class="list-group list-group-flush mt-3">
-                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Stainless Steel 304 / 304L</li>
-                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Stainless Steel 316 / 316L</li>
-                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Carbon Steel ASTM A234 WPB</li>
-                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Alloy Steel ASTM A234 WP11 / WP22</li>
-                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Duplex Stainless Steel S31803 / S32205</li>
-                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Super Duplex Stainless Steel S32750 / S32760</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Stainless
+                                Steel 304 / 304L</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Stainless
+                                Steel 316 / 316L</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Carbon
+                                Steel ASTM A234 WPB</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Alloy
+                                Steel ASTM A234 WP11 / WP22</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Duplex
+                                Stainless Steel S31803 / S32205</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> Super
+                                Duplex Stainless Steel S32750 / S32760</li>
                         </ul>
                     </div>
                 </div>
@@ -266,63 +290,103 @@
         </div>
     </section>
 
-    <section id="features" class="sec-padd-top sec-padd-bottom">
+    {{-- Gallery --}}
+
+    <section class="our-services">
         <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Features & Advantages</h2>
+            <div class="container">
             </div>
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Smooth flow with reduced pressure loss</h5>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Excellent corrosion resistance</h5>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                        <h5>High mechanical strength</h5>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Suitable for high-pressure and high-temperature applications</h5>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
-                        <h5>Larger bend radius reduces turbulence</h5>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-link-45deg"></i></div>
-                        <h5>Leak-proof butt weld connection</h5>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
-                        <h5>Long service life</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Manufactured to international quality standards</h5>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
+    {{-- Gallery --}}
 
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -389,6 +453,64 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-tools"></i></div>
                         <h5>Industrial Process Piping</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Features & Advantages</h2>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Smooth flow with reduced pressure loss</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h5>Excellent corrosion resistance</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                        <h5>High mechanical strength</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h5>Suitable for high-pressure and high-temperature applications</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
+                        <h5>Larger bend radius reduces turbulence</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-link-45deg"></i></div>
+                        <h5>Leak-proof butt weld connection</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h5>Long service life</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-award-fill"></i></div>
+                        <h5>Manufactured to international quality standards</h5>
                     </div>
                 </div>
             </div>
@@ -468,7 +590,9 @@
                     </tbody>
                 </table>
             </div>
-            <p class="mt-3 text-center">Note: The above values are typical mechanical properties in accordance with the relevant ASTM and ASME standards. Actual values may vary slightly depending on the material grade, manufacturing process, heat treatment, and product dimensions.</p>
+            <p class="mt-3 text-center">Note: The above values are typical mechanical properties in accordance with the
+                relevant ASTM and ASME standards. Actual values may vary slightly depending on the material grade,
+                manufacturing process, heat treatment, and product dimensions.</p>
         </div>
     </section>
 
@@ -551,7 +675,8 @@
                                 <h4>What is a 90 Degree Bend?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>A 90 Degree Bend is a pipe fitting that changes the direction of a pipeline by 90 degrees using a larger bend radius to improve flow efficiency and reduce pressure loss.</p>
+                                <p>A 90 Degree Bend is a pipe fitting that changes the direction of a pipeline by 90 degrees
+                                    using a larger bend radius to improve flow efficiency and reduce pressure loss.</p>
                             </div>
                         </div>
 
@@ -560,7 +685,9 @@
                                 <h4>What is the difference between a 90 Degree Bend and a 90 Degree Elbow?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>A bend has a larger radius, resulting in smoother flow and lower pressure drop, while an elbow has a shorter radius and is typically used where installation space is limited.</p>
+                                <p>A bend has a larger radius, resulting in smoother flow and lower pressure drop, while an
+                                    elbow has a shorter radius and is typically used where installation space is limited.
+                                </p>
                             </div>
                         </div>
 
@@ -569,7 +696,8 @@
                                 <h4>Which materials are available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>We manufacture 90 Degree Bends in stainless steel, carbon steel, alloy steel, duplex, and super duplex materials.</p>
+                                <p>We manufacture 90 Degree Bends in stainless steel, carbon steel, alloy steel, duplex, and
+                                    super duplex materials.</p>
                             </div>
                         </div>
 
@@ -602,7 +730,9 @@
         <div class="container">
             <div class="contact-cta-box text-center">
                 <h2 class="fw-bold" style="color: #db7227;">Request a Quote</h2>
-                <p>Looking for high-quality 90 Degree Bends for your industrial piping project? Moksh Tubes & Fittings LLP offers premium-quality bends with competitive pricing, reliable quality, and fast worldwide delivery. Contact us today to discuss your requirements and receive a customized quotation.</p>
+                <p>Looking for high-quality 90 Degree Bends for your industrial piping project? Moksh Tubes & Fittings LLP
+                    offers premium-quality bends with competitive pricing, reliable quality, and fast worldwide delivery.
+                    Contact us today to discuss your requirements and receive a customized quotation.</p>
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -643,127 +773,127 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": ["Organization", "LocalBusiness"],
-              "@id": "https://mokshtubes.com/#organization",
-              "name": "Moksh Tubes & Fittings LLP",
-              "url": "https://mokshtubes.com/",
-              "logo": "https://mokshtubes.com/assets/images/logo.webp",
-              "telephone": "+91-9769584950",
-              "email": "info@mokshtubes.com",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Mumbai",
-                "addressRegion": "MH",
-                "addressCountry": "IN"
-              }
-            },
-            {
-              "@type": "WebSite",
-              "@id": "https://mokshtubes.com/#website",
-              "url": "https://mokshtubes.com/",
-              "name": "Moksh Tubes & Fittings LLP"
-            },
-            {
-              "@type": "WebPage",
-              "@id": "https://mokshtubes.com/90-degree-bend#webpage",
-              "name": "90 Degree Bend Manufacturer, Supplier & Exporter in India | SS, CS & Alloy Steel",
-              "url": "https://mokshtubes.com/90-degree-bend",
-              "description": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of 90 Degree Bends in Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex. Available in ASME B16.49 & B16.9 standards with worldwide delivery.",
-              "isPartOf": { "@id": "https://mokshtubes.com/#website" },
-              "primaryImageOfPage": { "@id": "https://mokshtubes.com/#product-image" }
-            },
-            {
-              "@type": ["Product", "Service"],
-              "@id": "https://mokshtubes.com/#90-degree-bend",
-              "name": "90 Degree Bends",
-              "url": "https://mokshtubes.com/90-degree-bend",
-              "image": "https://mokshtubes.com/assets/images/product/flangs/90-degree-elbows_11zon.jpeg",
-              "category": "Industrial Bends",
-              "description": "Premium-quality Stainless Steel, Carbon Steel, Alloy Steel, Duplex, and Super Duplex 90 Degree Bends.",
-              "brand": {
-                "@type": "Brand",
-                "@id": "https://mokshtubes.com/#organization",
-                "name": "Moksh Tubes & Fittings LLP"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "@id": "https://mokshtubes.com/#organization"
-              },
-              "material": [
-                "Stainless Steel",
-                "Carbon Steel",
-                "Alloy Steel",
-                "Duplex Stainless Steel",
-                "Super Duplex Stainless Steel"
-              ],
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Outer Diameter", "value": "½\" NB to 48\" NB" },
-                { "@type": "PropertyValue", "name": "Standards", "value": "ASME B16.49, ASME B16.9, ASTM" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "@id": "https://mokshtubes.com/#offer",
-                "url": "https://mokshtubes.com/90-degree-bend",
-                "availability": "https://schema.org/InStock",
-                "priceCurrency": "USD",
-                "price": "0.00",
-                "priceValidUntil": "2030-12-31",
-                "businessFunction": "https://schema.org/Sell",
-                "seller": { "@id": "https://mokshtubes.com/#organization" }
-              }
-            },
-            {
-              "@type": "ImageObject",
-              "@id": "https://mokshtubes.com/#product-image",
-              "url": "https://mokshtubes.com/assets/images/product/flangs/90-degree-elbows_11zon.jpeg",
-              "description": "90 Degree Bend Manufacturer in India"
-            },
-            {
-              "@type": "BreadcrumbList",
-              "@id": "https://mokshtubes.com/#breadcrumb",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshtubes.com/" },
-                { "@type": "ListItem", "position": 2, "name": "Pipe Fittings", "item": "https://mokshtubes.com/products/pipe-fittings" },
-                { "@type": "ListItem", "position": 3, "name": "90 Degree Bend", "item": "https://mokshtubes.com/90-degree-bend" }
-              ]
-            },
-            {
-              "@type": "FAQPage",
-              "@id": "https://mokshtubes.com/#faq-90-degree-bends",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "What is a 90 Degree Bend?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "A 90 Degree Bend is a pipe fitting that changes the direction of a pipeline by 90 degrees using a larger bend radius to improve flow efficiency and reduce pressure loss." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What is the difference between a 90 Degree Bend and a 90 Degree Elbow?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "A bend has a larger radius, resulting in smoother flow and lower pressure drop, while an elbow has a shorter radius and is typically used where installation space is limited." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Which materials are available?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "We manufacture 90 Degree Bends in stainless steel, carbon steel, alloy steel, duplex, and super duplex materials." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Do you provide material test certificates?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Can you export internationally?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Yes. We export to the Middle East, Asia, Europe, and other global markets." }
-                }
-              ]
-            }
-          ]
-        }
-        </script>
+                                {
+                                  "@context": "https://schema.org",
+                                  "@graph": [
+                                    {
+                                      "@type": ["Organization", "LocalBusiness"],
+                                      "@id": "https://mokshtubes.com/#organization",
+                                      "name": "Moksh Tubes & Fittings LLP",
+                                      "url": "https://mokshtubes.com/",
+                                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                                      "telephone": "+91-9769584950",
+                                      "email": "info@mokshtubes.com",
+                                      "address": {
+                                        "@type": "PostalAddress",
+                                        "addressLocality": "Mumbai",
+                                        "addressRegion": "MH",
+                                        "addressCountry": "IN"
+                                      }
+                                    },
+                                    {
+                                      "@type": "WebSite",
+                                      "@id": "https://mokshtubes.com/#website",
+                                      "url": "https://mokshtubes.com/",
+                                      "name": "Moksh Tubes & Fittings LLP"
+                                    },
+                                    {
+                                      "@type": "WebPage",
+                                      "@id": "https://mokshtubes.com/90-degree-bend#webpage",
+                                      "name": "90 Degree Bend Manufacturer, Supplier & Exporter in India | SS, CS & Alloy Steel",
+                                      "url": "https://mokshtubes.com/90-degree-bend",
+                                      "description": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of 90 Degree Bends in Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex. Available in ASME B16.49 & B16.9 standards with worldwide delivery.",
+                                      "isPartOf": { "@id": "https://mokshtubes.com/#website" },
+                                      "primaryImageOfPage": { "@id": "https://mokshtubes.com/#product-image" }
+                                    },
+                                    {
+                                      "@type": ["Product", "Service"],
+                                      "@id": "https://mokshtubes.com/#90-degree-bend",
+                                      "name": "90 Degree Bends",
+                                      "url": "https://mokshtubes.com/90-degree-bend",
+                                      "image": "https://mokshtubes.com/assets/images/product/flangs/90-degree-elbows_11zon.jpeg",
+                                      "category": "Industrial Bends",
+                                      "description": "Premium-quality Stainless Steel, Carbon Steel, Alloy Steel, Duplex, and Super Duplex 90 Degree Bends.",
+                                      "brand": {
+                                        "@type": "Brand",
+                                        "@id": "https://mokshtubes.com/#organization",
+                                        "name": "Moksh Tubes & Fittings LLP"
+                                      },
+                                      "manufacturer": {
+                                        "@type": "Organization",
+                                        "@id": "https://mokshtubes.com/#organization"
+                                      },
+                                      "material": [
+                                        "Stainless Steel",
+                                        "Carbon Steel",
+                                        "Alloy Steel",
+                                        "Duplex Stainless Steel",
+                                        "Super Duplex Stainless Steel"
+                                      ],
+                                      "additionalProperty": [
+                                        { "@type": "PropertyValue", "name": "Outer Diameter", "value": "½\" NB to 48\" NB" },
+                                        { "@type": "PropertyValue", "name": "Standards", "value": "ASME B16.49, ASME B16.9, ASTM" }
+                                      ],
+                                      "offers": {
+                                        "@type": "Offer",
+                                        "@id": "https://mokshtubes.com/#offer",
+                                        "url": "https://mokshtubes.com/90-degree-bend",
+                                        "availability": "https://schema.org/InStock",
+                                        "priceCurrency": "USD",
+                                        "price": "0.00",
+                                        "priceValidUntil": "2030-12-31",
+                                        "businessFunction": "https://schema.org/Sell",
+                                        "seller": { "@id": "https://mokshtubes.com/#organization" }
+                                      }
+                                    },
+                                    {
+                                      "@type": "ImageObject",
+                                      "@id": "https://mokshtubes.com/#product-image",
+                                      "url": "https://mokshtubes.com/assets/images/product/flangs/90-degree-elbows_11zon.jpeg",
+                                      "description": "90 Degree Bend Manufacturer in India"
+                                    },
+                                    {
+                                      "@type": "BreadcrumbList",
+                                      "@id": "https://mokshtubes.com/#breadcrumb",
+                                      "itemListElement": [
+                                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshtubes.com/" },
+                                        { "@type": "ListItem", "position": 2, "name": "Pipe Fittings", "item": "https://mokshtubes.com/products/pipe-fittings" },
+                                        { "@type": "ListItem", "position": 3, "name": "90 Degree Bend", "item": "https://mokshtubes.com/90-degree-bend" }
+                                      ]
+                                    },
+                                    {
+                                      "@type": "FAQPage",
+                                      "@id": "https://mokshtubes.com/#faq-90-degree-bends",
+                                      "mainEntity": [
+                                        {
+                                          "@type": "Question",
+                                          "name": "What is a 90 Degree Bend?",
+                                          "acceptedAnswer": { "@type": "Answer", "text": "A 90 Degree Bend is a pipe fitting that changes the direction of a pipeline by 90 degrees using a larger bend radius to improve flow efficiency and reduce pressure loss." }
+                                        },
+                                        {
+                                          "@type": "Question",
+                                          "name": "What is the difference between a 90 Degree Bend and a 90 Degree Elbow?",
+                                          "acceptedAnswer": { "@type": "Answer", "text": "A bend has a larger radius, resulting in smoother flow and lower pressure drop, while an elbow has a shorter radius and is typically used where installation space is limited." }
+                                        },
+                                        {
+                                          "@type": "Question",
+                                          "name": "Which materials are available?",
+                                          "acceptedAnswer": { "@type": "Answer", "text": "We manufacture 90 Degree Bends in stainless steel, carbon steel, alloy steel, duplex, and super duplex materials." }
+                                        },
+                                        {
+                                          "@type": "Question",
+                                          "name": "Do you provide material test certificates?",
+                                          "acceptedAnswer": { "@type": "Answer", "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order." }
+                                        },
+                                        {
+                                          "@type": "Question",
+                                          "name": "Can you export internationally?",
+                                          "acceptedAnswer": { "@type": "Answer", "text": "Yes. We export to the Middle East, Asia, Europe, and other global markets." }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                                </script>
     @endverbatim
 @endsection

@@ -96,52 +96,6 @@
         </div>
     </section>
 
-    <!-- 2. Key Features -->
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-5">
-                <h2>Key Features</h2>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card" style="min-height: 120px;">
-                        <div class="advantage-icon"><i class="bi bi-arrow-repeat"></i></div>
-                        <h5>No welding required</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card" style="min-height: 120px;">
-                        <div class="advantage-icon"><i class="bi bi-fast-forward-circle"></i></div>
-                        <h5>Fast assembly</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card" style="min-height: 120px;">
-                        <div class="advantage-icon"><i class="bi bi-tag-fill"></i></div>
-                        <h5>Safe for explosive environments</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card" style="min-height: 120px;">
-                        <div class="advantage-icon"><i class="bi bi-lock-fill"></i></div>
-                        <h5>Reliable threaded connection</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card" style="min-height: 120px;">
-                        <div class="advantage-icon"><i class="bi bi-speedometer2"></i></div>
-                        <h5>Suitable for small diameter pipes</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card" style="min-height: 120px;">
-                        <div class="advantage-icon"><i class="bi bi-layers"></i></div>
-                        <h5>Available in wide material range</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- 3. Specifications -->
     <section class="sec-padd-top sec-padd-bottom bg-light" id="specifications">
@@ -203,7 +157,7 @@
     </section>
 
     <!-- 4. Types of Threaded Flanges -->
-    
+
 
     <!-- 5. Size Chart -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
@@ -299,6 +253,104 @@
         </div>
     </section>
 
+
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
     <!-- 7. Applications -->
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -340,48 +392,92 @@
         </div>
     </section>
 
-    <!-- 8. Industries Served -->
-    
-
-    <!-- 10. Packaging & Export -->
-    <section id="export" class="sec-padd-top sec-padd-bottom">
+    <!-- 2. Key Features -->
+    <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
-            <div class="section-title center mb-4">
-                <h2>Packaging & Export</h2>
+            <div class="section-title center mb-5">
+                <h2>Key Features</h2>
             </div>
-            <p class="fs-6 text-center text-muted mb-4">
-                We are a reliable Threaded flange supplier and exporter, supplying globally. <br>Trusted by EPC contractors
-                and industrial buyers.
-            </p>
-
             <div class="row g-4 justify-content-center">
-                <div class="col-md-6 col-lg-5">
-                    <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
-                        <h4 class="fw-bold mb-3 text-primary border-bottom pb-2">Export Markets</h4>
-                        <ul class="fs-6 list-unstyled mb-0 custom-list">
-                            <li><i class="bi bi-chevron-right text-warning"></i> UAE</li>
-                            <li><i class="bi bi-chevron-right text-warning"></i> Saudi Arabia</li>
-                            <li><i class="bi bi-chevron-right text-warning"></i> Qatar</li>
-                            <li><i class="bi bi-chevron-right text-warning"></i> Oman</li>
-                            <li><i class="bi bi-chevron-right text-warning"></i> Kuwait</li>
-                            <li><i class="bi bi-chevron-right text-warning"></i> Europe & Southeast Asia</li>
-                        </ul>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card" style="min-height: 120px;">
+                        <div class="advantage-icon"><i class="bi bi-arrow-repeat"></i></div>
+                        <h5>No welding required</h5>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-5">
-                    <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
-                        <h4 class="fw-bold mb-3 text-success border-bottom pb-2">Export Services</h4>
-                        <ul class="fs-6 list-unstyled mb-0 custom-list">
-                            <li><i class="bi bi-box-seam text-success me-2"></i> Export packaging</li>
-                            <li><i class="bi bi-file-earmark-check text-success me-2"></i> EN 10204 3.1 certification</li>
-                            <li><i class="bi bi-geo-alt text-success me-2"></i> Third-party inspection</li>
-                            <li><i class="bi bi-truck text-success me-2"></i> Bulk project supply</li>
-                        </ul>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card" style="min-height: 120px;">
+                        <div class="advantage-icon"><i class="bi bi-fast-forward-circle"></i></div>
+                        <h5>Fast assembly</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card" style="min-height: 120px;">
+                        <div class="advantage-icon"><i class="bi bi-tag-fill"></i></div>
+                        <h5>Safe for explosive environments</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card" style="min-height: 120px;">
+                        <div class="advantage-icon"><i class="bi bi-lock-fill"></i></div>
+                        <h5>Reliable threaded connection</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card" style="min-height: 120px;">
+                        <div class="advantage-icon"><i class="bi bi-speedometer2"></i></div>
+                        <h5>Suitable for small diameter pipes</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card" style="min-height: 120px;">
+                        <div class="advantage-icon"><i class="bi bi-layers"></i></div>
+                        <h5>Available in wide material range</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- 10. Packaging & Export -->
+    <!-- <section id="export" class="sec-padd-top sec-padd-bottom">
+                <div class="container">
+                    <div class="section-title center mb-4">
+                        <h2>Packaging & Export</h2>
+                    </div>
+                    <p class="fs-6 text-center text-muted mb-4">
+                        We are a reliable Threaded flange supplier and exporter, supplying globally. <br>Trusted by EPC contractors
+                        and industrial buyers.
+                    </p>
+
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
+                                <h4 class="fw-bold mb-3 text-primary border-bottom pb-2">Export Markets</h4>
+                                <ul class="fs-6 list-unstyled mb-0 custom-list">
+                                    <li><i class="bi bi-chevron-right text-warning"></i> UAE</li>
+                                    <li><i class="bi bi-chevron-right text-warning"></i> Saudi Arabia</li>
+                                    <li><i class="bi bi-chevron-right text-warning"></i> Qatar</li>
+                                    <li><i class="bi bi-chevron-right text-warning"></i> Oman</li>
+                                    <li><i class="bi bi-chevron-right text-warning"></i> Kuwait</li>
+                                    <li><i class="bi bi-chevron-right text-warning"></i> Europe & Southeast Asia</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
+                                <h4 class="fw-bold mb-3 text-success border-bottom pb-2">Export Services</h4>
+                                <ul class="fs-6 list-unstyled mb-0 custom-list">
+                                    <li><i class="bi bi-box-seam text-success me-2"></i> Export packaging</li>
+                                    <li><i class="bi bi-file-earmark-check text-success me-2"></i> EN 10204 3.1 certification</li>
+                                    <li><i class="bi bi-geo-alt text-success me-2"></i> Third-party inspection</li>
+                                    <li><i class="bi bi-truck text-success me-2"></i> Bulk project supply</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
 
     <!-- 11. Advantages & 13. Buying Guide -->
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -433,39 +529,39 @@
     </section>
 
     <!-- 14. Testing & Quality Control -->
-    <section id="quality" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-9">
-                    <div class="p-4 bg-light rounded shadow-sm border-start border-4 border-primary h-100">
-                        <h3 class="fw-bold mb-4 text-center" style="color: #174268;">Testing & Quality Control</h3>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <ul class="fs-6 list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Dimensional inspection
-                                    </li>
-                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Thread gauging</li>
-                                </ul>
+    <!-- <section id="quality" class="sec-padd-top sec-padd-bottom">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-9">
+                        <div class="p-4 bg-light rounded shadow-sm border-start border-4 border-primary h-100">
+                            <h3 class="fw-bold mb-4 text-center" style="color: #174268;">Testing & Quality Control</h3>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <ul class="fs-6 list-unstyled">
+                                        <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Dimensional inspection
+                                        </li>
+                                        <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Thread gauging</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <ul class="fs-6 list-unstyled">
+                                        <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • PMI testing</li>
+                                        <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Hardness testing</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <ul class="fs-6 list-unstyled">
+                                        <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Visual inspection</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="col-md-4">
-                                <ul class="fs-6 list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • PMI testing</li>
-                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Hardness testing</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-4">
-                                <ul class="fs-6 list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Visual inspection</li>
-                                </ul>
-                            </div>
+                            <p class="fs-6 mt-4 fw-bold text-success text-center"><i class="bi bi-patch-check-fill me-2"></i> EN
+                                10204 3.1 certification available.</p>
                         </div>
-                        <p class="fs-6 mt-4 fw-bold text-success text-center"><i class="bi bi-patch-check-fill me-2"></i> EN
-                            10204 3.1 certification available.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section> -->
 
     <!-- 15. Why Choose Us -->
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -572,37 +668,37 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-                @verbatim
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": [
-                            {
-                                "@type": "Question",
-                                "name": "What are Threaded flanges used for?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "They are used in systems where welding is not possible or hazardous."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Can threaded flanges be used for high pressure?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "No, they are typically limited to smaller sizes and low to medium pressure applications."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Do you export Threaded flanges?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Yes, we export globally including GCC countries."
-                                }
-                            }
-                        ]
-                    }
-                @endverbatim
-            </script>
+                                @verbatim
+                                    {
+                                        "@context": "https://schema.org",
+                                        "@type": "FAQPage",
+                                        "mainEntity": [
+                                            {
+                                                "@type": "Question",
+                                                "name": "What are Threaded flanges used for?",
+                                                "acceptedAnswer": {
+                                                    "@type": "Answer",
+                                                    "text": "They are used in systems where welding is not possible or hazardous."
+                                                }
+                                            },
+                                            {
+                                                "@type": "Question",
+                                                "name": "Can threaded flanges be used for high pressure?",
+                                                "acceptedAnswer": {
+                                                    "@type": "Answer",
+                                                    "text": "No, they are typically limited to smaller sizes and low to medium pressure applications."
+                                                }
+                                            },
+                                            {
+                                                "@type": "Question",
+                                                "name": "Do you export Threaded flanges?",
+                                                "acceptedAnswer": {
+                                                    "@type": "Answer",
+                                                    "text": "Yes, we export globally including GCC countries."
+                                                }
+                                            }
+                                        ]
+                                    }
+                                @endverbatim
+                            </script>
 @endsection

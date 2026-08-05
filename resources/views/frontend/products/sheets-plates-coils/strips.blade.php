@@ -9,7 +9,8 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/Sheets-Plates-and-Coils/Metal-Strips.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/product/Sheets-Plates-and-Coils/Metal-Strips.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -17,7 +18,12 @@
 
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Metal Strips are precision flat-rolled products slit from coils or sheets, widely used in industrial, automotive, electrical, and architectural applications. Moksh Tubes & Fittings LLP supplies high-quality metal strips in stainless steel, carbon steel, aluminium, copper, brass, nickel alloys, and specialty metals. Our strips are manufactured with tight tolerances, excellent surface finish, and compliance with international standards, ensuring reliability for both industrial and decorative applications across India and global markets.
+                        Metal Strips are precision flat-rolled products slit from coils or sheets, widely used in
+                        industrial, automotive, electrical, and architectural applications. Moksh Tubes & Fittings LLP
+                        supplies high-quality metal strips in stainless steel, carbon steel, aluminium, copper, brass,
+                        nickel alloys, and specialty metals. Our strips are manufactured with tight tolerances, excellent
+                        surface finish, and compliance with international standards, ensuring reliability for both
+                        industrial and decorative applications across India and global markets.
                     </p>
                 </div>
             </div>
@@ -57,23 +63,31 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Metal-Strips.webp') }}" alt="Metal Strips"
-                        class="img-fluid rounded shadow-sm" loading="lazy">
+                    <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Metal-Strips.webp') }}"
+                        alt="Metal Strips" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong class="text-black">Metal Strips</strong> are narrow-width flat metal products manufactured by slitting coils or sheets into precise widths and thicknesses. These strips are widely used in engineering, fabrication, electrical, automotive, and construction industries.
+                            <strong class="text-black">Metal Strips</strong> are narrow-width flat metal products
+                            manufactured by slitting coils or sheets into precise widths and thicknesses. These strips are
+                            widely used in engineering, fabrication, electrical, automotive, and construction industries.
                         </p>
 
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            Due to their dimensional accuracy, flexibility, and material versatility, metal strips are essential for applications requiring precision and consistency. They are available in various finishes and can be further processed into components like clamps, springs, washers, trims, and connectors.
+                            Due to their dimensional accuracy, flexibility, and material versatility, metal strips are
+                            essential for applications requiring precision and consistency. They are available in various
+                            finishes and can be further processed into components like clamps, springs, washers, trims, and
+                            connectors.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings LLP</a></strong>, we supply premium-quality metal strips in multiple materials and grades, conforming to ASTM, ASME, DIN, JIS, and EN standards. Our strips are suitable for both heavy-duty industrial use and fine decorative applications.
+                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings
+                                    LLP</a></strong>, we supply premium-quality metal strips in multiple materials and
+                            grades, conforming to ASTM, ASME, DIN, JIS, and EN standards. Our strips are suitable for both
+                            heavy-duty industrial use and fine decorative applications.
                         </p>
                     </div>
                 </div>
@@ -81,7 +95,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -100,14 +114,39 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Material</td><td>Stainless Steel, Carbon Steel, Mild Steel, Aluminium, Copper, Brass, Nickel Alloys, Titanium</td></tr>
-                                <tr class="t-row"><td>Grades</td><td>ASTM / ASME / DIN / JIS / EN compliant</td></tr>
-                                <tr class="t-row"><td>Thickness</td><td>0.10 mm to 6 mm</td></tr>
-                                <tr class="t-row"><td>Width</td><td>5 mm to 500 mm (custom slit widths available)</td></tr>
-                                <tr class="t-row"><td>Length</td><td>Coil form or cut-to-length</td></tr>
-                                <tr class="t-row"><td>Finishes</td><td>2B, BA, Matte, Hairline, Mirror, PVC Coated</td></tr>
-                                <tr class="t-row"><td>Types</td><td>Hot Rolled, Cold Rolled, Precision, Decorative</td></tr>
-                                <tr class="t-row"><td>Standards</td><td>ASTM A240, A480, A666, EN 10088</td></tr>
+                                <tr class="t-row">
+                                    <td>Material</td>
+                                    <td>Stainless Steel, Carbon Steel, Mild Steel, Aluminium, Copper, Brass, Nickel Alloys,
+                                        Titanium</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Grades</td>
+                                    <td>ASTM / ASME / DIN / JIS / EN compliant</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Thickness</td>
+                                    <td>0.10 mm to 6 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Width</td>
+                                    <td>5 mm to 500 mm (custom slit widths available)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Length</td>
+                                    <td>Coil form or cut-to-length</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Finishes</td>
+                                    <td>2B, BA, Matte, Hairline, Mirror, PVC Coated</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Types</td>
+                                    <td>Hot Rolled, Cold Rolled, Precision, Decorative</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM A240, A480, A666, EN 10088</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -128,13 +167,33 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Material</th><th>Thickness (mm)</th><th>Thickness (inch)</th></tr>
+                                <tr class="t-row">
+                                    <th>Material</th>
+                                    <th>Thickness (mm)</th>
+                                    <th>Thickness (inch)</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Stainless Steel</td><td>0.10 – 6.00</td><td>0.004 – 0.236</td></tr>
-                                <tr class="t-row"><td>Aluminium</td><td>0.15 – 4.00</td><td>0.006 – 0.157</td></tr>
-                                <tr class="t-row"><td>Copper / Brass</td><td>0.10 – 3.00</td><td>0.004 – 0.118</td></tr>
-                                <tr class="t-row"><td>Carbon Steel</td><td>0.20 – 6.00</td><td>0.008 – 0.236</td></tr>
+                                <tr class="t-row">
+                                    <td>Stainless Steel</td>
+                                    <td>0.10 – 6.00</td>
+                                    <td>0.004 – 0.236</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Aluminium</td>
+                                    <td>0.15 – 4.00</td>
+                                    <td>0.006 – 0.157</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Copper / Brass</td>
+                                    <td>0.10 – 3.00</td>
+                                    <td>0.004 – 0.118</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon Steel</td>
+                                    <td>0.20 – 6.00</td>
+                                    <td>0.008 – 0.236</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -145,13 +204,28 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Type</th><th>Width (mm)</th></tr>
+                                <tr class="t-row">
+                                    <th>Type</th>
+                                    <th>Width (mm)</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Narrow Strips</td><td>10 – 100</td></tr>
-                                <tr class="t-row"><td>Medium Strips</td><td>100 – 600</td></tr>
-                                <tr class="t-row"><td>Wide Strips</td><td>600 – 1250</td></tr>
-                                <tr class="t-row"><td>Custom</td><td>As required</td></tr>
+                                <tr class="t-row">
+                                    <td>Narrow Strips</td>
+                                    <td>10 – 100</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Medium Strips</td>
+                                    <td>100 – 600</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Wide Strips</td>
+                                    <td>600 – 1250</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Custom</td>
+                                    <td>As required</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -162,14 +236,32 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Thickness (mm)</th><th>Tolerance</th></tr>
+                                <tr class="t-row">
+                                    <th>Thickness (mm)</th>
+                                    <th>Tolerance</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>0.10 – 0.30</td><td>±0.010</td></tr>
-                                <tr class="t-row"><td>0.30 – 0.60</td><td>±0.015</td></tr>
-                                <tr class="t-row"><td>0.60 – 1.00</td><td>±0.020</td></tr>
-                                <tr class="t-row"><td>1.00 – 2.00</td><td>±0.030</td></tr>
-                                <tr class="t-row"><td>2.00 – 6.00</td><td>±0.050</td></tr>
+                                <tr class="t-row">
+                                    <td>0.10 – 0.30</td>
+                                    <td>±0.010</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>0.30 – 0.60</td>
+                                    <td>±0.015</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>0.60 – 1.00</td>
+                                    <td>±0.020</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1.00 – 2.00</td>
+                                    <td>±0.030</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2.00 – 6.00</td>
+                                    <td>±0.050</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -180,16 +272,47 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Thickness</th><th>SS (kg/m)</th><th>MS (kg/m)</th><th>Aluminium</th><th>Copper</th></tr>
+                                <tr class="t-row">
+                                    <th>Thickness</th>
+                                    <th>SS (kg/m)</th>
+                                    <th>MS (kg/m)</th>
+                                    <th>Aluminium</th>
+                                    <th>Copper</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>1.0 mm</td><td>0.079</td><td>0.079</td><td>0.027</td><td>0.089</td></tr>
-                                <tr class="t-row"><td>2.0 mm</td><td>0.159</td><td>0.157</td><td>0.054</td><td>0.179</td></tr>
-                                <tr class="t-row"><td>3.0 mm</td><td>0.238</td><td>0.236</td><td>0.081</td><td>0.268</td></tr>
-                                <tr class="t-row"><td>5.0 mm</td><td>0.397</td><td>0.393</td><td>0.135</td><td>0.447</td></tr>
+                                <tr class="t-row">
+                                    <td>1.0 mm</td>
+                                    <td>0.079</td>
+                                    <td>0.079</td>
+                                    <td>0.027</td>
+                                    <td>0.089</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2.0 mm</td>
+                                    <td>0.159</td>
+                                    <td>0.157</td>
+                                    <td>0.054</td>
+                                    <td>0.179</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3.0 mm</td>
+                                    <td>0.238</td>
+                                    <td>0.236</td>
+                                    <td>0.081</td>
+                                    <td>0.268</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>5.0 mm</td>
+                                    <td>0.397</td>
+                                    <td>0.393</td>
+                                    <td>0.135</td>
+                                    <td>0.447</td>
+                                </tr>
                             </tbody>
                         </table>
-                        <p class="text-center mt-2 small text-muted">(Detailed charts available for multiple widths and materials)</p>
+                        <p class="text-center mt-2 small text-muted">(Detailed charts available for multiple widths and
+                            materials)</p>
                     </div>
                 </div>
             </div>
@@ -254,6 +377,104 @@
         </div>
     </section>
 
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
+
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -308,7 +529,7 @@
                         <p>✔ Furniture trims<br>✔ Interior design elements</p>
                     </div>
                 </div>
-                
+
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-box-seam"></i></div>
@@ -337,10 +558,22 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Stainless Steel</td><td>515</td></tr>
-                                <tr class="t-row"><td>Carbon Steel</td><td>400–550</td></tr>
-                                <tr class="t-row"><td>Aluminium</td><td>150–300</td></tr>
-                                <tr class="t-row"><td>Copper</td><td>200–400</td></tr>
+                                <tr class="t-row">
+                                    <td>Stainless Steel</td>
+                                    <td>515</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon Steel</td>
+                                    <td>400–550</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Aluminium</td>
+                                    <td>150–300</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Copper</td>
+                                    <td>200–400</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -398,10 +631,12 @@
                         <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Metal Strips</h4>
                         <p class="mb-2"><strong>Before selecting strips:</strong></p>
                         <ul class="list-unstyled">
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type (SS / MS / Aluminium / Copper)</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type (SS / MS / Aluminium
+                                / Copper)</li>
                             <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness & width requirement</li>
                             <li><i class="bi bi-check-circle-fill text-success me-2"></i> Surface finish</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (industrial / decorative)</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (industrial /
+                                decorative)</li>
                             <li><i class="bi bi-check-circle-fill text-success me-2"></i> Coil vs cut length</li>
                             <li><i class="bi bi-check-circle-fill text-success me-2"></i> Standard compliance</li>
                         </ul>
@@ -440,7 +675,7 @@
                                 <p>SS, MS, aluminium, copper, brass, titanium, and more.</p>
                             </div>
                         </div>
-                        
+
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -460,7 +695,7 @@
                                 <p>Electrical, automotive, construction, fabrication.</p>
                             </div>
                         </div>
-                        
+
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -501,114 +736,114 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-        [{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Moksh Tubes & Fittings LLP",
-            "url": "https://www.mokshtubes.com",
-            "logo": "https://www.mokshtubes.com/assets/logo.png",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91-97695-84950",
-                "contactType": "sales",
-                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                "availableLanguage": ["English"]
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "Metal Strips | Stainless Steel, Aluminium & Precision Strips",
-            "description": "Buy metal strips in stainless steel, aluminium, copper & more. Precision slit strips with custom widths & thickness. India & export supply.",
-            "brand": {
-                "@type": "Brand",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "manufacturer": {
-                "@type": "Organization",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "material": "Stainless Steel, Carbon Steel, Mild Steel, Aluminium, Copper, Brass, Nickel Alloys, Titanium",
-            "url": "https://www.mokshtubes.com/metal-strips",
-            "offers": {
-                "@type": "Offer",
-                "availability": "https://schema.org/InStock",
-                "priceCurrency": "INR",
-                "url": "https://www.mokshtubes.com/contact-us"
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [{
-                "@type": "Question",
-                "name": "Q1. What are metal strips?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Narrow flat metal products used in various industries."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q2. What materials are available?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "SS, MS, aluminium, copper, brass, titanium, and more."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q3. What sizes are available?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Thickness 0.1–6 mm, width 5–500 mm."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q4. What are common uses?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Electrical, automotive, construction, fabrication."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q5. Difference between strips and sheets?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Strips are narrower and slit from coils."
-                }
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.mokshtubes.com"
-            },{
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Products",
-                "item": "https://www.mokshtubes.com/products"
-            },{
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Metal Strips",
-                "item": "https://www.mokshtubes.com/metal-strips"
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Moksh Tubes & Fittings LLP",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "India"
-            },
-            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-            "telephone": "+91-97695-84950"
-        }]
-        @endverbatim
-    </script>
+                    @verbatim
+                        [{
+                            "@context": "https://schema.org",
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "url": "https://www.mokshtubes.com",
+                            "logo": "https://www.mokshtubes.com/assets/logo.png",
+                            "contactPoint": {
+                                "@type": "ContactPoint",
+                                "telephone": "+91-97695-84950",
+                                "contactType": "sales",
+                                "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                "availableLanguage": ["English"]
+                            }
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Product",
+                            "name": "Metal Strips | Stainless Steel, Aluminium & Precision Strips",
+                            "description": "Buy metal strips in stainless steel, aluminium, copper & more. Precision slit strips with custom widths & thickness. India & export supply.",
+                            "brand": {
+                                "@type": "Brand",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "manufacturer": {
+                                "@type": "Organization",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "material": "Stainless Steel, Carbon Steel, Mild Steel, Aluminium, Copper, Brass, Nickel Alloys, Titanium",
+                            "url": "https://www.mokshtubes.com/metal-strips",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "priceCurrency": "INR",
+                                "url": "https://www.mokshtubes.com/contact-us"
+                            }
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "FAQPage",
+                            "mainEntity": [{
+                                "@type": "Question",
+                                "name": "Q1. What are metal strips?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Narrow flat metal products used in various industries."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q2. What materials are available?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "SS, MS, aluminium, copper, brass, titanium, and more."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q3. What sizes are available?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Thickness 0.1–6 mm, width 5–500 mm."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q4. What are common uses?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Electrical, automotive, construction, fabrication."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q5. Difference between strips and sheets?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Strips are narrower and slit from coils."
+                                }
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [{
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://www.mokshtubes.com"
+                            },{
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Products",
+                                "item": "https://www.mokshtubes.com/products"
+                            },{
+                                "@type": "ListItem",
+                                "position": 3,
+                                "name": "Metal Strips",
+                                "item": "https://www.mokshtubes.com/metal-strips"
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "LocalBusiness",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "India"
+                            },
+                            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                            "telephone": "+91-97695-84950"
+                        }]
+                    @endverbatim
+                </script>
 @endsection

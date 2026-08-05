@@ -1,11 +1,15 @@
 @extends('layouts.master')
 @section('title', 'Stainless Steel 316 Semi Welded Pipes | Manufacturer & Supplier')
-@section('meta_description',
+@section(
+    'meta_description',
     'Buy Stainless Steel 316 Semi Welded Pipes. Manufactured from austenitic SS 316 (UNS
-    S31600). Ideal for marine, architectural & structural applications.')
-@section('meta_keywords',
+    S31600). Ideal for marine, architectural & structural applications.'
+)
+@section(
+    'meta_keywords',
     'Stainless Steel 316 Semi Welded Pipes, SS 316 Semi Welded Pipe, SS 316 Pipe Supplier India,
-    Structural Pipes, Decorative Pipes')
+    Structural Pipes, Decorative Pipes'
+)
 @section('og_image', asset('assets/images/welded/image.png'))
 @section('og_type', 'article')
 @section('content')
@@ -135,101 +139,101 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 mb-4">
-                    <div class="section-title center mb-3">
-                        <h2 class="text-center mb-0">Chemical Composition – SS 316</h2>
+    <!-- <section class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mb-4">
+                        <div class="section-title center mb-3">
+                            <h2 class="text-center mb-0">Chemical Composition – SS 316</h2>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped align-middle">
+                                <thead class="table-dark text-center">
+                                    <tr class="t-row">
+                                        <th>Element</th>
+                                        <th>% Composition</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                    <tr class="t-row">
+                                        <td>Chromium (Cr)</td>
+                                        <td>16.0 – 18.0</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Nickel (Ni)</td>
+                                        <td>10.0 – 14.0</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Molybdenum (Mo)</td>
+                                        <td>2.0 – 3.0</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Carbon (C)</td>
+                                        <td>Max 0.08</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Manganese (Mn)</td>
+                                        <td>Max 2.0</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Silicon (Si)</td>
+                                        <td>Max 0.75</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Phosphorus (P)</td>
+                                        <td>Max 0.045</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Sulfur (S)</td>
+                                        <td>Max 0.03</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="fs-6 text-center mt-2">The molybdenum content significantly improves resistance to saltwater
+                            and chloride corrosion.</p>
                     </div>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>% Composition</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Chromium (Cr)</td>
-                                    <td>16.0 – 18.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Nickel (Ni)</td>
-                                    <td>10.0 – 14.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Molybdenum (Mo)</td>
-                                    <td>2.0 – 3.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Carbon (C)</td>
-                                    <td>Max 0.08</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Manganese (Mn)</td>
-                                    <td>Max 2.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Silicon (Si)</td>
-                                    <td>Max 0.75</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Phosphorus (P)</td>
-                                    <td>Max 0.045</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Sulfur (S)</td>
-                                    <td>Max 0.03</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="col-lg-12 mb-4">
+                        <div class="section-title center mb-3">
+                            <h2 class="text-center mb-0">Mechanical Properties</h2>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped align-middle">
+                                <thead class="table-dark text-center">
+                                    <tr class="t-row">
+                                        <th>Property</th>
+                                        <th>Value</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                    <tr class="t-row">
+                                        <td>Tensile Strength</td>
+                                        <td>≥ 515 MPa</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Yield Strength</td>
+                                        <td>≥ 205 MPa</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Elongation</td>
+                                        <td>≥ 40%</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Hardness</td>
+                                        <td>≤ 217 HB</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="fs-6 text-center mt-2">📌 Values may vary based on thickness and finishing method.</p>
                     </div>
-                    <p class="fs-6 text-center mt-2">The molybdenum content significantly improves resistance to saltwater
-                        and chloride corrosion.</p>
-                </div>
-                <div class="col-lg-12 mb-4">
-                    <div class="section-title center mb-3">
-                        <h2 class="text-center mb-0">Mechanical Properties</h2>
-                    </div>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Value</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tensile Strength</td>
-                                    <td>≥ 515 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength</td>
-                                    <td>≥ 205 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation</td>
-                                    <td>≥ 40%</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness</td>
-                                    <td>≤ 217 HB</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <p class="fs-6 text-center mt-2">📌 Values may vary based on thickness and finishing method.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section> -->
 
     <section class="bg-light" style="padding-top: 80px;">
         <div class="container">
-            <div class="section-title center mb-4">
+            <!-- <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Size & Thickness Range</h2>
             </div>
 
@@ -265,7 +269,7 @@
                     </div>
                     <p class="fs-6 text-center mt-2">Custom dimensions available as per project requirements.</p>
                 </div>
-            </div>
+            </div> -->
 
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Standard Pipe Size Chart (ASME B36.19M)</h2>
@@ -502,7 +506,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Advantages of SS 316 Semi Welded Pipes</h2>
@@ -562,7 +566,7 @@
         </div>
     </section>
 
-    
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -633,7 +637,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
@@ -783,41 +787,40 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [{
-            "@type": "Question",
-            "name": "What is the difference between SS 316 semi welded and fully welded pipes?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Semi welded pipes are lighter and mainly used for structural and decorative purposes, while fully welded ASTM pipes are used for high-pressure industrial systems."
-            }
-          },{
-            "@type": "Question",
-            "name": "Is SS 316 suitable for coastal areas?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, due to molybdenum content, SS 316 performs better in marine and chloride environments."
-            }
-          },{
-            "@type": "Question",
-            "name": "Can these pipes be polished?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, they are available in mirror, satin, brushed, and matt finishes."
-            }
-          },{
-            "@type": "Question",
-            "name": "Are custom shapes available?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, round, square, and rectangular shapes can be supplied as per requirement."
-            }
-          }]
-        }
-          @endverbatim
-    </script>
+            @verbatim
+                {
+                  "@context": "https://schema.org",
+                  "@type": "FAQPage",
+                  "mainEntity": [{
+                    "@type": "Question",
+                    "name": "What is the difference between SS 316 semi welded and fully welded pipes?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Semi welded pipes are lighter and mainly used for structural and decorative purposes, while fully welded ASTM pipes are used for high-pressure industrial systems."
+                    }
+                  },{
+                    "@type": "Question",
+                    "name": "Is SS 316 suitable for coastal areas?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, due to molybdenum content, SS 316 performs better in marine and chloride environments."
+                    }
+                  },{
+                    "@type": "Question",
+                    "name": "Can these pipes be polished?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, they are available in mirror, satin, brushed, and matt finishes."
+                    }
+                  },{
+                    "@type": "Question",
+                    "name": "Are custom shapes available?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, round, square, and rectangular shapes can be supplied as per requirement."
+                    }
+                  }]
+                }
+              @endverbatim
+        </script>
 @endsection
-

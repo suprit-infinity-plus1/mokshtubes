@@ -499,6 +499,104 @@
         </div>
     </section>
 
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
+
     <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -549,40 +647,49 @@
         </div>
     </section>
 
-    <!-- <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
-                <div class="container">
-                    <div class="section-title center mb-5">
-                        <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-                    </div>
+    <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties – SS 304 Welded Pipes</h2>
+                <p class="text-center">(Typical values as per ASTM standards)</p>
+            </div>
 
-                    <div class="row justify-content-center">
-                        <div class="col-lg-10">
-                            <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of SS 304 / 304L Welded Pipes</h4>
-                            <p class="text-center mb-4">(As per ASTM A312 / ASME SA312)</p>
-                            <div class="table-responsive">
-                                <table class="table table-bordered table-striped align-middle">
-                                    <thead class="table-dark text-center">
-                                        <tr class="t-row">
-                                            <th>Property</th>
-                                            <th>SS 304</th>
-                                            <th>SS 304L</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="text-center">
-                                        <tr class="t-row"><td>Tensile Strength</td><td>Min. 515 MPa</td><td>Min. 485 MPa</td></tr>
-                                        <tr class="t-row"><td>Yield Strength (0.2%)</td><td>Min. 205 MPa</td><td>Min. 170 MPa</td></tr>
-                                        <tr class="t-row"><td>Elongation</td><td>Min. 40%</td><td>Min. 40%</td></tr>
-                                        <tr class="t-row"><td>Hardness (HB)</td><td>Max. 201</td><td>Max. 201</td></tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <p class="text-center mt-3">
-                                📌 <strong>SS 304L</strong> provides improved resistance to intergranular corrosion after welding, making it ideal for fabrication and pressure piping.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>coming soon</th>
+                            <th>coming soon</th>
+                            <th>coming soon</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <th class="fw-bold text-start">Tensile Strength (MPa)</th>
+                            <td>coming soon</td>
+                            <td>coming soon</td>
+                            <td>coming soon</td>
+                        </tr>
+                        <tr class="t-row">
+                            <th class="fw-bold text-start">Yield Strength (MPa)</th>
+                            <td>coming soon</td>
+                            <td>coming soon</td>
+                            <td>coming soon</td>
+                        </tr>
+                        <tr class="t-row">
+                            <th class="fw-bold text-start">Elongation (%)</th>
+                            <td>coming soon</td>
+                            <td>coming soon</td>
+                            <td>coming soon</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="mt-2 text-muted text-center"><small>📌 Actual values depend on material grade and heat
+                    treatment.</small></p>
+        </div>
+    </section>
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
@@ -740,100 +847,100 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-                @verbatim
-                    [{
-                        "@context": "https://schema.org",
-                        "@type": "Organization",
-                        "name": "Moksh Tubes & Fittings LLP",
-                        "url": "https://www.mokshtubes.com",
-                        "logo": "https://www.mokshtubes.com/assets/logo.png",
-                        "contactPoint": {
-                            "@type": "ContactPoint",
-                            "telephone": "+91-97695-84950",
-                            "contactType": "sales",
-                            "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                            "availableLanguage": ["English"]
-                        }
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "Product",
-                        "name": "SS 304 Welded Pipes ASTM A312 TP304 / TP304L",
-                        "description": "SS 304 Welded Pipes as per ASTM A312 TP304/TP304L. Manufacturer, supplier & exporter to India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.",
-                        "brand": {
-                            "@type": "Brand",
-                            "name": "Moksh Tubes & Fittings LLP"
-                        },
-                        "manufacturer": {
-                            "@type": "Organization",
-                            "name": "Moksh Tubes & Fittings LLP"
-                        },
-                        "material": "Stainless Steel 304 / 304L",
-                        "url": "https://www.mokshtubes.com/products/pipes-tubes/ss-304-welded-pipes",
-                        "offers": {
-                            "@type": "Offer",
-                            "availability": "https://schema.org/InStock",
-                            "priceCurrency": "INR",
-                            "url": "https://www.mokshtubes.com/contact-us"
-                        }
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": [{
-                            "@type": "Question",
-                            "name": "What is SS 304 Welded Pipe?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "A stainless steel pipe manufactured by forming and welding SS 304 strips or plates, suitable for corrosion-resistant applications."
-                            }
-                        },{
-                            "@type": "Question",
-                            "name": "Is SS 304 Welded Pipe food-grade?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes, it is widely used in food, dairy, and beverage industries."
-                            }
-                        },{
-                            "@type": "Question",
-                            "name": "Difference between Welded and Seamless pipes?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Welded pipes are economical and precise, while seamless pipes are preferred for very high-pressure applications."
-                            }
-                        }]
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [{
-                            "@type": "ListItem",
-                            "position": 1,
-                            "name": "Home",
-                            "item": "https://www.mokshtubes.com"
-                        },{
-                            "@type": "ListItem",
-                            "position": 2,
-                            "name": "Pipes & Tubes",
-                            "item": "https://www.mokshtubes.com/products/pipes-tubes"
-                        },{
-                            "@type": "ListItem",
-                            "position": 3,
-                            "name": "SS 304 Welded Pipes",
-                            "item": "https://www.mokshtubes.com/products/pipes-tubes/ss-304-welded-pipes"
-                        }]
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "LocalBusiness",
-                        "name": "Moksh Tubes & Fittings LLP",
-                        "address": {
-                            "@type": "PostalAddress",
-                            "addressCountry": "India"
-                        },
-                        "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-                        "telephone": "+91-97695-84950"
-                    }]
-                @endverbatim
-            </script>
+                            @verbatim
+                                [{
+                                    "@context": "https://schema.org",
+                                    "@type": "Organization",
+                                    "name": "Moksh Tubes & Fittings LLP",
+                                    "url": "https://www.mokshtubes.com",
+                                    "logo": "https://www.mokshtubes.com/assets/logo.png",
+                                    "contactPoint": {
+                                        "@type": "ContactPoint",
+                                        "telephone": "+91-97695-84950",
+                                        "contactType": "sales",
+                                        "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                        "availableLanguage": ["English"]
+                                    }
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "Product",
+                                    "name": "SS 304 Welded Pipes ASTM A312 TP304 / TP304L",
+                                    "description": "SS 304 Welded Pipes as per ASTM A312 TP304/TP304L. Manufacturer, supplier & exporter to India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.",
+                                    "brand": {
+                                        "@type": "Brand",
+                                        "name": "Moksh Tubes & Fittings LLP"
+                                    },
+                                    "manufacturer": {
+                                        "@type": "Organization",
+                                        "name": "Moksh Tubes & Fittings LLP"
+                                    },
+                                    "material": "Stainless Steel 304 / 304L",
+                                    "url": "https://www.mokshtubes.com/products/pipes-tubes/ss-304-welded-pipes",
+                                    "offers": {
+                                        "@type": "Offer",
+                                        "availability": "https://schema.org/InStock",
+                                        "priceCurrency": "INR",
+                                        "url": "https://www.mokshtubes.com/contact-us"
+                                    }
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "FAQPage",
+                                    "mainEntity": [{
+                                        "@type": "Question",
+                                        "name": "What is SS 304 Welded Pipe?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "A stainless steel pipe manufactured by forming and welding SS 304 strips or plates, suitable for corrosion-resistant applications."
+                                        }
+                                    },{
+                                        "@type": "Question",
+                                        "name": "Is SS 304 Welded Pipe food-grade?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Yes, it is widely used in food, dairy, and beverage industries."
+                                        }
+                                    },{
+                                        "@type": "Question",
+                                        "name": "Difference between Welded and Seamless pipes?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Welded pipes are economical and precise, while seamless pipes are preferred for very high-pressure applications."
+                                        }
+                                    }]
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "BreadcrumbList",
+                                    "itemListElement": [{
+                                        "@type": "ListItem",
+                                        "position": 1,
+                                        "name": "Home",
+                                        "item": "https://www.mokshtubes.com"
+                                    },{
+                                        "@type": "ListItem",
+                                        "position": 2,
+                                        "name": "Pipes & Tubes",
+                                        "item": "https://www.mokshtubes.com/products/pipes-tubes"
+                                    },{
+                                        "@type": "ListItem",
+                                        "position": 3,
+                                        "name": "SS 304 Welded Pipes",
+                                        "item": "https://www.mokshtubes.com/products/pipes-tubes/ss-304-welded-pipes"
+                                    }]
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "LocalBusiness",
+                                    "name": "Moksh Tubes & Fittings LLP",
+                                    "address": {
+                                        "@type": "PostalAddress",
+                                        "addressCountry": "India"
+                                    },
+                                    "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                                    "telephone": "+91-97695-84950"
+                                }]
+                            @endverbatim
+                        </script>
 @endsection

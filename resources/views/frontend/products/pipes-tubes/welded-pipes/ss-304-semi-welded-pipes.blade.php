@@ -9,7 +9,8 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url('{{ asset('assets/images/welded/ss-304-semi-welded-pipes.jpg') }}');">
+    <section class="breadcrumb-area"
+        style="background-image: url('{{ asset('assets/images/welded/ss-304-semi-welded-pipes.jpg') }}');">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -17,7 +18,10 @@
 
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px; max-width: 900px;">
-                        Stainless Steel 304 Semi Welded Pipes are manufactured by forming stainless steel strips into tubular sections and joining them through a controlled welding process, followed by sizing and finishing operations. These pipes combine the advantages of welded construction with excellent corrosion resistance, making them suitable for medium-pressure and general industrial applications.
+                        Stainless Steel 304 Semi Welded Pipes are manufactured by forming stainless steel strips into
+                        tubular sections and joining them through a controlled welding process, followed by sizing and
+                        finishing operations. These pipes combine the advantages of welded construction with excellent
+                        corrosion resistance, making them suitable for medium-pressure and general industrial applications.
                     </p>
                 </div>
             </div>
@@ -56,30 +60,37 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/welded/ss-304-semi-welded-pipes.jpg') }}" alt="SS 304 Semi Welded Pipes"
-                        class="img-fluid rounded shadow-sm" loading="lazy">
+                    <img src="{{ asset('assets/images/welded/ss-304-semi-welded-pipes.jpg') }}"
+                        alt="SS 304 Semi Welded Pipes" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong class="text-black">Grade 304</strong> is the most widely used austenitic stainless steel due to its outstanding resistance to oxidation, corrosion, moisture, chemicals, and atmospheric conditions. It contains approximately 18% chromium and 8% <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>, providing excellent durability and long service life across diverse operating environments.
+                            <strong class="text-black">Grade 304</strong> is the most widely used austenitic stainless steel
+                            due to its outstanding resistance to oxidation, corrosion, moisture, chemicals, and atmospheric
+                            conditions. It contains approximately 18% chromium and 8% <a
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>, providing excellent
+                            durability and long service life across diverse operating environments.
                         </p>
 
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            These pipes are produced by cold-forming stainless steel strips into tubular shapes followed by a controlled welding process, ensuring uniform weld integrity and excellent dimensional control.
+                            These pipes are produced by cold-forming stainless steel strips into tubular shapes followed by
+                            a controlled welding process, ensuring uniform weld integrity and excellent dimensional control.
                         </p>
 
                         <p class="fs-6 mb-4" style="text-align: justify;">
                             At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings
-                                    LLP</a></strong>, we are a trusted manufacturer, supplier, and exporter of SS 304 Semi Welded
+                                    LLP</a></strong>, we are a trusted manufacturer, supplier, and exporter of SS 304 Semi
+                            Welded
                             Pipes in India, supplying both domestic projects and Gulf / GCC markets including UAE, Saudi
                             Arabia, Qatar, Oman, and Kuwait.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            Our SS 304 Semi Welded Pipes are widely used in chemical processing, food & dairy, pharmaceuticals, water pipelines, oil & gas, fabrication, and architectural applications.
+                            Our SS 304 Semi Welded Pipes are widely used in chemical processing, food & dairy,
+                            pharmaceuticals, water pipelines, oil & gas, fabrication, and architectural applications.
                         </p>
                     </div>
                 </div>
@@ -87,7 +98,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -185,23 +196,108 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>1/8"</td><td>10.30</td><td>1.24</td><td>0.28</td></tr>
-                                <tr class="t-row"><td>1/4"</td><td>13.70</td><td>1.65</td><td>0.49</td></tr>
-                                <tr class="t-row"><td>3/8"</td><td>17.10</td><td>1.65</td><td>0.63</td></tr>
-                                <tr class="t-row"><td>1/2"</td><td>21.34</td><td>2.11</td><td>0.85</td></tr>
-                                <tr class="t-row"><td>3/4"</td><td>26.67</td><td>2.11</td><td>1.12</td></tr>
-                                <tr class="t-row"><td>1"</td><td>33.40</td><td>2.77</td><td>1.41</td></tr>
-                                <tr class="t-row"><td>1-1/4"</td><td>42.16</td><td>2.77</td><td>1.80</td></tr>
-                                <tr class="t-row"><td>1-1/2"</td><td>48.26</td><td>2.77</td><td>2.09</td></tr>
-                                <tr class="t-row"><td>2"</td><td>60.33</td><td>2.77</td><td>2.64</td></tr>
-                                <tr class="t-row"><td>2-1/2"</td><td>73.03</td><td>3.05</td><td>3.42</td></tr>
-                                <tr class="t-row"><td>3"</td><td>88.90</td><td>3.05</td><td>4.18</td></tr>
-                                <tr class="t-row"><td>4"</td><td>114.30</td><td>3.05</td><td>5.44</td></tr>
-                                <tr class="t-row"><td>5"</td><td>141.30</td><td>3.40</td><td>6.75</td></tr>
-                                <tr class="t-row"><td>6"</td><td>168.28</td><td>3.40</td><td>8.07</td></tr>
-                                <tr class="t-row"><td>8"</td><td>219.08</td><td>3.76</td><td>10.54</td></tr>
-                                <tr class="t-row"><td>10"</td><td>273.05</td><td>4.19</td><td>13.19</td></tr>
-                                <tr class="t-row"><td>12"</td><td>323.85</td><td>4.57</td><td>15.67</td></tr>
+                                <tr class="t-row">
+                                    <td>1/8"</td>
+                                    <td>10.30</td>
+                                    <td>1.24</td>
+                                    <td>0.28</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1/4"</td>
+                                    <td>13.70</td>
+                                    <td>1.65</td>
+                                    <td>0.49</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3/8"</td>
+                                    <td>17.10</td>
+                                    <td>1.65</td>
+                                    <td>0.63</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1/2"</td>
+                                    <td>21.34</td>
+                                    <td>2.11</td>
+                                    <td>0.85</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3/4"</td>
+                                    <td>26.67</td>
+                                    <td>2.11</td>
+                                    <td>1.12</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1"</td>
+                                    <td>33.40</td>
+                                    <td>2.77</td>
+                                    <td>1.41</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1-1/4"</td>
+                                    <td>42.16</td>
+                                    <td>2.77</td>
+                                    <td>1.80</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1-1/2"</td>
+                                    <td>48.26</td>
+                                    <td>2.77</td>
+                                    <td>2.09</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2"</td>
+                                    <td>60.33</td>
+                                    <td>2.77</td>
+                                    <td>2.64</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2-1/2"</td>
+                                    <td>73.03</td>
+                                    <td>3.05</td>
+                                    <td>3.42</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3"</td>
+                                    <td>88.90</td>
+                                    <td>3.05</td>
+                                    <td>4.18</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>4"</td>
+                                    <td>114.30</td>
+                                    <td>3.05</td>
+                                    <td>5.44</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>5"</td>
+                                    <td>141.30</td>
+                                    <td>3.40</td>
+                                    <td>6.75</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>6"</td>
+                                    <td>168.28</td>
+                                    <td>3.40</td>
+                                    <td>8.07</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>8"</td>
+                                    <td>219.08</td>
+                                    <td>3.76</td>
+                                    <td>10.54</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>10"</td>
+                                    <td>273.05</td>
+                                    <td>4.19</td>
+                                    <td>13.19</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>12"</td>
+                                    <td>323.85</td>
+                                    <td>4.57</td>
+                                    <td>15.67</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -220,23 +316,108 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>1/8"</td><td>10.30</td><td>1.73</td><td>0.37</td></tr>
-                                <tr class="t-row"><td>1/4"</td><td>13.70</td><td>2.24</td><td>0.64</td></tr>
-                                <tr class="t-row"><td>3/8"</td><td>17.10</td><td>2.31</td><td>0.86</td></tr>
-                                <tr class="t-row"><td>1/2"</td><td>21.34</td><td>2.77</td><td>1.27</td></tr>
-                                <tr class="t-row"><td>3/4"</td><td>26.67</td><td>2.87</td><td>1.69</td></tr>
-                                <tr class="t-row"><td>1"</td><td>33.40</td><td>3.38</td><td>2.50</td></tr>
-                                <tr class="t-row"><td>1-1/4"</td><td>42.16</td><td>3.56</td><td>3.39</td></tr>
-                                <tr class="t-row"><td>1-1/2"</td><td>48.26</td><td>3.68</td><td>4.05</td></tr>
-                                <tr class="t-row"><td>2"</td><td>60.33</td><td>3.91</td><td>5.44</td></tr>
-                                <tr class="t-row"><td>2-1/2"</td><td>73.03</td><td>5.16</td><td>7.58</td></tr>
-                                <tr class="t-row"><td>3"</td><td>88.90</td><td>5.49</td><td>10.26</td></tr>
-                                <tr class="t-row"><td>4"</td><td>114.30</td><td>6.02</td><td>13.49</td></tr>
-                                <tr class="t-row"><td>5"</td><td>141.30</td><td>6.55</td><td>18.24</td></tr>
-                                <tr class="t-row"><td>6"</td><td>168.28</td><td>7.11</td><td>21.86</td></tr>
-                                <tr class="t-row"><td>8"</td><td>219.08</td><td>8.18</td><td>28.55</td></tr>
-                                <tr class="t-row"><td>10"</td><td>273.05</td><td>9.27</td><td>35.95</td></tr>
-                                <tr class="t-row"><td>12"</td><td>323.85</td><td>9.53</td><td>49.56</td></tr>
+                                <tr class="t-row">
+                                    <td>1/8"</td>
+                                    <td>10.30</td>
+                                    <td>1.73</td>
+                                    <td>0.37</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1/4"</td>
+                                    <td>13.70</td>
+                                    <td>2.24</td>
+                                    <td>0.64</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3/8"</td>
+                                    <td>17.10</td>
+                                    <td>2.31</td>
+                                    <td>0.86</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1/2"</td>
+                                    <td>21.34</td>
+                                    <td>2.77</td>
+                                    <td>1.27</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3/4"</td>
+                                    <td>26.67</td>
+                                    <td>2.87</td>
+                                    <td>1.69</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1"</td>
+                                    <td>33.40</td>
+                                    <td>3.38</td>
+                                    <td>2.50</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1-1/4"</td>
+                                    <td>42.16</td>
+                                    <td>3.56</td>
+                                    <td>3.39</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1-1/2"</td>
+                                    <td>48.26</td>
+                                    <td>3.68</td>
+                                    <td>4.05</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2"</td>
+                                    <td>60.33</td>
+                                    <td>3.91</td>
+                                    <td>5.44</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2-1/2"</td>
+                                    <td>73.03</td>
+                                    <td>5.16</td>
+                                    <td>7.58</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3"</td>
+                                    <td>88.90</td>
+                                    <td>5.49</td>
+                                    <td>10.26</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>4"</td>
+                                    <td>114.30</td>
+                                    <td>6.02</td>
+                                    <td>13.49</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>5"</td>
+                                    <td>141.30</td>
+                                    <td>6.55</td>
+                                    <td>18.24</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>6"</td>
+                                    <td>168.28</td>
+                                    <td>7.11</td>
+                                    <td>21.86</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>8"</td>
+                                    <td>219.08</td>
+                                    <td>8.18</td>
+                                    <td>28.55</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>10"</td>
+                                    <td>273.05</td>
+                                    <td>9.27</td>
+                                    <td>35.95</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>12"</td>
+                                    <td>323.85</td>
+                                    <td>9.53</td>
+                                    <td>49.56</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -278,6 +459,104 @@
             </div>
         </div>
     </section>
+
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
 
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -329,7 +608,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -439,7 +718,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    These are pipes manufactured from SS 304 coils using a controlled welding process, offering excellent corrosion resistance and durability.
+                                    These are pipes manufactured from SS 304 coils using a controlled welding process,
+                                    offering excellent corrosion resistance and durability.
                                 </p>
                             </div>
                         </div>
@@ -451,7 +731,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes, they provide excellent resistance to corrosion, oxidation, and atmospheric exposure.
+                                    Yes, they provide excellent resistance to corrosion, oxidation, and atmospheric
+                                    exposure.
                                 </p>
                             </div>
                         </div>
@@ -463,7 +744,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Seamless pipes are manufactured without a weld seam, while semi welded pipes are produced by welding formed stainless steel strips.
+                                    Seamless pipes are manufactured without a weld seam, while semi welded pipes are
+                                    produced by welding formed stainless steel strips.
                                 </p>
                             </div>
                         </div>
@@ -524,90 +806,90 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-        [{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Moksh Tubes & Fittings LLP",
-            "url": "https://www.mokshtubes.com",
-            "logo": "https://www.mokshtubes.com/assets/logo.png",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91-97695-84950",
-                "contactType": "sales",
-                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                "availableLanguage": ["English"]
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "Stainless Steel 304 Semi Welded Pipes",
-            "description": "Stainless Steel 304 Semi Welded Pipes manufactured as per ASTM A312 TP304 for chemical, marine, food, pharmaceutical and industrial applications.",
-            "brand": {
-                "@type": "Brand",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "manufacturer": {
-                "@type": "Organization",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "material": "Stainless Steel 304",
-            "url": "https://www.mokshtubes.com/products/pipes-tubes/welded-pipes/ss-304-semi-welded-pipes",
-            "offers": {
-                "@type": "AggregateOffer",
-                "priceCurrency": "USD",
-                "lowPrice": "2.5",
-                "highPrice": "10",
-                "offerCount": "100"
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-                {
-                "@type": "Question",
-                "name": "What are Stainless Steel 304 Semi Welded Pipes?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "These are pipes manufactured from SS 304 coils using a controlled welding process, offering excellent corrosion resistance and durability."
-                }
+            @verbatim
+                [{
+                    "@context": "https://schema.org",
+                    "@type": "Organization",
+                    "name": "Moksh Tubes & Fittings LLP",
+                    "url": "https://www.mokshtubes.com",
+                    "logo": "https://www.mokshtubes.com/assets/logo.png",
+                    "contactPoint": {
+                        "@type": "ContactPoint",
+                        "telephone": "+91-97695-84950",
+                        "contactType": "sales",
+                        "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                        "availableLanguage": ["English"]
+                    }
                 },
                 {
-                "@type": "Question",
-                "name": "Are SS 304 Semi Welded Pipes corrosion resistant?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, they provide excellent resistance to corrosion, oxidation, and atmospheric exposure."
-                }
+                    "@context": "https://schema.org",
+                    "@type": "Product",
+                    "name": "Stainless Steel 304 Semi Welded Pipes",
+                    "description": "Stainless Steel 304 Semi Welded Pipes manufactured as per ASTM A312 TP304 for chemical, marine, food, pharmaceutical and industrial applications.",
+                    "brand": {
+                        "@type": "Brand",
+                        "name": "Moksh Tubes & Fittings LLP"
+                    },
+                    "manufacturer": {
+                        "@type": "Organization",
+                        "name": "Moksh Tubes & Fittings LLP"
+                    },
+                    "material": "Stainless Steel 304",
+                    "url": "https://www.mokshtubes.com/products/pipes-tubes/welded-pipes/ss-304-semi-welded-pipes",
+                    "offers": {
+                        "@type": "AggregateOffer",
+                        "priceCurrency": "USD",
+                        "lowPrice": "2.5",
+                        "highPrice": "10",
+                        "offerCount": "100"
+                    }
                 },
                 {
-                "@type": "Question",
-                "name": "What is the difference between seamless and semi welded pipes?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Seamless pipes are manufactured without a weld seam, while semi welded pipes are produced by welding formed stainless steel strips."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Do you provide test certificates?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, all supplies include EN 10204 3.1 certificates."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "What is delivery time?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ex-stock items: 2-5 working days. Manufacturing orders: 2-4 weeks."
-                }
-                }
-            ]
-        }]
-        @endverbatim
-    </script>
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                        {
+                        "@type": "Question",
+                        "name": "What are Stainless Steel 304 Semi Welded Pipes?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "These are pipes manufactured from SS 304 coils using a controlled welding process, offering excellent corrosion resistance and durability."
+                        }
+                        },
+                        {
+                        "@type": "Question",
+                        "name": "Are SS 304 Semi Welded Pipes corrosion resistant?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, they provide excellent resistance to corrosion, oxidation, and atmospheric exposure."
+                        }
+                        },
+                        {
+                        "@type": "Question",
+                        "name": "What is the difference between seamless and semi welded pipes?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Seamless pipes are manufactured without a weld seam, while semi welded pipes are produced by welding formed stainless steel strips."
+                        }
+                        },
+                        {
+                        "@type": "Question",
+                        "name": "Do you provide test certificates?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, all supplies include EN 10204 3.1 certificates."
+                        }
+                        },
+                        {
+                        "@type": "Question",
+                        "name": "What is delivery time?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ex-stock items: 2-5 working days. Manufacturing orders: 2-4 weeks."
+                        }
+                        }
+                    ]
+                }]
+            @endverbatim
+        </script>
 @endsection

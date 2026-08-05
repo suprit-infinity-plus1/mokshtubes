@@ -1,10 +1,14 @@
 @extends('layouts.master')
 @section('title', 'Lap Joint Flanges Manufacturer, Supplier & Exporter in India | Moksh Tubes')
 <!-- 72 Characters -->
-@section('meta_description',
-    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Lap Joint Flanges in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 certified with worldwide delivery.')
-@section('meta_keywords',
-    'Lap Joint Flanges, Lap Joint Flanges Manufacturer, Lap Joint Flanges Supplier, Lap Joint Flanges Exporter, Stainless Steel Lap Joint Flanges, Carbon Steel Lap Joint Flanges, Alloy Steel Lap Joint Flanges, Duplex Lap Joint Flanges, Super Duplex Lap Joint Flanges, Forged Lap Joint Flanges, ASME B16.5 Lap Joint Flanges, LJ Flanges, Stub End Flanges, Rotating Flanges, Industrial Lap Joint Flanges, Pipe Flanges with Stub End')
+@section(
+    'meta_description',
+    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Lap Joint Flanges in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 certified with worldwide delivery.'
+)
+@section(
+    'meta_keywords',
+    'Lap Joint Flanges, Lap Joint Flanges Manufacturer, Lap Joint Flanges Supplier, Lap Joint Flanges Exporter, Stainless Steel Lap Joint Flanges, Carbon Steel Lap Joint Flanges, Alloy Steel Lap Joint Flanges, Duplex Lap Joint Flanges, Super Duplex Lap Joint Flanges, Forged Lap Joint Flanges, ASME B16.5 Lap Joint Flanges, LJ Flanges, Stub End Flanges, Rotating Flanges, Industrial Lap Joint Flanges, Pipe Flanges with Stub End'
+)
 @section('og_title', 'Lap Joint Flanges Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Premium-quality Lap Joint Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified with worldwide export support.')
 @section('og_image', asset('assets/images/fasteners/ljff-flanges_11zon.jpeg'))
@@ -19,8 +23,15 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1 class="page-title">Lap Joint Flanges Manufacturer, Supplier & Exporter in India</h1>
-                        <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Lap Joint Flanges are two-piece flanges designed to work with a stub end, providing a flexible and cost-effective solution for piping systems that require frequent dismantling, inspection, or maintenance. Their rotating design allows easy bolt alignment, making installation faster and more efficient. At Moksh Tubes & Fittings LLP, we manufacture, supply, and export premium-quality Lap Joint Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades. Manufactured to international standards, our flanges offer excellent corrosion resistance, strength, and reliable performance across a wide range of industrial applications.
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Lap Joint Flanges are two-piece flanges designed to work with a stub end, providing a flexible and
+                        cost-effective solution for piping systems that require frequent dismantling, inspection, or
+                        maintenance. Their rotating design allows easy bolt alignment, making installation faster and more
+                        efficient. At Moksh Tubes & Fittings LLP, we manufacture, supply, and export premium-quality Lap
+                        Joint Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys,
+                        and titanium grades. Manufactured to international standards, our flanges offer excellent corrosion
+                        resistance, strength, and reliable performance across a wide range of industrial applications.
                     </p>
 
                 </div>
@@ -55,31 +66,40 @@
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/fasteners/ljff-flanges_11zon.jpeg') }}"
-                        alt="Lap Joint Flanges Manufacturer" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                        alt="Lap Joint Flanges Manufacturer" class="img-fluid rounded shadow-sm" width="550" height="350"
+                        loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        A <strong>Lap Joint Flange (LJ Flange)</strong> is used together with a <strong>Stub End</strong> to create a flanged connection. Unlike other flanges, the flange itself is not welded directly to the pipe. Instead, the stub end is welded to the pipe while the flange rotates freely around it. This design makes alignment of bolt holes simple and allows easy removal of piping components for maintenance or inspection.
+                        A <strong>Lap Joint Flange (LJ Flange)</strong> is used together with a <strong>Stub End</strong> to
+                        create a flanged connection. Unlike other flanges, the flange itself is not welded directly to the
+                        pipe. Instead, the stub end is welded to the pipe while the flange rotates freely around it. This
+                        design makes alignment of bolt holes simple and allows easy removal of piping components for
+                        maintenance or inspection.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture precision-engineered Lap Joint Flanges using high-quality forged materials and advanced CNC machining technology. Our flanges are available in a wide range of sizes, pressure classes, and material grades, making them suitable for corrosive environments, process piping, and systems that require regular maintenance.
+                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture
+                        precision-engineered Lap Joint Flanges using high-quality forged materials and advanced CNC
+                        machining technology. Our flanges are available in a wide range of sizes, pressure classes, and
+                        material grades, making them suitable for corrosive environments, process piping, and systems that
+                        require regular maintenance.
                     </p>
 
                 </div>
             </div>
         </div>
     </section>
-    
+
     {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Lap Joint Flanges Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with chemical composition, mechanical properties, dimension charts, and application guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete datasheet with chemical composition, mechanical properties, dimension charts, and
+                application guidelines. Enter your email below to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
@@ -106,7 +126,7 @@
             </p>
         </div>
     </section>
-    
+
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -134,7 +154,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium</td>
+                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys &
+                                        Titanium</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Size Range</td>
@@ -168,58 +189,59 @@
         </div>
     </section>
 
-    <section id="chemical-composition" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Chemical Composition</h2>
-            </div>
-            <p class="text-center pb-3">
-                The chemical composition of <strong>Lap Joint Flanges</strong> depends on the selected material grade. At Moksh Tubes & Fittings LLP, our Lap Joint Flanges are manufactured from premium-quality raw materials in accordance with ASTM, ASME, EN, DIN, BS, and JIS standards, ensuring excellent corrosion resistance, high mechanical strength, and long service life.
-            </p>
+    <!-- <section id="chemical-composition" class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Chemical Composition</h2>
+                </div>
+                <p class="text-center pb-3">
+                    The chemical composition of <strong>Lap Joint Flanges</strong> depends on the selected material grade. At Moksh Tubes & Fittings LLP, our Lap Joint Flanges are manufactured from premium-quality raw materials in accordance with ASTM, ASME, EN, DIN, BS, and JIS standards, ensuring excellent corrosion resistance, high mechanical strength, and long service life.
+                </p>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle text-center">
-                            <thead class="table-dark">
-                                <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>SS 304 (%)</th>
-                                    <th>SS 304L (%)</th>
-                                    <th>SS 316 (%)</th>
-                                    <th>SS 316L (%)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
-                                <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
-                                <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
-                                <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
-                                <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
-                                <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
-                                <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
-                                <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
-                                <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
-                                <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
-                            </tbody>
-                        </table>
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped align-middle text-center">
+                                <thead class="table-dark">
+                                    <tr class="t-row">
+                                        <th>Element</th>
+                                        <th>SS 304 (%)</th>
+                                        <th>SS 304L (%)</th>
+                                        <th>SS 316 (%)</th>
+                                        <th>SS 316L (%)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
+                                    <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
+                                    <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
+                                    <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
+                                    <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
+                                    <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
+                                    <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
+                                    <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
+                                    <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
+                                    <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
+                <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Lap Joint Flanges are manufactured in accordance with the relevant ASTM and ASME material specifications.</small></p>
             </div>
-            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Lap Joint Flanges are manufactured in accordance with the relevant ASTM and ASME material specifications.</small></p>
-        </div>
-    </section>
+        </section> -->
 
-   <!-- charts -->
+    <!-- charts -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart</h2>
             </div>
             <p class="text-center pb-3">
-                Lap Joint Flanges are manufactured in accordance with <strong>ASME B16.5</strong> and <strong>ASME B16.47</strong> standards and are available in a wide range of nominal pipe sizes and pressure classes.
+                Lap Joint Flanges are manufactured in accordance with <strong>ASME B16.5</strong> and <strong>ASME
+                    B16.47</strong> standards and are available in a wide range of nominal pipe sizes and pressure classes.
             </p>
-            
+
             <div class="table-responsive mt-4">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
@@ -232,24 +254,110 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>½"</td><td>150</td><td>90</td><td>11</td><td>0.50</td></tr>
-                        <tr class="t-row"><td>¾"</td><td>150</td><td>100</td><td>12</td><td>0.70</td></tr>
-                        <tr class="t-row"><td>1"</td><td>150</td><td>108</td><td>14</td><td>0.95</td></tr>
-                        <tr class="t-row"><td>1½"</td><td>150</td><td>127</td><td>16</td><td>1.60</td></tr>
-                        <tr class="t-row"><td>2"</td><td>150</td><td>152</td><td>19</td><td>2.50</td></tr>
-                        <tr class="t-row"><td>3"</td><td>150</td><td>191</td><td>24</td><td>4.70</td></tr>
-                        <tr class="t-row"><td>4"</td><td>150</td><td>229</td><td>24</td><td>7.10</td></tr>
-                        <tr class="t-row"><td>6"</td><td>150</td><td>279</td><td>27</td><td>12.40</td></tr>
-                        <tr class="t-row"><td>8"</td><td>150</td><td>343</td><td>30</td><td>20.10</td></tr>
-                        <tr class="t-row"><td>10"</td><td>150</td><td>406</td><td>32</td><td>30.90</td></tr>
-                        <tr class="t-row"><td>12"</td><td>150</td><td>483</td><td>35</td><td>46.30</td></tr>
-                        <tr class="t-row"><td>16"</td><td>150</td><td>597</td><td>38</td><td>77.20</td></tr>
-                        <tr class="t-row"><td>20"</td><td>150</td><td>711</td><td>43</td><td>125.60</td></tr>
-                        <tr class="t-row"><td>24"</td><td>150</td><td>813</td><td>48</td><td>185.80</td></tr>
+                        <tr class="t-row">
+                            <td>½"</td>
+                            <td>150</td>
+                            <td>90</td>
+                            <td>11</td>
+                            <td>0.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>¾"</td>
+                            <td>150</td>
+                            <td>100</td>
+                            <td>12</td>
+                            <td>0.70</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1"</td>
+                            <td>150</td>
+                            <td>108</td>
+                            <td>14</td>
+                            <td>0.95</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1½"</td>
+                            <td>150</td>
+                            <td>127</td>
+                            <td>16</td>
+                            <td>1.60</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2"</td>
+                            <td>150</td>
+                            <td>152</td>
+                            <td>19</td>
+                            <td>2.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3"</td>
+                            <td>150</td>
+                            <td>191</td>
+                            <td>24</td>
+                            <td>4.70</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4"</td>
+                            <td>150</td>
+                            <td>229</td>
+                            <td>24</td>
+                            <td>7.10</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>6"</td>
+                            <td>150</td>
+                            <td>279</td>
+                            <td>27</td>
+                            <td>12.40</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>8"</td>
+                            <td>150</td>
+                            <td>343</td>
+                            <td>30</td>
+                            <td>20.10</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>10"</td>
+                            <td>150</td>
+                            <td>406</td>
+                            <td>32</td>
+                            <td>30.90</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>12"</td>
+                            <td>150</td>
+                            <td>483</td>
+                            <td>35</td>
+                            <td>46.30</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>16"</td>
+                            <td>150</td>
+                            <td>597</td>
+                            <td>38</td>
+                            <td>77.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>20"</td>
+                            <td>150</td>
+                            <td>711</td>
+                            <td>43</td>
+                            <td>125.60</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>24"</td>
+                            <td>150</td>
+                            <td>813</td>
+                            <td>48</td>
+                            <td>185.80</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and may vary depending on the pressure class (Class 150–2500), material grade, and ASME B16.5/B16.47 requirements. Custom sizes and specifications are available upon request.</p>
+            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and
+                may vary depending on the pressure class (Class 150–2500), material grade, and ASME B16.5/B16.47
+                requirements. Custom sizes and specifications are available upon request.</p>
         </div>
     </section>
 
@@ -262,21 +370,25 @@
             cursor: pointer;
             background-color: #ffffff;
         }
+
         .grade-card .card-icon,
         .grade-card .card-title {
             color: #003366;
             transition: color 0.3s ease;
         }
+
         .grade-card .card-text {
             color: #6c757d;
             transition: color 0.3s ease;
         }
+
         .grade-card:hover {
             background-color: #e67e22;
             border-color: #e67e22;
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(230, 126, 34, 0.2) !important;
         }
+
         .grade-card:hover .card-icon,
         .grade-card:hover .card-title,
         .grade-card:hover .card-text {
@@ -288,7 +400,7 @@
             <div class="section-title center mb-5">
                 <h2>Grades &amp; Equivalent</h2>
             </div>
-            
+
             <div class="row justify-content-center mb-5">
                 <!-- Stainless Steel Grades -->
                 <div class="col-md-4 mb-4">
@@ -307,7 +419,8 @@
                         <div class="card-body py-4">
                             <i class="bi bi-gear-fill mb-3 d-block card-icon" style="font-size: 2rem;"></i>
                             <h5 class="card-title" style="font-weight: 600;">Carbon &amp; Alloy Steel</h5>
-                            <p class="card-text small mb-0">Carbon Steel ASTM A105,<br>Low Temp A350 LF2, Alloy A182 F11/F22/F91</p>
+                            <p class="card-text small mb-0">Carbon Steel ASTM A105,<br>Low Temp A350 LF2, Alloy A182
+                                F11/F22/F91</p>
                         </div>
                     </div>
                 </div>
@@ -329,7 +442,8 @@
                         <div class="card-body py-4">
                             <i class="bi bi-award-fill mb-3 d-block card-icon" style="font-size: 2rem;"></i>
                             <h5 class="card-title" style="font-weight: 600;">High-Performance Alloys</h5>
-                            <p class="card-text small mb-0">Inconel&reg;, Monel&reg;, Hastelloy&reg; &amp; Titanium Grade 2</p>
+                            <p class="card-text small mb-0">Inconel&reg;, Monel&reg;, Hastelloy&reg; &amp; Titanium Grade 2
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -389,28 +503,36 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}">
-                                <img class="w-100" src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp') }}"
                                     alt="Stainless Steel 304" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}" style="color: inherit; text-decoration: none;">Stainless Steel 304</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}"
+                                    style="color: inherit; text-decoration: none;">Stainless Steel 304</a></h6>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Stainless Steel 316 -->
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}">
-                                <img class="w-100" src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"
                                     alt="Stainless Steel 316" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}" style="color: inherit; text-decoration: none;">Stainless Steel 316</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}"
+                                    style="color: inherit; text-decoration: none;">Stainless Steel 316</a></h6>
                         </div>
                     </div>
                 </div>
@@ -419,13 +541,17 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}">
-                                <img class="w-100" src="{{ asset('assets/images/engineering-steels/engineering-steels-1045.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/engineering-steels/engineering-steels-1045.webp') }}"
                                     alt="Carbon Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}" style="color: inherit; text-decoration: none;">Carbon Steel</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}"
+                                    style="color: inherit; text-decoration: none;">Carbon Steel</a></h6>
                         </div>
                     </div>
                 </div>
@@ -434,13 +560,17 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}">
-                                <img class="w-100" src="{{ asset('assets/images/engineering-steels/engineering-steels-4140.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/engineering-steels/engineering-steels-4140.webp') }}"
                                     alt="Alloy Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}" style="color: inherit; text-decoration: none;">Alloy Steel</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}"
+                                    style="color: inherit; text-decoration: none;">Alloy Steel</a></h6>
                         </div>
                     </div>
                 </div>
@@ -450,12 +580,15 @@
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
-                                <img class="w-100" src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}" style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}"
+                                    style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
                         </div>
                     </div>
                 </div>
@@ -470,7 +603,8 @@
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}" style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}"
+                                    style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
                         </div>
                     </div>
                 </div>
@@ -478,73 +612,7 @@
         </div>
     </section>
 
-    {{-- Features & Advantages --}}
-    <section id="features" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Features & Advantages</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrow-repeat"></i></div>
-                        <h4>Rotating flange for easy bolt hole alignment</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                        <h4>Simplifies installation and maintenance</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h4>Used with stub ends for flexible piping connections</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Excellent corrosion and oxidation resistance</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                        <h4>High mechanical strength and durability</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-wrench"></i></div>
-                        <h4>Ideal for systems requiring frequent dismantling</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-piggy-bank"></i></div>
-                        <h4>Cost-effective solution for expensive alloy piping</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
-                        <h4>Precision-machined sealing surface</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
-                        <h4>Manufactured according to international quality standards</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{-- Applications --}}
+     {{-- Applications --}}
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -623,11 +691,81 @@
         </div>
     </section>
 
+    {{-- Features & Advantages --}}
+    <section id="features" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Features & Advantages</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrow-repeat"></i></div>
+                        <h4>Rotating flange for easy bolt hole alignment</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h4>Simplifies installation and maintenance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-diagram-3"></i></div>
+                        <h4>Used with stub ends for flexible piping connections</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>Excellent corrosion and oxidation resistance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                        <h4>High mechanical strength and durability</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-wrench"></i></div>
+                        <h4>Ideal for systems requiring frequent dismantling</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-piggy-bank"></i></div>
+                        <h4>Cost-effective solution for expensive alloy piping</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
+                        <h4>Precision-machined sealing surface</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
+                        <h4>Manufactured according to international quality standards</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
     <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom">
         <div class="container">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-                 <p class="text-center">The mechanical properties of <strong>Lap Joint Flanges</strong> depend on the selected material grade and comply with applicable ASTM and ASME standards. The table below shows the typical mechanical properties for commonly supplied stainless steel grades.</p>
+                <p class="text-center">The mechanical properties of <strong>Lap Joint Flanges</strong> depend on the
+                    selected material grade and comply with applicable ASTM and ASME standards. The table below shows the
+                    typical mechanical properties for commonly supplied stainless steel grades.</p>
             </div>
 
             <div class="table-responsive">
@@ -663,12 +801,14 @@
                     </tbody>
                 </table>
             </div>
-             <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Lap Joint Flanges are available in accordance with their respective ASTM/ASME material specifications upon request.</small></p>
+            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel,
+                    Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Lap Joint Flanges are available in
+                    accordance with their respective ASTM/ASME material specifications upon request.</small></p>
         </div>
     </section>
 
-     <!-- Testing & Quality Control -->
-    <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Testing & Quality Control -->
+    <!-- <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Testing & Quality</h2>
@@ -715,18 +855,20 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Packaging & Export -->
-    <section id="packaging" class="sec-padd-top sec-padd-bottom">
+    <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
             </div>
-            <p class="fs-5">We ensure that our <strong>Lap Joint Flanges</strong> are securely packaged to prevent damage during transit. We use high-quality wooden crates, pallets, and shrink-wrapping for export shipments.</p>
-            <p class="fs-5">We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe, Africa, and Southeast Asia.</p>
+            <p class="fs-5">We ensure that our <strong>Lap Joint Flanges</strong> are securely packaged to prevent damage
+                during transit. We use high-quality wooden crates, pallets, and shrink-wrapping for export shipments.</p>
+            <p class="fs-5">We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
+                Europe, Africa, and Southeast Asia.</p>
         </div>
-    </section>
+    </section> -->
 
     {{-- why choose us --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -795,20 +937,23 @@
     </section>
 
     {{-- Packaging & Export --}}
-    <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
+    <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
         <div class="container">
             <div class="section-title center">
                 <h2>Packaging & Export</h2>
             </div>
             <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
-                We ensure secure and standardized packaging to prevent damage during transit. Our <strong>Lap Joint Flanges</strong> are packed in high-quality wooden crates, shrink-wrapped, and securely strapped on pallets for international shipping.
-                Moksh Tubes & Fittings LLP is a trusted exporter with a strong presence in the Middle East, Europe, Africa, and Southeast Asia.
+                We ensure secure and standardized packaging to prevent damage during transit. Our <strong>Lap Joint
+                    Flanges</strong> are packed in high-quality wooden crates, shrink-wrapped, and securely strapped on
+                pallets for international shipping.
+                Moksh Tubes & Fittings LLP is a trusted exporter with a strong presence in the Middle East, Europe, Africa,
+                and Southeast Asia.
             </p>
         </div>
-    </section>
+    </section> -->
 
     {{-- Export Locations --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>Global Export Locations</h2>
@@ -836,7 +981,7 @@
                 <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Brazil</span></div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     {{-- faq --}}
     <section id="faq" class="sec-padd-top sec-padd-bottom">
@@ -847,17 +992,20 @@
             </div>
 
             <div class="accordion faq-accordion" id="faqAccordion">
-                
+
                 <!-- FAQ Item 1 -->
                 <div class="accordion-item mb-3 border-0">
                     <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             What is a Lap Joint Flange?
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#faqAccordion">
                         <div class="accordion-body text-muted">
-                            A Lap Joint Flange is a two-piece flange used with a stub end. The flange rotates freely around the stub end, allowing easy alignment and simplified maintenance.
+                            A Lap Joint Flange is a two-piece flange used with a stub end. The flange rotates freely around
+                            the stub end, allowing easy alignment and simplified maintenance.
                         </div>
                     </div>
                 </div>
@@ -865,13 +1013,16 @@
                 <!-- FAQ Item 2 -->
                 <div class="accordion-item mb-3 border-0">
                     <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             Where are Lap Joint Flanges commonly used?
                         </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#faqAccordion">
                         <div class="accordion-body text-muted">
-                            They are commonly used in chemical processing, pharmaceutical, food processing, marine, and industrial piping systems where frequent dismantling and inspection are required.
+                            They are commonly used in chemical processing, pharmaceutical, food processing, marine, and
+                            industrial piping systems where frequent dismantling and inspection are required.
                         </div>
                     </div>
                 </div>
@@ -879,13 +1030,16 @@
                 <!-- FAQ Item 3 -->
                 <div class="accordion-item mb-3 border-0">
                     <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             Which materials are available?
                         </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#faqAccordion">
                         <div class="accordion-body text-muted">
-                            We manufacture Lap Joint Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades.
+                            We manufacture Lap Joint Flanges in stainless steel, carbon steel, alloy steel, duplex, super
+                            duplex, nickel alloys, and titanium grades.
                         </div>
                     </div>
                 </div>
@@ -893,11 +1047,13 @@
                 <!-- FAQ Item 4 -->
                 <div class="accordion-item mb-3 border-0">
                     <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             Do you provide material test certificates?
                         </button>
                     </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#faqAccordion">
                         <div class="accordion-body text-muted">
                             Yes. EN 10204 3.1 Material Test Certificates are supplied with every order.
                         </div>
@@ -907,13 +1063,16 @@
                 <!-- FAQ Item 5 -->
                 <div class="accordion-item border-0">
                     <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                             Can you manufacture custom sizes and pressure classes?
                         </button>
                     </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#faqAccordion">
                         <div class="accordion-body text-muted">
-                            Yes. We manufacture Lap Joint Flanges in standard and customized sizes, pressure classes, and material grades according to customer specifications.
+                            Yes. We manufacture Lap Joint Flanges in standard and customized sizes, pressure classes, and
+                            material grades according to customer specifications.
                         </div>
                     </div>
                 </div>
@@ -922,12 +1081,14 @@
         </div>
     </section>
 
-      <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Request a Quote</h2>
                 <p>
-                    Looking for a trusted <strong>Lap Joint Flanges</strong> manufacturer and supplier? Contact <strong>Moksh Tubes & Fittings LLP</strong> for premium-quality forged lap joint flanges, competitive pricing, ready stock, technical support, and fast worldwide delivery. Request your free quotation today.
+                    Looking for a trusted <strong>Lap Joint Flanges</strong> manufacturer and supplier? Contact
+                    <strong>Moksh Tubes & Fittings LLP</strong> for premium-quality forged lap joint flanges, competitive
+                    pricing, ready stock, technical support, and fast worldwide delivery. Request your free quotation today.
                 </p>
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
@@ -937,7 +1098,7 @@
         </div>
     </section>
 
-    
+
     <style>
         .faq-accordion .accordion-button {
             background-color: #e9ecef !important;
@@ -948,14 +1109,17 @@
             padding: 15px 20px;
             border-radius: 0 !important;
         }
+
         .faq-accordion .accordion-button:focus {
             box-shadow: none;
         }
+
         .faq-accordion .accordion-button:not(.collapsed) {
             background-color: #db7227 !important;
             color: #ffffff !important;
             box-shadow: none;
         }
+
         .faq-accordion .accordion-button::after {
             background-image: none !important;
             content: '+';
@@ -971,14 +1135,17 @@
             font-weight: bold;
             line-height: 1;
         }
+
         .faq-accordion .accordion-button:not(.collapsed)::after {
             content: '-';
         }
+
         .faq-accordion .accordion-item {
             border: none;
             margin-bottom: 5px;
             background-color: transparent;
         }
+
         .faq-accordion .accordion-body {
             background-color: #fff;
             border: 1px solid #e9ecef;
@@ -990,74 +1157,74 @@
 
     @verbatim
         <script type="application/ld+json">
-        {
-          "@context": "https://schema.org/",
-          "@type": "Product",
-          "name": "Lap Joint Flanges",
-          "image": "https://mokshtubes.com/assets/images/fasteners/ljff-flanges_11zon.jpeg",
-          "description": "Premium-quality Lap Joint Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified with worldwide export support.",
-          "brand": {
-            "@type": "Brand",
-            "name": "Moksh Tubes & Fittings LLP"
-          },
-          "manufacturer": {
-            "@type": "Organization",
-            "name": "Moksh Tubes & Fittings LLP",
-            "url": "https://mokshtubes.com"
-          },
-          "offers": {
-            "@type": "AggregateOffer",
-            "url": "https://mokshtubes.com/lap-joint-flanges",
-            "priceCurrency": "USD",
-            "price": "1.00",
-            "availability": "https://schema.org/InStock"
-          },
-          "mainEntityOfPage": {
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "What is a Lap Joint Flange?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "A Lap Joint Flange is a two-piece flange used with a stub end. The flange rotates freely around the stub end, allowing easy alignment and simplified maintenance."
+                {
+                  "@context": "https://schema.org/",
+                  "@type": "Product",
+                  "name": "Lap Joint Flanges",
+                  "image": "https://mokshtubes.com/assets/images/fasteners/ljff-flanges_11zon.jpeg",
+                  "description": "Premium-quality Lap Joint Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified with worldwide export support.",
+                  "brand": {
+                    "@type": "Brand",
+                    "name": "Moksh Tubes & Fittings LLP"
+                  },
+                  "manufacturer": {
+                    "@type": "Organization",
+                    "name": "Moksh Tubes & Fittings LLP",
+                    "url": "https://mokshtubes.com"
+                  },
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "url": "https://mokshtubes.com/lap-joint-flanges",
+                    "priceCurrency": "USD",
+                    "price": "1.00",
+                    "availability": "https://schema.org/InStock"
+                  },
+                  "mainEntityOfPage": {
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                      {
+                        "@type": "Question",
+                        "name": "What is a Lap Joint Flange?",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "A Lap Joint Flange is a two-piece flange used with a stub end. The flange rotates freely around the stub end, allowing easy alignment and simplified maintenance."
+                        }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Where are Lap Joint Flanges commonly used?",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "They are commonly used in chemical processing, pharmaceutical, food processing, marine, and industrial piping systems where frequent dismantling and inspection are required."
+                        }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Which materials are available?",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "We manufacture Lap Joint Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades."
+                        }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Do you provide material test certificates?",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order."
+                        }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Can you manufacture custom sizes and pressure classes?",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Yes. We manufacture Lap Joint Flanges in standard and customized sizes, pressure classes, and material grades according to customer specifications."
+                        }
+                      }
+                    ]
+                  }
                 }
-              },
-              {
-                "@type": "Question",
-                "name": "Where are Lap Joint Flanges commonly used?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "They are commonly used in chemical processing, pharmaceutical, food processing, marine, and industrial piping systems where frequent dismantling and inspection are required."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Which materials are available?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We manufacture Lap Joint Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you provide material test certificates?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can you manufacture custom sizes and pressure classes?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes. We manufacture Lap Joint Flanges in standard and customized sizes, pressure classes, and material grades according to customer specifications."
-                }
-              }
-            ]
-          }
-        }
-        </script>
+                </script>
     @endverbatim
 @endsection

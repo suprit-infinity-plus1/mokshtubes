@@ -1,12 +1,16 @@
 @extends('layouts.master')
 @section('title', 'ASTM A179 A192 A213 Boiler & Heat Exchanger Tubes | India & GCC')
 <!-- 52 characters -->
-@section('meta_description',
+@section(
+    'meta_description',
     'Boiler & Heat Exchanger Tubes for high-temperature, high-pressure & corrosive
-    environments. Seamless, welded & U-bend tubes in Carbon, Alloy, Stainless, Duplex, Nickel & Titanium options.')
-@section('meta_keywords',
+    environments. Seamless, welded & U-bend tubes in Carbon, Alloy, Stainless, Duplex, Nickel & Titanium options.'
+)
+@section(
+    'meta_keywords',
     'Boiler Heat Exchanger Tubes, ASTM A179 Tubes, ASTM A213 Tubes, Seamless Boiler Tubes, U-Bent
-    Heat Exchanger Tubes, Stainless Steel')
+    Heat Exchanger Tubes, Stainless Steel'
+)
 @section('og_image', asset('assets/images/product/boiler-and-heat.webp'))
 @section('og_type', 'product')
 @section('content')
@@ -18,8 +22,15 @@
                 <div class="col-auto text-center">
                     <h1 class="page-title">Boiler & Heat Exchanger Tubes ASTM A179 / A192 / A213 (Seamless, Welded &
                         U-Bend)</h1>
-                        <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Boiler & Heat Exchanger Tubes are engineered for high-temperature, high-pressure and corrosive operating environments, making them essential for boilers, power plants, condensers, superheaters, and industrial heat exchangers. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply precision-manufactured seamless, welded, and U-bend tubes in carbon steel, alloy steel, stainless steel, duplex, nickel alloys, titanium, and copper-nickel grades—fully compliant with ASTM, ASME, DIN, and EN standards.  
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Boiler & Heat Exchanger Tubes are engineered for high-temperature, high-pressure and corrosive
+                        operating environments, making them essential for boilers, power plants, condensers, superheaters,
+                        and industrial heat exchangers. At <a href="{{ route('index') }}"
+                            class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply
+                        precision-manufactured seamless, welded, and U-bend tubes in carbon steel, alloy steel, stainless
+                        steel, duplex, nickel alloys, titanium, and copper-nickel grades—fully compliant with ASTM, ASME,
+                        DIN, and EN standards.
                     </p>
 
                 </div>
@@ -55,8 +66,8 @@
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('/assets/images/product/boiler-and-heat.webp') }}"
-                        alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                        alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded shadow-sm" width="550" height="350"
+                        loading="lazy">
                 </div>
 
                 <!-- Right Content -->
@@ -88,7 +99,7 @@
         </div>
     </section>
     {{-- datasheet --}}
-    
+
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -157,19 +168,19 @@
         </div>
     </section>
 
-   <!-- charts -->
+    <!-- charts -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
 
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Charts</h2>
+                <h2 class="fw-bold" style="color: #174268;">Boiler & Heat Exchanger Tubes Weight Chart</h2>
             </div>
 
             <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h3 class="text-center mb-0" style="color: #db7227;">Size Range Chart</h3>
-                <h4 class="text-center mb-0" style="color: #db7227;">Boiler & Heat Exchanger Tubes Weight Chart</h4>
-            </div>
+            <!-- <div class="section-title center mb-3"> -->
+                <!-- <h3 class="text-center mb-0" style="color: #db7227;">Size Range Chart</h3> -->
+                <!-- <h4 class="text-center mb-0" style="color: #db7227;">Boiler & Heat Exchanger Tubes Weight Chart</h4> -->
+            <!-- </div> -->
             <!-- Schedule 10C -->
             <div class="section-title center mb-3 mt-4">
                 <h4 class="text-center mb-0" style="color: #db7227;">Schedule 10C Size & Weight Chart</h4>
@@ -1149,7 +1160,102 @@
     </section>
 
     {{-- Gallery --}}
-    
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
     {{-- Gallery --}}
 
 
@@ -1234,20 +1340,20 @@
             </div>
         </div>
         {{-- <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY C-276's</strong> unique combination of
-                corrosion resistance, weldability, and mechanical durability makes it a reliable material for
-                mission-critical applications where long-term performance is non-negotiable.
+            corrosion resistance, weldability, and mechanical durability makes it a reliable material for
+            mission-critical applications where long-term performance is non-negotiable.
 
-            </p> --}}
+        </p> --}}
         </div>
     </section>
 
 
     {{-- Industries We Serve --}}
     <!-- Buying Guide Section (Styled for Your UI) -->
-    
 
 
-    
+
+
 
     {{-- Uses of Welded Pipes and Tubes --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -1315,9 +1421,9 @@
     {{-- Advantages of Welded Pipes & Tubes --}}
     <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties – Boiler & Heat Exchanger Tubes</h2>
-                 <p class="text-center">(Typical values as per ASTM standards)</p>
+                <p class="text-center">(Typical values as per ASTM standards)</p>
             </div>
 
             <div class="table-responsive">
@@ -1325,51 +1431,55 @@
                     <thead class="table-dark">
                         <tr class="t-row">
                             <th>Standard</th>
-                            <th>Tensile Strength (MPa)</th>
-                            <th>Yield Strength (MPa)</th>
-                            <th>Elongation (%)</th>
+                            <th>ASTM A179</th>
+                            <th>ASTM A192</th>
+                            <th>ASTM A213 (SS Grades)</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="t-row">
-                            <td>ASTM A179</td>
+                            <th class="fw-bold text-start">Tensile Strength (MPa)</th>
                             <td>325</td>
-                            <td>180</td>
-                            <td>35</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>ASTM A192</td>
                             <td>325</td>
-                            <td>180</td>
-                            <td>35</td>
-                        </tr>
-                         <tr class="t-row">
-                            <td>ASTM A213 (SS Grades)</td>
                             <td>515</td>
+                        </tr>
+                        <tr class="t-row">
+                            <th class="fw-bold text-start">Yield Strength (MPa)</th>
+                            <td>180</td>
+                            <td>180</td>
                             <td>205</td>
+                        </tr>
+                        <tr class="t-row">
+                            <th class="fw-bold text-start">Elongation (%)</th>
+                            <td>35</td>
+                            <td>35</td>
                             <td>40</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-             <p class="mt-2 text-muted text-center"><small>📌 Actual values depend on material grade and heat treatment.</small></p>
+            <p class="mt-2 text-muted text-center"><small>📌 Actual values depend on material grade and heat
+                    treatment.</small></p>
         </div>
     </section>
 
-    
 
-     <section id="export" class="sec-padd-top sec-padd-bottom">
+
+    <!-- <section id="export" class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>
             </div>
-            <p class="fs-5">We supply Boiler & Heat Exchanger Tubes across major Indian industrial locations including Mumbai, Chennai, Ahmedabad, Pune, and Hyderabad, with efficient logistics support for domestic power and process industry projects.</p>
-            <p class="fs-5">We also regularly export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait, supplying tubes for power plants, refineries, desalination units, and EPC contractors.</p>
+            <p class="fs-5">We supply Boiler & Heat Exchanger Tubes across major Indian industrial locations including
+                Mumbai, Chennai, Ahmedabad, Pune, and Hyderabad, with efficient logistics support for domestic power and
+                process industry projects.</p>
+            <p class="fs-5">We also regularly export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait, supplying tubes for
+                power plants, refineries, desalination units, and EPC contractors.</p>
         </div>
-    </section>
+    </section> -->
 
-     <!-- Testing & Quality Control for Boiler & Heat Exchanger Tubes -->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Testing & Quality Control for Boiler & Heat Exchanger Tubes -->
+    <!-- <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Testing & Quality Control for Boiler & Heat Exchanger Tubes</h2>
@@ -1427,7 +1537,7 @@
 
             </div>
 
-    </section>
+    </section> -->
 
 
 
@@ -1659,206 +1769,206 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-        {
-          "@@context": "https://schema.org",
-          "@graph": [
-
-            /* ======================================================
-               0. INLINE ORGANIZATION (LIGHT VERSION FOR LINKING)
-               (Full version will be in layouts.master)
-            ====================================================== */
-            {
-              "@type": ["Organization", "LocalBusiness"],
-              "@id": "https://mokshtubes.com/#organization",
-              "name": "Moksh Tubes & Fittings LLP",
-              "url": "https://mokshtubes.com/",
-              "logo": "https://mokshtubes.com/assets/images/logo.webp",
-              "telephone": "+91-9769584950",
-              "email": "info@mokshtubes.com",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Mumbai",
-                "addressRegion": "MH",
-                "addressCountry": "IN"
-              }
-            },
-
-            /* ======================================================
-               1. WEBSITE REFERENCE (FULL VERSION IN HEAD)
-            ====================================================== */
-            {
-              "@type": "WebSite",
-              "@id": "https://mokshtubes.com/#website",
-              "url": "https://mokshtubes.com/",
-              "name": "Moksh Tubes & Fittings LLP"
-            },
-
-            /* ======================================================
-               2. PAGE LEVEL - WebPage Schema
-            ====================================================== */
-            {
-              "@type": "WebPage",
-              "@id": "https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes#webpage",
-              "name": "Boiler & Heat Exchanger Tubes | Moksh Tubes & Fittings LLP",
-              "url": "https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes",
-              "description": "Industrial boiler & heat exchanger tubes for power plants, refineries, petrochemical, marine, HVAC, and process industries. Available in seamless, welded, ERW, EFW, and U-bent configurations.",
-              "isPartOf": { "@id": "https://mokshtubes.com/#website" },
-              "primaryImageOfPage": { "@id": "https://mokshtubes.com/#product-image" }
-            },
-
-            /* ======================================================
-               3. PRODUCT + SERVICE (FULL)
-            ====================================================== */
-            {
-              "@type": ["Product", "Service"],
-              "@id": "https://mokshtubes.com/#boiler-heat-exchanger-tubes",
-              "name": "Boiler & Heat Exchanger Tubes",
-              "url": "https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes",
-              "image": "https://mokshtubes.com/assets/images/product/boiler-heat-exchanger-tubes.webp",
-              "category": "Industrial Tubes",
-              "description": "Seamless, welded (ERW/EFW), and U-bent boiler & heat exchanger tubes with OD 6-219 mm, WT 0.5-12.7 mm, lengths up to 12 m. Manufactured in stainless steel, alloy steel, carbon steel, nickel alloys, copper alloys, and titanium.",
-
-              "brand": {
-                "@type": "Brand",
-                "@id": "https://mokshtubes.com/#organization",
-                "name": "Moksh Tubes & Fittings LLP"
-              },
-
-              "manufacturer": {
-                "@type": "Organization",
-                "@id": "https://mokshtubes.com/#organization"
-              },
-
-              "material": [
-                "Stainless Steel",
-                "Duplex & Super Duplex",
-                "Nickel Alloys (Inconel, Monel)",
-                "Alloy Steel",
-                "Carbon Steel",
-                "Copper Alloys",
-                "Titanium"
-              ],
-
-              /* --------------------------------------------------
-                 Technical Specifications
-              -------------------------------------------------- */
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Outer Diameter (OD)", "value": "6-219 mm" },
-                { "@type": "PropertyValue", "name": "Wall Thickness (WT)", "value": "0.5-12.7 mm" },
-                { "@type": "PropertyValue", "name": "Length", "value": "Up to 12 m (cut-to-length)" },
-                { "@type": "PropertyValue", "name": "Types", "value": "Seamless, ERW, EFW, U-bent" },
-                { "@type": "PropertyValue", "name": "Standards", "value": "ASTM A179/A192/A213/A249/A269/A333; ASME SA213; EN 10216; DIN" },
-                { "@type": "PropertyValue", "name": "Finishes", "value": "Bright Annealed, Pickled & Passivated, Electro Polished, Matte" },
-                { "@type": "PropertyValue", "name": "Testing", "value": "Hydrostatic, UT, Eddy Current, PMI, Hardness, Flaring/Flattening" },
-                { "@type": "PropertyValue", "name": "Temperature Resistance", "value": "Up to 750C (grade-dependent)" },
-                { "@type": "PropertyValue", "name": "Corrosion Resistance", "value": "High resistance to oxidation & aggressive media" }
-              ],
-
-              /* --------------------------------------------------
-                 OFFER SCHEMA (B2B)
-              -------------------------------------------------- */
-              "offers": {
-                "@type": "Offer",
-                "@id": "https://mokshtubes.com/#offer",
-                "url": "https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes",
-                "availability": "https://schema.org/InStock",
-                "priceCurrency": "USD",
-                "price": "0.00",
-                "priceValidUntil": "2030-12-31",
-                "businessFunction": "https://schema.org/Sell",
-                "seller": { "@id": "https://mokshtubes.com/#organization" }
-              },
-
-              /* --------------------------------------------------
-                 AGGREGATE RATING (Stars)
-              -------------------------------------------------- */
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "bestRating": "5",
-                "worstRating": "1",
-                "reviewCount": "112"
-              },
-
-              /* --------------------------------------------------
-                 OPTIONAL REVIEWS (PLACEHOLDERS)
-              -------------------------------------------------- */
-              "review": [
                 {
-                  "@type": "Review",
-                  "author": "Client",
-                  "reviewBody": "Excellent quality boiler tubes and fast delivery.",
-                  "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+                  "@@context": "https://schema.org",
+                  "@graph": [
+
+                    /* ======================================================
+                       0. INLINE ORGANIZATION (LIGHT VERSION FOR LINKING)
+                       (Full version will be in layouts.master)
+                    ====================================================== */
+                    {
+                      "@type": ["Organization", "LocalBusiness"],
+                      "@id": "https://mokshtubes.com/#organization",
+                      "name": "Moksh Tubes & Fittings LLP",
+                      "url": "https://mokshtubes.com/",
+                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                      "telephone": "+91-9769584950",
+                      "email": "info@mokshtubes.com",
+                      "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Mumbai",
+                        "addressRegion": "MH",
+                        "addressCountry": "IN"
+                      }
+                    },
+
+                    /* ======================================================
+                       1. WEBSITE REFERENCE (FULL VERSION IN HEAD)
+                    ====================================================== */
+                    {
+                      "@type": "WebSite",
+                      "@id": "https://mokshtubes.com/#website",
+                      "url": "https://mokshtubes.com/",
+                      "name": "Moksh Tubes & Fittings LLP"
+                    },
+
+                    /* ======================================================
+                       2. PAGE LEVEL - WebPage Schema
+                    ====================================================== */
+                    {
+                      "@type": "WebPage",
+                      "@id": "https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes#webpage",
+                      "name": "Boiler & Heat Exchanger Tubes | Moksh Tubes & Fittings LLP",
+                      "url": "https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes",
+                      "description": "Industrial boiler & heat exchanger tubes for power plants, refineries, petrochemical, marine, HVAC, and process industries. Available in seamless, welded, ERW, EFW, and U-bent configurations.",
+                      "isPartOf": { "@id": "https://mokshtubes.com/#website" },
+                      "primaryImageOfPage": { "@id": "https://mokshtubes.com/#product-image" }
+                    },
+
+                    /* ======================================================
+                       3. PRODUCT + SERVICE (FULL)
+                    ====================================================== */
+                    {
+                      "@type": ["Product", "Service"],
+                      "@id": "https://mokshtubes.com/#boiler-heat-exchanger-tubes",
+                      "name": "Boiler & Heat Exchanger Tubes",
+                      "url": "https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes",
+                      "image": "https://mokshtubes.com/assets/images/product/boiler-heat-exchanger-tubes.webp",
+                      "category": "Industrial Tubes",
+                      "description": "Seamless, welded (ERW/EFW), and U-bent boiler & heat exchanger tubes with OD 6-219 mm, WT 0.5-12.7 mm, lengths up to 12 m. Manufactured in stainless steel, alloy steel, carbon steel, nickel alloys, copper alloys, and titanium.",
+
+                      "brand": {
+                        "@type": "Brand",
+                        "@id": "https://mokshtubes.com/#organization",
+                        "name": "Moksh Tubes & Fittings LLP"
+                      },
+
+                      "manufacturer": {
+                        "@type": "Organization",
+                        "@id": "https://mokshtubes.com/#organization"
+                      },
+
+                      "material": [
+                        "Stainless Steel",
+                        "Duplex & Super Duplex",
+                        "Nickel Alloys (Inconel, Monel)",
+                        "Alloy Steel",
+                        "Carbon Steel",
+                        "Copper Alloys",
+                        "Titanium"
+                      ],
+
+                      /* --------------------------------------------------
+                         Technical Specifications
+                      -------------------------------------------------- */
+                      "additionalProperty": [
+                        { "@type": "PropertyValue", "name": "Outer Diameter (OD)", "value": "6-219 mm" },
+                        { "@type": "PropertyValue", "name": "Wall Thickness (WT)", "value": "0.5-12.7 mm" },
+                        { "@type": "PropertyValue", "name": "Length", "value": "Up to 12 m (cut-to-length)" },
+                        { "@type": "PropertyValue", "name": "Types", "value": "Seamless, ERW, EFW, U-bent" },
+                        { "@type": "PropertyValue", "name": "Standards", "value": "ASTM A179/A192/A213/A249/A269/A333; ASME SA213; EN 10216; DIN" },
+                        { "@type": "PropertyValue", "name": "Finishes", "value": "Bright Annealed, Pickled & Passivated, Electro Polished, Matte" },
+                        { "@type": "PropertyValue", "name": "Testing", "value": "Hydrostatic, UT, Eddy Current, PMI, Hardness, Flaring/Flattening" },
+                        { "@type": "PropertyValue", "name": "Temperature Resistance", "value": "Up to 750C (grade-dependent)" },
+                        { "@type": "PropertyValue", "name": "Corrosion Resistance", "value": "High resistance to oxidation & aggressive media" }
+                      ],
+
+                      /* --------------------------------------------------
+                         OFFER SCHEMA (B2B)
+                      -------------------------------------------------- */
+                      "offers": {
+                        "@type": "Offer",
+                        "@id": "https://mokshtubes.com/#offer",
+                        "url": "https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes",
+                        "availability": "https://schema.org/InStock",
+                        "priceCurrency": "USD",
+                        "price": "0.00",
+                        "priceValidUntil": "2030-12-31",
+                        "businessFunction": "https://schema.org/Sell",
+                        "seller": { "@id": "https://mokshtubes.com/#organization" }
+                      },
+
+                      /* --------------------------------------------------
+                         AGGREGATE RATING (Stars)
+                      -------------------------------------------------- */
+                      "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": "4.9",
+                        "bestRating": "5",
+                        "worstRating": "1",
+                        "reviewCount": "112"
+                      },
+
+                      /* --------------------------------------------------
+                         OPTIONAL REVIEWS (PLACEHOLDERS)
+                      -------------------------------------------------- */
+                      "review": [
+                        {
+                          "@type": "Review",
+                          "author": "Client",
+                          "reviewBody": "Excellent quality boiler tubes and fast delivery.",
+                          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+                        }
+                      ]
+                    },
+
+                    /* ======================================================
+                       4. IMAGE OBJECT
+                    ====================================================== */
+                    {
+                      "@type": "ImageObject",
+                      "@id": "https://mokshtubes.com/#product-image",
+                      "url": "https://mokshtubes.com/assets/images/product/boiler-heat-exchanger-tubes.webp",
+                      "description": "Boiler & Heat Exchanger Tubes"
+                    },
+
+                    /* ======================================================
+                       5. BREADCRUMB LIST
+                    ====================================================== */
+                    {
+                      "@type": "BreadcrumbList",
+                      "@id": "https://mokshtubes.com/#breadcrumb",
+                      "itemListElement": [
+                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshtubes.com/" },
+                        { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://mokshtubes.com/products" },
+                        { "@type": "ListItem", "position": 3, "name": "Pipes & Tubes", "item": "https://mokshtubes.com/products/pipes-tubes" },
+                        { "@type": "ListItem", "position": 4, "name": "Boiler & Heat Exchanger Tubes", "item": "https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes" }
+                      ]
+                    },
+
+                    /* ======================================================
+                       6. FAQ SCHEMA
+                    ====================================================== */
+                    {
+                      "@type": "FAQPage",
+                      "@id": "https://mokshtubes.com/#faq-boiler-tubes",
+                      "mainEntity": [
+                        {
+                          "@type": "Question",
+                          "name": "What are Boiler & Heat Exchanger Tubes?",
+                          "acceptedAnswer": { "@type": "Answer", "text": "Boiler & Heat Exchanger Tubes are precision-engineered components used in high temperature and high pressure heat transfer systems." }
+                        },
+                        {
+                          "@type": "Question",
+                          "name": "What materials are used?",
+                          "acceptedAnswer": { "@type": "Answer", "text": "Manufactured in Stainless Steel, Alloy Steel, Carbon Steel, Duplex, Super Duplex, Nickel Alloys, Copper Alloys, and Titanium." }
+                        },
+                        {
+                          "@type": "Question",
+                          "name": "What sizes are available?",
+                          "acceptedAnswer": { "@type": "Answer", "text": "OD 6-219 mm, WT 0.5-12.7 mm, lengths up to 12 meters in Seamless, ERW, EFW, and U-bent forms." }
+                        },
+                        {
+                          "@type": "Question",
+                          "name": "Which standards are followed?",
+                          "acceptedAnswer": { "@type": "Answer", "text": "ASTM A179, A192, A213, A249, A269, A333, ASME SA213, EN 10216, DIN." }
+                        },
+                        {
+                          "@type": "Question",
+                          "name": "What are the applications?",
+                          "acceptedAnswer": { "@type": "Answer", "text": "Used in boilers, superheaters, condensers, economizers, heat exchangers, petrochemical heaters, marine systems, desalination, food & dairy, HVAC." }
+                        },
+                        {
+                          "@type": "Question",
+                          "name": "Lead time?",
+                          "acceptedAnswer": { "@type": "Answer", "text": "Ex-stock: 2-5 days. Make to order: 2-6 weeks." }
+                        }
+                      ]
+                    }
+
+                  ]
                 }
-              ]
-            },
-
-            /* ======================================================
-               4. IMAGE OBJECT
-            ====================================================== */
-            {
-              "@type": "ImageObject",
-              "@id": "https://mokshtubes.com/#product-image",
-              "url": "https://mokshtubes.com/assets/images/product/boiler-heat-exchanger-tubes.webp",
-              "description": "Boiler & Heat Exchanger Tubes"
-            },
-
-            /* ======================================================
-               5. BREADCRUMB LIST
-            ====================================================== */
-            {
-              "@type": "BreadcrumbList",
-              "@id": "https://mokshtubes.com/#breadcrumb",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshtubes.com/" },
-                { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://mokshtubes.com/products" },
-                { "@type": "ListItem", "position": 3, "name": "Pipes & Tubes", "item": "https://mokshtubes.com/products/pipes-tubes" },
-                { "@type": "ListItem", "position": 4, "name": "Boiler & Heat Exchanger Tubes", "item": "https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes" }
-              ]
-            },
-
-            /* ======================================================
-               6. FAQ SCHEMA
-            ====================================================== */
-            {
-              "@type": "FAQPage",
-              "@id": "https://mokshtubes.com/#faq-boiler-tubes",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "What are Boiler & Heat Exchanger Tubes?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Boiler & Heat Exchanger Tubes are precision-engineered components used in high temperature and high pressure heat transfer systems." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What materials are used?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Manufactured in Stainless Steel, Alloy Steel, Carbon Steel, Duplex, Super Duplex, Nickel Alloys, Copper Alloys, and Titanium." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What sizes are available?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "OD 6-219 mm, WT 0.5-12.7 mm, lengths up to 12 meters in Seamless, ERW, EFW, and U-bent forms." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Which standards are followed?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "ASTM A179, A192, A213, A249, A269, A333, ASME SA213, EN 10216, DIN." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What are the applications?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Used in boilers, superheaters, condensers, economizers, heat exchangers, petrochemical heaters, marine systems, desalination, food & dairy, HVAC." }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Lead time?",
-                  "acceptedAnswer": { "@type": "Answer", "text": "Ex-stock: 2-5 days. Make to order: 2-6 weeks." }
-                }
-              ]
-            }
-
-          ]
-        }
-        </script>
+                </script>
     @endverbatim
 @endsection

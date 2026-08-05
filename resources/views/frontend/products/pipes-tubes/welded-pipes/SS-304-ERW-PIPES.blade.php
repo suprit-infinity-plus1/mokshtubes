@@ -1,19 +1,24 @@
 @extends('layouts.master')
 
 @section('title', 'SS 304 ERW Pipes ASTM A312 TP304 / TP304L | Manufacturer')
-@section('meta_description',
+@section(
+    'meta_description',
     'SS 304 ERW Pipes as per ASTM A312 TP304/TP304L. Manufacturer, supplier & exporter to
-    India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.')
-@section('meta_keywords',
+    India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.'
+)
+@section(
+    'meta_keywords',
     'SS 304 ERW Pipes, ASTM A312 TP304 Pipes, SS 304L ERW Pipes, Stainless Steel 304 ERW Pipes, SS
-    304 ERW Pipe Manufacturer, SS 304 ERW Pipe Supplier India, SS 304 ERW Pipe Exporter, ASTM A312 ERW Pipes')
+    304 ERW Pipe Manufacturer, SS 304 ERW Pipe Supplier India, SS 304 ERW Pipe Exporter, ASTM A312 ERW Pipes'
+)
 @section('og_image', asset('assets/images/all-product/ss-304-ERW-PIPES.jpg'))
 @section('og_type', 'article')
 
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url('{{ asset('assets/images/all-product/ss-304-ERW-PIPES.jpg') }}');">
+    <section class="breadcrumb-area"
+        style="background-image: url('{{ asset('assets/images/all-product/ss-304-ERW-PIPES.jpg') }}');">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -21,7 +26,10 @@
 
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px; max-width: 900px;">
-                        SS 304 ERW Pipes are corrosion-resistant, hygienic, and high-strength stainless steel pipes widely used in industrial, commercial, and structural applications. Manufactured using Electric Resistance Welding (ERW) technology, these pipes offer excellent surface finish, dimensional accuracy, and cost efficiency.
+                        SS 304 ERW Pipes are corrosion-resistant, hygienic, and high-strength stainless steel pipes widely
+                        used in industrial, commercial, and structural applications. Manufactured using Electric Resistance
+                        Welding (ERW) technology, these pipes offer excellent surface finish, dimensional accuracy, and cost
+                        efficiency.
                     </p>
                 </div>
             </div>
@@ -68,13 +76,15 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong class="text-black">SS 304 ERW Pipes</strong> are manufactured from austenitic stainless steel containing chromium and <a
-                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>, providing excellent corrosion resistance, formability, and weldability.
+                            <strong class="text-black">SS 304 ERW Pipes</strong> are manufactured from austenitic stainless
+                            steel containing chromium and <a
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>, providing excellent
+                            corrosion resistance, formability, and weldability.
                         </p>
 
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            These pipes are produced by cold-forming stainless steel strips into tubular shapes followed by <a
-                                href="{{ route('products.pipes-tubes.welded-pipes') }}">high-frequency electric resistance
+                            These pipes are produced by cold-forming stainless steel strips into tubular shapes followed by
+                            <a href="{{ route('products.pipes-tubes.welded-pipes') }}">high-frequency electric resistance
                                 welding</a> (ERW), ensuring uniform weld integrity and excellent dimensional control.
                         </p>
 
@@ -86,7 +96,8 @@
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            Our SS 304 / 304L ERW Pipes are widely used in chemical processing, food & dairy, pharmaceuticals, water pipelines, oil & gas, fabrication, and architectural applications.
+                            Our SS 304 / 304L ERW Pipes are widely used in chemical processing, food & dairy,
+                            pharmaceuticals, water pipelines, oil & gas, fabrication, and architectural applications.
                         </p>
                     </div>
                 </div>
@@ -94,7 +105,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -466,7 +477,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -501,6 +512,104 @@
             </div>
         </div>
     </section>
+
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
 
     <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -666,7 +775,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    SS 304 ERW Pipe is a welded stainless steel pipe manufactured using electric resistance welding, suitable for corrosion-resistant and hygienic applications.
+                                    SS 304 ERW Pipe is a welded stainless steel pipe manufactured using electric resistance
+                                    welding, suitable for corrosion-resistant and hygienic applications.
                                 </p>
                             </div>
                         </div>
@@ -678,7 +788,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes, SS 304 ERW Pipes are widely used in food, dairy, and beverage industries due to their hygiene and corrosion resistance.
+                                    Yes, SS 304 ERW Pipes are widely used in food, dairy, and beverage industries due to
+                                    their hygiene and corrosion resistance.
                                 </p>
                             </div>
                         </div>
@@ -690,7 +801,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    ERW pipes are welded and cost-effective, while seamless pipes are preferred for very high-pressure applications.
+                                    ERW pipes are welded and cost-effective, while seamless pipes are preferred for very
+                                    high-pressure applications.
                                 </p>
                             </div>
                         </div>
@@ -751,91 +863,91 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-        [{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Moksh Tubes & Fittings LLP",
-            "url": "https://www.mokshtubes.com",
-            "logo": "https://www.mokshtubes.com/assets/logo.png",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91-97695-84950",
-                "contactType": "sales",
-                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                "availableLanguage": ["English"]
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "SS 304 ERW Pipes ASTM A312 TP304 / TP304L",
-            "description": "SS 304 ERW Pipes manufactured as per ASTM A312 TP304/TP304L for chemical, marine, food, pharmaceutical and industrial applications.",
-            "brand": {
-                "@type": "Brand",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "manufacturer": {
-                "@type": "Organization",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "material": "Stainless Steel 304 / 304L",
-            "url": "https://www.mokshtubes.com/products/pipes-tubes/welded-pipes/ss304-erw-pipes",
-            "offers": {
-                "@type": "AggregateOffer",
-                "priceCurrency": "USD",
-                "lowPrice": "2.5",
-                "highPrice": "10",
-                "offerCount": "100"
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-                {
-                "@type": "Question",
-                "name": "What is SS 304 ERW Pipe?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "SS 304 ERW Pipe is a welded stainless steel pipe manufactured using electric resistance welding, suitable for corrosion-resistant and hygienic applications."
-                }
+            @verbatim
+                [{
+                    "@context": "https://schema.org",
+                    "@type": "Organization",
+                    "name": "Moksh Tubes & Fittings LLP",
+                    "url": "https://www.mokshtubes.com",
+                    "logo": "https://www.mokshtubes.com/assets/logo.png",
+                    "contactPoint": {
+                        "@type": "ContactPoint",
+                        "telephone": "+91-97695-84950",
+                        "contactType": "sales",
+                        "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                        "availableLanguage": ["English"]
+                    }
                 },
                 {
-                "@type": "Question",
-                "name": "Is SS 304 ERW Pipe suitable for food-grade use?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, SS 304 ERW Pipes are widely used in food, dairy, and beverage industries due to their hygiene and corrosion resistance."
-                }
+                    "@context": "https://schema.org",
+                    "@type": "Product",
+                    "name": "SS 304 ERW Pipes ASTM A312 TP304 / TP304L",
+                    "description": "SS 304 ERW Pipes manufactured as per ASTM A312 TP304/TP304L for chemical, marine, food, pharmaceutical and industrial applications.",
+                    "brand": {
+                        "@type": "Brand",
+                        "name": "Moksh Tubes & Fittings LLP"
+                    },
+                    "manufacturer": {
+                        "@type": "Organization",
+                        "name": "Moksh Tubes & Fittings LLP"
+                    },
+                    "material": "Stainless Steel 304 / 304L",
+                    "url": "https://www.mokshtubes.com/products/pipes-tubes/welded-pipes/ss304-erw-pipes",
+                    "offers": {
+                        "@type": "AggregateOffer",
+                        "priceCurrency": "USD",
+                        "lowPrice": "2.5",
+                        "highPrice": "10",
+                        "offerCount": "100"
+                    }
                 },
                 {
-                "@type": "Question",
-                "name": "What is the difference between ERW and Seamless pipes?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "ERW pipes are welded and cost-effective, while seamless pipes are preferred for very high-pressure applications."
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                        {
+                        "@type": "Question",
+                        "name": "What is SS 304 ERW Pipe?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "SS 304 ERW Pipe is a welded stainless steel pipe manufactured using electric resistance welding, suitable for corrosion-resistant and hygienic applications."
+                        }
+                        },
+                        {
+                        "@type": "Question",
+                        "name": "Is SS 304 ERW Pipe suitable for food-grade use?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, SS 304 ERW Pipes are widely used in food, dairy, and beverage industries due to their hygiene and corrosion resistance."
+                        }
+                        },
+                        {
+                        "@type": "Question",
+                        "name": "What is the difference between ERW and Seamless pipes?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "ERW pipes are welded and cost-effective, while seamless pipes are preferred for very high-pressure applications."
+                        }
+                        },
+                        {
+                        "@type": "Question",
+                        "name": "Do you provide test certificates?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, all supplies include EN 10204 3.1 certificates."
+                        }
+                        },
+                        {
+                        "@type": "Question",
+                        "name": "What is delivery time?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ex-stock items: 2–5 working days. Manufacturing orders: 2–4 weeks."
+                        }
+                        }
+                    ]
                 }
-                },
-                {
-                "@type": "Question",
-                "name": "Do you provide test certificates?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, all supplies include EN 10204 3.1 certificates."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "What is delivery time?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ex-stock items: 2–5 working days. Manufacturing orders: 2–4 weeks."
-                }
-                }
-            ]
-        }
-        ]
-        @endverbatim
-    </script>
+                ]
+            @endverbatim
+        </script>
 @endsection

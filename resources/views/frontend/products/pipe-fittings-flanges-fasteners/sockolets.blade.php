@@ -1,10 +1,14 @@
 @extends('layouts.master')
 @section('title', 'Sockolet | Socket Weld Branch Fitting | Moksh Tubes')
 <!-- 52 characters -->
-@section('meta_description',
-    'Premium Sockolets (Socket Weld Olets) for high-pressure 90-degree branch connections. Available in 3000# and 6000# ratings in Stainless, Carbon, and Alloy Steel.')
-@section('meta_keywords',
-    'Sockolet, Socket Weld Olet, Branch Connection, MSS-SP-97, 3000# Sockolet, Stainless Steel Sockolet, Carbon Steel Sockolet')
+@section(
+    'meta_description',
+    'Premium Sockolets (Socket Weld Olets) for high-pressure 90-degree branch connections. Available in 3000# and 6000# ratings in Stainless, Carbon, and Alloy Steel.'
+)
+@section(
+    'meta_keywords',
+    'Sockolet, Socket Weld Olet, Branch Connection, MSS-SP-97, 3000# Sockolet, Stainless Steel Sockolet, Carbon Steel Sockolet'
+)
 @section('og_image', asset('assets/images/product/flangs/sockolets_11zon.jpg'))
 @section('og_type', 'product')
 @section('content')
@@ -15,8 +19,14 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1 class="page-title">Sockolet</h1>
-                        <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        A Sockolet is a forged pipe fitting used to create a highly reinforced 90-degree branch connection from a larger run pipe to a smaller branch pipe. Unlike a Weldolet, it features a socket-weld connection on the branch side, allowing the branch pipe to be inserted into a recess before fillet welding, ensuring perfect alignment without the need for beveling. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply high-pressure 3000# and 6000# Sockolets conforming strictly to MSS-SP-97 and ASME B16.11 standards.
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        A Sockolet is a forged pipe fitting used to create a highly reinforced 90-degree branch connection
+                        from a larger run pipe to a smaller branch pipe. Unlike a Weldolet, it features a socket-weld
+                        connection on the branch side, allowing the branch pipe to be inserted into a recess before fillet
+                        welding, ensuring perfect alignment without the need for beveling. At <a href="{{ route('index') }}"
+                            class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply
+                        high-pressure 3000# and 6000# Sockolets conforming strictly to MSS-SP-97 and ASME B16.11 standards.
                     </p>
 
                 </div>
@@ -51,25 +61,30 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('/assets/images/product/flangs/sockolets_11zon.jpg') }}"
-                        alt="Forged Sockolets" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                    <img src="{{ asset('/assets/images/product/flangs/sockolets_11zon.jpg') }}" alt="Forged Sockolets"
+                        class="img-fluid rounded shadow-sm" width="550" height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Sockolets</strong> provide a self-reinforcing, fully integrated branch connection that is vastly superior to cutting a hole in the run pipe and welding in a stub. The base of the Sockolet is profiled (contoured) to perfectly match the outer curvature of the run pipe, while the branch side features a standardized socket bore.
+                        <strong class="text-black">Sockolets</strong> provide a self-reinforcing, fully integrated branch
+                        connection that is vastly superior to cutting a hole in the run pipe and welding in a stub. The base
+                        of the Sockolet is profiled (contoured) to perfectly match the outer curvature of the run pipe,
+                        while the branch side features a standardized socket bore.
                     </p>
 
                     <p class="fs-6 mb-3 text-justify">
                         <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a> is a leading manufacturer,
-                        supplier, and exporter of Sockolets in India. We cater to critical small-bore branching requirements for <a href="{{ route('materials.austenitic-stainless-Steel') }}">Indian refineries</a> and
+                        supplier, and exporter of Sockolets in India. We cater to critical small-bore branching requirements
+                        for <a href="{{ route('materials.austenitic-stainless-Steel') }}">Indian refineries</a> and
                         major Gulf / GCC nations including UAE, Saudi Arabia, Qatar, Oman, and Kuwait.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        Available in Class 3000 and Class 6000 pressure ratings, our Sockolets are hot-forged from premium steel billets, completely eliminating porosity and ensuring the highest structural integrity for high-pressure, high-temperature fluid lines.
+                        Available in Class 3000 and Class 6000 pressure ratings, our Sockolets are hot-forged from premium
+                        steel billets, completely eliminating porosity and ensuring the highest structural integrity for
+                        high-pressure, high-temperature fluid lines.
                     </p>
 
                 </div>
@@ -78,7 +93,7 @@
     </section>
 
     {{-- datasheet --}}
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -99,7 +114,9 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td><a href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a>, <a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>, Alloy Steel, 
+                                    <td><a href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a>, <a
+                                            href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>,
+                                        Alloy Steel,
                                         <a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex / Super Duplex
                                             Steel</a>, <a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel
                                             Alloys</a>, <a href="{{ route('materials.titanium') }}">Titanium</a>
@@ -133,7 +150,7 @@
         </div>
     </section>
 
-   <!-- charts -->
+    <!-- charts -->
     <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
 
         <div class="container">
@@ -144,7 +161,7 @@
             <div class="section-title center mb-3">
                 <h3 class="text-center mb-0" style="color: #db7227;">Class 3000 Sockolet Dimensions</h3>
             </div>
-            
+
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
@@ -157,23 +174,78 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>1/2"</td><td>25.4</td><td>21.8</td><td>9.5</td><td>0.14</td></tr>
-                        <tr class="t-row"><td>3/4"</td><td>27.0</td><td>27.2</td><td>12.5</td><td>0.20</td></tr>
-                        <tr class="t-row"><td>1"</td><td>33.3</td><td>33.9</td><td>12.5</td><td>0.38</td></tr>
-                        <tr class="t-row"><td>1-1/4"</td><td>33.3</td><td>42.7</td><td>12.5</td><td>0.60</td></tr>
-                        <tr class="t-row"><td>1-1/2"</td><td>35.0</td><td>48.8</td><td>12.5</td><td>0.75</td></tr>
-                        <tr class="t-row"><td>2"</td><td>38.1</td><td>61.2</td><td>16.0</td><td>1.25</td></tr>
-                        <tr class="t-row"><td>2-1/2"</td><td>46.0</td><td>73.9</td><td>16.0</td><td>2.10</td></tr>
-                        <tr class="t-row"><td>3"</td><td>51.0</td><td>89.8</td><td>16.0</td><td>3.05</td></tr>
-                        <tr class="t-row"><td>4"</td><td>57.0</td><td>115.2</td><td>19.0</td><td>5.10</td></tr>
+                        <tr class="t-row">
+                            <td>1/2"</td>
+                            <td>25.4</td>
+                            <td>21.8</td>
+                            <td>9.5</td>
+                            <td>0.14</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3/4"</td>
+                            <td>27.0</td>
+                            <td>27.2</td>
+                            <td>12.5</td>
+                            <td>0.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1"</td>
+                            <td>33.3</td>
+                            <td>33.9</td>
+                            <td>12.5</td>
+                            <td>0.38</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1-1/4"</td>
+                            <td>33.3</td>
+                            <td>42.7</td>
+                            <td>12.5</td>
+                            <td>0.60</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1-1/2"</td>
+                            <td>35.0</td>
+                            <td>48.8</td>
+                            <td>12.5</td>
+                            <td>0.75</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2"</td>
+                            <td>38.1</td>
+                            <td>61.2</td>
+                            <td>16.0</td>
+                            <td>1.25</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2-1/2"</td>
+                            <td>46.0</td>
+                            <td>73.9</td>
+                            <td>16.0</td>
+                            <td>2.10</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3"</td>
+                            <td>51.0</td>
+                            <td>89.8</td>
+                            <td>16.0</td>
+                            <td>3.05</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4"</td>
+                            <td>57.0</td>
+                            <td>115.2</td>
+                            <td>19.0</td>
+                            <td>5.10</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted">*Dimensions based on MSS-SP-97. The base curvature varies depending on the specific Run Pipe consolidation (e.g., a 1" branch on a 6"-3" run pipe).</p>
+            <p class="text-center mt-2 small text-muted">*Dimensions based on MSS-SP-97. The base curvature varies depending
+                on the specific Run Pipe consolidation (e.g., a 1" branch on a 6"-3" run pipe).</p>
         </div>
     </section>
 
-    
+
 
     {{-- Grades Available --}}
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
@@ -206,11 +278,13 @@
                                     <td>ASTM A182 F1, F5, F9, F11, F22, F91</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a></td>
+                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>
+                                    </td>
                                     <td>ASTM A182 F304/304L, F316/316L, F321, F347</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex</a></td>
+                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex</a>
+                                    </td>
                                     <td>ASTM A182 F51 (UNS S31803), F53 (UNS S32750)</td>
                                 </tr>
                                 <tr class="t-row">
@@ -226,7 +300,102 @@
     </section>
 
     {{-- Gallery --}}
-    
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
 
     {{-- Applications --}}
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
@@ -234,7 +403,8 @@
             <div class="section-title center">
                 <h2>Applications of Sockolets</h2>
                 <p class="text-center pb-3">
-                    <strong class="text-black">Sockolets</strong> are specifically used for creating small-bore branch lines from larger high-pressure headers:
+                    <strong class="text-black">Sockolets</strong> are specifically used for creating small-bore branch lines
+                    from larger high-pressure headers:
                 </p>
             </div>
 
@@ -253,7 +423,8 @@
                         <div class="application-icon"><i class="bi bi-droplet-half"></i></div>
                         <h5>Oil & Gas Refineries</h5>
                         <ul>
-                            <li>Branching off small sampling lines, vent lines, and drain lines from large crude oil headers.</li>
+                            <li>Branching off small sampling lines, vent lines, and drain lines from large crude oil
+                                headers.</li>
                         </ul>
                     </div>
                 </div>
@@ -262,7 +433,8 @@
                         <div class="application-icon"><i class="bi bi-fan"></i></div>
                         <h5>Hydraulic Systems</h5>
                         <ul>
-                            <li>High-pressure 6000# Sockolets are used for branching off thick-walled hydraulic and lubrication lines.</li>
+                            <li>High-pressure 6000# Sockolets are used for branching off thick-walled hydraulic and
+                                lubrication lines.</li>
                         </ul>
                     </div>
                 </div>
@@ -271,7 +443,8 @@
                         <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
                         <h5>Power Generation</h5>
                         <ul>
-                            <li>Alloy steel (F11, F22, F91) Sockolets for tapping high-pressure steam distribution headers.</li>
+                            <li>Alloy steel (F11, F22, F91) Sockolets for tapping high-pressure steam distribution headers.
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -280,7 +453,8 @@
                         <div class="application-icon"><i class="bi bi-prescription2"></i></div>
                         <h5>Chemical Processing</h5>
                         <ul>
-                            <li>Stainless steel and Exotic alloy Sockolets ensure leak-proof, corrosion-resistant branches for caustic chemicals.</li>
+                            <li>Stainless steel and Exotic alloy Sockolets ensure leak-proof, corrosion-resistant branches
+                                for caustic chemicals.</li>
                         </ul>
                     </div>
                 </div>
@@ -298,7 +472,7 @@
     </section>
 
     <!-- Buying Guide Section (Styled for Your UI) -->
-    
+
 
     {{-- Uses of Welded Pipes and Sockolets --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -366,7 +540,7 @@
     {{-- Advantages of Welded Pipes & Sockolets --}}
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties (Forged Carbon Steel A105N)</h2>
             </div>
 
@@ -392,24 +566,28 @@
                     </tbody>
                 </table>
             </div>
-             <p class="text-center mt-2 small text-muted">*A105N indicates the forging has been Normalized, which is critical for low-temperature toughness in pressure piping.</p>
+            <p class="text-center mt-2 small text-muted">*A105N indicates the forging has been Normalized, which is critical
+                for low-temperature toughness in pressure piping.</p>
         </div>
     </section>
 
-    
 
-     <section id="export" class="sec-padd-top sec-padd-bottom">
+
+    <!-- <section id="export" class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>
             </div>
-            <p class="fs-5">We supply Sockolets across major Indian industrial locations including Mumbai, Chennai, Ahmedabad, Pune, and Hyderabad, with efficient logistics support for domestic power and process industry projects.</p>
-            <p class="fs-5">We also regularly export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait, supplying sockolets for power plants, refineries, desalination units, and EPC contractors.</p>
+            <p class="fs-5">We supply Sockolets across major Indian industrial locations including Mumbai, Chennai,
+                Ahmedabad, Pune, and Hyderabad, with efficient logistics support for domestic power and process industry
+                projects.</p>
+            <p class="fs-5">We also regularly export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait, supplying sockolets for
+                power plants, refineries, desalination units, and EPC contractors.</p>
         </div>
-    </section>
+    </section> -->
 
-     <!-- Testing & Quality Control for Sockolets -->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Testing & Quality Control for Sockolets -->
+    <!-- <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Testing & Quality Control for Sockolets</h2>
@@ -467,12 +645,12 @@
 
             </div>
 
-    </section>
+    </section> -->
 
 
 
-    
-{{-- why choose us --}}
+
+    {{-- why choose us --}}
     <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
@@ -536,7 +714,10 @@
                                 <h4>Why use a Sockolet instead of a Weldolet?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Sockolets are preferred for small diameter branch pipes (typically under 2") because socket welding is much easier and faster than full penetration butt-welding. The socket automatically aligns the branch pipe, and the welder does not have to worry about weld slag falling inside the pipeline (which is a risk with butt-welding small pipes).</p>
+                                <p>Sockolets are preferred for small diameter branch pipes (typically under 2") because
+                                    socket welding is much easier and faster than full penetration butt-welding. The socket
+                                    automatically aligns the branch pipe, and the welder does not have to worry about weld
+                                    slag falling inside the pipeline (which is a risk with butt-welding small pipes).</p>
                             </div>
                         </div>
 
@@ -545,7 +726,10 @@
                                 <h4>What is the difference between a 3000# and a 6000# Sockolet?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>These classes designate the pressure rating and wall thickness. A 3000# Sockolet is designed to match the wall thickness of a Schedule 80 branch pipe. A 6000# Sockolet matches the thickness of a Schedule 160 branch pipe and is much thicker and heavier to withstand higher pressures.</p>
+                                <p>These classes designate the pressure rating and wall thickness. A 3000# Sockolet is
+                                    designed to match the wall thickness of a Schedule 80 branch pipe. A 6000# Sockolet
+                                    matches the thickness of a Schedule 160 branch pipe and is much thicker and heavier to
+                                    withstand higher pressures.</p>
                             </div>
                         </div>
 
@@ -554,7 +738,9 @@
                                 <h4>What does the "consolidation" mean on a Sockolet, like 8"-3" x 1"?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>The base curve of a Sockolet can fit a range of run pipe sizes. An "8-3 x 1" Sockolet has a base machined to fit any run pipe from 3" to 8" in diameter, while providing a 1" socket branch. This consolidation drastically reduces the inventory needed.</p>
+                                <p>The base curve of a Sockolet can fit a range of run pipe sizes. An "8-3 x 1" Sockolet has
+                                    a base machined to fit any run pipe from 3" to 8" in diameter, while providing a 1"
+                                    socket branch. This consolidation drastically reduces the inventory needed.</p>
                             </div>
                         </div>
 
@@ -563,7 +749,10 @@
                                 <h4>Why must I leave a gap when welding a pipe into a Sockolet?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Per ASME standards, a 1/16" gap must be left between the end of the pipe and the bottom of the socket recess before welding. If the pipe is pushed tight against the bottom, thermal expansion during welding (or in service) will cause massive stress and crack the fillet weld.</p>
+                                <p>Per ASME standards, a 1/16" gap must be left between the end of the pipe and the bottom
+                                    of the socket recess before welding. If the pipe is pushed tight against the bottom,
+                                    thermal expansion during welding (or in service) will cause massive stress and crack the
+                                    fillet weld.</p>
                             </div>
                         </div>
 
@@ -577,8 +766,11 @@
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
-                <p>For further information, technical specifications, quotes, or custom alloy requirements for Sockolets, <strong>Moksh Tubes & Fittings LLP</strong> is your trusted manufacturer for forged branch connections.</p>
-                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal" data-bs-target="#contactFormModal">
+                <p>For further information, technical specifications, quotes, or custom alloy requirements for Sockolets,
+                    <strong>Moksh Tubes & Fittings LLP</strong> is your trusted manufacturer for forged branch connections.
+                </p>
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
                     Get in Touch
                 </a>
             </div>
@@ -615,32 +807,32 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": ["Organization", "LocalBusiness"],
-              "@id": "https://mokshtubes.com/#organization",
-              "name": "Moksh Tubes & Fittings LLP",
-              "url": "https://mokshtubes.com/",
-              "logo": "https://mokshtubes.com/assets/images/logo.webp",
-              "telephone": "+91-9769584950",
-              "email": "info@mokshtubes.com"
-            },
-            {
-              "@type": "Product",
-              "@id": "https://mokshtubes.com/#sockolet",
-              "name": "Sockolet (Socket Weld Olet)",
-              "image": "https://mokshtubes.com/assets/images/product/flangs/sockolets_11zon.jpg",
-              "category": "Forged Fittings",
-              "description": "High-pressure forged Sockolets (MSS-SP-97, 3000#, 6000#) for small-bore branching. Available in Carbon Steel (A105N) and Stainless Steel.",
-              "brand": {
-                "@type": "Brand",
-                "@id": "https://mokshtubes.com/#organization"
-              }
-            }
-          ]
-        }
-        </script>
+                {
+                  "@context": "https://schema.org",
+                  "@graph": [
+                    {
+                      "@type": ["Organization", "LocalBusiness"],
+                      "@id": "https://mokshtubes.com/#organization",
+                      "name": "Moksh Tubes & Fittings LLP",
+                      "url": "https://mokshtubes.com/",
+                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                      "telephone": "+91-9769584950",
+                      "email": "info@mokshtubes.com"
+                    },
+                    {
+                      "@type": "Product",
+                      "@id": "https://mokshtubes.com/#sockolet",
+                      "name": "Sockolet (Socket Weld Olet)",
+                      "image": "https://mokshtubes.com/assets/images/product/flangs/sockolets_11zon.jpg",
+                      "category": "Forged Fittings",
+                      "description": "High-pressure forged Sockolets (MSS-SP-97, 3000#, 6000#) for small-bore branching. Available in Carbon Steel (A105N) and Stainless Steel.",
+                      "brand": {
+                        "@type": "Brand",
+                        "@id": "https://mokshtubes.com/#organization"
+                      }
+                    }
+                  ]
+                }
+                </script>
     @endverbatim
 @endsection

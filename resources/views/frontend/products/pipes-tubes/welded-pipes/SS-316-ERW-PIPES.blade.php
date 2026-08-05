@@ -1,12 +1,16 @@
 @extends('layouts.master')
 
 @section('title', 'SS 316 ERW Pipes ASTM A312 TP316 / TP316L | Manufacturer')
-@section('meta_description',
+@section(
+    'meta_description',
     'SS 316 ERW Pipes as per ASTM A312 TP316/TP316L. Manufacturer, supplier & exporter to
-    India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.')
-@section('meta_keywords',
+    India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.'
+)
+@section(
+    'meta_keywords',
     'SS 316 ERW Pipes, ASTM A312 TP316 Pipes, SS 316L ERW Pipes, Stainless Steel 316 ERW Pipes, SS
-    316 ERW Pipe Manufacturer, SS 316 ERW Pipe Supplier India, SS 316 ERW Pipe Exporter, ASTM A312 ERW Pipes')
+    316 ERW Pipe Manufacturer, SS 316 ERW Pipe Supplier India, SS 316 ERW Pipe Exporter, ASTM A312 ERW Pipes'
+)
 @section('og_image', asset('assets/images/product/welded-pipes-tubes.webp'))
 @section('og_type', 'article')
 
@@ -75,8 +79,8 @@
                             <strong class="text-black">SS 316 ERW Pipes</strong> are manufactured from molybdenum-bearing <a
                                 href="{{ route('materials.austenitic-stainless-Steel') }}">Austenitic Stainless Steel</a>,
                             offering enhanced resistance to pitting, crevice corrosion, and aggressive chemical environments
-                            compared to <a
-                                href="{{ route('products.pipes-tubes.welded-pipes.ss304-erw-pipes') ?? '#' }}">SS 304 ERW
+                            compared to <a href="{{ route('products.pipes-tubes.welded-pipes.ss304-erw-pipes') ?? '#' }}">SS
+                                304 ERW
                                 Pipes</a>. The presence of molybdenum makes SS 316 ideal for marine, chemical processing,
                             pharmaceutical, and oil & gas applications.
                         </p>
@@ -105,7 +109,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -477,7 +481,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -512,6 +516,104 @@
             </div>
         </div>
     </section>
+
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
 
     <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -563,8 +665,7 @@
 
             <p class="text-center mt-4">
                 We also offer <a href="{{ route('materials.nickel-Based-Superalloys') ?? '#' }}">High Corrosion Resistant
-                    Alloys</a> and <a
-                    href="{{ route('products.pipe-fittings') ?? '#' }}">Pipe Fittings &
+                    Alloys</a> and <a href="{{ route('products.pipe-fittings') ?? '#' }}">Pipe Fittings &
                     Flanges</a> for these demanding applications.
             </p>
         </div>
@@ -769,102 +870,100 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-        [{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Moksh Tubes & Fittings LLP",
-            "url": "https://www.mokshtubes.com",
-            "logo": "https://www.mokshtubes.com/assets/logo.png",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91-97695-84950",
-                "contactType": "sales",
-                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                "availableLanguage": ["English"]
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "SS 316 ERW Pipes ASTM A312 TP316 / TP316L",
-            "description": "SS 316 ERW Pipes manufactured as per ASTM A312 TP316/TP316L for chemical, marine, food, pharmaceutical and industrial applications.",
-            "brand": {
-                "@type": "Brand",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "manufacturer": {
-                "@type": "Organization",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "material": "Stainless Steel 316 / 316L",
-            "url": "https://www.mokshtubes.com/products/pipes-tubes/ss-316-erw-pipes",
-            "offers": {
-                "@type": "Offer",
-                "availability": "https://schema.org/InStock",
-                "priceCurrency": "INR",
-                "url": "https://www.mokshtubes.com/contact-us"
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [{
-                "@type": "Question",
-                "name": "What is SS 316 ERW Pipe?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "SS 316 ERW Pipe is a welded stainless steel pipe containing molybdenum for enhanced corrosion resistance."
-                }
-            },{
-                "@type": "Question",
-                "name": "Is SS 316 ERW suitable for marine applications?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, SS 316 ERW Pipes offer excellent resistance to chlorides and saline environments."
-                }
-            },{
-                "@type": "Question",
-                "name": "Do you provide EN 10204 3.1 certificates?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, all SS 316 ERW Pipes are supplied with EN 10204 3.1 test certificates."
-                }
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.mokshtubes.com"
-            },{
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Pipes & Tubes",
-                "item": "https://www.mokshtubes.com/products/pipes-tubes"
-            },{
-                "@type": "ListItem",
-                "position": 3,
-                "name": "SS 316 ERW Pipes",
-                "item": "https://www.mokshtubes.com/products/pipes-tubes/ss-316-erw-pipes"
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Moksh Tubes & Fittings LLP",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "India"
-            },
-            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-            "telephone": "+91-97695-84950"
-        }]
-        @endverbatim
-    </script>
+            @verbatim
+                [{
+                    "@context": "https://schema.org",
+                    "@type": "Organization",
+                    "name": "Moksh Tubes & Fittings LLP",
+                    "url": "https://www.mokshtubes.com",
+                    "logo": "https://www.mokshtubes.com/assets/logo.png",
+                    "contactPoint": {
+                        "@type": "ContactPoint",
+                        "telephone": "+91-97695-84950",
+                        "contactType": "sales",
+                        "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                        "availableLanguage": ["English"]
+                    }
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Product",
+                    "name": "SS 316 ERW Pipes ASTM A312 TP316 / TP316L",
+                    "description": "SS 316 ERW Pipes manufactured as per ASTM A312 TP316/TP316L for chemical, marine, food, pharmaceutical and industrial applications.",
+                    "brand": {
+                        "@type": "Brand",
+                        "name": "Moksh Tubes & Fittings LLP"
+                    },
+                    "manufacturer": {
+                        "@type": "Organization",
+                        "name": "Moksh Tubes & Fittings LLP"
+                    },
+                    "material": "Stainless Steel 316 / 316L",
+                    "url": "https://www.mokshtubes.com/products/pipes-tubes/ss-316-erw-pipes",
+                    "offers": {
+                        "@type": "Offer",
+                        "availability": "https://schema.org/InStock",
+                        "priceCurrency": "INR",
+                        "url": "https://www.mokshtubes.com/contact-us"
+                    }
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [{
+                        "@type": "Question",
+                        "name": "What is SS 316 ERW Pipe?",
+                        "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "SS 316 ERW Pipe is a welded stainless steel pipe containing molybdenum for enhanced corrosion resistance."
+                        }
+                    },{
+                        "@type": "Question",
+                        "name": "Is SS 316 ERW suitable for marine applications?",
+                        "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, SS 316 ERW Pipes offer excellent resistance to chlorides and saline environments."
+                        }
+                    },{
+                        "@type": "Question",
+                        "name": "Do you provide EN 10204 3.1 certificates?",
+                        "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, all SS 316 ERW Pipes are supplied with EN 10204 3.1 test certificates."
+                        }
+                    }]
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [{
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://www.mokshtubes.com"
+                    },{
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Pipes & Tubes",
+                        "item": "https://www.mokshtubes.com/products/pipes-tubes"
+                    },{
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "SS 316 ERW Pipes",
+                        "item": "https://www.mokshtubes.com/products/pipes-tubes/ss-316-erw-pipes"
+                    }]
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "LocalBusiness",
+                    "name": "Moksh Tubes & Fittings LLP",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressCountry": "India"
+                    },
+                    "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                    "telephone": "+91-97695-84950"
+                }]
+            @endverbatim
+        </script>
 @endsection
-
-

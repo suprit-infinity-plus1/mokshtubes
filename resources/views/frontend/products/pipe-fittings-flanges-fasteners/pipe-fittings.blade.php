@@ -1,9 +1,10 @@
 @extends('layouts.master')
 @section('title', 'Premium Pipe Fittings Manufacturer & Supplier') <!-- 52 characters -->
-@section('meta_description', 'Stainless, carbon, alloy, duplex, nickel, and titanium pipe fittings from Moksh Tubes — ASTM/ASME compliant and built for reliable performance.') <!-- 153 characters -->
+@section('meta_description', 'Stainless, carbon, alloy, duplex, nickel, and titanium pipe fittings from Moksh Tubes — ASTM/ASME compliant and built for reliable performance.')
+<!-- 153 characters -->
 @section('meta_keywords', 'Pipe Fittings, Stainless Steel Fittings, Carbon Steel Fittings, Alloy Steel Fittings, Duplex
-    Fittings, Nickel Alloy Fittings, Titanium Fittings, ASTM/ASME Fittings, Industrial Pipe Fittings')
-    @section('og_image', asset('assets/images/product/flangs/Pipe-Fittings.webp'))
+Fittings, Nickel Alloy Fittings, Titanium Fittings, ASTM/ASME Fittings, Industrial Pipe Fittings')
+@section('og_image', asset('assets/images/product/flangs/Pipe-Fittings.webp'))
 @section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
@@ -391,7 +392,7 @@
                 </div>
             </div>
     </section>
-    
+
 
     {{-- Grades Available --}}
     <section class="sec-padd-top sec-padd-bottom">
@@ -453,8 +454,103 @@
     </section>
 
     {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
     {{-- Gallery --}}
-    
+
 
 
     {{-- Applications --}}
@@ -548,7 +644,7 @@
     </section>
 
     {{-- Uses of Welded Pipes and Tubes --}}
-    
+
     {{-- Advantages of Welded Pipes & Tubes --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -771,54 +867,54 @@
 @endsection
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-            {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
+            @verbatim
                 {
-                "@type": "Question",
-                "name": "What are custom fabricated fittings?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Custom fabricated fittings are specially designed pipe fittings that are manufactured according to specific requirements, such as size, material, design, or application. They are used when standard fittings do not meet the needs of a project."
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                    "@type": "Question",
+                    "name": "What are custom fabricated fittings?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Custom fabricated fittings are specially designed pipe fittings that are manufactured according to specific requirements, such as size, material, design, or application. They are used when standard fittings do not meet the needs of a project."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Which industries use custom fabricated fittings?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "These fittings are widely used in oil & gas, petrochemical, power generation, marine, chemical processing, food & beverage, water treatment, and other industries where unique piping solutions are required."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What materials are available for custom fabricated fittings?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "We offer fittings in stainless steel, duplex steel, super duplex, nickel alloys (Inconel, Hastelloy, Monel), titanium, copper alloys, and other high-performance materials depending on the application."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What types of fittings can be custom fabricated?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Elbows, tees, reducers, crosses, stub ends, branch fittings, lateral fittings, headers, manifolds, and other complex pipe components can all be fabricated as per project needs."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "How are custom fabricated fittings manufactured?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "They are manufactured through advanced processes such as cutting, bending, welding, machining, and heat treatment to ensure precise dimensions, strength, and durability."
+                    }
+                    }
+                ]
                 }
-                },
-                {
-                "@type": "Question",
-                "name": "Which industries use custom fabricated fittings?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "These fittings are widely used in oil & gas, petrochemical, power generation, marine, chemical processing, food & beverage, water treatment, and other industries where unique piping solutions are required."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "What materials are available for custom fabricated fittings?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We offer fittings in stainless steel, duplex steel, super duplex, nickel alloys (Inconel, Hastelloy, Monel), titanium, copper alloys, and other high-performance materials depending on the application."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "What types of fittings can be custom fabricated?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Elbows, tees, reducers, crosses, stub ends, branch fittings, lateral fittings, headers, manifolds, and other complex pipe components can all be fabricated as per project needs."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "How are custom fabricated fittings manufactured?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "They are manufactured through advanced processes such as cutting, bending, welding, machining, and heat treatment to ensure precise dimensions, strength, and durability."
-                }
-                }
-            ]
-            }
-        
-        @endverbatim
-    </script>
+
+            @endverbatim
+        </script>
 @endsection

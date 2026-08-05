@@ -9,7 +9,8 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/Sheets-Plates-and-Coils/sheets-Perforated.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/product/Sheets-Plates-and-Coils/sheets-Perforated.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -17,7 +18,12 @@
 
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Perforated Sheets are precision metal sheets with punched holes, slots, or decorative patterns used for filtration, ventilation, acoustic control, and architectural applications. Moksh Tubes & Fittings LLP supplies high-quality perforated sheets in stainless steel, carbon steel, aluminium, brass, and specialty alloys. Our sheets offer uniform perforation, clean edges, and excellent durability, making them ideal for industrial, architectural, and design applications across India and global markets.
+                        Perforated Sheets are precision metal sheets with punched holes, slots, or decorative patterns used
+                        for filtration, ventilation, acoustic control, and architectural applications. Moksh Tubes &
+                        Fittings LLP supplies high-quality perforated sheets in stainless steel, carbon steel, aluminium,
+                        brass, and specialty alloys. Our sheets offer uniform perforation, clean edges, and excellent
+                        durability, making them ideal for industrial, architectural, and design applications across India
+                        and global markets.
                     </p>
                 </div>
             </div>
@@ -58,23 +64,31 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/sheets-Perforated.webp') }}" alt="Perforated Sheets"
-                        class="img-fluid rounded shadow-sm" loading="lazy">
+                    <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/sheets-Perforated.webp') }}"
+                        alt="Perforated Sheets" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong class="text-black">Perforated Sheets</strong> are metal sheets manufactured with a pattern of holes, slots, or custom designs using advanced punching or stamping processes. These sheets serve both functional and aesthetic purposes, providing airflow, filtration, sound control, and visual appeal.
+                            <strong class="text-black">Perforated Sheets</strong> are metal sheets manufactured with a
+                            pattern of holes, slots, or custom designs using advanced punching or stamping processes. These
+                            sheets serve both functional and aesthetic purposes, providing airflow, filtration, sound
+                            control, and visual appeal.
                         </p>
 
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            They are widely used in industries such as construction, architecture, automotive, HVAC, and manufacturing. With various hole patterns and materials available, perforated sheets can be tailored for specific performance and design requirements.
+                            They are widely used in industries such as construction, architecture, automotive, HVAC, and
+                            manufacturing. With various hole patterns and materials available, perforated sheets can be
+                            tailored for specific performance and design requirements.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings LLP</a></strong>, we supply premium-quality perforated sheets with precise hole patterns, uniform spacing, and high-quality finishes. Our products comply with international standards and are suitable for both industrial and decorative applications.
+                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings
+                                    LLP</a></strong>, we supply premium-quality perforated sheets with precise hole
+                            patterns, uniform spacing, and high-quality finishes. Our products comply with international
+                            standards and are suitable for both industrial and decorative applications.
                         </p>
                     </div>
                 </div>
@@ -82,7 +96,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -101,14 +115,38 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Material</td><td>Stainless Steel, Carbon Steel, Aluminium, Brass, Copper, Titanium</td></tr>
-                                <tr class="t-row"><td>Grades</td><td>ASTM / ASME / EN / IS compliant</td></tr>
-                                <tr class="t-row"><td>Thickness</td><td>0.3 mm to 12 mm</td></tr>
-                                <tr class="t-row"><td>Sheet Size</td><td>1000×2000 mm, 1220×2440 mm, 1500×3000 mm</td></tr>
-                                <tr class="t-row"><td>Hole Patterns</td><td>Round, Square, Slotted, Hexagonal, Decorative</td></tr>
-                                <tr class="t-row"><td>Hole Size</td><td>0.5 mm to 50 mm</td></tr>
-                                <tr class="t-row"><td>Finishes</td><td>Mill Finish, Polished, Anodized, Powder Coated</td></tr>
-                                <tr class="t-row"><td>Standards</td><td>ASTM A240, A480, EN 10088, IS 6911</td></tr>
+                                <tr class="t-row">
+                                    <td>Material</td>
+                                    <td>Stainless Steel, Carbon Steel, Aluminium, Brass, Copper, Titanium</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Grades</td>
+                                    <td>ASTM / ASME / EN / IS compliant</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Thickness</td>
+                                    <td>0.3 mm to 12 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sheet Size</td>
+                                    <td>1000×2000 mm, 1220×2440 mm, 1500×3000 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hole Patterns</td>
+                                    <td>Round, Square, Slotted, Hexagonal, Decorative</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hole Size</td>
+                                    <td>0.5 mm to 50 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Finishes</td>
+                                    <td>Mill Finish, Polished, Anodized, Powder Coated</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM A240, A480, EN 10088, IS 6911</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -129,13 +167,28 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Material</th><th>Thickness (mm)</th></tr>
+                                <tr class="t-row">
+                                    <th>Material</th>
+                                    <th>Thickness (mm)</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Stainless Steel</td><td>0.4 – 12</td></tr>
-                                <tr class="t-row"><td>Carbon Steel</td><td>0.5 – 10</td></tr>
-                                <tr class="t-row"><td>Aluminium</td><td>0.4 – 8</td></tr>
-                                <tr class="t-row"><td>Brass / Copper</td><td>0.4 – 6</td></tr>
+                                <tr class="t-row">
+                                    <td>Stainless Steel</td>
+                                    <td>0.4 – 12</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon Steel</td>
+                                    <td>0.5 – 10</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Aluminium</td>
+                                    <td>0.4 – 8</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Brass / Copper</td>
+                                    <td>0.4 – 6</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -146,13 +199,23 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Size (mm)</th></tr>
+                                <tr class="t-row">
+                                    <th>Size (mm)</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>1000 × 2000</td></tr>
-                                <tr class="t-row"><td>1250 × 2500</td></tr>
-                                <tr class="t-row"><td>1500 × 3000</td></tr>
-                                <tr class="t-row"><td>2000 × 4000</td></tr>
+                                <tr class="t-row">
+                                    <td>1000 × 2000</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1250 × 2500</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1500 × 3000</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2000 × 4000</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -163,13 +226,28 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Type</th><th>Description</th></tr>
+                                <tr class="t-row">
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Round</td><td>Most common for ventilation</td></tr>
-                                <tr class="t-row"><td>Square</td><td>High open area</td></tr>
-                                <tr class="t-row"><td>Slotted</td><td>Drainage & screening</td></tr>
-                                <tr class="t-row"><td>Decorative</td><td>Hexagonal, custom designs</td></tr>
+                                <tr class="t-row">
+                                    <td>Round</td>
+                                    <td>Most common for ventilation</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Square</td>
+                                    <td>High open area</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Slotted</td>
+                                    <td>Drainage & screening</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Decorative</td>
+                                    <td>Hexagonal, custom designs</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -180,12 +258,28 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Hole Size</th><th>Pitch</th><th>Open Area</th></tr>
+                                <tr class="t-row">
+                                    <th>Hole Size</th>
+                                    <th>Pitch</th>
+                                    <th>Open Area</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>2 mm</td><td>3 mm</td><td>40%</td></tr>
-                                <tr class="t-row"><td>5 mm</td><td>8 mm</td><td>36%</td></tr>
-                                <tr class="t-row"><td>10 mm</td><td>15 mm</td><td>44%</td></tr>
+                                <tr class="t-row">
+                                    <td>2 mm</td>
+                                    <td>3 mm</td>
+                                    <td>40%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>5 mm</td>
+                                    <td>8 mm</td>
+                                    <td>36%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>10 mm</td>
+                                    <td>15 mm</td>
+                                    <td>44%</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -196,12 +290,32 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Thickness</th><th>Plain</th><th>30% OA</th><th>50% OA</th></tr>
+                                <tr class="t-row">
+                                    <th>Thickness</th>
+                                    <th>Plain</th>
+                                    <th>30% OA</th>
+                                    <th>50% OA</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>1 mm</td><td>7.85</td><td>5.49</td><td>3.92</td></tr>
-                                <tr class="t-row"><td>2 mm</td><td>15.7</td><td>10.99</td><td>7.85</td></tr>
-                                <tr class="t-row"><td>5 mm</td><td>39.25</td><td>27.47</td><td>19.62</td></tr>
+                                <tr class="t-row">
+                                    <td>1 mm</td>
+                                    <td>7.85</td>
+                                    <td>5.49</td>
+                                    <td>3.92</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2 mm</td>
+                                    <td>15.7</td>
+                                    <td>10.99</td>
+                                    <td>7.85</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>5 mm</td>
+                                    <td>39.25</td>
+                                    <td>27.47</td>
+                                    <td>19.62</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -260,7 +374,105 @@
         </div>
     </section>
 
-    
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
+
+
 
     <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -337,10 +549,22 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Stainless Steel</td><td>515</td></tr>
-                                <tr class="t-row"><td>Carbon Steel</td><td>400–550</td></tr>
-                                <tr class="t-row"><td>Aluminium</td><td>150–300</td></tr>
-                                <tr class="t-row"><td>Copper</td><td>200–400</td></tr>
+                                <tr class="t-row">
+                                    <td>Stainless Steel</td>
+                                    <td>515</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon Steel</td>
+                                    <td>400–550</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Aluminium</td>
+                                    <td>150–300</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Copper</td>
+                                    <td>200–400</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -392,22 +616,23 @@
                 </div>
             </div>
 
-            <div class="row mt-5 justify-content-center text-start">
-                <div class="col-lg-8">
-                    <div class="p-4 rounded shadow-sm bg-white border">
-                        <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Perforated Sheets</h4>
-                        <p class="mb-2"><strong>Before selecting:</strong></p>
-                        <ul class="list-unstyled">
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness & strength</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Hole size & pattern</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Open area requirement</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (industrial / decorative)</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Finish type</li>
-                        </ul>
+            <!-- <div class="row mt-5 justify-content-center text-start">
+                    <div class="col-lg-8">
+                        <div class="p-4 rounded shadow-sm bg-white border">
+                            <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Perforated Sheets</h4>
+                            <p class="mb-2"><strong>Before selecting:</strong></p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness & strength</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Hole size & pattern</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Open area requirement</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (industrial /
+                                    decorative)</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Finish type</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </div> -->
         </div>
     </section>
 
@@ -440,7 +665,7 @@
                                 <p>SS, MS, aluminium, brass, copper, titanium.</p>
                             </div>
                         </div>
-                        
+
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -460,7 +685,7 @@
                                 <p>Ventilation, filtration, acoustic panels, design.</p>
                             </div>
                         </div>
-                        
+
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -501,114 +726,114 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-        [{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Moksh Tubes & Fittings LLP",
-            "url": "https://www.mokshtubes.com",
-            "logo": "https://www.mokshtubes.com/assets/logo.png",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91-97695-84950",
-                "contactType": "sales",
-                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                "availableLanguage": ["English"]
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "Perforated Sheets | Stainless Steel & Decorative Metal Sheets",
-            "description": "Buy perforated sheets in SS, aluminium & steel. Custom hole patterns, sizes & finishes for industrial & architectural use.",
-            "brand": {
-                "@type": "Brand",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "manufacturer": {
-                "@type": "Organization",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "material": "Stainless Steel, Carbon Steel, Aluminium, Brass, Copper, Titanium",
-            "url": "https://www.mokshtubes.com/perforated-sheets",
-            "offers": {
-                "@type": "Offer",
-                "availability": "https://schema.org/InStock",
-                "priceCurrency": "INR",
-                "url": "https://www.mokshtubes.com/contact-us"
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [{
-                "@type": "Question",
-                "name": "Q1. What are perforated sheets?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Metal sheets with punched holes for filtration and design."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q2. What materials are available?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "SS, MS, aluminium, brass, copper, titanium."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q3. What thickness range is available?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "0.3 mm to 12 mm."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q4. What are common uses?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ventilation, filtration, acoustic panels, design."
-                }
-            },{
-                "@type": "Question",
-                "name": "Q5. Can patterns be customized?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, fully customizable designs available."
-                }
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.mokshtubes.com"
-            },{
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Products",
-                "item": "https://www.mokshtubes.com/products"
-            },{
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Perforated Sheets",
-                "item": "https://www.mokshtubes.com/perforated-sheets"
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Moksh Tubes & Fittings LLP",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "India"
-            },
-            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-            "telephone": "+91-97695-84950"
-        }]
-        @endverbatim
-    </script>
+                @verbatim
+                    [{
+                        "@context": "https://schema.org",
+                        "@type": "Organization",
+                        "name": "Moksh Tubes & Fittings LLP",
+                        "url": "https://www.mokshtubes.com",
+                        "logo": "https://www.mokshtubes.com/assets/logo.png",
+                        "contactPoint": {
+                            "@type": "ContactPoint",
+                            "telephone": "+91-97695-84950",
+                            "contactType": "sales",
+                            "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                            "availableLanguage": ["English"]
+                        }
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Product",
+                        "name": "Perforated Sheets | Stainless Steel & Decorative Metal Sheets",
+                        "description": "Buy perforated sheets in SS, aluminium & steel. Custom hole patterns, sizes & finishes for industrial & architectural use.",
+                        "brand": {
+                            "@type": "Brand",
+                            "name": "Moksh Tubes & Fittings LLP"
+                        },
+                        "manufacturer": {
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP"
+                        },
+                        "material": "Stainless Steel, Carbon Steel, Aluminium, Brass, Copper, Titanium",
+                        "url": "https://www.mokshtubes.com/perforated-sheets",
+                        "offers": {
+                            "@type": "Offer",
+                            "availability": "https://schema.org/InStock",
+                            "priceCurrency": "INR",
+                            "url": "https://www.mokshtubes.com/contact-us"
+                        }
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [{
+                            "@type": "Question",
+                            "name": "Q1. What are perforated sheets?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Metal sheets with punched holes for filtration and design."
+                            }
+                        },{
+                            "@type": "Question",
+                            "name": "Q2. What materials are available?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "SS, MS, aluminium, brass, copper, titanium."
+                            }
+                        },{
+                            "@type": "Question",
+                            "name": "Q3. What thickness range is available?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "0.3 mm to 12 mm."
+                            }
+                        },{
+                            "@type": "Question",
+                            "name": "Q4. What are common uses?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ventilation, filtration, acoustic panels, design."
+                            }
+                        },{
+                            "@type": "Question",
+                            "name": "Q5. Can patterns be customized?",
+                            "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, fully customizable designs available."
+                            }
+                        }]
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [{
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https://www.mokshtubes.com"
+                        },{
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Products",
+                            "item": "https://www.mokshtubes.com/products"
+                        },{
+                            "@type": "ListItem",
+                            "position": 3,
+                            "name": "Perforated Sheets",
+                            "item": "https://www.mokshtubes.com/perforated-sheets"
+                        }]
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "LocalBusiness",
+                        "name": "Moksh Tubes & Fittings LLP",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressCountry": "India"
+                        },
+                        "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                        "telephone": "+91-97695-84950"
+                    }]
+                @endverbatim
+            </script>
 @endsection
