@@ -17,7 +17,12 @@
 
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Glass Railings are modern architectural solutions designed to provide safety, transparency, and aesthetic appeal in residential, commercial, and hospitality projects. Moksh Tubes & Fittings LLP offers premium-quality glass railing systems including frameless, semi-framed, and fully framed designs using toughened and laminated glass with stainless steel and aluminium hardware. Our systems ensure durability, structural safety, and a sleek contemporary finish for indoor and outdoor applications across India and export markets.
+                        Glass Railings are modern architectural solutions designed to provide safety, transparency, and
+                        aesthetic appeal in residential, commercial, and hospitality projects. Moksh Tubes & Fittings LLP
+                        offers premium-quality glass railing systems including frameless, semi-framed, and fully framed
+                        designs using toughened and laminated glass with stainless steel and aluminium hardware. Our systems
+                        ensure durability, structural safety, and a sleek contemporary finish for indoor and outdoor
+                        applications across India and export markets.
                     </p>
                 </div>
             </div>
@@ -57,23 +62,31 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/Glass-railing.webp') }}" alt="frameless glass railing balcony design"
-                        class="img-fluid rounded shadow-sm" loading="lazy">
+                    <img src="{{ asset('assets/images/product/Glass-railing.webp') }}"
+                        alt="frameless glass railing balcony design" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong class="text-black">Glass Railings</strong> are an essential element in contemporary architecture, combining safety with elegance and unobstructed visibility. Unlike traditional railing systems, glass railings create an open and spacious feel, allowing natural light to flow freely while maintaining structural protection.
+                            <strong class="text-black">Glass Railings</strong> are an essential element in contemporary
+                            architecture, combining safety with elegance and unobstructed visibility. Unlike traditional
+                            railing systems, glass railings create an open and spacious feel, allowing natural light to flow
+                            freely while maintaining structural protection.
                         </p>
 
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            These railing systems are widely used in balconies, staircases, terraces, pool areas, and commercial buildings. They are engineered using toughened or laminated safety glass along with high-quality stainless steel or aluminium fittings to ensure long-term durability and safety.
+                            These railing systems are widely used in balconies, staircases, terraces, pool areas, and
+                            commercial buildings. They are engineered using toughened or laminated safety glass along with
+                            high-quality stainless steel or aluminium fittings to ensure long-term durability and safety.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings LLP</a></strong>, we design, fabricate, and supply customized glass railing systems tailored to architectural requirements. Our solutions comply with international safety standards and are suitable for residential, commercial, and high-end luxury projects.
+                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings
+                                    LLP</a></strong>, we design, fabricate, and supply customized glass railing systems
+                            tailored to architectural requirements. Our solutions comply with international safety standards
+                            and are suitable for residential, commercial, and high-end luxury projects.
                         </p>
                     </div>
                 </div>
@@ -81,7 +94,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -100,14 +113,38 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Material</td><td>Toughened Glass, Laminated Glass, Stainless Steel (304/316), Aluminium</td></tr>
-                                <tr class="t-row"><td>Glass Thickness</td><td>10 mm to 20 mm</td></tr>
-                                <tr class="t-row"><td>Types</td><td>Frameless, Semi-Framed, Fully Framed, Spigot Mounted, Post Mounted</td></tr>
-                                <tr class="t-row"><td>Finishes</td><td>Clear, Frosted, Tinted, Etched, Sandblasted</td></tr>
-                                <tr class="t-row"><td>Hardware</td><td>Clamps, Spigots, Channels, Handrails</td></tr>
-                                <tr class="t-row"><td>Applications</td><td>Balconies, Staircases, Pool Areas, Commercial Spaces</td></tr>
-                                <tr class="t-row"><td>Mounting</td><td>Top Mounted, Side Mounted, Channel Mounted</td></tr>
-                                <tr class="t-row"><td>Durability</td><td>Impact-resistant, weatherproof, long-lasting</td></tr>
+                                <tr class="t-row">
+                                    <td>Material</td>
+                                    <td>Toughened Glass, Laminated Glass, Stainless Steel (304/316), Aluminium</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Glass Thickness</td>
+                                    <td>10 mm to 20 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Types</td>
+                                    <td>Frameless, Semi-Framed, Fully Framed, Spigot Mounted, Post Mounted</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Finishes</td>
+                                    <td>Clear, Frosted, Tinted, Etched, Sandblasted</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hardware</td>
+                                    <td>Clamps, Spigots, Channels, Handrails</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Applications</td>
+                                    <td>Balconies, Staircases, Pool Areas, Commercial Spaces</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Mounting</td>
+                                    <td>Top Mounted, Side Mounted, Channel Mounted</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Durability</td>
+                                    <td>Impact-resistant, weatherproof, long-lasting</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -121,22 +158,71 @@
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart</h2>
             </div>
-            
+
             <h4 class="text-center mb-3" style="color: #db7227;">Stainless Steel Support Pipe Weight Chart</h4>
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-10">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>OD (mm)</th><th>Inch</th><th>1.0 mm (kg/m)</th><th>1.5 mm (kg/m)</th><th>2.0 mm (kg/m)</th><th>3.0 mm (kg/m)</th></tr>
+                                <tr class="t-row">
+                                    <th>OD (mm)</th>
+                                    <th>Inch</th>
+                                    <th>1.0 mm (kg/m)</th>
+                                    <th>1.5 mm (kg/m)</th>
+                                    <th>2.0 mm (kg/m)</th>
+                                    <th>3.0 mm (kg/m)</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>12.7</td><td>½”</td><td>0.25</td><td>0.37</td><td>0.49</td><td>0.73</td></tr>
-                                <tr class="t-row"><td>25.4</td><td>1”</td><td>0.51</td><td>0.72</td><td>0.95</td><td>1.39</td></tr>
-                                <tr class="t-row"><td>38.1</td><td>1½”</td><td>0.79</td><td>1.14</td><td>1.50</td><td>2.21</td></tr>
-                                <tr class="t-row"><td>50.8</td><td>2”</td><td>1.05</td><td>1.53</td><td>2.00</td><td>2.93</td></tr>
-                                <tr class="t-row"><td>76.2</td><td>3”</td><td>1.55</td><td>2.34</td><td>3.04</td><td>4.41</td></tr>
-                                <tr class="t-row"><td>101.6</td><td>4”</td><td>2.07</td><td>3.12</td><td>4.05</td><td>5.90</td></tr>
+                                <tr class="t-row">
+                                    <td>12.7</td>
+                                    <td>½”</td>
+                                    <td>0.25</td>
+                                    <td>0.37</td>
+                                    <td>0.49</td>
+                                    <td>0.73</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>25.4</td>
+                                    <td>1”</td>
+                                    <td>0.51</td>
+                                    <td>0.72</td>
+                                    <td>0.95</td>
+                                    <td>1.39</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>38.1</td>
+                                    <td>1½”</td>
+                                    <td>0.79</td>
+                                    <td>1.14</td>
+                                    <td>1.50</td>
+                                    <td>2.21</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>50.8</td>
+                                    <td>2”</td>
+                                    <td>1.05</td>
+                                    <td>1.53</td>
+                                    <td>2.00</td>
+                                    <td>2.93</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>76.2</td>
+                                    <td>3”</td>
+                                    <td>1.55</td>
+                                    <td>2.34</td>
+                                    <td>3.04</td>
+                                    <td>4.41</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>101.6</td>
+                                    <td>4”</td>
+                                    <td>2.07</td>
+                                    <td>3.12</td>
+                                    <td>4.05</td>
+                                    <td>5.90</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -149,15 +235,43 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Glass Type</th><th>Thickness</th><th>Weight (kg/m²)</th></tr>
+                                <tr class="t-row">
+                                    <th>Glass Type</th>
+                                    <th>Thickness</th>
+                                    <th>Weight (kg/m²)</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Toughened</td><td>10 mm</td><td>25</td></tr>
-                                <tr class="t-row"><td>Toughened</td><td>12 mm</td><td>30</td></tr>
-                                <tr class="t-row"><td>Toughened</td><td>15 mm</td><td>37.5</td></tr>
-                                <tr class="t-row"><td>Laminated</td><td>12 mm</td><td>30</td></tr>
-                                <tr class="t-row"><td>Laminated</td><td>16 mm</td><td>40</td></tr>
-                                <tr class="t-row"><td>Laminated</td><td>20 mm</td><td>50</td></tr>
+                                <tr class="t-row">
+                                    <td>Toughened</td>
+                                    <td>10 mm</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Toughened</td>
+                                    <td>12 mm</td>
+                                    <td>30</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Toughened</td>
+                                    <td>15 mm</td>
+                                    <td>37.5</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Laminated</td>
+                                    <td>12 mm</td>
+                                    <td>30</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Laminated</td>
+                                    <td>16 mm</td>
+                                    <td>40</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Laminated</td>
+                                    <td>20 mm</td>
+                                    <td>50</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -177,7 +291,8 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h5>Stainless Steel Hardware</h5>
-                        <p><strong>304:</strong> Indoor applications<br><strong>316:</strong> Marine & outdoor applications</p>
+                        <p><strong>304:</strong> Indoor applications<br><strong>316:</strong> Marine & outdoor applications
+                        </p>
                     </div>
                 </div>
 
@@ -185,7 +300,8 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-window"></i></div>
                         <h5>Glass Types</h5>
-                        <p><strong>Toughened (Tempered) Glass</strong><br><strong>Laminated Safety Glass</strong><br><strong>Heat-Soaked Glass</strong></p>
+                        <p><strong>Toughened (Tempered) Glass</strong><br><strong>Laminated Safety
+                                Glass</strong><br><strong>Heat-Soaked Glass</strong></p>
                     </div>
                 </div>
 
@@ -199,6 +315,104 @@
             </div>
         </div>
     </section>
+
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
 
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -242,7 +456,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -261,10 +475,22 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Impact Resistance</td><td>High</td></tr>
-                                <tr class="t-row"><td>Strength</td><td>4–5x stronger than normal glass</td></tr>
-                                <tr class="t-row"><td>Safety</td><td>Breaks into blunt pieces</td></tr>
-                                <tr class="t-row"><td>Load Bearing</td><td>Suitable for structural railing systems</td></tr>
+                                <tr class="t-row">
+                                    <td>Impact Resistance</td>
+                                    <td>High</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Strength</td>
+                                    <td>4–5x stronger than normal glass</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Safety</td>
+                                    <td>Breaks into blunt pieces</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Load Bearing</td>
+                                    <td>Suitable for structural railing systems</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -351,7 +577,7 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -375,7 +601,7 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -403,7 +629,8 @@
                 <p>
                     Looking for premium glass railing systems?<br>
                     📞 Contact Moksh Tubes & Fittings LLP at +91 97695 84950<br>
-                    We deliver modern, durable, and custom-designed glass railing solutions for residential and commercial projects.
+                    We deliver modern, durable, and custom-designed glass railing solutions for residential and commercial
+                    projects.
                 </p>
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
@@ -418,100 +645,100 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-        [{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Moksh Tubes & Fittings LLP",
-            "url": "https://www.mokshtubes.com",
-            "logo": "https://www.mokshtubes.com/assets/logo.png",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91-97695-84950",
-                "contactType": "sales",
-                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                "availableLanguage": ["English"]
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "Glass Railings",
-            "description": "Premium glass railings with toughened & laminated glass. Frameless balcony & staircase railing systems with SS hardware. India & export supply.",
-            "brand": {
-                "@type": "Brand",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "manufacturer": {
-                "@type": "Organization",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "material": "Toughened Glass, Laminated Glass, Stainless Steel (304/316), Aluminium",
-            "url": "https://www.mokshtubes.com/products/special-fabricated/glass-railings",
-            "offers": {
-                "@type": "Offer",
-                "availability": "https://schema.org/InStock",
-                "priceCurrency": "INR",
-                "url": "https://www.mokshtubes.com/contact-us"
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [{
-                "@type": "Question",
-                "name": "Are glass railings safe?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, toughened and laminated glass ensures high safety."
-                }
-            },{
-                "@type": "Question",
-                "name": "Can glass railings be used outdoors?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, with 316 stainless steel hardware."
-                }
-            },{
-                "@type": "Question",
-                "name": "How long do they last?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "15–20+ years with proper installation."
-                }
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.mokshtubes.com"
-            },{
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Special Fabricated",
-                "item": "https://www.mokshtubes.com/products/special-fabricated"
-            },{
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Glass Railings",
-                "item": "https://www.mokshtubes.com/products/special-fabricated/glass-railings"
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Moksh Tubes & Fittings LLP",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "India"
-            },
-            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-            "telephone": "+91-97695-84950"
-        }]
-        @endverbatim
-    </script>
+            @verbatim
+                [{
+                    "@context": "https://schema.org",
+                    "@type": "Organization",
+                    "name": "Moksh Tubes & Fittings LLP",
+                    "url": "https://www.mokshtubes.com",
+                    "logo": "https://www.mokshtubes.com/assets/logo.png",
+                    "contactPoint": {
+                        "@type": "ContactPoint",
+                        "telephone": "+91-97695-84950",
+                        "contactType": "sales",
+                        "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                        "availableLanguage": ["English"]
+                    }
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Product",
+                    "name": "Glass Railings",
+                    "description": "Premium glass railings with toughened & laminated glass. Frameless balcony & staircase railing systems with SS hardware. India & export supply.",
+                    "brand": {
+                        "@type": "Brand",
+                        "name": "Moksh Tubes & Fittings LLP"
+                    },
+                    "manufacturer": {
+                        "@type": "Organization",
+                        "name": "Moksh Tubes & Fittings LLP"
+                    },
+                    "material": "Toughened Glass, Laminated Glass, Stainless Steel (304/316), Aluminium",
+                    "url": "https://www.mokshtubes.com/products/special-fabricated/glass-railings",
+                    "offers": {
+                        "@type": "Offer",
+                        "availability": "https://schema.org/InStock",
+                        "priceCurrency": "INR",
+                        "url": "https://www.mokshtubes.com/contact-us"
+                    }
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [{
+                        "@type": "Question",
+                        "name": "Are glass railings safe?",
+                        "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, toughened and laminated glass ensures high safety."
+                        }
+                    },{
+                        "@type": "Question",
+                        "name": "Can glass railings be used outdoors?",
+                        "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, with 316 stainless steel hardware."
+                        }
+                    },{
+                        "@type": "Question",
+                        "name": "How long do they last?",
+                        "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "15–20+ years with proper installation."
+                        }
+                    }]
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [{
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://www.mokshtubes.com"
+                    },{
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Special Fabricated",
+                        "item": "https://www.mokshtubes.com/products/special-fabricated"
+                    },{
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Glass Railings",
+                        "item": "https://www.mokshtubes.com/products/special-fabricated/glass-railings"
+                    }]
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "LocalBusiness",
+                    "name": "Moksh Tubes & Fittings LLP",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressCountry": "India"
+                    },
+                    "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                    "telephone": "+91-97695-84950"
+                }]
+            @endverbatim
+        </script>
 @endsection
