@@ -277,27 +277,119 @@
         </div>
     </section>
 
+    <section id="advantages" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Advantages of Custom Steel Furniture</h2>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h5>Long Lifespan</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Corrosion &amp; Termite Resistance</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-wrench"></i></div>
+                        <h5>Low Maintenance</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-diagram-3"></i></div>
+                        <h5>High Load-Bearing Capacity</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tree"></i></div>
+                        <h5>Eco-Friendly Material</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-pencil-square"></i></div>
+                        <h5>Design Versatility</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties (Typical)</h2>
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Typical Mechanical Properties</h4>
+                <div class="col-lg-10">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Custom Steel Furniture Mechanical Properties</h4>
                     <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
+                        <table class="table table-bordered table-striped align-middle text-start">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Material</th>
-                                    <th>Tensile Strength (MPa)</th>
+                                    <th>Property</th>
+                                    <th>Description</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row"><td>Stainless Steel 304</td><td>515</td></tr>
-                                <tr class="t-row"><td>Stainless Steel 316</td><td>515</td></tr>
-                                <tr class="t-row"><td>Mild Steel</td><td>400–550</td></tr>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td><strong>Material Strength</strong></td>
+                                    <td>Manufactured using Mild Steel (MS), Stainless Steel 304, Stainless Steel 316, or other structural steel grades for high load-bearing capacity.</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td><strong>Tensile Strength</strong></td>
+                                    <td>High tensile strength ensures durability and long service life under daily use.</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td><strong>Yield Strength</strong></td>
+                                    <td>Excellent yield strength provides resistance to bending and permanent deformation.</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td><strong>Load Capacity</strong></td>
+                                    <td>Designed to support light, medium, or heavy-duty applications depending on the furniture design and material thickness.</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td><strong>Impact Resistance</strong></td>
+                                    <td>Good impact resistance minimizes damage from accidental knocks and heavy use.</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td><strong>Hardness</strong></td>
+                                    <td>Available in different hardness levels based on the selected steel grade and fabrication process.</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td><strong>Corrosion Resistance</strong></td>
+                                    <td>Stainless steel grades offer superior corrosion resistance, while mild steel furniture can be powder-coated or galvanized for added protection.</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td><strong>Weldability</strong></td>
+                                    <td>Excellent weldability ensures strong, durable joints and high structural integrity.</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td><strong>Surface Finish</strong></td>
+                                    <td>Available in powder-coated, painted, brushed, polished, mirror, matte, or galvanized finishes.</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td><strong>Dimensional Accuracy</strong></td>
+                                    <td>Precision fabricated using CNC cutting, bending, and welding processes for consistent dimensions.</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td><strong>Temperature Resistance</strong></td>
+                                    <td>Suitable for indoor and outdoor applications, with stainless steel grades offering enhanced heat and weather resistance.</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td><strong>Quality Certification</strong></td>
+                                    <td>Manufactured in accordance with applicable ASTM, EN, ISO, and customer-specific quality standards.</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>

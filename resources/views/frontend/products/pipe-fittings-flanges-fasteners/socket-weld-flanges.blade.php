@@ -44,14 +44,11 @@
         <div class="container text-center py-2">
             <a href="#overview">Product Overview</a> |
             <a href="#specifications">Specifications</a> |
-            <a href="#chemical-composition">Chemical Composition</a> |
             <a href="#size-chart">Size & Weight Chart</a> |
             <a href="#grades">Grades & Equivalent</a> |
             <a href="#features">Features & Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#mechanical-properties">Mechanical Properties</a> |
-            <a href="#testing">Testing & Quality</a> |
-            <a href="#packaging">Packaging & Export</a> |
             <a href="#faq">FAQ</a>
         </div>
     </div>

@@ -204,6 +204,31 @@
                         <p><strong>904L, SMO 254:</strong> Luxury & designer architectural grills</p>
                     </div>
                 </div>
+
+                <!-- 2nd Row Added -->
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-layers"></i></div>
+                        <h5>Placeholder 1</h5>
+                        <p><strong>Item 1:</strong> Placeholder for description</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-boxes"></i></div>
+                        <h5>Placeholder 2</h5>
+                        <p><strong>Item 2:</strong> Placeholder for description</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h5>Placeholder 3</h5>
+                        <p><strong>Item 3:</strong> Placeholder for description</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -244,6 +269,53 @@
                         <div class="application-icon"><i class="bi bi-gear"></i></div>
                         <h5>Industrial & Institutional</h5>
                         <p>✔ Factory safety grills<br>✔ Ventilation & protective enclosures</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="advantages" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Advantages of Fabricated SS Grills</h2>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>High Corrosion Resistance</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h5>Long Lifespan</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-wrench"></i></div>
+                        <h5>Low Maintenance</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-pencil-square"></i></div>
+                        <h5>Custom Design Flexibility</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tree"></i></div>
+                        <h5>Eco-Friendly Material</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-stars"></i></div>
+                        <h5>Premium Aesthetic Appeal</h5>
                     </div>
                 </div>
             </div>
