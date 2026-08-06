@@ -507,6 +507,60 @@
         </div>
     </section>
 
+    {{-- Applications --}}
+    <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Applications &amp; Uses</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-wide"></i></div>
+                        <h4>Mechanical Engineering</h4>
+                        <p class="small text-muted mt-2">Hydraulic Cylinders, Bushings, Bearings, Rollers, Machine Components.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-funnel"></i></div>
+                        <h4>Oil &amp; Gas Industry</h4>
+                        <p class="small text-muted mt-2">Valve Bodies, Pump Components, High-Pressure Equipment, Offshore Structures.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-cone-striped"></i></div>
+                        <h4>Construction &amp; Infrastructure</h4>
+                        <p class="small text-muted mt-2">Structural Supports, Columns, Frameworks, Heavy Fabrication.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
+                        <h4>Marine &amp; Offshore</h4>
+                        <p class="small text-muted mt-2">Propeller Shafts, Marine Equipment, Offshore Platforms, Desalination Plants.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-airplane"></i></div>
+                        <h4>Automotive &amp; Aerospace</h4>
+                        <p class="small text-muted mt-2">Steering Components, Hydraulic Systems, Landing Gear Components, Precision Machined Parts.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-capsule"></i></div>
+                        <h4>Food, Pharmaceutical &amp; Chemical</h4>
+                        <p class="small text-muted mt-2">Processing Equipment, Hygienic Components, Chemical Processing Systems, Stainless Fabrication.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     {{-- Features & Advantages --}}
     <section id="features" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -561,60 +615,6 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-tools"></i></div>
                         <h4>Suitable for heavy-duty industrial applications</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{-- Applications --}}
-    <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Applications &amp; Uses</h2>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-wide"></i></div>
-                        <h4>Mechanical Engineering</h4>
-                        <p class="small text-muted mt-2">Hydraulic Cylinders, Bushings, Bearings, Rollers, Machine Components.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-funnel"></i></div>
-                        <h4>Oil &amp; Gas Industry</h4>
-                        <p class="small text-muted mt-2">Valve Bodies, Pump Components, High-Pressure Equipment, Offshore Structures.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-cone-striped"></i></div>
-                        <h4>Construction &amp; Infrastructure</h4>
-                        <p class="small text-muted mt-2">Structural Supports, Columns, Frameworks, Heavy Fabrication.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
-                        <h4>Marine &amp; Offshore</h4>
-                        <p class="small text-muted mt-2">Propeller Shafts, Marine Equipment, Offshore Platforms, Desalination Plants.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-airplane"></i></div>
-                        <h4>Automotive &amp; Aerospace</h4>
-                        <p class="small text-muted mt-2">Steering Components, Hydraulic Systems, Landing Gear Components, Precision Machined Parts.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-capsule"></i></div>
-                        <h4>Food, Pharmaceutical &amp; Chemical</h4>
-                        <p class="small text-muted mt-2">Processing Equipment, Hygienic Components, Chemical Processing Systems, Stainless Fabrication.</p>
                     </div>
                 </div>
             </div>

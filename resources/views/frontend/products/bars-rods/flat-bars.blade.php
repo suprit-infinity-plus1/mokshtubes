@@ -529,6 +529,60 @@
         </div>
     </section>
 
+    {{-- Applications --}}
+    <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Applications &amp; Uses</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building"></i></div>
+                        <h4>Construction &amp; Infrastructure</h4>
+                        <p class="small text-muted mt-2">Structural Supports, Base Plates, Brackets, Building Frameworks.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-wide"></i></div>
+                        <h4>Industrial Manufacturing</h4>
+                        <p class="small text-muted mt-2">Machine Frames, Conveyor Systems, Tooling, Heavy Equipment.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-funnel"></i></div>
+                        <h4>Oil, Gas &amp; Petrochemical</h4>
+                        <p class="small text-muted mt-2">Pipe Supports, Equipment Frames, Skids, Valve Mounting Plates.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
+                        <h4>Marine &amp; Offshore</h4>
+                        <p class="small text-muted mt-2">Shipbuilding, Offshore Platforms, Seawater Equipment, Dock Construction.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-airplane"></i></div>
+                        <h4>Automotive &amp; Aerospace</h4>
+                        <p class="small text-muted mt-2">Chassis Components, Body Reinforcements, Suspension Components.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-lightning-charge"></i></div>
+                        <h4>Electrical Industry</h4>
+                        <p class="small text-muted mt-2">Busbars, Switchgear Components, Electrical Connectors, Conductive Supports.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     {{-- Features & Advantages --}}
     <section id="features" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -583,60 +637,6 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-tags"></i></div>
                         <h4>Cost-effective solution for fabrication</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{-- Applications --}}
-    <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Applications &amp; Uses</h2>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building"></i></div>
-                        <h4>Construction &amp; Infrastructure</h4>
-                        <p class="small text-muted mt-2">Structural Supports, Base Plates, Brackets, Building Frameworks.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-wide"></i></div>
-                        <h4>Industrial Manufacturing</h4>
-                        <p class="small text-muted mt-2">Machine Frames, Conveyor Systems, Tooling, Heavy Equipment.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-funnel"></i></div>
-                        <h4>Oil, Gas &amp; Petrochemical</h4>
-                        <p class="small text-muted mt-2">Pipe Supports, Equipment Frames, Skids, Valve Mounting Plates.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
-                        <h4>Marine &amp; Offshore</h4>
-                        <p class="small text-muted mt-2">Shipbuilding, Offshore Platforms, Seawater Equipment, Dock Construction.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-airplane"></i></div>
-                        <h4>Automotive &amp; Aerospace</h4>
-                        <p class="small text-muted mt-2">Chassis Components, Body Reinforcements, Suspension Components.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-lightning-charge"></i></div>
-                        <h4>Electrical Industry</h4>
-                        <p class="small text-muted mt-2">Busbars, Switchgear Components, Electrical Connectors, Conductive Supports.</p>
                     </div>
                 </div>
             </div>

@@ -504,6 +504,61 @@
         </div>
     </section>
 
+
+    {{-- Applications --}}
+    <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Applications &amp; Uses</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-cone-striped"></i></div>
+                        <h4>Construction &amp; Infrastructure</h4>
+                        <p class="small text-muted mt-2">Structural supports, reinforcement systems, tie rods, foundation applications.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
+                        <h4>Marine &amp; Offshore</h4>
+                        <p class="small text-muted mt-2">Marine shafts, offshore structures, propeller components, corrosion-resistant fittings.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-funnel"></i></div>
+                        <h4>Oil &amp; Gas Industry</h4>
+                        <p class="small text-muted mt-2">Valve components, pump shafts, pipeline equipment, refinery components.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-airplane"></i></div>
+                        <h4>Automotive &amp; Aerospace</h4>
+                        <p class="small text-muted mt-2">Axles, suspension components, landing gear components, structural aerospace parts.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-wide"></i></div>
+                        <h4>Industrial Manufacturing</h4>
+                        <p class="small text-muted mt-2">Machinery parts, fasteners, bearings, engineering equipment, machining stock.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-house"></i></div>
+                        <h4>Decorative &amp; Architectural</h4>
+                        <p class="small text-muted mt-2">Railings, furniture, interior design structures, decorative metalwork.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     {{-- Features & Advantages --}}
     <section id="features" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -564,61 +619,7 @@
         </div>
     </section>
 
-    {{-- Applications --}}
-    <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Applications &amp; Uses</h2>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-cone-striped"></i></div>
-                        <h4>Construction &amp; Infrastructure</h4>
-                        <p class="small text-muted mt-2">Structural supports, reinforcement systems, tie rods, foundation applications.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
-                        <h4>Marine &amp; Offshore</h4>
-                        <p class="small text-muted mt-2">Marine shafts, offshore structures, propeller components, corrosion-resistant fittings.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-funnel"></i></div>
-                        <h4>Oil &amp; Gas Industry</h4>
-                        <p class="small text-muted mt-2">Valve components, pump shafts, pipeline equipment, refinery components.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-airplane"></i></div>
-                        <h4>Automotive &amp; Aerospace</h4>
-                        <p class="small text-muted mt-2">Axles, suspension components, landing gear components, structural aerospace parts.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-wide"></i></div>
-                        <h4>Industrial Manufacturing</h4>
-                        <p class="small text-muted mt-2">Machinery parts, fasteners, bearings, engineering equipment, machining stock.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-house"></i></div>
-                        <h4>Decorative &amp; Architectural</h4>
-                        <p class="small text-muted mt-2">Railings, furniture, interior design structures, decorative metalwork.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom">
+        <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>

@@ -496,6 +496,60 @@
         </div>
     </section>
 
+    {{-- Applications --}}
+    <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Applications &amp; Uses</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-nut"></i></div>
+                        <h4>Fastener Manufacturing</h4>
+                        <p class="small text-muted mt-2">Nuts, Bolts, Studs, Washers, Threaded Components.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-wide"></i></div>
+                        <h4>Industrial Manufacturing</h4>
+                        <p class="small text-muted mt-2">Precision Machined Components, Shafts, Valve Parts, Hydraulic Components, Machine Parts.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building"></i></div>
+                        <h4>Construction &amp; Infrastructure</h4>
+                        <p class="small text-muted mt-2">Structural Supports, Brackets, Frameworks, Heavy Fabrication.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-funnel"></i></div>
+                        <h4>Oil &amp; Gas Industry</h4>
+                        <p class="small text-muted mt-2">Valve Components, Pump Parts, Instrumentation, Petrochemical Equipment.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
+                        <h4>Marine &amp; Offshore</h4>
+                        <p class="small text-muted mt-2">Offshore Platforms, Shipbuilding, Marine Hardware, Desalination Plants.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-airplane"></i></div>
+                        <h4>Automotive &amp; Aerospace</h4>
+                        <p class="small text-muted mt-2">Suspension Components, Engine Parts, Landing Gear, Lightweight Structural Components.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     {{-- Features & Advantages --}}
     <section id="features" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -550,60 +604,6 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-tools"></i></div>
                         <h4>Suitable for heavy-duty industrial applications</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{-- Applications --}}
-    <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Applications &amp; Uses</h2>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-nut"></i></div>
-                        <h4>Fastener Manufacturing</h4>
-                        <p class="small text-muted mt-2">Nuts, Bolts, Studs, Washers, Threaded Components.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-wide"></i></div>
-                        <h4>Industrial Manufacturing</h4>
-                        <p class="small text-muted mt-2">Precision Machined Components, Shafts, Valve Parts, Hydraulic Components, Machine Parts.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building"></i></div>
-                        <h4>Construction &amp; Infrastructure</h4>
-                        <p class="small text-muted mt-2">Structural Supports, Brackets, Frameworks, Heavy Fabrication.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-funnel"></i></div>
-                        <h4>Oil &amp; Gas Industry</h4>
-                        <p class="small text-muted mt-2">Valve Components, Pump Parts, Instrumentation, Petrochemical Equipment.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
-                        <h4>Marine &amp; Offshore</h4>
-                        <p class="small text-muted mt-2">Offshore Platforms, Shipbuilding, Marine Hardware, Desalination Plants.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-airplane"></i></div>
-                        <h4>Automotive &amp; Aerospace</h4>
-                        <p class="small text-muted mt-2">Suspension Components, Engine Parts, Landing Gear, Lightweight Structural Components.</p>
                     </div>
                 </div>
             </div>

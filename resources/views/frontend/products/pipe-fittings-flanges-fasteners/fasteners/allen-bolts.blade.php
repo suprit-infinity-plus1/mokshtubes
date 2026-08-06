@@ -17,8 +17,17 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1 class="page-title">Allen Bolts Manufacturer, Supplier & Exporter in India</h1>
-                    <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px; max-width: 900px;">
-                        Allen Bolts, also known as Allen Head Bolts or Socket Head Cap Screws, are high-strength fasteners designed with an internal hexagonal (Allen) drive for secure and precise fastening. These bolts are widely used in industrial machinery, automotive, aerospace, construction, and engineering applications due to their compact design, high torque capability, and excellent mechanical strength. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we manufacture, supply, and export premium-quality Allen Bolts in stainless steel, carbon steel, alloy steel, duplex, super duplex, and nickel alloy grades. Our bolts are manufactured according to international standards to ensure exceptional durability, corrosion resistance, and long-lasting performance.
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px; max-width: 900px;">
+                        Allen Bolts, also known as Allen Head Bolts or Socket Head Cap Screws, are high-strength fasteners
+                        designed with an internal hexagonal (Allen) drive for secure and precise fastening. These bolts are
+                        widely used in industrial machinery, automotive, aerospace, construction, and engineering
+                        applications due to their compact design, high torque capability, and excellent mechanical strength.
+                        At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes &
+                            Fittings LLP</a>, we manufacture, supply, and export premium-quality Allen Bolts in stainless
+                        steel, carbon steel, alloy steel, duplex, super duplex, and nickel alloy grades. Our bolts are
+                        manufactured according to international standards to ensure exceptional durability, corrosion
+                        resistance, and long-lasting performance.
                     </p>
                 </div>
             </div>
@@ -51,32 +60,39 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/flangs/FASTENERS.webp') }}"
-                        alt="Allen Bolts Manufacturer" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                    <img src="{{ asset('assets/images/product/flangs/FASTENERS.webp') }}" alt="Allen Bolts Manufacturer"
+                        class="img-fluid rounded shadow-sm" width="550" height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong>Allen Bolts</strong> feature a cylindrical head with an internal hexagonal socket that is tightened using an Allen key or hex wrench. Their compact head design makes them ideal for applications with limited installation space while providing higher tightening torque compared to conventional bolts. Allen Bolts are commonly used in precision assemblies, heavy machinery, industrial equipment, and structural applications where strength and reliability are critical.
+                        <strong>Allen Bolts</strong> feature a cylindrical head with an internal hexagonal socket that is
+                        tightened using an Allen key or hex wrench. Their compact head design makes them ideal for
+                        applications with limited installation space while providing higher tightening torque compared to
+                        conventional bolts. Allen Bolts are commonly used in precision assemblies, heavy machinery,
+                        industrial equipment, and structural applications where strength and reliability are critical.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture precision-engineered Allen Bolts using premium-quality raw materials and advanced CNC machining technology. Our bolts are available in a variety of sizes, thread types, finishes, and material grades to meet diverse industrial requirements.
+                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture
+                        precision-engineered Allen Bolts using premium-quality raw materials and advanced CNC machining
+                        technology. Our bolts are available in a variety of sizes, thread types, finishes, and material
+                        grades to meet diverse industrial requirements.
                     </p>
 
                 </div>
             </div>
         </div>
     </section>
-    
+
     {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Allen Bolts Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application
+                guidelines. Enter your email below to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
@@ -103,7 +119,7 @@
             </p>
         </div>
     </section>
-    
+
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -131,7 +147,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td style="padding-left: 20px;"><strong>Material</strong></td>
-                                    <td style="padding-left: 20px;">Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys</td>
+                                    <td style="padding-left: 20px;">Stainless Steel, Carbon Steel, Alloy Steel, Duplex,
+                                        Super Duplex & Nickel Alloys</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td style="padding-left: 20px;"><strong>Size Range</strong></td>
@@ -155,7 +172,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td style="padding-left: 20px;"><strong>Surface Finish</strong></td>
-                                    <td style="padding-left: 20px;">Plain, Bright, Black Oxide, Zinc Plated, PTFE Coated</td>
+                                    <td style="padding-left: 20px;">Plain, Bright, Black Oxide, Zinc Plated, PTFE Coated
+                                    </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td style="padding-left: 20px;"><strong>Manufacturing</strong></td>
@@ -175,7 +193,10 @@
                 <h2>Chemical Composition</h2>
             </div>
             <p class="text-center pb-3" style="max-width: 1000px; margin: 0 auto;">
-                The chemical composition of <strong>Allen Bolts</strong> varies depending on the selected material grade. At Moksh Tubes & Fittings LLP, our Allen Bolts are manufactured using premium-quality raw materials that comply with ASTM, ASME, ISO, DIN, EN, and BS standards, ensuring excellent corrosion resistance, high mechanical strength, and long service life.
+                The chemical composition of <strong>Allen Bolts</strong> varies depending on the selected material grade. At
+                Moksh Tubes & Fittings LLP, our Allen Bolts are manufactured using premium-quality raw materials that comply
+                with ASTM, ASME, ISO, DIN, EN, and BS standards, ensuring excellent corrosion resistance, high mechanical
+                strength, and long service life.
             </p>
 
             <div class="row justify-content-center">
@@ -192,35 +213,101 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
-                                <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
-                                <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
-                                <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
-                                <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
-                                <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
-                                <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
-                                <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
-                                <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
-                                <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
+                                <tr class="t-row">
+                                    <td>Carbon (C)</td>
+                                    <td>0.08 Max</td>
+                                    <td>0.03 Max</td>
+                                    <td>0.08 Max</td>
+                                    <td>0.03 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manganese (Mn)</td>
+                                    <td>2.00 Max</td>
+                                    <td>2.00 Max</td>
+                                    <td>2.00 Max</td>
+                                    <td>2.00 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Silicon (Si)</td>
+                                    <td>0.75 Max</td>
+                                    <td>0.75 Max</td>
+                                    <td>0.75 Max</td>
+                                    <td>0.75 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Phosphorus (P)</td>
+                                    <td>0.045 Max</td>
+                                    <td>0.045 Max</td>
+                                    <td>0.045 Max</td>
+                                    <td>0.045 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sulfur (S)</td>
+                                    <td>0.030 Max</td>
+                                    <td>0.030 Max</td>
+                                    <td>0.030 Max</td>
+                                    <td>0.030 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chromium (Cr)</td>
+                                    <td>18.00–20.00</td>
+                                    <td>18.00–20.00</td>
+                                    <td>16.00–18.00</td>
+                                    <td>16.00–18.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nickel (Ni)</td>
+                                    <td>8.00–10.50</td>
+                                    <td>8.00–12.00</td>
+                                    <td>10.00–14.00</td>
+                                    <td>10.00–14.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Molybdenum (Mo)</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>2.00–3.00</td>
+                                    <td>2.00–3.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nitrogen (N)</td>
+                                    <td>0.10 Max</td>
+                                    <td>0.10 Max</td>
+                                    <td>0.10 Max</td>
+                                    <td>0.10 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Iron (Fe)</td>
+                                    <td>Balance</td>
+                                    <td>Balance</td>
+                                    <td>Balance</td>
+                                    <td>Balance</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel Grade 12.9, ASTM A193 Grade B7, ASTM A193 Grade B7M, ASTM A320 Grade L7, Duplex Stainless Steel, Super Duplex Stainless Steel, Inconel&reg;, Monel&reg;, Hastelloy&reg;, and other Nickel Alloy Allen Bolts are manufactured in accordance with the relevant ASTM and ASME material specifications.</small></p>
+            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on
+                    the selected material grade. Carbon Steel, Alloy Steel Grade 12.9, ASTM A193 Grade B7, ASTM A193 Grade
+                    B7M, ASTM A320 Grade L7, Duplex Stainless Steel, Super Duplex Stainless Steel, Inconel&reg;, Monel&reg;,
+                    Hastelloy&reg;, and other Nickel Alloy Allen Bolts are manufactured in accordance with the relevant ASTM
+                    and ASME material specifications.</small></p>
         </div>
     </section>
 
-   <!-- charts -->
+    <!-- charts -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart</h2>
             </div>
             <p class="text-center pb-3" style="max-width: 900px; margin: 0 auto;">
-                Allen Bolts are manufactured according to <strong>ISO 4762</strong>, <strong>DIN 912</strong>, <strong>ASTM</strong>, and <strong>ASME</strong> standards and are available in a wide range of diameters, lengths, and thread configurations.
+                Allen Bolts are manufactured according to <strong>ISO 4762</strong>, <strong>DIN 912</strong>,
+                <strong>ASTM</strong>, and <strong>ASME</strong> standards and are available in a wide range of diameters,
+                lengths, and thread configurations.
             </p>
-            
+
             <div class="table-responsive mt-4">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
@@ -233,22 +320,96 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>M3</td><td>0.50</td><td>5.5</td><td>6–30</td><td>0.12</td></tr>
-                        <tr class="t-row"><td>M4</td><td>0.70</td><td>7.0</td><td>6–40</td><td>0.25</td></tr>
-                        <tr class="t-row"><td>M5</td><td>0.80</td><td>8.5</td><td>8–50</td><td>0.45</td></tr>
-                        <tr class="t-row"><td>M6</td><td>1.00</td><td>10.0</td><td>10–60</td><td>0.75</td></tr>
-                        <tr class="t-row"><td>M8</td><td>1.25</td><td>13.0</td><td>12–80</td><td>1.55</td></tr>
-                        <tr class="t-row"><td>M10</td><td>1.50</td><td>16.0</td><td>16–100</td><td>2.90</td></tr>
-                        <tr class="t-row"><td>M12</td><td>1.75</td><td>18.0</td><td>20–120</td><td>5.10</td></tr>
-                        <tr class="t-row"><td>M16</td><td>2.00</td><td>24.0</td><td>25–150</td><td>10.60</td></tr>
-                        <tr class="t-row"><td>M20</td><td>2.50</td><td>30.0</td><td>30–200</td><td>18.90</td></tr>
-                        <tr class="t-row"><td>M24</td><td>3.00</td><td>36.0</td><td>40–250</td><td>31.50</td></tr>
-                        <tr class="t-row"><td>M30</td><td>3.50</td><td>45.0</td><td>50–300</td><td>58.20</td></tr>
-                        <tr class="t-row"><td>M36</td><td>4.00</td><td>54.0</td><td>60–300</td><td>94.80</td></tr>
+                        <tr class="t-row">
+                            <td>M3</td>
+                            <td>0.50</td>
+                            <td>5.5</td>
+                            <td>6–30</td>
+                            <td>0.12</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M4</td>
+                            <td>0.70</td>
+                            <td>7.0</td>
+                            <td>6–40</td>
+                            <td>0.25</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M5</td>
+                            <td>0.80</td>
+                            <td>8.5</td>
+                            <td>8–50</td>
+                            <td>0.45</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M6</td>
+                            <td>1.00</td>
+                            <td>10.0</td>
+                            <td>10–60</td>
+                            <td>0.75</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M8</td>
+                            <td>1.25</td>
+                            <td>13.0</td>
+                            <td>12–80</td>
+                            <td>1.55</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M10</td>
+                            <td>1.50</td>
+                            <td>16.0</td>
+                            <td>16–100</td>
+                            <td>2.90</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M12</td>
+                            <td>1.75</td>
+                            <td>18.0</td>
+                            <td>20–120</td>
+                            <td>5.10</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M16</td>
+                            <td>2.00</td>
+                            <td>24.0</td>
+                            <td>25–150</td>
+                            <td>10.60</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M20</td>
+                            <td>2.50</td>
+                            <td>30.0</td>
+                            <td>30–200</td>
+                            <td>18.90</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M24</td>
+                            <td>3.00</td>
+                            <td>36.0</td>
+                            <td>40–250</td>
+                            <td>31.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M30</td>
+                            <td>3.50</td>
+                            <td>45.0</td>
+                            <td>50–300</td>
+                            <td>58.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M36</td>
+                            <td>4.00</td>
+                            <td>54.0</td>
+                            <td>60–300</td>
+                            <td>94.80</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and may vary depending on the thread type (Metric, UNC, UNF), full or partial thread design, material grade, surface finish, and manufacturing tolerances. Custom sizes and lengths are available upon request.</p>
+            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and
+                may vary depending on the thread type (Metric, UNC, UNF), full or partial thread design, material grade,
+                surface finish, and manufacturing tolerances. Custom sizes and lengths are available upon request.</p>
         </div>
     </section>
 
@@ -261,21 +422,25 @@
             cursor: pointer;
             background-color: #ffffff;
         }
+
         .grade-card .card-icon,
         .grade-card .card-title {
             color: #003366;
             transition: color 0.3s ease;
         }
+
         .grade-card .card-text {
             color: #6c757d;
             transition: color 0.3s ease;
         }
+
         .grade-card:hover {
             background-color: #e67e22;
             border-color: #e67e22;
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(230, 126, 34, 0.2) !important;
         }
+
         .grade-card:hover .card-icon,
         .grade-card:hover .card-title,
         .grade-card:hover .card-text {
@@ -287,7 +452,7 @@
             <div class="section-title center mb-5">
                 <h2>Grades &amp; Equivalent</h2>
             </div>
-            
+
             <div class="row justify-content-center mb-5">
                 <!-- Stainless Steel Grades -->
                 <div class="col-md-4 mb-4">
@@ -306,7 +471,8 @@
                         <div class="card-body py-4">
                             <i class="bi bi-gear-fill mb-3 d-block card-icon" style="font-size: 2rem;"></i>
                             <h5 class="card-title" style="font-weight: 600;">Carbon &amp; Alloy Steel</h5>
-                            <p class="card-text small mb-0">Carbon Steel, Alloy Steel Gr 12.9,<br>ASTM A193 B7, ASTM A320 L7</p>
+                            <p class="card-text small mb-0">Carbon Steel, Alloy Steel Gr 12.9,<br>ASTM A193 B7, ASTM A320 L7
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -388,28 +554,36 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}">
-                                <img class="w-100" src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp') }}"
                                     alt="Stainless Steel 304" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}" style="color: inherit; text-decoration: none;">Stainless Steel 304</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}"
+                                    style="color: inherit; text-decoration: none;">Stainless Steel 304</a></h6>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Stainless Steel 316 -->
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}">
-                                <img class="w-100" src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"
                                     alt="Stainless Steel 316" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}" style="color: inherit; text-decoration: none;">Stainless Steel 316</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}"
+                                    style="color: inherit; text-decoration: none;">Stainless Steel 316</a></h6>
                         </div>
                     </div>
                 </div>
@@ -418,13 +592,17 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}">
-                                <img class="w-100" src="{{ asset('assets/images/engineering-steels/engineering-steels-1045.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/engineering-steels/engineering-steels-1045.webp') }}"
                                     alt="Carbon Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}" style="color: inherit; text-decoration: none;">Carbon Steel</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}"
+                                    style="color: inherit; text-decoration: none;">Carbon Steel</a></h6>
                         </div>
                     </div>
                 </div>
@@ -433,13 +611,17 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}">
-                                <img class="w-100" src="{{ asset('assets/images/engineering-steels/engineering-steels-4140.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/engineering-steels/engineering-steels-4140.webp') }}"
                                     alt="Alloy Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}" style="color: inherit; text-decoration: none;">Alloy Steel</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}"
+                                    style="color: inherit; text-decoration: none;">Alloy Steel</a></h6>
                         </div>
                     </div>
                 </div>
@@ -449,12 +631,15 @@
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
-                                <img class="w-100" src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}" style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}"
+                                    style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
                         </div>
                     </div>
                 </div>
@@ -469,74 +654,9 @@
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}" style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}"
+                                    style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{-- Features & Advantages --}}
-    <section id="features" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Features & Advantages</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-hexagon-fill"></i></div>
-                        <h4>High-strength internal hex drive design</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrows-collapse"></i></div>
-                        <h4>Compact head for space-saving installations</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
-                        <h4>Excellent tightening torque capability</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Superior corrosion and oxidation resistance</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-diagram-3-fill"></i></div>
-                        <h4>High tensile strength and durability</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h4>Precision-machined threads for secure fastening</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
-                        <h4>Resistant to vibration and loosening</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
-                        <h4>Long service life with minimal maintenance</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
-                        <h4>Manufactured according to international quality standards</h4>
                     </div>
                 </div>
             </div>
@@ -622,11 +742,80 @@
         </div>
     </section>
 
+
+    {{-- Features & Advantages --}}
+    <section id="features" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Features & Advantages</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-hexagon-fill"></i></div>
+                        <h4>High-strength internal hex drive design</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrows-collapse"></i></div>
+                        <h4>Compact head for space-saving installations</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
+                        <h4>Excellent tightening torque capability</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>Superior corrosion and oxidation resistance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-diagram-3-fill"></i></div>
+                        <h4>High tensile strength and durability</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h4>Precision-machined threads for secure fastening</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                        <h4>Resistant to vibration and loosening</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h4>Long service life with minimal maintenance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
+                        <h4>Manufactured according to international quality standards</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom">
         <div class="container">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-                 <p class="text-center">The mechanical properties of <strong>Allen Bolts</strong> depend on the selected material grade and comply with applicable ASTM, ISO, and DIN standards. The table below shows the typical mechanical properties for commonly supplied stainless steel grades.</p>
+                <p class="text-center">The mechanical properties of <strong>Allen Bolts</strong> depend on the selected
+                    material grade and comply with applicable ASTM, ISO, and DIN standards. The table below shows the
+                    typical mechanical properties for commonly supplied stainless steel grades.</p>
             </div>
 
             <div class="table-responsive">
@@ -662,70 +851,76 @@
                     </tbody>
                 </table>
             </div>
-             <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel, Alloy Steel Grade 12.9, ASTM A193 Grade B7, ASTM A193 Grade B7M, ASTM A320 Grade L7, Duplex Stainless Steel, Super Duplex Stainless Steel, Inconel&reg;, Monel&reg;, Hastelloy&reg;, and other Nickel Alloy Allen Bolts are available in accordance with their respective ASTM, ASME, ISO, and DIN material specifications upon request.</small></p>
+            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel,
+                    Alloy Steel Grade 12.9, ASTM A193 Grade B7, ASTM A193 Grade B7M, ASTM A320 Grade L7, Duplex Stainless
+                    Steel, Super Duplex Stainless Steel, Inconel&reg;, Monel&reg;, Hastelloy&reg;, and other Nickel Alloy
+                    Allen Bolts are available in accordance with their respective ASTM, ASME, ISO, and DIN material
+                    specifications upon request.</small></p>
         </div>
     </section>
 
-     <!-- Testing & Quality Control -->
-    <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Testing & Quality</h2>
-            </div>
+    <!-- Testing & Quality Control -->
+    <!-- <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Testing & Quality</h2>
+                </div>
 
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                        <h4>Tensile Test</h4>
+                <div class="row g-4 mt-4">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                            <h4>Tensile Test</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
-                        <h4>Proof Load Test</h4>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                            <h4>Proof Load Test</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                        <h4>PMI Test</h4>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                            <h4>PMI Test</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                        <h4>Thread Gauging</h4>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                            <h4>Thread Gauging</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
-                        <h4>Hardness Test</h4>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
+                            <h4>Hardness Test</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
-                        <h4>Magnetic Particle Inspection</h4>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
+                            <h4>Magnetic Particle Inspection</h4>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section> -->
 
     <!-- Packaging & Export -->
-    <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Packaging & Export</h2>
+    <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Packaging & Export</h2>
+                </div>
+                <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
+                    We ensure that our <strong>Allen Bolts</strong> are securely packaged to prevent damage during transit. We
+                    use high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
+                    We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe,
+                    Africa, and Southeast Asia.
+                </p>
             </div>
-            <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
-                We ensure that our <strong>Allen Bolts</strong> are securely packaged to prevent damage during transit. We use high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
-                We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe, Africa, and Southeast Asia.
-            </p>
-        </div>
-    </section>
+        </section> -->
 
     {{-- why choose us --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -809,7 +1004,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    An Allen Bolt is a high-strength fastener with an internal hexagonal socket head that is tightened using an Allen key or hex wrench for secure and precise fastening.
+                                    An Allen Bolt is a high-strength fastener with an internal hexagonal socket head that is
+                                    tightened using an Allen key or hex wrench for secure and precise fastening.
                                 </p>
                             </div>
                         </div>
@@ -820,7 +1016,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Allen Bolts are widely used in industrial machinery, automotive, aerospace, robotics, oil & gas, power plants, marine, and precision engineering applications.
+                                    Allen Bolts are widely used in industrial machinery, automotive, aerospace, robotics,
+                                    oil & gas, power plants, marine, and precision engineering applications.
                                 </p>
                             </div>
                         </div>
@@ -831,7 +1028,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    We manufacture Allen Bolts in stainless steel, carbon steel, alloy steel, duplex, super duplex, and nickel alloy grades.
+                                    We manufacture Allen Bolts in stainless steel, carbon steel, alloy steel, duplex, super
+                                    duplex, and nickel alloy grades.
                                 </p>
                             </div>
                         </div>
@@ -853,7 +1051,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes. We manufacture Allen Bolts in custom diameters, lengths, thread types, surface finishes, and material grades according to customer specifications.
+                                    Yes. We manufacture Allen Bolts in custom diameters, lengths, thread types, surface
+                                    finishes, and material grades according to customer specifications.
                                 </p>
                             </div>
                         </div>
@@ -869,7 +1068,9 @@
             <div class="contact-cta-box text-center">
                 <h2>Request a Quote</h2>
                 <p>
-                    Looking for a trusted <strong>Allen Bolts</strong> manufacturer and supplier? Contact <strong>Moksh Tubes & Fittings LLP</strong> for premium-quality industrial Allen Bolts, competitive pricing, ready stock, technical support, and fast worldwide delivery. Request your free quotation today.
+                    Looking for a trusted <strong>Allen Bolts</strong> manufacturer and supplier? Contact <strong>Moksh
+                        Tubes & Fittings LLP</strong> for premium-quality industrial Allen Bolts, competitive pricing, ready
+                    stock, technical support, and fast worldwide delivery. Request your free quotation today.
                 </p>
                 <a href="javascript:void(0);" class="contact-cta-btn btn btn-primary mt-3" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
@@ -888,11 +1089,13 @@
             transform: translateY(-6px) scale(0.98);
             transition: opacity .35s ease, transform .35s ease;
         }
+
         tr.collapsing {
             opacity: 0;
             transform: translateY(-10px) scale(0.96);
             display: table-row !important;
         }
+
         tr.collapse.show {
             opacity: 1;
             transform: translateY(0) scale(1);
@@ -911,6 +1114,7 @@
             position: relative;
             padding-left: 30px;
         }
+
         .custom-check-list li i {
             position: absolute;
             left: 0;
@@ -923,6 +1127,7 @@
             z-index: 1020;
             background: #ffffff;
         }
+
         .material-tabs a {
             color: #174268;
             font-weight: 700;
@@ -932,34 +1137,44 @@
             display: inline-block;
             transition: all 0.3s ease;
         }
+
         .material-tabs .separator {
             color: #ccc;
             margin: 0 4px;
             font-size: 14px;
         }
+
         .material-tabs a:hover {
             color: #e67e22;
         }
 
         /* Card Styles */
-        .advantage-card, .application-card, .why-banner-block {
+        .advantage-card,
+        .application-card,
+        .why-banner-block {
             background: #fff;
             padding: 25px;
             border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
             text-align: center;
             height: 100%;
             transition: all 0.3s ease;
             border: 1px solid #f1f1f1;
             cursor: pointer;
         }
-        .advantage-card:hover, .application-card:hover, .why-banner-block:hover {
+
+        .advantage-card:hover,
+        .application-card:hover,
+        .why-banner-block:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(230, 126, 34, 0.2) !important;
             border-color: #e67e22;
             background-color: #fff;
         }
-        .advantage-icon, .application-icon, .why-banner-icon {
+
+        .advantage-icon,
+        .application-icon,
+        .why-banner-icon {
             font-size: 2.2rem;
             color: #ffffff;
             margin: 0 auto 15px auto;
@@ -972,13 +1187,17 @@
             border-radius: 50%;
             background-color: #e67e22;
         }
-        .advantage-card h4, .application-card h5, .why-banner-block h5 {
+
+        .advantage-card h4,
+        .application-card h5,
+        .why-banner-block h5 {
             font-size: 1.1rem;
             margin-bottom: 0;
             color: #174268;
             transition: color 0.3s ease;
         }
-        .advantage-card:hover .advantage-icon, 
+
+        .advantage-card:hover .advantage-icon,
         .application-card:hover .application-icon,
         .why-banner-block:hover .why-banner-icon {
             background-color: #174268;
