@@ -38,13 +38,13 @@
             <a href="#specifications">Specifications</a> |
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
-            <a href="#types">Types</a> |
+            <!-- <a href="#types">Types</a> | -->
             <a href="#applications">Applications</a> |
-            <a href="#uses">Uses & Advantages</a> |
-            <a href="#manufacturing">Manufacturing</a> |
+            <!-- <a href="#uses">Uses & Advantages</a> | -->
+            <!-- <a href="#manufacturing">Manufacturing</a> | -->
+            <!-- <a href="#tolerances">Tolerances</a> | -->
+            <!-- <a href="#export">Packaging & Exports</a> | -->
             <a href="#mechanical">Mechanical Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
-            <a href="#export">Packaging & Exports</a> |
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -642,22 +642,22 @@
             </div>
 
             <!-- <div class="row mt-5 justify-content-center text-start">
-                        <div class="col-lg-8">
-                            <div class="p-4 rounded shadow-sm bg-white border">
-                                <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Sheets & Plates</h4>
-                                <p class="mb-2"><strong>Before selecting:</strong></p>
-                                <ul class="list-unstyled">
-                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type</li>
-                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness requirement</li>
-                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (structural /
-                                        decorative)</li>
-                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Surface finish</li>
-                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Standard compliance</li>
-                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Custom size requirement</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> -->
+                                <div class="col-lg-8">
+                                    <div class="p-4 rounded shadow-sm bg-white border">
+                                        <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Sheets & Plates</h4>
+                                        <p class="mb-2"><strong>Before selecting:</strong></p>
+                                        <ul class="list-unstyled">
+                                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness requirement</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (structural /
+                                                decorative)</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Surface finish</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Standard compliance</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Custom size requirement</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> -->
         </div>
     </section>
 
@@ -751,114 +751,114 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-                    @verbatim
-                        [{
-                            "@context": "https://schema.org",
-                            "@type": "Organization",
-                            "name": "Moksh Tubes & Fittings LLP",
-                            "url": "https://www.mokshtubes.com",
-                            "logo": "https://www.mokshtubes.com/assets/logo.png",
-                            "contactPoint": {
-                                "@type": "ContactPoint",
-                                "telephone": "+91-97695-84950",
-                                "contactType": "sales",
-                                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                                "availableLanguage": ["English"]
-                            }
-                        },
-                        {
-                            "@context": "https://schema.org",
-                            "@type": "Product",
-                            "name": "Sheets & Plates | Stainless Steel, Carbon Steel & Alloy Plates",
-                            "description": "Buy sheets & plates in stainless steel, carbon steel & alloys. Wide thickness range, custom sizes, and industrial-grade materials.",
-                            "brand": {
-                                "@type": "Brand",
-                                "name": "Moksh Tubes & Fittings LLP"
-                            },
-                            "manufacturer": {
-                                "@type": "Organization",
-                                "name": "Moksh Tubes & Fittings LLP"
-                            },
-                            "material": "Stainless Steel, Carbon Steel, Alloy Steel, Aluminium, Copper, Brass, Nickel Alloys, Titanium",
-                            "url": "https://www.mokshtubes.com/sheets-plates",
-                            "offers": {
-                                "@type": "Offer",
-                                "availability": "https://schema.org/InStock",
-                                "priceCurrency": "INR",
-                                "url": "https://www.mokshtubes.com/contact-us"
-                            }
-                        },
-                        {
-                            "@context": "https://schema.org",
-                            "@type": "FAQPage",
-                            "mainEntity": [{
-                                "@type": "Question",
-                                "name": "Q1. Difference between sheets and plates?",
-                                "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Sheets are thinner (<6 mm), plates are thicker (>6 mm)."
-                                }
-                            },{
-                                "@type": "Question",
-                                "name": "Q2. What materials are available?",
-                                "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "SS, MS, aluminium, copper, titanium, and more."
-                                }
-                            },{
-                                "@type": "Question",
-                                "name": "Q3. What sizes are available?",
-                                "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Thickness 0.3–150 mm+, custom sizes available."
-                                }
-                            },{
-                                "@type": "Question",
-                                "name": "Q4. What are common uses?",
-                                "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Construction, pressure vessels, fabrication."
-                                }
-                            },{
-                                "@type": "Question",
-                                "name": "Q5. What finishes are available?",
-                                "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "2B, BA, HR, polished, matte, chequered."
-                                }
-                            }]
-                        },
-                        {
-                            "@context": "https://schema.org",
-                            "@type": "BreadcrumbList",
-                            "itemListElement": [{
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.mokshtubes.com"
-                            },{
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Products",
-                                "item": "https://www.mokshtubes.com/products"
-                            },{
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Sheets & Plates",
-                                "item": "https://www.mokshtubes.com/sheets-plates"
-                            }]
-                        },
-                        {
-                            "@context": "https://schema.org",
-                            "@type": "LocalBusiness",
-                            "name": "Moksh Tubes & Fittings LLP",
-                            "address": {
-                                "@type": "PostalAddress",
-                                "addressCountry": "India"
-                            },
-                            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-                            "telephone": "+91-97695-84950"
-                        }]
-                    @endverbatim
-                </script>
+                            @verbatim
+                                [{
+                                    "@context": "https://schema.org",
+                                    "@type": "Organization",
+                                    "name": "Moksh Tubes & Fittings LLP",
+                                    "url": "https://www.mokshtubes.com",
+                                    "logo": "https://www.mokshtubes.com/assets/logo.png",
+                                    "contactPoint": {
+                                        "@type": "ContactPoint",
+                                        "telephone": "+91-97695-84950",
+                                        "contactType": "sales",
+                                        "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                        "availableLanguage": ["English"]
+                                    }
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "Product",
+                                    "name": "Sheets & Plates | Stainless Steel, Carbon Steel & Alloy Plates",
+                                    "description": "Buy sheets & plates in stainless steel, carbon steel & alloys. Wide thickness range, custom sizes, and industrial-grade materials.",
+                                    "brand": {
+                                        "@type": "Brand",
+                                        "name": "Moksh Tubes & Fittings LLP"
+                                    },
+                                    "manufacturer": {
+                                        "@type": "Organization",
+                                        "name": "Moksh Tubes & Fittings LLP"
+                                    },
+                                    "material": "Stainless Steel, Carbon Steel, Alloy Steel, Aluminium, Copper, Brass, Nickel Alloys, Titanium",
+                                    "url": "https://www.mokshtubes.com/sheets-plates",
+                                    "offers": {
+                                        "@type": "Offer",
+                                        "availability": "https://schema.org/InStock",
+                                        "priceCurrency": "INR",
+                                        "url": "https://www.mokshtubes.com/contact-us"
+                                    }
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "FAQPage",
+                                    "mainEntity": [{
+                                        "@type": "Question",
+                                        "name": "Q1. Difference between sheets and plates?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Sheets are thinner (<6 mm), plates are thicker (>6 mm)."
+                                        }
+                                    },{
+                                        "@type": "Question",
+                                        "name": "Q2. What materials are available?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "SS, MS, aluminium, copper, titanium, and more."
+                                        }
+                                    },{
+                                        "@type": "Question",
+                                        "name": "Q3. What sizes are available?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Thickness 0.3–150 mm+, custom sizes available."
+                                        }
+                                    },{
+                                        "@type": "Question",
+                                        "name": "Q4. What are common uses?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Construction, pressure vessels, fabrication."
+                                        }
+                                    },{
+                                        "@type": "Question",
+                                        "name": "Q5. What finishes are available?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "2B, BA, HR, polished, matte, chequered."
+                                        }
+                                    }]
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "BreadcrumbList",
+                                    "itemListElement": [{
+                                        "@type": "ListItem",
+                                        "position": 1,
+                                        "name": "Home",
+                                        "item": "https://www.mokshtubes.com"
+                                    },{
+                                        "@type": "ListItem",
+                                        "position": 2,
+                                        "name": "Products",
+                                        "item": "https://www.mokshtubes.com/products"
+                                    },{
+                                        "@type": "ListItem",
+                                        "position": 3,
+                                        "name": "Sheets & Plates",
+                                        "item": "https://www.mokshtubes.com/sheets-plates"
+                                    }]
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "LocalBusiness",
+                                    "name": "Moksh Tubes & Fittings LLP",
+                                    "address": {
+                                        "@type": "PostalAddress",
+                                        "addressCountry": "India"
+                                    },
+                                    "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                                    "telephone": "+91-97695-84950"
+                                }]
+                            @endverbatim
+                        </script>
 @endsection

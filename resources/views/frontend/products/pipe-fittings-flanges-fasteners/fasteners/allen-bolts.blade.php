@@ -42,11 +42,12 @@
             <a href="#chemical-composition">Chemical Composition</a> |
             <a href="#size-chart">Size & Weight Chart</a> |
             <a href="#grades">Grades & Equivalent</a> |
-            <a href="#features">Features & Advantages</a> |
             <a href="#applications">Applications</a> |
+            <a href="#features">Features & Advantages</a> |
             <a href="#mechanical-properties">Mechanical Properties</a> |
-            <a href="#testing">Testing & Quality</a> |
-            <a href="#packaging">Packaging & Export</a> |
+            <!-- <a href="#testing">Testing & Quality</a> |
+                    <a href="#packaging">Packaging & Export</a> | -->
+            <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>|
         </div>
     </div>
@@ -861,69 +862,69 @@
 
     <!-- Testing & Quality Control -->
     <!-- <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>Testing & Quality</h2>
-                </div>
+                    <div class="container">
+                        <div class="section-title center">
+                            <h2>Testing & Quality</h2>
+                        </div>
 
-                <div class="row g-4 mt-4">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                            <h4>Tensile Test</h4>
+                        <div class="row g-4 mt-4">
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                                    <h4>Tensile Test</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                                    <h4>Proof Load Test</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                                    <h4>PMI Test</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                                    <h4>Thread Gauging</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
+                                    <h4>Hardness Test</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
+                                    <h4>Magnetic Particle Inspection</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
-                            <h4>Proof Load Test</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                            <h4>PMI Test</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                            <h4>Thread Gauging</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
-                            <h4>Hardness Test</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
-                            <h4>Magnetic Particle Inspection</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+                </section> -->
 
     <!-- Packaging & Export -->
     <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>Packaging & Export</h2>
-                </div>
-                <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
-                    We ensure that our <strong>Allen Bolts</strong> are securely packaged to prevent damage during transit. We
-                    use high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
-                    We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe,
-                    Africa, and Southeast Asia.
-                </p>
-            </div>
-        </section> -->
+                    <div class="container">
+                        <div class="section-title center">
+                            <h2>Packaging & Export</h2>
+                        </div>
+                        <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
+                            We ensure that our <strong>Allen Bolts</strong> are securely packaged to prevent damage during transit. We
+                            use high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
+                            We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe,
+                            Africa, and Southeast Asia.
+                        </p>
+                    </div>
+                </section> -->
 
     {{-- why choose us --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>

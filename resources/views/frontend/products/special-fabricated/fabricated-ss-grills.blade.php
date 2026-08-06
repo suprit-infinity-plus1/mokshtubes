@@ -38,11 +38,11 @@
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#buying-guide">Buying Guide</a> |
-            <a href="#manufacturing">Manufacturing</a> |
-            <a href="#mechanical">Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
-            <a href="#export">Packaging & Exports</a> |
+            <!-- <a href="#buying-guide">Buying Guide</a> | -->
+            <!-- <a href="#manufacturing">Manufacturing</a> | -->
+            <a href="#mechanical">Mechanical Properties</a> |
+            <!-- <a href="#tolerances">Tolerances</a> |
+                    <a href="#export">Packaging & Exports</a> | -->
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -551,7 +551,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
@@ -696,100 +696,100 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-            @verbatim
-                [{
-                    "@context": "https://schema.org",
-                    "@type": "Organization",
-                    "name": "Moksh Tubes & Fittings LLP",
-                    "url": "https://www.mokshtubes.com",
-                    "logo": "https://www.mokshtubes.com/assets/logo.png",
-                    "contactPoint": {
-                        "@type": "ContactPoint",
-                        "telephone": "+91-97695-84950",
-                        "contactType": "sales",
-                        "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                        "availableLanguage": ["English"]
-                    }
-                },
-                {
-                    "@context": "https://schema.org",
-                    "@type": "Product",
-                    "name": "Fabricated SS Grills",
-                    "description": "Custom fabricated SS grills for windows, balconies & gates. Durable stainless steel grill systems in 304 & 316 grades with modern designs.",
-                    "brand": {
-                        "@type": "Brand",
-                        "name": "Moksh Tubes & Fittings LLP"
-                    },
-                    "manufacturer": {
-                        "@type": "Organization",
-                        "name": "Moksh Tubes & Fittings LLP"
-                    },
-                    "material": "Stainless Steel, Duplex & Super Duplex, Mild Steel",
-                    "url": "https://www.mokshtubes.com/products/special-fabricated/fabricated-ss-grills",
-                    "offers": {
-                        "@type": "Offer",
-                        "availability": "https://schema.org/InStock",
-                        "priceCurrency": "INR",
-                        "url": "https://www.mokshtubes.com/contact-us"
-                    }
-                },
-                {
-                    "@context": "https://schema.org",
-                    "@type": "FAQPage",
-                    "mainEntity": [{
-                        "@type": "Question",
-                        "name": "Why choose SS grills over iron?",
-                        "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "SS grills are rust-proof, durable, and low maintenance."
-                        }
-                    },{
-                        "@type": "Question",
-                        "name": "Which grade is best?",
-                        "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "304 for indoor, 316 for outdoor, Duplex for harsh environments."
-                        }
-                    },{
-                        "@type": "Question",
-                        "name": "Are they suitable for outdoor use?",
-                        "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, highly weather-resistant."
-                        }
-                    }]
-                },
-                {
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [{
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.mokshtubes.com"
-                    },{
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Special Fabricated",
-                        "item": "https://www.mokshtubes.com/products/special-fabricated"
-                    },{
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Fabricated SS Grills",
-                        "item": "https://www.mokshtubes.com/products/special-fabricated/fabricated-ss-grills"
-                    }]
-                },
-                {
-                    "@context": "https://schema.org",
-                    "@type": "LocalBusiness",
-                    "name": "Moksh Tubes & Fittings LLP",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressCountry": "India"
-                    },
-                    "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-                    "telephone": "+91-97695-84950"
-                }]
-            @endverbatim
-        </script>
+                    @verbatim
+                        [{
+                            "@context": "https://schema.org",
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "url": "https://www.mokshtubes.com",
+                            "logo": "https://www.mokshtubes.com/assets/logo.png",
+                            "contactPoint": {
+                                "@type": "ContactPoint",
+                                "telephone": "+91-97695-84950",
+                                "contactType": "sales",
+                                "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                "availableLanguage": ["English"]
+                            }
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Product",
+                            "name": "Fabricated SS Grills",
+                            "description": "Custom fabricated SS grills for windows, balconies & gates. Durable stainless steel grill systems in 304 & 316 grades with modern designs.",
+                            "brand": {
+                                "@type": "Brand",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "manufacturer": {
+                                "@type": "Organization",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "material": "Stainless Steel, Duplex & Super Duplex, Mild Steel",
+                            "url": "https://www.mokshtubes.com/products/special-fabricated/fabricated-ss-grills",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "priceCurrency": "INR",
+                                "url": "https://www.mokshtubes.com/contact-us"
+                            }
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "FAQPage",
+                            "mainEntity": [{
+                                "@type": "Question",
+                                "name": "Why choose SS grills over iron?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "SS grills are rust-proof, durable, and low maintenance."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Which grade is best?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "304 for indoor, 316 for outdoor, Duplex for harsh environments."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Are they suitable for outdoor use?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, highly weather-resistant."
+                                }
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [{
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://www.mokshtubes.com"
+                            },{
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Special Fabricated",
+                                "item": "https://www.mokshtubes.com/products/special-fabricated"
+                            },{
+                                "@type": "ListItem",
+                                "position": 3,
+                                "name": "Fabricated SS Grills",
+                                "item": "https://www.mokshtubes.com/products/special-fabricated/fabricated-ss-grills"
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "LocalBusiness",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "India"
+                            },
+                            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                            "telephone": "+91-97695-84950"
+                        }]
+                    @endverbatim
+                </script>
 @endsection

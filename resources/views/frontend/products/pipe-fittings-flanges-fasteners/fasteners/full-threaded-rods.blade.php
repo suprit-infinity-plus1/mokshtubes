@@ -47,11 +47,12 @@
             <a href="#chemical-composition">Chemical Composition</a> |
             <a href="#size-chart">Size & Weight Chart</a> |
             <a href="#grades">Grades & Equivalent</a> |
-            <a href="#features">Features & Advantages</a> |
             <a href="#applications">Applications</a> |<br>
+            <a href="#features">Features & Advantages</a> |
             <a href="#mechanical-properties">Mechanical Properties</a> |
-            <a href="#testing">Testing & Quality</a> |
-            <a href="#packaging">Packaging & Export</a> |
+            <!-- <a href="#testing">Testing & Quality</a> | -->
+            <!-- <a href="#packaging">Packaging & Export</a> | -->
+            <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
     </div>
@@ -856,7 +857,7 @@
         </div>
     </section> -->
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Why Choose Moksh Tubes & Fittings LLP?</h2>

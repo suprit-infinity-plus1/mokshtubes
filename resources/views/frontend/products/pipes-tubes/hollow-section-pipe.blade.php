@@ -37,13 +37,14 @@
             <ul class="nav justify-content-center py-2 nav-pills custom-nav-scroll">
                 <li class=""><a class="" href="#overview">Overview</a></li>
                 <li class=""><a class="" href="#specifications">Specifications</a></li>
-                <li class=""><a class="" href="#types">Types</a></li>
+                <!-- <li class=""><a class="" href="#types">Types</a></li> -->
                 <li class=""><a class="" href="#size-chart">Size Chart</a></li>
                 <li class=""><a class="" href="#grades">Grades</a></li>
                 <li class=""><a class="" href="#applications">Applications</a></li>
-                <li class=""><a class="" href="#industries">Industries</a></li>
-                <li class=""><a class="" href="#export">Export</a></li>
-                <li class=""><a class="" href="#quality">Quality</a></li>
+                <!-- <li class=""><a class="" href="#industries">Industries</a></li> -->
+                <li class=""><a class="" href="#advantages">Advantages</a></li>
+                <li class=""><a class="" href="#mechanical">Mechanical Properties</a></li>
+                <li class=""><a class="" href="#why-choose-us">Why Choose Us</a></li>
                 <li class=""><a class="" href="#faq">FAQ</a></li>
             </ul>
         </div>
@@ -108,56 +109,56 @@
 
     <!-- Key Features -->
     <!-- <section class="sec-padd-top sec-padd-bottom">
-                        <div class="container">
-                            <div class="section-title center mb-5">
-                                <h2>Key Features</h2>
-                            </div>
-                            <div class="row g-4 justify-content-center">
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                                        <i class="bi bi-shield-shaded fs-1 text-primary mb-3"></i>
-                                        <h4 class="fw-bold mb-3">High Strength-to-Weight Ratio</h4>
-                                        <p class="text-muted">Maximum structural performance with minimal material weight.</p>
+                                    <div class="container">
+                                        <div class="section-title center mb-5">
+                                            <h2>Key Features</h2>
+                                        </div>
+                                        <div class="row g-4 justify-content-center">
+                                            <div class="col-sm-6 col-lg-4">
+                                                <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                                    <i class="bi bi-shield-shaded fs-1 text-primary mb-3"></i>
+                                                    <h4 class="fw-bold mb-3">High Strength-to-Weight Ratio</h4>
+                                                    <p class="text-muted">Maximum structural performance with minimal material weight.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-lg-4">
+                                                <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                                    <i class="bi bi-distribute-vertical fs-1 text-success mb-3"></i>
+                                                    <h4 class="fw-bold mb-3">Uniform Load Distribution</h4>
+                                                    <p class="text-muted">Consistent cross-section ensures even load distribution in structures.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-lg-4">
+                                                <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                                    <i class="bi bi-tools fs-1 text-info mb-3"></i>
+                                                    <h4 class="fw-bold mb-3">Excellent Weldability</h4>
+                                                    <p class="text-muted">Easy to weld, cut, drill, and fabricate for all project types.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-lg-4">
+                                                <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                                    <i class="bi bi-droplet-half fs-1 text-warning mb-3"></i>
+                                                    <h4 class="fw-bold mb-3">Corrosion Resistant Options</h4>
+                                                    <p class="text-muted">Available in stainless steel and duplex grades for harsh environments.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-lg-4">
+                                                <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                                    <i class="bi bi-grid-3x3-gap-fill fs-1 text-secondary mb-3"></i>
+                                                    <h4 class="fw-bold mb-3">Wide Range of Shapes & Sizes</h4>
+                                                    <p class="text-muted">Square, rectangular, and oval profiles in custom dimensions.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-lg-4">
+                                                <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                                    <i class="bi bi-star-half fs-1 text-danger mb-3"></i>
+                                                    <h4 class="fw-bold mb-3">Structural & Decorative Use</h4>
+                                                    <p class="text-muted">Suitable for both load-bearing structures and architectural finishes.</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                                        <i class="bi bi-distribute-vertical fs-1 text-success mb-3"></i>
-                                        <h4 class="fw-bold mb-3">Uniform Load Distribution</h4>
-                                        <p class="text-muted">Consistent cross-section ensures even load distribution in structures.</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                                        <i class="bi bi-tools fs-1 text-info mb-3"></i>
-                                        <h4 class="fw-bold mb-3">Excellent Weldability</h4>
-                                        <p class="text-muted">Easy to weld, cut, drill, and fabricate for all project types.</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                                        <i class="bi bi-droplet-half fs-1 text-warning mb-3"></i>
-                                        <h4 class="fw-bold mb-3">Corrosion Resistant Options</h4>
-                                        <p class="text-muted">Available in stainless steel and duplex grades for harsh environments.</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                                        <i class="bi bi-grid-3x3-gap-fill fs-1 text-secondary mb-3"></i>
-                                        <h4 class="fw-bold mb-3">Wide Range of Shapes & Sizes</h4>
-                                        <p class="text-muted">Square, rectangular, and oval profiles in custom dimensions.</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                                        <i class="bi bi-star-half fs-1 text-danger mb-3"></i>
-                                        <h4 class="fw-bold mb-3">Structural & Decorative Use</h4>
-                                        <p class="text-muted">Suitable for both load-bearing structures and architectural finishes.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section> -->
+                                </section> -->
 
     <!-- Specifications -->
     <section class="sec-padd-top sec-padd-bottom bg-light" id="specifications">
@@ -938,54 +939,54 @@
 
     <!-- Packaging & Export -->
     <!-- <section id="export" class="sec-padd-top sec-padd-bottom">
-                <div class="container">
-                    <div class="section-title center mb-4">
-                        <h2>Hollow Section Pipes Exporter to UAE, Saudi Arabia & GCC</h2>
-                    </div>
-                    <p class="fs-6 text-center text-muted mb-4">
-                        Moksh Tubes & Fittings LLP is a trusted hollow section pipes supplier for UAE, Saudi Arabia, Qatar, Oman,
-                        and Kuwait. We supply square (SHS), rectangular (RHS), and oval hollow sections for construction,
-                        infrastructure, and fabrication projects across the Gulf region. We regularly supply to Dubai, Abu Dhabi,
-                        Riyadh, Jeddah, Doha, and Muscat.
-                    </p>
+                            <div class="container">
+                                <div class="section-title center mb-4">
+                                    <h2>Hollow Section Pipes Exporter to UAE, Saudi Arabia & GCC</h2>
+                                </div>
+                                <p class="fs-6 text-center text-muted mb-4">
+                                    Moksh Tubes & Fittings LLP is a trusted hollow section pipes supplier for UAE, Saudi Arabia, Qatar, Oman,
+                                    and Kuwait. We supply square (SHS), rectangular (RHS), and oval hollow sections for construction,
+                                    infrastructure, and fabrication projects across the Gulf region. We regularly supply to Dubai, Abu Dhabi,
+                                    Riyadh, Jeddah, Doha, and Muscat.
+                                </p>
 
-                    <div class="row g-4 justify-content-center">
-                        <div class="col-md-6 col-lg-5">
-                            <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
-                                <h4 class="fw-bold text-primary mb-3"><i class="bi bi-globe me-2"></i>Export Countries</h4>
-                                <ul class="fs-6 list-unstyled text-muted">
-                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> UAE (Dubai, Abu Dhabi)</li>
-                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Saudi Arabia (Riyadh, Jeddah)
-                                    </li>
-                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Qatar (Doha)</li>
-                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Oman (Muscat)</li>
-                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Kuwait & Bahrain</li>
-                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Europe & Southeast Asia</li>
-                                </ul>
+                                <div class="row g-4 justify-content-center">
+                                    <div class="col-md-6 col-lg-5">
+                                        <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
+                                            <h4 class="fw-bold text-primary mb-3"><i class="bi bi-globe me-2"></i>Export Countries</h4>
+                                            <ul class="fs-6 list-unstyled text-muted">
+                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> UAE (Dubai, Abu Dhabi)</li>
+                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Saudi Arabia (Riyadh, Jeddah)
+                                                </li>
+                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Qatar (Doha)</li>
+                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Oman (Muscat)</li>
+                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Kuwait & Bahrain</li>
+                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Europe & Southeast Asia</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-5">
+                                        <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
+                                            <h4 class="fw-bold text-primary mb-3"><i class="bi bi-box-seam me-2"></i>Export Services</h4>
+                                            <ul class="fs-6 list-unstyled text-muted">
+                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Fast delivery to GCC countries
+                                                </li>
+                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> EN 10204 3.1 certification</li>
+                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Third-party inspection (TPI)</li>
+                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Export-grade packaging</li>
+                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Bulk structural supply capability
+                                                </li>
+                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Complete technical documentation
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-5">
-                            <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
-                                <h4 class="fw-bold text-primary mb-3"><i class="bi bi-box-seam me-2"></i>Export Services</h4>
-                                <ul class="fs-6 list-unstyled text-muted">
-                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Fast delivery to GCC countries
-                                    </li>
-                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> EN 10204 3.1 certification</li>
-                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Third-party inspection (TPI)</li>
-                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Export-grade packaging</li>
-                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Bulk structural supply capability
-                                    </li>
-                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Complete technical documentation
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
+                        </section> -->
 
     <!-- Advantages & Quality Control -->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="advantages" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6">
@@ -1077,7 +1078,7 @@
 
 
     <!-- Why Choose Moksh Tubes -->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>Why Choose Moksh Tubes & Fittings LLP</h2>
@@ -1213,69 +1214,69 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-                        @verbatim
-                            {
-                                "@context": "https://schema.org",
-                                "@type": "Product",
-                                "name": "Hollow Section Pipes",
-                                "description": "Hollow section pipes (SHS, RHS, Oval) supplier and exporter to UAE, Saudi Arabia, Qatar and Oman",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "Moksh Tubes & Fittings LLP"
-                                },
-                                "areaServed": ["UAE","Saudi Arabia","Qatar","Oman","Kuwait"]
-                            }
-                        @endverbatim
-                    </script>
+                                    @verbatim
+                                        {
+                                            "@context": "https://schema.org",
+                                            "@type": "Product",
+                                            "name": "Hollow Section Pipes",
+                                            "description": "Hollow section pipes (SHS, RHS, Oval) supplier and exporter to UAE, Saudi Arabia, Qatar and Oman",
+                                            "brand": {
+                                                "@type": "Brand",
+                                                "name": "Moksh Tubes & Fittings LLP"
+                                            },
+                                            "areaServed": ["UAE","Saudi Arabia","Qatar","Oman","Kuwait"]
+                                        }
+                                    @endverbatim
+                                </script>
 
     <script type="application/ld+json">
-                        @verbatim
-                            {
-                                "@context": "https://schema.org",
-                                "@type": "FAQPage",
-                                "mainEntity": [
-                                    {
-                                        "@type": "Question",
-                                        "name": "What are hollow section pipes used for?",
-                                        "acceptedAnswer": {
-                                            "@type": "Answer",
-                                            "text": "They are used in construction, fabrication, furniture, and automotive industries for structural support and design applications."
+                                    @verbatim
+                                        {
+                                            "@context": "https://schema.org",
+                                            "@type": "FAQPage",
+                                            "mainEntity": [
+                                                {
+                                                    "@type": "Question",
+                                                    "name": "What are hollow section pipes used for?",
+                                                    "acceptedAnswer": {
+                                                        "@type": "Answer",
+                                                        "text": "They are used in construction, fabrication, furniture, and automotive industries for structural support and design applications."
+                                                    }
+                                                },
+                                                {
+                                                    "@type": "Question",
+                                                    "name": "Which shapes are available?",
+                                                    "acceptedAnswer": {
+                                                        "@type": "Answer",
+                                                        "text": "Square (SHS), rectangular (RHS), oval sections, and custom profiles."
+                                                    }
+                                                },
+                                                {
+                                                    "@type": "Question",
+                                                    "name": "What materials are available for hollow sections?",
+                                                    "acceptedAnswer": {
+                                                        "@type": "Answer",
+                                                        "text": "Stainless steel, carbon steel, duplex, aluminium alloys, and copper alloys."
+                                                    }
+                                                },
+                                                {
+                                                    "@type": "Question",
+                                                    "name": "Can you provide custom sizes and finishes?",
+                                                    "acceptedAnswer": {
+                                                        "@type": "Answer",
+                                                        "text": "Yes, we offer custom dimensions, thickness, finishes including hot rolled, polished, powder coated, and galvanized options."
+                                                    }
+                                                },
+                                                {
+                                                    "@type": "Question",
+                                                    "name": "Do you export hollow sections to UAE and Saudi Arabia?",
+                                                    "acceptedAnswer": {
+                                                        "@type": "Answer",
+                                                        "text": "Yes, we export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait with fast delivery to Dubai, Abu Dhabi, Riyadh, Jeddah, Doha, and Muscat."
+                                                    }
+                                                }
+                                            ]
                                         }
-                                    },
-                                    {
-                                        "@type": "Question",
-                                        "name": "Which shapes are available?",
-                                        "acceptedAnswer": {
-                                            "@type": "Answer",
-                                            "text": "Square (SHS), rectangular (RHS), oval sections, and custom profiles."
-                                        }
-                                    },
-                                    {
-                                        "@type": "Question",
-                                        "name": "What materials are available for hollow sections?",
-                                        "acceptedAnswer": {
-                                            "@type": "Answer",
-                                            "text": "Stainless steel, carbon steel, duplex, aluminium alloys, and copper alloys."
-                                        }
-                                    },
-                                    {
-                                        "@type": "Question",
-                                        "name": "Can you provide custom sizes and finishes?",
-                                        "acceptedAnswer": {
-                                            "@type": "Answer",
-                                            "text": "Yes, we offer custom dimensions, thickness, finishes including hot rolled, polished, powder coated, and galvanized options."
-                                        }
-                                    },
-                                    {
-                                        "@type": "Question",
-                                        "name": "Do you export hollow sections to UAE and Saudi Arabia?",
-                                        "acceptedAnswer": {
-                                            "@type": "Answer",
-                                            "text": "Yes, we export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait with fast delivery to Dubai, Abu Dhabi, Riyadh, Jeddah, Doha, and Muscat."
-                                        }
-                                    }
-                                ]
-                            }
-                        @endverbatim
-                    </script>
+                                    @endverbatim
+                                </script>
 @endsection

@@ -38,13 +38,13 @@
             <a href="#specifications">Specifications</a> |
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
-            <a href="#types">Types</a> |
+            <!-- <a href="#types">Types</a> | -->
             <a href="#applications">Applications</a> |
-            <a href="#uses">Uses & Advantages</a> |
-            <a href="#manufacturing">Manufacturing</a> |
+            <!-- <a href="#uses">Uses & Advantages</a> | -->
+            <!-- <a href="#manufacturing">Manufacturing</a> | -->
             <a href="#mechanical">Mechanical Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
-            <a href="#export">Packaging & Exports</a> |
+            <!-- <a href="#tolerances">Tolerances</a> | -->
+            <!-- <a href="#export">Packaging & Exports</a> | -->
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -617,22 +617,22 @@
             </div>
 
             <!-- <div class="row mt-5 justify-content-center text-start">
-                    <div class="col-lg-8">
-                        <div class="p-4 rounded shadow-sm bg-white border">
-                            <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Perforated Sheets</h4>
-                            <p class="mb-2"><strong>Before selecting:</strong></p>
-                            <ul class="list-unstyled">
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type</li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness & strength</li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Hole size & pattern</li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Open area requirement</li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (industrial /
-                                    decorative)</li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Finish type</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> -->
+                                        <div class="col-lg-8">
+                                            <div class="p-4 rounded shadow-sm bg-white border">
+                                                <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Perforated Sheets</h4>
+                                                <p class="mb-2"><strong>Before selecting:</strong></p>
+                                                <ul class="list-unstyled">
+                                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type</li>
+                                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness & strength</li>
+                                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Hole size & pattern</li>
+                                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Open area requirement</li>
+                                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (industrial /
+                                                        decorative)</li>
+                                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Finish type</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> -->
         </div>
     </section>
 
@@ -726,114 +726,114 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-                @verbatim
-                    [{
-                        "@context": "https://schema.org",
-                        "@type": "Organization",
-                        "name": "Moksh Tubes & Fittings LLP",
-                        "url": "https://www.mokshtubes.com",
-                        "logo": "https://www.mokshtubes.com/assets/logo.png",
-                        "contactPoint": {
-                            "@type": "ContactPoint",
-                            "telephone": "+91-97695-84950",
-                            "contactType": "sales",
-                            "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                            "availableLanguage": ["English"]
-                        }
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "Product",
-                        "name": "Perforated Sheets | Stainless Steel & Decorative Metal Sheets",
-                        "description": "Buy perforated sheets in SS, aluminium & steel. Custom hole patterns, sizes & finishes for industrial & architectural use.",
-                        "brand": {
-                            "@type": "Brand",
-                            "name": "Moksh Tubes & Fittings LLP"
-                        },
-                        "manufacturer": {
-                            "@type": "Organization",
-                            "name": "Moksh Tubes & Fittings LLP"
-                        },
-                        "material": "Stainless Steel, Carbon Steel, Aluminium, Brass, Copper, Titanium",
-                        "url": "https://www.mokshtubes.com/perforated-sheets",
-                        "offers": {
-                            "@type": "Offer",
-                            "availability": "https://schema.org/InStock",
-                            "priceCurrency": "INR",
-                            "url": "https://www.mokshtubes.com/contact-us"
-                        }
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": [{
-                            "@type": "Question",
-                            "name": "Q1. What are perforated sheets?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Metal sheets with punched holes for filtration and design."
-                            }
-                        },{
-                            "@type": "Question",
-                            "name": "Q2. What materials are available?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "SS, MS, aluminium, brass, copper, titanium."
-                            }
-                        },{
-                            "@type": "Question",
-                            "name": "Q3. What thickness range is available?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "0.3 mm to 12 mm."
-                            }
-                        },{
-                            "@type": "Question",
-                            "name": "Q4. What are common uses?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Ventilation, filtration, acoustic panels, design."
-                            }
-                        },{
-                            "@type": "Question",
-                            "name": "Q5. Can patterns be customized?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes, fully customizable designs available."
-                            }
-                        }]
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [{
-                            "@type": "ListItem",
-                            "position": 1,
-                            "name": "Home",
-                            "item": "https://www.mokshtubes.com"
-                        },{
-                            "@type": "ListItem",
-                            "position": 2,
-                            "name": "Products",
-                            "item": "https://www.mokshtubes.com/products"
-                        },{
-                            "@type": "ListItem",
-                            "position": 3,
-                            "name": "Perforated Sheets",
-                            "item": "https://www.mokshtubes.com/perforated-sheets"
-                        }]
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "LocalBusiness",
-                        "name": "Moksh Tubes & Fittings LLP",
-                        "address": {
-                            "@type": "PostalAddress",
-                            "addressCountry": "India"
-                        },
-                        "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-                        "telephone": "+91-97695-84950"
-                    }]
-                @endverbatim
-            </script>
+                                    @verbatim
+                                        [{
+                                            "@context": "https://schema.org",
+                                            "@type": "Organization",
+                                            "name": "Moksh Tubes & Fittings LLP",
+                                            "url": "https://www.mokshtubes.com",
+                                            "logo": "https://www.mokshtubes.com/assets/logo.png",
+                                            "contactPoint": {
+                                                "@type": "ContactPoint",
+                                                "telephone": "+91-97695-84950",
+                                                "contactType": "sales",
+                                                "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                                "availableLanguage": ["English"]
+                                            }
+                                        },
+                                        {
+                                            "@context": "https://schema.org",
+                                            "@type": "Product",
+                                            "name": "Perforated Sheets | Stainless Steel & Decorative Metal Sheets",
+                                            "description": "Buy perforated sheets in SS, aluminium & steel. Custom hole patterns, sizes & finishes for industrial & architectural use.",
+                                            "brand": {
+                                                "@type": "Brand",
+                                                "name": "Moksh Tubes & Fittings LLP"
+                                            },
+                                            "manufacturer": {
+                                                "@type": "Organization",
+                                                "name": "Moksh Tubes & Fittings LLP"
+                                            },
+                                            "material": "Stainless Steel, Carbon Steel, Aluminium, Brass, Copper, Titanium",
+                                            "url": "https://www.mokshtubes.com/perforated-sheets",
+                                            "offers": {
+                                                "@type": "Offer",
+                                                "availability": "https://schema.org/InStock",
+                                                "priceCurrency": "INR",
+                                                "url": "https://www.mokshtubes.com/contact-us"
+                                            }
+                                        },
+                                        {
+                                            "@context": "https://schema.org",
+                                            "@type": "FAQPage",
+                                            "mainEntity": [{
+                                                "@type": "Question",
+                                                "name": "Q1. What are perforated sheets?",
+                                                "acceptedAnswer": {
+                                                "@type": "Answer",
+                                                "text": "Metal sheets with punched holes for filtration and design."
+                                                }
+                                            },{
+                                                "@type": "Question",
+                                                "name": "Q2. What materials are available?",
+                                                "acceptedAnswer": {
+                                                "@type": "Answer",
+                                                "text": "SS, MS, aluminium, brass, copper, titanium."
+                                                }
+                                            },{
+                                                "@type": "Question",
+                                                "name": "Q3. What thickness range is available?",
+                                                "acceptedAnswer": {
+                                                "@type": "Answer",
+                                                "text": "0.3 mm to 12 mm."
+                                                }
+                                            },{
+                                                "@type": "Question",
+                                                "name": "Q4. What are common uses?",
+                                                "acceptedAnswer": {
+                                                "@type": "Answer",
+                                                "text": "Ventilation, filtration, acoustic panels, design."
+                                                }
+                                            },{
+                                                "@type": "Question",
+                                                "name": "Q5. Can patterns be customized?",
+                                                "acceptedAnswer": {
+                                                "@type": "Answer",
+                                                "text": "Yes, fully customizable designs available."
+                                                }
+                                            }]
+                                        },
+                                        {
+                                            "@context": "https://schema.org",
+                                            "@type": "BreadcrumbList",
+                                            "itemListElement": [{
+                                                "@type": "ListItem",
+                                                "position": 1,
+                                                "name": "Home",
+                                                "item": "https://www.mokshtubes.com"
+                                            },{
+                                                "@type": "ListItem",
+                                                "position": 2,
+                                                "name": "Products",
+                                                "item": "https://www.mokshtubes.com/products"
+                                            },{
+                                                "@type": "ListItem",
+                                                "position": 3,
+                                                "name": "Perforated Sheets",
+                                                "item": "https://www.mokshtubes.com/perforated-sheets"
+                                            }]
+                                        },
+                                        {
+                                            "@context": "https://schema.org",
+                                            "@type": "LocalBusiness",
+                                            "name": "Moksh Tubes & Fittings LLP",
+                                            "address": {
+                                                "@type": "PostalAddress",
+                                                "addressCountry": "India"
+                                            },
+                                            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                                            "telephone": "+91-97695-84950"
+                                        }]
+                                    @endverbatim
+                                </script>
 @endsection

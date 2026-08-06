@@ -38,11 +38,11 @@
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#buying-guide">Buying Guide</a> |
-            <a href="#manufacturing">Manufacturing</a> |
-            <a href="#mechanical">Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
-            <a href="#export">Packaging & Exports</a> |
+            <!-- <a href="#buying-guide">Buying Guide</a> |
+                        <a href="#manufacturing">Manufacturing</a> | -->
+            <a href="#mechanical">Mechanical Properties</a> |
+            <!-- <a href="#tolerances">Tolerances</a> |
+                        <a href="#export">Packaging & Exports</a> | -->
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -569,7 +569,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
@@ -715,100 +715,100 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-                @verbatim
-                    [{
-                        "@context": "https://schema.org",
-                        "@type": "Organization",
-                        "name": "Moksh Tubes & Fittings LLP",
-                        "url": "https://www.mokshtubes.com",
-                        "logo": "https://www.mokshtubes.com/assets/logo.png",
-                        "contactPoint": {
-                            "@type": "ContactPoint",
-                            "telephone": "+91-97695-84950",
-                            "contactType": "sales",
-                            "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                            "availableLanguage": ["English"]
-                        }
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "Product",
-                        "name": "Glass Railings",
-                        "description": "Premium glass railings with toughened & laminated glass. Frameless balcony & staircase railing systems with SS hardware. India & export supply.",
-                        "brand": {
-                            "@type": "Brand",
-                            "name": "Moksh Tubes & Fittings LLP"
-                        },
-                        "manufacturer": {
-                            "@type": "Organization",
-                            "name": "Moksh Tubes & Fittings LLP"
-                        },
-                        "material": "Toughened Glass, Laminated Glass, Stainless Steel (304/316), Aluminium",
-                        "url": "https://www.mokshtubes.com/products/special-fabricated/glass-railings",
-                        "offers": {
-                            "@type": "Offer",
-                            "availability": "https://schema.org/InStock",
-                            "priceCurrency": "INR",
-                            "url": "https://www.mokshtubes.com/contact-us"
-                        }
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": [{
-                            "@type": "Question",
-                            "name": "Are glass railings safe?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes, toughened and laminated glass ensures high safety."
-                            }
-                        },{
-                            "@type": "Question",
-                            "name": "Can glass railings be used outdoors?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes, with 316 stainless steel hardware."
-                            }
-                        },{
-                            "@type": "Question",
-                            "name": "How long do they last?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "15–20+ years with proper installation."
-                            }
-                        }]
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [{
-                            "@type": "ListItem",
-                            "position": 1,
-                            "name": "Home",
-                            "item": "https://www.mokshtubes.com"
-                        },{
-                            "@type": "ListItem",
-                            "position": 2,
-                            "name": "Special Fabricated",
-                            "item": "https://www.mokshtubes.com/products/special-fabricated"
-                        },{
-                            "@type": "ListItem",
-                            "position": 3,
-                            "name": "Glass Railings",
-                            "item": "https://www.mokshtubes.com/products/special-fabricated/glass-railings"
-                        }]
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "LocalBusiness",
-                        "name": "Moksh Tubes & Fittings LLP",
-                        "address": {
-                            "@type": "PostalAddress",
-                            "addressCountry": "India"
-                        },
-                        "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-                        "telephone": "+91-97695-84950"
-                    }]
-                @endverbatim
-            </script>
+                            @verbatim
+                                [{
+                                    "@context": "https://schema.org",
+                                    "@type": "Organization",
+                                    "name": "Moksh Tubes & Fittings LLP",
+                                    "url": "https://www.mokshtubes.com",
+                                    "logo": "https://www.mokshtubes.com/assets/logo.png",
+                                    "contactPoint": {
+                                        "@type": "ContactPoint",
+                                        "telephone": "+91-97695-84950",
+                                        "contactType": "sales",
+                                        "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                        "availableLanguage": ["English"]
+                                    }
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "Product",
+                                    "name": "Glass Railings",
+                                    "description": "Premium glass railings with toughened & laminated glass. Frameless balcony & staircase railing systems with SS hardware. India & export supply.",
+                                    "brand": {
+                                        "@type": "Brand",
+                                        "name": "Moksh Tubes & Fittings LLP"
+                                    },
+                                    "manufacturer": {
+                                        "@type": "Organization",
+                                        "name": "Moksh Tubes & Fittings LLP"
+                                    },
+                                    "material": "Toughened Glass, Laminated Glass, Stainless Steel (304/316), Aluminium",
+                                    "url": "https://www.mokshtubes.com/products/special-fabricated/glass-railings",
+                                    "offers": {
+                                        "@type": "Offer",
+                                        "availability": "https://schema.org/InStock",
+                                        "priceCurrency": "INR",
+                                        "url": "https://www.mokshtubes.com/contact-us"
+                                    }
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "FAQPage",
+                                    "mainEntity": [{
+                                        "@type": "Question",
+                                        "name": "Are glass railings safe?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Yes, toughened and laminated glass ensures high safety."
+                                        }
+                                    },{
+                                        "@type": "Question",
+                                        "name": "Can glass railings be used outdoors?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Yes, with 316 stainless steel hardware."
+                                        }
+                                    },{
+                                        "@type": "Question",
+                                        "name": "How long do they last?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "15–20+ years with proper installation."
+                                        }
+                                    }]
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "BreadcrumbList",
+                                    "itemListElement": [{
+                                        "@type": "ListItem",
+                                        "position": 1,
+                                        "name": "Home",
+                                        "item": "https://www.mokshtubes.com"
+                                    },{
+                                        "@type": "ListItem",
+                                        "position": 2,
+                                        "name": "Special Fabricated",
+                                        "item": "https://www.mokshtubes.com/products/special-fabricated"
+                                    },{
+                                        "@type": "ListItem",
+                                        "position": 3,
+                                        "name": "Glass Railings",
+                                        "item": "https://www.mokshtubes.com/products/special-fabricated/glass-railings"
+                                    }]
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "LocalBusiness",
+                                    "name": "Moksh Tubes & Fittings LLP",
+                                    "address": {
+                                        "@type": "PostalAddress",
+                                        "addressCountry": "India"
+                                    },
+                                    "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                                    "telephone": "+91-97695-84950"
+                                }]
+                            @endverbatim
+                        </script>
 @endsection

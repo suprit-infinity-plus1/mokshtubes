@@ -41,11 +41,11 @@
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#uses">Uses & Advantages</a> |
-            <a href="#manufacturing">Manufacturing</a> |
+            <!-- <a href="#uses">Uses & Advantages</a> |
+                <a href="#manufacturing">Manufacturing</a> | -->
             <a href="#mechanical">Mechanical Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
-            <a href="#export">Packaging & Exports</a> |
+            <!-- <a href="#tolerances">Tolerances</a> |
+                <a href="#export">Packaging & Exports</a> | -->
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -630,23 +630,23 @@
             </div>
 
             <!-- <div class="row mt-5 justify-content-center text-start">
-                    <div class="col-lg-8">
-                        <div class="p-4 rounded shadow-sm bg-light border">
-                            <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Shim Sheets</h4>
-                            <p class="mb-2"><strong>Before selecting shim sheets:</strong></p>
-                            <ul class="list-unstyled">
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Required thickness accuracy</li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type</li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (industrial /
-                                    precision)</li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Sheet vs coil format</li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Corrosion resistance requirement
-                                </li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Standards compliance</li>
-                            </ul>
+                        <div class="col-lg-8">
+                            <div class="p-4 rounded shadow-sm bg-light border">
+                                <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Shim Sheets</h4>
+                                <p class="mb-2"><strong>Before selecting shim sheets:</strong></p>
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Required thickness accuracy</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (industrial /
+                                        precision)</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Sheet vs coil format</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Corrosion resistance requirement
+                                    </li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Standards compliance</li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </div> -->
+                    </div> -->
         </div>
     </section>
 
@@ -744,114 +744,114 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-                @verbatim
-                    [{
-                        "@context": "https://schema.org",
-                        "@type": "Organization",
-                        "name": "Moksh Tubes & Fittings LLP",
-                        "url": "https://www.mokshtubes.com",
-                        "logo": "https://www.mokshtubes.com/assets/logo.png",
-                        "contactPoint": {
-                            "@type": "ContactPoint",
-                            "telephone": "+91-97695-84950",
-                            "contactType": "sales",
-                            "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                            "availableLanguage": ["English"]
-                        }
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "Product",
-                        "name": "Shim Sheets | Precision Stainless Steel & Metal Shims",
-                        "description": "Buy precision shim sheets in SS, brass, copper & aluminium. Tight tolerance shims for industrial, automotive & aerospace use.",
-                        "brand": {
-                            "@type": "Brand",
-                            "name": "Moksh Tubes & Fittings LLP"
-                        },
-                        "manufacturer": {
+                    @verbatim
+                        [{
+                            "@context": "https://schema.org",
                             "@type": "Organization",
-                            "name": "Moksh Tubes & Fittings LLP"
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "url": "https://www.mokshtubes.com",
+                            "logo": "https://www.mokshtubes.com/assets/logo.png",
+                            "contactPoint": {
+                                "@type": "ContactPoint",
+                                "telephone": "+91-97695-84950",
+                                "contactType": "sales",
+                                "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                "availableLanguage": ["English"]
+                            }
                         },
-                        "material": "Stainless Steel, Brass, Copper, Aluminium, Alloy Steel",
-                        "url": "https://www.mokshtubes.com/shim-sheets",
-                        "offers": {
-                            "@type": "Offer",
-                            "availability": "https://schema.org/InStock",
-                            "priceCurrency": "INR",
-                            "url": "https://www.mokshtubes.com/contact-us"
-                        }
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": [{
-                            "@type": "Question",
-                            "name": "Q1. What are shim sheets?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Thin metal sheets used for precision alignment and spacing."
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Product",
+                            "name": "Shim Sheets | Precision Stainless Steel & Metal Shims",
+                            "description": "Buy precision shim sheets in SS, brass, copper & aluminium. Tight tolerance shims for industrial, automotive & aerospace use.",
+                            "brand": {
+                                "@type": "Brand",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "manufacturer": {
+                                "@type": "Organization",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "material": "Stainless Steel, Brass, Copper, Aluminium, Alloy Steel",
+                            "url": "https://www.mokshtubes.com/shim-sheets",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "priceCurrency": "INR",
+                                "url": "https://www.mokshtubes.com/contact-us"
                             }
-                        },{
-                            "@type": "Question",
-                            "name": "Q2. What materials are available?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "SS, brass, copper, aluminium, carbon steel, titanium."
-                            }
-                        },{
-                            "@type": "Question",
-                            "name": "Q3. What thickness range is available?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "0.02 mm to 3 mm."
-                            }
-                        },{
-                            "@type": "Question",
-                            "name": "Q4. Where are shim sheets used?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Automotive, aerospace, machinery, and tooling."
-                            }
-                        },{
-                            "@type": "Question",
-                            "name": "Q5. Can they be customized?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes, available in sheets, coils, and cut sizes."
-                            }
-                        }]
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [{
-                            "@type": "ListItem",
-                            "position": 1,
-                            "name": "Home",
-                            "item": "https://www.mokshtubes.com"
-                        },{
-                            "@type": "ListItem",
-                            "position": 2,
-                            "name": "Products",
-                            "item": "https://www.mokshtubes.com/products"
-                        },{
-                            "@type": "ListItem",
-                            "position": 3,
-                            "name": "Shim Sheets",
-                            "item": "https://www.mokshtubes.com/shim-sheets"
-                        }]
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "LocalBusiness",
-                        "name": "Moksh Tubes & Fittings LLP",
-                        "address": {
-                            "@type": "PostalAddress",
-                            "addressCountry": "India"
                         },
-                        "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-                        "telephone": "+91-97695-84950"
-                    }]
-                @endverbatim
-            </script>
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "FAQPage",
+                            "mainEntity": [{
+                                "@type": "Question",
+                                "name": "Q1. What are shim sheets?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Thin metal sheets used for precision alignment and spacing."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q2. What materials are available?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "SS, brass, copper, aluminium, carbon steel, titanium."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q3. What thickness range is available?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "0.02 mm to 3 mm."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q4. Where are shim sheets used?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Automotive, aerospace, machinery, and tooling."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q5. Can they be customized?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, available in sheets, coils, and cut sizes."
+                                }
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [{
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://www.mokshtubes.com"
+                            },{
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Products",
+                                "item": "https://www.mokshtubes.com/products"
+                            },{
+                                "@type": "ListItem",
+                                "position": 3,
+                                "name": "Shim Sheets",
+                                "item": "https://www.mokshtubes.com/shim-sheets"
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "LocalBusiness",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "India"
+                            },
+                            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                            "telephone": "+91-97695-84950"
+                        }]
+                    @endverbatim
+                </script>
 @endsection

@@ -37,10 +37,10 @@
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#semi-welded-vs-seamless">Semi Welded vs Seamless</a> |
-            <a href="#manufacturing">Manufacturing</a> |
+            <!-- <a href="#semi-welded-vs-seamless">Semi Welded vs Seamless</a> | -->
+            <!-- <a href="#manufacturing">Manufacturing</a> | -->
             <a href="#mechanical">Mechanical Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
+            <!-- <a href="#tolerances">Tolerances</a> | -->
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -806,90 +806,90 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-            @verbatim
-                [{
-                    "@context": "https://schema.org",
-                    "@type": "Organization",
-                    "name": "Moksh Tubes & Fittings LLP",
-                    "url": "https://www.mokshtubes.com",
-                    "logo": "https://www.mokshtubes.com/assets/logo.png",
-                    "contactPoint": {
-                        "@type": "ContactPoint",
-                        "telephone": "+91-97695-84950",
-                        "contactType": "sales",
-                        "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                        "availableLanguage": ["English"]
-                    }
-                },
-                {
-                    "@context": "https://schema.org",
-                    "@type": "Product",
-                    "name": "Stainless Steel 304 Semi Welded Pipes",
-                    "description": "Stainless Steel 304 Semi Welded Pipes manufactured as per ASTM A312 TP304 for chemical, marine, food, pharmaceutical and industrial applications.",
-                    "brand": {
-                        "@type": "Brand",
-                        "name": "Moksh Tubes & Fittings LLP"
-                    },
-                    "manufacturer": {
+                @verbatim
+                    [{
+                        "@context": "https://schema.org",
                         "@type": "Organization",
-                        "name": "Moksh Tubes & Fittings LLP"
+                        "name": "Moksh Tubes & Fittings LLP",
+                        "url": "https://www.mokshtubes.com",
+                        "logo": "https://www.mokshtubes.com/assets/logo.png",
+                        "contactPoint": {
+                            "@type": "ContactPoint",
+                            "telephone": "+91-97695-84950",
+                            "contactType": "sales",
+                            "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                            "availableLanguage": ["English"]
+                        }
                     },
-                    "material": "Stainless Steel 304",
-                    "url": "https://www.mokshtubes.com/products/pipes-tubes/welded-pipes/ss-304-semi-welded-pipes",
-                    "offers": {
-                        "@type": "AggregateOffer",
-                        "priceCurrency": "USD",
-                        "lowPrice": "2.5",
-                        "highPrice": "10",
-                        "offerCount": "100"
-                    }
-                },
-                {
-                    "@context": "https://schema.org",
-                    "@type": "FAQPage",
-                    "mainEntity": [
-                        {
-                        "@type": "Question",
-                        "name": "What are Stainless Steel 304 Semi Welded Pipes?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "These are pipes manufactured from SS 304 coils using a controlled welding process, offering excellent corrosion resistance and durability."
-                        }
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Product",
+                        "name": "Stainless Steel 304 Semi Welded Pipes",
+                        "description": "Stainless Steel 304 Semi Welded Pipes manufactured as per ASTM A312 TP304 for chemical, marine, food, pharmaceutical and industrial applications.",
+                        "brand": {
+                            "@type": "Brand",
+                            "name": "Moksh Tubes & Fittings LLP"
                         },
-                        {
-                        "@type": "Question",
-                        "name": "Are SS 304 Semi Welded Pipes corrosion resistant?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes, they provide excellent resistance to corrosion, oxidation, and atmospheric exposure."
-                        }
+                        "manufacturer": {
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP"
                         },
-                        {
-                        "@type": "Question",
-                        "name": "What is the difference between seamless and semi welded pipes?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Seamless pipes are manufactured without a weld seam, while semi welded pipes are produced by welding formed stainless steel strips."
+                        "material": "Stainless Steel 304",
+                        "url": "https://www.mokshtubes.com/products/pipes-tubes/welded-pipes/ss-304-semi-welded-pipes",
+                        "offers": {
+                            "@type": "AggregateOffer",
+                            "priceCurrency": "USD",
+                            "lowPrice": "2.5",
+                            "highPrice": "10",
+                            "offerCount": "100"
                         }
-                        },
-                        {
-                        "@type": "Question",
-                        "name": "Do you provide test certificates?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes, all supplies include EN 10204 3.1 certificates."
-                        }
-                        },
-                        {
-                        "@type": "Question",
-                        "name": "What is delivery time?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Ex-stock items: 2-5 working days. Manufacturing orders: 2-4 weeks."
-                        }
-                        }
-                    ]
-                }]
-            @endverbatim
-        </script>
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                            "@type": "Question",
+                            "name": "What are Stainless Steel 304 Semi Welded Pipes?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "These are pipes manufactured from SS 304 coils using a controlled welding process, offering excellent corrosion resistance and durability."
+                            }
+                            },
+                            {
+                            "@type": "Question",
+                            "name": "Are SS 304 Semi Welded Pipes corrosion resistant?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, they provide excellent resistance to corrosion, oxidation, and atmospheric exposure."
+                            }
+                            },
+                            {
+                            "@type": "Question",
+                            "name": "What is the difference between seamless and semi welded pipes?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Seamless pipes are manufactured without a weld seam, while semi welded pipes are produced by welding formed stainless steel strips."
+                            }
+                            },
+                            {
+                            "@type": "Question",
+                            "name": "Do you provide test certificates?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, all supplies include EN 10204 3.1 certificates."
+                            }
+                            },
+                            {
+                            "@type": "Question",
+                            "name": "What is delivery time?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Ex-stock items: 2-5 working days. Manufacturing orders: 2-4 weeks."
+                            }
+                            }
+                        ]
+                    }]
+                @endverbatim
+            </script>
 @endsection

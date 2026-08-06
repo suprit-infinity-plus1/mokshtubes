@@ -38,11 +38,11 @@
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#uses">Uses & Advantages</a> |
-            <a href="#manufacturing">Manufacturing</a> |
+            <!-- <a href="#uses">Uses & Advantages</a> | -->
+            <!-- <a href="#manufacturing">Manufacturing</a> | -->
             <a href="#mechanical">Mechanical Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
-            <a href="#export">Packaging & Exports</a> |
+            <!-- <a href="#tolerances">Tolerances</a> | -->
+            <!-- <a href="#export">Packaging & Exports</a> | -->
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -498,23 +498,23 @@
             </div>
 
             <!-- <div class="row mt-5 justify-content-center text-start">
-                    <div class="col-lg-8">
-                        <div class="p-4 rounded shadow-sm bg-light border">
-                            <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Cladded Plates</h4>
-                            <p class="mb-2"><strong>Before selecting:</strong></p>
-                            <ul class="list-unstyled">
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Base material strength requirement
-                                </li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Cladding material type</li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness ratio (base vs clad)
-                                </li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application environment</li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Corrosion resistance needs</li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> Standard compliance</li>
-                            </ul>
+                        <div class="col-lg-8">
+                            <div class="p-4 rounded shadow-sm bg-light border">
+                                <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Cladded Plates</h4>
+                                <p class="mb-2"><strong>Before selecting:</strong></p>
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Base material strength requirement
+                                    </li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Cladding material type</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness ratio (base vs clad)
+                                    </li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application environment</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Corrosion resistance needs</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Standard compliance</li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </div> -->
+                    </div> -->
         </div>
     </section>
 
@@ -608,114 +608,114 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-                @verbatim
-                    [{
-                        "@context": "https://schema.org",
-                        "@type": "Organization",
-                        "name": "Moksh Tubes & Fittings LLP",
-                        "url": "https://www.mokshtubes.com",
-                        "logo": "https://www.mokshtubes.com/assets/logo.png",
-                        "contactPoint": {
-                            "@type": "ContactPoint",
-                            "telephone": "+91-97695-84950",
-                            "contactType": "sales",
-                            "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                            "availableLanguage": ["English"]
-                        }
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "Product",
-                        "name": "Cladded Plates | Stainless Steel & Nickel Alloy Clad Plates",
-                        "description": "Buy cladded plates with stainless steel, nickel alloy & titanium cladding. High strength, corrosion-resistant plates for industrial use.",
-                        "brand": {
-                            "@type": "Brand",
-                            "name": "Moksh Tubes & Fittings LLP"
-                        },
-                        "manufacturer": {
+                    @verbatim
+                        [{
+                            "@context": "https://schema.org",
                             "@type": "Organization",
-                            "name": "Moksh Tubes & Fittings LLP"
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "url": "https://www.mokshtubes.com",
+                            "logo": "https://www.mokshtubes.com/assets/logo.png",
+                            "contactPoint": {
+                                "@type": "ContactPoint",
+                                "telephone": "+91-97695-84950",
+                                "contactType": "sales",
+                                "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                "availableLanguage": ["English"]
+                            }
                         },
-                        "material": "Carbon Steel Base with Stainless Steel, Duplex, Nickel Alloys, Titanium, Copper Alloys Cladding",
-                        "url": "https://www.mokshtubes.com/cladded-plates",
-                        "offers": {
-                            "@type": "Offer",
-                            "availability": "https://schema.org/InStock",
-                            "priceCurrency": "INR",
-                            "url": "https://www.mokshtubes.com/contact-us"
-                        }
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": [{
-                            "@type": "Question",
-                            "name": "Q1. What are cladded plates?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Composite plates combining two metals for strength and corrosion resistance."
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Product",
+                            "name": "Cladded Plates | Stainless Steel & Nickel Alloy Clad Plates",
+                            "description": "Buy cladded plates with stainless steel, nickel alloy & titanium cladding. High strength, corrosion-resistant plates for industrial use.",
+                            "brand": {
+                                "@type": "Brand",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "manufacturer": {
+                                "@type": "Organization",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "material": "Carbon Steel Base with Stainless Steel, Duplex, Nickel Alloys, Titanium, Copper Alloys Cladding",
+                            "url": "https://www.mokshtubes.com/cladded-plates",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "priceCurrency": "INR",
+                                "url": "https://www.mokshtubes.com/contact-us"
                             }
-                        },{
-                            "@type": "Question",
-                            "name": "Q2. What materials are used?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Carbon steel base with SS, nickel, titanium, or copper cladding."
-                            }
-                        },{
-                            "@type": "Question",
-                            "name": "Q3. What bonding methods are used?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Explosive bonding, roll bonding, weld overlay."
-                            }
-                        },{
-                            "@type": "Question",
-                            "name": "Q4. What thickness range is available?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "3 mm to 200 mm total thickness."
-                            }
-                        },{
-                            "@type": "Question",
-                            "name": "Q5. Where are they used?",
-                            "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Oil & gas, petrochemical, marine, power plants."
-                            }
-                        }]
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [{
-                            "@type": "ListItem",
-                            "position": 1,
-                            "name": "Home",
-                            "item": "https://www.mokshtubes.com"
-                        },{
-                            "@type": "ListItem",
-                            "position": 2,
-                            "name": "Products",
-                            "item": "https://www.mokshtubes.com/products"
-                        },{
-                            "@type": "ListItem",
-                            "position": 3,
-                            "name": "Cladded Plates",
-                            "item": "https://www.mokshtubes.com/cladded-plates"
-                        }]
-                    },
-                    {
-                        "@context": "https://schema.org",
-                        "@type": "LocalBusiness",
-                        "name": "Moksh Tubes & Fittings LLP",
-                        "address": {
-                            "@type": "PostalAddress",
-                            "addressCountry": "India"
                         },
-                        "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-                        "telephone": "+91-97695-84950"
-                    }]
-                @endverbatim
-            </script>
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "FAQPage",
+                            "mainEntity": [{
+                                "@type": "Question",
+                                "name": "Q1. What are cladded plates?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Composite plates combining two metals for strength and corrosion resistance."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q2. What materials are used?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Carbon steel base with SS, nickel, titanium, or copper cladding."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q3. What bonding methods are used?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Explosive bonding, roll bonding, weld overlay."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q4. What thickness range is available?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "3 mm to 200 mm total thickness."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Q5. Where are they used?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Oil & gas, petrochemical, marine, power plants."
+                                }
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [{
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://www.mokshtubes.com"
+                            },{
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Products",
+                                "item": "https://www.mokshtubes.com/products"
+                            },{
+                                "@type": "ListItem",
+                                "position": 3,
+                                "name": "Cladded Plates",
+                                "item": "https://www.mokshtubes.com/cladded-plates"
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "LocalBusiness",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "India"
+                            },
+                            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                            "telephone": "+91-97695-84950"
+                        }]
+                    @endverbatim
+                </script>
 @endsection

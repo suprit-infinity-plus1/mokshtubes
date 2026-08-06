@@ -40,9 +40,10 @@
             <a href="#chemical-composition">Chemical</a> |
             <a href="#size-chart">Size Chart</a> |
             <a href="#grades">Grades</a> |
-            <a href="#features">Features</a> |
             <a href="#applications">Applications</a> |
+            <a href="#features">Features</a> |
             <a href="#mechanical-properties">Mechanical</a> |
+            <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
     </div>
@@ -809,63 +810,63 @@
 
     {{-- Testing & Quality Control --}}
     <!-- <section id="testing" class="sec-padd-top sec-padd-bottom">
-                    <div class="container">
-                        <div class="section-title center">
-                            <h2>Testing & Quality</h2>
-                            <p class="text-center">Every Hex Bolt undergoes strict quality inspections before dispatch to ensure
-                                superior performance and dimensional accuracy. Our quality inspection includes:</p>
-                        </div>
+                        <div class="container">
+                            <div class="section-title center">
+                                <h2>Testing & Quality</h2>
+                                <p class="text-center">Every Hex Bolt undergoes strict quality inspections before dispatch to ensure
+                                    superior performance and dimensional accuracy. Our quality inspection includes:</p>
+                            </div>
 
-                        <div class="row g-4 mt-4">
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="advantage-card">
-                                    <div class="advantage-icon"><i class="bi bi-search"></i></div>
-                                    <h4>Positive Material Identification (PMI)</h4>
+                            <div class="row g-4 mt-4">
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-search"></i></div>
+                                        <h4>Positive Material Identification (PMI)</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                                        <h4>Thread Gauge Inspection</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-bounding-box-circles"></i></div>
+                                        <h4>Dimensional Inspection</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
+                                        <h4>Hardness Testing</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                                        <h4>Tensile Testing</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-eye"></i></div>
+                                        <h4>Visual Inspection</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-12">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-patch-check"></i></div>
+                                        <h4>Third-Party Inspection (Available on Request)</h4>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="advantage-card">
-                                    <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                                    <h4>Thread Gauge Inspection</h4>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="advantage-card">
-                                    <div class="advantage-icon"><i class="bi bi-bounding-box-circles"></i></div>
-                                    <h4>Dimensional Inspection</h4>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="advantage-card">
-                                    <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
-                                    <h4>Hardness Testing</h4>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="advantage-card">
-                                    <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                                    <h4>Tensile Testing</h4>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="advantage-card">
-                                    <div class="advantage-icon"><i class="bi bi-eye"></i></div>
-                                    <h4>Visual Inspection</h4>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-12">
-                                <div class="advantage-card">
-                                    <div class="advantage-icon"><i class="bi bi-patch-check"></i></div>
-                                    <h4>Third-Party Inspection (Available on Request)</h4>
-                                </div>
+                            <div class="text-center mt-4">
+                                <p class="fs-5"><strong>Test Certificate:</strong> EN 10204 3.1 Material Test Certificate is supplied with
+                                    every order.</p>
                             </div>
                         </div>
-                        <div class="text-center mt-4">
-                            <p class="fs-5"><strong>Test Certificate:</strong> EN 10204 3.1 Material Test Certificate is supplied with
-                                every order.</p>
-                        </div>
-                    </div>
-                </section> -->
+                    </section> -->
 
     {{-- why choose us --}}
     <style>
@@ -973,18 +974,18 @@
 
     {{-- Packaging & Export --}}
     <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>Packaging & Export</h2>
+                <div class="container">
+                    <div class="section-title center">
+                        <h2>Packaging & Export</h2>
+                    </div>
+                    <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
+                        We ensure that our Socket Head Screws are securely packaged to prevent damage during transit. We use
+                        high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
+                        We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe,
+                        Africa, and Southeast Asia.
+                    </p>
                 </div>
-                <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
-                    We ensure that our Socket Head Screws are securely packaged to prevent damage during transit. We use
-                    high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
-                    We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe,
-                    Africa, and Southeast Asia.
-                </p>
-            </div>
-        </section> -->
+            </section> -->
 
     <!--Start faq content area-->
     <section id="faq" class="faq-content-area sec-padd2">
@@ -1144,58 +1145,58 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-                                        {
-                                          "@context": "https://schema.org",
-                                          "@graph": [
-                                            {
-                                              "@type": ["Organization", "LocalBusiness"],
-                                              "@id": "https://mokshtubes.com/#organization",
-                                              "name": "Moksh Tubes & Fittings LLP",
-                                              "url": "https://mokshtubes.com/",
-                                              "logo": "https://mokshtubes.com/assets/images/logo.webp",
-                                              "telephone": "+91-9769584950",
-                                              "email": "info@mokshtubes.com"
-                                            },
-                                            {
-                                              "@type": "WebPage",
-                                              "@id": "https://mokshtubes.com/hex-bolts#webpage",
-                                              "name": "Hex Bolts Manufacturer, Supplier & Exporter in India | Moksh Tubes",
-                                              "url": "https://mokshtubes.com/hex-bolts",
-                                              "description": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Hex Bolts in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A193, DIN & ISO standards with worldwide delivery."
-                                            },
-                                            {
-                                              "@type": ["Product"],
-                                              "@id": "https://mokshtubes.com/#hexbolts",
-                                              "name": "Hex Bolts",
-                                              "image": "https://mokshtubes.com/assets/images/fasteners/hex-bolts-manufacturer.webp",
-                                              "category": "Fasteners",
-                                              "brand": { "@id": "https://mokshtubes.com/#organization" }
-                                            },
-                                            {
-                                              "@type": "BreadcrumbList",
-                                              "@id": "https://mokshtubes.com/hex-bolts#breadcrumb",
-                                              "itemListElement": [
                                                 {
-                                                  "@type": "ListItem",
-                                                  "position": 1,
-                                                  "name": "Home",
-                                                  "item": "https://mokshtubes.com/"
-                                                },
-                                                {
-                                                  "@type": "ListItem",
-                                                  "position": 2,
-                                                  "name": "Fasteners",
-                                                  "item": "https://mokshtubes.com/fasteners"
-                                                },
-                                                {
-                                                  "@type": "ListItem",
-                                                  "position": 3,
-                                                  "name": "Hex Bolts"
+                                                  "@context": "https://schema.org",
+                                                  "@graph": [
+                                                    {
+                                                      "@type": ["Organization", "LocalBusiness"],
+                                                      "@id": "https://mokshtubes.com/#organization",
+                                                      "name": "Moksh Tubes & Fittings LLP",
+                                                      "url": "https://mokshtubes.com/",
+                                                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                                                      "telephone": "+91-9769584950",
+                                                      "email": "info@mokshtubes.com"
+                                                    },
+                                                    {
+                                                      "@type": "WebPage",
+                                                      "@id": "https://mokshtubes.com/hex-bolts#webpage",
+                                                      "name": "Hex Bolts Manufacturer, Supplier & Exporter in India | Moksh Tubes",
+                                                      "url": "https://mokshtubes.com/hex-bolts",
+                                                      "description": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Hex Bolts in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A193, DIN & ISO standards with worldwide delivery."
+                                                    },
+                                                    {
+                                                      "@type": ["Product"],
+                                                      "@id": "https://mokshtubes.com/#hexbolts",
+                                                      "name": "Hex Bolts",
+                                                      "image": "https://mokshtubes.com/assets/images/fasteners/hex-bolts-manufacturer.webp",
+                                                      "category": "Fasteners",
+                                                      "brand": { "@id": "https://mokshtubes.com/#organization" }
+                                                    },
+                                                    {
+                                                      "@type": "BreadcrumbList",
+                                                      "@id": "https://mokshtubes.com/hex-bolts#breadcrumb",
+                                                      "itemListElement": [
+                                                        {
+                                                          "@type": "ListItem",
+                                                          "position": 1,
+                                                          "name": "Home",
+                                                          "item": "https://mokshtubes.com/"
+                                                        },
+                                                        {
+                                                          "@type": "ListItem",
+                                                          "position": 2,
+                                                          "name": "Fasteners",
+                                                          "item": "https://mokshtubes.com/fasteners"
+                                                        },
+                                                        {
+                                                          "@type": "ListItem",
+                                                          "position": 3,
+                                                          "name": "Hex Bolts"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
                                                 }
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                        </script>
+                                                </script>
     @endverbatim
 @endsection

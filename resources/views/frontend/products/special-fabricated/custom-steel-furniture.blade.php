@@ -39,11 +39,11 @@
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#buying-guide">Buying Guide</a> |
-            <a href="#manufacturing">Manufacturing</a> |
-            <a href="#mechanical">Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
-            <a href="#export">Packaging & Exports</a> |
+            <!-- <a href="#buying-guide">Buying Guide</a> |
+                    <a href="#manufacturing">Manufacturing</a> | -->
+            <!-- <a href="#tolerances">Tolerances</a> |
+                    <a href="#export">Packaging & Exports</a> | -->
+            <a href="#mechanical">Mechanical Properties</a> |
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -628,7 +628,8 @@
                             <tbody>
                                 <tr class="t-row">
                                     <td><strong>Material Strength</strong></td>
-                                    <td>Manufactured using Mild Steel (MS), Stainless Steel 304, Stainless Steel 316, or other structural steel grades for high load-bearing capacity.</td>
+                                    <td>Manufactured using Mild Steel (MS), Stainless Steel 304, Stainless Steel 316, or
+                                        other structural steel grades for high load-bearing capacity.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Tensile Strength</strong></td>
@@ -636,11 +637,13 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Yield Strength</strong></td>
-                                    <td>Excellent yield strength provides resistance to bending and permanent deformation.</td>
+                                    <td>Excellent yield strength provides resistance to bending and permanent deformation.
+                                    </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Load Capacity</strong></td>
-                                    <td>Designed to support light, medium, or heavy-duty applications depending on the furniture design and material thickness.</td>
+                                    <td>Designed to support light, medium, or heavy-duty applications depending on the
+                                        furniture design and material thickness.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Impact Resistance</strong></td>
@@ -648,31 +651,38 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Hardness</strong></td>
-                                    <td>Available in different hardness levels based on the selected steel grade and fabrication process.</td>
+                                    <td>Available in different hardness levels based on the selected steel grade and
+                                        fabrication process.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Corrosion Resistance</strong></td>
-                                    <td>Stainless steel grades offer superior corrosion resistance, while mild steel furniture can be powder-coated or galvanized for added protection.</td>
+                                    <td>Stainless steel grades offer superior corrosion resistance, while mild steel
+                                        furniture can be powder-coated or galvanized for added protection.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Weldability</strong></td>
-                                    <td>Excellent weldability ensures strong, durable joints and high structural integrity.</td>
+                                    <td>Excellent weldability ensures strong, durable joints and high structural integrity.
+                                    </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Surface Finish</strong></td>
-                                    <td>Available in powder-coated, painted, brushed, polished, mirror, matte, or galvanized finishes.</td>
+                                    <td>Available in powder-coated, painted, brushed, polished, mirror, matte, or galvanized
+                                        finishes.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Dimensional Accuracy</strong></td>
-                                    <td>Precision fabricated using CNC cutting, bending, and welding processes for consistent dimensions.</td>
+                                    <td>Precision fabricated using CNC cutting, bending, and welding processes for
+                                        consistent dimensions.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Temperature Resistance</strong></td>
-                                    <td>Suitable for indoor and outdoor applications, with stainless steel grades offering enhanced heat and weather resistance.</td>
+                                    <td>Suitable for indoor and outdoor applications, with stainless steel grades offering
+                                        enhanced heat and weather resistance.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Quality Certification</strong></td>
-                                    <td>Manufactured in accordance with applicable ASTM, EN, ISO, and customer-specific quality standards.</td>
+                                    <td>Manufactured in accordance with applicable ASTM, EN, ISO, and customer-specific
+                                        quality standards.</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -682,7 +692,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
@@ -827,100 +837,100 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-            @verbatim
-                [{
-                    "@context": "https://schema.org",
-                    "@type": "Organization",
-                    "name": "Moksh Tubes & Fittings LLP",
-                    "url": "https://www.mokshtubes.com",
-                    "logo": "https://www.mokshtubes.com/assets/logo.png",
-                    "contactPoint": {
-                        "@type": "ContactPoint",
-                        "telephone": "+91-97695-84950",
-                        "contactType": "sales",
-                        "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                        "availableLanguage": ["English"]
-                    }
-                },
-                {
-                    "@context": "https://schema.org",
-                    "@type": "Product",
-                    "name": "Custom Steel Furniture",
-                    "description": "Custom steel furniture for homes, offices & industries. Durable stainless steel & MS furniture with modern designs and high strength.",
-                    "brand": {
-                        "@type": "Brand",
-                        "name": "Moksh Tubes & Fittings LLP"
-                    },
-                    "manufacturer": {
-                        "@type": "Organization",
-                        "name": "Moksh Tubes & Fittings LLP"
-                    },
-                    "material": "Stainless Steel, Mild Steel, Carbon Steel",
-                    "url": "https://www.mokshtubes.com/products/special-fabricated/custom-steel-furniture",
-                    "offers": {
-                        "@type": "Offer",
-                        "availability": "https://schema.org/InStock",
-                        "priceCurrency": "INR",
-                        "url": "https://www.mokshtubes.com/contact-us"
-                    }
-                },
-                {
-                    "@context": "https://schema.org",
-                    "@type": "FAQPage",
-                    "mainEntity": [{
-                        "@type": "Question",
-                        "name": "Why choose steel over wood?",
-                        "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Steel is stronger, termite-proof, and long-lasting."
-                        }
-                    },{
-                        "@type": "Question",
-                        "name": "Can furniture be customized?",
-                        "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, fully tailored designs are available."
-                        }
-                    },{
-                        "@type": "Question",
-                        "name": "Is steel furniture suitable for homes?",
-                        "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, widely used in residential and modern interiors."
-                        }
-                    }]
-                },
-                {
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [{
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.mokshtubes.com"
-                    },{
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Special Fabricated",
-                        "item": "https://www.mokshtubes.com/products/special-fabricated"
-                    },{
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Custom Steel Furniture",
-                        "item": "https://www.mokshtubes.com/products/special-fabricated/custom-steel-furniture"
-                    }]
-                },
-                {
-                    "@context": "https://schema.org",
-                    "@type": "LocalBusiness",
-                    "name": "Moksh Tubes & Fittings LLP",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressCountry": "India"
-                    },
-                    "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-                    "telephone": "+91-97695-84950"
-                }]
-            @endverbatim
-        </script>
+                    @verbatim
+                        [{
+                            "@context": "https://schema.org",
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "url": "https://www.mokshtubes.com",
+                            "logo": "https://www.mokshtubes.com/assets/logo.png",
+                            "contactPoint": {
+                                "@type": "ContactPoint",
+                                "telephone": "+91-97695-84950",
+                                "contactType": "sales",
+                                "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                "availableLanguage": ["English"]
+                            }
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Product",
+                            "name": "Custom Steel Furniture",
+                            "description": "Custom steel furniture for homes, offices & industries. Durable stainless steel & MS furniture with modern designs and high strength.",
+                            "brand": {
+                                "@type": "Brand",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "manufacturer": {
+                                "@type": "Organization",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "material": "Stainless Steel, Mild Steel, Carbon Steel",
+                            "url": "https://www.mokshtubes.com/products/special-fabricated/custom-steel-furniture",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "priceCurrency": "INR",
+                                "url": "https://www.mokshtubes.com/contact-us"
+                            }
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "FAQPage",
+                            "mainEntity": [{
+                                "@type": "Question",
+                                "name": "Why choose steel over wood?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Steel is stronger, termite-proof, and long-lasting."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Can furniture be customized?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, fully tailored designs are available."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Is steel furniture suitable for homes?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, widely used in residential and modern interiors."
+                                }
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [{
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://www.mokshtubes.com"
+                            },{
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Special Fabricated",
+                                "item": "https://www.mokshtubes.com/products/special-fabricated"
+                            },{
+                                "@type": "ListItem",
+                                "position": 3,
+                                "name": "Custom Steel Furniture",
+                                "item": "https://www.mokshtubes.com/products/special-fabricated/custom-steel-furniture"
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "LocalBusiness",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "India"
+                            },
+                            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                            "telephone": "+91-97695-84950"
+                        }]
+                    @endverbatim
+                </script>
 @endsection

@@ -30,9 +30,10 @@
             <a href="#composition">Chemical Composition</a> |
             <a href="#size-chart">Size Chart</a> |
             <a href="#grades">Grades</a> |
-            <a href="#features">Advantages</a> |
             <a href="#applications">Applications</a> |
+            <a href="#features">Advantages</a> |
             <a href="#mechanical-properties">Mechanical</a> |
+            <a href="#why-choose-us">Why CHoose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
     </div>

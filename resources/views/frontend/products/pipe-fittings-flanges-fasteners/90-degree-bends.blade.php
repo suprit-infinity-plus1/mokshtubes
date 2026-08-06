@@ -37,11 +37,11 @@
         <div class="container text-center py-2">
             <a href="#overview">Overview</a> |
             <a href="#specifications">Specifications</a> |
-            <a href="#chemical-composition">Chemical Composition</a> |
+            <!-- <a href="#chemical-composition">Chemical Composition</a> | -->
             <a href="#dimensions">Dimensions</a> |
             <a href="#types">Grades</a> |
-            <a href="#features">Features</a> |
             <a href="#applications">Applications</a> |
+            <a href="#features">Features</a> |
             <a href="#mechanical-properties">Mechanical</a> |
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
@@ -773,127 +773,127 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-                                {
-                                  "@context": "https://schema.org",
-                                  "@graph": [
-                                    {
-                                      "@type": ["Organization", "LocalBusiness"],
-                                      "@id": "https://mokshtubes.com/#organization",
-                                      "name": "Moksh Tubes & Fittings LLP",
-                                      "url": "https://mokshtubes.com/",
-                                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
-                                      "telephone": "+91-9769584950",
-                                      "email": "info@mokshtubes.com",
-                                      "address": {
-                                        "@type": "PostalAddress",
-                                        "addressLocality": "Mumbai",
-                                        "addressRegion": "MH",
-                                        "addressCountry": "IN"
-                                      }
-                                    },
-                                    {
-                                      "@type": "WebSite",
-                                      "@id": "https://mokshtubes.com/#website",
-                                      "url": "https://mokshtubes.com/",
-                                      "name": "Moksh Tubes & Fittings LLP"
-                                    },
-                                    {
-                                      "@type": "WebPage",
-                                      "@id": "https://mokshtubes.com/90-degree-bend#webpage",
-                                      "name": "90 Degree Bend Manufacturer, Supplier & Exporter in India | SS, CS & Alloy Steel",
-                                      "url": "https://mokshtubes.com/90-degree-bend",
-                                      "description": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of 90 Degree Bends in Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex. Available in ASME B16.49 & B16.9 standards with worldwide delivery.",
-                                      "isPartOf": { "@id": "https://mokshtubes.com/#website" },
-                                      "primaryImageOfPage": { "@id": "https://mokshtubes.com/#product-image" }
-                                    },
-                                    {
-                                      "@type": ["Product", "Service"],
-                                      "@id": "https://mokshtubes.com/#90-degree-bend",
-                                      "name": "90 Degree Bends",
-                                      "url": "https://mokshtubes.com/90-degree-bend",
-                                      "image": "https://mokshtubes.com/assets/images/product/flangs/90-degree-elbows_11zon.jpeg",
-                                      "category": "Industrial Bends",
-                                      "description": "Premium-quality Stainless Steel, Carbon Steel, Alloy Steel, Duplex, and Super Duplex 90 Degree Bends.",
-                                      "brand": {
-                                        "@type": "Brand",
-                                        "@id": "https://mokshtubes.com/#organization",
-                                        "name": "Moksh Tubes & Fittings LLP"
-                                      },
-                                      "manufacturer": {
-                                        "@type": "Organization",
-                                        "@id": "https://mokshtubes.com/#organization"
-                                      },
-                                      "material": [
-                                        "Stainless Steel",
-                                        "Carbon Steel",
-                                        "Alloy Steel",
-                                        "Duplex Stainless Steel",
-                                        "Super Duplex Stainless Steel"
-                                      ],
-                                      "additionalProperty": [
-                                        { "@type": "PropertyValue", "name": "Outer Diameter", "value": "½\" NB to 48\" NB" },
-                                        { "@type": "PropertyValue", "name": "Standards", "value": "ASME B16.49, ASME B16.9, ASTM" }
-                                      ],
-                                      "offers": {
-                                        "@type": "Offer",
-                                        "@id": "https://mokshtubes.com/#offer",
-                                        "url": "https://mokshtubes.com/90-degree-bend",
-                                        "availability": "https://schema.org/InStock",
-                                        "priceCurrency": "USD",
-                                        "price": "0.00",
-                                        "priceValidUntil": "2030-12-31",
-                                        "businessFunction": "https://schema.org/Sell",
-                                        "seller": { "@id": "https://mokshtubes.com/#organization" }
-                                      }
-                                    },
-                                    {
-                                      "@type": "ImageObject",
-                                      "@id": "https://mokshtubes.com/#product-image",
-                                      "url": "https://mokshtubes.com/assets/images/product/flangs/90-degree-elbows_11zon.jpeg",
-                                      "description": "90 Degree Bend Manufacturer in India"
-                                    },
-                                    {
-                                      "@type": "BreadcrumbList",
-                                      "@id": "https://mokshtubes.com/#breadcrumb",
-                                      "itemListElement": [
-                                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshtubes.com/" },
-                                        { "@type": "ListItem", "position": 2, "name": "Pipe Fittings", "item": "https://mokshtubes.com/products/pipe-fittings" },
-                                        { "@type": "ListItem", "position": 3, "name": "90 Degree Bend", "item": "https://mokshtubes.com/90-degree-bend" }
-                                      ]
-                                    },
-                                    {
-                                      "@type": "FAQPage",
-                                      "@id": "https://mokshtubes.com/#faq-90-degree-bends",
-                                      "mainEntity": [
-                                        {
-                                          "@type": "Question",
-                                          "name": "What is a 90 Degree Bend?",
-                                          "acceptedAnswer": { "@type": "Answer", "text": "A 90 Degree Bend is a pipe fitting that changes the direction of a pipeline by 90 degrees using a larger bend radius to improve flow efficiency and reduce pressure loss." }
-                                        },
-                                        {
-                                          "@type": "Question",
-                                          "name": "What is the difference between a 90 Degree Bend and a 90 Degree Elbow?",
-                                          "acceptedAnswer": { "@type": "Answer", "text": "A bend has a larger radius, resulting in smoother flow and lower pressure drop, while an elbow has a shorter radius and is typically used where installation space is limited." }
-                                        },
-                                        {
-                                          "@type": "Question",
-                                          "name": "Which materials are available?",
-                                          "acceptedAnswer": { "@type": "Answer", "text": "We manufacture 90 Degree Bends in stainless steel, carbon steel, alloy steel, duplex, and super duplex materials." }
-                                        },
-                                        {
-                                          "@type": "Question",
-                                          "name": "Do you provide material test certificates?",
-                                          "acceptedAnswer": { "@type": "Answer", "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order." }
-                                        },
-                                        {
-                                          "@type": "Question",
-                                          "name": "Can you export internationally?",
-                                          "acceptedAnswer": { "@type": "Answer", "text": "Yes. We export to the Middle East, Asia, Europe, and other global markets." }
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                                </script>
+                                                {
+                                                  "@context": "https://schema.org",
+                                                  "@graph": [
+                                                    {
+                                                      "@type": ["Organization", "LocalBusiness"],
+                                                      "@id": "https://mokshtubes.com/#organization",
+                                                      "name": "Moksh Tubes & Fittings LLP",
+                                                      "url": "https://mokshtubes.com/",
+                                                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                                                      "telephone": "+91-9769584950",
+                                                      "email": "info@mokshtubes.com",
+                                                      "address": {
+                                                        "@type": "PostalAddress",
+                                                        "addressLocality": "Mumbai",
+                                                        "addressRegion": "MH",
+                                                        "addressCountry": "IN"
+                                                      }
+                                                    },
+                                                    {
+                                                      "@type": "WebSite",
+                                                      "@id": "https://mokshtubes.com/#website",
+                                                      "url": "https://mokshtubes.com/",
+                                                      "name": "Moksh Tubes & Fittings LLP"
+                                                    },
+                                                    {
+                                                      "@type": "WebPage",
+                                                      "@id": "https://mokshtubes.com/90-degree-bend#webpage",
+                                                      "name": "90 Degree Bend Manufacturer, Supplier & Exporter in India | SS, CS & Alloy Steel",
+                                                      "url": "https://mokshtubes.com/90-degree-bend",
+                                                      "description": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of 90 Degree Bends in Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex. Available in ASME B16.49 & B16.9 standards with worldwide delivery.",
+                                                      "isPartOf": { "@id": "https://mokshtubes.com/#website" },
+                                                      "primaryImageOfPage": { "@id": "https://mokshtubes.com/#product-image" }
+                                                    },
+                                                    {
+                                                      "@type": ["Product", "Service"],
+                                                      "@id": "https://mokshtubes.com/#90-degree-bend",
+                                                      "name": "90 Degree Bends",
+                                                      "url": "https://mokshtubes.com/90-degree-bend",
+                                                      "image": "https://mokshtubes.com/assets/images/product/flangs/90-degree-elbows_11zon.jpeg",
+                                                      "category": "Industrial Bends",
+                                                      "description": "Premium-quality Stainless Steel, Carbon Steel, Alloy Steel, Duplex, and Super Duplex 90 Degree Bends.",
+                                                      "brand": {
+                                                        "@type": "Brand",
+                                                        "@id": "https://mokshtubes.com/#organization",
+                                                        "name": "Moksh Tubes & Fittings LLP"
+                                                      },
+                                                      "manufacturer": {
+                                                        "@type": "Organization",
+                                                        "@id": "https://mokshtubes.com/#organization"
+                                                      },
+                                                      "material": [
+                                                        "Stainless Steel",
+                                                        "Carbon Steel",
+                                                        "Alloy Steel",
+                                                        "Duplex Stainless Steel",
+                                                        "Super Duplex Stainless Steel"
+                                                      ],
+                                                      "additionalProperty": [
+                                                        { "@type": "PropertyValue", "name": "Outer Diameter", "value": "½\" NB to 48\" NB" },
+                                                        { "@type": "PropertyValue", "name": "Standards", "value": "ASME B16.49, ASME B16.9, ASTM" }
+                                                      ],
+                                                      "offers": {
+                                                        "@type": "Offer",
+                                                        "@id": "https://mokshtubes.com/#offer",
+                                                        "url": "https://mokshtubes.com/90-degree-bend",
+                                                        "availability": "https://schema.org/InStock",
+                                                        "priceCurrency": "USD",
+                                                        "price": "0.00",
+                                                        "priceValidUntil": "2030-12-31",
+                                                        "businessFunction": "https://schema.org/Sell",
+                                                        "seller": { "@id": "https://mokshtubes.com/#organization" }
+                                                      }
+                                                    },
+                                                    {
+                                                      "@type": "ImageObject",
+                                                      "@id": "https://mokshtubes.com/#product-image",
+                                                      "url": "https://mokshtubes.com/assets/images/product/flangs/90-degree-elbows_11zon.jpeg",
+                                                      "description": "90 Degree Bend Manufacturer in India"
+                                                    },
+                                                    {
+                                                      "@type": "BreadcrumbList",
+                                                      "@id": "https://mokshtubes.com/#breadcrumb",
+                                                      "itemListElement": [
+                                                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshtubes.com/" },
+                                                        { "@type": "ListItem", "position": 2, "name": "Pipe Fittings", "item": "https://mokshtubes.com/products/pipe-fittings" },
+                                                        { "@type": "ListItem", "position": 3, "name": "90 Degree Bend", "item": "https://mokshtubes.com/90-degree-bend" }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "@type": "FAQPage",
+                                                      "@id": "https://mokshtubes.com/#faq-90-degree-bends",
+                                                      "mainEntity": [
+                                                        {
+                                                          "@type": "Question",
+                                                          "name": "What is a 90 Degree Bend?",
+                                                          "acceptedAnswer": { "@type": "Answer", "text": "A 90 Degree Bend is a pipe fitting that changes the direction of a pipeline by 90 degrees using a larger bend radius to improve flow efficiency and reduce pressure loss." }
+                                                        },
+                                                        {
+                                                          "@type": "Question",
+                                                          "name": "What is the difference between a 90 Degree Bend and a 90 Degree Elbow?",
+                                                          "acceptedAnswer": { "@type": "Answer", "text": "A bend has a larger radius, resulting in smoother flow and lower pressure drop, while an elbow has a shorter radius and is typically used where installation space is limited." }
+                                                        },
+                                                        {
+                                                          "@type": "Question",
+                                                          "name": "Which materials are available?",
+                                                          "acceptedAnswer": { "@type": "Answer", "text": "We manufacture 90 Degree Bends in stainless steel, carbon steel, alloy steel, duplex, and super duplex materials." }
+                                                        },
+                                                        {
+                                                          "@type": "Question",
+                                                          "name": "Do you provide material test certificates?",
+                                                          "acceptedAnswer": { "@type": "Answer", "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order." }
+                                                        },
+                                                        {
+                                                          "@type": "Question",
+                                                          "name": "Can you export internationally?",
+                                                          "acceptedAnswer": { "@type": "Answer", "text": "Yes. We export to the Middle East, Asia, Europe, and other global markets." }
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                                </script>
     @endverbatim
 @endsection

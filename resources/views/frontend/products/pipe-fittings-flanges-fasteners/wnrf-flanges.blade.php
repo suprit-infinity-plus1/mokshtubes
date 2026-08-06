@@ -40,9 +40,10 @@
             <a href="#specifications">Specifications</a> |
             <a href="#size-chart">Size & Weight Chart</a> |
             <a href="#grades">Grades & Equivalent</a> |
-            <a href="#features">Features & Advantages</a> |
             <a href="#applications">Applications</a> |
+            <a href="#features">Features & Advantages</a> |
             <a href="#mechanical-properties">Mechanical Properties</a> |
+            <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
     </div>
@@ -584,7 +585,7 @@
     </section>
 
     {{-- why choose us --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Why Choose Moksh Tubes &amp; Fittings LLP?</h2>

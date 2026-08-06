@@ -43,15 +43,16 @@
         <div class="container text-center py-2">
             <a href="#overview">Overview</a> |
             <a href="#specifications">Specifications</a> |
-            <a href="#types">Types</a> |
+            <!-- <a href="#types">Types</a> | -->
             <a href="#size-chart">Size Chart</a> |
             <a href="#chemical-composition">Chemical</a> |
-            <a href="#mechanical-properties">Mechanical</a> |
             <a href="#applications">Applications</a> |
-            <a href="#industries">Industries</a> |
-            <a href="#manufacturing">Manufacturing</a> |
-            <a href="#export">Export</a> |
-            <a href="#buying-guide">Buying Guide</a> |
+            <a href="#mechanical-properties">Mechanical</a> |
+            <!-- <a href="#industries">Industries</a> | -->
+            <!-- <a href="#manufacturing">Manufacturing</a> | -->
+            <!-- <a href="#export">Export</a> | -->
+            <!-- <a href="#buying-guide">Buying Guide</a> | -->
+            <a href="#why-choose-us">Why Choose Us</a>
             <a href="#faq">FAQ</a>
         </div>
     </div>
@@ -1542,7 +1543,7 @@
 
 
     {{-- why choose us --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>Why Choose Moksh Tubes?</h2>

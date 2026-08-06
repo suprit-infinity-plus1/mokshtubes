@@ -45,10 +45,10 @@
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#erw-vs-seamless">ERW vs Seamless</a> |
-            <a href="#manufacturing">Manufacturing</a> |
+            <!-- <a href="#erw-vs-seamless">ERW vs Seamless</a> | -->
+            <!-- <a href="#manufacturing">Manufacturing</a> | -->
             <a href="#mechanical">Mechanical Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
+            <!-- <a href="#tolerances">Tolerances</a> | -->
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
