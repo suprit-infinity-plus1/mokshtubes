@@ -411,6 +411,31 @@
                         <p><strong>904L, SMO 254:</strong> Luxury & high-end architectural projects</p>
                     </div>
                 </div>
+
+                <!-- 2nd Row Added -->
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h5>Carbon Steel (Placeholder)</h5>
+                        <p><strong>Grade A, B, C:</strong> Placeholder for description</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-nut"></i></div>
+                        <h5>Alloy Steel (Placeholder)</h5>
+                        <p><strong>Grade X, Y, Z:</strong> Placeholder for description</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-palette"></i></div>
+                        <h5>Other Materials (Placeholder)</h5>
+                        <p><strong>Material 1, 2:</strong> Placeholder for description</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -549,6 +574,53 @@
                         <div class="application-icon"><i class="bi bi-truck"></i></div>
                         <h5>Industrial & Public</h5>
                         <p>✔ Factories & warehouses<br>✔ Hospitals & institutions<br>✔ Government buildings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="advantages" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Advantages of SS Railing Products</h2>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>High Corrosion Resistance</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h5>Long Service Life</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-wrench"></i></div>
+                        <h5>Low Maintenance</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-stars"></i></div>
+                        <h5>Modern Aesthetic Appeal</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                        <h5>High Strength &amp; Durability</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tree"></i></div>
+                        <h5>Eco-Friendly &amp; Recyclable</h5>
                     </div>
                 </div>
             </div>
