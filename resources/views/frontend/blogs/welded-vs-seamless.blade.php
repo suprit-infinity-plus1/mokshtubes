@@ -50,8 +50,8 @@
                                 <div class="text">
                                     <p>
                                         The main choice often comes down to <a
-                                            href="{{ route('products.pipes-tubes.welded-pipes') }}">welded</a> vs <a
-                                            href="{{ route('products.pipes-tubes.seamless-pipes') }}">seamless</a>
+                                            href="{{ url('products/pipes-tubes/welded-pipes') }}">welded</a> vs <a
+                                            href="{{ url('products/pipes-tubes/seamless-pipes') }}">seamless</a>
                                         construction. While
                                         both types offer excellent corrosion resistance and durability, they differ
                                         significantly in manufacturing, strength characteristics, and ideal applications.
@@ -78,7 +78,7 @@
 
                                         <div class="text">
                                             <p>
-                                                <strong><a href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded
+                                                <strong><a href="{{ url('products/pipes-tubes/welded-pipes') }}">Welded
                                                         stainless steel pipes</a></strong> start life as flat steel plates
                                                 or coiled
                                                 strips. Manufacturers form these <a
@@ -1077,7 +1077,7 @@
                                             expectations.
                                         </p>
                                         <p>
-                                            <strong><a href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded
+                                            <strong><a href="{{ url('products/pipes-tubes/welded-pipes') }}">Welded
                                                     pipes</a></strong> excel in cost sensitive applications requiring large
                                             diameters,
                                             standard pressure ratings, and proven reliability. They're ideal for water
@@ -1085,7 +1085,7 @@
                                             seam doesn't compromise performance.
                                         </p>
                                         <p>
-                                            <strong><a href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless
+                                            <strong><a href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless
                                                     pipes</a></strong> justify their premium cost in high-pressure, high
                                             temperature, or
                                             critical applications where failure isn't an option. They're the clear choice

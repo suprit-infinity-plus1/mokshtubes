@@ -69,7 +69,7 @@
                         <p class="fs-6 mb-3 text-justify" style="text-align: justify;">
                             <strong class="text-black">Welded pipes and tubes</strong> play a critical role in modern
                             industries where strength, precision, and cost efficiency are required. Unlike
-                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('products.pipes-tubes.seamless-pipes') }}">seamless pipes</a>,
+                            <a class="text-primary text-decoration-none fw-semibold" href="{{ url('products/pipes-tubes/seamless-pipes') }}">seamless pipes</a>,
                             they are manufactured by rolling metal sheets or strips and welding the seam, offering a
                             versatile and cost-effective solution for a wide range of applications.
                         </p>
@@ -766,7 +766,7 @@
                         <div class="accord-content">
                             <p>
                                 Welded pipes and tubes are manufactured by rolling a metal plate or strip into a cylindrical shape and welding the seam.
-                                They are widely used in <a href="{{ route('products.pipes-tubes.welded-pipes') }}">industrial piping systems</a>, structural applications,
+                                They are widely used in <a href="{{ url('products/pipes-tubes/welded-pipes') }}">industrial piping systems</a>, structural applications,
                                 and fluid transportation due to their strength, precision, and cost-effectiveness.
                             </p>
                         </div>
@@ -833,7 +833,7 @@
                         </div>
                         <div class="accord-content">
                             <p>
-                                <b>Moksh Tubes & Fittings LLP</b> offers a comprehensive range of <a href="{{ route('products.pipes-tubes.welded-pipes') }}">welded pipes and tubes</a> such as:
+                                <b>Moksh Tubes & Fittings LLP</b> offers a comprehensive range of <a href="{{ url('products/pipes-tubes/welded-pipes') }}">welded pipes and tubes</a> such as:
                             </p>
                             <ul>
                                 <li>ERW (Electric Resistance Welded) Pipes & Tubes</li>

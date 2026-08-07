@@ -76,7 +76,7 @@
         </div>
     </section>
 
-<section class="sec-padd-bottom bg-light">
+    <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Hastelloy C276 Technical Datasheet</h3>
             <p class="mb-3">

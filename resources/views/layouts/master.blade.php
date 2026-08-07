@@ -492,20 +492,20 @@
                                                     <ul>
                                                         <li class="dropdown">
                                                             <a class="dropdown-item d-flex justify-content-between align-items-center"
-                                                                href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded
+                                                                href="{{ url('products/pipes-tubes/welded-pipes') }}">Welded
                                                                 Pipes <i class="fa fa-angle-right"></i></a>
                                                             <ul>
                                                                 <li><a
-                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss304-welded-pipes') }}">SS304
+                                                                        href="{{ url('products/pipes-tubes/welded-pipes/ss304-welded-pipes') }}">SS304
                                                                         Welded Pipes</a></li>
                                                                 <li><a
                                                                         href="{{ route('products.pipes-tubes.welded-pipes.ss316-welded-pipes') }}">SS316
                                                                         Welded Pipes</a></li>
                                                                 <li><a
-                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss304-erw-pipes') }}">SS304
+                                                                        href="{{ url('products/pipes-tubes/welded-pipes/ss304-erw-pipes') }}">SS304
                                                                         ERW Pipes</a></li>
                                                                 <li><a
-                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss316-erw-pipes') }}">SS316
+                                                                        href="{{ url('products/pipes-tubes/welded-pipes/ss316-erw-pipes') }}">SS316
                                                                         ERW Pipes</a></li>
                                                                 <li><a
                                                                         href="{{ route('products.pipes-tubes.welded-pipes.ss304-semi-welded-pipes') }}">SS304
@@ -516,18 +516,18 @@
                                                             </ul>
                                                         </li>
                                                         <li><a
-                                                                href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless
+                                                                href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless
                                                                 Pipes</a></li>
                                                         <li><a
-                                                                href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">Boiler
+                                                                href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}">Boiler
                                                                 & Heat Exchanger Tubes</a></li>
                                                         <li><a
-                                                                href="{{ route('products.pipes-tubes.hollow-section-pipe') }}">Hollow
+                                                                href="{{ url('products/pipes-tubes/hollow-section-pipe') }}">Hollow
                                                                 Section Pipes</a></li>
-                                                        <li><a href="{{ route('products.pipes-tubes.capillaries') }}">Capillary
+                                                        <li><a href="{{ url('products/pipes-tubes/capillaries') }}">Capillary
                                                                 Tubes</a></li>
                                                         <li><a
-                                                                href="{{ route('products.pipes-tubes.u-bent-tubes') }}">U-Bend
+                                                                href="{{ url('products/pipes-tubes/u-bent-tubes') }}">U-Bend
                                                                 Tubes</a></li>
                                                     </ul>
                                                 </li>
@@ -1208,20 +1208,20 @@
                                                     <ul>
                                                         <li class="dropdown">
                                                             <a class="dropdown-item d-flex justify-content-between align-items-center"
-                                                                href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded
+                                                                href="{{ url('products/pipes-tubes/welded-pipes') }}">Welded
                                                                 Pipes <i class="fa fa-angle-right"></i></a>
                                                             <ul>
                                                                 <li><a
-                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss304-welded-pipes') }}">SS304
+                                                                        href="{{ url('products/pipes-tubes/welded-pipes/ss304-welded-pipes') }}">SS304
                                                                         Welded Pipes</a></li>
                                                                 <li><a
                                                                         href="{{ route('products.pipes-tubes.welded-pipes.ss316-welded-pipes') }}">SS316
                                                                         Welded Pipes</a></li>
                                                                 <li><a
-                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss304-erw-pipes') }}">SS304
+                                                                        href="{{ url('products/pipes-tubes/welded-pipes/ss304-erw-pipes') }}">SS304
                                                                         ERW Pipes</a></li>
                                                                 <li><a
-                                                                        href="{{ route('products.pipes-tubes.welded-pipes.ss316-erw-pipes') }}">SS316
+                                                                        href="{{ url('products/pipes-tubes/welded-pipes/ss316-erw-pipes') }}">SS316
                                                                         ERW Pipes</a></li>
                                                                 <li><a
                                                                         href="{{ route('products.pipes-tubes.welded-pipes.ss304-semi-welded-pipes') }}">SS304
@@ -1232,19 +1232,19 @@
                                                             </ul>
                                                         </li>
                                                         <li><a
-                                                                href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless
+                                                                href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless
                                                                 Pipes</a></li>
                                                         <li><a
-                                                                href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">Boiler
+                                                                href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}">Boiler
                                                                 & Heat Exchanger Tubes</a></li>
                                                         <li><a
-                                                                href="{{ route('products.pipes-tubes.hollow-section-pipe') }}">Hollow
+                                                                href="{{ url('products/pipes-tubes/hollow-section-pipe') }}">Hollow
                                                                 Section Pipes</a></li>
                                                         <li><a
-                                                                href="{{ route('products.pipes-tubes.capillaries') }}">Capillary
+                                                                href="{{ url('products/pipes-tubes/capillaries') }}">Capillary
                                                                 Tubes</a></li>
                                                         <li><a
-                                                                href="{{ route('products.pipes-tubes.u-bent-tubes') }}">U-Bend
+                                                                href="{{ url('products/pipes-tubes/u-bent-tubes') }}">U-Bend
                                                                 Tubes</a></li>
                                                     </ul>
                                                 </li>

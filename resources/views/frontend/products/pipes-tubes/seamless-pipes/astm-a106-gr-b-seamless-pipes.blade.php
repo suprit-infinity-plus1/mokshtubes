@@ -60,7 +60,7 @@
                         </div>
 
                         <div class="d-flex flex-wrap gap-3 justify-content-center">
-                            <a href="{{ route('products.pipes-tubes.seamless-pipes') }}"
+                            <a href="{{ url('products/pipes-tubes/seamless-pipes') }}"
                                class="btn"
                                style="background:#174268; color:#fff; padding:12px 28px; border-radius:8px; font-weight:600; text-decoration:none;">
                                 ← Back to Seamless Pipes

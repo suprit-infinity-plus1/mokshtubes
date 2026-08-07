@@ -1568,14 +1568,14 @@
                                                 <h3 class="h6">Do you supply the items listed in the calculator?</h3>
                                             </div>
                                             <div class="accord-content">
-                                                <p>Yes, <a href="{{ route('index', ['country' => 'in']) }}">Moksh Tubes &
+                                                <p>Yes, <a href="{{ route('index') }}">Moksh Tubes &
                                                         Fittings LLP</a> manufactures and supplies most of the items listed,
                                                     including HEA/HEB beams, <a
-                                                        href="{{ route('products.pipes-tubes.seamless-pipes', ['country' => 'in']) }}">seamless
+                                                        href="{{ url('products/pipes-tubes/seamless-pipes') }}">seamless
                                                         pipes</a>, <a
-                                                        href="{{ route('products.sheets-plates-coils.sheets-and-plates', ['country' => 'in']) }}">plates</a>,
+                                                        href="{{ route('products.sheets-plates-coils.sheets-and-plates') }}">plates</a>,
                                                     and <a
-                                                        href="{{ route('products.pipes-tubes.hollow-section-pipe', ['country' => 'in']) }}">structural
+                                                        href="{{ url('products/pipes-tubes/hollow-section-pipe') }}">structural
                                                         sections</a> in various ferrous and non-ferrous grades.</p>
                                             </div>
                                         </div>

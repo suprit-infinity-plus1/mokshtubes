@@ -58,7 +58,7 @@
                                         <h2>What Are Seamless Pipes? – The Premium Choice</h2>
                                     </div>
                                     <p>
-                                        <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless pipes</a> are
+                                        <a href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless pipes</a> are
                                         produced from solid steel billets, heated to around 1200°C, and
                                         pierced to create a hollow tube. The result? A pipe without welds or seams.
                                     </p>
@@ -100,7 +100,7 @@
                                         <h2>What Are Welded Pipes? – The Versatile Workhorses</h2>
                                     </div>
                                     <p>
-                                        <a href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded pipes</a> are made
+                                        <a href="{{ url('products/pipes-tubes/welded-pipes') }}">Welded pipes</a> are made
                                         by rolling flat steel plates into cylindrical form and welding
                                         the edges together. While less expensive, they’re highly reliable in many
                                         industries.
@@ -343,7 +343,7 @@
                                         <div class="tip-box-point">
                                             <div class="tip-box">
                                                 <h3>Choose <a
-                                                        href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless
+                                                        href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless
                                                         Pipes</a> When:</h3>
                                                 <ul>
                                                     <li>
@@ -368,7 +368,7 @@
                                         <div class="tip-box-point">
                                             <div class="tip-box">
                                                 <h3>Choose <a
-                                                        href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded
+                                                        href="{{ url('products/pipes-tubes/welded-pipes') }}">Welded
                                                         Pipes</a> When:</h3>
                                                 <ul>
                                                     <li>
@@ -447,10 +447,10 @@
                                                                 welded pipes in the UAE?</h3>
                                                         </div>
                                                         <div class="accord-content">
-                                                            <p><a href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded
+                                                            <p><a href="{{ url('products/pipes-tubes/welded-pipes') }}">Welded
                                                                     pipes</a> are locally available with 2–4 week delivery.
                                                                 <a
-                                                                    href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless
+                                                                    href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless
                                                                     pipes</a>, often imported, may require 6–12 weeks
                                                                 depending on specifications.
                                                             </p>
@@ -463,7 +463,7 @@
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Most desalination plants use both <a
-                                                                    href="{{ route('products.pipes-tubes.seamless-pipes') }}">seamless
+                                                                    href="{{ url('products/pipes-tubes/seamless-pipes') }}">seamless
                                                                     pipes</a> for
                                                                 high pressure RO (reverse osmosis) systems, and welded pipes
                                                                 for low pressure water distribution.</p>

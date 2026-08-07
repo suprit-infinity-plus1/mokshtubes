@@ -76,7 +76,7 @@
                         </ul>
 
                         <p class="fs-6 text-justify" style="text-align: justify;">
-                            These flanges are ideal for <a href="{{ route('products.pipes-tubes') }}" style="color: blue;">oil & gas</a>, petrochemical, and LNG handling <a href="{{ route('products.pipes-tubes.welded-pipes') }}" style="color: blue; text-decoration: underline;">applications</a>.
+                            These flanges are ideal for <a href="{{ route('products.pipes-tubes') }}" style="color: blue;">oil & gas</a>, petrochemical, and LNG handling <a href="{{ url('products/pipes-tubes/welded-pipes') }}" style="color: blue; text-decoration: underline;">applications</a>.
                         </p>
                     </div>
                 </div>
@@ -334,7 +334,7 @@
                         <div class="application-icon"><i class="bi bi-ev-station"></i></div>
                         <h5>Petrochemical</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• <a href="{{ route('products.pipes-tubes.welded-pipes') }}" style="color: blue;">Process piping</a></li>
+                            <li>• <a href="{{ url('products/pipes-tubes/welded-pipes') }}" style="color: blue;">Process piping</a></li>
                             <li>• Chemical plants</li>
                         </ul>
                     </div>
@@ -344,7 +344,7 @@
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
                         <h5>Power Plants</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}" style="color: blue;">Low-temperature service lines</a></li>
+                            <li>• <a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}" style="color: blue;">Low-temperature service lines</a></li>
                         </ul>
                     </div>
                 </div>

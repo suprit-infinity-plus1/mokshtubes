@@ -72,7 +72,7 @@
                         <ul class="fs-6 mb-3 list-unstyled">
                             <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Better corrosion resistance</li>
                             <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Improved performance in harsh environments</li>
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Higher durability in marine and <a href="{{ route('products.pipes-tubes.welded-pipes') }}" style="color: blue;">chemical industries</a></li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Higher durability in marine and <a href="{{ url('products/pipes-tubes/welded-pipes') }}" style="color: blue;">chemical industries</a></li>
                         </ul>
 
                         <p class="fs-6 text-justify" style="text-align: justify;">
@@ -237,7 +237,7 @@
                         <h5>Chemical Industry</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
                             <li>• Acid processing systems</li>
-                            <li>• <a href="{{ route('products.pipes-tubes.welded-pipes') }}" style="color: blue;">Chemical pipelines</a></li>
+                            <li>• <a href="{{ url('products/pipes-tubes/welded-pipes') }}" style="color: blue;">Chemical pipelines</a></li>
                         </ul>
                     </div>
                 </div>

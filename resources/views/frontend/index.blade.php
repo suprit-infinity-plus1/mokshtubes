@@ -412,13 +412,13 @@
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb-4">
                     <div class="single-our-service border" style="background: #fff;">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('products.pipes-tubes.seamless-pipes') }}">
+                            <a class="w-100" href="{{ url('products/pipes-tubes/seamless-pipes') }}">
                                 <img src="/assets/images/service/SEAMLESS-PIPES.webp" alt="Seamless Pipes" class="w-100"
                                     loading="lazy">
                             </a>
                         </figure>
                         <div class="p-3 text-left">
-                            <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">
+                            <a href="{{ url('products/pipes-tubes/seamless-pipes') }}">
                                 <h3 class="mt-0 h5">Seamless Pipes</h3>
                             </a>
                             <p>High-strength, leak-proof pipes perfect for high-pressure industrial applications.</p>
@@ -432,13 +432,13 @@
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb-4">
                     <div class="single-our-service border" style="background: #fff;">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('products.pipes-tubes.welded-pipes') }}">
+                            <a class="w-100" href="{{ url('products/pipes-tubes/welded-pipes') }}">
                                 <img src="/assets/images/service/WELDED-PIPES.webp" alt="Welded Pipes" class="w-100"
                                     loading="lazy">
                             </a>
                         </figure>
                         <div class="p-3 text-left">
-                            <a href="{{ route('products.pipes-tubes.welded-pipes') }}">
+                            <a href="{{ url('products/pipes-tubes/welded-pipes') }}">
                                 <h3 class="mt-0 h5">Welded Pipes (ERW/EFW)</h3>
                             </a>
                             <p>Cost-effective and durable pipes suitable for structural and general engineering use.</p>
@@ -452,13 +452,13 @@
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb-4">
                     <div class="single-our-service border" style="background: #fff;">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">
+                            <a class="w-100" href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}">
                                 <img src="/assets/images/product/boiler-heat-exchanger-tubes-Copy.png" alt="Boiler Tubes"
                                     class="w-100" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-3 text-left">
-                            <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">
+                            <a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}">
                                 <h3 class="mt-0 h5">Boiler & Heat Exchanger Tubes</h3>
                             </a>
                             <p>Designed to withstand high temperatures and pressure in critical heat transfer systems.</p>
@@ -598,13 +598,13 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <figure class="img-box mb-0">
-                                <a class="w-100" href="{{ route('products.pipes-tubes.welded-pipes') }}">
+                                <a class="w-100" href="{{ url('products/pipes-tubes/welded-pipes') }}">
                                     <img src="/assets/images/service/WELDED-PIPES.webp" alt="Awesome Image" class="w-100"
                                         loading="lazy"></a>
                             </figure>
 
                             <div class="p-3">
-                                <a href="{{ route('products.pipes-tubes.welded-pipes') }}">
+                                <a href="{{ url('products/pipes-tubes/welded-pipes') }}">
                                     <h3 class="mt-0 h5">WELDED PIPES</h3>
                                 </a>
                                 <p>
@@ -619,13 +619,13 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('products.pipes-tubes.seamless-pipes') }}">
+                            <a class="w-100" href="{{ url('products/pipes-tubes/seamless-pipes') }}">
                                 <img class="w-100" src="/assets/images/service/SEAMLESS-PIPES.webp" alt="Awesome Image"
                                     loading="lazy">
                             </a>
                         </figure>
                         <div class="p-3">
-                            <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">
+                            <a href="{{ url('products/pipes-tubes/seamless-pipes') }}">
                                 <h3 class="mt-0 h5">SEAMLESS PIPES</h3>
                             </a>
                             <p>
@@ -925,14 +925,14 @@
                     <div class="footer-col service-col">
                         <h2 class="footer-title h4">PIPES & TUBES </h2>
                         <ul class="footer-list">
-                            <li><a href="{{ route('products.pipes-tubes.welded-pipes') }}">WELDED PIPES (ERW & EFW)</a>
+                            <li><a href="{{ url('products/pipes-tubes/welded-pipes') }}">WELDED PIPES (ERW & EFW)</a>
                             </li>
-                            <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}">SEAMLESS PIPES</a></li>
-                            <li><a href="{{ route('products.pipes-tubes.capillaries') }}">CAPILLARIESS</a></li>
-                            <li><a href="{{ route('products.pipes-tubes.hollow-section-pipe') }}">HOLLOW SECTION PIPE
+                            <li><a href="{{ url('products/pipes-tubes/seamless-pipes') }}">SEAMLESS PIPES</a></li>
+                            <li><a href="{{ url('products/pipes-tubes/capillaries') }}">CAPILLARIESS</a></li>
+                            <li><a href="{{ url('products/pipes-tubes/hollow-section-pipe') }}">HOLLOW SECTION PIPE
                                     (SQUARE, RECTANGULAR & OVAL)</a></li>
-                            <li><a href="{{ route('products.pipes-tubes.u-bent-tubes') }}">U-BENT TUBES</a></li>
-                            <li><a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">BOILER & HEAT
+                            <li><a href="{{ url('products/pipes-tubes/u-bent-tubes') }}">U-BENT TUBES</a></li>
+                            <li><a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}">BOILER & HEAT
                                     EXCHANGER TUBES</a></li>
                         </ul>
                     </div>

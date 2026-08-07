@@ -1094,65 +1094,91 @@ class MainController extends Controller
         return view('frontend.products.pipes-tubes.index', compact('blogs'));
     }
 
-    public function weldedPipes()
-    {
-        return view('frontend.products.pipes-tubes.welded-pipes');
+    // public function weldedPipes()
+    // {
+    //     return view('frontend.products.pipes-tubes.welded-pipes');
+    // }
+
+    // public function seamlessPipes()
+    // {
+    //     return view('frontend.products.pipes-tubes.seamless-pipes');
+    // }
+    // public function boilerHeatExchangerTubes()
+    // {
+    //     return view('frontend.products.pipes-tubes.boiler-heat-exchanger-tubes');
+    // }
+
+    // public function hollowSectionPipe()
+    // {
+    //     return view('frontend.products.pipes-tubes.hollow-section-pipe');
+    // }
+
+    // public function capillaries()
+    // {
+    //     return view('frontend.products.pipes-tubes.capillaries');
+    // }
+
+    // public function uBentTubes()
+    // {
+    //     return view('frontend.products.pipes-tubes.u-bent-tubes');
+    // }
+
+
+
+    // =======================
+    
+    public function pipesTubesProduct($country = null, $slug = null){
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
+
+        return view('frontend.products.pipes-tubes.' . $slug, compact('slug', 'country'));
+        
+    }
+    public function weldedPipesProduct($country = null, $slug = null){
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
+
+        return view('frontend.products.pipes-tubes.welded-pipes.' . $slug, compact('slug', 'country'));
+        
     }
 
-    public function seamlessPipes()
-    {
-        return view('frontend.products.pipes-tubes.seamless-pipes');
-    }
 
-    public function capillaries()
-    {
-        return view('frontend.products.pipes-tubes.capillaries');
-    }
 
-    public function hollowSectionPipe()
-    {
-        return view('frontend.products.pipes-tubes.hollow-section-pipe');
-    }
+    // public function SS304ERWPipes()
+    // {
+    //     return view('frontend.products.pipes-tubes.welded-pipes.ss304-erw-pipes');
+    // }
 
-    public function uBentTubes()
-    {
-        return view('frontend.products.pipes-tubes.u-bent-tubes');
-    }
+    // public function SS316ERWPipes()
+    // {
+    //     return view('frontend.products.pipes-tubes.welded-pipes.ss316-erw-pipes');
+    // }
 
-    public function boilerHeatExchangerTubes()
-    {
-        return view('frontend.products.pipes-tubes.boiler-heat-exchanger-tubes');
-    }
-
-    public function SS304ERWPipes()
-    {
-        return view('frontend.products.pipes-tubes.welded-pipes.SS-304-ERW-PIPES');
-    }
-
-    public function SS316ERWPipes()
-    {
-        return view('frontend.products.pipes-tubes.welded-pipes.SS-316-ERW-PIPES');
-    }
-
-    public function ss304WeldedPipes()
-    {
-        return view('frontend.products.pipes-tubes.welded-pipes.ss-304-welded-pipes');
-    }
+    // public function ss304WeldedPipes()
+    // {
+    //     return view('frontend.products.pipes-tubes.welded-pipes.ss304-welded-pipes');
+    // }
 
     public function ss304SemiWeldedPipes()
     {
-        return view('frontend.products.pipes-tubes.welded-pipes.ss-304-semi-welded-pipes');
+        return view('frontend.products.pipes-tubes.welded-pipes.ss304-semi-welded-pipes');
     }
 
     public function ss316WeldedPipes()
     {
-        return view('frontend.products.pipes-tubes.welded-pipes.ss-316-welded-pipes');
+        return view('frontend.products.pipes-tubes.welded-pipes.ss316-welded-pipes');
     }
 
     public function ss316SemiWeldedPipes()
     {
-        return view('frontend.products.pipes-tubes.welded-pipes.ss-316-semi-welded-pipes');
+        return view('frontend.products.pipes-tubes.welded-pipes.ss316-semi-welded-pipes');
     }
+    // ========================
+
 
     public function astmSa106GradeBSeamlessPipes()
     {

@@ -1114,10 +1114,10 @@
                                                         <thead class="table-dark text-container">
                                                             <tr>
                                                                 <th scope="col" style="width: 50%;">Choose <a
-                                                                        href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless
+                                                                        href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless
                                                                         Pipes</a> for</th>
                                                                 <th scope="col" style="width: 50%;">Choose <a
-                                                                        href="{{ route('products.pipes-tubes.welded-pipes') }}">ERW
+                                                                        href="{{ url('products/pipes-tubes/welded-pipes') }}">ERW
                                                                         Pipes</a> for</th>
                                                             </tr>
                                                         </thead>

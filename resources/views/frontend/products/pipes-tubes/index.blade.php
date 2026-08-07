@@ -28,7 +28,7 @@
 
             <div class="row g-4">
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.welded-pipes') }}" class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/pipes-tubes/welded-pipes') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
@@ -44,7 +44,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
@@ -59,7 +59,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.capillaries') }}" class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/pipes-tubes/capillaries') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
@@ -74,7 +74,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.hollow-section-pipe') }}"
+                    <a href="{{ url('products/pipes-tubes/hollow-section-pipe') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -90,7 +90,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.u-bent-tubes') }}" class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/pipes-tubes/u-bent-tubes') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
@@ -105,7 +105,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}"
+                    <a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">

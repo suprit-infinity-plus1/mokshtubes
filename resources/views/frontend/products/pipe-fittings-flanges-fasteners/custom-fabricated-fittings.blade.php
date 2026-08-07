@@ -632,7 +632,7 @@
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-building"></i></div>
                         <h5>State of the Art Facilities: Advanced CNC, bending, and <a
-                                href="{{ route('products.pipes-tubes.welded-pipes') }}">welding</a> capabilities.</h5>
+                                href="{{ url('products/pipes-tubes/welded-pipes') }}">welding</a> capabilities.</h5>
                     </div>
                 </div>
 

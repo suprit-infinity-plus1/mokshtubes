@@ -16,7 +16,7 @@
                     <!-- Short Overview -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        ASTM A193 Grade B7 Stud Bolts are high-strength <a href="{{ route('materials.engineering-Steels') }}" class="text-white text-decoration-underline">alloy steel</a> <a href="{{ route('products.fasteners') }}" class="text-white text-decoration-underline">fasteners</a> designed for high-pressure and high-temperature applications. Manufactured from chromium-molybdenum alloy steel and heat-treated for superior mechanical strength, B7 studs are widely used in <a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-white text-decoration-underline">flanges</a>, <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-white text-decoration-underline">pressure vessels</a>, <a href="{{ route('products.pipe-fittings') }}" class="text-white text-decoration-underline">valves</a>, and oil & gas equipment.<br>
+                        ASTM A193 Grade B7 Stud Bolts are high-strength <a href="{{ route('materials.engineering-Steels') }}" class="text-white text-decoration-underline">alloy steel</a> <a href="{{ route('products.fasteners') }}" class="text-white text-decoration-underline">fasteners</a> designed for high-pressure and high-temperature applications. Manufactured from chromium-molybdenum alloy steel and heat-treated for superior mechanical strength, B7 studs are widely used in <a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-white text-decoration-underline">flanges</a>, <a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-white text-decoration-underline">pressure vessels</a>, <a href="{{ route('products.pipe-fittings') }}" class="text-white text-decoration-underline">valves</a>, and oil & gas equipment.<br>
                         At Moksh Tubes & Fittings LLP, we supply premium-quality ASTM A193 B7 stud bolts with complete traceability and EN 10204 3.1 certification for domestic and export industrial projects.
                     </p>
                 </div>
@@ -234,7 +234,7 @@
                         <h5>Oil & Gas Industry</h5>
                         <ul>
                             <li><a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-decoration-none">Flange bolting</a></li>
-                            <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none">Pipeline connections</a></li>
+                            <li><a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-decoration-none">Pipeline connections</a></li>
                             <li><a href="{{ route('products.special-fabricated') }}" class="text-decoration-none">Refinery equipment</a></li>
                         </ul>
                     </div>
@@ -245,8 +245,8 @@
                         <div class="application-icon"><i class="bi bi-building"></i></div>
                         <h5>Petrochemical Plants</h5>
                         <ul>
-                            <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none">Pressure vessels</a></li>
-                            <li><a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}" class="text-decoration-none">Heat exchangers</a></li>
+                            <li><a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-decoration-none">Pressure vessels</a></li>
+                            <li><a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}" class="text-decoration-none">Heat exchangers</a></li>
                         </ul>
                     </div>
                 </div>
@@ -257,7 +257,7 @@
                         <h5>Power Plants</h5>
                         <ul>
                             <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}" class="text-decoration-none">Turbine connections</a></li>
-                            <li><a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}" class="text-decoration-none">Boiler bolting systems</a></li>
+                            <li><a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}" class="text-decoration-none">Boiler bolting systems</a></li>
                         </ul>
                     </div>
                 </div>

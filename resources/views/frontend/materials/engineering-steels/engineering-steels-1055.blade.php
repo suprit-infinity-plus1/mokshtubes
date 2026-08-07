@@ -88,7 +88,7 @@
                                 <a href="{{ route('products.bars-rods.round-bars') }}">round bars</a>,
                                 <a href="{{ route('products.bars-rods.flat-bars') }}">flat bars</a>,
                                 hex bars, square bars, plates, sheets, coils, strips, seamless pipes,
-                                <a href="{{ route('products.pipes-tubes.welded-pipes') }}">welded tubes</a>,
+                                <a href="{{ url('products/pipes-tubes/welded-pipes') }}">welded tubes</a>,
                                 and forged components.
                             </strong>
                             These products are available in annealed, normalized, hot-rolled, cold-drawn, and fully

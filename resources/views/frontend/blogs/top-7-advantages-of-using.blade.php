@@ -234,7 +234,7 @@
                                                 customize, and weld. Stainless steel 316L is highly fabrication-friendly,
                                                 offering excellent weldability. The lower carbon content in 316L minimizes
                                                 carbide precipitation during <a
-                                                    href="{{ route('products.pipes-tubes.welded-pipes') }}">welding</a>,
+                                                    href="{{ url('products/pipes-tubes/welded-pipes') }}">welding</a>,
                                                 which helps maintain its corrosion
                                                 resistance in welded components.
                                             </p>

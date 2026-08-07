@@ -118,7 +118,7 @@
                                                     can be finished in various ways from a matte brush to a mirror polish to
                                                     suit different design needs. This versatility extends to its
                                                     fabrication, as it can be easily <a
-                                                        href="{{ route('products.pipes-tubes.welded-pipes') }}">welded</a>,
+                                                        href="{{ url('products/pipes-tubes/welded-pipes') }}">welded</a>,
                                                     bent, and formed into complex
                                                     shapes.
                                                 </p>

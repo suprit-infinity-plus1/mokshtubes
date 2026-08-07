@@ -47,8 +47,8 @@
                                             water to your home, transporting oil and gas across continents, or handling
                                             chemicals in industrial plants, pipes are everywhere. And when it comes to
                                             choosing the right type, two names dominate the conversation <a
-                                                href="{{ route('products.pipes-tubes.welded-pipes') }}">welded pipes</a> and
-                                            <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">seamless pipes</a>.
+                                                href="{{ url('products/pipes-tubes/welded-pipes') }}">welded pipes</a> and
+                                            <a href="{{ url('products/pipes-tubes/seamless-pipes') }}">seamless pipes</a>.
                                         </p>
                                     </div>
                                     <div class="text">
@@ -77,7 +77,7 @@
 
                                         <div class="text">
                                             <p>
-                                                <a href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded pipes</a>
+                                                <a href="{{ url('products/pipes-tubes/welded-pipes') }}">Welded pipes</a>
                                                 are made by rolling a flat sheet of metal into a tube and
                                                 welding the edges together.
                                             </p>
@@ -135,7 +135,7 @@
 
                                         <div class="text">
                                             <p>
-                                                <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless
+                                                <a href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless
                                                     pipes</a> are made from a solid piece of steel that’s heated and
                                                 pierced to create a hollow tube no welding required.
                                             </p>
@@ -247,8 +247,8 @@
                                         <div class="text">
                                             <p>
                                                 We provide <a
-                                                    href="{{ route('products.pipes-tubes.welded-pipes') }}">welded</a> and
-                                                <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">seamless
+                                                    href="{{ url('products/pipes-tubes/welded-pipes') }}">welded</a> and
+                                                <a href="{{ url('products/pipes-tubes/seamless-pipes') }}">seamless
                                                     pipes</a> in materials like stainless steel,
                                                 duplex, super duplex, <a
                                                     href="{{ route('materials.nickel-Based-Superalloys') }}">nickel
@@ -380,7 +380,7 @@
                                                         <div class="accord-content">
                                                             <p>
                                                                 <a
-                                                                    href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless
+                                                                    href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless
                                                                     pipes</a> are stronger because they don’t have a welded
                                                                 seam, making them ideal for high pressure and high
                                                                 temperature applications.
@@ -397,7 +397,7 @@
                                                             <p>
                                                                 Absolutely! For non critical applications and larger
                                                                 diameters,<a
-                                                                    href="{{ route('products.pipes-tubes.welded-pipes') }}">
+                                                                    href="{{ url('products/pipes-tubes/welded-pipes') }}">
                                                                     welded pipes</a> are cost effective and reliable.
                                                             </p>
                                                         </div>

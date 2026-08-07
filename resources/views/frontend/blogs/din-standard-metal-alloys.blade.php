@@ -232,7 +232,7 @@
                                                     Power generation turbines require materials that maintain strength and
                                                     resist oxidation at temperatures exceeding 1000°C.</li>
                                                 <li><strong>Application: Stainless pipes for <a
-                                                            href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">boilers</a>
+                                                            href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}">boilers</a>
                                                         - </strong> Steam
                                                     generation systems need components that resist high temperature
                                                     corrosion while maintaining pressure containment integrity.</li>

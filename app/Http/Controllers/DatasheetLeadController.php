@@ -44,25 +44,25 @@ class DatasheetLeadController extends Controller
             'email' => 'required|email',
             'page_path' => 'required|string',
         ]);
-
+        
         // Find datasheet by page identifier
         $datasheet = Datasheet::where('page_path', $request->page_path)
-            ->where('active', 1)
-            ->first();
-
+        ->where('active', 1)
+        ->first();
+        
         if (! $datasheet) {
             abort(404, 'Datasheet not available.');
         }
-
+        
         // Store lead (UNCHANGED LOGIC)
         DatasheetLead::create([
             'email' => $request->email,
             // 'pdf' => $datasheet->file_path, // store actual file path
             'pdf' => $datasheet->page_path, // store actual page path
         ]);
-
+        
         $filePath = storage_path('app/public/'.$datasheet->file_path);
-
+        
         if (! file_exists($filePath)) {
             abort(404, 'Requested datasheet not found.');
         }

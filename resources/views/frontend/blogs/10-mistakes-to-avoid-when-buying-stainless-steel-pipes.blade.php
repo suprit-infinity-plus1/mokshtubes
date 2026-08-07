@@ -202,8 +202,8 @@
                                             <p>
                                                 A common misconception is that all stainless steel pipes offer the same
                                                 performance characteristics. In fact, the choice between <a
-                                                    href="{{ route('products.pipes-tubes.welded-pipes') }}">welded</a> and
-                                                <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">seamless
+                                                    href="{{ url('products/pipes-tubes/welded-pipes') }}">welded</a> and
+                                                <a href="{{ url('products/pipes-tubes/seamless-pipes') }}">seamless
                                                     pipes</a> can make a significant impact on safety, longevity, and
                                                 operational
                                                 reliability.
@@ -211,7 +211,7 @@
                                         </div>
                                         <div class="text">
                                             <p>
-                                                <a href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded pipes</a>
+                                                <a href="{{ url('products/pipes-tubes/welded-pipes') }}">Welded pipes</a>
                                                 are created by rolling stainless steel sheets and welding the
                                                 seam. They typically cost less and can be <a
                                                     href="{{ route('products') }}">produced</a> more rapidly in larger
@@ -222,7 +222,7 @@
                                         </div>
                                         <div class="text">
                                             <p>
-                                                <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless
+                                                <a href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless
                                                     pipes</a>, made from solid billets that are heated then pierced and
                                                 stretched into tubes, contain no weld seam. This results in uniform strength
                                                 across the pipe, making them the preferred choice for high-pressure steam
@@ -610,11 +610,11 @@
                                                         <div class="accord-content">
                                                             <p>
                                                                 It depends on your application. <a
-                                                                    href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless
+                                                                    href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless
                                                                     pipes</a> are preferred
                                                                 for high-pressure and high-temperature systems due to their
                                                                 uniform strength, while <a
-                                                                    href="{{ route('products.pipes-tubes.welded-pipes') }}">welded
+                                                                    href="{{ url('products/pipes-tubes/welded-pipes') }}">welded
                                                                     pipes</a> work well in less
                                                                 demanding settings and larger diameters where cost is a
                                                                 concern.

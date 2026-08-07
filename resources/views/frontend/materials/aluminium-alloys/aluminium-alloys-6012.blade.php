@@ -733,8 +733,8 @@
                                 <ul>
                                     <li>Sheets, Plates, Coils & Strips.</li>
                                     <li>Pipes & Tubes (<a
-                                            href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless</a>, <a
-                                            href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded</a>, Heat
+                                            href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless</a>, <a
+                                            href="{{ url('products/pipes-tubes/welded-pipes') }}">Welded</a>, Heat
                                         Exchanger, U-Bend).</li>
                                     <li>Bars & Rods (Round, Hex, Flat, Square).</li>
                                     <li>Pipe Fittings, Flanges, and Fasteners.</li>

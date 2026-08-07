@@ -103,7 +103,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Type</td>
-                                    <td><a href="{{ route('products.pipes-tubes.welded-pipes') }}"
+                                    <td><a href="{{ url('products/pipes-tubes/welded-pipes') }}"
                                             class="text-decoration-none">Semi Welded / Light Welded</a></td>
                                 </tr>
                                 <tr class="t-row">

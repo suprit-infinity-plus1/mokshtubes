@@ -14,8 +14,8 @@
                     <h1>ASTM SA106 GR B SEAMLESS PIPES</h1>
                     <!-- Short Overview -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        ASTM SA106 Grade B Seamless Pipes are high-temperature <a class="text-white text-decoration-underline" href="{{ route('materials') }}">carbon steel</a> pipes widely used in refineries, power plants, oil & gas industries, and petrochemical applications. These pipes are designed to withstand high pressure and elevated temperatures, making them ideal for <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}" class="text-white text-decoration-underline">steam lines, boiler piping</a>, and process plants.<br>
-                        At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply premium-quality SA106 Gr B <a class="text-white text-decoration-underline" href="{{ route('products.pipes-tubes.seamless-pipes') }}">seamless pipes</a> manufactured in compliance with international standards for domestic and <a href="{{ route('contact-us') }}" class="text-white text-decoration-underline">export</a> industrial projects.
+                        ASTM SA106 Grade B Seamless Pipes are high-temperature <a class="text-white text-decoration-underline" href="{{ route('materials') }}">carbon steel</a> pipes widely used in refineries, power plants, oil & gas industries, and petrochemical applications. These pipes are designed to withstand high pressure and elevated temperatures, making them ideal for <a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}" class="text-white text-decoration-underline">steam lines, boiler piping</a>, and process plants.<br>
+                        At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply premium-quality SA106 Gr B <a class="text-white text-decoration-underline" href="{{ url('products/pipes-tubes/seamless-pipes') }}">seamless pipes</a> manufactured in compliance with international standards for domestic and <a href="{{ route('contact-us') }}" class="text-white text-decoration-underline">export</a> industrial projects.
                     </p>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Type</td>
-                                    <td><a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none text-dark">Seamless</a></td>
+                                    <td><a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-decoration-none text-dark">Seamless</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Manufacturing</td>
@@ -283,8 +283,8 @@
                         <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
                         <h5>Power Plants</h5>
                         <ul>
-                            <li>High-pressure <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">steam lines</a></li>
-                            <li><a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">Boiler piping</a></li>
+                            <li>High-pressure <a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}">steam lines</a></li>
+                            <li><a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}">Boiler piping</a></li>
                         </ul>
                     </div>
                 </div>
@@ -306,7 +306,7 @@
                         <h5>Industrial Plants</h5>
                         <ul>
                             <li>Process piping</li>
-                            <li><a href="{{ route('products.pipes-tubes.hollow-section-pipe') }}">Structural</a> high-pressure systems</li>
+                            <li><a href="{{ url('products/pipes-tubes/hollow-section-pipe') }}">Structural</a> high-pressure systems</li>
                         </ul>
                     </div>
                 </div>
@@ -371,7 +371,7 @@
             <div class="section-title center">
                 <h2>Global Packaging & Export</h2>
             </div>
-            <p class="fs-5 mt-3 text-center">We supply ASTM SA106 Grade B <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none">seamless pipes</a> across <a href="{{ route('contact-us') }}">India</a> including Mumbai, Chennai, Ahmedabad, Pune, Hyderabad, and Delhi NCR.</p>
+            <p class="fs-5 mt-3 text-center">We supply ASTM SA106 Grade B <a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-decoration-none">seamless pipes</a> across <a href="{{ route('contact-us') }}">India</a> including Mumbai, Chennai, Ahmedabad, Pune, Hyderabad, and Delhi NCR.</p>
 
             <div class="row g-4 mt-4 justify-content-center text-start">
                 <div class="col-md-6">
@@ -486,7 +486,7 @@
                 <p>
                     Looking for ASTM SA106 Grade B Seamless Pipes for oil, gas, or power projects?<br>
                     📞 Contact <strong><a href="{{ route('index') }}" class="text-decoration-none">Moksh Tubes & Fittings LLP</a></strong><br>
-                    We supply high-quality <a href="{{ route('materials') }}" class="text-decoration-none">carbon steel</a> <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-decoration-none">seamless pipes</a> designed for performance and reliability in high-temperature applications.
+                    We supply high-quality <a href="{{ route('materials') }}" class="text-decoration-none">carbon steel</a> <a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-decoration-none">seamless pipes</a> designed for performance and reliability in high-temperature applications.
                 </p>
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn mt-3" data-bs-toggle="modal" data-bs-target="#contactFormModal">
