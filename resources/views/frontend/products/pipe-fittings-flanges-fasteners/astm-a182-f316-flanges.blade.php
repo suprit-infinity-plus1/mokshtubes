@@ -8,7 +8,8 @@
 @section('content')
 
     <!--Start breadcrumb area (Hero Section)-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/fasteners/astm-a182-f316-flanges_11zon.jpg);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/fasteners/astm-a182-f316-flanges_11zon.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -16,8 +17,16 @@
                     <!-- Short Introduction -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        ASTM A182 F316 Flanges are high-performance <a href="{{ route('materials.austenitic-stainless-Steel') }}" style="color: blue; text-decoration: underline;">stainless steel</a> flanges known for their <br>excellent corrosion resistance, strength, and durability in aggressive environments. <br>These flanges are widely used in <a href="{{ route('products.pipes-tubes') }}" style="color: blue; text-decoration: underline;">industries</a> where resistance to chlorides, chemicals, and <br>high temperatures is essential.
-                        At Moksh Tubes & Fittings LLP, we are a trusted ASTM A182 F316 flange supplier and <br>exporter, offering precision-manufactured flanges in compliance with ASME, ASTM, ANSI, <br>DIN, and EN standards.
+                        ASTM A182 F316 Flanges are high-performance <a
+                            href="{{ route('materials.austenitic-stainless-Steel') }}"
+                            style="color: blue; text-decoration: underline;">stainless steel</a> flanges known for their
+                        <br>excellent corrosion resistance, strength, and durability in aggressive environments. <br>These
+                        flanges are widely used in <a href="{{ route('products.pipes-tubes') }}"
+                            style="color: blue; text-decoration: underline;">industries</a> where resistance to chlorides,
+                        chemicals, and <br>high temperatures is essential.
+                        At Moksh Tubes & Fittings LLP, we are a trusted ASTM A182 F316 flange supplier and <br>exporter,
+                        offering precision-manufactured flanges in compliance with ASME, ASTM, ANSI, <br>DIN, and EN
+                        standards.
                     </p>
                     <!-- End extra content -->
                 </div>
@@ -57,26 +66,35 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/fasteners/astm-a182-f316-flanges_11zon.jpg') }}" alt="ASTM A182 F316 Flanges Overview"
-                        class="img-fluid rounded shadow-sm" loading="lazy">
+                    <img src="{{ asset('assets/images/fasteners/astm-a182-f316-flanges_11zon.jpg') }}"
+                        alt="ASTM A182 F316 Flanges Overview" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-3 text-justify" style="text-align: justify;">
-                            <strong class="text-black">ASTM A182 F316</strong> is an <a href="{{ route('materials.austenitic-stainless-Steel') }}" style="color: blue;">austenitic stainless steel</a> grade containing molybdenum, which enhances resistance to pitting and crevice corrosion, especially in chloride environments.
+                            <strong class="text-black">ASTM A182 F316</strong> is an <a
+                                href="{{ route('materials.austenitic-stainless-Steel') }}" style="color: blue;">austenitic
+                                stainless steel</a> grade containing molybdenum, which enhances resistance to pitting and
+                            crevice corrosion, especially in chloride environments.
                         </p>
 
                         <p class="fs-6 mb-2">F316 flanges are widely preferred over 304 due to:</p>
                         <ul class="fs-6 mb-3 list-unstyled">
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Better corrosion resistance</li>
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Improved performance in harsh environments</li>
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Higher durability in marine and <a href="{{ url('products/pipes-tubes/welded-pipes') }}" style="color: blue;">chemical industries</a></li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Better corrosion
+                                resistance</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Improved performance in
+                                harsh environments</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Higher durability in
+                                marine and <a href="{{ url('products/pipes-tubes/welded-pipes') }}"
+                                    style="color: blue;">chemical industries</a></li>
                         </ul>
 
                         <p class="fs-6 text-justify" style="text-align: justify;">
-                            These <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}" style="color: blue;">flanges</a> are ideal for critical piping systems where corrosion resistance is a priority.
+                            These <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}"
+                                style="color: blue;">flanges</a> are ideal for critical piping systems where corrosion
+                            resistance is a priority.
                         </p>
                     </div>
                 </div>
@@ -155,7 +173,10 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Type</strong></td>
-                                    <td>WN, SORF, <a href="{{ route('products.flanges.blind-flanges') }}" style="color: blue; text-decoration: none;">Blind</a>, Socket Weld, Threaded, <a href="{{ route('products.flanges.lap-joint-flanges') }}" style="color: blue; text-decoration: none;">Lap Joint</a></td>
+                                    <td>WN, SORF, <a href="{{ url('products/flanges/blind-flanges') }}"
+                                            style="color: blue; text-decoration: none;">Blind</a>, Socket Weld, Threaded, <a
+                                            href="{{ url('products/flanges/lap-joint-flanges') }}"
+                                            style="color: blue; text-decoration: none;">Lap Joint</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Sizes</strong></td>
@@ -171,7 +192,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Material</strong></td>
-                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}" style="color: blue; text-decoration: none;">Stainless Steel F316</a></td>
+                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}"
+                                            style="color: blue; text-decoration: none;">Stainless Steel F316</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Finish</strong></td>
@@ -186,7 +208,7 @@
     </section>
 
     <!-- 4. Types of F316 Flanges -->
-    
+
 
     <!-- 5. Size Chart -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
@@ -215,14 +237,15 @@
                             </div>
                         </div>
                     </div>
-                    <p class="text-center mt-3 text-muted">For detailed dimension charts including bolt hole patterns and weights, please contact our technical team.</p>
+                    <p class="text-center mt-3 text-muted">For detailed dimension charts including bolt hole patterns and
+                        weights, please contact our technical team.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- 6. Chemical Composition -->
-    
+
 
     <!-- 7. Applications -->
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
@@ -237,7 +260,8 @@
                         <h5>Chemical Industry</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
                             <li>• Acid processing systems</li>
-                            <li>• <a href="{{ url('products/pipes-tubes/welded-pipes') }}" style="color: blue;">Chemical pipelines</a></li>
+                            <li>• <a href="{{ url('products/pipes-tubes/welded-pipes') }}" style="color: blue;">Chemical
+                                    pipelines</a></li>
                         </ul>
                     </div>
                 </div>
@@ -284,7 +308,7 @@
     </section>
 
     <!-- 8. Industries Served -->
-    
+
 
     <!-- 9. Manufacturing Process -->
     <!-- 10. Packaging & Export -->
@@ -294,7 +318,8 @@
                 <h2>Packaging & Export</h2>
             </div>
             <p class="fs-6 text-center text-muted mb-4">
-                We are a reliable ASTM A182 F316 flange supplier and exporter, supplying globally. <br>Trusted by global EPC contractors and industrial buyers.
+                We are a reliable ASTM A182 F316 flange supplier and exporter, supplying globally. <br>Trusted by global EPC
+                contractors and industrial buyers.
             </p>
 
             <div class="row g-4 justify-content-center">
@@ -336,15 +361,19 @@
                     </div>
                     <ul class="fs-6 list-unstyled mb-5">
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Superior corrosion resistance compared to <a href="{{ route('materials.austenitic-stainless-Steel') }}" style="color: blue; text-decoration: none;">304</a></li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Superior corrosion resistance
+                            compared to <a href="{{ route('materials.austenitic-stainless-Steel') }}"
+                                style="color: blue; text-decoration: none;">304</a></li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Ideal for harsh and marine environments</li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Ideal for harsh and marine
+                            environments</li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
                                 class="bi bi-check-circle-fill text-primary me-2"></i> Long-lasting performance</li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
                                 class="bi bi-check-circle-fill text-primary me-2"></i> Low maintenance</li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Excellent strength and durability</li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Excellent strength and durability
+                        </li>
                     </ul>
 
                     <div class="section-title mb-4">
@@ -383,21 +412,30 @@
                             </tbody>
                         </table>
                     </div>
-                    <p class="fs-6 mt-3 text-muted"><strong>Note:</strong> F316 is preferred for corrosive and marine applications.</p>
+                    <p class="fs-6 mt-3 text-muted"><strong>Note:</strong> F316 is preferred for corrosive and marine
+                        applications.</p>
                 </div>
 
                 <div id="buying-guide" class="col-lg-6">
                     <div class="p-4 bg-white rounded shadow-sm border-start border-4 border-warning h-100">
                         <h3 class="fw-bold mb-4" style="color: #174268;">Buying Guide</h3>
-                        <p class="fs-6 text-muted">Before selecting F316 flanges or other <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}" style="color: blue; text-decoration: underline;">pipe fittings</a>, consider:</p>
+                        <p class="fs-6 text-muted">Before selecting F316 flanges or other <a
+                                href="{{ route('products.pipe-fittings-flanges-fasteners') }}"
+                                style="color: blue; text-decoration: underline;">pipe fittings</a>, consider:</p>
                         <ul class="fs-6 list-unstyled font-weight-bold">
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Check application environment</li>
+                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Check application
+                                environment</li>
                             <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Confirm pressure class</li>
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Select correct flange type</li>
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Verify standards & certifications</li>
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Ensure compatibility with <a href="{{ route('products.pipes-tubes') }}" style="color: blue;">piping system</a></li>
+                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Select correct flange type
+                            </li>
+                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Verify standards &
+                                certifications</li>
+                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Ensure compatibility with
+                                <a href="{{ route('products.pipes-tubes') }}" style="color: blue;">piping system</a>
+                            </li>
                         </ul>
-                        <p class="fs-6 mt-4 fw-bold p-3 bg-light rounded border text-center border-warning">We help you choose the right flange solution for your project.</p>
+                        <p class="fs-6 mt-4 fw-bold p-3 bg-light rounded border text-center border-warning">We help you
+                            choose the right flange solution for your project.</p>
                     </div>
                 </div>
             </div>
@@ -414,7 +452,8 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <ul class="fs-6 list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Dimensional inspection</li>
+                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Dimensional inspection
+                                    </li>
                                     <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • PMI testing</li>
                                 </ul>
                             </div>
@@ -430,7 +469,8 @@
                                 </ul>
                             </div>
                         </div>
-                        <p class="fs-6 mt-4 fw-bold text-success text-center"><i class="bi bi-patch-check-fill me-2"></i> EN 10204 3.1 certification available.</p>
+                        <p class="fs-6 mt-4 fw-bold text-success text-center"><i class="bi bi-patch-check-fill me-2"></i> EN
+                            10204 3.1 certification available.</p>
                     </div>
                 </div>
             </div>
@@ -524,7 +564,9 @@
                 <h2>Request a Quote for ASTM A182 F316 Flanges</h2>
                 <p>
                     Looking for a reliable F316 flange supplier & exporter?<br>
-                    Contact <a href="{{ route('contact-us') }}" style="color: blue; text-decoration: underline;"><strong>Moksh Tubes & Fittings LLP</strong></a> for bulk supply, custom sizes, and fast delivery. Get the best price today.
+                    Contact <a href="{{ route('contact-us') }}"
+                        style="color: blue; text-decoration: underline;"><strong>Moksh Tubes & Fittings LLP</strong></a> for
+                    bulk supply, custom sizes, and fast delivery. Get the best price today.
                 </p>
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
@@ -539,38 +581,37 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-            {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [
+                @verbatim
                     {
-                        "@type": "Question",
-                        "name": "What is ASTM A182 F316?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "It is a stainless steel grade with molybdenum for improved corrosion resistance."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Where are F316 flanges used?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "In chemical, marine, and high-corrosion environments."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Do you export F316 flanges?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes, we export globally including GCC countries."
-                        }
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "What is ASTM A182 F316?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "It is a stainless steel grade with molybdenum for improved corrosion resistance."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Where are F316 flanges used?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "In chemical, marine, and high-corrosion environments."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you export F316 flanges?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we export globally including GCC countries."
+                                }
+                            }
+                        ]
                     }
-                ]
-            }
-        @endverbatim
-    </script>
+                @endverbatim
+            </script>
 @endsection
-

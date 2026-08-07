@@ -1126,24 +1126,26 @@ class MainController extends Controller
 
 
     // =======================
-    
-    public function pipesTubesProduct($country = null, $slug = null){
+
+    public function pipesTubesProduct($country = null, $slug = null)
+    {
         if ($slug === null) {
             $slug = $country;
         }
         $country = request()->route('country');
 
         return view('frontend.products.pipes-tubes.' . $slug, compact('slug', 'country'));
-        
+
     }
-    public function weldedPipesProduct($country = null, $slug = null){
+    public function weldedPipesProduct($country = null, $slug = null)
+    {
         if ($slug === null) {
             $slug = $country;
         }
         $country = request()->route('country');
 
         return view('frontend.products.pipes-tubes.welded-pipes.' . $slug, compact('slug', 'country'));
-        
+
     }
 
 
@@ -1163,20 +1165,20 @@ class MainController extends Controller
     //     return view('frontend.products.pipes-tubes.welded-pipes.ss304-welded-pipes');
     // }
 
-    public function ss304SemiWeldedPipes()
-    {
-        return view('frontend.products.pipes-tubes.welded-pipes.ss304-semi-welded-pipes');
-    }
+    // public function ss304SemiWeldedPipes()
+    // {
+    //     return view('frontend.products.pipes-tubes.welded-pipes.ss304-semi-welded-pipes');
+    // }
 
-    public function ss316WeldedPipes()
-    {
-        return view('frontend.products.pipes-tubes.welded-pipes.ss316-welded-pipes');
-    }
+    // public function ss316WeldedPipes()
+    // {
+    //     return view('frontend.products.pipes-tubes.welded-pipes.ss316-welded-pipes');
+    // }
 
-    public function ss316SemiWeldedPipes()
-    {
-        return view('frontend.products.pipes-tubes.welded-pipes.ss316-semi-welded-pipes');
-    }
+    // public function ss316SemiWeldedPipes()
+    // {
+    //     return view('frontend.products.pipes-tubes.welded-pipes.ss316-semi-welded-pipes');
+    // }
     // ========================
 
 
@@ -1203,25 +1205,36 @@ class MainController extends Controller
         return view('frontend.products.special-fabricated.index', compact('blogs'));
     }
 
-    public function customSteelFurniture()
+    public function specialFabricatedProduct($country = null, $slug = null)
     {
-        return view('frontend.products.special-fabricated.custom-steel-furniture');
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
+
+        return view('frontend.products.special-fabricated.' . $slug, compact('slug', 'country'));
+
     }
 
-    public function fabricatedSsGrills()
-    {
-        return view('frontend.products.special-fabricated.fabricated-ss-grills');
-    }
+    // public function customSteelFurniture()
+    // {
+    //     return view('frontend.products.special-fabricated.custom-steel-furniture');
+    // }
 
-    public function ssrailings()
-    {
-        return view('frontend.products.special-fabricated.ss-railings');
-    }
+    // public function fabricatedSsGrills()
+    // {
+    //     return view('frontend.products.special-fabricated.fabricated-ss-grills');
+    // }
 
-    public function glassrailings()
-    {
-        return view('frontend.products.special-fabricated.glass-railings');
-    }
+    // public function ssrailings()
+    // {
+    //     return view('frontend.products.special-fabricated.ss-railings');
+    // }
+
+    // public function glassrailings()
+    // {
+    //     return view('frontend.products.special-fabricated.glass-railings');
+    // }
 
     public function pipeFittingsFlangesFasteners()
     {
@@ -1235,55 +1248,81 @@ class MainController extends Controller
         return view('frontend.products.pipe-fittings-flanges-fasteners.index', compact('blogs'));
     }
 
-    public function fittingsAndFlanges()
+    public function pipeFittingsFlangesFastenersProduct($country = null, $slug = null)
     {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.fittings-and-flanges');
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
+
+        return view('frontend.products.pipe-fittings-flanges-fasteners.' . $slug, compact('slug', 'country'));
+
     }
 
-    public function flangesAndGaskets()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.flanges-and-gaskets');
-    }
+    // public function fittingsAndFlanges()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.fittings-and-flanges');
+    // }
 
-    public function wnrfFlanges()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.wnrf-flanges');
-    }
+    // public function flangesAndGaskets()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.flanges-and-gaskets');
+    // }
 
-    public function sorfFlanges()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.sorf-flanges');
-    }
+    // public function wnrfFlanges()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.wnrf-flanges');
+    // }
 
-    public function blindFlanges()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.blind-flanges');
-    }
+    // public function sorfFlanges()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.sorf-flanges');
+    // }
 
-    public function ljffFlanges()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.ljff-flanges');
-    }
+    // public function blindFlanges()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.blind-flanges');
+    // }
 
-    public function astmA182F316Flanges()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.astm-a182-f316-flanges');
-    }
+    // public function ljffFlanges()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.ljff-flanges');
+    // }
 
-    public function astmA350Lf2Flanges()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.astm-a350-lf2-flanges');
-    }
+    // public function astmA182F316Flanges()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.astm-a182-f316-flanges');
+    // }
 
-    public function customFabricatedFittings()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings');
-    }
+    // public function astmA350Lf2Flanges()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.astm-a350-lf2-flanges');
+    // }
+
+    // public function customFabricatedFittings()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings');
+    // }
 
     public function fasteners()
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners');
     }
+
+    public function fastenersProduct($country = null, $slug = null)
+    {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
+
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.' . $slug, compact('slug', 'country'));
+
+    }
+
+
+
+
 
     public function astmA193GradeB7StudBolts()
     {
@@ -1295,10 +1334,10 @@ class MainController extends Controller
         return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.grade-b8-stud-bolts');
     }
 
-    public function hexBolts()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.hex-bolts');
-    }
+    // public function hexBolts()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.hex-bolts');
+    // }
 
     public function heavyHexNuts()
     {
@@ -1338,18 +1377,18 @@ class MainController extends Controller
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.asme-sf-467-nuts');
     }
-    public function fullThreadedRods()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.full-threaded-rods');
-    }
-    public function socketHeadCapScrews()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.socket-head-cap-screws');
-    }
-    public function plainWashers()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.plain-washers');
-    }
+    // public function fullThreadedRods()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.full-threaded-rods');
+    // }
+    // public function socketHeadCapScrews()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.socket-head-cap-screws');
+    // }
+    // public function plainWashers()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.plain-washers');
+    // }
 
 
     // ==================================================================
@@ -1359,85 +1398,156 @@ class MainController extends Controller
         return view('frontend.products.pipe-fittings-flanges-fasteners.pipe-fittings');
     }
 
-    public function concentricReducers()
+    public function pipeFittingsProduct($country = null, $slug = null)
     {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.concentric-reducers');
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
+
+        return view('frontend.products.pipe-fittings-flanges-fasteners.' . $slug, compact('slug', 'country'));
+
     }
 
-    public function eccentricReducers()
+    public function pipeFittingsElbowsProducts($country = null, $slug = null)
     {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.eccentric-reducers');
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
+
+        return view('frontend.products.pipe-fittings-flanges-fasteners.' . $slug, compact('slug', 'country'));
+
     }
 
-    public function ninetyDegreeElbows()
+    public function pipeFittingsBendsProducts($country = null, $slug = null)
     {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.90-degree-elbows');
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
+
+        return view('frontend.products.pipe-fittings-flanges-fasteners.' . $slug, compact('slug', 'country'));
+
     }
 
-    public function fortyFiveDegreeElbows()
+    public function pipeFittingsReducersProducts($country = null, $slug = null)
     {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.45-degree-elbows');
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
+
+        return view('frontend.products.pipe-fittings-flanges-fasteners.' . $slug, compact('slug', 'country'));
+
     }
 
-    public function weldolets()
+    public function pipeFittingsOletsProducts($country = null, $slug = null)
     {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.weldolets');
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
+
+        return view('frontend.products.pipe-fittings-flanges-fasteners.' . $slug, compact('slug', 'country'));
+
     }
 
-    public function sockolets()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.sockolets');
-    }
+
+
+    
+
+    // public function concentricReducers()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.concentric-reducers');
+    // }
+
+    // public function eccentricReducers()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.eccentric-reducers');
+    // }
+
+    // public function ninetyDegreeElbows()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.90-degree-elbows');
+    // }
+
+    // public function fortyFiveDegreeElbows()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.45-degree-elbows');
+    // }
+
+    // public function weldolets()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.weldolets');
+    // }
+
+    // public function sockolets()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.sockolets');
+    // }
 
     public function uBends()
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.u-bends');
     }
 
-    public function ninetyDegreeBends()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.90-degree-bends');
-    }
+    // public function ninetyDegreeBends()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.90-degree-bends');
+    // }
 
-    public function fortyFiveDegreeBends()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.45-degree-bends');
-    }
+    // public function fortyFiveDegreeBends()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.45-degree-bends');
+    // }
 
     public function flanges()
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.fittings-and-flanges');
     }
 
-    public function threadedFlanges()
+    public function flangesProduct($country = null, $slug = null)
     {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.threaded-flanges');
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
+
+        return view('frontend.products.pipe-fittings-flanges-fasteners.' . $slug, compact('slug', 'country'));
+
     }
 
-    public function socketWeldFlanges()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.socket-weld-flanges');
-    }
 
-    public function spectacleBlindFlanges()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.spectacle-blind-flanges');
-    }
+    // public function threadedFlanges()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.threaded-flanges');
+    // }
 
-    public function studs()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.studs');
-    }
+    // public function socketWeldFlanges()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.socket-weld-flanges');
+    // }
 
-    public function nuts()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.nuts');
-    }
+    // public function spectacleBlindFlanges()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.spectacle-blind-flanges');
+    // }
 
-    public function allenBolts()
-    {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.allen-bolts');
-    }
+    // public function studs()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.studs');
+    // }
+
+    // public function nuts()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.nuts');
+    // }
+
+    // public function allenBolts()
+    // {
+    //     return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.allen-bolts');
+    // }
 
     public function barsRods()
     {
@@ -1493,41 +1603,54 @@ class MainController extends Controller
         return view('frontend.products.sheets-plates-coils.index', compact('blogs'));
     }
 
-    public function chequeredSheets()
+
+    public function sheetsPlatesCoilsProduct($country = null, $slug = null)
     {
-        return view('frontend.products.sheets-plates-coils.chequered-sheets');
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
+
+        return view('frontend.products.sheets-plates-coils.' . $slug, compact('slug', 'country'));
+
     }
 
-    public function strips()
-    {
-        // dd('I AM HERE');
-        return view('frontend.products.sheets-plates-coils.strips');
-    }
 
-    public function shimsheets()
-    {
-        return view('frontend.products.sheets-plates-coils.shim-sheets');
-    }
+    // public function chequeredSheets()
+    // {
+    //     return view('frontend.products.sheets-plates-coils.chequered-sheets');
+    // }
 
-    public function sheetsandplates()
-    {
-        return view('frontend.products.sheets-plates-coils.sheets-and-plates');
-    }
+    // public function strips()
+    // {
+    //     // dd('I AM HERE');
+    //     return view('frontend.products.sheets-plates-coils.strips');
+    // }
 
-    public function perforatedsheets()
-    {
-        return view('frontend.products.sheets-plates-coils.perforated-sheets');
-    }
+    // public function shimsheets()
+    // {
+    //     return view('frontend.products.sheets-plates-coils.shim-sheets');
+    // }
 
-    public function coils()
-    {
-        return view('frontend.products.sheets-plates-coils.coils');
-    }
+    // public function sheetsandplates()
+    // {
+    //     return view('frontend.products.sheets-plates-coils.sheets-and-plates');
+    // }
 
-    public function claddedplates()
-    {
-        return view('frontend.products.sheets-plates-coils.cladded-plates');
-    }
+    // public function perforatedsheets()
+    // {
+    //     return view('frontend.products.sheets-plates-coils.perforated-sheets');
+    // }
+
+    // public function coils()
+    // {
+    //     return view('frontend.products.sheets-plates-coils.coils');
+    // }
+
+    // public function claddedplates()
+    // {
+    //     return view('frontend.products.sheets-plates-coils.cladded-plates');
+    // }
 
     public function downloadDatasheet()
     {

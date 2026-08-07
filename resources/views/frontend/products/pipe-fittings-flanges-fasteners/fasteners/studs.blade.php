@@ -520,13 +520,13 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('products.fasteners.threaded-rods') }}">
+                            <a class="w-100" href="{{ url('products/fasteners/threaded-rods') }}">
                                 <img class="w-100" src="{{ asset('assets/images/fasteners/full-threaded-rods.png') }}"
                                     alt="Carbon Steel Stud Bolts" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0"><a href="{{ route('products.fasteners.threaded-rods') }}"
+                            <h6 class="mt-0"><a href="{{ url('products/fasteners/threaded-rods') }}"
                                     style="color: inherit; text-decoration: none;">Carbon Steel Stud Bolts</a></h6>
                         </div>
                     </div>

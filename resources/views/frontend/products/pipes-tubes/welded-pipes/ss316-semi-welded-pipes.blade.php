@@ -518,7 +518,7 @@
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h4>Corrosion Resistance</h4>
                         <h5>Better corrosion resistance than <a
-                                href="{{ route('products.pipes-tubes.welded-pipes.ss304-semi-welded-pipes') }}">SS 304</a>
+                                href="{{ url('products/pipes-tubes/welded-pipes/ss304-semi-welded-pipes') }}">SS 304</a>
                         </h5>
                     </div>
                 </div>
@@ -704,7 +704,7 @@
                                 <p>
                                     Semi welded pipes are lighter and mainly used for structural and decorative purposes,
                                     while <a
-                                        href="{{ route('products.pipes-tubes.welded-pipes.ss316-welded-pipes') }}">fully
+                                        href="{{ url('products/pipes-tubes/welded-pipes/ss316-welded-pipes') }}">fully
                                         welded</a> ASTM pipes are used for
                                     high-pressure industrial systems.
                                 </p>

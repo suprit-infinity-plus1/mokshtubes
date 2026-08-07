@@ -1,11 +1,15 @@
 @extends('layouts.master')
 @section('title', 'Industrial Pipes, Tubes & Fittings – Mokshtubes LLP') <!-- 52 characters -->
-@section('meta_description',
+@section(
+    'meta_description',
     'Explore pipes, tubes, fittings, flanges & fasteners in stainless steel, nickel alloys, and
-    titanium. Global delivery.') <!-- 153 characters -->
-@section('meta_keywords',
+    titanium. Global delivery.'
+) <!-- 153 characters -->
+@section(
+    'meta_keywords',
     'Pipe Fittings, Flanges, Fasteners, Stainless Steel Fittings, Nickel Alloy Fittings, Titanium
-    Fittings, Custom Fabricated Fittings')
+    Fittings, Custom Fabricated Fittings'
+)
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area"
@@ -30,55 +34,55 @@
 
             <div class="row g-4">
                 {{-- @php
-                    $types = [
-                        [
-                            'name' => 'Fittings And Flanges',
-                            'slug' => 'fittings-and-flanges',
-                            'image' => 'assets/images/product/flangs/Flanges-&-Pipe-Fittings.webp',
-                        ],
-                        [
-                            'name' => 'Flanges And Gaskets',
-                            'slug' => 'flanges-and-gaskets',
-                            'image' => 'assets/images/product/flangs/Flange-Gaskets.webp',
-                        ],
-                        [
-                            'name' => 'Custom Fabricated Fittings',
-                            'slug' => 'custom-fabricated-fittings',
-                            'image' => 'assets/images/product/flangs/custom-fabricated-fittings.webp',
-                        ],
-                        [
-                            'name' => 'Fasteners',
-                            'slug' => 'fasteners',
-                            'image' => 'assets/images/product/flangs/FASTENERS.webp',
-                        ],
-                        [
-                            'name' => 'Pipe Fittings ',
-                            'slug' => 'pipe-fittings ',
-                            'image' => 'assets/images/product/flangs/Pipe-Fittings.webp',
-                        ],
-                    ];
+                $types = [
+                [
+                'name' => 'Fittings And Flanges',
+                'slug' => 'fittings-and-flanges',
+                'image' => 'assets/images/product/flangs/Flanges-&-Pipe-Fittings.webp',
+                ],
+                [
+                'name' => 'Flanges And Gaskets',
+                'slug' => 'flanges-and-gaskets',
+                'image' => 'assets/images/product/flangs/Flange-Gaskets.webp',
+                ],
+                [
+                'name' => 'Custom Fabricated Fittings',
+                'slug' => 'custom-fabricated-fittings',
+                'image' => 'assets/images/product/flangs/custom-fabricated-fittings.webp',
+                ],
+                [
+                'name' => 'Fasteners',
+                'slug' => 'fasteners',
+                'image' => 'assets/images/product/flangs/FASTENERS.webp',
+                ],
+                [
+                'name' => 'Pipe Fittings ',
+                'slug' => 'pipe-fittings ',
+                'image' => 'assets/images/product/flangs/Pipe-Fittings.webp',
+                ],
+                ];
                 @endphp --}}
 
                 {{-- @foreach ($types as $type)
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <a href="{{ url('/products/pipe-fittings-flanges-fasteners/' . $type['slug']) }}"
-                            class="text-decoration-none d-block h-100">
-                            <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-                                style="border-color: #db7227; transition: 0.3s;">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ url('/products/pipe-fittings-flanges-fasteners/' . $type['slug']) }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
 
-                                <img src="{{ asset($type['image'] ?? 'assets/images/default.webp') }}"
-                                    alt="{{ $type['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <img src="{{ asset($type['image'] ?? 'assets/images/default.webp') }}" alt="{{ $type['name'] }}"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
 
-                                <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                                    style="background-color: #174268; color: #fff; display: inline-block;">
-                                    {{ $type['name'] }}
-                                </h6>
-                            </div>
-                        </a>
-                    </div>
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                {{ $type['name'] }}
+                            </h6>
+                        </div>
+                    </a>
+                </div>
                 @endforeach --}}
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.flanges.flanges-and-gaskets') }}"
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fittings-and-flanges') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -126,8 +130,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners') }}"
-                        class="text-decoration-none d-block h-100">
+                    <a href="{{ route('products.fasteners') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
@@ -142,8 +145,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings') }}"
-                        class="text-decoration-none d-block h-100">
+                    <a href="{{ route('products.pipe-fittings') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
@@ -159,8 +161,7 @@
                 </div>
                 <!-- New Flanges -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.flanges.weld-neck-flanges') }}"
-                        class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/flanges/weld-neck-flanges') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
                             <img src="{{ asset('assets/images/fasteners/WNRF-Flanges_11zon.jpg') }}" alt="WNRF Flanges"
@@ -173,8 +174,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.flanges.slip-on-flanges') }}"
-                        class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/flanges/slip-on-flanges') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
                             <img src="{{ asset('assets/images/fasteners/sorf-flanges_11zon.jpg') }}" alt="SORF Flanges"
@@ -187,8 +187,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.flanges.blind-flanges') }}"
-                        class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/flanges/blind-flanges') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
                             <img src="{{ asset('assets/images/fasteners/blind-flanges_11zon.jpg') }}" alt="Blind Flanges"
@@ -201,8 +200,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.flanges.lap-joint-flanges') }}"
-                        class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/flanges/lap-joint-flanges') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
                             <img src="{{ asset('assets/images/fasteners/ljff-flanges_11zon.jpeg') }}" alt="LJFF Flanges"
@@ -219,8 +217,8 @@
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/fasteners/astm-a182-f316-flanges_11zon.jpg') }}" alt="ASTM A182 F316 Flanges"
-                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <img src="{{ asset('assets/images/fasteners/astm-a182-f316-flanges_11zon.jpg') }}"
+                                alt="ASTM A182 F316 Flanges" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
                                 ASTM A182 F316 Flanges
@@ -233,8 +231,8 @@
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/fasteners/astm-a350-lf2-flanges_11zon.jpg') }}" alt="ASTM A350 LF2 Flanges"
-                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <img src="{{ asset('assets/images/fasteners/astm-a350-lf2-flanges_11zon.jpg') }}"
+                                alt="ASTM A350 LF2 Flanges" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
                                 ASTM A350 LF2 Flanges
@@ -244,12 +242,12 @@
                 </div>
                 <!-- New Pipe Fittings -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings.reducers.concentric') }}"
+                    <a href="{{ url('products/pipe-fittings/reducers/concentric') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/product/flangs/concentric-reducers_11zon.jpg') }}" alt="Concentric Reducers"
-                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <img src="{{ asset('assets/images/product/flangs/concentric-reducers_11zon.jpg') }}"
+                                alt="Concentric Reducers" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
                                 Concentric Reducers
@@ -258,12 +256,12 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings.reducers.eccentric') }}"
+                    <a href="{{ url('products/pipe-fittings/reducers/eccentric') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/product/flangs/eccentric-reducers_11zon.jpg') }}" alt="Eccentric Reducers"
-                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <img src="{{ asset('assets/images/product/flangs/eccentric-reducers_11zon.jpg') }}"
+                                alt="Eccentric Reducers" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
                                 Eccentric Reducers
@@ -272,12 +270,12 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings.elbows.90-degree-elbow') }}"
+                    <a href="{{ url('products/pipe-fittings/elbows/90-degree-elbow') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/product/flangs/90-degree-elbows_11zon.jpeg') }}" alt="90 Degree Elbows"
-                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <img src="{{ asset('assets/images/product/flangs/90-degree-elbows_11zon.jpeg') }}"
+                                alt="90 Degree Elbows" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
                                 90 Degree Elbows
@@ -286,55 +284,55 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings.elbows.45-degree-elbow') }}"
+                    <a href="{{ url('products/pipe-fittings/elbows/45-degree-elbows') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/product/flangs/45-degree-elbows_11zon.jpg') }}" alt="45 Degree Elbows"
-                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <img src="{{ asset('assets/images/product/flangs/45-degree-elbows_11zon.jpg') }}"
+                                alt="45 Degree Elbows" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
                                 45 Degree Elbows
                             </h6>
                         </div>
                     </a>
-                {{-- U Bend card removed --}}
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings.olets.weldolet') }}"
-                        class="text-decoration-none d-block h-100">
-                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-                            style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/product/flangs/weldolets_11zon.jpg') }}" alt="Weldolets"
-                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
-                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                                style="background-color: #174268; color: #fff; display: inline-block;">
-                                Weldolets
-                            </h6>
-                        </div>
-                    </a>
+                    {{-- U Bend card removed --}}
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <a href="{{ url('products/pipe-fittings/olets/weldolet') }}"
+                            class="text-decoration-none d-block h-100">
+                            <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                                style="border-color: #db7227; transition: 0.3s;">
+                                <img src="{{ asset('assets/images/product/flangs/weldolets_11zon.jpg') }}" alt="Weldolets"
+                                    class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                    style="background-color: #174268; color: #fff; display: inline-block;">
+                                    Weldolets
+                                </h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <a href="{{ url('products/pipe-fittings/olets/sockolet') }}"
+                            class="text-decoration-none d-block h-100">
+                            <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                                style="border-color: #db7227; transition: 0.3s;">
+                                <img src="{{ asset('assets/images/product/flangs/sockolets_11zon.jpg') }}" alt="Sockolets"
+                                    class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                    style="background-color: #174268; color: #fff; display: inline-block;">
+                                    Sockolets
+                                </h6>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- End New Pipe Fittings -->
+                    <!-- End New Flanges -->
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipe-fittings.olets.sockolet') }}"
-                        class="text-decoration-none d-block h-100">
-                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-                            style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/product/flangs/sockolets_11zon.jpg') }}" alt="Sockolets"
-                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
-                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                                style="background-color: #174268; color: #fff; display: inline-block;">
-                                Sockolets
-                            </h6>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- End New Pipe Fittings -->
-            <!-- End New Flanges -->
             </div>
-        </div>
     </section>
 
-    
+
 
 
 
@@ -343,5 +341,3 @@
 
 
 @endsection
-
-

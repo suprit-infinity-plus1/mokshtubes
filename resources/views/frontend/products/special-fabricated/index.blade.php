@@ -1,11 +1,15 @@
 @extends('layouts.master')
 @section('title', 'Special Fabricated Products – Steel & Stainless Solutions') <!-- 53 characters -->
-@section('meta_description',
+@section(
+    'meta_description',
     'Custom fabricated products from Moksh Tubes — steel furniture, stainless grills, railings
-    & glass solutions, designed for durability, function & style.') <!-- 153 characters -->
-@section('meta_keywords',
+    & glass solutions, designed for durability, function & style.'
+) <!-- 153 characters -->
+@section(
+    'meta_keywords',
     'special fabricated, custom steel furniture, stainless steel grills, railings, glass
-    solutions, modern fabricated products, durable fabricated items, custom metal works, industrial steel fabrication')
+    solutions, modern fabricated products, durable fabricated items, custom metal works, industrial steel fabrication'
+)
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area"
@@ -63,26 +67,26 @@
                 @endphp
 
                 {{-- @foreach ($types as $type)
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <a href="{{ url('/products/special-fabricated/' . $type['slug']) }}"
-                            class="text-decoration-none d-block h-100">
-                            <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-                                style="border-color: #db7227; transition: 0.3s;">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ url('/products/special-fabricated/' . $type['slug']) }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
 
-                                <img src="{{ asset($type['image'] ?? 'assets/images/default.webp') }}"
-                                    alt="{{ $type['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <img src="{{ asset($type['image'] ?? 'assets/images/default.webp') }}" alt="{{ $type['name'] }}"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
 
-                                <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                                    style="background-color: #174268; color: #fff; display: inline-block;">
-                                    {{ $type['name'] }}
-                                </h6>
-                            </div>
-                        </a>
-                    </div>
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                {{ $type['name'] }}
+                            </h6>
+                        </div>
+                    </a>
+                </div>
                 @endforeach --}}
 
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.special-fabricated.custom-steel-furniture') }}"
+                    <a href="{{ url('products/special-fabricated/custom-steel-furniture') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -98,7 +102,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.special-fabricated.fabricated-ss-grills') }}"
+                    <a href="{{ url('products/special-fabricated/fabricated-ss-grills') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -114,7 +118,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.special-fabricated.ss-railings') }}"
+                    <a href="{{ url('products/special-fabricated/ss-railings') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -130,7 +134,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.special-fabricated.glass-railings') }}"
+                    <a href="{{ url('products/special-fabricated/glass-railings') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -150,7 +154,7 @@
     </section>
 
 
-    
+
 
 
     <!--End breadcrumb area-->

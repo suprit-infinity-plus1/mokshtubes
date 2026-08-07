@@ -1,19 +1,24 @@
 @extends('layouts.master')
 
 @section('title', 'DIN Standard Alloys & Tubes Supplier in Germany')
-@section('meta_description',
+@section(
+    'meta_description',
     'Supplying DIN standard metal alloys & industrial tubes in Germany — fast delivery, DIN/EN
-    compliance & expert support for diverse industries.')
-@section('meta_keywords',
+    compliance & expert support for diverse industries.'
+)
+@section(
+    'meta_keywords',
     'DIN standard alloys Germany, stainless steel tubes Germany, industrial fittings Germany, DIN
     certified metal alloys, alloy steel supplier Germany, precision tubes Germany, industrial tubes supplier Germany, DIN/EN
-    compliant fittings, high performance alloys Germany')
+    compliant fittings, high performance alloys Germany'
+)
 
 
 @section('content')
     <!--Start breadcrumb area-->
 
-    <section class="breadcrumb-area" style="background-image: url({{ asset('assets/images/background/din-standard.jpg') }});">
+    <section class="breadcrumb-area"
+        style="background-image: url({{ asset('assets/images/background/din-standard.jpg') }});">
         <div class="container text-center">
             <h1>DIN Standard Metal Alloys & Industrial Tubes in Germany</h1>
         </div>
@@ -286,7 +291,7 @@
                                                 </li>
                                                 <li>
                                                     <strong><a
-                                                            href="{{ route('products.special-fabricated.custom-steel-furniture') }}">Custom
+                                                            href="{{ url('products/special-fabricated/custom-steel-furniture') }}">Custom
                                                             Alloy</a> Solutions for advanced engineering applications -
                                                     </strong> Specialized materials developed for unique applications that
                                                     standard alloys cannot address effectively.
@@ -721,8 +726,8 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form"
-                                action="{{ url('sendmail') }}" method="post">
+                            <form id="contact-form" name="contact_form" class="default-form" action="{{ url('sendmail') }}"
+                                method="post">
                                 @csrf
                                 <div class="row">
                                     <div class="col-md-12">
@@ -740,7 +745,8 @@
                                         <input class="m-1" type="text" name="form_subject" placeholder="Subject">
                                     </div>
                                     <div class="col-md-12">
-                                        <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
+                                        <textarea name="form_message" class="m-1" placeholder="Your Message.."
+                                            required=""></textarea>
                                     </div>
                                     <div class="col-md-12">
                                         <input id="form_botcheck" name="form_botcheck" type="hidden" value="">

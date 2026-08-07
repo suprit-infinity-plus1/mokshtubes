@@ -1,15 +1,19 @@
 @extends('layouts.master')
 
 @section('title', 'A Step-by-Step Guide to Stainless Steel Pipe Installation')
-@section('meta_description',
+@section(
+    'meta_description',
     'Learn how to install stainless steel pipes correctly with our complete guide. Covers
-    cutting, joining methods, and tips for a leak-free system.')
-@section('meta_keywords',
+    cutting, joining methods, and tips for a leak-free system.'
+)
+@section(
+    'meta_keywords',
     'stainless steel pipe installation, how to install stainless steel pipes, stainless steel pipe
     fitting, TIG welding stainless steel, press-fit stainless steel pipes, threaded stainless steel fittings, stainless
     steel plumbing guide, stainless steel pipe joining methods, stainless steel pipe cutting, stainless steel pipe
     preparation, stainless steel pipe welding guide, leak free stainless steel system, stainless steel piping system,
-    stainless steel pipe maintenance, Mokshtubes stainless steel pipes')
+    stainless steel pipe maintenance, Mokshtubes stainless steel pipes'
+)
 
 
 @section('content')
@@ -102,7 +106,7 @@
                                                 <p class="pb-2">
                                                     Using the correct tools is non negotiable for a professional
                                                     installation. Using tools meant for <a
-                                                        href="{{ route('products.special-fabricated.custom-steel-furniture') }}">carbon
+                                                        href="{{ url('products/special-fabricated/custom-steel-furniture') }}">carbon
                                                         steel</a> can lead to
                                                     cross contamination and rust.
                                                 </p>
@@ -599,8 +603,8 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form"
-                                action="{{ url('sendmail') }}" method="post">
+                            <form id="contact-form" name="contact_form" class="default-form" action="{{ url('sendmail') }}"
+                                method="post">
                                 @csrf
                                 <div class="row">
                                     <div class="col-md-12">
@@ -618,7 +622,8 @@
                                         <input class="m-1" type="text" name="form_subject" placeholder="Subject">
                                     </div>
                                     <div class="col-md-12">
-                                        <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
+                                        <textarea name="form_message" class="m-1" placeholder="Your Message.."
+                                            required=""></textarea>
                                     </div>
                                     <div class="col-md-12">
                                         <input id="form_botcheck" name="form_botcheck" type="hidden" value="">

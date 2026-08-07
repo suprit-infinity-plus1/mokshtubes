@@ -8,7 +8,8 @@
 @section('content')
 
     <!--Start breadcrumb area (Hero Section)-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/fasteners/astm-a350-lf2-flanges_11zon.jpg);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/fasteners/astm-a350-lf2-flanges_11zon.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -16,8 +17,13 @@
                     <!-- Short Introduction -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        ASTM A350 LF2 Flanges are low-temperature carbon steel flanges specifically designed for <br>applications requiring high toughness at sub-zero temperatures. These <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}" style="color: blue; text-decoration: underline;">flanges</a> are <br>widely used in industries where impact resistance and reliability in cold environments <br>are critical.
-                        At Moksh Tubes & Fittings LLP, we are a trusted ASTM A350 LF2 flange supplier and <br>exporter, delivering high-quality flanges manufactured as per ASTM, ASME, ANSI, DIN, <br>and EN standards.
+                        ASTM A350 LF2 Flanges are low-temperature carbon steel flanges specifically designed for
+                        <br>applications requiring high toughness at sub-zero temperatures. These <a
+                            href="{{ route('products.pipe-fittings-flanges-fasteners') }}"
+                            style="color: blue; text-decoration: underline;">flanges</a> are <br>widely used in industries
+                        where impact resistance and reliability in cold environments <br>are critical.
+                        At Moksh Tubes & Fittings LLP, we are a trusted ASTM A350 LF2 flange supplier and <br>exporter,
+                        delivering high-quality flanges manufactured as per ASTM, ASME, ANSI, DIN, <br>and EN standards.
                     </p>
                     <!-- End extra content -->
                 </div>
@@ -57,26 +63,34 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/fasteners/astm-a350-lf2-flanges_11zon.jpg') }}" alt="ASTM A350 LF2 Flanges Overview"
-                        class="img-fluid rounded shadow-sm" loading="lazy">
+                    <img src="{{ asset('assets/images/fasteners/astm-a350-lf2-flanges_11zon.jpg') }}"
+                        alt="ASTM A350 LF2 Flanges Overview" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-3 text-justify" style="text-align: justify;">
-                            <strong class="text-black">ASTM A350 LF2</strong> is a carbon steel grade specifically developed for low-temperature service. It offers excellent toughness and strength even in sub-zero conditions, making it suitable for critical industrial applications.
+                            <strong class="text-black">ASTM A350 LF2</strong> is a carbon steel grade specifically developed
+                            for low-temperature service. It offers excellent toughness and strength even in sub-zero
+                            conditions, making it suitable for critical industrial applications.
                         </p>
 
                         <p class="fs-6 mb-2">LF2 flanges are preferred because:</p>
                         <ul class="fs-6 mb-3 list-unstyled">
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> They maintain ductility at low temperatures</li>
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Provide strong mechanical performance</li>
-                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Ensure safety in cryogenic environments</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> They maintain ductility at
+                                low temperatures</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Provide strong mechanical
+                                performance</li>
+                            <li class="mb-1"><i class="bi bi-check-circle-fill text-primary"></i> Ensure safety in cryogenic
+                                environments</li>
                         </ul>
 
                         <p class="fs-6 text-justify" style="text-align: justify;">
-                            These flanges are ideal for <a href="{{ route('products.pipes-tubes') }}" style="color: blue;">oil & gas</a>, petrochemical, and LNG handling <a href="{{ url('products/pipes-tubes/welded-pipes') }}" style="color: blue; text-decoration: underline;">applications</a>.
+                            These flanges are ideal for <a href="{{ route('products.pipes-tubes') }}"
+                                style="color: blue;">oil & gas</a>, petrochemical, and LNG handling <a
+                                href="{{ url('products/pipes-tubes/welded-pipes') }}"
+                                style="color: blue; text-decoration: underline;">applications</a>.
                         </p>
                     </div>
                 </div>
@@ -155,7 +169,12 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Type</strong></td>
-                                    <td><a href="{{ route('products.flanges.weld-neck-flanges') }}" style="color: blue; text-decoration: none;">WN</a>, SORF, <a href="{{ route('products.flanges.blind-flanges') }}" style="color: blue; text-decoration: none;">Blind</a>, Socket Weld, Threaded, <a href="{{ route('products.flanges.lap-joint-flanges') }}" style="color: blue; text-decoration: none;">Lap Joint</a></td>
+                                    <td><a href="{{ url('products/flanges/weld-neck-flanges') }}" s t
+                                            yle="color: blue; text-decoration: none;">WN</a>, SORF, <a h r
+                                            ef="{{ url('products/flanges/blind-flanges') }}" s t
+                                            yle="color: blue; text-decoration: none;">Blind</a>, Socket Weld, Threaded, <a h
+                                            r ef="{{ url('products/flanges/lap-joint-flanges') }}" s t
+                                            yle="color: blue; text-decoration: none;">Lap Joint</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Sizes</strong></td>
@@ -186,7 +205,7 @@
     </section>
 
     <!-- 4. Types of LF2 Flanges -->
-    
+
 
     <!-- 5. Size Chart -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom bg-light">
@@ -215,7 +234,8 @@
                             </div>
                         </div>
                     </div>
-                    <p class="text-center mt-3 text-muted">For detailed dimension charts including bolt hole patterns and weights, please contact our technical team.</p>
+                    <p class="text-center mt-3 text-muted">For detailed dimension charts including bolt hole patterns and
+                        weights, please contact our technical team.</p>
                 </div>
             </div>
         </div>
@@ -261,9 +281,10 @@
                             </tbody>
                         </table>
                     </div>
-                    <p class="text-center mt-2 fw-bold text-primary"><i class="bi bi-info-circle-fill me-1"></i>Controlled composition ensures low-temperature toughness and strength.</p>
+                    <p class="text-center mt-2 fw-bold text-primary"><i class="bi bi-info-circle-fill me-1"></i>Controlled
+                        composition ensures low-temperature toughness and strength.</p>
                 </div>
-                
+
                 <div id="mechanical-properties" class="col-lg-6">
                     <div class="section-title center mb-4">
                         <h2>Mechanical Properties</h2>
@@ -296,7 +317,8 @@
                             </tbody>
                         </table>
                     </div>
-                    <p class="text-center mt-2 fw-bold text-success"><i class="bi bi-check-circle-fill me-1"></i>Designed to perform in extreme cold environments.</p>
+                    <p class="text-center mt-2 fw-bold text-success"><i class="bi bi-check-circle-fill me-1"></i>Designed to
+                        perform in extreme cold environments.</p>
                 </div>
             </div>
         </div>
@@ -314,7 +336,8 @@
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
                         <h5>Oil & Gas</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• <a href="{{ route('products.pipes-tubes') }}" style="color: blue;">Low-temperature pipelines</a></li>
+                            <li>• <a href="{{ route('products.pipes-tubes') }}" style="color: blue;">Low-temperature
+                                    pipelines</a></li>
                             <li>• Offshore installations</li>
                         </ul>
                     </div>
@@ -334,7 +357,8 @@
                         <div class="application-icon"><i class="bi bi-ev-station"></i></div>
                         <h5>Petrochemical</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• <a href="{{ url('products/pipes-tubes/welded-pipes') }}" style="color: blue;">Process piping</a></li>
+                            <li>• <a href="{{ url('products/pipes-tubes/welded-pipes') }}" style="color: blue;">Process
+                                    piping</a></li>
                             <li>• Chemical plants</li>
                         </ul>
                     </div>
@@ -344,7 +368,8 @@
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
                         <h5>Power Plants</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• <a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}" style="color: blue;">Low-temperature service lines</a></li>
+                            <li>• <a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}"
+                                    style="color: blue;">Low-temperature service lines</a></li>
                         </ul>
                     </div>
                 </div>
@@ -353,7 +378,7 @@
     </section>
 
     <!-- 9. Industries Served -->
-    
+
 
     <!-- 10. Manufacturing Process -->
     <!-- 11. Packaging & Export -->
@@ -363,7 +388,8 @@
                 <h2>Packaging & Export</h2>
             </div>
             <p class="fs-6 text-center text-muted mb-4">
-                We are a reliable ASTM A350 LF2 flange supplier and exporter, supplying globally. <br>Trusted by EPC contractors and global buyers.
+                We are a reliable ASTM A350 LF2 flange supplier and exporter, supplying globally. <br>Trusted by EPC
+                contractors and global buyers.
             </p>
 
             <div class="row g-4 justify-content-center">
@@ -405,13 +431,15 @@
                     </div>
                     <ul class="fs-6 list-unstyled mb-5">
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Excellent performance at low temperatures</li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Excellent performance at low
+                            temperatures</li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
                                 class="bi bi-check-circle-fill text-primary me-2"></i> High impact resistance</li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
                                 class="bi bi-check-circle-fill text-primary me-2"></i> Strong and durable material</li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Reliable for critical applications</li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Reliable for critical applications
+                        </li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
                                 class="bi bi-check-circle-fill text-primary me-2"></i> Long service life</li>
                     </ul>
@@ -452,21 +480,30 @@
                             </tbody>
                         </table>
                     </div>
-                    <p class="fs-6 mt-3 text-muted"><strong>Note:</strong> LF2 is preferred for low-temperature environments, while A105 is for standard use.</p>
+                    <p class="fs-6 mt-3 text-muted"><strong>Note:</strong> LF2 is preferred for low-temperature
+                        environments, while A105 is for standard use.</p>
                 </div>
 
                 <div id="buying-guide" class="col-lg-6">
                     <div class="p-4 bg-white rounded shadow-sm border-start border-4 border-warning h-100">
                         <h3 class="fw-bold mb-4" style="color: #174268;">Buying Guide</h3>
-                        <p class="fs-6 text-muted">Before selecting LF2 <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}" style="color: blue; text-decoration: underline;">flanges</a>, consider:</p>
+                        <p class="fs-6 text-muted">Before selecting LF2 <a
+                                href="{{ route('products.pipe-fittings-flanges-fasteners') }}"
+                                style="color: blue; text-decoration: underline;">flanges</a>, consider:</p>
                         <ul class="fs-6 list-unstyled font-weight-bold">
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Check operating temperature</li>
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Select correct pressure class</li>
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Choose suitable flange type</li>
+                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Check operating temperature
+                            </li>
+                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Select correct pressure
+                                class</li>
+                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Choose suitable flange type
+                            </li>
                             <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Verify certifications</li>
-                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Ensure compatibility with <a href="{{ route('products.pipes-tubes') }}" style="color: blue;">piping system</a></li>
+                            <li class="mb-2"><i class="bi bi-arrow-right text-warning me-2"></i> Ensure compatibility with
+                                <a href="{{ route('products.pipes-tubes') }}" style="color: blue;">piping system</a>
+                            </li>
                         </ul>
-                        <p class="fs-6 mt-4 fw-bold p-3 bg-light rounded border text-center border-warning">We help you choose the right flange for your project.</p>
+                        <p class="fs-6 mt-4 fw-bold p-3 bg-light rounded border text-center border-warning">We help you
+                            choose the right flange for your project.</p>
                     </div>
                 </div>
             </div>
@@ -483,7 +520,8 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <ul class="fs-6 list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Impact testing (low temp)</li>
+                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Impact testing (low
+                                        temp)</li>
                                     <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • PMI testing</li>
                                 </ul>
                             </div>
@@ -495,11 +533,13 @@
                             </div>
                             <div class="col-md-4">
                                 <ul class="fs-6 list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Dimensional inspection</li>
+                                    <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Dimensional inspection
+                                    </li>
                                 </ul>
                             </div>
                         </div>
-                        <p class="fs-6 mt-4 fw-bold text-success text-center"><i class="bi bi-patch-check-fill me-2"></i> EN 10204 3.1 certification available.</p>
+                        <p class="fs-6 mt-4 fw-bold text-success text-center"><i class="bi bi-patch-check-fill me-2"></i> EN
+                            10204 3.1 certification available.</p>
                     </div>
                 </div>
             </div>
@@ -593,7 +633,9 @@
                 <h2>Request a Quote for ASTM A350 LF2 Flanges</h2>
                 <p>
                     Looking for a reliable LF2 flange supplier & exporter?<br>
-                    Contact <a href="{{ route('contact-us') }}" style="color: blue; text-decoration: underline;"><strong>Moksh Tubes & Fittings LLP</strong></a> for bulk supply, custom sizes, and fast delivery. Get the best price today.
+                    Contact <a href="{{ route('contact-us') }}"
+                        style="color: blue; text-decoration: underline;"><strong>Moksh Tubes & Fittings LLP</strong></a> for
+                    bulk supply, custom sizes, and fast delivery. Get the best price today.
                 </p>
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
@@ -608,38 +650,37 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-            {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [
-                    {
-                        "@type": "Question",
-                        "name": "What is ASTM A350 LF2 used for?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Used in low-temperature and cryogenic applications."
+                    @verbatim
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "What is ASTM A350 LF2 used for?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Used in low-temperature and cryogenic applications."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "What is the difference between LF2 and A105?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "LF2 is for low temperatures, A105 is for normal conditions."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Do you export LF2 flanges?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Yes, we export globally including GCC countries."
+                                    }
+                                }
+                            ]
                         }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "What is the difference between LF2 and A105?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "LF2 is for low temperatures, A105 is for normal conditions."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Do you export LF2 flanges?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes, we export globally including GCC countries."
-                        }
-                    }
-                ]
-            }
-        @endverbatim
-    </script>
+                    @endverbatim
+                </script>
 @endsection
-

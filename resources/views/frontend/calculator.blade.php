@@ -1,8 +1,10 @@
 ﻿@extends('layouts.master')
 @section('title', 'Pipe & Tube Weight Calculator | Easy & Accurate | MokshTubes')
-@section('meta_description',
+@section(
+    'meta_description',
     'Use MokshTubes’ pipe and tube weight calculator for accurate measurements, helping you
-    plan projects efficiently with reliable and precise data.')
+    plan projects efficiently with reliable and precise data.'
+)
 @section('og_image', asset('assets/images/about/about-materials_11zon.webp'))
 @section('og_type', 'website')
 
@@ -118,8 +120,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Width, W</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="sheetWidth1"
-                                                    value="1000" placeholder="e.g. 1000" />
+                                                <input type="number" class="form-control me-2" id="sheetWidth1" value="1000"
+                                                    placeholder="e.g. 1000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -143,8 +145,8 @@
                                             <label class="form-label mb-0 me-3" style="width: 120px;">No. of
                                                 pieces</label>
                                             <div class="flex-grow-1">
-                                                <input type="number" class="form-control" id="sheetPieces1"
-                                                    value="1" placeholder="e.g. 1" />
+                                                <input type="number" class="form-control" id="sheetPieces1" value="1"
+                                                    placeholder="e.g. 1" />
                                             </div>
                                         </div>
                                     </div>
@@ -241,72 +243,72 @@
                     <div id="tab3" class="tab-content-item d-none">
                         <h4 class="mb-3">Hollow structural sections - circular</h4>
 
-                            <div class="row">
-                                <!-- Left: Input Fields -->
-                                <div class="col-lg-6 mb-4 mb-lg-0">
-                                    <p>Input your values in the fields below:</p>
+                        <div class="row">
+                            <!-- Left: Input Fields -->
+                            <div class="col-lg-6 mb-4 mb-lg-0">
+                                <p>Input your values in the fields below:</p>
 
-                                    <div class="row">
-                                        <!-- Diameter -->
-                                        <div class="col-12 mb-3">
-                                            <div class="d-flex align-items-center">
-                                                <label class="form-label mb-0 me-3" style="width: 120px;">Diameter,
-                                                    D</label>
-                                                <div class="d-flex align-items-center flex-grow-1">
-                                                    <input type="number" id="hollowDiameter3" class="form-control me-2"
-                                                        value="21.3" placeholder="e.g. 21.3" />
-                                                    <span class="text-nowrap">mm</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Thickness -->
-                                        <div class="col-12 mb-3">
-                                            <div class="d-flex align-items-center">
-                                                <label class="form-label mb-0 me-3" style="width: 120px;">Thickness,
-                                                    t</label>
-                                                <div class="d-flex align-items-center flex-grow-1">
-                                                    <input type="number" id="hollowThickness3" class="form-control me-2"
-                                                        value="2" placeholder="e.g. 2" />
-                                                    <span class="text-nowrap">mm</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Length -->
-                                        <div class="col-12 mb-3">
-                                            <div class="d-flex align-items-center">
-                                                <label class="form-label mb-0 me-3" style="width: 120px;">Length,
-                                                    L</label>
-                                                <div class="d-flex align-items-center flex-grow-1">
-                                                    <input type="number" id="hollowLength3" class="form-control me-2"
-                                                        value="1" placeholder="e.g. 1" />
-                                                    <span class="text-nowrap">m</span>
-                                                </div>
+                                <div class="row">
+                                    <!-- Diameter -->
+                                    <div class="col-12 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Diameter,
+                                                D</label>
+                                            <div class="d-flex align-items-center flex-grow-1">
+                                                <input type="number" id="hollowDiameter3" class="form-control me-2"
+                                                    value="21.3" placeholder="e.g. 21.3" />
+                                                <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Result -->
-                                    <div class="mt-2">
-                                        <h6><strong>Result</strong></h6>
-                                        <p>Weight per meter: <strong id="hollowWeightPerMeter3" class="text-primary">0
-                                                kg/m</strong></p>
-                                        <p>Total weight: <strong id="hollowTotalWeight3" class="text-primary">0
-                                                kg</strong>
-                                        </p>
-                                        <p>Density used: <strong id="hollowDensity" class="text-secondary">7930
-                                                kg/m³</strong>
-                                        </p>
+                                    <!-- Thickness -->
+                                    <div class="col-12 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Thickness,
+                                                t</label>
+                                            <div class="d-flex align-items-center flex-grow-1">
+                                                <input type="number" id="hollowThickness3" class="form-control me-2"
+                                                    value="2" placeholder="e.g. 2" />
+                                                <span class="text-nowrap">mm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Length -->
+                                    <div class="col-12 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Length,
+                                                L</label>
+                                            <div class="d-flex align-items-center flex-grow-1">
+                                                <input type="number" id="hollowLength3" class="form-control me-2" value="1"
+                                                    placeholder="e.g. 1" />
+                                                <span class="text-nowrap">m</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <!-- Right: Image -->
-                                <div class="col-lg-6 d-flex align-items-center">
-                                    <img src="{{ asset('assets/images/calculator/seamless_steel_circular.webp') }}"
-                                        class="img-fluid rounded border w-100" alt="Pipe Image">
+                                <!-- Result -->
+                                <div class="mt-2">
+                                    <h6><strong>Result</strong></h6>
+                                    <p>Weight per meter: <strong id="hollowWeightPerMeter3" class="text-primary">0
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="hollowTotalWeight3" class="text-primary">0
+                                            kg</strong>
+                                    </p>
+                                    <p>Density used: <strong id="hollowDensity" class="text-secondary">7930
+                                            kg/m³</strong>
+                                    </p>
                                 </div>
                             </div>
+
+                            <!-- Right: Image -->
+                            <div class="col-lg-6 d-flex align-items-center">
+                                <img src="{{ asset('assets/images/calculator/seamless_steel_circular.webp') }}"
+                                    class="img-fluid rounded border w-100" alt="Pipe Image">
+                            </div>
+                        </div>
                     </div>
 
                     <div id="tab4" class="tab-content-item d-none">
@@ -323,9 +325,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, A</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="squareSide"
-                                                    value="15" placeholder="e.g. 15"
-                                                    oninput="calculateSquareHollowSectionWeight()" />
+                                                <input type="number" class="form-control me-2" id="squareSide" value="15"
+                                                    placeholder="e.g. 15" oninput="calculateSquareHollowSectionWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -349,9 +350,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="squareLength"
-                                                    value="1" placeholder="e.g. 1"
-                                                    oninput="calculateSquareHollowSectionWeight()" />
+                                                <input type="number" class="form-control me-2" id="squareLength" value="1"
+                                                    placeholder="e.g. 1" oninput="calculateSquareHollowSectionWeight()" />
                                                 <span class="text-nowrap">m</span>
                                             </div>
                                         </div>
@@ -478,9 +478,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Diameter, D</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="roundDiameter"
-                                                    value="8" placeholder="e.g. 8"
-                                                    oninput="calculateRoundBarWeight()" />
+                                                <input type="number" class="form-control me-2" id="roundDiameter" value="8"
+                                                    placeholder="e.g. 8" oninput="calculateRoundBarWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -491,9 +490,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="roundLength"
-                                                    value="1" placeholder="e.g. 6"
-                                                    oninput="calculateRoundBarWeight()" />
+                                                <input type="number" class="form-control me-2" id="roundLength" value="1"
+                                                    placeholder="e.g. 6" oninput="calculateRoundBarWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -533,8 +531,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, A</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="squareSideA7"
-                                                    value="10" placeholder="e.g. 10" />
+                                                <input type="number" class="form-control me-2" id="squareSideA7" value="10"
+                                                    placeholder="e.g. 10" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -545,8 +543,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="squareLength7"
-                                                    value="1" placeholder="e.g. 1" />
+                                                <input type="number" class="form-control me-2" id="squareLength7" value="1"
+                                                    placeholder="e.g. 1" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -589,9 +587,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Width, W</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="flatWidth8"
-                                                    value="10" placeholder="e.g. 10"
-                                                    oninput="calculateFlatBarWeight8()" />
+                                                <input type="number" class="form-control me-2" id="flatWidth8" value="10"
+                                                    placeholder="e.g. 10" oninput="calculateFlatBarWeight8()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -602,9 +599,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="flatThickness8"
-                                                    value="3" placeholder="e.g. 3"
-                                                    oninput="calculateFlatBarWeight8()" />
+                                                <input type="number" class="form-control me-2" id="flatThickness8" value="3"
+                                                    placeholder="e.g. 3" oninput="calculateFlatBarWeight8()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -615,9 +611,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="flatLength8"
-                                                    value="1" placeholder="e.g. 1"
-                                                    oninput="calculateFlatBarWeight8()" />
+                                                <input type="number" class="form-control me-2" id="flatLength8" value="1"
+                                                    placeholder="e.g. 1" oninput="calculateFlatBarWeight8()" />
                                                 <span class="text-nowrap">m</span>
                                             </div>
                                         </div>
@@ -658,9 +653,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, A</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="angleSide9"
-                                                    value="20" placeholder="e.g. 20"
-                                                    oninput="calculateEqualAngleWeight9()" />
+                                                <input type="number" class="form-control me-2" id="angleSide9" value="20"
+                                                    placeholder="e.g. 20" oninput="calculateEqualAngleWeight9()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -672,8 +666,7 @@
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
                                             <div class="d-flex align-items-center flex-grow-1">
                                                 <input type="number" class="form-control me-2" id="angleThickness9"
-                                                    value="3" placeholder="e.g. 3"
-                                                    oninput="calculateEqualAngleWeight9()" />
+                                                    value="3" placeholder="e.g. 3" oninput="calculateEqualAngleWeight9()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -684,9 +677,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="angleLength9"
-                                                    value="1" placeholder="e.g. 1"
-                                                    oninput="calculateEqualAngleWeight9()" />
+                                                <input type="number" class="form-control me-2" id="angleLength9" value="1"
+                                                    placeholder="e.g. 1" oninput="calculateEqualAngleWeight9()" />
                                                 <span class="text-nowrap">m</span>
                                             </div>
                                         </div>
@@ -790,9 +782,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="angleLength10"
-                                                    value="1" placeholder="e.g. 1"
-                                                    oninput="calculateUnequalAngleWeight10()" />
+                                                <input type="number" class="form-control me-2" id="angleLength10" value="1"
+                                                    placeholder="e.g. 1" oninput="calculateUnequalAngleWeight10()" />
                                                 <span class="text-nowrap">m</span>
                                             </div>
                                         </div>
@@ -946,8 +937,8 @@
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L:</label>
-                                            <input id="upnLength" type="number" class="form-control" value="1"
-                                                min="0.01" step="0.01" />
+                                            <input id="upnLength" type="number" class="form-control" value="1" min="0.01"
+                                                step="0.01" />
                                             <span class="ms-2">m</span>
                                         </div>
                                     </div>
@@ -1019,8 +1010,8 @@
                                     <!-- Length -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
                                         <label class="form-label mb-0 me-3" style="width: 150px;">Length, L:</label>
-                                        <input id="ipnLength" type="number" class="form-control me-2" value="1"
-                                            min="0.01" step="0.01">
+                                        <input id="ipnLength" type="number" class="form-control me-2" value="1" min="0.01"
+                                            step="0.01">
                                         <span>m</span>
                                     </div>
                                 </div>
@@ -1106,8 +1097,8 @@
                                     <!-- Length -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
                                         <label class="form-label mb-0 me-3" style="width: 150px;">Length, L:</label>
-                                        <input id="ipeLength" type="number" class="form-control me-2" value="1"
-                                            min="0.01" step="0.01" />
+                                        <input id="ipeLength" type="number" class="form-control me-2" value="1" min="0.01"
+                                            step="0.01" />
                                         <span>m</span>
                                     </div>
                                 </div>
@@ -1199,8 +1190,8 @@
                                     <!-- Length -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
                                         <label class="form-label mb-0 me-3" style="width: 150px;">Length, L:</label>
-                                        <input id="heaLength" type="number" class="form-control me-2" value="1"
-                                            min="0.01" step="0.01" />
+                                        <input id="heaLength" type="number" class="form-control me-2" value="1" min="0.01"
+                                            step="0.01" />
                                         <span>m</span>
                                     </div>
                                 </div>
@@ -1283,8 +1274,8 @@
                                     </div>
                                     <div class="col-12 mb-3 d-flex align-items-center">
                                         <label class="form-label mb-0 me-3" style="width:150px;">Length, L:</label>
-                                        <input id="hebLength" type="number" class="form-control me-2" value="1"
-                                            step="0.01" min="0.01" />
+                                        <input id="hebLength" type="number" class="form-control me-2" value="1" step="0.01"
+                                            min="0.01" />
                                         <span>m</span>
                                     </div>
                                 </div>
@@ -1519,142 +1510,140 @@
             </div>
         </div>
     </div>
-                    <!--Start faq content area-->
-                    <section class="faq-content-area sec-padd2">
-                        <div class="container">
-                            <div class="section-title center">
-                                <h2>Frequently Asked Questions</h2>
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn active">
+                                <h3 class="h6">How accurate is the steel weight calculator?</h3>
                             </div>
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="accordion-box">
-                                        <!--Start single accordion box-->
-                                        <div class="accordion accordion-block">
-                                            <div class="accord-btn active">
-                                                <h3 class="h6">How accurate is the steel weight calculator?</h3>
-                                            </div>
-                                            <div class="accord-content collapsed">
-                                                <p>The calculator uses standard theoretical weights based on international
-                                                    dimensional standards (DIN, ASTM, ASME). However, actual weights may
-                                                    vary slightly due to manufacturing tolerances (typically +/- 5-10%) and
-                                                    specific material density variations.</p>
-                                            </div>
-                                        </div>
-                                        <!--End single accordion box-->
-                                        <!--Start single accordion box-->
-                                        <div class="accordion accordion-block">
-                                            <div class="accord-btn">
-                                                <h3 class="h6">Can I calculate weights for different materials?</h3>
-                                            </div>
-                                            <div class="accord-content">
-                                                <p>Yes, while the default density is often set for Steel (approx. 7.85
-                                                    g/cm³), the calculator covers various shapes applicable to <a
-                                                        href="{{ route('materials.austenitic-stainless-Steel', ['country' => 'in']) }}">Stainless
-                                                        Steel</a>, <a
-                                                        href="{{ route('materials.engineering-Steels', ['country' => 'in']) }}">Carbon
-                                                        Steel</a>, and <a
-                                                        href="{{ route('materials.nickel-Based-Superalloys', ['country' => 'in']) }}">Nickel
-                                                        Alloys</a>. For specific alloys like <a
-                                                        href="{{ route('materials.hastelloy', ['country' => 'in']) }}">Hastelloy</a>
-                                                    or <a
-                                                        href="{{ route('materials.inconel', ['country' => 'in']) }}">Inconel</a>,
-                                                    you may need to adjust for density differences.</p>
-                                            </div>
-                                        </div>
-                                        <!--End single accordion box-->
-                                        <!--Start single accordion box-->
-                                        <div class="accordion accordion-block">
-                                            <div class="accord-btn">
-                                                <h3 class="h6">Do you supply the items listed in the calculator?</h3>
-                                            </div>
-                                            <div class="accord-content">
-                                                <p>Yes, <a href="{{ route('index') }}">Moksh Tubes &
-                                                        Fittings LLP</a> manufactures and supplies most of the items listed,
-                                                    including HEA/HEB beams, <a
-                                                        href="{{ url('products/pipes-tubes/seamless-pipes') }}">seamless
-                                                        pipes</a>, <a
-                                                        href="{{ route('products.sheets-plates-coils.sheets-and-plates') }}">plates</a>,
-                                                    and <a
-                                                        href="{{ url('products/pipes-tubes/hollow-section-pipe') }}">structural
-                                                        sections</a> in various ferrous and non-ferrous grades.</p>
-                                            </div>
-                                        </div>
-                                        <!--Start single accordion box-->
-                                        <div class="accordion accordion-block">
-                                            <div class="accord-btn">
-                                                <h3 class="h6">Is this calculator free to use?</h3>
-                                            </div>
-                                            <div class="accord-content">
-                                                <p>Yes, our steel weight calculator is completely free for engineers,
-                                                    fabricators, and procurement specialists to estimate shipment weights
-                                                    and plan logistics.</p>
-                                            </div>
-                                        </div>
-                                        <!--End single accordion box-->
-                                        <!--Start single accordion box-->
-                                        <div class="accordion accordion-block">
-                                            <div class="accord-btn">
-                                                <h3 class="h6">What standards are these dimensions based on?</h3>
-                                            </div>
-                                            <div class="accord-content">
-                                                <p>The dimensions provided in the calculator roughly follow international
-                                                    standards like EN, DIN, and ASTM for common structural sections. For
-                                                    precise engineering requirements, we recommend referring to the official
-                                                    standard documents.</p>
-                                            </div>
-                                        </div>
-                                        <!--End single accordion box-->
-                                    </div>
-                                </div>
+                            <div class="accord-content collapsed">
+                                <p>The calculator uses standard theoretical weights based on international
+                                    dimensional standards (DIN, ASTM, ASME). However, actual weights may
+                                    vary slightly due to manufacturing tolerances (typically +/- 5-10%) and
+                                    specific material density variations.</p>
                             </div>
                         </div>
-                    </section>
-                    <!--End faq content area-->
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3 class="h6">Can I calculate weights for different materials?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>Yes, while the default density is often set for Steel (approx. 7.85
+                                    g/cm³), the calculator covers various shapes applicable to <a
+                                        href="{{ route('materials.austenitic-stainless-Steel', ['country' => 'in']) }}">Stainless
+                                        Steel</a>, <a
+                                        href="{{ route('materials.engineering-Steels', ['country' => 'in']) }}">Carbon
+                                        Steel</a>, and <a
+                                        href="{{ route('materials.nickel-Based-Superalloys', ['country' => 'in']) }}">Nickel
+                                        Alloys</a>. For specific alloys like <a
+                                        href="{{ route('materials.hastelloy', ['country' => 'in']) }}">Hastelloy</a>
+                                    or <a href="{{ route('materials.inconel', ['country' => 'in']) }}">Inconel</a>,
+                                    you may need to adjust for density differences.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3 class="h6">Do you supply the items listed in the calculator?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>Yes, <a href="{{ route('index') }}">Moksh Tubes &
+                                        Fittings LLP</a> manufactures and supplies most of the items listed,
+                                    including HEA/HEB beams, <a
+                                        href="{{ url('products/pipes-tubes/seamless-pipes') }}">seamless
+                                        pipes</a>, <a
+                                        href="{{ url('products/sheets-plates-coils/sheets-and-plates') }}">plates</a>,
+                                    and <a href="{{ url('products/pipes-tubes/hollow-section-pipe') }}">structural
+                                        sections</a> in various ferrous and non-ferrous grades.</p>
+                            </div>
+                        </div>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3 class="h6">Is this calculator free to use?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>Yes, our steel weight calculator is completely free for engineers,
+                                    fabricators, and procurement specialists to estimate shipment weights
+                                    and plan logistics.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3 class="h6">What standards are these dimensions based on?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>The dimensions provided in the calculator roughly follow international
+                                    standards like EN, DIN, and ASTM for common structural sections. For
+                                    precise engineering requirements, we recommend referring to the official
+                                    standard documents.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
 
-                    <script type="application/ld+json">
-           @verbatim
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "How accurate is the steel weight calculator?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The calculator uses standard theoretical weights based on international dimensional standards (DIN, ASTM, ASME). However, actual weights may vary slightly due to manufacturing tolerances (typically +/- 5-10%) and specific material density variations."
-        }
-      }, {
-        "@type": "Question",
-        "name": "Can I calculate weights for different materials?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, while the default density is often set for Steel (approx. 7.85 g/cm³), the calculator covers various shapes applicable to Stainless Steel, Carbon Steel, and Nickel Alloys. For specific alloys like Hastelloy or Inconel, you may need to adjust for density differences."
-        }
-      }, {
-        "@type": "Question",
-        "name": "Do you supply the items listed in the calculator?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, Moksh Tubes & Fittings LLP manufactures and supplies most of the items listed, including HEA/HEB beams, seamless pipes, plates, and structural sections in various ferrous and non-ferrous grades."
-        }
-      }, {
-        "@type": "Question",
-        "name": "Is this calculator free to use?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, our steel weight calculator is completely free for engineers, fabricators, and procurement specialists to estimate shipment weights and plan logistics."
-        }
-      }, {
-        "@type": "Question",
-        "name": "What standards are these dimensions based on?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The dimensions provided in the calculator roughly follow international standards like EN, DIN, and ASTM for common structural sections. For precise engineering requirements, we recommend referring to the official standard documents."
-        }
-      }
-    }
-    @endverbatim
-    </script>
+    <script type="application/ld+json">
+               @verbatim
+                {
+                  "@context": "https://schema.org",
+                  "@type": "FAQPage",
+                  "mainEntity": [{
+                    "@type": "Question",
+                    "name": "How accurate is the steel weight calculator?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "The calculator uses standard theoretical weights based on international dimensional standards (DIN, ASTM, ASME). However, actual weights may vary slightly due to manufacturing tolerances (typically +/- 5-10%) and specific material density variations."
+                    }
+                  }, {
+                    "@type": "Question",
+                    "name": "Can I calculate weights for different materials?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, while the default density is often set for Steel (approx. 7.85 g/cm³), the calculator covers various shapes applicable to Stainless Steel, Carbon Steel, and Nickel Alloys. For specific alloys like Hastelloy or Inconel, you may need to adjust for density differences."
+                    }
+                  }, {
+                    "@type": "Question",
+                    "name": "Do you supply the items listed in the calculator?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, Moksh Tubes & Fittings LLP manufactures and supplies most of the items listed, including HEA/HEB beams, seamless pipes, plates, and structural sections in various ferrous and non-ferrous grades."
+                    }
+                  }, {
+                    "@type": "Question",
+                    "name": "Is this calculator free to use?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, our steel weight calculator is completely free for engineers, fabricators, and procurement specialists to estimate shipment weights and plan logistics."
+                    }
+                  }, {
+                    "@type": "Question",
+                    "name": "What standards are these dimensions based on?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "The dimensions provided in the calculator roughly follow international standards like EN, DIN, and ASTM for common structural sections. For precise engineering requirements, we recommend referring to the official standard documents."
+                    }
+                  }
+                }
+            @endverbatim
+        </script>
 @endsection
 @section('extrajs')
     <script>
@@ -2080,7 +2069,7 @@
         }
 
         // Run once at page load
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             // Attach events
             document.getElementById("squareSideA7").addEventListener("input", calculateSquareBarWeight7);
             document.getElementById("squareLength7").addEventListener("input", calculateSquareBarWeight7);

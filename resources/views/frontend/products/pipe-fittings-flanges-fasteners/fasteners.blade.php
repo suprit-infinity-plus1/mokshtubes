@@ -1,12 +1,16 @@
 @extends('layouts.master')
 @section('title', 'Industrial Fasteners – High-Quality Bolts & Nuts') <!-- 52 characters -->
-@section('meta_description',
+@section(
+    'meta_description',
     'Premium industrial fasteners from Mokshtubes — bolts, nuts, screws & washers in stainless
-    steel, alloy, titanium & nickel for marine & industrial use.') <!-- 153 characters -->
-@section('meta_keywords',
+    steel, alloy, titanium & nickel for marine & industrial use.'
+) <!-- 153 characters -->
+@section(
+    'meta_keywords',
     'Industrial Fasteners, Bolts, Nuts, Screws, Washers, Studs, Anchors, Stainless Steel
     Fasteners, Alloy Fasteners, Titanium Fasteners, Nickel Fasteners, High-Strength Fasteners, Corrosion-Resistant
-    Fasteners, ISO Certified Fasteners')
+    Fasteners, ISO Certified Fasteners'
+)
 @section('og_image', asset('assets/images/product/flangs/FASTENERS.webp'))
 @section('og_type', 'article')
 @section('content')
@@ -149,8 +153,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.hex-bolts') }}"
-                        class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/fasteners/hex-bolts') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
                             <img src="{{ asset('assets/images/fasteners/hax-bolt.png') }}" alt="Hex Bolts"
@@ -163,8 +166,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.heavy-hex-nuts') }}"
-                        class="text-decoration-none d-block h-100">
+                    <a href="{{ route('products.fasteners.heavy-hex-nuts') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
                             <img src="{{ asset('assets/images/fasteners/hax-2.png') }}" alt="Heavy Hex Nuts"
@@ -198,8 +200,7 @@
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
                             <img src="{{ asset('assets/images/fasteners/a286-gr-660-threaded-studs.jpg') }}"
-                                alt="A286 Gr 660 Threaded Studs" class="img-fluid rounded mb-3"
-                                style="border-radius: 8px;">
+                                alt="A286 Gr 660 Threaded Studs" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
                                 A286 Gr 660 Threaded Studs
@@ -279,8 +280,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.asme-sf-467-nuts') }}"
-                        class="text-decoration-none d-block h-100">
+                    <a href="{{ route('products.fasteners.asme-sf-467-nuts') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
                             <img src="{{ asset('assets/images/fasteners/asme-sf-467-nuts.jpg') }}" alt="ASME SF-467 Nuts"
@@ -293,8 +293,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.threaded-rods') }}"
-                        class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/fasteners/threaded-rods') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
                             <img src="{{ asset('assets/images/fasteners/full-threaded-rods.png') }}"
@@ -307,7 +306,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.socket-head-screws') }}"
+                    <a href="{{ url('products/fasteners/socket-head-screws') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -321,8 +320,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.washers') }}"
-                        class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/fasteners/washers') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
                             <img src="{{ asset('assets/images/fasteners/plain-washers.jpg') }}" alt="Plain Washers"
@@ -616,7 +614,7 @@
                 </div>
             </div>
     </section>
-    
+
 
     {{-- Grades Available --}}
     <section class="sec-padd-top sec-padd-bottom">
@@ -682,7 +680,7 @@
     </section>
 
     {{-- Gallery --}}
-    
+
 
 
     {{-- Applications --}}
@@ -1061,55 +1059,54 @@
 @endsection
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-            {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
+            @verbatim
                 {
-                "@type": "Question",
-                "name": "What types of fasteners are available from Moksh Tubes & Fittings LLP?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We provide a complete range including bolts, nuts, screws, washers, studs, threaded rods, anchors, rivets, and custom-engineered specialty fasteners."
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                    "@type": "Question",
+                    "name": "What types of fasteners are available from Moksh Tubes & Fittings LLP?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "We provide a complete range including bolts, nuts, screws, washers, studs, threaded rods, anchors, rivets, and custom-engineered specialty fasteners."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Which materials are used for your fasteners?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Our fasteners are made from stainless steel, carbon steel, alloy steel, duplex & super duplex, titanium, nickel alloys, and copper alloys to suit various industrial needs."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Are your fasteners compliant with international standards?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, our fasteners meet ASTM, ASME, DIN, ISO, BS, and JIS standards to ensure quality, strength, and reliability."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What industries use your fasteners?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Our fasteners are used in construction, marine, oil & gas, aerospace, automotive, industrial machinery, food & pharma, and energy sectors."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Can you provide custom fasteners for special applications?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Absolutely. We manufacture custom fasteners tailored to specific dimensions, materials, coatings, and performance requirements for unique industrial applications."
+                    }
+                    }
+                ]
                 }
-                },
-                {
-                "@type": "Question",
-                "name": "Which materials are used for your fasteners?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Our fasteners are made from stainless steel, carbon steel, alloy steel, duplex & super duplex, titanium, nickel alloys, and copper alloys to suit various industrial needs."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Are your fasteners compliant with international standards?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, our fasteners meet ASTM, ASME, DIN, ISO, BS, and JIS standards to ensure quality, strength, and reliability."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "What industries use your fasteners?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Our fasteners are used in construction, marine, oil & gas, aerospace, automotive, industrial machinery, food & pharma, and energy sectors."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Can you provide custom fasteners for special applications?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolutely. We manufacture custom fasteners tailored to specific dimensions, materials, coatings, and performance requirements for unique industrial applications."
-                }
-                }
-            ]
-            }
-        
-        @endverbatim
-    </script>
-@endsection
 
+            @endverbatim
+        </script>
+@endsection
