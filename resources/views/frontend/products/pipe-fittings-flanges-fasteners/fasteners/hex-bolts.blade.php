@@ -16,8 +16,16 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1 class="page-title">Hex Bolts Manufacturer, Supplier & Exporter in India</h1>
-                    <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Hex Bolts are high-strength fasteners with a six-sided hexagonal head, designed for secure and reliable fastening in industrial, construction, and engineering applications. Known for their excellent load-bearing capacity, durability, and corrosion resistance, hex bolts are widely used in machinery, structural steel, piping systems, and heavy equipment. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we manufacture, supply, and export premium-quality Hex Bolts in stainless steel, carbon steel, alloy steel, duplex, super duplex, and nickel alloy grades. Manufactured to international standards, our hex bolts deliver superior performance in demanding operating conditions.
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Hex Bolts are high-strength fasteners with a six-sided hexagonal head, designed for secure and
+                        reliable fastening in industrial, construction, and engineering applications. Known for their
+                        excellent load-bearing capacity, durability, and corrosion resistance, hex bolts are widely used in
+                        machinery, structural steel, piping systems, and heavy equipment. At <a href="{{ route('index') }}"
+                            class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we manufacture,
+                        supply, and export premium-quality Hex Bolts in stainless steel, carbon steel, alloy steel, duplex,
+                        super duplex, and nickel alloy grades. Manufactured to international standards, our hex bolts
+                        deliver superior performance in demanding operating conditions.
                     </p>
                 </div>
             </div>
@@ -32,9 +40,10 @@
             <a href="#chemical-composition">Chemical</a> |
             <a href="#size-chart">Size Chart</a> |
             <a href="#grades">Grades</a> |
-            <a href="#features">Features</a> |
             <a href="#applications">Applications</a> |
+            <a href="#features">Features</a> |
             <a href="#mechanical-properties">Mechanical</a> |
+            <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
     </div>
@@ -49,18 +58,24 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/fasteners/hax-bolt.png') }}"
-                        alt="Hex Bolts Manufacturer" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                    <img src="{{ asset('assets/images/fasteners/hax-bolt.png') }}" alt="Hex Bolts Manufacturer"
+                        class="img-fluid rounded shadow-sm" width="550" height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        A <strong>Hex Bolt</strong> is a threaded fastener with a hexagonal head that is tightened using a wrench or socket. It is typically used with a matching nut and washer to create a strong and secure joint between two or more components. Hex bolts are available in both <strong>fully threaded</strong> and <strong>partially threaded</strong> designs, making them suitable for a wide range of industrial and structural applications.
+                        A <strong>Hex Bolt</strong> is a threaded fastener with a hexagonal head that is tightened using a
+                        wrench or socket. It is typically used with a matching nut and washer to create a strong and secure
+                        joint between two or more components. Hex bolts are available in both <strong>fully
+                            threaded</strong> and <strong>partially threaded</strong> designs, making them suitable for a
+                        wide range of industrial and structural applications.
                     </p>
                     <p class="fs-6 text-justify">
-                        At <strong>Moksh Tubes & Fittings LLP</strong>, we manufacture precision-engineered Hex Bolts using premium-quality raw materials and advanced manufacturing processes. Our bolts offer excellent dimensional accuracy, high tensile strength, and reliable performance under heavy loads, vibration, and corrosive environments.
+                        At <strong>Moksh Tubes & Fittings LLP</strong>, we manufacture precision-engineered Hex Bolts using
+                        premium-quality raw materials and advanced manufacturing processes. Our bolts offer excellent
+                        dimensional accuracy, high tensile strength, and reliable performance under heavy loads, vibration,
+                        and corrosive environments.
                     </p>
                 </div>
             </div>
@@ -72,7 +87,8 @@
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Hex Bolts Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application
+                guidelines. Enter your email below to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
@@ -107,7 +123,7 @@
             <div class="section-title center mb-5">
                 <h2>Specifications</h2>
             </div>
-            
+
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="table-responsive">
@@ -129,7 +145,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td class="fw-bold ps-4">Material</td>
-                                    <td class="ps-4">Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys</td>
+                                    <td class="ps-4">Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex &
+                                        Nickel Alloys</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td class="fw-bold ps-4">Diameter</td>
@@ -170,7 +187,10 @@
                 <h2>Chemical Composition</h2>
             </div>
             <p class="text-center mb-4">
-                The chemical composition of <strong>Hex Bolts</strong> varies depending on the selected material grade. At <strong>Moksh Tubes & Fittings LLP</strong>, our Hex Bolts are manufactured using premium-quality raw materials that comply with ASTM, ASME, DIN, ISO, EN, and BS standards, ensuring excellent corrosion resistance, high mechanical strength, and long service life.
+                The chemical composition of <strong>Hex Bolts</strong> varies depending on the selected material grade. At
+                <strong>Moksh Tubes & Fittings LLP</strong>, our Hex Bolts are manufactured using premium-quality raw
+                materials that comply with ASTM, ASME, DIN, ISO, EN, and BS standards, ensuring excellent corrosion
+                resistance, high mechanical strength, and long service life.
             </p>
 
             <div class="table-responsive">
@@ -258,7 +278,11 @@
                     </tbody>
                 </table>
             </div>
-            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, ASTM A193 Grade B7, ASTM A193 Grade B7M, ASTM A320 Grade L7, Duplex Stainless Steel, Super Duplex Stainless Steel, Inconel®, Monel®, Hastelloy®, and other Nickel Alloy Hex Bolts are manufactured in accordance with the relevant ASTM and ASME material specifications.</small></p>
+            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on
+                    the selected material grade. Carbon Steel, Alloy Steel, ASTM A193 Grade B7, ASTM A193 Grade B7M, ASTM
+                    A320 Grade L7, Duplex Stainless Steel, Super Duplex Stainless Steel, Inconel®, Monel®, Hastelloy®, and
+                    other Nickel Alloy Hex Bolts are manufactured in accordance with the relevant ASTM and ASME material
+                    specifications.</small></p>
         </div>
     </section>
 
@@ -269,7 +293,8 @@
                 <h2>Size & Weight Chart</h2>
             </div>
             <p class="text-center mb-4">
-                Hex Bolts are manufactured according to <strong>ASTM, DIN, ISO, and ASME</strong> standards and are available in a wide range of diameters, lengths, and thread configurations.
+                Hex Bolts are manufactured according to <strong>ASTM, DIN, ISO, and ASME</strong> standards and are
+                available in a wide range of diameters, lengths, and thread configurations.
             </p>
 
             <div class="table-responsive">
@@ -284,22 +309,97 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>M6</td><td>1.0</td><td>10</td><td>10–60</td><td>0.30</td></tr>
-                        <tr class="t-row"><td>M8</td><td>1.25</td><td>13</td><td>16–80</td><td>0.65</td></tr>
-                        <tr class="t-row"><td>M10</td><td>1.5</td><td>17</td><td>20–100</td><td>1.20</td></tr>
-                        <tr class="t-row"><td>M12</td><td>1.75</td><td>19</td><td>25–120</td><td>2.10</td></tr>
-                        <tr class="t-row"><td>M16</td><td>2.0</td><td>24</td><td>30–150</td><td>4.30</td></tr>
-                        <tr class="t-row"><td>M20</td><td>2.5</td><td>30</td><td>40–200</td><td>7.90</td></tr>
-                        <tr class="t-row"><td>M24</td><td>3.0</td><td>36</td><td>50–250</td><td>12.60</td></tr>
-                        <tr class="t-row"><td>M30</td><td>3.5</td><td>46</td><td>60–300</td><td>23.40</td></tr>
-                        <tr class="t-row"><td>M36</td><td>4.0</td><td>55</td><td>80–350</td><td>38.80</td></tr>
-                        <tr class="t-row"><td>M42</td><td>4.5</td><td>65</td><td>100–400</td><td>58.70</td></tr>
-                        <tr class="t-row"><td>M48</td><td>5.0</td><td>75</td><td>120–500</td><td>83.20</td></tr>
-                        <tr class="t-row"><td>M56</td><td>5.5</td><td>85</td><td>150–600</td><td>125.50</td></tr>
+                        <tr class="t-row">
+                            <td>M6</td>
+                            <td>1.0</td>
+                            <td>10</td>
+                            <td>10–60</td>
+                            <td>0.30</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M8</td>
+                            <td>1.25</td>
+                            <td>13</td>
+                            <td>16–80</td>
+                            <td>0.65</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M10</td>
+                            <td>1.5</td>
+                            <td>17</td>
+                            <td>20–100</td>
+                            <td>1.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M12</td>
+                            <td>1.75</td>
+                            <td>19</td>
+                            <td>25–120</td>
+                            <td>2.10</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M16</td>
+                            <td>2.0</td>
+                            <td>24</td>
+                            <td>30–150</td>
+                            <td>4.30</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M20</td>
+                            <td>2.5</td>
+                            <td>30</td>
+                            <td>40–200</td>
+                            <td>7.90</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M24</td>
+                            <td>3.0</td>
+                            <td>36</td>
+                            <td>50–250</td>
+                            <td>12.60</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M30</td>
+                            <td>3.5</td>
+                            <td>46</td>
+                            <td>60–300</td>
+                            <td>23.40</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M36</td>
+                            <td>4.0</td>
+                            <td>55</td>
+                            <td>80–350</td>
+                            <td>38.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M42</td>
+                            <td>4.5</td>
+                            <td>65</td>
+                            <td>100–400</td>
+                            <td>58.70</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M48</td>
+                            <td>5.0</td>
+                            <td>75</td>
+                            <td>120–500</td>
+                            <td>83.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M56</td>
+                            <td>5.5</td>
+                            <td>85</td>
+                            <td>150–600</td>
+                            <td>125.50</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Dimensions and weights are approximate and may vary depending on the bolt type (Full Thread or Partial Thread), material grade, thread standard (Metric, UNC, UNF, BSW), surface finish, and manufacturing tolerances. Custom sizes and thread specifications are available upon request.</small></p>
+            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Dimensions and weights are approximate and
+                    may vary depending on the bolt type (Full Thread or Partial Thread), material grade, thread standard
+                    (Metric, UNC, UNF, BSW), surface finish, and manufacturing tolerances. Custom sizes and thread
+                    specifications are available upon request.</small></p>
         </div>
     </section>
 
@@ -309,7 +409,7 @@
             <div class="section-title center mb-5">
                 <h2>Grades & Equivalents</h2>
             </div>
-            
+
             <h4 class="mb-4 text-center">Available Grades</h4>
             <div class="row g-4 justify-content-center mb-5">
                 <div class="col-6 col-md-4 col-lg-4">
@@ -363,12 +463,30 @@
                                 </tr>
                             </thead>
                             <tbody class="text-start">
-                                <tr class="t-row"><td style="padding-left: 20px;"><strong>ASTM</strong></td><td style="padding-left: 20px;">ASTM A193</td></tr>
-                                <tr class="t-row"><td style="padding-left: 20px;"><strong>ASME</strong></td><td style="padding-left: 20px;">ASME SA193</td></tr>
-                                <tr class="t-row"><td style="padding-left: 20px;"><strong>DIN</strong></td><td style="padding-left: 20px;">DIN 931 / DIN 933</td></tr>
-                                <tr class="t-row"><td style="padding-left: 20px;"><strong>ISO</strong></td><td style="padding-left: 20px;">ISO 4014 / ISO 4017</td></tr>
-                                <tr class="t-row"><td style="padding-left: 20px;"><strong>EN</strong></td><td style="padding-left: 20px;">EN ISO 4014 / EN ISO 4017</td></tr>
-                                <tr class="t-row"><td style="padding-left: 20px;"><strong>BS</strong></td><td style="padding-left: 20px;">BS 3692</td></tr>
+                                <tr class="t-row">
+                                    <td style="padding-left: 20px;"><strong>ASTM</strong></td>
+                                    <td style="padding-left: 20px;">ASTM A193</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td style="padding-left: 20px;"><strong>ASME</strong></td>
+                                    <td style="padding-left: 20px;">ASME SA193</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td style="padding-left: 20px;"><strong>DIN</strong></td>
+                                    <td style="padding-left: 20px;">DIN 931 / DIN 933</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td style="padding-left: 20px;"><strong>ISO</strong></td>
+                                    <td style="padding-left: 20px;">ISO 4014 / ISO 4017</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td style="padding-left: 20px;"><strong>EN</strong></td>
+                                    <td style="padding-left: 20px;">EN ISO 4014 / EN ISO 4017</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td style="padding-left: 20px;"><strong>BS</strong></td>
+                                    <td style="padding-left: 20px;">BS 3692</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -385,28 +503,36 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}">
-                                <img class="w-100" src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp') }}"
                                     alt="Stainless Steel 304" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}" style="color: inherit; text-decoration: none;">Stainless Steel 304</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}"
+                                    style="color: inherit; text-decoration: none;">Stainless Steel 304</a></h6>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Stainless Steel 316 -->
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}">
-                                <img class="w-100" src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"
                                     alt="Stainless Steel 316" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}" style="color: inherit; text-decoration: none;">Stainless Steel 316</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}"
+                                    style="color: inherit; text-decoration: none;">Stainless Steel 316</a></h6>
                         </div>
                     </div>
                 </div>
@@ -415,13 +541,17 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}">
-                                <img class="w-100" src="{{ asset('assets/images/engineering-steels/engineering-steels-1045.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/engineering-steels/engineering-steels-1045.webp') }}"
                                     alt="Carbon Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}" style="color: inherit; text-decoration: none;">Carbon Steel</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}"
+                                    style="color: inherit; text-decoration: none;">Carbon Steel</a></h6>
                         </div>
                     </div>
                 </div>
@@ -430,13 +560,17 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}">
-                                <img class="w-100" src="{{ asset('assets/images/engineering-steels/engineering-steels-4140.webp') }}"
+                            <a class="w-100"
+                                href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/engineering-steels/engineering-steels-4140.webp') }}"
                                     alt="Alloy Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}" style="color: inherit; text-decoration: none;">Alloy Steel</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}"
+                                    style="color: inherit; text-decoration: none;">Alloy Steel</a></h6>
                         </div>
                     </div>
                 </div>
@@ -446,12 +580,15 @@
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
-                                <img class="w-100" src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}" style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}"
+                                    style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
                         </div>
                     </div>
                 </div>
@@ -466,74 +603,9 @@
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}" style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}"
+                                    style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{-- Features & Advantages --}}
-    <section id="features" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Features & Advantages</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>High tensile strength and durability</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
-                        <h4>Secure hexagonal head for easy tightening</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h4>Excellent corrosion and oxidation resistance</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building"></i></div>
-                        <h4>Suitable for heavy-duty industrial applications</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrow-left-right"></i></div>
-                        <h4>Available in full and partial thread options</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-bullseye"></i></div>
-                        <h4>Precision-machined threads for accurate fit</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
-                        <h4>Reliable performance under vibration and heavy loads</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
-                        <h4>Long service life with minimal maintenance</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
-                        <h4>Manufactured according to international quality standards</h4>
                     </div>
                 </div>
             </div>
@@ -619,12 +691,81 @@
         </div>
     </section>
 
+
+    {{-- Features & Advantages --}}
+    <section id="features" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Features & Advantages</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>High tensile strength and durability</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
+                        <h4>Secure hexagonal head for easy tightening</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h4>Excellent corrosion and oxidation resistance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building"></i></div>
+                        <h4>Suitable for heavy-duty industrial applications</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrow-left-right"></i></div>
+                        <h4>Available in full and partial thread options</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-bullseye"></i></div>
+                        <h4>Precision-machined threads for accurate fit</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                        <h4>Reliable performance under vibration and heavy loads</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h4>Long service life with minimal maintenance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
+                        <h4>Manufactured according to international quality standards</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     {{-- Mechanical Properties --}}
     <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-                 <p class="text-center">The mechanical properties of <strong>Hex Bolts</strong> depend on the selected material grade and comply with applicable ASTM and ASME standards. The table below shows the typical mechanical properties for commonly supplied stainless steel grades.</p>
+                <p class="text-center">The mechanical properties of <strong>Hex Bolts</strong> depend on the selected
+                    material grade and comply with applicable ASTM and ASME standards. The table below shows the typical
+                    mechanical properties for commonly supplied stainless steel grades.</p>
             </div>
 
             <div class="table-responsive">
@@ -660,70 +801,72 @@
                     </tbody>
                 </table>
             </div>
-             <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel, Alloy Steel, ASTM A193 Grade B7, ASTM A193 Grade B7M, ASTM A320 Grade L7, Duplex Stainless Steel, Super Duplex Stainless Steel, Inconel®, Monel®, Hastelloy®, and other Nickel Alloy Hex Bolts are available in accordance with their respective ASTM and ASME material specifications upon request.</small></p>
+            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel,
+                    Alloy Steel, ASTM A193 Grade B7, ASTM A193 Grade B7M, ASTM A320 Grade L7, Duplex Stainless Steel, Super
+                    Duplex Stainless Steel, Inconel®, Monel®, Hastelloy®, and other Nickel Alloy Hex Bolts are available in
+                    accordance with their respective ASTM and ASME material specifications upon request.</small></p>
         </div>
     </section>
 
     {{-- Testing & Quality Control --}}
-    <section id="testing" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Testing & Quality</h2>
-                <p class="text-center">Every Hex Bolt undergoes strict quality inspections before dispatch to ensure superior performance and dimensional accuracy. Our quality inspection includes:</p>
-            </div>
+    <!-- <section id="testing" class="sec-padd-top sec-padd-bottom">
+                        <div class="container">
+                            <div class="section-title center">
+                                <h2>Testing & Quality</h2>
+                                <p class="text-center">Every Hex Bolt undergoes strict quality inspections before dispatch to ensure
+                                    superior performance and dimensional accuracy. Our quality inspection includes:</p>
+                            </div>
 
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-search"></i></div>
-                        <h4>Positive Material Identification (PMI)</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                        <h4>Thread Gauge Inspection</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-bounding-box-circles"></i></div>
-                        <h4>Dimensional Inspection</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
-                        <h4>Hardness Testing</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                        <h4>Tensile Testing</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-eye"></i></div>
-                        <h4>Visual Inspection</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-12">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-patch-check"></i></div>
-                        <h4>Third-Party Inspection (Available on Request)</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-4">
-                <p class="fs-5"><strong>Test Certificate:</strong> EN 10204 3.1 Material Test Certificate is supplied with every order.</p>
-            </div>
-        </div>
-    </section>
-
-
-
+                            <div class="row g-4 mt-4">
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-search"></i></div>
+                                        <h4>Positive Material Identification (PMI)</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                                        <h4>Thread Gauge Inspection</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-bounding-box-circles"></i></div>
+                                        <h4>Dimensional Inspection</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
+                                        <h4>Hardness Testing</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                                        <h4>Tensile Testing</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-eye"></i></div>
+                                        <h4>Visual Inspection</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-12">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-patch-check"></i></div>
+                                        <h4>Third-Party Inspection (Available on Request)</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mt-4">
+                                <p class="fs-5"><strong>Test Certificate:</strong> EN 10204 3.1 Material Test Certificate is supplied with
+                                    every order.</p>
+                            </div>
+                        </div>
+                    </section> -->
 
     {{-- why choose us --}}
     <style>
@@ -734,6 +877,7 @@
             background-color: #ffffff;
             height: 100%;
         }
+
         .why-card .icon-circle {
             background-color: #e67e22;
             color: #ffffff;
@@ -746,16 +890,19 @@
             font-size: 1.5rem;
             transition: all 0.3s ease;
         }
+
         .why-card .why-text {
             color: #003366;
             font-weight: 600;
             font-size: 0.95rem;
             transition: color 0.3s ease;
         }
+
         .why-card:hover {
             border-color: #e67e22;
             box-shadow: 0 5px 15px rgba(230, 126, 34, 0.1);
         }
+
         .why-card:hover .icon-circle {
             background-color: #003366;
         }
@@ -765,7 +912,7 @@
             <div class="section-title center mb-5">
                 <h2>Why Choose Moksh Tubes &amp; Fittings LLP?</h2>
             </div>
-            
+
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
                     <div class="why-card text-center p-4">
@@ -825,18 +972,20 @@
         </div>
     </section>
 
-     {{-- Packaging & Export --}}
-    <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Packaging & Export</h2>
-            </div>
-            <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
-                We ensure that our Socket Head Screws are securely packaged to prevent damage during transit. We use high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
-                We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe, Africa, and Southeast Asia.
-            </p>
-        </div>
-    </section>
+    {{-- Packaging & Export --}}
+    <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
+                <div class="container">
+                    <div class="section-title center">
+                        <h2>Packaging & Export</h2>
+                    </div>
+                    <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
+                        We ensure that our Socket Head Screws are securely packaged to prevent damage during transit. We use
+                        high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
+                        We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe,
+                        Africa, and Southeast Asia.
+                    </p>
+                </div>
+            </section> -->
 
     <!--Start faq content area-->
     <section id="faq" class="faq-content-area sec-padd2">
@@ -854,7 +1003,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    A Hex Bolt is a threaded fastener with a six-sided head used with a nut to securely join components in industrial, structural, and mechanical applications.
+                                    A Hex Bolt is a threaded fastener with a six-sided head used with a nut to securely join
+                                    components in industrial, structural, and mechanical applications.
                                 </p>
                             </div>
                         </div>
@@ -865,7 +1015,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Hex Bolts are widely used in construction, machinery, piping systems, oil & gas, power plants, marine, automotive, and structural steel applications.
+                                    Hex Bolts are widely used in construction, machinery, piping systems, oil & gas, power
+                                    plants, marine, automotive, and structural steel applications.
                                 </p>
                             </div>
                         </div>
@@ -876,7 +1027,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    We manufacture Hex Bolts in stainless steel, carbon steel, alloy steel, duplex, super duplex, and nickel alloy grades.
+                                    We manufacture Hex Bolts in stainless steel, carbon steel, alloy steel, duplex, super
+                                    duplex, and nickel alloy grades.
                                 </p>
                             </div>
                         </div>
@@ -898,7 +1050,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes. We manufacture Hex Bolts in custom diameters, lengths, thread types, coatings, and material grades according to customer specifications.
+                                    Yes. We manufacture Hex Bolts in custom diameters, lengths, thread types, coatings, and
+                                    material grades according to customer specifications.
                                 </p>
                             </div>
                         </div>
@@ -914,7 +1067,9 @@
             <div class="contact-cta-box">
                 <h2>Request a Quote</h2>
                 <p>
-                    Looking for a trusted <strong>Hex Bolts</strong> manufacturer and supplier? Contact <strong>Moksh Tubes & Fittings LLP</strong> for premium-quality industrial hex bolts, competitive pricing, ready stock, technical support, and fast worldwide delivery. Request your free quotation today.
+                    Looking for a trusted <strong>Hex Bolts</strong> manufacturer and supplier? Contact <strong>Moksh Tubes
+                        & Fittings LLP</strong> for premium-quality industrial hex bolts, competitive pricing, ready stock,
+                    technical support, and fast worldwide delivery. Request your free quotation today.
                 </p>
                 <a href="{{ route('contact-us') }}" class="contact-cta-btn">
                     Get in Touch
@@ -946,18 +1101,21 @@
             height: 100%;
             transition: all 0.3s ease;
         }
+
         .grade-card:hover {
-            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
             transform: translateY(-5px);
             background-color: #db7227;
             border-color: #db7227;
         }
+
         .grade-card-icon {
             font-size: 32px;
             color: #174268;
             margin-bottom: 15px;
             transition: color 0.3s ease;
         }
+
         .grade-card-title {
             color: #174268;
             font-size: 18px;
@@ -965,16 +1123,19 @@
             margin-bottom: 10px;
             transition: color 0.3s ease;
         }
+
         .grade-card-desc {
             color: #666;
             font-size: 14px;
             margin-bottom: 0;
             transition: color 0.3s ease;
         }
+
         .grade-card:hover .grade-card-icon,
         .grade-card:hover .grade-card-title {
             color: #fff;
         }
+
         .grade-card:hover .grade-card-desc {
             color: #f1f1f1;
         }
@@ -984,58 +1145,58 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": ["Organization", "LocalBusiness"],
-              "@id": "https://mokshtubes.com/#organization",
-              "name": "Moksh Tubes & Fittings LLP",
-              "url": "https://mokshtubes.com/",
-              "logo": "https://mokshtubes.com/assets/images/logo.webp",
-              "telephone": "+91-9769584950",
-              "email": "info@mokshtubes.com"
-            },
-            {
-              "@type": "WebPage",
-              "@id": "https://mokshtubes.com/hex-bolts#webpage",
-              "name": "Hex Bolts Manufacturer, Supplier & Exporter in India | Moksh Tubes",
-              "url": "https://mokshtubes.com/hex-bolts",
-              "description": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Hex Bolts in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A193, DIN & ISO standards with worldwide delivery."
-            },
-            {
-              "@type": ["Product"],
-              "@id": "https://mokshtubes.com/#hexbolts",
-              "name": "Hex Bolts",
-              "image": "https://mokshtubes.com/assets/images/fasteners/hex-bolts-manufacturer.webp",
-              "category": "Fasteners",
-              "brand": { "@id": "https://mokshtubes.com/#organization" }
-            },
-            {
-              "@type": "BreadcrumbList",
-              "@id": "https://mokshtubes.com/hex-bolts#breadcrumb",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Home",
-                  "item": "https://mokshtubes.com/"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "Fasteners",
-                  "item": "https://mokshtubes.com/fasteners"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "name": "Hex Bolts"
-                }
-              ]
-            }
-          ]
-        }
-        </script>
+                                                {
+                                                  "@context": "https://schema.org",
+                                                  "@graph": [
+                                                    {
+                                                      "@type": ["Organization", "LocalBusiness"],
+                                                      "@id": "https://mokshtubes.com/#organization",
+                                                      "name": "Moksh Tubes & Fittings LLP",
+                                                      "url": "https://mokshtubes.com/",
+                                                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                                                      "telephone": "+91-9769584950",
+                                                      "email": "info@mokshtubes.com"
+                                                    },
+                                                    {
+                                                      "@type": "WebPage",
+                                                      "@id": "https://mokshtubes.com/hex-bolts#webpage",
+                                                      "name": "Hex Bolts Manufacturer, Supplier & Exporter in India | Moksh Tubes",
+                                                      "url": "https://mokshtubes.com/hex-bolts",
+                                                      "description": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Hex Bolts in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A193, DIN & ISO standards with worldwide delivery."
+                                                    },
+                                                    {
+                                                      "@type": ["Product"],
+                                                      "@id": "https://mokshtubes.com/#hexbolts",
+                                                      "name": "Hex Bolts",
+                                                      "image": "https://mokshtubes.com/assets/images/fasteners/hex-bolts-manufacturer.webp",
+                                                      "category": "Fasteners",
+                                                      "brand": { "@id": "https://mokshtubes.com/#organization" }
+                                                    },
+                                                    {
+                                                      "@type": "BreadcrumbList",
+                                                      "@id": "https://mokshtubes.com/hex-bolts#breadcrumb",
+                                                      "itemListElement": [
+                                                        {
+                                                          "@type": "ListItem",
+                                                          "position": 1,
+                                                          "name": "Home",
+                                                          "item": "https://mokshtubes.com/"
+                                                        },
+                                                        {
+                                                          "@type": "ListItem",
+                                                          "position": 2,
+                                                          "name": "Fasteners",
+                                                          "item": "https://mokshtubes.com/fasteners"
+                                                        },
+                                                        {
+                                                          "@type": "ListItem",
+                                                          "position": 3,
+                                                          "name": "Hex Bolts"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                                </script>
     @endverbatim
 @endsection

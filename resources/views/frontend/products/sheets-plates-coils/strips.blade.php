@@ -39,11 +39,11 @@
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#uses">Uses & Advantages</a> |
-            <a href="#manufacturing">Manufacturing</a> |
+            <!-- <a href="#uses">Uses & Advantages</a> | -->
+            <!-- <a href="#manufacturing">Manufacturing</a> | -->
             <a href="#mechanical">Mechanical Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
-            <a href="#export">Packaging & Exports</a> |
+            <!-- <a href="#tolerances">Tolerances</a> | -->
+            <!-- <a href="#export">Packaging & Exports</a> | -->
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -625,24 +625,24 @@
                 </div>
             </div>
 
-            <div class="row mt-5 justify-content-center text-start">
-                <div class="col-lg-8">
-                    <div class="p-4 rounded shadow-sm bg-light border">
-                        <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Metal Strips</h4>
-                        <p class="mb-2"><strong>Before selecting strips:</strong></p>
-                        <ul class="list-unstyled">
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type (SS / MS / Aluminium
-                                / Copper)</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness & width requirement</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Surface finish</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (industrial /
-                                decorative)</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Coil vs cut length</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Standard compliance</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <!-- <div class="row mt-5 justify-content-center text-start">
+                        <div class="col-lg-8">
+                            <div class="p-4 rounded shadow-sm bg-light border">
+                                <h4 class="mb-3 text-center" style="color: #db7227;">Buying Guide – Metal Strips</h4>
+                                <p class="mb-2"><strong>Before selecting strips:</strong></p>
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Material type (SS / MS / Aluminium
+                                        / Copper)</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thickness & width requirement</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Surface finish</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Application (industrial /
+                                        decorative)</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Coil vs cut length</li>
+                                    <li><i class="bi bi-check-circle-fill text-success me-2"></i> Standard compliance</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
         </div>
     </section>
 
@@ -736,114 +736,114 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-                    @verbatim
-                        [{
-                            "@context": "https://schema.org",
-                            "@type": "Organization",
-                            "name": "Moksh Tubes & Fittings LLP",
-                            "url": "https://www.mokshtubes.com",
-                            "logo": "https://www.mokshtubes.com/assets/logo.png",
-                            "contactPoint": {
-                                "@type": "ContactPoint",
-                                "telephone": "+91-97695-84950",
-                                "contactType": "sales",
-                                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                                "availableLanguage": ["English"]
-                            }
-                        },
-                        {
-                            "@context": "https://schema.org",
-                            "@type": "Product",
-                            "name": "Metal Strips | Stainless Steel, Aluminium & Precision Strips",
-                            "description": "Buy metal strips in stainless steel, aluminium, copper & more. Precision slit strips with custom widths & thickness. India & export supply.",
-                            "brand": {
-                                "@type": "Brand",
-                                "name": "Moksh Tubes & Fittings LLP"
-                            },
-                            "manufacturer": {
-                                "@type": "Organization",
-                                "name": "Moksh Tubes & Fittings LLP"
-                            },
-                            "material": "Stainless Steel, Carbon Steel, Mild Steel, Aluminium, Copper, Brass, Nickel Alloys, Titanium",
-                            "url": "https://www.mokshtubes.com/metal-strips",
-                            "offers": {
-                                "@type": "Offer",
-                                "availability": "https://schema.org/InStock",
-                                "priceCurrency": "INR",
-                                "url": "https://www.mokshtubes.com/contact-us"
-                            }
-                        },
-                        {
-                            "@context": "https://schema.org",
-                            "@type": "FAQPage",
-                            "mainEntity": [{
-                                "@type": "Question",
-                                "name": "Q1. What are metal strips?",
-                                "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Narrow flat metal products used in various industries."
-                                }
-                            },{
-                                "@type": "Question",
-                                "name": "Q2. What materials are available?",
-                                "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "SS, MS, aluminium, copper, brass, titanium, and more."
-                                }
-                            },{
-                                "@type": "Question",
-                                "name": "Q3. What sizes are available?",
-                                "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Thickness 0.1–6 mm, width 5–500 mm."
-                                }
-                            },{
-                                "@type": "Question",
-                                "name": "Q4. What are common uses?",
-                                "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Electrical, automotive, construction, fabrication."
-                                }
-                            },{
-                                "@type": "Question",
-                                "name": "Q5. Difference between strips and sheets?",
-                                "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Strips are narrower and slit from coils."
-                                }
-                            }]
-                        },
-                        {
-                            "@context": "https://schema.org",
-                            "@type": "BreadcrumbList",
-                            "itemListElement": [{
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.mokshtubes.com"
-                            },{
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Products",
-                                "item": "https://www.mokshtubes.com/products"
-                            },{
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Metal Strips",
-                                "item": "https://www.mokshtubes.com/metal-strips"
-                            }]
-                        },
-                        {
-                            "@context": "https://schema.org",
-                            "@type": "LocalBusiness",
-                            "name": "Moksh Tubes & Fittings LLP",
-                            "address": {
-                                "@type": "PostalAddress",
-                                "addressCountry": "India"
-                            },
-                            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-                            "telephone": "+91-97695-84950"
-                        }]
-                    @endverbatim
-                </script>
+                            @verbatim
+                                [{
+                                    "@context": "https://schema.org",
+                                    "@type": "Organization",
+                                    "name": "Moksh Tubes & Fittings LLP",
+                                    "url": "https://www.mokshtubes.com",
+                                    "logo": "https://www.mokshtubes.com/assets/logo.png",
+                                    "contactPoint": {
+                                        "@type": "ContactPoint",
+                                        "telephone": "+91-97695-84950",
+                                        "contactType": "sales",
+                                        "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                        "availableLanguage": ["English"]
+                                    }
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "Product",
+                                    "name": "Metal Strips | Stainless Steel, Aluminium & Precision Strips",
+                                    "description": "Buy metal strips in stainless steel, aluminium, copper & more. Precision slit strips with custom widths & thickness. India & export supply.",
+                                    "brand": {
+                                        "@type": "Brand",
+                                        "name": "Moksh Tubes & Fittings LLP"
+                                    },
+                                    "manufacturer": {
+                                        "@type": "Organization",
+                                        "name": "Moksh Tubes & Fittings LLP"
+                                    },
+                                    "material": "Stainless Steel, Carbon Steel, Mild Steel, Aluminium, Copper, Brass, Nickel Alloys, Titanium",
+                                    "url": "https://www.mokshtubes.com/metal-strips",
+                                    "offers": {
+                                        "@type": "Offer",
+                                        "availability": "https://schema.org/InStock",
+                                        "priceCurrency": "INR",
+                                        "url": "https://www.mokshtubes.com/contact-us"
+                                    }
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "FAQPage",
+                                    "mainEntity": [{
+                                        "@type": "Question",
+                                        "name": "Q1. What are metal strips?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Narrow flat metal products used in various industries."
+                                        }
+                                    },{
+                                        "@type": "Question",
+                                        "name": "Q2. What materials are available?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "SS, MS, aluminium, copper, brass, titanium, and more."
+                                        }
+                                    },{
+                                        "@type": "Question",
+                                        "name": "Q3. What sizes are available?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Thickness 0.1–6 mm, width 5–500 mm."
+                                        }
+                                    },{
+                                        "@type": "Question",
+                                        "name": "Q4. What are common uses?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Electrical, automotive, construction, fabrication."
+                                        }
+                                    },{
+                                        "@type": "Question",
+                                        "name": "Q5. Difference between strips and sheets?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Strips are narrower and slit from coils."
+                                        }
+                                    }]
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "BreadcrumbList",
+                                    "itemListElement": [{
+                                        "@type": "ListItem",
+                                        "position": 1,
+                                        "name": "Home",
+                                        "item": "https://www.mokshtubes.com"
+                                    },{
+                                        "@type": "ListItem",
+                                        "position": 2,
+                                        "name": "Products",
+                                        "item": "https://www.mokshtubes.com/products"
+                                    },{
+                                        "@type": "ListItem",
+                                        "position": 3,
+                                        "name": "Metal Strips",
+                                        "item": "https://www.mokshtubes.com/metal-strips"
+                                    }]
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "LocalBusiness",
+                                    "name": "Moksh Tubes & Fittings LLP",
+                                    "address": {
+                                        "@type": "PostalAddress",
+                                        "addressCountry": "India"
+                                    },
+                                    "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                                    "telephone": "+91-97695-84950"
+                                }]
+                            @endverbatim
+                        </script>
 @endsection

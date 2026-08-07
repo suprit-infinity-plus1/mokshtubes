@@ -9,7 +9,8 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/steel-furniture/custom-steel-furniture.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/product/steel-furniture/custom-steel-furniture.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -17,7 +18,12 @@
 
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Custom Steel Furniture is a modern solution combining durability, functionality, and design flexibility for residential, commercial, and industrial applications. Moksh Tubes & Fittings LLP manufactures high-quality custom steel furniture using stainless steel, mild steel, and advanced fabrication techniques such as CNC cutting and laser processing. Our furniture solutions are corrosion-resistant, structurally strong, and fully customizable to suit diverse architectural and industrial requirements across India and export markets.
+                        Custom Steel Furniture is a modern solution combining durability, functionality, and design
+                        flexibility for residential, commercial, and industrial applications. Moksh Tubes & Fittings LLP
+                        manufactures high-quality custom steel furniture using stainless steel, mild steel, and advanced
+                        fabrication techniques such as CNC cutting and laser processing. Our furniture solutions are
+                        corrosion-resistant, structurally strong, and fully customizable to suit diverse architectural and
+                        industrial requirements across India and export markets.
                     </p>
                 </div>
             </div>
@@ -33,11 +39,11 @@
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#buying-guide">Buying Guide</a> |
-            <a href="#manufacturing">Manufacturing</a> |
-            <a href="#mechanical">Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
-            <a href="#export">Packaging & Exports</a> |
+            <!-- <a href="#buying-guide">Buying Guide</a> |
+                    <a href="#manufacturing">Manufacturing</a> | -->
+            <!-- <a href="#tolerances">Tolerances</a> |
+                    <a href="#export">Packaging & Exports</a> | -->
+            <a href="#mechanical">Mechanical Properties</a> |
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -57,23 +63,32 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/steel-furniture/custom-steel-furniture.webp') }}" alt="custom stainless steel furniture design"
-                        class="img-fluid rounded shadow-sm" loading="lazy">
+                    <img src="{{ asset('assets/images/product/steel-furniture/custom-steel-furniture.webp') }}"
+                        alt="custom stainless steel furniture design" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong class="text-black">Custom Steel Furniture</strong> represents a perfect blend of strength, durability, and design innovation. Unlike standard furniture, custom steel furniture is engineered to meet specific functional requirements, space constraints, and aesthetic preferences.
+                            <strong class="text-black">Custom Steel Furniture</strong> represents a perfect blend of
+                            strength, durability, and design innovation. Unlike standard furniture, custom steel furniture
+                            is engineered to meet specific functional requirements, space constraints, and aesthetic
+                            preferences.
                         </p>
 
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            Steel furniture offers superior performance compared to wood or plastic, with higher load-bearing capacity, corrosion resistance, and longer lifespan. It can be seamlessly combined with materials like glass, wood, and stone to create modern, industrial, or luxury designs.
+                            Steel furniture offers superior performance compared to wood or plastic, with higher
+                            load-bearing capacity, corrosion resistance, and longer lifespan. It can be seamlessly combined
+                            with materials like glass, wood, and stone to create modern, industrial, or luxury designs.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings LLP</a></strong>, we design and fabricate customized steel furniture solutions including tables, chairs, workstations, cabinets, storage systems, and industrial furniture. Using advanced fabrication methods and premium-grade materials, we deliver products that ensure long-term reliability and visual appeal.
+                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings
+                                    LLP</a></strong>, we design and fabricate customized steel furniture solutions including
+                            tables, chairs, workstations, cabinets, storage systems, and industrial furniture. Using
+                            advanced fabrication methods and premium-grade materials, we deliver products that ensure
+                            long-term reliability and visual appeal.
                         </p>
                     </div>
                 </div>
@@ -81,7 +96,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -100,14 +115,38 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Material</td><td>Stainless Steel, Mild Steel, Carbon Steel, Duplex & Super Duplex</td></tr>
-                                <tr class="t-row"><td>Grades</td><td>ASTM / ASME compliant</td></tr>
-                                <tr class="t-row"><td>Types</td><td>Tables, Chairs, Cabinets, Workstations, Shelves, Storage Units</td></tr>
-                                <tr class="t-row"><td>Finishes</td><td>Matte, Mirror, Brushed, Powder Coated, Painted, Antique</td></tr>
-                                <tr class="t-row"><td>Fabrication</td><td>CNC Cutting, Laser Cutting, TIG/MIG Welding</td></tr>
-                                <tr class="t-row"><td>Dimensions</td><td>Fully customizable</td></tr>
-                                <tr class="t-row"><td>Applications</td><td>Residential, Commercial, Industrial</td></tr>
-                                <tr class="t-row"><td>Durability</td><td>Rust-resistant, termite-proof, long-lasting</td></tr>
+                                <tr class="t-row">
+                                    <td>Material</td>
+                                    <td>Stainless Steel, Mild Steel, Carbon Steel, Duplex & Super Duplex</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Grades</td>
+                                    <td>ASTM / ASME compliant</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Types</td>
+                                    <td>Tables, Chairs, Cabinets, Workstations, Shelves, Storage Units</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Finishes</td>
+                                    <td>Matte, Mirror, Brushed, Powder Coated, Painted, Antique</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Fabrication</td>
+                                    <td>CNC Cutting, Laser Cutting, TIG/MIG Welding</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Dimensions</td>
+                                    <td>Fully customizable</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Applications</td>
+                                    <td>Residential, Commercial, Industrial</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Durability</td>
+                                    <td>Rust-resistant, termite-proof, long-lasting</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -121,21 +160,57 @@
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;"> Size & Weight Chart</h2>
             </div>
-            
+
             <h4 class="text-center mb-3" style="color: #db7227;">Standard Sections & Weight Reference</h4>
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Furniture</th><th>Section</th><th>Size</th><th>Thickness (mm)</th><th>Weight (kg/m)</th></tr>
+                                <tr class="t-row">
+                                    <th>Furniture</th>
+                                    <th>Section</th>
+                                    <th>Size</th>
+                                    <th>Thickness (mm)</th>
+                                    <th>Weight (kg/m)</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Chairs</td><td>Round Tube</td><td>Ø19–25</td><td>1.2–1.5</td><td>0.60–0.95</td></tr>
-                                <tr class="t-row"><td>Tables</td><td>Square Tube</td><td>40×40</td><td>1.5–2.0</td><td>1.50–2.00</td></tr>
-                                <tr class="t-row"><td>Racks</td><td>Square Tube</td><td>50×50</td><td>2.0–3.0</td><td>2.47–3.70</td></tr>
-                                <tr class="t-row"><td>Beds</td><td>Rectangular</td><td>75×40</td><td>1.5–2.0</td><td>2.30–2.90</td></tr>
-                                <tr class="t-row"><td>Cabinets</td><td>Square Tube</td><td>25×25</td><td>1.0–1.5</td><td>0.75–1.10</td></tr>
+                                <tr class="t-row">
+                                    <td>Chairs</td>
+                                    <td>Round Tube</td>
+                                    <td>Ø19–25</td>
+                                    <td>1.2–1.5</td>
+                                    <td>0.60–0.95</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Tables</td>
+                                    <td>Square Tube</td>
+                                    <td>40×40</td>
+                                    <td>1.5–2.0</td>
+                                    <td>1.50–2.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Racks</td>
+                                    <td>Square Tube</td>
+                                    <td>50×50</td>
+                                    <td>2.0–3.0</td>
+                                    <td>2.47–3.70</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Beds</td>
+                                    <td>Rectangular</td>
+                                    <td>75×40</td>
+                                    <td>1.5–2.0</td>
+                                    <td>2.30–2.90</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Cabinets</td>
+                                    <td>Square Tube</td>
+                                    <td>25×25</td>
+                                    <td>1.0–1.5</td>
+                                    <td>0.75–1.10</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -148,35 +223,145 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Size (mm)</th><th>Section Type</th><th>1.0 mm (kg/m)</th><th>2.0 mm (kg/m)</th><th>3.0 mm (kg/m)</th><th>4.0 mm (kg/m)</th><th>5.0 mm (kg/m)</th><th>6.0 mm (kg/m)</th><th>8.0 mm (kg/m)</th></tr>
+                                <tr class="t-row">
+                                    <th>Size (mm)</th>
+                                    <th>Section Type</th>
+                                    <th>1.0 mm (kg/m)</th>
+                                    <th>2.0 mm (kg/m)</th>
+                                    <th>3.0 mm (kg/m)</th>
+                                    <th>4.0 mm (kg/m)</th>
+                                    <th>5.0 mm (kg/m)</th>
+                                    <th>6.0 mm (kg/m)</th>
+                                    <th>8.0 mm (kg/m)</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>25×25</td><td>Square (SHS)</td><td>0.60</td><td>1.18</td><td>1.75</td><td>2.32</td><td>2.90</td><td>3.47</td><td>4.62</td></tr>
-                                <tr class="t-row"><td>40×40</td><td>Square (SHS)</td><td>0.95</td><td>1.85</td><td>2.75</td><td>3.65</td><td>4.55</td><td>5.45</td><td>7.25</td></tr>
-                                <tr class="t-row"><td>50×50</td><td>Square (SHS)</td><td>1.20</td><td>2.35</td><td>3.50</td><td>4.65</td><td>5.80</td><td>6.95</td><td>9.25</td></tr>
-                                <tr class="t-row"><td>60×40</td><td>Rectangular (RHS)</td><td>1.10</td><td>2.10</td><td>3.15</td><td>4.20</td><td>5.25</td><td>6.30</td><td>8.40</td></tr>
-                                <tr class="t-row"><td>75×40</td><td>Rectangular (RHS)</td><td>1.35</td><td>2.60</td><td>3.90</td><td>5.20</td><td>6.50</td><td>7.80</td><td>10.40</td></tr>
-                                <tr class="t-row"><td>100×50</td><td>Rectangular (RHS)</td><td>1.80</td><td>3.50</td><td>5.25</td><td>7.00</td><td>8.75</td><td>10.50</td><td>14.00</td></tr>
-                                <tr class="t-row"><td>120×60</td><td>Rectangular (RHS)</td><td>2.20</td><td>4.30</td><td>6.40</td><td>8.55</td><td>10.70</td><td>12.85</td><td>17.10</td></tr>
-                                <tr class="t-row"><td>150×75</td><td>Rectangular (RHS)</td><td>2.80</td><td>5.40</td><td>8.10</td><td>10.80</td><td>13.50</td><td>16.20</td><td>21.60</td></tr>
+                                <tr class="t-row">
+                                    <td>25×25</td>
+                                    <td>Square (SHS)</td>
+                                    <td>0.60</td>
+                                    <td>1.18</td>
+                                    <td>1.75</td>
+                                    <td>2.32</td>
+                                    <td>2.90</td>
+                                    <td>3.47</td>
+                                    <td>4.62</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>40×40</td>
+                                    <td>Square (SHS)</td>
+                                    <td>0.95</td>
+                                    <td>1.85</td>
+                                    <td>2.75</td>
+                                    <td>3.65</td>
+                                    <td>4.55</td>
+                                    <td>5.45</td>
+                                    <td>7.25</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>50×50</td>
+                                    <td>Square (SHS)</td>
+                                    <td>1.20</td>
+                                    <td>2.35</td>
+                                    <td>3.50</td>
+                                    <td>4.65</td>
+                                    <td>5.80</td>
+                                    <td>6.95</td>
+                                    <td>9.25</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>60×40</td>
+                                    <td>Rectangular (RHS)</td>
+                                    <td>1.10</td>
+                                    <td>2.10</td>
+                                    <td>3.15</td>
+                                    <td>4.20</td>
+                                    <td>5.25</td>
+                                    <td>6.30</td>
+                                    <td>8.40</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>75×40</td>
+                                    <td>Rectangular (RHS)</td>
+                                    <td>1.35</td>
+                                    <td>2.60</td>
+                                    <td>3.90</td>
+                                    <td>5.20</td>
+                                    <td>6.50</td>
+                                    <td>7.80</td>
+                                    <td>10.40</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>100×50</td>
+                                    <td>Rectangular (RHS)</td>
+                                    <td>1.80</td>
+                                    <td>3.50</td>
+                                    <td>5.25</td>
+                                    <td>7.00</td>
+                                    <td>8.75</td>
+                                    <td>10.50</td>
+                                    <td>14.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>120×60</td>
+                                    <td>Rectangular (RHS)</td>
+                                    <td>2.20</td>
+                                    <td>4.30</td>
+                                    <td>6.40</td>
+                                    <td>8.55</td>
+                                    <td>10.70</td>
+                                    <td>12.85</td>
+                                    <td>17.10</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>150×75</td>
+                                    <td>Rectangular (RHS)</td>
+                                    <td>2.80</td>
+                                    <td>5.40</td>
+                                    <td>8.10</td>
+                                    <td>10.80</td>
+                                    <td>13.50</td>
+                                    <td>16.20</td>
+                                    <td>21.60</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-            
+
             <h4 class="text-center mb-3" style="color: #db7227;">Load Capacity Reference</h4>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row"><th>Section</th><th>Size</th><th>Load Capacity</th><th>Application</th></tr>
+                                <tr class="t-row">
+                                    <th>Section</th>
+                                    <th>Size</th>
+                                    <th>Load Capacity</th>
+                                    <th>Application</th>
+                                </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Square Tube</td><td>50×50</td><td>150–250 kg</td><td>Industrial racks</td></tr>
-                                <tr class="t-row"><td>Rectangular</td><td>75×40</td><td>250–500 kg</td><td>Warehouse</td></tr>
-                                <tr class="t-row"><td>Sheet Shelf</td><td>Custom</td><td>50–150 kg</td><td>Home / Office</td></tr>
+                                <tr class="t-row">
+                                    <td>Square Tube</td>
+                                    <td>50×50</td>
+                                    <td>150–250 kg</td>
+                                    <td>Industrial racks</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Rectangular</td>
+                                    <td>75×40</td>
+                                    <td>250–500 kg</td>
+                                    <td>Warehouse</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sheet Shelf</td>
+                                    <td>Custom</td>
+                                    <td>50–150 kg</td>
+                                    <td>Home / Office</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -196,7 +381,8 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h5>Stainless Steel Grades</h5>
-                        <p><strong>304 / 304L:</strong> Interior & premium furniture<br><strong>316 / 316L:</strong> Outdoor & corrosion-resistant</p>
+                        <p><strong>304 / 304L:</strong> Interior & premium furniture<br><strong>316 / 316L:</strong> Outdoor
+                            & corrosion-resistant</p>
                     </div>
                 </div>
 
@@ -215,7 +401,7 @@
                         <p><strong>2205, S31803, S32750:</strong> High strength & corrosion resistance</p>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-award-fill"></i></div>
@@ -226,6 +412,104 @@
             </div>
         </div>
     </section>
+
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
 
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -344,7 +628,8 @@
                             <tbody>
                                 <tr class="t-row">
                                     <td><strong>Material Strength</strong></td>
-                                    <td>Manufactured using Mild Steel (MS), Stainless Steel 304, Stainless Steel 316, or other structural steel grades for high load-bearing capacity.</td>
+                                    <td>Manufactured using Mild Steel (MS), Stainless Steel 304, Stainless Steel 316, or
+                                        other structural steel grades for high load-bearing capacity.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Tensile Strength</strong></td>
@@ -352,11 +637,13 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Yield Strength</strong></td>
-                                    <td>Excellent yield strength provides resistance to bending and permanent deformation.</td>
+                                    <td>Excellent yield strength provides resistance to bending and permanent deformation.
+                                    </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Load Capacity</strong></td>
-                                    <td>Designed to support light, medium, or heavy-duty applications depending on the furniture design and material thickness.</td>
+                                    <td>Designed to support light, medium, or heavy-duty applications depending on the
+                                        furniture design and material thickness.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Impact Resistance</strong></td>
@@ -364,31 +651,38 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Hardness</strong></td>
-                                    <td>Available in different hardness levels based on the selected steel grade and fabrication process.</td>
+                                    <td>Available in different hardness levels based on the selected steel grade and
+                                        fabrication process.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Corrosion Resistance</strong></td>
-                                    <td>Stainless steel grades offer superior corrosion resistance, while mild steel furniture can be powder-coated or galvanized for added protection.</td>
+                                    <td>Stainless steel grades offer superior corrosion resistance, while mild steel
+                                        furniture can be powder-coated or galvanized for added protection.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Weldability</strong></td>
-                                    <td>Excellent weldability ensures strong, durable joints and high structural integrity.</td>
+                                    <td>Excellent weldability ensures strong, durable joints and high structural integrity.
+                                    </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Surface Finish</strong></td>
-                                    <td>Available in powder-coated, painted, brushed, polished, mirror, matte, or galvanized finishes.</td>
+                                    <td>Available in powder-coated, painted, brushed, polished, mirror, matte, or galvanized
+                                        finishes.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Dimensional Accuracy</strong></td>
-                                    <td>Precision fabricated using CNC cutting, bending, and welding processes for consistent dimensions.</td>
+                                    <td>Precision fabricated using CNC cutting, bending, and welding processes for
+                                        consistent dimensions.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Temperature Resistance</strong></td>
-                                    <td>Suitable for indoor and outdoor applications, with stainless steel grades offering enhanced heat and weather resistance.</td>
+                                    <td>Suitable for indoor and outdoor applications, with stainless steel grades offering
+                                        enhanced heat and weather resistance.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Quality Certification</strong></td>
-                                    <td>Manufactured in accordance with applicable ASTM, EN, ISO, and customer-specific quality standards.</td>
+                                    <td>Manufactured in accordance with applicable ASTM, EN, ISO, and customer-specific
+                                        quality standards.</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -398,7 +692,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
@@ -476,7 +770,7 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -500,7 +794,7 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -543,100 +837,100 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-        [{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Moksh Tubes & Fittings LLP",
-            "url": "https://www.mokshtubes.com",
-            "logo": "https://www.mokshtubes.com/assets/logo.png",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91-97695-84950",
-                "contactType": "sales",
-                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                "availableLanguage": ["English"]
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "Custom Steel Furniture",
-            "description": "Custom steel furniture for homes, offices & industries. Durable stainless steel & MS furniture with modern designs and high strength.",
-            "brand": {
-                "@type": "Brand",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "manufacturer": {
-                "@type": "Organization",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "material": "Stainless Steel, Mild Steel, Carbon Steel",
-            "url": "https://www.mokshtubes.com/products/special-fabricated/custom-steel-furniture",
-            "offers": {
-                "@type": "Offer",
-                "availability": "https://schema.org/InStock",
-                "priceCurrency": "INR",
-                "url": "https://www.mokshtubes.com/contact-us"
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [{
-                "@type": "Question",
-                "name": "Why choose steel over wood?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Steel is stronger, termite-proof, and long-lasting."
-                }
-            },{
-                "@type": "Question",
-                "name": "Can furniture be customized?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, fully tailored designs are available."
-                }
-            },{
-                "@type": "Question",
-                "name": "Is steel furniture suitable for homes?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, widely used in residential and modern interiors."
-                }
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.mokshtubes.com"
-            },{
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Special Fabricated",
-                "item": "https://www.mokshtubes.com/products/special-fabricated"
-            },{
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Custom Steel Furniture",
-                "item": "https://www.mokshtubes.com/products/special-fabricated/custom-steel-furniture"
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Moksh Tubes & Fittings LLP",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "India"
-            },
-            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-            "telephone": "+91-97695-84950"
-        }]
-        @endverbatim
-    </script>
+                    @verbatim
+                        [{
+                            "@context": "https://schema.org",
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "url": "https://www.mokshtubes.com",
+                            "logo": "https://www.mokshtubes.com/assets/logo.png",
+                            "contactPoint": {
+                                "@type": "ContactPoint",
+                                "telephone": "+91-97695-84950",
+                                "contactType": "sales",
+                                "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                "availableLanguage": ["English"]
+                            }
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Product",
+                            "name": "Custom Steel Furniture",
+                            "description": "Custom steel furniture for homes, offices & industries. Durable stainless steel & MS furniture with modern designs and high strength.",
+                            "brand": {
+                                "@type": "Brand",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "manufacturer": {
+                                "@type": "Organization",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "material": "Stainless Steel, Mild Steel, Carbon Steel",
+                            "url": "https://www.mokshtubes.com/products/special-fabricated/custom-steel-furniture",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "priceCurrency": "INR",
+                                "url": "https://www.mokshtubes.com/contact-us"
+                            }
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "FAQPage",
+                            "mainEntity": [{
+                                "@type": "Question",
+                                "name": "Why choose steel over wood?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Steel is stronger, termite-proof, and long-lasting."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Can furniture be customized?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, fully tailored designs are available."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Is steel furniture suitable for homes?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, widely used in residential and modern interiors."
+                                }
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [{
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://www.mokshtubes.com"
+                            },{
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Special Fabricated",
+                                "item": "https://www.mokshtubes.com/products/special-fabricated"
+                            },{
+                                "@type": "ListItem",
+                                "position": 3,
+                                "name": "Custom Steel Furniture",
+                                "item": "https://www.mokshtubes.com/products/special-fabricated/custom-steel-furniture"
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "LocalBusiness",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "India"
+                            },
+                            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                            "telephone": "+91-97695-84950"
+                        }]
+                    @endverbatim
+                </script>
 @endsection

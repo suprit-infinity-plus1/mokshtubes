@@ -17,7 +17,12 @@
 
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Fabricated Stainless Steel (SS) Grills are modern architectural solutions designed for security, ventilation, and aesthetic enhancement in residential, commercial, and industrial projects. Moksh Tubes & Fittings LLP manufactures custom SS grills using high-quality stainless steel, duplex alloys, and advanced fabrication techniques such as CNC cutting and laser processing. Our grills offer durability, corrosion resistance, and premium finishes suitable for indoor and outdoor applications across India and export markets.
+                        Fabricated Stainless Steel (SS) Grills are modern architectural solutions designed for security,
+                        ventilation, and aesthetic enhancement in residential, commercial, and industrial projects. Moksh
+                        Tubes & Fittings LLP manufactures custom SS grills using high-quality stainless steel, duplex
+                        alloys, and advanced fabrication techniques such as CNC cutting and laser processing. Our grills
+                        offer durability, corrosion resistance, and premium finishes suitable for indoor and outdoor
+                        applications across India and export markets.
                     </p>
                 </div>
             </div>
@@ -33,11 +38,11 @@
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#buying-guide">Buying Guide</a> |
-            <a href="#manufacturing">Manufacturing</a> |
-            <a href="#mechanical">Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
-            <a href="#export">Packaging & Exports</a> |
+            <!-- <a href="#buying-guide">Buying Guide</a> | -->
+            <!-- <a href="#manufacturing">Manufacturing</a> | -->
+            <a href="#mechanical">Mechanical Properties</a> |
+            <!-- <a href="#tolerances">Tolerances</a> |
+                    <a href="#export">Packaging & Exports</a> | -->
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -65,15 +70,24 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong class="text-black">Fabricated Stainless Steel Grills</strong> are essential components used for safety, protection, and design enhancement in modern infrastructure. These grills are widely installed in windows, balconies, staircases, doors, partitions, and industrial enclosures.
+                            <strong class="text-black">Fabricated Stainless Steel Grills</strong> are essential components
+                            used for safety, protection, and design enhancement in modern infrastructure. These grills are
+                            widely installed in windows, balconies, staircases, doors, partitions, and industrial
+                            enclosures.
                         </p>
 
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            Compared to traditional iron or wooden grills, stainless steel grills offer superior corrosion resistance, minimal maintenance, and long-term durability. They are designed to withstand harsh environmental conditions while maintaining their structural strength and visual appeal.
+                            Compared to traditional iron or wooden grills, stainless steel grills offer superior corrosion
+                            resistance, minimal maintenance, and long-term durability. They are designed to withstand harsh
+                            environmental conditions while maintaining their structural strength and visual appeal.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings LLP</a></strong>, we design and fabricate custom SS grills using advanced manufacturing techniques such as CNC cutting, laser cutting, and TIG welding. Our grills are engineered for both functional performance and architectural aesthetics, making them ideal for residential, commercial, and industrial applications.
+                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings
+                                    LLP</a></strong>, we design and fabricate custom SS grills using advanced manufacturing
+                            techniques such as CNC cutting, laser cutting, and TIG welding. Our grills are engineered for
+                            both functional performance and architectural aesthetics, making them ideal for residential,
+                            commercial, and industrial applications.
                         </p>
                     </div>
                 </div>
@@ -81,7 +95,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -100,14 +114,38 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Material</td><td>Stainless Steel, Duplex & Super Duplex, Mild Steel (hybrid)</td></tr>
-                                <tr class="t-row"><td>Grades</td><td>ASTM / ASME compliant</td></tr>
-                                <tr class="t-row"><td>Types</td><td>Window Grills, Door Grills, Balcony Grills, Partition Grills</td></tr>
-                                <tr class="t-row"><td>Fabrication</td><td>CNC Cutting, Laser Cutting, TIG/MIG Welding</td></tr>
-                                <tr class="t-row"><td>Finishes</td><td>Matte, Mirror, Brushed, Powder Coated, Antique</td></tr>
-                                <tr class="t-row"><td>Dimensions</td><td>Fully customizable</td></tr>
-                                <tr class="t-row"><td>Applications</td><td>Residential, Commercial, Industrial</td></tr>
-                                <tr class="t-row"><td>Durability</td><td>Weatherproof, corrosion-resistant</td></tr>
+                                <tr class="t-row">
+                                    <td>Material</td>
+                                    <td>Stainless Steel, Duplex & Super Duplex, Mild Steel (hybrid)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Grades</td>
+                                    <td>ASTM / ASME compliant</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Types</td>
+                                    <td>Window Grills, Door Grills, Balcony Grills, Partition Grills</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Fabrication</td>
+                                    <td>CNC Cutting, Laser Cutting, TIG/MIG Welding</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Finishes</td>
+                                    <td>Matte, Mirror, Brushed, Powder Coated, Antique</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Dimensions</td>
+                                    <td>Fully customizable</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Applications</td>
+                                    <td>Residential, Commercial, Industrial</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Durability</td>
+                                    <td>Weatherproof, corrosion-resistant</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -121,7 +159,7 @@
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;"> Size & Weight Charts</h2>
             </div>
-            
+
             <h4 class="text-center mb-3" style="color: #db7227;">Square & Rectangular Tube Weight Chart (kg/m)</h4>
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-10">
@@ -138,11 +176,46 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Square</td><td>25×25</td><td>0.74</td><td>1.12</td><td>1.48</td><td>2.19</td></tr>
-                                <tr class="t-row"><td>Square</td><td>50×50</td><td>1.53</td><td>2.32</td><td>3.10</td><td>4.63</td></tr>
-                                <tr class="t-row"><td>Square</td><td>75×75</td><td>2.32</td><td>3.55</td><td>4.71</td><td>6.98</td></tr>
-                                <tr class="t-row"><td>Rectangular</td><td>50×25</td><td>1.07</td><td>1.60</td><td>2.13</td><td>3.17</td></tr>
-                                <tr class="t-row"><td>Rectangular</td><td>100×50</td><td>2.29</td><td>3.44</td><td>4.59</td><td>6.86</td></tr>
+                                <tr class="t-row">
+                                    <td>Square</td>
+                                    <td>25×25</td>
+                                    <td>0.74</td>
+                                    <td>1.12</td>
+                                    <td>1.48</td>
+                                    <td>2.19</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Square</td>
+                                    <td>50×50</td>
+                                    <td>1.53</td>
+                                    <td>2.32</td>
+                                    <td>3.10</td>
+                                    <td>4.63</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Square</td>
+                                    <td>75×75</td>
+                                    <td>2.32</td>
+                                    <td>3.55</td>
+                                    <td>4.71</td>
+                                    <td>6.98</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Rectangular</td>
+                                    <td>50×25</td>
+                                    <td>1.07</td>
+                                    <td>1.60</td>
+                                    <td>2.13</td>
+                                    <td>3.17</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Rectangular</td>
+                                    <td>100×50</td>
+                                    <td>2.29</td>
+                                    <td>3.44</td>
+                                    <td>4.59</td>
+                                    <td>6.86</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -162,10 +235,26 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>25×5</td><td>5 mm</td><td>0.98</td></tr>
-                                <tr class="t-row"><td>50×6</td><td>6 mm</td><td>2.36</td></tr>
-                                <tr class="t-row"><td>75×8</td><td>8 mm</td><td>4.75</td></tr>
-                                <tr class="t-row"><td>100×10</td><td>10 mm</td><td>7.85</td></tr>
+                                <tr class="t-row">
+                                    <td>25×5</td>
+                                    <td>5 mm</td>
+                                    <td>0.98</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>50×6</td>
+                                    <td>6 mm</td>
+                                    <td>2.36</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>75×8</td>
+                                    <td>8 mm</td>
+                                    <td>4.75</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>100×10</td>
+                                    <td>10 mm</td>
+                                    <td>7.85</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -185,7 +274,8 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h5>Stainless Steel Grades</h5>
-                        <p><strong>304 / 304L:</strong> Residential & interior use<br><strong>316 / 316L:</strong> Outdoor & coastal applications<br><strong>310 / 321:</strong> High-temperature applications</p>
+                        <p><strong>304 / 304L:</strong> Residential & interior use<br><strong>316 / 316L:</strong> Outdoor &
+                            coastal applications<br><strong>310 / 321:</strong> High-temperature applications</p>
                     </div>
                 </div>
 
@@ -232,6 +322,104 @@
             </div>
         </div>
     </section>
+
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
 
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -340,9 +528,21 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>SS 304</td><td>515</td><td>205</td></tr>
-                                <tr class="t-row"><td>SS 316</td><td>515</td><td>205</td></tr>
-                                <tr class="t-row"><td>Duplex 2205</td><td>620</td><td>450</td></tr>
+                                <tr class="t-row">
+                                    <td>SS 304</td>
+                                    <td>515</td>
+                                    <td>205</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>SS 316</td>
+                                    <td>515</td>
+                                    <td>205</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Duplex 2205</td>
+                                    <td>620</td>
+                                    <td>450</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -351,7 +551,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
@@ -385,7 +585,7 @@
                         <h5>Fast delivery & export support</h5>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-tags"></i></div>
@@ -429,7 +629,7 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -453,7 +653,7 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -496,100 +696,100 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-        [{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Moksh Tubes & Fittings LLP",
-            "url": "https://www.mokshtubes.com",
-            "logo": "https://www.mokshtubes.com/assets/logo.png",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91-97695-84950",
-                "contactType": "sales",
-                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                "availableLanguage": ["English"]
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "Fabricated SS Grills",
-            "description": "Custom fabricated SS grills for windows, balconies & gates. Durable stainless steel grill systems in 304 & 316 grades with modern designs.",
-            "brand": {
-                "@type": "Brand",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "manufacturer": {
-                "@type": "Organization",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "material": "Stainless Steel, Duplex & Super Duplex, Mild Steel",
-            "url": "https://www.mokshtubes.com/products/special-fabricated/fabricated-ss-grills",
-            "offers": {
-                "@type": "Offer",
-                "availability": "https://schema.org/InStock",
-                "priceCurrency": "INR",
-                "url": "https://www.mokshtubes.com/contact-us"
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [{
-                "@type": "Question",
-                "name": "Why choose SS grills over iron?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "SS grills are rust-proof, durable, and low maintenance."
-                }
-            },{
-                "@type": "Question",
-                "name": "Which grade is best?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "304 for indoor, 316 for outdoor, Duplex for harsh environments."
-                }
-            },{
-                "@type": "Question",
-                "name": "Are they suitable for outdoor use?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, highly weather-resistant."
-                }
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.mokshtubes.com"
-            },{
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Special Fabricated",
-                "item": "https://www.mokshtubes.com/products/special-fabricated"
-            },{
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Fabricated SS Grills",
-                "item": "https://www.mokshtubes.com/products/special-fabricated/fabricated-ss-grills"
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Moksh Tubes & Fittings LLP",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "India"
-            },
-            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-            "telephone": "+91-97695-84950"
-        }]
-        @endverbatim
-    </script>
+                    @verbatim
+                        [{
+                            "@context": "https://schema.org",
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "url": "https://www.mokshtubes.com",
+                            "logo": "https://www.mokshtubes.com/assets/logo.png",
+                            "contactPoint": {
+                                "@type": "ContactPoint",
+                                "telephone": "+91-97695-84950",
+                                "contactType": "sales",
+                                "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                "availableLanguage": ["English"]
+                            }
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Product",
+                            "name": "Fabricated SS Grills",
+                            "description": "Custom fabricated SS grills for windows, balconies & gates. Durable stainless steel grill systems in 304 & 316 grades with modern designs.",
+                            "brand": {
+                                "@type": "Brand",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "manufacturer": {
+                                "@type": "Organization",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "material": "Stainless Steel, Duplex & Super Duplex, Mild Steel",
+                            "url": "https://www.mokshtubes.com/products/special-fabricated/fabricated-ss-grills",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "priceCurrency": "INR",
+                                "url": "https://www.mokshtubes.com/contact-us"
+                            }
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "FAQPage",
+                            "mainEntity": [{
+                                "@type": "Question",
+                                "name": "Why choose SS grills over iron?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "SS grills are rust-proof, durable, and low maintenance."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Which grade is best?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "304 for indoor, 316 for outdoor, Duplex for harsh environments."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Are they suitable for outdoor use?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, highly weather-resistant."
+                                }
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [{
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://www.mokshtubes.com"
+                            },{
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Special Fabricated",
+                                "item": "https://www.mokshtubes.com/products/special-fabricated"
+                            },{
+                                "@type": "ListItem",
+                                "position": 3,
+                                "name": "Fabricated SS Grills",
+                                "item": "https://www.mokshtubes.com/products/special-fabricated/fabricated-ss-grills"
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "LocalBusiness",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "India"
+                            },
+                            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                            "telephone": "+91-97695-84950"
+                        }]
+                    @endverbatim
+                </script>
 @endsection

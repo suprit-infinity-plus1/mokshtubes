@@ -44,11 +44,11 @@
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#erw-vs-seamless">ERW vs Seamless</a> |
-            <a href="#manufacturing">Manufacturing</a> |
+            <!-- <a href="#erw-vs-seamless">ERW vs Seamless</a> | -->
+            <!-- <a href="#manufacturing">Manufacturing</a> | -->
             <a href="#mechanical">Mechanical Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
-            <a href="#export">Packaging & Exports</a> |
+            <!-- <a href="#tolerances">Tolerances</a> | -->
+            <!-- <a href="#export">Packaging & Exports</a> | -->
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -723,7 +723,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>

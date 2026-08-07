@@ -44,10 +44,10 @@
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#seamless-vs-welded">Seamless vs Welded</a> |
-            <a href="#manufacturing">Manufacturing</a> |
+            <!-- <a href="#seamless-vs-welded">Seamless vs Welded</a> | -->
+            <a href="#uses">Uses</a> |
+            <a href="#advantages">Advantages</a> |
             <a href="#mechanical">Mechanical Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -167,14 +167,14 @@
 
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Charts</h2>
+                <h2 class="fw-bold" style="color: #174268;">Eccentric Reducers Size & Weight Chart</h2>
             </div>
 
             <!-- Child Title -->
-            <div class="section-title center mb-3">
+            <!-- <div class="section-title center mb-3">
                 <h3 class="text-center mb-0" style="color: #db7227;">Size Range Chart</h3>
                 <h4 class="text-center mb-0" style="color: #db7227;">Eccentric Reducers Size & Weight Chart</h4>
-            </div>
+            </div> -->
             <!-- Schedule 10C -->
             <div class="section-title center mb-3 mt-4">
                 <h4 class="text-center mb-0" style="color: #db7227;">Schedule 10C Size & Weight Chart</h4>
@@ -880,7 +880,7 @@
 
 
     {{-- Uses --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses of Eccentric Reducers</h2>
@@ -916,7 +916,7 @@
     </section>
 
     {{-- Advantages --}}
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="advantages" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Advantages </h2>

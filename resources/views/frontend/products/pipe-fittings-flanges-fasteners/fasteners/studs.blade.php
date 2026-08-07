@@ -1,10 +1,14 @@
 @extends('layouts.master')
 @section('title', 'Stud Bolts Manufacturer, Supplier & Exporter in India | Moksh Tubes')
 <!-- 66 characters -->
-@section('meta_description',
-    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Stud Bolts in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A193 & ASTM A320 certified with worldwide delivery.')
-@section('meta_keywords',
-    'Stud Bolts, Stud Bolts Manufacturer, Stud Bolts Supplier, Stud Bolts Exporter, Stainless Steel Stud Bolts, Carbon Steel Stud Bolts, Alloy Steel Stud Bolts, Duplex Stud Bolts, Super Duplex Stud Bolts, ASTM A193 Stud Bolts, ASTM A320 Stud Bolts, ASTM A193 B7 Stud Bolts, ASTM A193 B16 Stud Bolts, Industrial Stud Bolts, Heavy Hex Stud Bolts, Fully Threaded Stud Bolts, Industrial Fasteners, Flange Stud Bolts, Heavy Hex Nuts, High Tensile Stud Bolts, Pressure Vessel Fasteners, Pipeline Fasteners, Flange Fastening Solutions, Corrosion Resistant Stud Bolts, Petrochemical Fasteners, Oil & Gas Fasteners, High Pressure Fasteners, Heat Exchanger Stud Bolts')
+@section(
+    'meta_description',
+    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Stud Bolts in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A193 & ASTM A320 certified with worldwide delivery.'
+)
+@section(
+    'meta_keywords',
+    'Stud Bolts, Stud Bolts Manufacturer, Stud Bolts Supplier, Stud Bolts Exporter, Stainless Steel Stud Bolts, Carbon Steel Stud Bolts, Alloy Steel Stud Bolts, Duplex Stud Bolts, Super Duplex Stud Bolts, ASTM A193 Stud Bolts, ASTM A320 Stud Bolts, ASTM A193 B7 Stud Bolts, ASTM A193 B16 Stud Bolts, Industrial Stud Bolts, Heavy Hex Stud Bolts, Fully Threaded Stud Bolts, Industrial Fasteners, Flange Stud Bolts, Heavy Hex Nuts, High Tensile Stud Bolts, Pressure Vessel Fasteners, Pipeline Fasteners, Flange Fastening Solutions, Corrosion Resistant Stud Bolts, Petrochemical Fasteners, Oil & Gas Fasteners, High Pressure Fasteners, Heat Exchanger Stud Bolts'
+)
 @section('og_title', 'Stud Bolts Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Premium-quality Stud Bolts manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A193 & ASTM A320 compliant with worldwide export support.')
 @section('og_image', asset('assets/images/fasteners/full-threaded-rods.png'))
@@ -19,8 +23,16 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1 class="page-title">Stud Bolts Manufacturer, Supplier & Exporter in India</h1>
-                        <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Stud Bolts are high-strength threaded fasteners used to securely join flanges, valves, pressure vessels, and other critical piping components. Designed for high-pressure and high-temperature applications, they provide excellent load distribution, reliable clamping force, and long-lasting performance. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we manufacture, supply, and export premium quality Stud Bolts in stainless steel, carbon steel, alloy steel, duplex, super duplex, and high-performance alloy materials. Our stud bolts are manufactured to international standards, ensuring exceptional strength, corrosion resistance, and durability for industrial applications.
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Stud Bolts are high-strength threaded fasteners used to securely join flanges, valves, pressure
+                        vessels, and other critical piping components. Designed for high-pressure and high-temperature
+                        applications, they provide excellent load distribution, reliable clamping force, and long-lasting
+                        performance. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh
+                            Tubes & Fittings LLP</a>, we manufacture, supply, and export premium quality Stud Bolts in
+                        stainless steel, carbon steel, alloy steel, duplex, super duplex, and high-performance alloy
+                        materials. Our stud bolts are manufactured to international standards, ensuring exceptional
+                        strength, corrosion resistance, and durability for industrial applications.
                     </p>
 
                 </div>
@@ -36,11 +48,11 @@
             <a href="#chemical-composition">Chemical Composition</a> |
             <a href="#size-chart">Size & Weight Chart</a> |
             <a href="#grades">Grades & Equivalent</a> |
-            <a href="#features">Features & Advantages</a> |
             <a href="#applications">Applications</a> |
+            <a href="#features">Features & Advantages</a> |
             <a href="#mechanical-properties">Mechanical Properties</a> |
-            <a href="#testing">Testing & Quality</a> |
-            <a href="#packaging">Packaging & Export</a> |
+            <!-- <a href="#testing">Testing & Quality</a> | -->
+            <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
     </div>
@@ -54,32 +66,39 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/fasteners/full-threaded-rods.png') }}"
-                        alt="Stud Bolts Manufacturer" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                    <img src="{{ asset('assets/images/fasteners/full-threaded-rods.png') }}" alt="Stud Bolts Manufacturer"
+                        class="img-fluid rounded shadow-sm" width="550" height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        A <strong>Stud Bolt</strong> is a fully threaded rod used with two heavy hex nuts to fasten flanged joints and pressure-containing equipment. Stud bolts provide uniform clamping force across the flange connection, ensuring leak-proof sealing even under high pressure and extreme temperatures. They are widely used in piping systems, refineries, offshore platforms, and heavy industrial equipment.
+                        A <strong>Stud Bolt</strong> is a fully threaded rod used with two heavy hex nuts to fasten flanged
+                        joints and pressure-containing equipment. Stud bolts provide uniform clamping force across the
+                        flange connection, ensuring leak-proof sealing even under high pressure and extreme temperatures.
+                        They are widely used in piping systems, refineries, offshore platforms, and heavy industrial
+                        equipment.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture precision-engineered Stud Bolts using premium-grade raw materials and advanced threading technology. Our stud bolts are available in a wide range of diameters, lengths, thread types, and material grades to meet international standards and customer-specific requirements.
+                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture
+                        precision-engineered Stud Bolts using premium-grade raw materials and advanced threading technology.
+                        Our stud bolts are available in a wide range of diameters, lengths, thread types, and material
+                        grades to meet international standards and customer-specific requirements.
                     </p>
 
                 </div>
             </div>
         </div>
     </section>
-    
+
     {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Stud Bolts Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application
+                guidelines. Enter your email below to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
@@ -106,7 +125,7 @@
             </p>
         </div>
     </section>
-    
+
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -134,7 +153,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys</td>
+                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys
+                                    </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Diameter</td>
@@ -174,7 +194,10 @@
                 <h2>Chemical Composition</h2>
             </div>
             <p class="text-center pb-3">
-                The chemical composition of <strong>Stud Bolts</strong> depends on the selected material grade. At Moksh Tubes & Fittings LLP, our Stud Bolts are manufactured using premium-quality raw materials that comply with ASTM, ASME, DIN, ISO, EN, and BS standards, ensuring excellent corrosion resistance, high tensile strength, and long service life.
+                The chemical composition of <strong>Stud Bolts</strong> depends on the selected material grade. At Moksh
+                Tubes & Fittings LLP, our Stud Bolts are manufactured using premium-quality raw materials that comply with
+                ASTM, ASME, DIN, ISO, EN, and BS standards, ensuring excellent corrosion resistance, high tensile strength,
+                and long service life.
             </p>
 
             <div class="row justify-content-center">
@@ -191,35 +214,99 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
-                                <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
-                                <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
-                                <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
-                                <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
-                                <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
-                                <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
-                                <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
-                                <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
-                                <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
+                                <tr class="t-row">
+                                    <td>Carbon (C)</td>
+                                    <td>0.08 Max</td>
+                                    <td>0.03 Max</td>
+                                    <td>0.08 Max</td>
+                                    <td>0.03 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manganese (Mn)</td>
+                                    <td>2.00 Max</td>
+                                    <td>2.00 Max</td>
+                                    <td>2.00 Max</td>
+                                    <td>2.00 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Silicon (Si)</td>
+                                    <td>0.75 Max</td>
+                                    <td>0.75 Max</td>
+                                    <td>0.75 Max</td>
+                                    <td>0.75 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Phosphorus (P)</td>
+                                    <td>0.045 Max</td>
+                                    <td>0.045 Max</td>
+                                    <td>0.045 Max</td>
+                                    <td>0.045 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sulfur (S)</td>
+                                    <td>0.030 Max</td>
+                                    <td>0.030 Max</td>
+                                    <td>0.030 Max</td>
+                                    <td>0.030 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chromium (Cr)</td>
+                                    <td>18.00–20.00</td>
+                                    <td>18.00–20.00</td>
+                                    <td>16.00–18.00</td>
+                                    <td>16.00–18.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nickel (Ni)</td>
+                                    <td>8.00–10.50</td>
+                                    <td>8.00–12.00</td>
+                                    <td>10.00–14.00</td>
+                                    <td>10.00–14.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Molybdenum (Mo)</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>2.00–3.00</td>
+                                    <td>2.00–3.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nitrogen (N)</td>
+                                    <td>0.10 Max</td>
+                                    <td>0.10 Max</td>
+                                    <td>0.10 Max</td>
+                                    <td>0.10 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Iron (Fe)</td>
+                                    <td>Balance</td>
+                                    <td>Balance</td>
+                                    <td>Balance</td>
+                                    <td>Balance</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, ASTM A193 B7/B7M/B16, ASTM A320 L7/L7M, Duplex, Super Duplex, and Nickel Alloy Stud Bolts are also available in accordance with the relevant ASTM and ASME material specifications.</small></p>
+            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on
+                    the selected material grade. Carbon Steel, Alloy Steel, ASTM A193 B7/B7M/B16, ASTM A320 L7/L7M, Duplex,
+                    Super Duplex, and Nickel Alloy Stud Bolts are also available in accordance with the relevant ASTM and
+                    ASME material specifications.</small></p>
         </div>
     </section>
 
-   <!-- charts -->
+    <!-- charts -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart</h2>
             </div>
             <p class="text-center pb-3">
-                Stud Bolts are manufactured according to <strong>ASTM A193, ASTM A320, DIN, ISO</strong>, and <strong>ASME</strong> standards and are available in a wide range of diameters and lengths.
+                Stud Bolts are manufactured according to <strong>ASTM A193, ASTM A320, DIN, ISO</strong>, and
+                <strong>ASME</strong> standards and are available in a wide range of diameters and lengths.
             </p>
-            
+
             <div class="table-responsive mt-4">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
@@ -231,24 +318,97 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>M6</td><td>1.0</td><td>1000–3000</td><td>0.22</td></tr>
-                        <tr class="t-row"><td>M8</td><td>1.25</td><td>1000–3000</td><td>0.39</td></tr>
-                        <tr class="t-row"><td>M10</td><td>1.5</td><td>1000–3000</td><td>0.62</td></tr>
-                        <tr class="t-row"><td>M12</td><td>1.75</td><td>1000–3000</td><td>0.89</td></tr>
-                        <tr class="t-row"><td>M16</td><td>2.0</td><td>1000–3000</td><td>1.58</td></tr>
-                        <tr class="t-row"><td>M20</td><td>2.5</td><td>1000–3000</td><td>2.47</td></tr>
-                        <tr class="t-row"><td>M24</td><td>3.0</td><td>1000–3000</td><td>3.56</td></tr>
-                        <tr class="t-row"><td>M30</td><td>3.5</td><td>1000–3000</td><td>5.55</td></tr>
-                        <tr class="t-row"><td>M36</td><td>4.0</td><td>1000–3000</td><td>7.99</td></tr>
-                        <tr class="t-row"><td>M42</td><td>4.5</td><td>1000–3000</td><td>10.90</td></tr>
-                        <tr class="t-row"><td>M48</td><td>5.0</td><td>1000–3000</td><td>14.20</td></tr>
-                        <tr class="t-row"><td>M56</td><td>5.5</td><td>Up to 6000</td><td>19.40</td></tr>
-                        <tr class="t-row"><td>M64</td><td>6.0</td><td>Up to 6000</td><td>25.30</td></tr>
-                        <tr class="t-row"><td>M72</td><td>6.0</td><td>Up to 6000</td><td>32.00</td></tr>
+                        <tr class="t-row">
+                            <td>M6</td>
+                            <td>1.0</td>
+                            <td>1000–3000</td>
+                            <td>0.22</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M8</td>
+                            <td>1.25</td>
+                            <td>1000–3000</td>
+                            <td>0.39</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M10</td>
+                            <td>1.5</td>
+                            <td>1000–3000</td>
+                            <td>0.62</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M12</td>
+                            <td>1.75</td>
+                            <td>1000–3000</td>
+                            <td>0.89</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M16</td>
+                            <td>2.0</td>
+                            <td>1000–3000</td>
+                            <td>1.58</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M20</td>
+                            <td>2.5</td>
+                            <td>1000–3000</td>
+                            <td>2.47</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M24</td>
+                            <td>3.0</td>
+                            <td>1000–3000</td>
+                            <td>3.56</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M30</td>
+                            <td>3.5</td>
+                            <td>1000–3000</td>
+                            <td>5.55</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M36</td>
+                            <td>4.0</td>
+                            <td>1000–3000</td>
+                            <td>7.99</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M42</td>
+                            <td>4.5</td>
+                            <td>1000–3000</td>
+                            <td>10.90</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M48</td>
+                            <td>5.0</td>
+                            <td>1000–3000</td>
+                            <td>14.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M56</td>
+                            <td>5.5</td>
+                            <td>Up to 6000</td>
+                            <td>19.40</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M64</td>
+                            <td>6.0</td>
+                            <td>Up to 6000</td>
+                            <td>25.30</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M72</td>
+                            <td>6.0</td>
+                            <td>Up to 6000</td>
+                            <td>32.00</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and may vary depending on the material grade, thread standard (UNC, UNF, Metric, BSW, BSP), coating, and manufacturing tolerances. Custom diameters, lengths, and thread specifications are available upon request.</p>
+            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and
+                may vary depending on the material grade, thread standard (UNC, UNF, Metric, BSW, BSP), coating, and
+                manufacturing tolerances. Custom diameters, lengths, and thread specifications are available upon request.
+            </p>
         </div>
     </section>
 
@@ -258,7 +418,7 @@
             <div class="section-title center">
                 <h2>Grades & Equivalent</h2>
             </div>
-            
+
             <div class="row justify-content-center g-4 mb-5">
                 <div class="col-lg-4 col-md-6">
                     <div class="grade-card">
@@ -267,7 +427,7 @@
                         <p class="grade-card-desc">304 / 304L, 316 / 316L</p>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6">
                     <div class="grade-card">
                         <div class="grade-card-icon"><i class="bi bi-gear-fill"></i></div>
@@ -352,7 +512,8 @@
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0"><a href="{{ route('products.fasteners.astm-a193-gr-b8m-studs') }}" style="color: inherit; text-decoration: none;">Stainless Steel Stud Bolts</a></h6>
+                            <h6 class="mt-0"><a href="{{ route('products.fasteners.astm-a193-gr-b8m-studs') }}"
+                                    style="color: inherit; text-decoration: none;">Stainless Steel Stud Bolts</a></h6>
                         </div>
                     </div>
                 </div>
@@ -365,7 +526,8 @@
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0"><a href="{{ route('products.fasteners.threaded-rods') }}" style="color: inherit; text-decoration: none;">Carbon Steel Stud Bolts</a></h6>
+                            <h6 class="mt-0"><a href="{{ route('products.fasteners.threaded-rods') }}"
+                                    style="color: inherit; text-decoration: none;">Carbon Steel Stud Bolts</a></h6>
                         </div>
                     </div>
                 </div>
@@ -373,12 +535,14 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('products.fasteners.a286-gr-660-threaded-studs') }}">
-                                <img class="w-100" src="{{ asset('assets/images/fasteners/a286-gr-660-threaded-studs.jpg') }}"
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/fasteners/a286-gr-660-threaded-studs.jpg') }}"
                                     alt="Alloy Steel Stud Bolts" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0"><a href="{{ route('products.fasteners.a286-gr-660-threaded-studs') }}" style="color: inherit; text-decoration: none;">Alloy Steel Stud Bolts</a></h6>
+                            <h6 class="mt-0"><a href="{{ route('products.fasteners.a286-gr-660-threaded-studs') }}"
+                                    style="color: inherit; text-decoration: none;">Alloy Steel Stud Bolts</a></h6>
                         </div>
                     </div>
                 </div>
@@ -391,7 +555,8 @@
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0"><a href="{{ route('products.fasteners.astm-a193-grade-b7-stud-bolts') }}" style="color: inherit; text-decoration: none;">ASTM A193 B7 Stud Bolts</a></h6>
+                            <h6 class="mt-0"><a href="{{ route('products.fasteners.astm-a193-grade-b7-stud-bolts') }}"
+                                    style="color: inherit; text-decoration: none;">ASTM A193 B7 Stud Bolts</a></h6>
                         </div>
                     </div>
                 </div>
@@ -404,7 +569,8 @@
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0"><a href="{{ route('products.fasteners.astm-a193-grade-b8-stud-bolts') }}" style="color: inherit; text-decoration: none;">ASTM A193 B8 Stud Bolts</a></h6>
+                            <h6 class="mt-0"><a href="{{ route('products.fasteners.astm-a193-grade-b8-stud-bolts') }}"
+                                    style="color: inherit; text-decoration: none;">ASTM A193 B8 Stud Bolts</a></h6>
                         </div>
                     </div>
                 </div>
@@ -417,74 +583,9 @@
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0"><a href="{{ route('products.fasteners.gr-660a-threaded-studs') }}" style="color: inherit; text-decoration: none;">Heavy Hex Stud Bolts</a></h6>
+                            <h6 class="mt-0"><a href="{{ route('products.fasteners.gr-660a-threaded-studs') }}"
+                                    style="color: inherit; text-decoration: none;">Heavy Hex Stud Bolts</a></h6>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{-- Features & Advantages --}}
-    <section id="features" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Features & Advantages</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>High tensile strength and durability</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h4>Excellent corrosion and oxidation resistance</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h4>Suitable for high-pressure and high-temperature applications</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h4>Uniform clamping force for leak-proof flange joints</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h4>Precision-machined threads for secure fastening</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                        <h4>Excellent fatigue and wear resistance</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-palette"></i></div>
-                        <h4>Available in multiple thread standards and coatings</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
-                        <h4>Long service life with low maintenance</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
-                        <h4>Manufactured according to international quality standards</h4>
                     </div>
                 </div>
             </div>
@@ -570,11 +671,79 @@
         </div>
     </section>
 
+    {{-- Features & Advantages --}}
+    <section id="features" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Features & Advantages</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>High tensile strength and durability</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h4>Excellent corrosion and oxidation resistance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h4>Suitable for high-pressure and high-temperature applications</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h4>Uniform clamping force for leak-proof flange joints</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                        <h4>Precision-machined threads for secure fastening</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                        <h4>Excellent fatigue and wear resistance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-palette"></i></div>
+                        <h4>Available in multiple thread standards and coatings</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h4>Long service life with low maintenance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
+                        <h4>Manufactured according to international quality standards</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom">
         <div class="container">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-                 <p class="text-center">The mechanical properties of <strong>Stud Bolts</strong> depend on the selected material grade and comply with applicable ASTM and ASME standards. The table below shows the typical mechanical properties for commonly supplied stainless steel grades.</p>
+                <p class="text-center">The mechanical properties of <strong>Stud Bolts</strong> depend on the selected
+                    material grade and comply with applicable ASTM and ASME standards. The table below shows the typical
+                    mechanical properties for commonly supplied stainless steel grades.</p>
             </div>
 
             <div class="table-responsive">
@@ -610,12 +779,15 @@
                     </tbody>
                 </table>
             </div>
-             <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel, Alloy Steel, ASTM A193 B7/B7M/B16, ASTM A320 L7/L7M, Duplex, Super Duplex, and Nickel Alloy Stud Bolts are available in accordance with their respective ASTM/ASME material specifications upon request.</small></p>
+            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel,
+                    Alloy Steel, ASTM A193 B7/B7M/B16, ASTM A320 L7/L7M, Duplex, Super Duplex, and Nickel Alloy Stud Bolts
+                    are available in accordance with their respective ASTM/ASME material specifications upon
+                    request.</small></p>
         </div>
     </section>
 
-     <!-- Testing & Quality Control -->
-    <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Testing & Quality Control -->
+    <!-- <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Testing & Quality</h2>
@@ -662,21 +834,23 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Packaging & Export -->
-    <section id="packaging" class="sec-padd-top sec-padd-bottom">
+    <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
             </div>
-            <p class="fs-5">We ensure that our <strong>Stud Bolts</strong> are securely packaged to prevent damage during transit. We use high-quality wooden crates, pallets, and shrink-wrapping for export shipments.</p>
-            <p class="fs-5">We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe, Africa, and Southeast Asia.</p>
+            <p class="fs-5">We ensure that our <strong>Stud Bolts</strong> are securely packaged to prevent damage during
+                transit. We use high-quality wooden crates, pallets, and shrink-wrapping for export shipments.</p>
+            <p class="fs-5">We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
+                Europe, Africa, and Southeast Asia.</p>
         </div>
-    </section>
+    </section> -->
 
     {{-- why choose us --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
@@ -757,7 +931,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    A Stud Bolt is a fully threaded fastener used with two heavy hex nuts to connect flanges, valves, pressure vessels, and other piping components securely.
+                                    A Stud Bolt is a fully threaded fastener used with two heavy hex nuts to connect
+                                    flanges, valves, pressure vessels, and other piping components securely.
                                 </p>
                             </div>
                         </div>
@@ -768,7 +943,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Stud Bolts are widely used in oil & gas, petrochemical plants, refineries, power plants, offshore platforms, and industrial piping systems.
+                                    Stud Bolts are widely used in oil & gas, petrochemical plants, refineries, power plants,
+                                    offshore platforms, and industrial piping systems.
                                 </p>
                             </div>
                         </div>
@@ -779,7 +955,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    We manufacture Stud Bolts in stainless steel, carbon steel, alloy steel, duplex, super duplex, and nickel alloy grades.
+                                    We manufacture Stud Bolts in stainless steel, carbon steel, alloy steel, duplex, super
+                                    duplex, and nickel alloy grades.
                                 </p>
                             </div>
                         </div>
@@ -801,7 +978,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes. We manufacture Stud Bolts in standard and custom diameters, lengths, thread types, coatings, and material grades according to customer specifications.
+                                    Yes. We manufacture Stud Bolts in standard and custom diameters, lengths, thread types,
+                                    coatings, and material grades according to customer specifications.
                                 </p>
                             </div>
                         </div>
@@ -817,7 +995,9 @@
             <div class="contact-cta-box">
                 <h2>Request a Quote</h2>
                 <p>
-                    Looking for a trusted <strong>Stud Bolts</strong> manufacturer and supplier? Contact <strong>Moksh Tubes & Fittings LLP</strong> for premium-quality industrial stud bolts, competitive pricing, ready stock, technical support, and fast worldwide delivery. Request your free quotation today.
+                    Looking for a trusted <strong>Stud Bolts</strong> manufacturer and supplier? Contact <strong>Moksh Tubes
+                        & Fittings LLP</strong> for premium-quality industrial stud bolts, competitive pricing, ready stock,
+                    technical support, and fast worldwide delivery. Request your free quotation today.
                 </p>
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
@@ -836,11 +1016,13 @@
             transform: translateY(-6px) scale(0.98);
             transition: opacity .35s ease, transform .35s ease;
         }
+
         tr.collapsing {
             opacity: 0;
             transform: translateY(-10px) scale(0.96);
             display: table-row !important;
         }
+
         tr.collapse.show {
             opacity: 1;
             transform: translateY(0) scale(1);
@@ -866,18 +1048,21 @@
             height: 100%;
             transition: all 0.3s ease;
         }
+
         .grade-card:hover {
-            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
             transform: translateY(-5px);
             background-color: #db7227;
             border-color: #db7227;
         }
+
         .grade-card-icon {
             font-size: 32px;
             color: #174268;
             margin-bottom: 15px;
             transition: color 0.3s ease;
         }
+
         .grade-card-title {
             color: #174268;
             font-size: 18px;
@@ -885,16 +1070,19 @@
             margin-bottom: 10px;
             transition: color 0.3s ease;
         }
+
         .grade-card-desc {
             color: #666;
             font-size: 14px;
             margin-bottom: 0;
             transition: color 0.3s ease;
         }
+
         .grade-card:hover .grade-card-icon,
         .grade-card:hover .grade-card-title {
             color: #fff;
         }
+
         .grade-card:hover .grade-card-desc {
             color: #f1f1f1;
         }
@@ -904,105 +1092,105 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": ["Organization", "LocalBusiness"],
-              "@id": "https://mokshtubes.com/#organization",
-              "name": "Moksh Tubes & Fittings LLP",
-              "url": "https://mokshtubes.com/",
-              "logo": "https://mokshtubes.com/assets/images/logo.webp",
-              "telephone": "+91-9769584950",
-              "email": "info@mokshtubes.com"
-            },
-            {
-              "@type": "WebPage",
-              "@id": "https://mokshtubes.com/stud-bolts#webpage",
-              "name": "Stud Bolts Manufacturer, Supplier & Exporter in India | Moksh Tubes",
-              "url": "https://mokshtubes.com/stud-bolts",
-              "description": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Stud Bolts in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A193 & ASTM A320 certified with worldwide delivery."
-            },
-            {
-              "@type": ["Product"],
-              "@id": "https://mokshtubes.com/#studbolts",
-              "name": "Stud Bolts",
-              "image": "https://mokshtubes.com/assets/images/fasteners/full-threaded-rods.png",
-              "category": "Fasteners",
-              "brand": { "@id": "https://mokshtubes.com/#organization" }
-            },
-            {
-              "@type": "BreadcrumbList",
-              "@id": "https://mokshtubes.com/stud-bolts#breadcrumb",
-              "itemListElement": [
                 {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Home",
-                  "item": "https://mokshtubes.com/"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "Fasteners",
-                  "item": "https://mokshtubes.com/fasteners"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "name": "Stud Bolts",
-                  "item": "https://mokshtubes.com/stud-bolts"
+                  "@context": "https://schema.org",
+                  "@graph": [
+                    {
+                      "@type": ["Organization", "LocalBusiness"],
+                      "@id": "https://mokshtubes.com/#organization",
+                      "name": "Moksh Tubes & Fittings LLP",
+                      "url": "https://mokshtubes.com/",
+                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                      "telephone": "+91-9769584950",
+                      "email": "info@mokshtubes.com"
+                    },
+                    {
+                      "@type": "WebPage",
+                      "@id": "https://mokshtubes.com/stud-bolts#webpage",
+                      "name": "Stud Bolts Manufacturer, Supplier & Exporter in India | Moksh Tubes",
+                      "url": "https://mokshtubes.com/stud-bolts",
+                      "description": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Stud Bolts in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A193 & ASTM A320 certified with worldwide delivery."
+                    },
+                    {
+                      "@type": ["Product"],
+                      "@id": "https://mokshtubes.com/#studbolts",
+                      "name": "Stud Bolts",
+                      "image": "https://mokshtubes.com/assets/images/fasteners/full-threaded-rods.png",
+                      "category": "Fasteners",
+                      "brand": { "@id": "https://mokshtubes.com/#organization" }
+                    },
+                    {
+                      "@type": "BreadcrumbList",
+                      "@id": "https://mokshtubes.com/stud-bolts#breadcrumb",
+                      "itemListElement": [
+                        {
+                          "@type": "ListItem",
+                          "position": 1,
+                          "name": "Home",
+                          "item": "https://mokshtubes.com/"
+                        },
+                        {
+                          "@type": "ListItem",
+                          "position": 2,
+                          "name": "Fasteners",
+                          "item": "https://mokshtubes.com/fasteners"
+                        },
+                        {
+                          "@type": "ListItem",
+                          "position": 3,
+                          "name": "Stud Bolts",
+                          "item": "https://mokshtubes.com/stud-bolts"
+                        }
+                      ]
+                    },
+                    {
+                      "@type": "FAQPage",
+                      "@id": "https://mokshtubes.com/stud-bolts#faq",
+                      "mainEntity": [
+                        {
+                          "@type": "Question",
+                          "name": "What is a Stud Bolt?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "A Stud Bolt is a fully threaded fastener used with two heavy hex nuts to connect flanges, valves, pressure vessels, and other piping components securely."
+                          }
+                        },
+                        {
+                          "@type": "Question",
+                          "name": "Where are Stud Bolts commonly used?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Stud Bolts are widely used in oil & gas, petrochemical plants, refineries, power plants, offshore platforms, and industrial piping systems."
+                          }
+                        },
+                        {
+                          "@type": "Question",
+                          "name": "Which materials are available?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We manufacture Stud Bolts in stainless steel, carbon steel, alloy steel, duplex, super duplex, and nickel alloy grades."
+                          }
+                        },
+                        {
+                          "@type": "Question",
+                          "name": "Do you provide material test certificates?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order."
+                          }
+                        },
+                        {
+                          "@type": "Question",
+                          "name": "Can you manufacture custom sizes?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. We manufacture Stud Bolts in standard and custom diameters, lengths, thread types, coatings, and material grades according to customer specifications."
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 }
-              ]
-            },
-            {
-              "@type": "FAQPage",
-              "@id": "https://mokshtubes.com/stud-bolts#faq",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "What is a Stud Bolt?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A Stud Bolt is a fully threaded fastener used with two heavy hex nuts to connect flanges, valves, pressure vessels, and other piping components securely."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Where are Stud Bolts commonly used?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Stud Bolts are widely used in oil & gas, petrochemical plants, refineries, power plants, offshore platforms, and industrial piping systems."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Which materials are available?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We manufacture Stud Bolts in stainless steel, carbon steel, alloy steel, duplex, super duplex, and nickel alloy grades."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Do you provide material test certificates?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Can you manufacture custom sizes?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. We manufacture Stud Bolts in standard and custom diameters, lengths, thread types, coatings, and material grades according to customer specifications."
-                  }
-                }
-              ]
-            }
-          ]
-        }
-        </script>
+                </script>
     @endverbatim
 @endsection

@@ -36,9 +36,9 @@
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#buying-guide">Buying Guide</a> |
-            <a href="#manufacturing">Manufacturing</a> |
-            <a href="#testing">Testing & Export</a> |
+            <!-- <a href="#buying-guide">Buying Guide</a> | -->
+            <!-- <a href="#manufacturing">Manufacturing</a> | -->
+            <a href="#mechanical">Mechanical Properties</a> |
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -1015,33 +1015,33 @@
 
 
     <!-- <section id="testing" class="sec-padd-top sec-padd-bottom">
-                    <div class="container">
-                        <div class="row mt-4 justify-content-center">
-                            <div class="col-md-6 col-lg-5">
-                                <div class="application-card h-100">
-                                    <div class="application-icon"><i class="bi bi-tools"></i></div>
-                                    <h5>Testing & Quality Control</h5>
-                                    <p><strong>Inspections:</strong> Dimensional inspection & surface finish testing</p>
-                                    <p><strong>Integrity:</strong> Hydrostatic testing & Eddy current testing</p>
-                                    <p><strong>Material:</strong> PMI (Positive Material Identification)</p>
-                                    <p><strong>Certification:</strong> Supplied with EN 10204 3.1 certification.</p>
+                        <div class="container">
+                            <div class="row mt-4 justify-content-center">
+                                <div class="col-md-6 col-lg-5">
+                                    <div class="application-card h-100">
+                                        <div class="application-icon"><i class="bi bi-tools"></i></div>
+                                        <h5>Testing & Quality Control</h5>
+                                        <p><strong>Inspections:</strong> Dimensional inspection & surface finish testing</p>
+                                        <p><strong>Integrity:</strong> Hydrostatic testing & Eddy current testing</p>
+                                        <p><strong>Material:</strong> PMI (Positive Material Identification)</p>
+                                        <p><strong>Certification:</strong> Supplied with EN 10204 3.1 certification.</p>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-md-6 col-lg-5">
-                                <div class="application-card h-100">
-                                    <div class="application-icon"><i class="bi bi-box-seam"></i></div>
-                                    <h5>Packaging & Export Capability</h5>
-                                    <p><strong>Supply Regions:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait, Europe & SE Asia</p>
-                                    <p><strong>Export Packaging:</strong> Seaworthy wooden crates, customized coils, ISPM-15 packaging
-                                    </p>
-                                    <p><strong>Documentation:</strong> Commercial Invoice & Packing List, Certificate of Origin, Mill
-                                        Test Certificates</p>
+                                <div class="col-md-6 col-lg-5">
+                                    <div class="application-card h-100">
+                                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
+                                        <h5>Packaging & Export Capability</h5>
+                                        <p><strong>Supply Regions:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait, Europe & SE Asia</p>
+                                        <p><strong>Export Packaging:</strong> Seaworthy wooden crates, customized coils, ISPM-15 packaging
+                                        </p>
+                                        <p><strong>Documentation:</strong> Commercial Invoice & Packing List, Certificate of Origin, Mill
+                                            Test Certificates</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section> -->
+                    </section> -->
 
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -1232,89 +1232,89 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-                        @verbatim
-                            [{
-                                "@context": "https://schema.org",
-                                "@type": "Organization",
-                                "name": "Moksh Tubes & Fittings LLP",
-                                "url": "https://www.mokshtubes.com",
-                                "logo": "https://www.mokshtubes.com/assets/logo.png",
-                                "contactPoint": {
-                                    "@type": "ContactPoint",
-                                    "telephone": "+91-97695-84950",
-                                    "contactType": "sales",
-                                    "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                                    "availableLanguage": ["English"]
-                                }
-                            },
-                            {
-                                "@context": "https://schema.org",
-                                "@type": "Product",
-                                "name": "Capillary Tubes",
-                                "description": "Precision capillary tubes supplier and exporter to UAE, Saudi Arabia, Qatar and Oman for medical, HVAC and industrial applications.",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "Moksh Tubes & Fittings LLP"
-                                },
-                                "manufacturer": {
+                            @verbatim
+                                [{
+                                    "@context": "https://schema.org",
                                     "@type": "Organization",
-                                    "name": "Moksh Tubes & Fittings LLP"
+                                    "name": "Moksh Tubes & Fittings LLP",
+                                    "url": "https://www.mokshtubes.com",
+                                    "logo": "https://www.mokshtubes.com/assets/logo.png",
+                                    "contactPoint": {
+                                        "@type": "ContactPoint",
+                                        "telephone": "+91-97695-84950",
+                                        "contactType": "sales",
+                                        "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                        "availableLanguage": ["English"]
+                                    }
                                 },
-                                "url": "https://www.mokshtubes.com/products/pipes-tubes/capillaries",
-                                "offers": {
-                                    "@type": "AggregateOffer",
-                                    "priceCurrency": "USD",
-                                    "lowPrice": "2.5",
-                                    "highPrice": "10",
-                                    "offerCount": "100"
-                                }
-                            },
-                            {
-                                "@context": "https://schema.org",
-                                "@type": "FAQPage",
-                                "mainEntity": [
-                                    {
-                                    "@type": "Question",
-                                    "name": "What are capillary tubes used for?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "They are used in applications requiring precise fluid control such as medical devices, instrumentation, HVAC, chromatography, and aerospace fuel lines."
-                                    }
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "Product",
+                                    "name": "Capillary Tubes",
+                                    "description": "Precision capillary tubes supplier and exporter to UAE, Saudi Arabia, Qatar and Oman for medical, HVAC and industrial applications.",
+                                    "brand": {
+                                        "@type": "Brand",
+                                        "name": "Moksh Tubes & Fittings LLP"
                                     },
-                                    {
-                                    "@type": "Question",
-                                    "name": "What is the size range available?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "OD ranges from 0.3 mm to 8 mm with ultra-thin wall thickness options starting from 0.05 mm."
-                                    }
+                                    "manufacturer": {
+                                        "@type": "Organization",
+                                        "name": "Moksh Tubes & Fittings LLP"
                                     },
-                                    {
-                                    "@type": "Question",
-                                    "name": "Which materials are available for capillary tubes?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Stainless steel, nickel alloys (Inconel), Monel, titanium, duplex/super duplex, and copper alloys (Cu-Ni)."
+                                    "url": "https://www.mokshtubes.com/products/pipes-tubes/capillaries",
+                                    "offers": {
+                                        "@type": "AggregateOffer",
+                                        "priceCurrency": "USD",
+                                        "lowPrice": "2.5",
+                                        "highPrice": "10",
+                                        "offerCount": "100"
                                     }
-                                    },
-                                    {
-                                    "@type": "Question",
-                                    "name": "Do you provide custom sizes?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Yes, we offer custom OD, wall thickness, and length combinations in straight, coiled, or precision cut forms."
-                                    }
-                                    },
-                                    {
-                                    "@type": "Question",
-                                    "name": "Do you export capillary tubes to UAE and Saudi Arabia?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Yes, we export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait with EN 10204 3.1 certification and export-grade packaging."
-                                    }
-                                    }
-                                ]
-                            }]
-                        @endverbatim
-                    </script>
+                                },
+                                {
+                                    "@context": "https://schema.org",
+                                    "@type": "FAQPage",
+                                    "mainEntity": [
+                                        {
+                                        "@type": "Question",
+                                        "name": "What are capillary tubes used for?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "They are used in applications requiring precise fluid control such as medical devices, instrumentation, HVAC, chromatography, and aerospace fuel lines."
+                                        }
+                                        },
+                                        {
+                                        "@type": "Question",
+                                        "name": "What is the size range available?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "OD ranges from 0.3 mm to 8 mm with ultra-thin wall thickness options starting from 0.05 mm."
+                                        }
+                                        },
+                                        {
+                                        "@type": "Question",
+                                        "name": "Which materials are available for capillary tubes?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Stainless steel, nickel alloys (Inconel), Monel, titanium, duplex/super duplex, and copper alloys (Cu-Ni)."
+                                        }
+                                        },
+                                        {
+                                        "@type": "Question",
+                                        "name": "Do you provide custom sizes?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Yes, we offer custom OD, wall thickness, and length combinations in straight, coiled, or precision cut forms."
+                                        }
+                                        },
+                                        {
+                                        "@type": "Question",
+                                        "name": "Do you export capillary tubes to UAE and Saudi Arabia?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Yes, we export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait with EN 10204 3.1 certification and export-grade packaging."
+                                        }
+                                        }
+                                    ]
+                                }]
+                            @endverbatim
+                        </script>
 @endsection

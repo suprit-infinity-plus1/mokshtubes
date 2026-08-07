@@ -1,10 +1,14 @@
 @extends('layouts.master')
 @section('title', 'Industrial Nuts Manufacturer, Supplier & Exporter in India | Moksh Tubes')
 <!-- 70 characters -->
-@section('meta_description',
-    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Industrial Nuts in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A194, DIN & ISO standards with worldwide delivery.')
-@section('meta_keywords',
-    'Industrial Nuts, Industrial Nuts Manufacturer, Industrial Nuts Supplier, Industrial Nuts Exporter, Stainless Steel Industrial Nuts, Carbon Steel Industrial Nuts, Alloy Steel Industrial Nuts, Duplex Industrial Nuts, Super Duplex Industrial Nuts, Hex Nuts, Heavy Hex Nuts, Lock Nuts, Square Nuts, Cap Nuts, Slotted Nuts, ASTM A194 Nuts, Industrial Fasteners, Threaded Fasteners, Heavy Hex Fasteners, High Tensile Nuts, Precision Threaded Nuts, Corrosion Resistant Nuts, Structural Fasteners, Mechanical Fasteners, Pipeline Fasteners, Construction Fasteners, Engineering Fasteners, Industrial Nut Supplier')
+@section(
+    'meta_description',
+    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Industrial Nuts in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A194, DIN & ISO standards with worldwide delivery.'
+)
+@section(
+    'meta_keywords',
+    'Industrial Nuts, Industrial Nuts Manufacturer, Industrial Nuts Supplier, Industrial Nuts Exporter, Stainless Steel Industrial Nuts, Carbon Steel Industrial Nuts, Alloy Steel Industrial Nuts, Duplex Industrial Nuts, Super Duplex Industrial Nuts, Hex Nuts, Heavy Hex Nuts, Lock Nuts, Square Nuts, Cap Nuts, Slotted Nuts, ASTM A194 Nuts, Industrial Fasteners, Threaded Fasteners, Heavy Hex Fasteners, High Tensile Nuts, Precision Threaded Nuts, Corrosion Resistant Nuts, Structural Fasteners, Mechanical Fasteners, Pipeline Fasteners, Construction Fasteners, Engineering Fasteners, Industrial Nut Supplier'
+)
 @section('og_title', 'Industrial Nuts Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Premium-quality Industrial Nuts manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A194, DIN & ISO compliant with worldwide export support.')
 @section('og_image', asset('/assets/images/product/flangs/FASTENERS.webp'))
@@ -19,15 +23,23 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1 class="page-title">Industrial Nuts Manufacturer, Supplier & Exporter in India</h1>
-                    <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px; max-width: 900px;">
-                        Industrial Nuts are essential fastening components used with bolts, studs, and threaded rods to create strong, secure, and reliable joints in piping systems, machinery, structural steel, and construction projects. Designed for high-strength and corrosion-resistant performance, they are suitable for demanding industrial environments. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we manufacture, supply, and export premium-quality Industrial Nuts in stainless steel, carbon steel, alloy steel, duplex, super duplex, and nickel alloy grades. Manufactured to international standards, our nuts ensure superior durability, precision, and long service life.
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px; max-width: 900px;">
+                        Industrial Nuts are essential fastening components used with bolts, studs, and threaded rods to
+                        create strong, secure, and reliable joints in piping systems, machinery, structural steel, and
+                        construction projects. Designed for high-strength and corrosion-resistant performance, they are
+                        suitable for demanding industrial environments. At <a href="{{ route('index') }}"
+                            class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we manufacture,
+                        supply, and export premium-quality Industrial Nuts in stainless steel, carbon steel, alloy steel,
+                        duplex, super duplex, and nickel alloy grades. Manufactured to international standards, our nuts
+                        ensure superior durability, precision, and long service life.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-      <!-- Quick Navigation (Standardized sticky tabs)-->
+    <!-- Quick Navigation (Standardized sticky tabs)-->
     <div class="sticky-top bg-white border-bottom material-tabs w-100 shadow-sm">
         <div class="container text-center py-2">
             <a href="#overview">Product Overview</a> |
@@ -35,11 +47,12 @@
             <a href="#chemical-composition">Chemical Composition</a> |
             <a href="#size-chart">Size & Weight Chart</a> |
             <a href="#grades">Grades & Equivalent</a> |
-            <a href="#features">Features & Advantages</a> |
             <a href="#applications">Applications</a> |
+            <a href="#features">Features & Advantages</a> |
             <a href="#mechanical-properties">Mechanical Properties</a> |
-            <a href="#testing">Testing & Quality</a> |
-            <a href="#packaging">Packaging & Export</a> |
+            <!-- <a href="#testing">Testing & Quality</a> | -->
+            <!-- <a href="#packaging">Packaging & Export</a> | -->
+            <a href="#why-choose-us">Why Choose Us</a>
             <a href="#faq">FAQ</a>
         </div>
     </div>
@@ -53,17 +66,24 @@
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('/assets/images/product/flangs/FASTENERS.webp') }}"
-                        alt="Industrial Nuts Manufacturer" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                        alt="Industrial Nuts Manufacturer" class="img-fluid rounded shadow-sm" width="550" height="350"
+                        loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong>Industrial Nuts</strong> are internally threaded fasteners designed to work with bolts, stud bolts, and threaded rods to securely fasten components together. Available in a variety of shapes and sizes, they provide excellent load distribution and vibration resistance in high-pressure and heavy-duty applications. Common types include Hex Nuts, Heavy Hex Nuts, Lock Nuts, Square Nuts, Cap Nuts, and Slotted Nuts.
+                        <strong>Industrial Nuts</strong> are internally threaded fasteners designed to work with bolts, stud
+                        bolts, and threaded rods to securely fasten components together. Available in a variety of shapes
+                        and sizes, they provide excellent load distribution and vibration resistance in high-pressure and
+                        heavy-duty applications. Common types include Hex Nuts, Heavy Hex Nuts, Lock Nuts, Square Nuts, Cap
+                        Nuts, and Slotted Nuts.
                     </p>
                     <p class="fs-6 text-justify">
-                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture precision-engineered Industrial Nuts using premium-quality raw materials and advanced machining processes. Our nuts are available in various thread standards, dimensions, and material grades to meet the requirements of industries worldwide.
+                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture
+                        precision-engineered Industrial Nuts using premium-quality raw materials and advanced machining
+                        processes. Our nuts are available in various thread standards, dimensions, and material grades to
+                        meet the requirements of industries worldwide.
                     </p>
                 </div>
             </div>
@@ -75,7 +95,8 @@
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Industrial Nuts Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application
+                guidelines. Enter your email below to receive the PDF instantly.
             </p>
             <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}" autocomplete="off">
@@ -126,7 +147,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys</td>
+                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys
+                                    </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Size Range</td>
@@ -162,7 +184,10 @@
                 <h2>Chemical Composition</h2>
             </div>
             <p class="text-center pb-3">
-                The chemical composition of <strong>Industrial Nuts</strong> varies depending on the selected material grade. At Moksh Tubes & Fittings LLP, our Industrial Nuts are manufactured using premium-quality raw materials that comply with ASTM, ASME, DIN, ISO, EN, and BS standards, ensuring excellent corrosion resistance, high mechanical strength, and long service life.
+                The chemical composition of <strong>Industrial Nuts</strong> varies depending on the selected material
+                grade. At Moksh Tubes & Fittings LLP, our Industrial Nuts are manufactured using premium-quality raw
+                materials that comply with ASTM, ASME, DIN, ISO, EN, and BS standards, ensuring excellent corrosion
+                resistance, high mechanical strength, and long service life.
             </p>
             <div class="row justify-content-center">
                 <div class="col-lg-12">
@@ -178,22 +203,85 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
-                                <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
-                                <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
-                                <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
-                                <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
-                                <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
-                                <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
-                                <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
-                                <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
-                                <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
+                                <tr class="t-row">
+                                    <td>Carbon (C)</td>
+                                    <td>0.08 Max</td>
+                                    <td>0.03 Max</td>
+                                    <td>0.08 Max</td>
+                                    <td>0.03 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manganese (Mn)</td>
+                                    <td>2.00 Max</td>
+                                    <td>2.00 Max</td>
+                                    <td>2.00 Max</td>
+                                    <td>2.00 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Silicon (Si)</td>
+                                    <td>0.75 Max</td>
+                                    <td>0.75 Max</td>
+                                    <td>0.75 Max</td>
+                                    <td>0.75 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Phosphorus (P)</td>
+                                    <td>0.045 Max</td>
+                                    <td>0.045 Max</td>
+                                    <td>0.045 Max</td>
+                                    <td>0.045 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sulfur (S)</td>
+                                    <td>0.030 Max</td>
+                                    <td>0.030 Max</td>
+                                    <td>0.030 Max</td>
+                                    <td>0.030 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chromium (Cr)</td>
+                                    <td>18.00–20.00</td>
+                                    <td>18.00–20.00</td>
+                                    <td>16.00–18.00</td>
+                                    <td>16.00–18.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nickel (Ni)</td>
+                                    <td>8.00–10.50</td>
+                                    <td>8.00–12.00</td>
+                                    <td>10.00–14.00</td>
+                                    <td>10.00–14.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Molybdenum (Mo)</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>2.00–3.00</td>
+                                    <td>2.00–3.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nitrogen (N)</td>
+                                    <td>0.10 Max</td>
+                                    <td>0.10 Max</td>
+                                    <td>0.10 Max</td>
+                                    <td>0.10 Max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Iron (Fe)</td>
+                                    <td>Balance</td>
+                                    <td>Balance</td>
+                                    <td>Balance</td>
+                                    <td>Balance</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, ASTM A194 Grade 2H, ASTM A194 Grade 7, ASTM A194 Grade 8, ASTM A194 Grade 8M, Duplex, Super Duplex, and Nickel Alloy Industrial Nuts are also available in accordance with the relevant ASTM and ASME material specifications.</small></p>
+            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on
+                    the selected material grade. Carbon Steel, Alloy Steel, ASTM A194 Grade 2H, ASTM A194 Grade 7, ASTM A194
+                    Grade 8, ASTM A194 Grade 8M, Duplex, Super Duplex, and Nickel Alloy Industrial Nuts are also available
+                    in accordance with the relevant ASTM and ASME material specifications.</small></p>
         </div>
     </section>
 
@@ -204,7 +292,8 @@
                 <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart</h2>
             </div>
             <p class="text-center pb-3">
-                Industrial Nuts are manufactured according to <strong>ASTM, DIN, ISO,</strong> and <strong>ASME</strong> standards and are available in a wide range of thread sizes and nut types.
+                Industrial Nuts are manufactured according to <strong>ASTM, DIN, ISO,</strong> and <strong>ASME</strong>
+                standards and are available in a wide range of thread sizes and nut types.
             </p>
             <div class="table-responsive mt-4">
                 <table class="table table-bordered table-striped align-middle text-center">
@@ -218,22 +307,97 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>M6</td><td>1.0</td><td>10</td><td>5</td><td>0.18</td></tr>
-                        <tr class="t-row"><td>M8</td><td>1.25</td><td>13</td><td>6.5</td><td>0.40</td></tr>
-                        <tr class="t-row"><td>M10</td><td>1.5</td><td>17</td><td>8</td><td>0.85</td></tr>
-                        <tr class="t-row"><td>M12</td><td>1.75</td><td>19</td><td>10</td><td>1.45</td></tr>
-                        <tr class="t-row"><td>M16</td><td>2.0</td><td>24</td><td>13</td><td>3.10</td></tr>
-                        <tr class="t-row"><td>M20</td><td>2.5</td><td>30</td><td>16</td><td>5.60</td></tr>
-                        <tr class="t-row"><td>M24</td><td>3.0</td><td>36</td><td>19</td><td>9.10</td></tr>
-                        <tr class="t-row"><td>M30</td><td>3.5</td><td>46</td><td>24</td><td>17.20</td></tr>
-                        <tr class="t-row"><td>M36</td><td>4.0</td><td>55</td><td>29</td><td>28.50</td></tr>
-                        <tr class="t-row"><td>M42</td><td>4.5</td><td>65</td><td>34</td><td>43.60</td></tr>
-                        <tr class="t-row"><td>M48</td><td>5.0</td><td>75</td><td>38</td><td>61.80</td></tr>
-                        <tr class="t-row"><td>M56</td><td>5.5</td><td>85</td><td>45</td><td>93.40</td></tr>
+                        <tr class="t-row">
+                            <td>M6</td>
+                            <td>1.0</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>0.18</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M8</td>
+                            <td>1.25</td>
+                            <td>13</td>
+                            <td>6.5</td>
+                            <td>0.40</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M10</td>
+                            <td>1.5</td>
+                            <td>17</td>
+                            <td>8</td>
+                            <td>0.85</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M12</td>
+                            <td>1.75</td>
+                            <td>19</td>
+                            <td>10</td>
+                            <td>1.45</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M16</td>
+                            <td>2.0</td>
+                            <td>24</td>
+                            <td>13</td>
+                            <td>3.10</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M20</td>
+                            <td>2.5</td>
+                            <td>30</td>
+                            <td>16</td>
+                            <td>5.60</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M24</td>
+                            <td>3.0</td>
+                            <td>36</td>
+                            <td>19</td>
+                            <td>9.10</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M30</td>
+                            <td>3.5</td>
+                            <td>46</td>
+                            <td>24</td>
+                            <td>17.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M36</td>
+                            <td>4.0</td>
+                            <td>55</td>
+                            <td>29</td>
+                            <td>28.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M42</td>
+                            <td>4.5</td>
+                            <td>65</td>
+                            <td>34</td>
+                            <td>43.60</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M48</td>
+                            <td>5.0</td>
+                            <td>75</td>
+                            <td>38</td>
+                            <td>61.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>M56</td>
+                            <td>5.5</td>
+                            <td>85</td>
+                            <td>45</td>
+                            <td>93.40</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and may vary depending on the nut type (Hex, Heavy Hex, Lock, Square, Cap, or Slotted), material grade, thread standard (Metric, UNC, UNF, BSW, BSP), and manufacturing tolerances. Custom sizes and thread specifications are available upon request.</p>
+            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and
+                may vary depending on the nut type (Hex, Heavy Hex, Lock, Square, Cap, or Slotted), material grade, thread
+                standard (Metric, UNC, UNF, BSW, BSP), and manufacturing tolerances. Custom sizes and thread specifications
+                are available upon request.</p>
         </div>
     </section>
 
@@ -296,12 +460,30 @@
                                 </tr>
                             </thead>
                             <tbody class="text-start">
-                                <tr class="t-row"><td style="padding-left: 20px;"><strong>ASTM</strong></td><td style="padding-left: 20px;">ASTM A194</td></tr>
-                                <tr class="t-row"><td style="padding-left: 20px;"><strong>ASME</strong></td><td style="padding-left: 20px;">ASME SA194</td></tr>
-                                <tr class="t-row"><td style="padding-left: 20px;"><strong>DIN</strong></td><td style="padding-left: 20px;">DIN 934</td></tr>
-                                <tr class="t-row"><td style="padding-left: 20px;"><strong>ISO</strong></td><td style="padding-left: 20px;">ISO 4032</td></tr>
-                                <tr class="t-row"><td style="padding-left: 20px;"><strong>EN</strong></td><td style="padding-left: 20px;">EN ISO 4032</td></tr>
-                                <tr class="t-row"><td style="padding-left: 20px;"><strong>BS</strong></td><td style="padding-left: 20px;">BS 3692</td></tr>
+                                <tr class="t-row">
+                                    <td style="padding-left: 20px;"><strong>ASTM</strong></td>
+                                    <td style="padding-left: 20px;">ASTM A194</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td style="padding-left: 20px;"><strong>ASME</strong></td>
+                                    <td style="padding-left: 20px;">ASME SA194</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td style="padding-left: 20px;"><strong>DIN</strong></td>
+                                    <td style="padding-left: 20px;">DIN 934</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td style="padding-left: 20px;"><strong>ISO</strong></td>
+                                    <td style="padding-left: 20px;">ISO 4032</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td style="padding-left: 20px;"><strong>EN</strong></td>
+                                    <td style="padding-left: 20px;">EN ISO 4032</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td style="padding-left: 20px;"><strong>BS</strong></td>
+                                    <td style="padding-left: 20px;">BS 3692</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -317,48 +499,68 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}">
-                                <img class="w-100" src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp') }}" alt="Stainless Steel 304" loading="lazy">
+                            <a class="w-100"
+                                href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp') }}"
+                                    alt="Stainless Steel 304" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}" style="color: inherit; text-decoration: none;">Stainless Steel 304</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}"
+                                    style="color: inherit; text-decoration: none;">Stainless Steel 304</a></h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}">
-                                <img class="w-100" src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}" alt="Stainless Steel 316" loading="lazy">
+                            <a class="w-100"
+                                href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"
+                                    alt="Stainless Steel 316" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}" style="color: inherit; text-decoration: none;">Stainless Steel 316</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}"
+                                    style="color: inherit; text-decoration: none;">Stainless Steel 316</a></h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}">
-                                <img class="w-100" src="{{ asset('assets/images/engineering-steels/engineering-steels-1045.webp') }}" alt="Carbon Steel" loading="lazy">
+                            <a class="w-100"
+                                href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/engineering-steels/engineering-steels-1045.webp') }}"
+                                    alt="Carbon Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}" style="color: inherit; text-decoration: none;">Carbon Steel</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}"
+                                    style="color: inherit; text-decoration: none;">Carbon Steel</a></h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}">
-                                <img class="w-100" src="{{ asset('assets/images/engineering-steels/engineering-steels-4140.webp') }}" alt="Alloy Steel" loading="lazy">
+                            <a class="w-100"
+                                href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/engineering-steels/engineering-steels-4140.webp') }}"
+                                    alt="Alloy Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}" style="color: inherit; text-decoration: none;">Alloy Steel</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}"
+                                    style="color: inherit; text-decoration: none;">Alloy Steel</a></h6>
                         </div>
                     </div>
                 </div>
@@ -366,11 +568,15 @@
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
-                                <img class="w-100" src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}" alt="Duplex Stainless Steel" loading="lazy">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                    alt="Duplex Stainless Steel" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}" style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}"
+                                    style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
                         </div>
                     </div>
                 </div>
@@ -378,77 +584,14 @@
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.inconel.grade', 'inconel-625') }}">
-                                <img class="w-100" src="{{ asset('assets/images/inconel/Inconel-625.webp') }}" alt="Inconel Alloys" loading="lazy">
+                                <img class="w-100" src="{{ asset('assets/images/inconel/Inconel-625.webp') }}"
+                                    alt="Inconel Alloys" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}" style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}"
+                                    style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{-- Features & Advantages --}}
-    <section id="features" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Features & Advantages</h2>
-            </div>
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
-                        <h4>High tensile strength and durability</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
-                        <h4>Precision-machined internal threads</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h4>Excellent corrosion and oxidation resistance</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-link-45deg"></i></div>
-                        <h4>Secure fastening for industrial applications</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-fire"></i></div>
-                        <h4>Suitable for high-pressure and high-temperature environments</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-nut"></i></div>
-                        <h4>Available in multiple thread standards and nut types</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrow-repeat"></i></div>
-                        <h4>Easy installation and removal</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
-                        <h4>Long service life with minimal maintenance</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
-                        <h4>Manufactured according to international quality standards</h4>
                     </div>
                 </div>
             </div>
@@ -533,11 +676,79 @@
         </div>
     </section>
 
+
+    {{-- Features & Advantages --}}
+    <section id="features" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Features & Advantages</h2>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                        <h4>High tensile strength and durability</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
+                        <h4>Precision-machined internal threads</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h4>Excellent corrosion and oxidation resistance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-link-45deg"></i></div>
+                        <h4>Secure fastening for industrial applications</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-fire"></i></div>
+                        <h4>Suitable for high-pressure and high-temperature environments</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-nut"></i></div>
+                        <h4>Available in multiple thread standards and nut types</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrow-repeat"></i></div>
+                        <h4>Easy installation and removal</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h4>Long service life with minimal maintenance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
+                        <h4>Manufactured according to international quality standards</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom">
         <div class="container">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-                 <p class="text-center">The mechanical properties of <strong>Industrial Nuts</strong> depend on the selected material grade and comply with applicable ASTM and ASME standards. The table below shows the typical mechanical properties for commonly supplied stainless steel grades.</p>
+                <p class="text-center">The mechanical properties of <strong>Industrial Nuts</strong> depend on the selected
+                    material grade and comply with applicable ASTM and ASME standards. The table below shows the typical
+                    mechanical properties for commonly supplied stainless steel grades.</p>
             </div>
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
@@ -572,11 +783,14 @@
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Mechanical properties for Carbon Steel, Alloy Steel, ASTM A194 Grade 2H, ASTM A194 Grade 7, ASTM A194 Grade 8, ASTM A194 Grade 8M, Duplex, Super Duplex, and Nickel Alloy Industrial Nuts are available in accordance with their respective ASTM/ASME material specifications upon request.</p>
+            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Mechanical properties for Carbon Steel,
+                Alloy Steel, ASTM A194 Grade 2H, ASTM A194 Grade 7, ASTM A194 Grade 8, ASTM A194 Grade 8M, Duplex, Super
+                Duplex, and Nickel Alloy Industrial Nuts are available in accordance with their respective ASTM/ASME
+                material specifications upon request.</p>
         </div>
     </section>
 
-    <section id="packaging" class="sec-padd-top sec-padd-bottom">
+    <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
@@ -584,15 +798,17 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
                     <p class="fs-6 text-muted">
-                        We ensure that our Industrial Nuts are securely packaged to prevent damage during transit. We use high-quality wooden crates, pallets, and shrink-wrapping for export shipments.<br>
-                        We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe, Africa, and Southeast Asia.
+                        We ensure that our Industrial Nuts are securely packaged to prevent damage during transit. We use
+                        high-quality wooden crates, pallets, and shrink-wrapping for export shipments.<br>
+                        We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
+                        Europe, Africa, and Southeast Asia.
                     </p>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Why Choose Moksh Tubes & Fittings LLP?</h2>
@@ -672,7 +888,9 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Industrial Nuts are internally threaded fasteners used with bolts, stud bolts, and threaded rods to securely join components in industrial, structural, and mechanical applications.
+                                    Industrial Nuts are internally threaded fasteners used with bolts, stud bolts, and
+                                    threaded rods to securely join components in industrial, structural, and mechanical
+                                    applications.
                                 </p>
                             </div>
                         </div>
@@ -683,7 +901,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    We supply Hex Nuts, Heavy Hex Nuts, Lock Nuts, Square Nuts, Cap Nuts, Slotted Nuts, and other industrial nut types in various materials and sizes.
+                                    We supply Hex Nuts, Heavy Hex Nuts, Lock Nuts, Square Nuts, Cap Nuts, Slotted Nuts, and
+                                    other industrial nut types in various materials and sizes.
                                 </p>
                             </div>
                         </div>
@@ -694,7 +913,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    We manufacture Industrial Nuts in stainless steel, carbon steel, alloy steel, duplex, super duplex, and nickel alloy grades.
+                                    We manufacture Industrial Nuts in stainless steel, carbon steel, alloy steel, duplex,
+                                    super duplex, and nickel alloy grades.
                                 </p>
                             </div>
                         </div>
@@ -716,7 +936,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes. We manufacture Industrial Nuts in custom sizes, thread types, coatings, and material grades according to customer specifications.
+                                    Yes. We manufacture Industrial Nuts in custom sizes, thread types, coatings, and
+                                    material grades according to customer specifications.
                                 </p>
                             </div>
                         </div>
@@ -732,7 +953,9 @@
             <div class="contact-cta-box text-center">
                 <h2>Request a Quote</h2>
                 <p>
-                    Looking for a trusted <strong>Industrial Nuts</strong> manufacturer and supplier? Contact <strong>Moksh Tubes & Fittings LLP</strong> for premium-quality industrial nuts, competitive pricing, ready stock, technical support, and fast worldwide delivery. Request your free quotation today.
+                    Looking for a trusted <strong>Industrial Nuts</strong> manufacturer and supplier? Contact <strong>Moksh
+                        Tubes & Fittings LLP</strong> for premium-quality industrial nuts, competitive pricing, ready stock,
+                    technical support, and fast worldwide delivery. Request your free quotation today.
                 </p>
                 <a href="javascript:void(0);" class="contact-cta-btn btn btn-primary mt-3" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
@@ -751,11 +974,13 @@
             transform: translateY(-6px) scale(0.98);
             transition: opacity .35s ease, transform .35s ease;
         }
+
         tr.collapsing {
             opacity: 0;
             transform: translateY(-10px) scale(0.96);
             display: table-row !important;
         }
+
         tr.collapse.show {
             opacity: 1;
             transform: translateY(0) scale(1);
@@ -774,6 +999,7 @@
             position: relative;
             padding-left: 30px;
         }
+
         .custom-check-list li i {
             position: absolute;
             left: 0;
@@ -790,34 +1016,44 @@
             display: inline-block;
             transition: all 0.3s ease;
         }
+
         .material-tabs .separator {
             color: #ccc;
             margin: 0 4px;
             font-size: 14px;
         }
+
         .material-tabs a:hover {
             color: #e67e22;
         }
 
         /* Card Styles */
-        .advantage-card, .application-card, .why-banner-block {
+        .advantage-card,
+        .application-card,
+        .why-banner-block {
             background: #fff;
             padding: 25px;
             border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
             text-align: center;
             height: 100%;
             transition: all 0.3s ease;
             border: 1px solid #f1f1f1;
             cursor: pointer;
         }
-        .advantage-card:hover, .application-card:hover, .why-banner-block:hover {
+
+        .advantage-card:hover,
+        .application-card:hover,
+        .why-banner-block:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(230, 126, 34, 0.2) !important;
             border-color: #e67e22;
             background-color: #fff;
         }
-        .advantage-icon, .application-icon, .why-banner-icon {
+
+        .advantage-icon,
+        .application-icon,
+        .why-banner-icon {
             font-size: 2.2rem;
             color: #ffffff;
             margin: 0 auto 15px auto;
@@ -830,17 +1066,22 @@
             border-radius: 50%;
             background-color: #e67e22;
         }
-        .advantage-card h4, .application-card h5, .why-banner-block h5 {
+
+        .advantage-card h4,
+        .application-card h5,
+        .why-banner-block h5 {
             font-size: 1.1rem;
             margin-bottom: 0;
             color: #174268;
             transition: color 0.3s ease;
         }
-        .advantage-card:hover .advantage-icon, 
+
+        .advantage-card:hover .advantage-icon,
         .application-card:hover .application-icon,
         .why-banner-block:hover .why-banner-icon {
             background-color: #174268;
         }
+
         .grade-card {
             border: 1px solid #e67e22;
             border-radius: 4px;
@@ -848,21 +1089,25 @@
             cursor: pointer;
             background-color: #ffffff;
         }
+
         .grade-card .card-icon,
         .grade-card .card-title {
             color: #003366;
             transition: color 0.3s ease;
         }
+
         .grade-card .card-text {
             color: #6c757d;
             transition: color 0.3s ease;
         }
+
         .grade-card:hover {
             background-color: #e67e22;
             border-color: #e67e22;
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(230, 126, 34, 0.2) !important;
         }
+
         .grade-card:hover .card-icon,
         .grade-card:hover .card-title,
         .grade-card:hover .card-text {

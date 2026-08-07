@@ -17,7 +17,12 @@
 
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Stainless Steel (SS) Railing Products are modern architectural solutions designed for safety, durability, and aesthetic appeal in residential, commercial, and industrial projects. Moksh Tubes & Fittings LLP supplies high-quality SS railing systems including modular railings, handrails, balusters, posts, and glass-supported railing systems in grades 304, 316, duplex, and premium alloys. Our railing solutions offer corrosion resistance, structural strength, and long service life for indoor and outdoor applications across India and export markets.
+                        Stainless Steel (SS) Railing Products are modern architectural solutions designed for safety,
+                        durability, and aesthetic appeal in residential, commercial, and industrial projects. Moksh Tubes &
+                        Fittings LLP supplies high-quality SS railing systems including modular railings, handrails,
+                        balusters, posts, and glass-supported railing systems in grades 304, 316, duplex, and premium
+                        alloys. Our railing solutions offer corrosion resistance, structural strength, and long service life
+                        for indoor and outdoor applications across India and export markets.
                     </p>
                 </div>
             </div>
@@ -33,11 +38,11 @@
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#buying-guide">Buying Guide</a> |
-            <a href="#manufacturing">Manufacturing</a> |
-            <a href="#mechanical">Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
-            <a href="#export">Packaging & Exports</a> |
+            <!-- <a href="#buying-guide">Buying Guide</a> |
+                    <a href="#manufacturing">Manufacturing</a> | -->
+            <a href="#mechanical">Mechanical Properties</a> |
+            <!-- <a href="#tolerances">Tolerances</a> |
+                    <a href="#export">Packaging & Exports</a> | -->
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -57,23 +62,32 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/SS-railings.webp') }}" alt="SS railing design balcony stainless steel"
-                        class="img-fluid rounded shadow-sm" loading="lazy">
+                    <img src="{{ asset('assets/images/product/SS-railings.webp') }}"
+                        alt="SS railing design balcony stainless steel" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong class="text-black">Stainless Steel Railing Products</strong> are essential structural and decorative components used in modern architecture for safety, support, and design enhancement. These railings are widely installed in staircases, balconies, terraces, walkways, and commercial infrastructure.
+                            <strong class="text-black">Stainless Steel Railing Products</strong> are essential structural
+                            and decorative components used in modern architecture for safety, support, and design
+                            enhancement. These railings are widely installed in staircases, balconies, terraces, walkways,
+                            and commercial infrastructure.
                         </p>
 
                         <p class="fs-6 mb-4" style="text-align: justify;">
-                            Compared to traditional materials like wood or mild steel, SS railings offer superior corrosion resistance, minimal maintenance, and long-term durability. They are suitable for both indoor and outdoor applications, including coastal and high-humidity environments.
+                            Compared to traditional materials like wood or mild steel, SS railings offer superior corrosion
+                            resistance, minimal maintenance, and long-term durability. They are suitable for both indoor and
+                            outdoor applications, including coastal and high-humidity environments.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings LLP</a></strong>, we manufacture and supply premium-grade SS railing systems including modular railings, SS glass railing systems, handrails, balusters, clamps, and connectors. Our products comply with international standards and are designed to meet architectural, structural, and safety requirements.
+                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings
+                                    LLP</a></strong>, we manufacture and supply premium-grade SS railing systems including
+                            modular railings, SS glass railing systems, handrails, balusters, clamps, and connectors. Our
+                            products comply with international standards and are designed to meet architectural, structural,
+                            and safety requirements.
                         </p>
                     </div>
                 </div>
@@ -81,7 +95,7 @@
         </div>
     </section>
 
-    
+
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -100,15 +114,42 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>Material</td><td>Stainless Steel (304, 304L, 316, 316L), Duplex & Super Duplex</td></tr>
-                                <tr class="t-row"><td>Types</td><td>Modular Railings, Handrails, Balusters, Posts, Clamps, Spigots</td></tr>
-                                <tr class="t-row"><td>Finishes</td><td>Matte, Mirror, Satin, Brushed, Powder Coated</td></tr>
-                                <tr class="t-row"><td>OD Range</td><td>12.7 mm to 168.3 mm</td></tr>
-                                <tr class="t-row"><td>Thickness</td><td>1.0 mm to 3.5 mm</td></tr>
-                                <tr class="t-row"><td>Mounting</td><td>Top Mounted, Side Mounted, Glass Supported</td></tr>
-                                <tr class="t-row"><td>Applications</td><td>Staircases, Balconies, Decks, Pool Areas</td></tr>
-                                <tr class="t-row"><td>Customization</td><td>Fully customizable designs & dimensions</td></tr>
-                                <tr class="t-row"><td>Durability</td><td>Corrosion-resistant, weatherproof</td></tr>
+                                <tr class="t-row">
+                                    <td>Material</td>
+                                    <td>Stainless Steel (304, 304L, 316, 316L), Duplex & Super Duplex</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Types</td>
+                                    <td>Modular Railings, Handrails, Balusters, Posts, Clamps, Spigots</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Finishes</td>
+                                    <td>Matte, Mirror, Satin, Brushed, Powder Coated</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>OD Range</td>
+                                    <td>12.7 mm to 168.3 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Thickness</td>
+                                    <td>1.0 mm to 3.5 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Mounting</td>
+                                    <td>Top Mounted, Side Mounted, Glass Supported</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Applications</td>
+                                    <td>Staircases, Balconies, Decks, Pool Areas</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Customization</td>
+                                    <td>Fully customizable designs & dimensions</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Durability</td>
+                                    <td>Corrosion-resistant, weatherproof</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -122,9 +163,10 @@
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart – SS Railing Tubes</h2>
             </div>
-            
-            <p class="text-center mb-3 text-muted">Stainless Steel Railing Tube Weight Chart (Grade 304/316, Density 7.93 g/cm³ – SS railing pipe weight per meter)</p>
-            
+
+            <p class="text-center mb-3 text-muted">Stainless Steel Railing Tube Weight Chart (Grade 304/316, Density 7.93
+                g/cm³ – SS railing pipe weight per meter)</p>
+
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="table-responsive">
@@ -143,23 +185,193 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>12.7</td><td>½”</td><td>0.25</td><td>0.30</td><td>0.37</td><td>0.49</td><td>0.61</td><td>0.73</td><td>0.85</td></tr>
-                                <tr class="t-row"><td>15.88</td><td>⅝”</td><td>0.32</td><td>0.38</td><td>0.48</td><td>0.63</td><td>0.78</td><td>0.92</td><td>1.07</td></tr>
-                                <tr class="t-row"><td>19.05</td><td>¾”</td><td>0.38</td><td>0.46</td><td>0.58</td><td>0.77</td><td>0.95</td><td>1.13</td><td>1.30</td></tr>
-                                <tr class="t-row"><td>25.4</td><td>1”</td><td>0.51</td><td>0.59</td><td>0.72</td><td>0.95</td><td>1.17</td><td>1.39</td><td>1.60</td></tr>
-                                <tr class="t-row"><td>31.8</td><td>1¼”</td><td>0.65</td><td>0.75</td><td>0.95</td><td>1.24</td><td>1.53</td><td>1.81</td><td>2.08</td></tr>
-                                <tr class="t-row"><td>38.1</td><td>1½”</td><td>0.79</td><td>0.91</td><td>1.14</td><td>1.50</td><td>1.86</td><td>2.21</td><td>2.56</td></tr>
-                                <tr class="t-row"><td>42.4</td><td>1.67”</td><td>0.88</td><td>1.02</td><td>1.28</td><td>1.68</td><td>2.07</td><td>2.46</td><td>2.84</td></tr>
-                                <tr class="t-row"><td>48.3</td><td>1.9”</td><td>1.01</td><td>1.17</td><td>1.47</td><td>1.94</td><td>2.40</td><td>2.86</td><td>3.31</td></tr>
-                                <tr class="t-row"><td>50.8</td><td>2”</td><td>1.05</td><td>1.22</td><td>1.53</td><td>2.00</td><td>2.47</td><td>2.93</td><td>3.38</td></tr>
-                                <tr class="t-row"><td>63.5</td><td>2½”</td><td>1.29</td><td>1.54</td><td>1.93</td><td>2.52</td><td>3.10</td><td>3.68</td><td>4.25</td></tr>
-                                <tr class="t-row"><td>76.2</td><td>3”</td><td>1.55</td><td>1.86</td><td>2.34</td><td>3.04</td><td>3.73</td><td>4.41</td><td>5.08</td></tr>
-                                <tr class="t-row"><td>88.9</td><td>3½”</td><td>1.81</td><td>2.18</td><td>2.73</td><td>3.55</td><td>4.36</td><td>5.16</td><td>5.95</td></tr>
-                                <tr class="t-row"><td>101.6</td><td>4”</td><td>2.07</td><td>2.49</td><td>3.14</td><td>4.07</td><td>5.00</td><td>5.92</td><td>6.83</td></tr>
-                                <tr class="t-row"><td>114.3</td><td>4½”</td><td>2.34</td><td>2.81</td><td>3.55</td><td>4.60</td><td>5.65</td><td>6.69</td><td>7.73</td></tr>
-                                <tr class="t-row"><td>127</td><td>5”</td><td>2.60</td><td>3.13</td><td>3.95</td><td>5.12</td><td>6.28</td><td>7.44</td><td>8.59</td></tr>
-                                <tr class="t-row"><td>141.3</td><td>5½”</td><td>2.89</td><td>3.47</td><td>4.38</td><td>5.69</td><td>6.99</td><td>8.29</td><td>9.59</td></tr>
-                                <tr class="t-row"><td>168.3</td><td>6”</td><td>3.44</td><td>4.14</td><td>5.23</td><td>6.81</td><td>8.38</td><td>9.95</td><td>11.5</td></tr>
+                                <tr class="t-row">
+                                    <td>12.7</td>
+                                    <td>½”</td>
+                                    <td>0.25</td>
+                                    <td>0.30</td>
+                                    <td>0.37</td>
+                                    <td>0.49</td>
+                                    <td>0.61</td>
+                                    <td>0.73</td>
+                                    <td>0.85</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>15.88</td>
+                                    <td>⅝”</td>
+                                    <td>0.32</td>
+                                    <td>0.38</td>
+                                    <td>0.48</td>
+                                    <td>0.63</td>
+                                    <td>0.78</td>
+                                    <td>0.92</td>
+                                    <td>1.07</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>19.05</td>
+                                    <td>¾”</td>
+                                    <td>0.38</td>
+                                    <td>0.46</td>
+                                    <td>0.58</td>
+                                    <td>0.77</td>
+                                    <td>0.95</td>
+                                    <td>1.13</td>
+                                    <td>1.30</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>25.4</td>
+                                    <td>1”</td>
+                                    <td>0.51</td>
+                                    <td>0.59</td>
+                                    <td>0.72</td>
+                                    <td>0.95</td>
+                                    <td>1.17</td>
+                                    <td>1.39</td>
+                                    <td>1.60</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>31.8</td>
+                                    <td>1¼”</td>
+                                    <td>0.65</td>
+                                    <td>0.75</td>
+                                    <td>0.95</td>
+                                    <td>1.24</td>
+                                    <td>1.53</td>
+                                    <td>1.81</td>
+                                    <td>2.08</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>38.1</td>
+                                    <td>1½”</td>
+                                    <td>0.79</td>
+                                    <td>0.91</td>
+                                    <td>1.14</td>
+                                    <td>1.50</td>
+                                    <td>1.86</td>
+                                    <td>2.21</td>
+                                    <td>2.56</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>42.4</td>
+                                    <td>1.67”</td>
+                                    <td>0.88</td>
+                                    <td>1.02</td>
+                                    <td>1.28</td>
+                                    <td>1.68</td>
+                                    <td>2.07</td>
+                                    <td>2.46</td>
+                                    <td>2.84</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>48.3</td>
+                                    <td>1.9”</td>
+                                    <td>1.01</td>
+                                    <td>1.17</td>
+                                    <td>1.47</td>
+                                    <td>1.94</td>
+                                    <td>2.40</td>
+                                    <td>2.86</td>
+                                    <td>3.31</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>50.8</td>
+                                    <td>2”</td>
+                                    <td>1.05</td>
+                                    <td>1.22</td>
+                                    <td>1.53</td>
+                                    <td>2.00</td>
+                                    <td>2.47</td>
+                                    <td>2.93</td>
+                                    <td>3.38</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>63.5</td>
+                                    <td>2½”</td>
+                                    <td>1.29</td>
+                                    <td>1.54</td>
+                                    <td>1.93</td>
+                                    <td>2.52</td>
+                                    <td>3.10</td>
+                                    <td>3.68</td>
+                                    <td>4.25</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>76.2</td>
+                                    <td>3”</td>
+                                    <td>1.55</td>
+                                    <td>1.86</td>
+                                    <td>2.34</td>
+                                    <td>3.04</td>
+                                    <td>3.73</td>
+                                    <td>4.41</td>
+                                    <td>5.08</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>88.9</td>
+                                    <td>3½”</td>
+                                    <td>1.81</td>
+                                    <td>2.18</td>
+                                    <td>2.73</td>
+                                    <td>3.55</td>
+                                    <td>4.36</td>
+                                    <td>5.16</td>
+                                    <td>5.95</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>101.6</td>
+                                    <td>4”</td>
+                                    <td>2.07</td>
+                                    <td>2.49</td>
+                                    <td>3.14</td>
+                                    <td>4.07</td>
+                                    <td>5.00</td>
+                                    <td>5.92</td>
+                                    <td>6.83</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>114.3</td>
+                                    <td>4½”</td>
+                                    <td>2.34</td>
+                                    <td>2.81</td>
+                                    <td>3.55</td>
+                                    <td>4.60</td>
+                                    <td>5.65</td>
+                                    <td>6.69</td>
+                                    <td>7.73</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>127</td>
+                                    <td>5”</td>
+                                    <td>2.60</td>
+                                    <td>3.13</td>
+                                    <td>3.95</td>
+                                    <td>5.12</td>
+                                    <td>6.28</td>
+                                    <td>7.44</td>
+                                    <td>8.59</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>141.3</td>
+                                    <td>5½”</td>
+                                    <td>2.89</td>
+                                    <td>3.47</td>
+                                    <td>4.38</td>
+                                    <td>5.69</td>
+                                    <td>6.99</td>
+                                    <td>8.29</td>
+                                    <td>9.59</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>168.3</td>
+                                    <td>6”</td>
+                                    <td>3.44</td>
+                                    <td>4.14</td>
+                                    <td>5.23</td>
+                                    <td>6.81</td>
+                                    <td>8.38</td>
+                                    <td>9.95</td>
+                                    <td>11.5</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -179,7 +391,8 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h5>Stainless Steel Grades</h5>
-                        <p><strong>304 / 304L:</strong> Interior & standard applications<br><strong>316 / 316L:</strong> Marine & outdoor applications</p>
+                        <p><strong>304 / 304L:</strong> Interior & standard applications<br><strong>316 / 316L:</strong>
+                            Marine & outdoor applications</p>
                     </div>
                 </div>
 
@@ -226,6 +439,104 @@
             </div>
         </div>
     </section>
+
+    {{-- Gallery --}}
+
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKEL ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
+                                    alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
+                                    alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
+                                    alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
+                                    width="400" height="260">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- Gallery --}}
 
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -334,9 +645,21 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row"><td>SS 304</td><td>515</td><td>205</td></tr>
-                                <tr class="t-row"><td>SS 316</td><td>515</td><td>205</td></tr>
-                                <tr class="t-row"><td>Duplex 2205</td><td>620</td><td>450</td></tr>
+                                <tr class="t-row">
+                                    <td>SS 304</td>
+                                    <td>515</td>
+                                    <td>205</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>SS 316</td>
+                                    <td>515</td>
+                                    <td>205</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Duplex 2205</td>
+                                    <td>620</td>
+                                    <td>450</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -345,7 +668,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
@@ -379,7 +702,7 @@
                         <h5>Fast delivery & export support</h5>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-tags"></i></div>
@@ -430,7 +753,7 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -454,7 +777,7 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -482,7 +805,8 @@
                 <p>
                     Looking for premium SS railing systems for your project?<br>
                     📞 Contact Moksh Tubes & Fittings LLP at +91 97695 84950<br>
-                    We deliver durable, modern, and custom stainless steel railing solutions for residential and commercial applications.
+                    We deliver durable, modern, and custom stainless steel railing solutions for residential and commercial
+                    applications.
                 </p>
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
@@ -497,100 +821,100 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-        @verbatim
-        [{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Moksh Tubes & Fittings LLP",
-            "url": "https://www.mokshtubes.com",
-            "logo": "https://www.mokshtubes.com/assets/logo.png",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91-97695-84950",
-                "contactType": "sales",
-                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                "availableLanguage": ["English"]
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "SS Railing Products",
-            "description": "Premium SS railing products including balcony, staircase & glass railings. Durable stainless steel railing systems in 304 & 316 grades.",
-            "brand": {
-                "@type": "Brand",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "manufacturer": {
-                "@type": "Organization",
-                "name": "Moksh Tubes & Fittings LLP"
-            },
-            "material": "Stainless Steel (304, 304L, 316, 316L), Duplex & Super Duplex",
-            "url": "https://www.mokshtubes.com/products/special-fabricated/ss-railings",
-            "offers": {
-                "@type": "Offer",
-                "availability": "https://schema.org/InStock",
-                "priceCurrency": "INR",
-                "url": "https://www.mokshtubes.com/contact-us"
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [{
-                "@type": "Question",
-                "name": "Which SS grade is best for railings?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "304 for indoor, 316 for outdoor/marine."
-                }
-            },{
-                "@type": "Question",
-                "name": "Are SS railings rust-proof?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, stainless steel offers excellent corrosion resistance."
-                }
-            },{
-                "@type": "Question",
-                "name": "Are SS railings suitable for outdoor use?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, especially SS 316 and duplex grades."
-                }
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.mokshtubes.com"
-            },{
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Special Fabricated",
-                "item": "https://www.mokshtubes.com/products/special-fabricated"
-            },{
-                "@type": "ListItem",
-                "position": 3,
-                "name": "SS Railings",
-                "item": "https://www.mokshtubes.com/products/special-fabricated/ss-railings"
-            }]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Moksh Tubes & Fittings LLP",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "India"
-            },
-            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-            "telephone": "+91-97695-84950"
-        }]
-        @endverbatim
-    </script>
+                    @verbatim
+                        [{
+                            "@context": "https://schema.org",
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "url": "https://www.mokshtubes.com",
+                            "logo": "https://www.mokshtubes.com/assets/logo.png",
+                            "contactPoint": {
+                                "@type": "ContactPoint",
+                                "telephone": "+91-97695-84950",
+                                "contactType": "sales",
+                                "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                "availableLanguage": ["English"]
+                            }
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Product",
+                            "name": "SS Railing Products",
+                            "description": "Premium SS railing products including balcony, staircase & glass railings. Durable stainless steel railing systems in 304 & 316 grades.",
+                            "brand": {
+                                "@type": "Brand",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "manufacturer": {
+                                "@type": "Organization",
+                                "name": "Moksh Tubes & Fittings LLP"
+                            },
+                            "material": "Stainless Steel (304, 304L, 316, 316L), Duplex & Super Duplex",
+                            "url": "https://www.mokshtubes.com/products/special-fabricated/ss-railings",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "priceCurrency": "INR",
+                                "url": "https://www.mokshtubes.com/contact-us"
+                            }
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "FAQPage",
+                            "mainEntity": [{
+                                "@type": "Question",
+                                "name": "Which SS grade is best for railings?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "304 for indoor, 316 for outdoor/marine."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Are SS railings rust-proof?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, stainless steel offers excellent corrosion resistance."
+                                }
+                            },{
+                                "@type": "Question",
+                                "name": "Are SS railings suitable for outdoor use?",
+                                "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, especially SS 316 and duplex grades."
+                                }
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [{
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://www.mokshtubes.com"
+                            },{
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Special Fabricated",
+                                "item": "https://www.mokshtubes.com/products/special-fabricated"
+                            },{
+                                "@type": "ListItem",
+                                "position": 3,
+                                "name": "SS Railings",
+                                "item": "https://www.mokshtubes.com/products/special-fabricated/ss-railings"
+                            }]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "LocalBusiness",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "India"
+                            },
+                            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                            "telephone": "+91-97695-84950"
+                        }]
+                    @endverbatim
+                </script>
 @endsection

@@ -36,12 +36,12 @@
             <a href="#size-weight">Size & Weight</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#uses">Uses & Advantages</a> |
-            <a href="#buying-guide">Buying Guide</a> |
-            <a href="#ss316-vs-ss304">SS316 vs SS304</a> |
-            <a href="#manufacturing">Manufacturing</a> |
+            <!-- <a href="#uses">Uses & Advantages</a> | -->
+            <!-- <a href="#buying-guide">Buying Guide</a> | -->
+            <!-- <a href="#ss316-vs-ss304">SS316 vs SS304</a> | -->
+            <!-- <a href="#manufacturing">Manufacturing</a> | -->
             <a href="#mechanical">Mechanical Properties</a> |
-            <a href="#tolerances">Tolerances & Exports</a> |
+            <!-- <a href="#tolerances">Tolerances & Exports</a> | -->
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
@@ -169,32 +169,32 @@
             </div>
 
             <!-- <div class="section-title center mt-5">
-                            <h3 class="fw-bold" style="color: #174268;">Chemical Composition</h3>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="table-responsive">
-                                    <table class="table table-bordered table-striped align-middle">
-                                        <thead class="table-dark text-center">
-                                            <tr class="t-row">
-                                                <th>Element</th>
-                                                <th>Composition (%)</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody class="text-center">
-                                            <tr class="t-row"><td>Chromium (Cr)</td><td>16.0 – 18.0</td></tr>
-                                            <tr class="t-row"><td>Nickel (Ni)</td><td>10.0 – 14.0</td></tr>
-                                            <tr class="t-row"><td>Molybdenum (Mo)</td><td>2.0 – 3.0</td></tr>
-                                            <tr class="t-row"><td>Carbon (C)</td><td>Max 0.08</td></tr>
-                                            <tr class="t-row"><td>Manganese (Mn)</td><td>Max 2.0</td></tr>
-                                            <tr class="t-row"><td>Silicon (Si)</td><td>Max 0.75</td></tr>
-                                            <tr class="t-row"><td>Phosphorus (P)</td><td>Max 0.045</td></tr>
-                                            <tr class="t-row"><td>Sulfur (S)</td><td>Max 0.03</td></tr>
-                                        </tbody>
-                                    </table>
-                                </div>
+                                <h3 class="fw-bold" style="color: #174268;">Chemical Composition</h3>
                             </div>
-                        </div> -->
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-striped align-middle">
+                                            <thead class="table-dark text-center">
+                                                <tr class="t-row">
+                                                    <th>Element</th>
+                                                    <th>Composition (%)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="text-center">
+                                                <tr class="t-row"><td>Chromium (Cr)</td><td>16.0 – 18.0</td></tr>
+                                                <tr class="t-row"><td>Nickel (Ni)</td><td>10.0 – 14.0</td></tr>
+                                                <tr class="t-row"><td>Molybdenum (Mo)</td><td>2.0 – 3.0</td></tr>
+                                                <tr class="t-row"><td>Carbon (C)</td><td>Max 0.08</td></tr>
+                                                <tr class="t-row"><td>Manganese (Mn)</td><td>Max 2.0</td></tr>
+                                                <tr class="t-row"><td>Silicon (Si)</td><td>Max 0.75</td></tr>
+                                                <tr class="t-row"><td>Phosphorus (P)</td><td>Max 0.045</td></tr>
+                                                <tr class="t-row"><td>Sulfur (S)</td><td>Max 0.03</td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div> -->
         </div>
     </section>
 
@@ -821,59 +821,59 @@
     </section>
 
     <!-- <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>Buying Guide for SS 316 Welded Pipes</h2>
+                <div class="container">
+                    <div class="section-title center">
+                        <h2>Buying Guide for SS 316 Welded Pipes</h2>
+                    </div>
+
+                    <div class="row g-4 mt-4 justify-content-center">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-check2-square"></i></div>
+                                <h5>1. Verify Material Grade</h5>
+                                <p>Ensure the pipes conform to SS 316 / 316L (UNS S31600 / S31603) with appropriate molybdenum
+                                    content (2.0–3.0%) for superior pitting resistance.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-file-earmark-check"></i></div>
+                                <h5>2. Check Manufacturing Standards</h5>
+                                <p>Confirm compliance with ASTM A312, ASTM A358, ASME SA312, or EN standards depending on your
+                                    pressure and temperature requirements.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-shield-lock"></i></div>
+                                <h5>3. Inspect Weld Integrity</h5>
+                                <p>Check that welding processes (ERW/EFW/TIG) follow proper solution annealing and non-destructive
+                                    testing (UT, Eddy Current, Hydrotest).</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-award"></i></div>
+                                <h5>4. Request Test Certificates</h5>
+                                <p>Always demand EN 10204 3.1 Mill Test Certificates verifying chemical composition, mechanical
+                                    properties, and positive material identification (PMI).</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-aspect-ratio"></i></div>
+                                <h5>5. Dimensional Accuracy & Finish</h5>
+                                <p>Verify outer diameter, wall thickness (Schedule 5S to 160), length tolerances, and surface finish
+                                    (Pickled, Annealed, Polished) match project specs.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="row g-4 mt-4 justify-content-center">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-check2-square"></i></div>
-                            <h5>1. Verify Material Grade</h5>
-                            <p>Ensure the pipes conform to SS 316 / 316L (UNS S31600 / S31603) with appropriate molybdenum
-                                content (2.0–3.0%) for superior pitting resistance.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-file-earmark-check"></i></div>
-                            <h5>2. Check Manufacturing Standards</h5>
-                            <p>Confirm compliance with ASTM A312, ASTM A358, ASME SA312, or EN standards depending on your
-                                pressure and temperature requirements.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-shield-lock"></i></div>
-                            <h5>3. Inspect Weld Integrity</h5>
-                            <p>Check that welding processes (ERW/EFW/TIG) follow proper solution annealing and non-destructive
-                                testing (UT, Eddy Current, Hydrotest).</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-6">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-award"></i></div>
-                            <h5>4. Request Test Certificates</h5>
-                            <p>Always demand EN 10204 3.1 Mill Test Certificates verifying chemical composition, mechanical
-                                properties, and positive material identification (PMI).</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-6">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-aspect-ratio"></i></div>
-                            <h5>5. Dimensional Accuracy & Finish</h5>
-                            <p>Verify outer diameter, wall thickness (Schedule 5S to 160), length tolerances, and surface finish
-                                (Pickled, Annealed, Polished) match project specs.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+            </section> -->
 
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -1089,100 +1089,100 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-                    @verbatim
-                        [{
-                            "@context": "https://schema.org",
-                            "@type": "Organization",
-                            "name": "Moksh Tubes & Fittings LLP",
-                            "url": "https://www.mokshtubes.com",
-                            "logo": "https://www.mokshtubes.com/assets/logo.png",
-                            "contactPoint": {
-                                "@type": "ContactPoint",
-                                "telephone": "+91-97695-84950",
-                                "contactType": "sales",
-                                "areaServed": ["IN","AE","SA","QA","OM","KW"],
-                                "availableLanguage": ["English"]
-                            }
-                        },
-                        {
-                            "@context": "https://schema.org",
-                            "@type": "Product",
-                            "name": "SS 316 Welded Pipes ASTM A312 TP316 / TP316L",
-                            "description": "SS 316 Welded Pipes as per ASTM A312 TP316/TP316L. Manufacturer, supplier & exporter to India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.",
-                            "brand": {
-                                "@type": "Brand",
-                                "name": "Moksh Tubes & Fittings LLP"
-                            },
-                            "manufacturer": {
+                        @verbatim
+                            [{
+                                "@context": "https://schema.org",
                                 "@type": "Organization",
-                                "name": "Moksh Tubes & Fittings LLP"
+                                "name": "Moksh Tubes & Fittings LLP",
+                                "url": "https://www.mokshtubes.com",
+                                "logo": "https://www.mokshtubes.com/assets/logo.png",
+                                "contactPoint": {
+                                    "@type": "ContactPoint",
+                                    "telephone": "+91-97695-84950",
+                                    "contactType": "sales",
+                                    "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                                    "availableLanguage": ["English"]
+                                }
                             },
-                            "material": "Stainless Steel 316 / 316L",
-                            "url": "https://www.mokshtubes.com/products/pipes-tubes/ss-316-welded-pipes",
-                            "offers": {
-                                "@type": "Offer",
-                                "availability": "https://schema.org/InStock",
-                                "priceCurrency": "INR",
-                                "url": "https://www.mokshtubes.com/contact-us"
-                            }
-                        },
-                        {
-                            "@context": "https://schema.org",
-                            "@type": "FAQPage",
-                            "mainEntity": [{
-                                "@type": "Question",
-                                "name": "What makes SS 316 welded pipe better than SS 304?",
-                                "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "SS 316 contains 2–3% molybdenum, which significantly enhances resistance to chloride pitting, crevice corrosion, and aggressive marine or chemical environments compared to SS 304."
+                            {
+                                "@context": "https://schema.org",
+                                "@type": "Product",
+                                "name": "SS 316 Welded Pipes ASTM A312 TP316 / TP316L",
+                                "description": "SS 316 Welded Pipes as per ASTM A312 TP316/TP316L. Manufacturer, supplier & exporter to India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Moksh Tubes & Fittings LLP"
+                                },
+                                "manufacturer": {
+                                    "@type": "Organization",
+                                    "name": "Moksh Tubes & Fittings LLP"
+                                },
+                                "material": "Stainless Steel 316 / 316L",
+                                "url": "https://www.mokshtubes.com/products/pipes-tubes/ss-316-welded-pipes",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "availability": "https://schema.org/InStock",
+                                    "priceCurrency": "INR",
+                                    "url": "https://www.mokshtubes.com/contact-us"
                                 }
-                            },{
-                                "@type": "Question",
-                                "name": "Are SS 316 welded pipes suitable for seawater and marine applications?",
-                                "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Yes, due to its molybdenum alloy content, SS 316 is considered the standard marine grade stainless steel and performs exceptionally well in seawater pipelines, desalination plants, and offshore platforms."
-                                }
-                            },{
-                                "@type": "Question",
-                                "name": "Can SS 316 welded pipes be used for high-temperature service?",
-                                "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Yes, Grade 316 offers excellent elevated temperature strength, high creep resistance, and good oxidation resistance up to 870°C in intermittent service and 925°C in continuous service."
-                                }
-                            }]
-                        },
-                        {
-                            "@context": "https://schema.org",
-                            "@type": "BreadcrumbList",
-                            "itemListElement": [{
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.mokshtubes.com"
-                            },{
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Pipes & Tubes",
-                                "item": "https://www.mokshtubes.com/products/pipes-tubes"
-                            },{
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "SS 316 Welded Pipes",
-                                "item": "https://www.mokshtubes.com/products/pipes-tubes/ss-316-welded-pipes"
-                            }]
-                        },
-                        {
-                            "@context": "https://schema.org",
-                            "@type": "LocalBusiness",
-                            "name": "Moksh Tubes & Fittings LLP",
-                            "address": {
-                                "@type": "PostalAddress",
-                                "addressCountry": "India"
                             },
-                            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
-                            "telephone": "+91-97695-84950"
-                        }]
-                    @endverbatim
-                </script>
+                            {
+                                "@context": "https://schema.org",
+                                "@type": "FAQPage",
+                                "mainEntity": [{
+                                    "@type": "Question",
+                                    "name": "What makes SS 316 welded pipe better than SS 304?",
+                                    "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "SS 316 contains 2–3% molybdenum, which significantly enhances resistance to chloride pitting, crevice corrosion, and aggressive marine or chemical environments compared to SS 304."
+                                    }
+                                },{
+                                    "@type": "Question",
+                                    "name": "Are SS 316 welded pipes suitable for seawater and marine applications?",
+                                    "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, due to its molybdenum alloy content, SS 316 is considered the standard marine grade stainless steel and performs exceptionally well in seawater pipelines, desalination plants, and offshore platforms."
+                                    }
+                                },{
+                                    "@type": "Question",
+                                    "name": "Can SS 316 welded pipes be used for high-temperature service?",
+                                    "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, Grade 316 offers excellent elevated temperature strength, high creep resistance, and good oxidation resistance up to 870°C in intermittent service and 925°C in continuous service."
+                                    }
+                                }]
+                            },
+                            {
+                                "@context": "https://schema.org",
+                                "@type": "BreadcrumbList",
+                                "itemListElement": [{
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.mokshtubes.com"
+                                },{
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Pipes & Tubes",
+                                    "item": "https://www.mokshtubes.com/products/pipes-tubes"
+                                },{
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SS 316 Welded Pipes",
+                                    "item": "https://www.mokshtubes.com/products/pipes-tubes/ss-316-welded-pipes"
+                                }]
+                            },
+                            {
+                                "@context": "https://schema.org",
+                                "@type": "LocalBusiness",
+                                "name": "Moksh Tubes & Fittings LLP",
+                                "address": {
+                                    "@type": "PostalAddress",
+                                    "addressCountry": "India"
+                                },
+                                "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+                                "telephone": "+91-97695-84950"
+                            }]
+                        @endverbatim
+                    </script>
 @endsection

@@ -42,10 +42,10 @@
             <a href="#size-weight">Dimensions</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
-            <a href="#sockolet-vs-weldolet">Sockolet vs Weldolet</a> |
-            <a href="#manufacturing">Manufacturing</a> |
+            <!-- <a href="#sockolet-vs-weldolet">Sockolet vs Weldolet</a> | -->
+            <!-- <a href="#manufacturing">Manufacturing</a> | -->
+            <!-- <a href="#tolerances">Tolerances</a> | -->
             <a href="#mechanical">Mechanical Properties</a> |
-            <a href="#tolerances">Tolerances</a> |
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
         </div>
