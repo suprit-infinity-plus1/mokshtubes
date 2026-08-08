@@ -85,8 +85,8 @@
                             <strong>Moksh Tubes & Fittings LLP</strong>, we supply high-quality 1055 steel in multiple forms
                             including
                             <strong>
-                                <a href="{{ route('products.bars-rods.round-bars') }}">round bars</a>,
-                                <a href="{{ route('products.bars-rods.flat-bars') }}">flat bars</a>,
+                                <a href="{{ url('products/bars-rods/round-bars') }}">round bars</a>,
+                                <a href="{{ url('products/bars-rods/flat-bars') }}">flat bars</a>,
                                 hex bars, square bars, plates, sheets, coils, strips, seamless pipes,
                                 <a href="{{ url('products/pipes-tubes/welded-pipes') }}">welded tubes</a>,
                                 and forged components.

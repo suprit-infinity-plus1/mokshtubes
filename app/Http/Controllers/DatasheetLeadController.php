@@ -52,7 +52,6 @@ class DatasheetLeadController extends Controller
 
         if (!$datasheet) {
 
-            dd("hello");
             abort(404, 'Datasheet not available.');
         }
 

@@ -90,8 +90,8 @@
                             loads, vibration, pressure, and extreme environments.
                             We supply EN 4130 in multiple forms including
                             <strong>
-                                <a href="{{ route('products.bars-rods.round-bars') }}">round bars</a>,
-                                <a href="{{ route('products.bars-rods.flat-bars') }}"> flat bars</a>,
+                                <a href="{{ url('products/bars-rods/round-bars') }}">round bars</a>,
+                                <a href="{{ url('products/bars-rods/flat-bars') }}"> flat bars</a>,
                                 hex bars, square bars, plates, sheets, coils, strips, seamless pipes,
                                 <a href="{{ url('products/pipes-tubes/welded-pipes') }}">welded tubes</a>,
                                 forged blocks, rings, and custom-machined components.

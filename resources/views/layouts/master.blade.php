@@ -722,22 +722,22 @@
                                                                                                                         class="fa fa-angle-right"></i>
                                                                                                         </a>
                                                                                                         <ul>
-                                                                                                                <li><a href="{{ route('products.bars-rods.square-bars') }}">Square
+                                                                                                                <li><a href="{{ url('products/bars-rods/square-bars') }}">Square
                                                                                                                                 Bars</a>
                                                                                                                 </li>
-                                                                                                                <li><a href="{{ route('products.bars-rods.threaded-rods') }}">Threaded
+                                                                                                                <li><a href="{{ url('products/bars-rods/threaded-rods') }}">Threaded
                                                                                                                                 Rods</a>
                                                                                                                 </li>
-                                                                                                                <li><a href="{{ route('products.bars-rods.round-bars') }}">Round
+                                                                                                                <li><a href="{{ url('products/bars-rods/round-bars') }}">Round
                                                                                                                                 Bars</a>
                                                                                                                 </li>
-                                                                                                                <li><a href="{{ route('products.bars-rods.hollow-bars') }}">Hollow
+                                                                                                                <li><a href="{{ url('products/bars-rods/hollow-bars') }}">Hollow
                                                                                                                                 Bars</a>
                                                                                                                 </li>
-                                                                                                                <li><a href="{{ route('products.bars-rods.hexagon-bars') }}">Hexagon
+                                                                                                                <li><a href="{{ url('products/bars-rods/hexagon-bars') }}">Hexagon
                                                                                                                                 Bars</a>
                                                                                                                 </li>
-                                                                                                                <li><a href="{{ route('products.bars-rods.flat-bars') }}">Flat
+                                                                                                                <li><a href="{{ url('products/bars-rods/flat-bars') }}">Flat
                                                                                                                                 Bars</a>
                                                                                                                 </li>
                                                                                                         </ul>
@@ -1440,22 +1440,22 @@
                                                                                                                         class="fa fa-angle-right"></i>
                                                                                                         </a>
                                                                                                         <ul>
-                                                                                                                <li><a href="{{ route('products.bars-rods.square-bars') }}">Square
+                                                                                                                <li><a href="{{ url('products/bars-rods/square-bars') }}">Square
                                                                                                                                 Bars</a>
                                                                                                                 </li>
-                                                                                                                <li><a href="{{ route('products.bars-rods.threaded-rods') }}">Threaded
+                                                                                                                <li><a href="{{ url('products/bars-rods/threaded-rods') }}">Threaded
                                                                                                                                 Rods</a>
                                                                                                                 </li>
-                                                                                                                <li><a href="{{ route('products.bars-rods.round-bars') }}">Round
+                                                                                                                <li><a href="{{ url('products/bars-rods/round-bars') }}">Round
                                                                                                                                 Bars</a>
                                                                                                                 </li>
-                                                                                                                <li><a href="{{ route('products.bars-rods.hollow-bars') }}">Hollow
+                                                                                                                <li><a href="{{ url('products/bars-rods/hollow-bars') }}">Hollow
                                                                                                                                 Bars</a>
                                                                                                                 </li>
-                                                                                                                <li><a href="{{ route('products.bars-rods.hexagon-bars') }}">Hexagon
+                                                                                                                <li><a href="{{ url('products/bars-rods/hexagon-bars') }}">Hexagon
                                                                                                                                 Bars</a>
                                                                                                                 </li>
-                                                                                                                <li><a href="{{ route('products.bars-rods.flat-bars') }}">Flat
+                                                                                                                <li><a href="{{ url('products/bars-rods/flat-bars') }}">Flat
                                                                                                                                 Bars</a>
                                                                                                                 </li>
                                                                                                         </ul>

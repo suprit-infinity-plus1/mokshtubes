@@ -74,7 +74,7 @@
                                     href="{{ route('products') }}">products</a>,</strong>
                             including Round Bars, Forgings,
                             Bright Bars, Hex Bars, Flats, Shafts, <a
-                                href="{{ route('products.bars-rods.hollow-bars') }}">Hollow Bars</a>, and Custom Components.
+                                href="{{ url('products/bars-rods/hollow-bars') }}">Hollow Bars</a>, and Custom Components.
                             <a href="{{ url('materials/engineering-steels/engineering-steels-en36') }}">EN36</a>, also known
                             as
                             817M40 or AISI 4340, is a high strength, alloy <a

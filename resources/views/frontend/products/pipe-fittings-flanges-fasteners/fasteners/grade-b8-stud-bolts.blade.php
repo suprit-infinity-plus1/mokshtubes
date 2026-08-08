@@ -110,7 +110,7 @@
                                 <tr class="t-row">
                                     <td>Type</td>
                                     <td><a href="{{ route('products.fasteners') }}" class="text-decoration-none">Stud
-                                            Bolts</a> / <a href="{{ route('products.bars-rods.threaded-rods') }}"
+                                            Bolts</a> / <a href="{{ url('products/bars-rods/threaded-rods') }}"
                                             class="text-decoration-none">Threaded Rod</a></td>
                                 </tr>
                                 <tr class="t-row">
@@ -119,7 +119,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Diameter Range</td>
-                                    <td><a href="{{ route('products.bars-rods.round-bars') }}"
+                                    <td><a href="{{ url('products/bars-rods/round-bars') }}"
                                             class="text-decoration-none">1/4" to 4"</a> / M6 to M100</td>
                                 </tr>
                                 <tr class="t-row">

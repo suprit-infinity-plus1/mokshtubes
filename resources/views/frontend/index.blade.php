@@ -684,12 +684,12 @@
                     <div class="col-md-4 col-sm-6 mb-4">
                         <div class="single-our-service border">
                             <figure class="img-box mb-0">
-                                <a class="w-100" href="{{ route('products.bars-rods.round-bars') }}">
+                                <a class="w-100" href="{{ url('products/bars-rods/round-bars') }}">
                                     <img class="w-100" src="/assets/images/service/ROUND-BARS.webp" alt="round bars">
                                 </a>
                             </figure>
                             <div class="p-3">
-                                <a href="{{ route('products.bars-rods.round-bars') }}">
+                                <a href="{{ url('products/bars-rods/round-bars') }}">
                                     <h3 class="mt-0 h5">ROUND BARS</h3>
                                 </a>
                                 <p>
@@ -958,12 +958,12 @@
                         <div class="footer-col service-col">
                             <h2 class="footer-title h4">BARS & RODS</h2>
                             <ul class="footer-list">
-                                <li><a href="{{ route('products.bars-rods.round-bars') }}">ROUND BARS</a></li>
-                                <li><a href="{{ route('products.bars-rods.hexagon-bars') }}">HEXAGON BARS</a></li>
-                                <li><a href="{{ route('products.bars-rods.flat-bars') }}">FLAT BARS</a></li>
-                                <li><a href="{{ route('products.bars-rods.square-bars') }}">SQUARE BARS</a></li>
-                                <li><a href="{{ route('products.bars-rods.threaded-rods') }}">THREADED RODS</a></li>
-                                <li><a href="{{ route('products.bars-rods.hollow-bars') }}">HOLLOW BARS</a></li>
+                                <li><a href="{{ url('products/bars-rods/round-bars') }}">ROUND BARS</a></li>
+                                <li><a href="{{ url('products/bars-rods/hexagon-bars') }}">HEXAGON BARS</a></li>
+                                <li><a href="{{ url('products/bars-rods/flat-bars') }}">FLAT BARS</a></li>
+                                <li><a href="{{ url('products/bars-rods/square-bars') }}">SQUARE BARS</a></li>
+                                <li><a href="{{ url('products/bars-rods/threaded-rods') }}">THREADED RODS</a></li>
+                                <li><a href="{{ url('products/bars-rods/hollow-bars') }}">HOLLOW BARS</a></li>
                             </ul>
                         </div>
                     </div>

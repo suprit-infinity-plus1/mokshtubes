@@ -82,7 +82,7 @@
                 @endforeach --}}
 
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.bars-rods.square-bars') }}" class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/bars-rods/square-bars') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
@@ -97,7 +97,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.bars-rods.threaded-rods') }}" class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/bars-rods/threaded-rods') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
@@ -112,7 +112,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.bars-rods.round-bars') }}" class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/bars-rods/round-bars') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
@@ -127,7 +127,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.bars-rods.hollow-bars') }}" class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/bars-rods/hollow-bars') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
@@ -142,7 +142,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.bars-rods.hexagon-bars') }}" class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/bars-rods/hexagon-bars') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
@@ -157,7 +157,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.bars-rods.flat-bars') }}" class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/bars-rods/flat-bars') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 

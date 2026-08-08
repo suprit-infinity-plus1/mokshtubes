@@ -104,12 +104,12 @@
                                 <tr class="t-row">
                                     <td>Type</td>
                                     <td><a href="{{ route('products.fasteners') }}" class="text-decoration-none">Stud
-                                            Bolts</a> / <a href="{{ route('products.bars-rods.threaded-rods') }}"
+                                            Bolts</a> / <a href="{{ url('products/bars-rods/threaded-rods') }}"
                                             class="text-decoration-none">Threaded Rod</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Diameter Range</td>
-                                    <td><a href="{{ route('products.bars-rods.round-bars') }}"
+                                    <td><a href="{{ url('products/bars-rods/round-bars') }}"
                                             class="text-decoration-none">M6 to M100</a> / 1/4" to 4"</td>
                                 </tr>
                                 <tr class="t-row">
@@ -237,7 +237,7 @@
                         <li class="list-group-item">Metric sizes M6 to M100</li>
                         <li class="list-group-item">Custom cut lengths</li>
                         <li class="list-group-item">Fully threaded / <a
-                                href="{{ route('products.bars-rods.threaded-rods') }}"
+                                href="{{ url('products/bars-rods/threaded-rods') }}"
                                 class="text-decoration-none">Double end threaded</a></li>
                     </ul>
                     <p class="text-center fs-6 mt-3">Complete dimension and weight charts available upon request.</p>

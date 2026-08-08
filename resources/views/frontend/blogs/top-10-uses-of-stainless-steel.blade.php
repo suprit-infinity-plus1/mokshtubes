@@ -116,7 +116,7 @@
                                                     glass panels, <a
                                                         href="{{ route('materials.high-strength-stainless-steel') }}">strength</a>
                                                     is paramount. Stainless steel <a
-                                                        href="{{ route('products.bars-rods.hollow-bars') }}">hollow
+                                                        href="{{ url('products/bars-rods/hollow-bars') }}">hollow
                                                         sections</a> and
                                                     <a
                                                         href="{{ route('products.pipe-fittings-flanges-fasteners') }}">pipes</a>
