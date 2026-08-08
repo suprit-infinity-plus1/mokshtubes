@@ -1,14 +1,10 @@
 @extends('layouts.master')
 @section('title', 'Concentric Reducer | Buttweld Pipe Reducers | Moksh Tubes')
 <!-- 52 characters -->
-@section(
-    'meta_description',
-    'High-quality Concentric Reducers for connecting pipes of different diameters on the same axis. Available in Stainless Steel, Carbon Steel, and Alloy Steel.'
-)
-@section(
-    'meta_keywords',
-    'Concentric Reducer, Pipe Reducer, Buttweld Reducer, Stainless Steel Reducer, Carbon Steel Reducer, ASME B16.9'
-)
+@section('meta_description', 'High-quality Concentric Reducers for connecting pipes of different diameters on the same
+    axis. Available in Stainless Steel, Carbon Steel, and Alloy Steel.')
+@section('meta_keywords', 'Concentric Reducer, Pipe Reducer, Buttweld Reducer, Stainless Steel Reducer, Carbon Steel
+    Reducer, ASME B16.9')
 @section('og_image', asset('assets/images/product/flangs/concentric-reducers_11zon.jpg'))
 @section('og_type', 'product')
 @section('content')
@@ -97,6 +93,49 @@
 
     {{-- datasheet --}}
 
+
+    <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Concentric Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Concentric datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -297,7 +336,8 @@
                                     <td>ASTM A403 WP304/304L, WP316/316L, WP321, WP347</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex</a>
+                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super
+                                            Duplex</a>
                                     </td>
                                     <td>ASTM A815 UNS S31803, S32205, S32750, S32760</td>
                                 </tr>
@@ -326,7 +366,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -353,8 +394,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy"
+                                    width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -382,8 +423,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
+                                    width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -640,7 +681,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>For further information, CAD models, quotes, or custom thickness requirements for Concentric Reducers,
-                    <strong>Moksh Tubes & Fittings LLP</strong> is your trusted partner for premium buttweld fittings.</p>
+                    <strong>Moksh Tubes & Fittings LLP</strong> is your trusted partner for premium buttweld fittings.
+                </p>
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

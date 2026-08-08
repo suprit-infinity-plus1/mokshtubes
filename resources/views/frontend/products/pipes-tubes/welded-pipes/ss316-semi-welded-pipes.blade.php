@@ -1,15 +1,11 @@
 @extends('layouts.master')
 @section('title', 'Stainless Steel 316 Semi Welded Pipes | Manufacturer & Supplier')
-@section(
-    'meta_description',
+@section('meta_description',
     'Buy Stainless Steel 316 Semi Welded Pipes. Manufactured from austenitic SS 316 (UNS
-    S31600). Ideal for marine, architectural & structural applications.'
-)
-@section(
-    'meta_keywords',
+    S31600). Ideal for marine, architectural & structural applications.')
+@section('meta_keywords',
     'Stainless Steel 316 Semi Welded Pipes, SS 316 Semi Welded Pipe, SS 316 Pipe Supplier India,
-    Structural Pipes, Decorative Pipes'
-)
+    Structural Pipes, Decorative Pipes')
 @section('og_image', asset('assets/images/welded/image.png'))
 @section('og_type', 'article')
 @section('content')
@@ -140,136 +136,136 @@
     </section>
 
     <!-- <section class="sec-padd-top sec-padd-bottom bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 mb-4">
-                        <div class="section-title center mb-3">
-                            <h2 class="text-center mb-0">Chemical Composition – SS 316</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 mb-4">
+                            <div class="section-title center mb-3">
+                                <h2 class="text-center mb-0">Chemical Composition – SS 316</h2>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped align-middle">
+                                    <thead class="table-dark text-center">
+                                        <tr class="t-row">
+                                            <th>Element</th>
+                                            <th>% Composition</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="text-center">
+                                        <tr class="t-row">
+                                            <td>Chromium (Cr)</td>
+                                            <td>16.0 – 18.0</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>Nickel (Ni)</td>
+                                            <td>10.0 – 14.0</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>Molybdenum (Mo)</td>
+                                            <td>2.0 – 3.0</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>Carbon (C)</td>
+                                            <td>Max 0.08</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>Manganese (Mn)</td>
+                                            <td>Max 2.0</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>Silicon (Si)</td>
+                                            <td>Max 0.75</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>Phosphorus (P)</td>
+                                            <td>Max 0.045</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>Sulfur (S)</td>
+                                            <td>Max 0.03</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p class="fs-6 text-center mt-2">The molybdenum content significantly improves resistance to saltwater
+                                and chloride corrosion.</p>
                         </div>
-                        <div class="table-responsive">
-                            <table class="table table-bordered table-striped align-middle">
-                                <thead class="table-dark text-center">
-                                    <tr class="t-row">
-                                        <th>Element</th>
-                                        <th>% Composition</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="text-center">
-                                    <tr class="t-row">
-                                        <td>Chromium (Cr)</td>
-                                        <td>16.0 – 18.0</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Nickel (Ni)</td>
-                                        <td>10.0 – 14.0</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Molybdenum (Mo)</td>
-                                        <td>2.0 – 3.0</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Carbon (C)</td>
-                                        <td>Max 0.08</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Manganese (Mn)</td>
-                                        <td>Max 2.0</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Silicon (Si)</td>
-                                        <td>Max 0.75</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Phosphorus (P)</td>
-                                        <td>Max 0.045</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Sulfur (S)</td>
-                                        <td>Max 0.03</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        <div class="col-lg-12 mb-4">
+                            <div class="section-title center mb-3">
+                                <h2 class="text-center mb-0">Mechanical Properties</h2>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped align-middle">
+                                    <thead class="table-dark text-center">
+                                        <tr class="t-row">
+                                            <th>Property</th>
+                                            <th>Value</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="text-center">
+                                        <tr class="t-row">
+                                            <td>Tensile Strength</td>
+                                            <td>≥ 515 MPa</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>Yield Strength</td>
+                                            <td>≥ 205 MPa</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>Elongation</td>
+                                            <td>≥ 40%</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>Hardness</td>
+                                            <td>≤ 217 HB</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p class="fs-6 text-center mt-2">📌 Values may vary based on thickness and finishing method.</p>
                         </div>
-                        <p class="fs-6 text-center mt-2">The molybdenum content significantly improves resistance to saltwater
-                            and chloride corrosion.</p>
-                    </div>
-                    <div class="col-lg-12 mb-4">
-                        <div class="section-title center mb-3">
-                            <h2 class="text-center mb-0">Mechanical Properties</h2>
-                        </div>
-                        <div class="table-responsive">
-                            <table class="table table-bordered table-striped align-middle">
-                                <thead class="table-dark text-center">
-                                    <tr class="t-row">
-                                        <th>Property</th>
-                                        <th>Value</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="text-center">
-                                    <tr class="t-row">
-                                        <td>Tensile Strength</td>
-                                        <td>≥ 515 MPa</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Yield Strength</td>
-                                        <td>≥ 205 MPa</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Elongation</td>
-                                        <td>≥ 40%</td>
-                                    </tr>
-                                    <tr class="t-row">
-                                        <td>Hardness</td>
-                                        <td>≤ 217 HB</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <p class="fs-6 text-center mt-2">📌 Values may vary based on thickness and finishing method.</p>
                     </div>
                 </div>
-            </div>
-        </section> -->
+            </section> -->
 
     <section class="bg-light" style="padding-top: 80px;">
         <div class="container">
             <!-- <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Size & Thickness Range</h2>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-8 mb-5">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle text-center">
-                            <thead class="table-dark">
-                                <tr class="t-row">
-                                    <th>OD (mm)</th>
-                                    <th>Thickness (mm)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="t-row">
-                                    <td>12 – 25</td>
-                                    <td>0.5 – 1.2</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>26 – 50</td>
-                                    <td>0.8 – 1.5</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>51 – 100</td>
-                                    <td>1.0 – 2.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>101 – 219</td>
-                                    <td>1.2 – 3.0</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <p class="fs-6 text-center mt-2">Custom dimensions available as per project requirements.</p>
+                    <h2 class="fw-bold" style="color: #174268;">Size & Thickness Range</h2>
                 </div>
-            </div> -->
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 mb-5">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped align-middle text-center">
+                                <thead class="table-dark">
+                                    <tr class="t-row">
+                                        <th>OD (mm)</th>
+                                        <th>Thickness (mm)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="t-row">
+                                        <td>12 – 25</td>
+                                        <td>0.5 – 1.2</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>26 – 50</td>
+                                        <td>0.8 – 1.5</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>51 – 100</td>
+                                        <td>1.0 – 2.0</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>101 – 219</td>
+                                        <td>1.2 – 3.0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="fs-6 text-center mt-2">Custom dimensions available as per project requirements.</p>
+                    </div>
+                </div> -->
 
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Standard Pipe Size Chart (ASME B36.19M)</h2>
@@ -507,137 +503,137 @@
     </section>
 
     <!-- <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Advantages of SS 316 Semi Welded Pipes</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Corrosion Resistance</h4>
-                        <h5>Better corrosion resistance than <a
-                                href="{{ url('products/pipes-tubes/welded-pipes/ss304-semi-welded-pipes') }}">SS 304</a>
-                        </h5>
-                    </div>
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Advantages of SS 316 Semi Welded Pipes</h2>
                 </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
-                        <h4>Marine Grade</h4>
-                        <h5>Suitable for coastal & marine environments</h5>
+                <div class="row g-4 mt-4">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                            <h4>Corrosion Resistance</h4>
+                            <h5>Better corrosion resistance than <a
+                                    href="{{ url('products/pipes-tubes/welded-pipes/ss304-semi-welded-pipes') }}">SS 304</a>
+                            </h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrows-collapse"></i></div>
-                        <h4>Lightweight</h4>
-                        <h5>Lightweight and easy to install</h5>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-water"></i></div>
+                            <h4>Marine Grade</h4>
+                            <h5>Suitable for coastal & marine environments</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-stars"></i></div>
-                        <h4>Aesthetic</h4>
-                        <h5>Attractive polished finish</h5>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-arrows-collapse"></i></div>
+                            <h4>Lightweight</h4>
+                            <h5>Lightweight and easy to install</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-wallet2"></i></div>
-                        <h4>Cost-effective</h4>
-                        <h5>Cost-effective alternative to heavy ASTM pipes</h5>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-stars"></i></div>
+                            <h4>Aesthetic</h4>
+                            <h5>Attractive polished finish</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-calendar-check"></i></div>
-                        <h4>Durable</h4>
-                        <h5>Durable and low maintenance</h5>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-wallet2"></i></div>
+                            <h4>Cost-effective</h4>
+                            <h5>Cost-effective alternative to heavy ASTM pipes</h5>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-
-
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Testing & Inspection</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-eye"></i></div>
-                        <h4>Visual Inspection</h4>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                        <h4>Dimensional Verification</h4>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-stars"></i></div>
-                        <h4>Surface Finish Check</h4>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-wrench"></i></div>
-                        <h4>Basic Mechanical Testing</h4>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-calendar-check"></i></div>
+                            <h4>Durable</h4>
+                            <h5>Durable and low maintenance</h5>
+                        </div>
                     </div>
                 </div>
             </div>
-            <p class="mt-4 text-center fw-bold fs-5">(Advanced testing available upon request.)</p>
-        </div>
-    </section>
+        </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>Global Packaging & Export</h2>
-            </div>
-            <p class="fs-5 mt-3 text-center">We supply SS 316 Semi Welded Pipes across India including Mumbai, Ahmedabad,
-                Chennai, Pune, Hyderabad, Delhi NCR, and Kolkata.</p>
 
-            <div class="row g-4 mt-4 text-start">
-                <div class="col-md-6">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-globe"></i></div>
-                        <h4>Export Markets</h4>
-                        <ul class="fs-6 mt-3">
-                            <li><strong>Middle East:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain</li>
-                            <li><strong>Asia:</strong> Singapore, Malaysia, Thailand, Indonesia</li>
-                            <li><strong>Africa:</strong> South Africa, Kenya, Nigeria</li>
-                            <li><strong>Europe & North America:</strong> Germany, USA, Canada</li>
-                        </ul>
+
+        <section class="sec-padd-top sec-padd-bottom">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Testing & Inspection</h2>
+                </div>
+
+                <div class="row g-4 mt-4 justify-content-center">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-eye"></i></div>
+                            <h4>Visual Inspection</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                            <h4>Dimensional Verification</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-stars"></i></div>
+                            <h4>Surface Finish Check</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-wrench"></i></div>
+                            <h4>Basic Mechanical Testing</h4>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex flex-column justify-content-center">
-                    <div class="advantage-card h-100">
-                        <div class="advantage-icon"><i class="bi bi-file-earmark-text"></i></div>
-                        <h4>Documentation</h4>
-                        <p class="fs-5 mt-3">Export-grade packaging and full documentation support provided.</p>
+                <p class="mt-4 text-center fw-bold fs-5">(Advanced testing available upon request.)</p>
+            </div>
+        </section>
+
+        <section class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container text-center">
+                <div class="section-title center">
+                    <h2>Global Packaging & Export</h2>
+                </div>
+                <p class="fs-5 mt-3 text-center">We supply SS 316 Semi Welded Pipes across India including Mumbai, Ahmedabad,
+                    Chennai, Pune, Hyderabad, Delhi NCR, and Kolkata.</p>
+
+                <div class="row g-4 mt-4 text-start">
+                    <div class="col-md-6">
+                        <div class="advantage-card h-100">
+                            <div class="advantage-icon"><i class="bi bi-globe"></i></div>
+                            <h4>Export Markets</h4>
+                            <ul class="fs-6 mt-3">
+                                <li><strong>Middle East:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain</li>
+                                <li><strong>Asia:</strong> Singapore, Malaysia, Thailand, Indonesia</li>
+                                <li><strong>Africa:</strong> South Africa, Kenya, Nigeria</li>
+                                <li><strong>Europe & North America:</strong> Germany, USA, Canada</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column justify-content-center">
+                        <div class="advantage-card h-100">
+                            <div class="advantage-icon"><i class="bi bi-file-earmark-text"></i></div>
+                            <h4>Documentation</h4>
+                            <p class="fs-5 mt-3">Export-grade packaging and full documentation support provided.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section> -->
+        </section> -->
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
@@ -703,8 +699,7 @@
                             <div class="accord-content">
                                 <p>
                                     Semi welded pipes are lighter and mainly used for structural and decorative purposes,
-                                    while <a
-                                        href="{{ url('products/pipes-tubes/welded-pipes/ss316-welded-pipes') }}">fully
+                                    while <a href="{{ url('products/pipes-tubes/welded-pipes/ss316-welded-pipes') }}">fully
                                         welded</a> ASTM pipes are used for
                                     high-pressure industrial systems.
                                 </p>
@@ -823,4 +818,46 @@
                 }
               @endverbatim
         </script>
+    <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download SS316 Semi Welded Pipes Datasheet</h3>
+            <p class="mb-3">
+                Get the complete SS316 Semi Welded Pipes datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
 @endsection

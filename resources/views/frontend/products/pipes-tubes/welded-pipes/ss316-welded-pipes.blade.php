@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'SS 316 Welded Pipes ASTM A312 TP316 / TP316L | Manufacturer')
-@section('meta_description', 'SS 316 Welded Pipes as per ASTM A312 TP316/TP316L. Manufacturer, supplier & exporter to India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.')
-@section('meta_keywords', 'Stainless Steel 316 Welded Pipes, ASTM A312 TP316 Pipe, SS 316 ERW Pipe, SS 316 EFW Pipe, SS 316 Pipe Supplier India, Stainless Steel Pipe Exporter')
+@section('meta_description', 'SS 316 Welded Pipes as per ASTM A312 TP316/TP316L. Manufacturer, supplier & exporter to
+    India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.')
+@section('meta_keywords', 'Stainless Steel 316 Welded Pipes, ASTM A312 TP316 Pipe, SS 316 ERW Pipe, SS 316 EFW Pipe, SS
+    316 Pipe Supplier India, Stainless Steel Pipe Exporter')
 @section('og_image', asset('assets/images/welded/ss-316-welded-pipes.png'))
 @section('og_type', 'article')
 
@@ -97,6 +99,49 @@
 
 
 
+    <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download SS316 Welded Pipes Datasheet</h3>
+            <p class="mb-3">
+                Get the complete SS316 Welded Pipes datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
+
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -169,32 +214,32 @@
             </div>
 
             <!-- <div class="section-title center mt-5">
-                                <h3 class="fw-bold" style="color: #174268;">Chemical Composition</h3>
-                            </div>
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered table-striped align-middle">
-                                            <thead class="table-dark text-center">
-                                                <tr class="t-row">
-                                                    <th>Element</th>
-                                                    <th>Composition (%)</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody class="text-center">
-                                                <tr class="t-row"><td>Chromium (Cr)</td><td>16.0 – 18.0</td></tr>
-                                                <tr class="t-row"><td>Nickel (Ni)</td><td>10.0 – 14.0</td></tr>
-                                                <tr class="t-row"><td>Molybdenum (Mo)</td><td>2.0 – 3.0</td></tr>
-                                                <tr class="t-row"><td>Carbon (C)</td><td>Max 0.08</td></tr>
-                                                <tr class="t-row"><td>Manganese (Mn)</td><td>Max 2.0</td></tr>
-                                                <tr class="t-row"><td>Silicon (Si)</td><td>Max 0.75</td></tr>
-                                                <tr class="t-row"><td>Phosphorus (P)</td><td>Max 0.045</td></tr>
-                                                <tr class="t-row"><td>Sulfur (S)</td><td>Max 0.03</td></tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                                    <h3 class="fw-bold" style="color: #174268;">Chemical Composition</h3>
                                 </div>
-                            </div> -->
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-striped align-middle">
+                                                <thead class="table-dark text-center">
+                                                    <tr class="t-row">
+                                                        <th>Element</th>
+                                                        <th>Composition (%)</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="text-center">
+                                                    <tr class="t-row"><td>Chromium (Cr)</td><td>16.0 – 18.0</td></tr>
+                                                    <tr class="t-row"><td>Nickel (Ni)</td><td>10.0 – 14.0</td></tr>
+                                                    <tr class="t-row"><td>Molybdenum (Mo)</td><td>2.0 – 3.0</td></tr>
+                                                    <tr class="t-row"><td>Carbon (C)</td><td>Max 0.08</td></tr>
+                                                    <tr class="t-row"><td>Manganese (Mn)</td><td>Max 2.0</td></tr>
+                                                    <tr class="t-row"><td>Silicon (Si)</td><td>Max 0.75</td></tr>
+                                                    <tr class="t-row"><td>Phosphorus (P)</td><td>Max 0.045</td></tr>
+                                                    <tr class="t-row"><td>Sulfur (S)</td><td>Max 0.03</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div> -->
         </div>
     </section>
 
@@ -677,7 +722,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -704,8 +750,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy"
+                                    width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -733,8 +779,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
+                                    width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -821,59 +867,59 @@
     </section>
 
     <!-- <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
-                <div class="container">
-                    <div class="section-title center">
-                        <h2>Buying Guide for SS 316 Welded Pipes</h2>
+                    <div class="container">
+                        <div class="section-title center">
+                            <h2>Buying Guide for SS 316 Welded Pipes</h2>
+                        </div>
+
+                        <div class="row g-4 mt-4 justify-content-center">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-check2-square"></i></div>
+                                    <h5>1. Verify Material Grade</h5>
+                                    <p>Ensure the pipes conform to SS 316 / 316L (UNS S31600 / S31603) with appropriate molybdenum
+                                        content (2.0–3.0%) for superior pitting resistance.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-file-earmark-check"></i></div>
+                                    <h5>2. Check Manufacturing Standards</h5>
+                                    <p>Confirm compliance with ASTM A312, ASTM A358, ASME SA312, or EN standards depending on your
+                                        pressure and temperature requirements.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-shield-lock"></i></div>
+                                    <h5>3. Inspect Weld Integrity</h5>
+                                    <p>Check that welding processes (ERW/EFW/TIG) follow proper solution annealing and non-destructive
+                                        testing (UT, Eddy Current, Hydrotest).</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-6">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-award"></i></div>
+                                    <h5>4. Request Test Certificates</h5>
+                                    <p>Always demand EN 10204 3.1 Mill Test Certificates verifying chemical composition, mechanical
+                                        properties, and positive material identification (PMI).</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-6">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-aspect-ratio"></i></div>
+                                    <h5>5. Dimensional Accuracy & Finish</h5>
+                                    <p>Verify outer diameter, wall thickness (Schedule 5S to 160), length tolerances, and surface finish
+                                        (Pickled, Annealed, Polished) match project specs.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="row g-4 mt-4 justify-content-center">
-                        <div class="col-md-6 col-lg-4">
-                            <div class="advantage-card">
-                                <div class="advantage-icon"><i class="bi bi-check2-square"></i></div>
-                                <h5>1. Verify Material Grade</h5>
-                                <p>Ensure the pipes conform to SS 316 / 316L (UNS S31600 / S31603) with appropriate molybdenum
-                                    content (2.0–3.0%) for superior pitting resistance.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-4">
-                            <div class="advantage-card">
-                                <div class="advantage-icon"><i class="bi bi-file-earmark-check"></i></div>
-                                <h5>2. Check Manufacturing Standards</h5>
-                                <p>Confirm compliance with ASTM A312, ASTM A358, ASME SA312, or EN standards depending on your
-                                    pressure and temperature requirements.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-4">
-                            <div class="advantage-card">
-                                <div class="advantage-icon"><i class="bi bi-shield-lock"></i></div>
-                                <h5>3. Inspect Weld Integrity</h5>
-                                <p>Check that welding processes (ERW/EFW/TIG) follow proper solution annealing and non-destructive
-                                    testing (UT, Eddy Current, Hydrotest).</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-6">
-                            <div class="advantage-card">
-                                <div class="advantage-icon"><i class="bi bi-award"></i></div>
-                                <h5>4. Request Test Certificates</h5>
-                                <p>Always demand EN 10204 3.1 Mill Test Certificates verifying chemical composition, mechanical
-                                    properties, and positive material identification (PMI).</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-6">
-                            <div class="advantage-card">
-                                <div class="advantage-icon"><i class="bi bi-aspect-ratio"></i></div>
-                                <h5>5. Dimensional Accuracy & Finish</h5>
-                                <p>Verify outer diameter, wall thickness (Schedule 5S to 160), length tolerances, and surface finish
-                                    (Pickled, Annealed, Polished) match project specs.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
+                </section> -->
 
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -883,7 +929,8 @@
 
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of SS 316 / 316L Welded Pipes
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of SS 316 / 316L Welded
+                        Pipes
                     </h4>
                     <p class="text-center mb-4">(As per ASTM A312 / ASME SA312)</p>
                     <div class="table-responsive">

@@ -1,14 +1,24 @@
 @extends('layouts.master')
 @section('title', 'Allen Bolts Manufacturer, Supplier & Exporter in India | Moksh Tubes')
 <!-- 68 characters -->
-@section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Allen Bolts in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ISO 4762, DIN 912 & ASTM compliant with worldwide delivery.')
-@section('meta_keywords', 'Allen Bolts, Allen Bolts Manufacturer, Allen Bolts Supplier, Allen Bolts Exporter, Stainless Steel Allen Bolts, Carbon Steel Allen Bolts, Alloy Steel Allen Bolts, Duplex Allen Bolts, Super Duplex Allen Bolts, Allen Head Bolts, Socket Head Cap Bolts, ISO 4762 Allen Bolts, DIN 912 Allen Bolts, High Tensile Allen Bolts, Industrial Allen Bolts, Internal Hex Bolts, Socket Head Cap Screws, Hex Socket Bolts, Precision Fasteners, High Strength Fasteners, Machine Fasteners, Industrial Fasteners, Engineering Fasteners, Corrosion Resistant Bolts, CNC Machined Fasteners, Mechanical Fasteners, Heavy Duty Allen Bolts')
+@section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Allen Bolts
+    in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ISO 4762, DIN 912 & ASTM compliant
+    with worldwide delivery.')
+@section('meta_keywords', 'Allen Bolts, Allen Bolts Manufacturer, Allen Bolts Supplier, Allen Bolts Exporter, Stainless
+    Steel Allen Bolts, Carbon Steel Allen Bolts, Alloy Steel Allen Bolts, Duplex Allen Bolts, Super Duplex Allen Bolts,
+    Allen Head Bolts, Socket Head Cap Bolts, ISO 4762 Allen Bolts, DIN 912 Allen Bolts, High Tensile Allen Bolts, Industrial
+    Allen Bolts, Internal Hex Bolts, Socket Head Cap Screws, Hex Socket Bolts, Precision Fasteners, High Strength Fasteners,
+    Machine Fasteners, Industrial Fasteners, Engineering Fasteners, Corrosion Resistant Bolts, CNC Machined Fasteners,
+    Mechanical Fasteners, Heavy Duty Allen Bolts')
 @section('og_title', 'Allen Bolts Manufacturer, Supplier & Exporter | Moksh Tubes')
-@section('og_description', 'Premium-quality Allen Bolts manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ISO 4762, DIN 912 & ASTM compliant with worldwide export support.')
+@section('og_description', 'Premium-quality Allen Bolts manufactured in Stainless Steel, Carbon Steel, Alloy Steel,
+    Duplex, Super Duplex & Nickel Alloys. ISO 4762, DIN 912 & ASTM compliant with worldwide export support.')
 @section('og_image', asset('assets/images/product/flangs/FASTENERS.webp'))
 @section('og_type', 'product')
 @section('twitter_title', 'Allen Bolts Manufacturer in India')
-@section('twitter_description', 'Buy premium-quality Allen Bolts for machinery, automotive, aerospace, heavy engineering, and industrial applications. Available in multiple grades, thread types, and finishes with fast worldwide delivery.')
+@section('twitter_description', 'Buy premium-quality Allen Bolts for machinery, automotive, aerospace, heavy
+    engineering, and industrial applications. Available in multiple grades, thread types, and finishes with fast worldwide
+    delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -46,7 +56,7 @@
             <a href="#features">Features & Advantages</a> |
             <a href="#mechanical-properties">Mechanical Properties</a> |
             <!-- <a href="#testing">Testing & Quality</a> |
-                    <a href="#packaging">Packaging & Export</a> | -->
+                        <a href="#packaging">Packaging & Export</a> | -->
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>|
         </div>
@@ -87,24 +97,28 @@
         </div>
     </section>
 
-    {{-- datasheet --}}
+    <!-- Datasheet Download -->
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Allen Bolts Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application
-                guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete Allen Bolts datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="{{ csrf_token() }}" autocomplete="off">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="allen-bolts-datasheet.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
+                        <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
                     </div>
+
                     <div class="col-md-3 mb-2">
                         <button type="submit" class="btn btn-lg w-100 text-white"
                             style="background-color:#db7227; border-radius:8px;">
@@ -114,7 +128,12 @@
                 </div>
             </form>
 
-            <hr class="my-4">
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
@@ -472,7 +491,8 @@
                         <div class="card-body py-4">
                             <i class="bi bi-gear-fill mb-3 d-block card-icon" style="font-size: 2rem;"></i>
                             <h5 class="card-title" style="font-weight: 600;">Carbon &amp; Alloy Steel</h5>
-                            <p class="card-text small mb-0">Carbon Steel, Alloy Steel Gr 12.9,<br>ASTM A193 B7, ASTM A320 L7
+                            <p class="card-text small mb-0">Carbon Steel, Alloy Steel Gr 12.9,<br>ASTM A193 B7, ASTM A320
+                                L7
                             </p>
                         </div>
                     </div>
@@ -631,7 +651,8 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100"
+                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
                                     src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
@@ -862,66 +883,66 @@
 
     <!-- Testing & Quality Control -->
     <!-- <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
-                    <div class="container">
-                        <div class="section-title center">
-                            <h2>Testing & Quality</h2>
-                        </div>
+                        <div class="container">
+                            <div class="section-title center">
+                                <h2>Testing & Quality</h2>
+                            </div>
 
-                        <div class="row g-4 mt-4">
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="advantage-card">
-                                    <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                                    <h4>Tensile Test</h4>
+                            <div class="row g-4 mt-4">
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                                        <h4>Tensile Test</h4>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="advantage-card">
-                                    <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
-                                    <h4>Proof Load Test</h4>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                                        <h4>Proof Load Test</h4>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="advantage-card">
-                                    <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                                    <h4>PMI Test</h4>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                                        <h4>PMI Test</h4>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="advantage-card">
-                                    <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                                    <h4>Thread Gauging</h4>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                                        <h4>Thread Gauging</h4>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="advantage-card">
-                                    <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
-                                    <h4>Hardness Test</h4>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
+                                        <h4>Hardness Test</h4>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="advantage-card">
-                                    <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
-                                    <h4>Magnetic Particle Inspection</h4>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="advantage-card">
+                                        <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
+                                        <h4>Magnetic Particle Inspection</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section> -->
+                    </section> -->
 
     <!-- Packaging & Export -->
     <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
-                    <div class="container">
-                        <div class="section-title center">
-                            <h2>Packaging & Export</h2>
+                        <div class="container">
+                            <div class="section-title center">
+                                <h2>Packaging & Export</h2>
+                            </div>
+                            <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
+                                We ensure that our <strong>Allen Bolts</strong> are securely packaged to prevent damage during transit. We
+                                use high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
+                                We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe,
+                                Africa, and Southeast Asia.
+                            </p>
                         </div>
-                        <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
-                            We ensure that our <strong>Allen Bolts</strong> are securely packaged to prevent damage during transit. We
-                            use high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
-                            We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe,
-                            Africa, and Southeast Asia.
-                        </p>
-                    </div>
-                </section> -->
+                    </section> -->
 
     {{-- why choose us --}}
     <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">

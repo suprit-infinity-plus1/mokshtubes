@@ -1,20 +1,23 @@
 @extends('layouts.master')
 @section('title', 'Industrial Nuts Manufacturer, Supplier & Exporter in India | Moksh Tubes')
 <!-- 70 characters -->
-@section(
-    'meta_description',
-    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Industrial Nuts in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A194, DIN & ISO standards with worldwide delivery.'
-)
-@section(
-    'meta_keywords',
-    'Industrial Nuts, Industrial Nuts Manufacturer, Industrial Nuts Supplier, Industrial Nuts Exporter, Stainless Steel Industrial Nuts, Carbon Steel Industrial Nuts, Alloy Steel Industrial Nuts, Duplex Industrial Nuts, Super Duplex Industrial Nuts, Hex Nuts, Heavy Hex Nuts, Lock Nuts, Square Nuts, Cap Nuts, Slotted Nuts, ASTM A194 Nuts, Industrial Fasteners, Threaded Fasteners, Heavy Hex Fasteners, High Tensile Nuts, Precision Threaded Nuts, Corrosion Resistant Nuts, Structural Fasteners, Mechanical Fasteners, Pipeline Fasteners, Construction Fasteners, Engineering Fasteners, Industrial Nut Supplier'
-)
+@section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Industrial
+    Nuts in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A194, DIN & ISO standards
+    with worldwide delivery.')
+@section('meta_keywords', 'Industrial Nuts, Industrial Nuts Manufacturer, Industrial Nuts Supplier, Industrial Nuts
+    Exporter, Stainless Steel Industrial Nuts, Carbon Steel Industrial Nuts, Alloy Steel Industrial Nuts, Duplex Industrial
+    Nuts, Super Duplex Industrial Nuts, Hex Nuts, Heavy Hex Nuts, Lock Nuts, Square Nuts, Cap Nuts, Slotted Nuts, ASTM A194
+    Nuts, Industrial Fasteners, Threaded Fasteners, Heavy Hex Fasteners, High Tensile Nuts, Precision Threaded Nuts,
+    Corrosion Resistant Nuts, Structural Fasteners, Mechanical Fasteners, Pipeline Fasteners, Construction Fasteners,
+    Engineering Fasteners, Industrial Nut Supplier')
 @section('og_title', 'Industrial Nuts Manufacturer, Supplier & Exporter | Moksh Tubes')
-@section('og_description', 'Premium-quality Industrial Nuts manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A194, DIN & ISO compliant with worldwide export support.')
+@section('og_description', 'Premium-quality Industrial Nuts manufactured in Stainless Steel, Carbon Steel, Alloy Steel,
+    Duplex, Super Duplex & Nickel Alloys. ASTM A194, DIN & ISO compliant with worldwide export support.')
 @section('og_image', asset('/assets/images/product/flangs/FASTENERS.webp'))
 @section('og_type', 'product')
 @section('twitter_title', 'Industrial Nuts Manufacturer in India')
-@section('twitter_description', 'Buy premium-quality Industrial Nuts including Hex, Heavy Hex, Lock, Square, Cap, and Slotted Nuts in multiple sizes, thread standards, and material grades with fast worldwide delivery.')
+@section('twitter_description', 'Buy premium-quality Industrial Nuts including Hex, Heavy Hex, Lock, Square, Cap, and
+    Slotted Nuts in multiple sizes, thread standards, and material grades with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -90,22 +93,28 @@
         </div>
     </section>
 
-    {{-- datasheet --}}
+    <!-- Datasheet Download -->
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Industrial Nuts Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application
-                guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete Industrial Nuts datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
             </p>
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="{{ csrf_token() }}" autocomplete="off">
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="industrial-nuts-datasheet.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
+                        <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
                     </div>
+
                     <div class="col-md-3 mb-2">
                         <button type="submit" class="btn btn-lg w-100 text-white"
                             style="background-color:#db7227; border-radius:8px;">
@@ -114,7 +123,13 @@
                     </div>
                 </div>
             </form>
-            <hr class="my-4">
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
@@ -567,7 +582,8 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100"
+                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
                                     src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
@@ -791,22 +807,22 @@
     </section>
 
     <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <p class="fs-6 text-muted">
-                        We ensure that our Industrial Nuts are securely packaged to prevent damage during transit. We use
-                        high-quality wooden crates, pallets, and shrink-wrapping for export shipments.<br>
-                        We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
-                        Europe, Africa, and Southeast Asia.
-                    </p>
+            <div class="container">
+                <div class="section-title center mb-4">
+                    <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <p class="fs-6 text-muted">
+                            We ensure that our Industrial Nuts are securely packaged to prevent damage during transit. We use
+                            high-quality wooden crates, pallets, and shrink-wrapping for export shipments.<br>
+                            We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
+                            Europe, Africa, and Southeast Asia.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section> -->
+        </section> -->
 
     <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">

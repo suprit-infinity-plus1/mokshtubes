@@ -1,20 +1,23 @@
 @extends('layouts.master')
 @section('title', 'Threaded Rods Manufacturer, Supplier & Exporter in India | Moksh Tubes')
 <!-- 69 characters -->
-@section(
-    'meta_description',
-    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Threaded Rods in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM & DIN standards with worldwide delivery.'
-)
-@section(
-    'meta_keywords',
-    'Threaded Rods, Threaded Rods Manufacturer, Threaded Rods Supplier, Threaded Rods Exporter, Stainless Steel Threaded Rods, Carbon Steel Threaded Rods, Alloy Steel Threaded Rods, Duplex Threaded Rods, Super Duplex Threaded Rods, ASTM A193 B7 Threaded Rods, ASTM A320 L7 Threaded Rods, Fully Threaded Rods, Industrial Threaded Rods, Stud Rods, All Thread Rods, Threaded Fasteners, Industrial Fasteners, Stud Bolts, Fully Threaded Bars, Anchor Rods, Structural Fasteners, Heavy Duty Threaded Rods, Construction Fasteners, Pipe Support Rods, Metric Threaded Rods, UNC Threaded Rods, UNF Threaded Rods, High Tensile Threaded Rods'
-)
+@section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Threaded Rods
+    in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM & DIN standards with worldwide
+    delivery.')
+@section('meta_keywords', 'Threaded Rods, Threaded Rods Manufacturer, Threaded Rods Supplier, Threaded Rods Exporter,
+    Stainless Steel Threaded Rods, Carbon Steel Threaded Rods, Alloy Steel Threaded Rods, Duplex Threaded Rods, Super Duplex
+    Threaded Rods, ASTM A193 B7 Threaded Rods, ASTM A320 L7 Threaded Rods, Fully Threaded Rods, Industrial Threaded Rods,
+    Stud Rods, All Thread Rods, Threaded Fasteners, Industrial Fasteners, Stud Bolts, Fully Threaded Bars, Anchor Rods,
+    Structural Fasteners, Heavy Duty Threaded Rods, Construction Fasteners, Pipe Support Rods, Metric Threaded Rods, UNC
+    Threaded Rods, UNF Threaded Rods, High Tensile Threaded Rods')
 @section('og_title', 'Threaded Rods Manufacturer, Supplier & Exporter | Moksh Tubes')
-@section('og_description', 'Premium-quality Threaded Rods manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM & DIN compliant with worldwide export support.')
+@section('og_description', 'Premium-quality Threaded Rods manufactured in Stainless Steel, Carbon Steel, Alloy Steel,
+    Duplex, Super Duplex & Nickel Alloys. ASTM & DIN compliant with worldwide export support.')
 @section('og_image', asset('/assets/images/fasteners/full-threaded-rods.png'))
 @section('og_type', 'product')
 @section('twitter_title', 'Threaded Rods Manufacturer in India')
-@section('twitter_description', 'Buy premium-quality Threaded Rods in multiple diameters, thread standards, coatings, and material grades with fast worldwide delivery.')
+@section('twitter_description', 'Buy premium-quality Threaded Rods in multiple diameters, thread standards, coatings,
+    and material grades with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -91,22 +94,28 @@
         </div>
     </section>
 
-    {{-- datasheet --}}
+    <!-- Datasheet Download -->
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Threaded Rods Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application
-                guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete Threaded Rods datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
             </p>
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="{{ csrf_token() }}" autocomplete="off">
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="threaded-rods-datasheet.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
+                        <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
                     </div>
+
                     <div class="col-md-3 mb-2">
                         <button type="submit" class="btn btn-lg w-100 text-white"
                             style="background-color:#db7227; border-radius:8px;">
@@ -115,7 +124,13 @@
                     </div>
                 </div>
             </form>
-            <hr class="my-4">
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
@@ -571,7 +586,8 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100"
+                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
                                     src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
@@ -794,68 +810,68 @@
     </section>
 
     <!-- <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Testing & Quality</h2>
+            <div class="container">
+                <div class="section-title center mb-4">
+                    <h2 class="fw-bold" style="color: #174268;">Testing & Quality</h2>
+                </div>
+                <div class="row g-4 mt-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="testing-card">
+                            <div class="testing-icon"><i class="bi bi-hammer"></i></div>
+                            <h5>Tensile Test</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="testing-card">
+                            <div class="testing-icon"><i class="bi bi-shield"></i></div>
+                            <h5>Proof Load Test</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="testing-card">
+                            <div class="testing-icon"><i class="bi bi-check2-circle"></i></div>
+                            <h5>PMI Test</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="testing-card">
+                            <div class="testing-icon"><i class="bi bi-rulers"></i></div>
+                            <h5>Thread Gauging</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="testing-card">
+                            <div class="testing-icon"><i class="bi bi-bullseye"></i></div>
+                            <h5>Hardness Test</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="testing-card">
+                            <div class="testing-icon"><i class="bi bi-brightness-high"></i></div>
+                            <h5>Magnetic Particle Inspection</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row g-4 mt-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="testing-card">
-                        <div class="testing-icon"><i class="bi bi-hammer"></i></div>
-                        <h5>Tensile Test</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="testing-card">
-                        <div class="testing-icon"><i class="bi bi-shield"></i></div>
-                        <h5>Proof Load Test</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="testing-card">
-                        <div class="testing-icon"><i class="bi bi-check2-circle"></i></div>
-                        <h5>PMI Test</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="testing-card">
-                        <div class="testing-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Thread Gauging</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="testing-card">
-                        <div class="testing-icon"><i class="bi bi-bullseye"></i></div>
-                        <h5>Hardness Test</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="testing-card">
-                        <div class="testing-icon"><i class="bi bi-brightness-high"></i></div>
-                        <h5>Magnetic Particle Inspection</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+        </section> -->
 
     <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <p class="fs-6 text-muted">
-                        We ensure that our Threaded Rods are securely packaged to prevent damage during transit. We use
-                        high-quality wooden crates, pallets, and shrink-wrapping for export shipments.<br>
-                        We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
-                        Europe, Africa, and Southeast Asia.
-                    </p>
+            <div class="container">
+                <div class="section-title center mb-4">
+                    <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <p class="fs-6 text-muted">
+                            We ensure that our Threaded Rods are securely packaged to prevent damage during transit. We use
+                            high-quality wooden crates, pallets, and shrink-wrapping for export shipments.<br>
+                            We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
+                            Europe, Africa, and Southeast Asia.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section> -->
+        </section> -->
 
     <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">

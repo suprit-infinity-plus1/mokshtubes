@@ -1,7 +1,9 @@
 @extends('layouts.master')
 @section('title', 'ASTM SA106 Grade B Seamless Pipes | A106 Gr B Supplier')
-@section('meta_description', 'Buy ASTM SA106 Grade B Seamless Pipes for high-temperature & pressure service. Available in all schedules with 3.1 certification. Supplier & Exporter India & GCC.')
-@section('meta_keywords', 'ASTM SA106 Grade B Seamless Pipes, SA106 Gr B Pipe, ASTM A106 Grade B Pipe, Carbon Steel Seamless Pipe, A106 Gr B Supplier')
+@section('meta_description', 'Buy ASTM SA106 Grade B Seamless Pipes for high-temperature & pressure service. Available
+    in all schedules with 3.1 certification. Supplier & Exporter India & GCC.')
+@section('meta_keywords', 'ASTM SA106 Grade B Seamless Pipes, SA106 Gr B Pipe, ASTM A106 Grade B Pipe, Carbon Steel
+    Seamless Pipe, A106 Gr B Supplier')
 @section('og_image', asset('assets/images/welded/image2.png'))
 @section('og_type', 'article')
 
@@ -13,9 +15,21 @@
                 <div class="col-auto text-center">
                     <h1>ASTM SA106 GR B SEAMLESS PIPES</h1>
                     <!-- Short Overview -->
-                    <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        ASTM SA106 Grade B Seamless Pipes are high-temperature <a class="text-white text-decoration-underline" href="{{ route('materials') }}">carbon steel</a> pipes widely used in refineries, power plants, oil & gas industries, and petrochemical applications. These pipes are designed to withstand high pressure and elevated temperatures, making them ideal for <a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}" class="text-white text-decoration-underline">steam lines, boiler piping</a>, and process plants.<br>
-                        At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply premium-quality SA106 Gr B <a class="text-white text-decoration-underline" href="{{ url('products/pipes-tubes/seamless-pipes') }}">seamless pipes</a> manufactured in compliance with international standards for domestic and <a href="{{ route('contact-us') }}" class="text-white text-decoration-underline">export</a> industrial projects.
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        ASTM SA106 Grade B Seamless Pipes are high-temperature <a
+                            class="text-white text-decoration-underline" href="{{ route('materials') }}">carbon steel</a>
+                        pipes widely used in refineries, power plants, oil & gas industries, and petrochemical applications.
+                        These pipes are designed to withstand high pressure and elevated temperatures, making them ideal for
+                        <a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}"
+                            class="text-white text-decoration-underline">steam lines, boiler piping</a>, and process
+                        plants.<br>
+                        At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes &
+                            Fittings LLP</a>, we supply premium-quality SA106 Gr B <a
+                            class="text-white text-decoration-underline"
+                            href="{{ url('products/pipes-tubes/seamless-pipes') }}">seamless pipes</a> manufactured in
+                        compliance with international standards for domestic and <a href="{{ route('contact-us') }}"
+                            class="text-white text-decoration-underline">export</a> industrial projects.
                     </p>
                 </div>
             </div>
@@ -49,11 +63,13 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td><a href="{{ route('materials') }}" class="text-decoration-none text-dark">Carbon Steel</a></td>
+                                    <td><a href="{{ route('materials') }}" class="text-decoration-none text-dark">Carbon
+                                            Steel</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Type</td>
-                                    <td><a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-decoration-none text-dark">Seamless</a></td>
+                                    <td><a href="{{ url('products/pipes-tubes/seamless-pipes') }}"
+                                            class="text-decoration-none text-dark">Seamless</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Manufacturing</td>
@@ -122,7 +138,8 @@
                             </tbody>
                         </table>
                     </div>
-                    <p class="fs-6 text-center mt-2">This composition ensures good weldability and strength at elevated temperatures.</p>
+                    <p class="fs-6 text-center mt-2">This composition ensures good weldability and strength at elevated
+                        temperatures.</p>
                 </div>
                 <div class="col-lg-12 mb-4">
                     <div class="section-title center mb-3">
@@ -152,7 +169,8 @@
                             </tbody>
                         </table>
                     </div>
-                    <p class="fs-6 text-center mt-2">These mechanical properties make SA106 Grade B suitable for high-pressure applications.</p>
+                    <p class="fs-6 text-center mt-2">These mechanical properties make SA106 Grade B suitable for
+                        high-pressure applications.</p>
                 </div>
             </div>
         </div>
@@ -163,7 +181,7 @@
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Standard Pipe Size & Thickness Chart</h2>
             </div>
-            
+
             <div class="table-responsive mb-5">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
@@ -179,37 +197,103 @@
                     </thead>
                     <tbody>
                         <tr class="t-row">
-                            <td>1/2"</td><td>21.34</td><td>2.11</td><td>2.77</td><td>3.73</td><td>4.78</td><td>7.47</td>
+                            <td>1/2"</td>
+                            <td>21.34</td>
+                            <td>2.11</td>
+                            <td>2.77</td>
+                            <td>3.73</td>
+                            <td>4.78</td>
+                            <td>7.47</td>
                         </tr>
                         <tr class="t-row">
-                            <td>3/4"</td><td>26.67</td><td>2.11</td><td>2.87</td><td>3.91</td><td>5.56</td><td>7.82</td>
+                            <td>3/4"</td>
+                            <td>26.67</td>
+                            <td>2.11</td>
+                            <td>2.87</td>
+                            <td>3.91</td>
+                            <td>5.56</td>
+                            <td>7.82</td>
                         </tr>
                         <tr class="t-row">
-                            <td>1"</td><td>33.40</td><td>2.77</td><td>3.38</td><td>4.55</td><td>6.35</td><td>9.09</td>
+                            <td>1"</td>
+                            <td>33.40</td>
+                            <td>2.77</td>
+                            <td>3.38</td>
+                            <td>4.55</td>
+                            <td>6.35</td>
+                            <td>9.09</td>
                         </tr>
                         <tr class="t-row">
-                            <td>1 1/2"</td><td>48.26</td><td>2.77</td><td>3.68</td><td>5.08</td><td>7.14</td><td>10.16</td>
+                            <td>1 1/2"</td>
+                            <td>48.26</td>
+                            <td>2.77</td>
+                            <td>3.68</td>
+                            <td>5.08</td>
+                            <td>7.14</td>
+                            <td>10.16</td>
                         </tr>
                         <tr class="t-row">
-                            <td>2"</td><td>60.33</td><td>2.77</td><td>3.91</td><td>5.54</td><td>8.74</td><td>11.07</td>
+                            <td>2"</td>
+                            <td>60.33</td>
+                            <td>2.77</td>
+                            <td>3.91</td>
+                            <td>5.54</td>
+                            <td>8.74</td>
+                            <td>11.07</td>
                         </tr>
                         <tr class="t-row">
-                            <td>3"</td><td>88.90</td><td>3.05</td><td>5.49</td><td>7.62</td><td>11.13</td><td>15.24</td>
+                            <td>3"</td>
+                            <td>88.90</td>
+                            <td>3.05</td>
+                            <td>5.49</td>
+                            <td>7.62</td>
+                            <td>11.13</td>
+                            <td>15.24</td>
                         </tr>
                         <tr class="t-row">
-                            <td>4"</td><td>114.30</td><td>3.05</td><td>6.02</td><td>8.56</td><td>13.49</td><td>17.12</td>
+                            <td>4"</td>
+                            <td>114.30</td>
+                            <td>3.05</td>
+                            <td>6.02</td>
+                            <td>8.56</td>
+                            <td>13.49</td>
+                            <td>17.12</td>
                         </tr>
                         <tr class="t-row">
-                            <td>6"</td><td>168.28</td><td>3.40</td><td>7.11</td><td>10.97</td><td>18.26</td><td>21.95</td>
+                            <td>6"</td>
+                            <td>168.28</td>
+                            <td>3.40</td>
+                            <td>7.11</td>
+                            <td>10.97</td>
+                            <td>18.26</td>
+                            <td>21.95</td>
                         </tr>
                         <tr class="t-row">
-                            <td>8"</td><td>219.08</td><td>3.76</td><td>8.18</td><td>12.70</td><td>23.01</td><td>22.23</td>
+                            <td>8"</td>
+                            <td>219.08</td>
+                            <td>3.76</td>
+                            <td>8.18</td>
+                            <td>12.70</td>
+                            <td>23.01</td>
+                            <td>22.23</td>
                         </tr>
                         <tr class="t-row">
-                            <td>10"</td><td>273.05</td><td>4.19</td><td>9.27</td><td>15.09</td><td>28.58</td><td>25.40</td>
+                            <td>10"</td>
+                            <td>273.05</td>
+                            <td>4.19</td>
+                            <td>9.27</td>
+                            <td>15.09</td>
+                            <td>28.58</td>
+                            <td>25.40</td>
                         </tr>
                         <tr class="t-row">
-                            <td>12"</td><td>323.85</td><td>4.57</td><td>9.53</td><td>17.48</td><td>33.32</td><td>25.40</td>
+                            <td>12"</td>
+                            <td>323.85</td>
+                            <td>4.57</td>
+                            <td>9.53</td>
+                            <td>17.48</td>
+                            <td>33.32</td>
+                            <td>25.40</td>
                         </tr>
                     </tbody>
                 </table>
@@ -231,28 +315,60 @@
                     </thead>
                     <tbody>
                         <tr class="t-row">
-                            <td>1"</td><td>2.50</td><td>3.24</td><td>4.44</td><td>6.19</td>
+                            <td>1"</td>
+                            <td>2.50</td>
+                            <td>3.24</td>
+                            <td>4.44</td>
+                            <td>6.19</td>
                         </tr>
                         <tr class="t-row">
-                            <td>2"</td><td>5.44</td><td>7.48</td><td>11.48</td><td>14.51</td>
+                            <td>2"</td>
+                            <td>5.44</td>
+                            <td>7.48</td>
+                            <td>11.48</td>
+                            <td>14.51</td>
                         </tr>
                         <tr class="t-row">
-                            <td>3"</td><td>11.29</td><td>15.27</td><td>22.01</td><td>29.53</td>
+                            <td>3"</td>
+                            <td>11.29</td>
+                            <td>15.27</td>
+                            <td>22.01</td>
+                            <td>29.53</td>
                         </tr>
                         <tr class="t-row">
-                            <td>4"</td><td>16.07</td><td>22.29</td><td>34.77</td><td>43.78</td>
+                            <td>4"</td>
+                            <td>16.07</td>
+                            <td>22.29</td>
+                            <td>34.77</td>
+                            <td>43.78</td>
                         </tr>
                         <tr class="t-row">
-                            <td>6"</td><td>28.26</td><td>42.58</td><td>69.21</td><td>82.52</td>
+                            <td>6"</td>
+                            <td>28.26</td>
+                            <td>42.58</td>
+                            <td>69.21</td>
+                            <td>82.52</td>
                         </tr>
                         <tr class="t-row">
-                            <td>8"</td><td>42.55</td><td>65.29</td><td>115.12</td><td>110.89</td>
+                            <td>8"</td>
+                            <td>42.55</td>
+                            <td>65.29</td>
+                            <td>115.12</td>
+                            <td>110.89</td>
                         </tr>
                         <tr class="t-row">
-                            <td>10"</td><td>60.32</td><td>100.08</td><td>182.25</td><td>160.33</td>
+                            <td>10"</td>
+                            <td>60.32</td>
+                            <td>100.08</td>
+                            <td>182.25</td>
+                            <td>160.33</td>
                         </tr>
                         <tr class="t-row">
-                            <td>12"</td><td>74.48</td><td>139.20</td><td>255.80</td><td>195.05</td>
+                            <td>12"</td>
+                            <td>74.48</td>
+                            <td>139.20</td>
+                            <td>255.80</td>
+                            <td>195.05</td>
                         </tr>
                     </tbody>
                 </table>
@@ -283,8 +399,10 @@
                         <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
                         <h5>Power Plants</h5>
                         <ul>
-                            <li>High-pressure <a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}">steam lines</a></li>
-                            <li><a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}">Boiler piping</a></li>
+                            <li>High-pressure <a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}">steam
+                                    lines</a></li>
+                            <li><a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}">Boiler piping</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -306,7 +424,8 @@
                         <h5>Industrial Plants</h5>
                         <ul>
                             <li>Process piping</li>
-                            <li><a href="{{ url('products/pipes-tubes/hollow-section-pipe') }}">Structural</a> high-pressure systems</li>
+                            <li><a href="{{ url('products/pipes-tubes/hollow-section-pipe') }}">Structural</a>
+                                high-pressure systems</li>
                         </ul>
                     </div>
                 </div>
@@ -371,7 +490,10 @@
             <div class="section-title center">
                 <h2>Global Packaging & Export</h2>
             </div>
-            <p class="fs-5 mt-3 text-center">We supply ASTM SA106 Grade B <a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-decoration-none">seamless pipes</a> across <a href="{{ route('contact-us') }}">India</a> including Mumbai, Chennai, Ahmedabad, Pune, Hyderabad, and Delhi NCR.</p>
+            <p class="fs-5 mt-3 text-center">We supply ASTM SA106 Grade B <a
+                    href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-decoration-none">seamless
+                    pipes</a> across <a href="{{ route('contact-us') }}">India</a> including Mumbai, Chennai, Ahmedabad,
+                Pune, Hyderabad, and Delhi NCR.</p>
 
             <div class="row g-4 mt-4 justify-content-center text-start">
                 <div class="col-md-6">
@@ -389,7 +511,8 @@
                             <li>USA</li>
                             <li>Europe</li>
                         </ul>
-                        <p class="fs-6 mt-3 fw-bold text-center">Export-grade packaging and third-party inspection support available.</p>
+                        <p class="fs-6 mt-3 fw-bold text-center">Export-grade packaging and third-party inspection support
+                            available.</p>
                     </div>
                 </div>
             </div>
@@ -435,46 +558,46 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-file-earmark-text"></i></div>
-                        </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Is SA106 Gr B suitable for steam lines?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>Yes, it is commonly used in high-pressure steam piping systems.</p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What is the difference between A106 and SA106?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>SA106 is the ASME equivalent of ASTM A106 used in boiler and pressure vessel applications.</p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Are these pipes weldable?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>Yes, SA106 Gr B offers good weldability under proper procedures.</p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
                     </div>
                 </div>
+                <!--End single accordion box-->
+
+                <!--Start single accordion box-->
+                <div class="accordion accordion-block">
+                    <div class="accord-btn">
+                        <h4>Is SA106 Gr B suitable for steam lines?</h4>
+                    </div>
+                    <div class="accord-content">
+                        <p>Yes, it is commonly used in high-pressure steam piping systems.</p>
+                    </div>
+                </div>
+                <!--End single accordion box-->
+
+                <!--Start single accordion box-->
+                <div class="accordion accordion-block">
+                    <div class="accord-btn">
+                        <h4>What is the difference between A106 and SA106?</h4>
+                    </div>
+                    <div class="accord-content">
+                        <p>SA106 is the ASME equivalent of ASTM A106 used in boiler and pressure vessel applications.</p>
+                    </div>
+                </div>
+                <!--End single accordion box-->
+
+                <!--Start single accordion box-->
+                <div class="accordion accordion-block">
+                    <div class="accord-btn">
+                        <h4>Are these pipes weldable?</h4>
+                    </div>
+                    <div class="accord-content">
+                        <p>Yes, SA106 Gr B offers good weldability under proper procedures.</p>
+                    </div>
+                </div>
+                <!--End single accordion box-->
+
             </div>
+        </div>
+        </div>
         </div>
     </section>
     <!--End faq content area-->
@@ -485,11 +608,16 @@
                 <h2>REQUEST A QUOTE</h2>
                 <p>
                     Looking for ASTM SA106 Grade B Seamless Pipes for oil, gas, or power projects?<br>
-                    📞 Contact <strong><a href="{{ route('index') }}" class="text-decoration-none">Moksh Tubes & Fittings LLP</a></strong><br>
-                    We supply high-quality <a href="{{ route('materials') }}" class="text-decoration-none">carbon steel</a> <a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-decoration-none">seamless pipes</a> designed for performance and reliability in high-temperature applications.
+                    📞 Contact <strong><a href="{{ route('index') }}" class="text-decoration-none">Moksh Tubes & Fittings
+                            LLP</a></strong><br>
+                    We supply high-quality <a href="{{ route('materials') }}" class="text-decoration-none">carbon
+                        steel</a> <a href="{{ url('products/pipes-tubes/seamless-pipes') }}"
+                        class="text-decoration-none">seamless pipes</a> designed for performance and reliability in
+                    high-temperature applications.
                 </p>
                 <!-- Call button -->
-                <a href="javascript:void(0);" class="contact-cta-btn mt-3" data-bs-toggle="modal" data-bs-target="#contactFormModal">
+                <a href="javascript:void(0);" class="contact-cta-btn mt-3" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
                     Get in Touch
                 </a>
             </div>
@@ -535,4 +663,46 @@
         }
         @endverbatim
     </script>
+    <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Grade B Seamless Pipes Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Grade B Seamless Pipes datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
 @endsection

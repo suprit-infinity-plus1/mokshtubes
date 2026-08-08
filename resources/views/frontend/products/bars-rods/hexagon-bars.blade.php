@@ -1,20 +1,18 @@
 @extends('layouts.master')
 @section('title', 'Hexagon Bars Manufacturer, Supplier & Exporter | Stainless & Brass')
 <!-- 84 characters -->
-@section(
-    'meta_description',
-    'Moksh Tubes & Fittings LLP manufactures and exports Hexagon Bars in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Brass, Aluminium & Titanium grades.'
-)
-@section(
-    'meta_keywords',
-    'Hexagon Bars, Hex Bars, Hexagonal Bars, Stainless Steel Hex Bars, Alloy Steel Hex Bars, Brass Hex Bars, Aluminium Hex Bars, Carbon Steel Hex Bars, Duplex Hex Bars, Precision Hex Bars, Bright Drawn Hex Bars'
-)
+@section('meta_description', 'Moksh Tubes & Fittings LLP manufactures and exports Hexagon Bars in Stainless Steel,
+    Carbon Steel, Alloy Steel, Duplex, Brass, Aluminium & Titanium grades.')
+@section('meta_keywords', 'Hexagon Bars, Hex Bars, Hexagonal Bars, Stainless Steel Hex Bars, Alloy Steel Hex Bars, Brass
+    Hex Bars, Aluminium Hex Bars, Carbon Steel Hex Bars, Duplex Hex Bars, Precision Hex Bars, Bright Drawn Hex Bars')
 @section('og_title', 'Hexagon Bars Manufacturer, Supplier & Exporter | Moksh Tubes')
-@section('og_description', 'Premium-quality Hexagon Bars manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Brass, Aluminium & Titanium grades in custom sizes with worldwide delivery.')
+@section('og_description', 'Premium-quality Hexagon Bars manufactured in Stainless Steel, Carbon Steel, Alloy Steel,
+    Duplex, Brass, Aluminium & Titanium grades in custom sizes with worldwide delivery.')
 @section('og_image', asset('assets/images/product/Hexagon-Bars.webp'))
 @section('og_type', 'product')
 @section('twitter_title', 'Hexagon Bars Manufacturer in India')
-@section('twitter_description', 'Buy premium-quality Hexagon Bars for precision machining, fastener manufacturing, and structural fabrication. Fast worldwide delivery.')
+@section('twitter_description', 'Buy premium-quality Hexagon Bars for precision machining, fastener manufacturing, and
+    structural fabrication. Fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -25,7 +23,13 @@
                     <h1 class="page-title">Hexagon Bars Manufacturer, Supplier & Exporter in India</h1>
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Hexagon Bars are precision-engineered six-sided solid metal bars widely used in machining, fastener manufacturing, construction, automotive, marine, aerospace, and heavy engineering applications. Manufactured in stainless steel, carbon steel, alloy steel, duplex stainless steel, nickel alloys, titanium, brass, copper, and aluminium, Hexagon Bars offer excellent machinability, dimensional accuracy, high strength, and superior surface finish. Moksh Tubes & Fittings LLP manufactures, supplies, and exports premium-quality Hexagon Bars in various grades, sizes, and finishes that comply with international ASTM, ASME, DIN, EN, and JIS standards.
+                        Hexagon Bars are precision-engineered six-sided solid metal bars widely used in machining, fastener
+                        manufacturing, construction, automotive, marine, aerospace, and heavy engineering applications.
+                        Manufactured in stainless steel, carbon steel, alloy steel, duplex stainless steel, nickel alloys,
+                        titanium, brass, copper, and aluminium, Hexagon Bars offer excellent machinability, dimensional
+                        accuracy, high strength, and superior surface finish. Moksh Tubes & Fittings LLP manufactures,
+                        supplies, and exports premium-quality Hexagon Bars in various grades, sizes, and finishes that
+                        comply with international ASTM, ASME, DIN, EN, and JIS standards.
                     </p>
 
                 </div>
@@ -58,47 +62,60 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/Hexagon-Bars.webp') }}"
-                        alt="Hexagon Bars Manufacturer" class="img-fluid rounded shadow-sm" width="550" height="350"
-                        loading="lazy">
+                    <img src="{{ asset('assets/images/product/Hexagon-Bars.webp') }}" alt="Hexagon Bars Manufacturer"
+                        class="img-fluid rounded shadow-sm" width="550" height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong>Hexagon Bars</strong>, also known as Hexagonal Bars or Hex Bars, are six-sided solid metal bars specifically designed for precision machining, fastener manufacturing, structural fabrication, and engineering applications. Their unique hexagonal shape provides excellent gripping, easy handling, and superior machining performance, making them ideal for producing nuts, bolts, studs, shafts, valve components, hydraulic fittings, and precision mechanical parts.
+                        <strong>Hexagon Bars</strong>, also known as Hexagonal Bars or Hex Bars, are six-sided solid metal
+                        bars specifically designed for precision machining, fastener manufacturing, structural fabrication,
+                        and engineering applications. Their unique hexagonal shape provides excellent gripping, easy
+                        handling, and superior machining performance, making them ideal for producing nuts, bolts, studs,
+                        shafts, valve components, hydraulic fittings, and precision mechanical parts.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we are a trusted manufacturer, supplier, and exporter of premium-quality Hexagon Bars in India. Our product range includes Stainless Steel Hexagon Bars, Carbon Steel Hex Bars, Alloy Steel Hex Bars, Duplex & Super Duplex Hexagon Bars, Nickel Alloy Hex Bars, Titanium Hex Bars, Brass Hexagon Bars, Copper Hex Bars, and Aluminium Hexagon Bars manufactured in accordance with ASTM, ASME, DIN, EN, ISO, and JIS standards.
+                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we are a trusted manufacturer,
+                        supplier, and exporter of premium-quality Hexagon Bars in India. Our product range includes
+                        Stainless Steel Hexagon Bars, Carbon Steel Hex Bars, Alloy Steel Hex Bars, Duplex & Super Duplex
+                        Hexagon Bars, Nickel Alloy Hex Bars, Titanium Hex Bars, Brass Hexagon Bars, Copper Hex Bars, and
+                        Aluminium Hexagon Bars manufactured in accordance with ASTM, ASME, DIN, EN, ISO, and JIS standards.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        Our Hexagon Bars are supplied to customers across India, UAE, Saudi Arabia, Qatar, Oman, Kuwait, Europe, Southeast Asia, Africa, and other international markets, delivering outstanding performance in demanding industrial and commercial applications.
+                        Our Hexagon Bars are supplied to customers across India, UAE, Saudi Arabia, Qatar, Oman, Kuwait,
+                        Europe, Southeast Asia, Africa, and other international markets, delivering outstanding performance
+                        in demanding industrial and commercial applications.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    {{-- datasheet --}}
+    <!-- Datasheet Download -->
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Hexagon Bars Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with mechanical properties, sizes across flats, weight charts, and application
-                guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete Hexagon Bars datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="{{ csrf_token() }}" autocomplete="off">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="hexagon-bars-datasheet.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
+                        <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
                     </div>
+
                     <div class="col-md-3 mb-2">
                         <button type="submit" class="btn btn-lg w-100 text-white"
                             style="background-color:#db7227; border-radius:8px;">
@@ -108,7 +125,12 @@
                 </div>
             </form>
 
-            <hr class="my-4">
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
@@ -134,7 +156,8 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex &amp; Super Duplex, Nickel Alloys, Titanium, Aluminium, Brass &amp; Copper</td>
+                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex &amp; Super Duplex, Nickel
+                                        Alloys, Titanium, Aluminium, Brass &amp; Copper</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Manufacturing</td>
@@ -179,9 +202,12 @@
                 <h2 class="fw-bold" style="color: #174268;">Hexagon Bars Weight Chart</h2>
             </div>
             <p class="text-center pb-3">
-                Moksh Tubes & Fittings LLP supplies Hexagon Bars in a wide range of across-flat dimensions suitable for machining, fabrication, fastener manufacturing, and precision engineering applications. The weight per meter varies depending on the material density, making this chart useful for estimating material requirements and project costs.
+                Moksh Tubes & Fittings LLP supplies Hexagon Bars in a wide range of across-flat dimensions suitable for
+                machining, fabrication, fastener manufacturing, and precision engineering applications. The weight per meter
+                varies depending on the material density, making this chart useful for estimating material requirements and
+                project costs.
             </p>
-            
+
             <div class="table-responsive mt-4">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
@@ -195,15 +221,78 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>10</td><td>0.68</td><td>0.69</td><td>0.23</td><td>0.73</td><td>0.77</td></tr>
-                        <tr class="t-row"><td>12</td><td>0.98</td><td>0.99</td><td>0.34</td><td>1.05</td><td>1.11</td></tr>
-                        <tr class="t-row"><td>14</td><td>1.33</td><td>1.35</td><td>0.46</td><td>1.43</td><td>1.51</td></tr>
-                        <tr class="t-row"><td>16</td><td>1.73</td><td>1.75</td><td>0.60</td><td>1.86</td><td>1.97</td></tr>
-                        <tr class="t-row"><td>18</td><td>2.19</td><td>2.22</td><td>0.75</td><td>2.35</td><td>2.49</td></tr>
-                        <tr class="t-row"><td>20</td><td>2.72</td><td>2.75</td><td>0.94</td><td>2.91</td><td>3.10</td></tr>
-                        <tr class="t-row"><td>22</td><td>3.31</td><td>3.34</td><td>1.14</td><td>3.53</td><td>3.76</td></tr>
-                        <tr class="t-row"><td>25</td><td>4.25</td><td>4.29</td><td>1.46</td><td>4.54</td><td>4.84</td></tr>
-                        <tr class="t-row"><td>30</td><td>6.11</td><td>6.16</td><td>2.09</td><td>6.54</td><td>6.95</td></tr>
+                        <tr class="t-row">
+                            <td>10</td>
+                            <td>0.68</td>
+                            <td>0.69</td>
+                            <td>0.23</td>
+                            <td>0.73</td>
+                            <td>0.77</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>12</td>
+                            <td>0.98</td>
+                            <td>0.99</td>
+                            <td>0.34</td>
+                            <td>1.05</td>
+                            <td>1.11</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>14</td>
+                            <td>1.33</td>
+                            <td>1.35</td>
+                            <td>0.46</td>
+                            <td>1.43</td>
+                            <td>1.51</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>16</td>
+                            <td>1.73</td>
+                            <td>1.75</td>
+                            <td>0.60</td>
+                            <td>1.86</td>
+                            <td>1.97</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>18</td>
+                            <td>2.19</td>
+                            <td>2.22</td>
+                            <td>0.75</td>
+                            <td>2.35</td>
+                            <td>2.49</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>20</td>
+                            <td>2.72</td>
+                            <td>2.75</td>
+                            <td>0.94</td>
+                            <td>2.91</td>
+                            <td>3.10</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>22</td>
+                            <td>3.31</td>
+                            <td>3.34</td>
+                            <td>1.14</td>
+                            <td>3.53</td>
+                            <td>3.76</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>25</td>
+                            <td>4.25</td>
+                            <td>4.29</td>
+                            <td>1.46</td>
+                            <td>4.54</td>
+                            <td>4.84</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>30</td>
+                            <td>6.11</td>
+                            <td>6.16</td>
+                            <td>2.09</td>
+                            <td>6.54</td>
+                            <td>6.95</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -257,7 +346,8 @@
                         <div class="card-body py-4">
                             <i class="bi bi-shield-check mb-3 d-block card-icon" style="font-size: 2rem;"></i>
                             <h5 class="card-title" style="font-weight: 600;">Stainless Steel</h5>
-                            <p class="card-text small mb-0">SS 303, SS 304, SS 304L, SS 310, SS 316, SS 316L, SS 321, SS 347, 17-4 PH</p>
+                            <p class="card-text small mb-0">SS 303, SS 304, SS 304L, SS 310, SS 316, SS 316L, SS 321, SS
+                                347, 17-4 PH</p>
                         </div>
                     </div>
                 </div>
@@ -380,7 +470,7 @@
         </div>
     </section>
 
-      {{-- Gallery / Products --}}
+    {{-- Gallery / Products --}}
     <section class="our-services sec-padd-top">
         <div class="container">
             <div class="row">
@@ -464,7 +554,8 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100"
+                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
                                     src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
@@ -516,7 +607,8 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-wide"></i></div>
                         <h4>Industrial Manufacturing</h4>
-                        <p class="small text-muted mt-2">Precision Machined Components, Shafts, Valve Parts, Hydraulic Components, Machine Parts.</p>
+                        <p class="small text-muted mt-2">Precision Machined Components, Shafts, Valve Parts, Hydraulic
+                            Components, Machine Parts.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -530,21 +622,24 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-funnel"></i></div>
                         <h4>Oil &amp; Gas Industry</h4>
-                        <p class="small text-muted mt-2">Valve Components, Pump Parts, Instrumentation, Petrochemical Equipment.</p>
+                        <p class="small text-muted mt-2">Valve Components, Pump Parts, Instrumentation, Petrochemical
+                            Equipment.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-water"></i></div>
                         <h4>Marine &amp; Offshore</h4>
-                        <p class="small text-muted mt-2">Offshore Platforms, Shipbuilding, Marine Hardware, Desalination Plants.</p>
+                        <p class="small text-muted mt-2">Offshore Platforms, Shipbuilding, Marine Hardware, Desalination
+                            Plants.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-airplane"></i></div>
                         <h4>Automotive &amp; Aerospace</h4>
-                        <p class="small text-muted mt-2">Suspension Components, Engine Parts, Landing Gear, Lightweight Structural Components.</p>
+                        <p class="small text-muted mt-2">Suspension Components, Engine Parts, Landing Gear, Lightweight
+                            Structural Components.</p>
                     </div>
                 </div>
             </div>
@@ -615,7 +710,10 @@
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-                <p class="text-center">The mechanical properties of Hexagon Bars vary depending on the selected material grade, manufacturing process, and heat treatment condition. Hexagon Bars are manufactured to deliver high tensile strength, excellent dimensional accuracy, superior machinability, and reliable performance.</p>
+                <p class="text-center">The mechanical properties of Hexagon Bars vary depending on the selected material
+                    grade, manufacturing process, and heat treatment condition. Hexagon Bars are manufactured to deliver
+                    high tensile strength, excellent dimensional accuracy, superior machinability, and reliable performance.
+                </p>
             </div>
 
             <div class="table-responsive">
@@ -708,7 +806,8 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
-                        <h4>Trusted exporter serving customers across India, the Middle East, Europe, Africa, and Southeast Asia.</h4>
+                        <h4>Trusted exporter serving customers across India, the Middle East, Europe, Africa, and Southeast
+                            Asia.</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
@@ -736,7 +835,9 @@
                                 <h4>1. What are Hexagon Bars?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Hexagon Bars are six-sided solid metal bars used for precision machining, fastener manufacturing, engineering components, and structural applications. Their shape provides better gripping and easier machining compared to round bars.</p>
+                                <p>Hexagon Bars are six-sided solid metal bars used for precision machining, fastener
+                                    manufacturing, engineering components, and structural applications. Their shape provides
+                                    better gripping and easier machining compared to round bars.</p>
                             </div>
                         </div>
 
@@ -745,7 +846,8 @@
                                 <h4>2. Which materials are available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>We supply Hexagon Bars in Stainless Steel, Carbon Steel, Alloy Steel, Duplex Stainless Steel, Super Duplex, Nickel Alloys, Titanium, Aluminium, Brass, and Copper.</p>
+                                <p>We supply Hexagon Bars in Stainless Steel, Carbon Steel, Alloy Steel, Duplex Stainless
+                                    Steel, Super Duplex, Nickel Alloys, Titanium, Aluminium, Brass, and Copper.</p>
                             </div>
                         </div>
 
@@ -754,16 +856,18 @@
                                 <h4>3. What sizes do you manufacture?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Standard sizes range from 6 mm to 75 mm across flats, with custom sizes up to 100 mm available on request.</p>
+                                <p>Standard sizes range from 6 mm to 75 mm across flats, with custom sizes up to 100 mm
+                                    available on request.</p>
                             </div>
                         </div>
-                        
+
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
                                 <h4>4. What surface finishes are available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Available finishes include Mill Finish, Bright Finish, Polished, Pickled &amp; Passivated, Shot Blasted, and Precision Ground.</p>
+                                <p>Available finishes include Mill Finish, Bright Finish, Polished, Pickled &amp;
+                                    Passivated, Shot Blasted, and Precision Ground.</p>
                             </div>
                         </div>
 
@@ -772,7 +876,9 @@
                                 <h4>5. What industries use Hexagon Bars?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Hexagon Bars are widely used in automotive, aerospace, construction, oil &amp; gas, petrochemical, marine, fastener manufacturing, electrical, and heavy engineering industries.</p>
+                                <p>Hexagon Bars are widely used in automotive, aerospace, construction, oil &amp; gas,
+                                    petrochemical, marine, fastener manufacturing, electrical, and heavy engineering
+                                    industries.</p>
                             </div>
                         </div>
 
@@ -787,7 +893,10 @@
             <div class="contact-cta-box">
                 <h2>Request a Quote</h2>
                 <p>
-                    Looking for Premium Quality <strong>Hexagon Bars</strong>? Whether you need Hexagon Bars for precision machining, fastener manufacturing, construction, marine, oil &amp; gas, or heavy engineering applications, <strong>Moksh Tubes &amp; Fittings LLP</strong> offers high-quality products, competitive pricing, and reliable worldwide delivery.
+                    Looking for Premium Quality <strong>Hexagon Bars</strong>? Whether you need Hexagon Bars for precision
+                    machining, fastener manufacturing, construction, marine, oil &amp; gas, or heavy engineering
+                    applications, <strong>Moksh Tubes &amp; Fittings LLP</strong> offers high-quality products, competitive
+                    pricing, and reliable worldwide delivery.
                 </p>
                 <a href="{{ route('contact-us') }}" class="contact-cta-btn">
                     Get in Touch

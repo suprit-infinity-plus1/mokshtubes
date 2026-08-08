@@ -1,16 +1,12 @@
 @extends('layouts.master')
 @section('title', 'Industrial Fasteners – High-Quality Bolts & Nuts') <!-- 52 characters -->
-@section(
-    'meta_description',
+@section('meta_description',
     'Premium industrial fasteners from Mokshtubes — bolts, nuts, screws & washers in stainless
-    steel, alloy, titanium & nickel for marine & industrial use.'
-) <!-- 153 characters -->
-@section(
-    'meta_keywords',
+    steel, alloy, titanium & nickel for marine & industrial use.') <!-- 153 characters -->
+@section('meta_keywords',
     'Industrial Fasteners, Bolts, Nuts, Screws, Washers, Studs, Anchors, Stainless Steel
     Fasteners, Alloy Fasteners, Titanium Fasteners, Nickel Fasteners, High-Strength Fasteners, Corrosion-Resistant
-    Fasteners, ISO Certified Fasteners'
-)
+    Fasteners, ISO Certified Fasteners')
 @section('og_image', asset('assets/images/product/flangs/FASTENERS.webp'))
 @section('og_type', 'article')
 @section('content')
@@ -200,7 +196,8 @@
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
                             <img src="{{ asset('assets/images/fasteners/a286-gr-660-threaded-studs.jpg') }}"
-                                alt="A286 Gr 660 Threaded Studs" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                alt="A286 Gr 660 Threaded Studs" class="img-fluid rounded mb-3"
+                                style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
                                 A286 Gr 660 Threaded Studs
@@ -280,7 +277,8 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.asme-sf-467-nuts') }}" class="text-decoration-none d-block h-100">
+                    <a href="{{ route('products.fasteners.asme-sf-467-nuts') }}"
+                        class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
                             <img src="{{ asset('assets/images/fasteners/asme-sf-467-nuts.jpg') }}" alt="ASME SF-467 Nuts"
@@ -1109,4 +1107,46 @@
 
             @endverbatim
         </script>
+    <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Fasteners Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Fasteners datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
 @endsection

@@ -1,9 +1,9 @@
 @extends('layouts.master')
 @section('title', 'ASTM A193 Grade B7 Stud Bolts | Manufacturer & Supplier')
-@section('meta_description',
-    'Buy ASTM A193 Grade B7 Stud Bolts. Manufactured from chromium-molybdenum alloy steel. Ideal for high-pressure and high-temperature bolting applications.')
-@section('meta_keywords',
-    'ASTM A193 Grade B7 Stud Bolts, B7 Stud Bolts, A193 B7 Studs Supplier India, Flange Bolting, Alloy Steel Fasteners')
+@section('meta_description', 'Buy ASTM A193 Grade B7 Stud Bolts. Manufactured from chromium-molybdenum alloy steel.
+    Ideal for high-pressure and high-temperature bolting applications.')
+@section('meta_keywords', 'ASTM A193 Grade B7 Stud Bolts, B7 Stud Bolts, A193 B7 Studs Supplier India, Flange Bolting,
+    Alloy Steel Fasteners')
 @section('og_image', asset('assets/images/fasteners/b7-stud-bolts.png'))
 @section('og_type', 'article')
 @section('content')
@@ -16,8 +16,20 @@
                     <!-- Short Overview -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        ASTM A193 Grade B7 Stud Bolts are high-strength <a href="{{ route('materials.engineering-Steels') }}" class="text-white text-decoration-underline">alloy steel</a> <a href="{{ route('products.fasteners') }}" class="text-white text-decoration-underline">fasteners</a> designed for high-pressure and high-temperature applications. Manufactured from chromium-molybdenum alloy steel and heat-treated for superior mechanical strength, B7 studs are widely used in <a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-white text-decoration-underline">flanges</a>, <a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-white text-decoration-underline">pressure vessels</a>, <a href="{{ route('products.pipe-fittings') }}" class="text-white text-decoration-underline">valves</a>, and oil & gas equipment.<br>
-                        At Moksh Tubes & Fittings LLP, we supply premium-quality ASTM A193 B7 stud bolts with complete traceability and EN 10204 3.1 certification for domestic and export industrial projects.
+                        ASTM A193 Grade B7 Stud Bolts are high-strength <a href="{{ route('materials.engineering-Steels') }}"
+                            class="text-white text-decoration-underline">alloy steel</a> <a
+                            href="{{ route('products.fasteners') }}"
+                            class="text-white text-decoration-underline">fasteners</a> designed for high-pressure and
+                        high-temperature applications. Manufactured from chromium-molybdenum alloy steel and heat-treated
+                        for superior mechanical strength, B7 studs are widely used in <a
+                            href="{{ route('products.flanges.flanges-and-gaskets') }}"
+                            class="text-white text-decoration-underline">flanges</a>, <a
+                            href="{{ url('products/pipes-tubes/seamless-pipes') }}"
+                            class="text-white text-decoration-underline">pressure vessels</a>, <a
+                            href="{{ route('products.pipe-fittings') }}"
+                            class="text-white text-decoration-underline">valves</a>, and oil & gas equipment.<br>
+                        At Moksh Tubes & Fittings LLP, we supply premium-quality ASTM A193 B7 stud bolts with complete
+                        traceability and EN 10204 3.1 certification for domestic and export industrial projects.
                     </p>
                 </div>
             </div>
@@ -40,7 +52,10 @@
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">ASTM A193 Grade B7</strong> is a <a href="{{ route('materials.high-strength-stainless-steel') }}" class="text-decoration-none">high tensile alloy steel</a> fastener specification commonly used for bolting in pressure systems. It is typically paired with ASTM A194 Grade 2H heavy hex nuts for secure flange connections.
+                        <strong class="text-black">ASTM A193 Grade B7</strong> is a <a
+                            href="{{ route('materials.high-strength-stainless-steel') }}" class="text-decoration-none">high
+                            tensile alloy steel</a> fastener specification commonly used for bolting in pressure systems. It
+                        is typically paired with ASTM A194 Grade 2H heavy hex nuts for secure flange connections.
                     </p>
                     <p class="fs-6 mb-3 text-justify fw-bold">Manufactured as per:</p>
                     <ul class="fs-6 mb-3">
@@ -48,7 +63,8 @@
                         <li>ASTM A194</li>
                     </ul>
                     <p class="fs-6 mb-3 text-justify">
-                        B7 studs are quenched and tempered to achieve high strength and durability, making them suitable for demanding industrial environments.
+                        B7 studs are quenched and tempered to achieve high strength and durability, making them suitable for
+                        demanding industrial environments.
                     </p>
                 </div>
             </div>
@@ -82,15 +98,19 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td><a href="{{ route('materials.engineering-Steels') }}" class="text-decoration-none">Chromium-Molybdenum Alloy Steel</a></td>
+                                    <td><a href="{{ route('materials.engineering-Steels') }}"
+                                            class="text-decoration-none">Chromium-Molybdenum Alloy Steel</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Type</td>
-                                    <td><a href="{{ route('products.fasteners') }}" class="text-decoration-none">Stud Bolts</a> / <a href="{{ route('products.bars-rods.threaded-rods') }}" class="text-decoration-none">Threaded Rod</a></td>
+                                    <td><a href="{{ route('products.fasteners') }}" class="text-decoration-none">Stud
+                                            Bolts</a> / <a href="{{ route('products.bars-rods.threaded-rods') }}"
+                                            class="text-decoration-none">Threaded Rod</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Diameter Range</td>
-                                    <td><a href="{{ route('products.bars-rods.round-bars') }}" class="text-decoration-none">M6 to M100</a> / 1/4" to 4"</td>
+                                    <td><a href="{{ route('products.bars-rods.round-bars') }}"
+                                            class="text-decoration-none">M6 to M100</a> / 1/4" to 4"</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Length</td>
@@ -160,7 +180,8 @@
                             </tbody>
                         </table>
                     </div>
-                    <p class="fs-6 text-center mt-2">The chromium and molybdenum improve strength and temperature resistance.</p>
+                    <p class="fs-6 text-center mt-2">The chromium and molybdenum improve strength and temperature
+                        resistance.</p>
                 </div>
                 <div class="col-lg-12 mb-4">
                     <div class="section-title center mb-3">
@@ -194,7 +215,9 @@
                             </tbody>
                         </table>
                     </div>
-                    <p class="fs-6 text-center mt-2">These properties make B7 studs ideal for high-pressure <a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-decoration-none">flange</a> connections.</p>
+                    <p class="fs-6 text-center mt-2">These properties make B7 studs ideal for high-pressure <a
+                            href="{{ route('products.flanges.flanges-and-gaskets') }}"
+                            class="text-decoration-none">flange</a> connections.</p>
                 </div>
             </div>
         </div>
@@ -213,7 +236,9 @@
                         <li class="list-group-item">1/4" to 4" diameter</li>
                         <li class="list-group-item">Metric sizes M6 to M100</li>
                         <li class="list-group-item">Custom cut lengths</li>
-                        <li class="list-group-item">Fully threaded / <a href="{{ route('products.bars-rods.threaded-rods') }}" class="text-decoration-none">Double end threaded</a></li>
+                        <li class="list-group-item">Fully threaded / <a
+                                href="{{ route('products.bars-rods.threaded-rods') }}"
+                                class="text-decoration-none">Double end threaded</a></li>
                     </ul>
                     <p class="text-center fs-6 mt-3">Complete dimension and weight charts available upon request.</p>
                 </div>
@@ -233,9 +258,12 @@
                         <div class="application-icon"><i class="bi bi-water"></i></div>
                         <h5>Oil & Gas Industry</h5>
                         <ul>
-                            <li><a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-decoration-none">Flange bolting</a></li>
-                            <li><a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-decoration-none">Pipeline connections</a></li>
-                            <li><a href="{{ route('products.special-fabricated') }}" class="text-decoration-none">Refinery equipment</a></li>
+                            <li><a href="{{ route('products.flanges.flanges-and-gaskets') }}"
+                                    class="text-decoration-none">Flange bolting</a></li>
+                            <li><a href="{{ url('products/pipes-tubes/seamless-pipes') }}"
+                                    class="text-decoration-none">Pipeline connections</a></li>
+                            <li><a href="{{ route('products.special-fabricated') }}"
+                                    class="text-decoration-none">Refinery equipment</a></li>
                         </ul>
                     </div>
                 </div>
@@ -245,8 +273,10 @@
                         <div class="application-icon"><i class="bi bi-building"></i></div>
                         <h5>Petrochemical Plants</h5>
                         <ul>
-                            <li><a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-decoration-none">Pressure vessels</a></li>
-                            <li><a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}" class="text-decoration-none">Heat exchangers</a></li>
+                            <li><a href="{{ url('products/pipes-tubes/seamless-pipes') }}"
+                                    class="text-decoration-none">Pressure vessels</a></li>
+                            <li><a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}"
+                                    class="text-decoration-none">Heat exchangers</a></li>
                         </ul>
                     </div>
                 </div>
@@ -256,8 +286,10 @@
                         <div class="application-icon"><i class="bi bi-tools"></i></div>
                         <h5>Power Plants</h5>
                         <ul>
-                            <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}" class="text-decoration-none">Turbine connections</a></li>
-                            <li><a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}" class="text-decoration-none">Boiler bolting systems</a></li>
+                            <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}"
+                                    class="text-decoration-none">Turbine connections</a></li>
+                            <li><a href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}"
+                                    class="text-decoration-none">Boiler bolting systems</a></li>
                         </ul>
                     </div>
                 </div>
@@ -267,8 +299,10 @@
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Industrial Equipment</h5>
                         <ul>
-                            <li><a href="{{ route('products.pipe-fittings') }}" class="text-decoration-none">Valves & pumps</a></li>
-                            <li><a href="{{ route('products.bars-rods') }}" class="text-decoration-none">Heavy machinery</a></li>
+                            <li><a href="{{ route('products.pipe-fittings') }}" class="text-decoration-none">Valves &
+                                    pumps</a></li>
+                            <li><a href="{{ route('products.bars-rods') }}" class="text-decoration-none">Heavy
+                                    machinery</a></li>
                         </ul>
                     </div>
                 </div>
@@ -286,7 +320,8 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4><a href="{{ route('materials.high-strength-stainless-steel') }}">High Tensile Strength</a></h4>
+                        <h4><a href="{{ route('materials.high-strength-stainless-steel') }}">High Tensile Strength</a>
+                        </h4>
                         <h5>High tensile strength for critical connections</h5>
                     </div>
                 </div>
@@ -327,14 +362,15 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-nut"></i></div>
                         <h4>Compatibility</h4>
-                        <h5>Compatible with <a href="{{ route('products.fasteners') }}" class="text-decoration-none">ASTM A194 Grade 2H nuts</a></h5>
+                        <h5>Compatible with <a href="{{ route('products.fasteners') }}" class="text-decoration-none">ASTM
+                                A194 Grade 2H nuts</a></h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -370,7 +406,7 @@
                         <h4>Dimensional Inspection</h4>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-soundwave"></i></div>
@@ -387,7 +423,10 @@
             <div class="section-title center">
                 <h2>Global Packaging & Export</h2>
             </div>
-            <p class="fs-5 mt-3 text-center">We supply ASTM A193 Grade B7 Stud Bolts across India including <a href="{{ route('contact-us-khetwadi') }}" class="text-decoration-none">Mumbai</a>, <a href="{{ route('contact-us') }}" class="text-decoration-none">Ahmedabad</a>, Chennai, Pune, Hyderabad, and Delhi NCR.</p>
+            <p class="fs-5 mt-3 text-center">We supply ASTM A193 Grade B7 Stud Bolts across India including <a
+                    href="{{ route('contact-us-khetwadi') }}" class="text-decoration-none">Mumbai</a>, <a
+                    href="{{ route('contact-us') }}" class="text-decoration-none">Ahmedabad</a>, Chennai, Pune,
+                Hyderabad, and Delhi NCR.</p>
 
             <div class="row g-4 mt-4 text-start">
                 <div class="col-md-6">
@@ -476,7 +515,9 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    It is used for high-pressure and high-temperature bolting applications in <a href="{{ route('products.flanges.flanges-and-gaskets') }}">flanges</a>, valves, and pressure vessels.
+                                    It is used for high-pressure and high-temperature bolting applications in <a
+                                        href="{{ route('products.flanges.flanges-and-gaskets') }}">flanges</a>, valves,
+                                    and pressure vessels.
                                 </p>
                             </div>
                         </div>
@@ -536,7 +577,9 @@
                     Looking for ASTM A193 Grade B7 Stud Bolts for oil, gas, or power projects?<br>
                     📞 Contact <strong><a href="{{ route('index') }}" class="text-decoration-none">Moksh Tubes &
                             Fittings LLP</a></strong><br>
-                    We supply <a href="{{ route('materials.engineering-Steels') }}" class="text-decoration-none">high-strength alloy steel</a> stud bolts designed for demanding industrial bolting applications.
+                    We supply <a href="{{ route('materials.engineering-Steels') }}"
+                        class="text-decoration-none">high-strength alloy steel</a> stud bolts designed for demanding
+                    industrial bolting applications.
                 </p>
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
@@ -587,6 +630,46 @@
         }
           @endverbatim
     </script>
+    <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Grade B7 Stud Bolts Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Grade B7 Stud Bolts datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
 @endsection
-
-

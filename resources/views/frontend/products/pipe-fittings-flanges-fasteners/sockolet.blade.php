@@ -1,14 +1,10 @@
 @extends('layouts.master')
 @section('title', 'Sockolet | Socket Weld Branch Fitting | Moksh Tubes')
 <!-- 52 characters -->
-@section(
-    'meta_description',
-    'Premium Sockolets (Socket Weld Olets) for high-pressure 90-degree branch connections. Available in 3000# and 6000# ratings in Stainless, Carbon, and Alloy Steel.'
-)
-@section(
-    'meta_keywords',
-    'Sockolet, Socket Weld Olet, Branch Connection, MSS-SP-97, 3000# Sockolet, Stainless Steel Sockolet, Carbon Steel Sockolet'
-)
+@section('meta_description', 'Premium Sockolets (Socket Weld Olets) for high-pressure 90-degree branch connections.
+    Available in 3000# and 6000# ratings in Stainless, Carbon, and Alloy Steel.')
+@section('meta_keywords', 'Sockolet, Socket Weld Olet, Branch Connection, MSS-SP-97, 3000# Sockolet, Stainless Steel
+    Sockolet, Carbon Steel Sockolet')
 @section('og_image', asset('assets/images/product/flangs/sockolets_11zon.jpg'))
 @section('og_type', 'product')
 @section('content')
@@ -94,6 +90,49 @@
 
     {{-- datasheet --}}
 
+
+    <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Sockolet Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Sockolet datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -240,7 +279,8 @@
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted">*Dimensions based on MSS-SP-97. The base curvature varies depending
+            <p class="text-center mt-2 small text-muted">*Dimensions based on MSS-SP-97. The base curvature varies
+                depending
                 on the specific Run Pipe consolidation (e.g., a 1" branch on a 6"-3" run pipe).</p>
         </div>
     </section>
@@ -283,7 +323,8 @@
                                     <td>ASTM A182 F304/304L, F316/316L, F321, F347</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex</a>
+                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super
+                                            Duplex</a>
                                     </td>
                                     <td>ASTM A182 F51 (UNS S31803), F53 (UNS S32750)</td>
                                 </tr>
@@ -312,7 +353,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -339,8 +381,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy"
+                                    width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -368,8 +410,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
+                                    width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -403,7 +445,8 @@
             <div class="section-title center">
                 <h2>Applications of Sockolets</h2>
                 <p class="text-center pb-3">
-                    <strong class="text-black">Sockolets</strong> are specifically used for creating small-bore branch lines
+                    <strong class="text-black">Sockolets</strong> are specifically used for creating small-bore branch
+                    lines
                     from larger high-pressure headers:
                 </p>
             </div>
@@ -566,7 +609,8 @@
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted">*A105N indicates the forging has been Normalized, which is critical
+            <p class="text-center mt-2 small text-muted">*A105N indicates the forging has been Normalized, which is
+                critical
                 for low-temperature toughness in pressure piping.</p>
         </div>
     </section>
@@ -574,78 +618,78 @@
 
 
     <!-- <section id="export" class="sec-padd-top sec-padd-bottom">
-        <div class="container text-center">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>
+            <div class="container text-center">
+                <div class="section-title center mb-4">
+                    <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>
+                </div>
+                <p class="fs-5">We supply Sockolets across major Indian industrial locations including Mumbai, Chennai,
+                    Ahmedabad, Pune, and Hyderabad, with efficient logistics support for domestic power and process industry
+                    projects.</p>
+                <p class="fs-5">We also regularly export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait, supplying sockolets for
+                    power plants, refineries, desalination units, and EPC contractors.</p>
             </div>
-            <p class="fs-5">We supply Sockolets across major Indian industrial locations including Mumbai, Chennai,
-                Ahmedabad, Pune, and Hyderabad, with efficient logistics support for domestic power and process industry
-                projects.</p>
-            <p class="fs-5">We also regularly export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait, supplying sockolets for
-                power plants, refineries, desalination units, and EPC contractors.</p>
-        </div>
-    </section> -->
+        </section> -->
 
     <!-- Testing & Quality Control for Sockolets -->
     <!-- <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Testing & Quality Control for Sockolets</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-fill"></i></div>
-                        <h4>Hydrostatic Test</h4>
-                        <h5>Hydrostatic test for pressure integrity verification.</h5>
-                    </div>
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Testing & Quality Control for Sockolets</h2>
                 </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
-                        <h4>Eddy Current Test</h4>
-                        <h5>Eddy current testing for detecting surface-level defects.</h5>
+                <div class="row g-4 mt-4">
+
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-droplet-fill"></i></div>
+                            <h4>Hydrostatic Test</h4>
+                            <h5>Hydrostatic test for pressure integrity verification.</h5>
+                        </div>
                     </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                            <h4>Eddy Current Test</h4>
+                            <h5>Eddy current testing for detecting surface-level defects.</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                            <h4>PMI Test</h4>
+                            <h5>PMI testing to verify material grade and composition.</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                            <h4>Hardness Test</h4>
+                            <h5>Hardness testing for strength and durability confirmation.</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
+                            <h4>Flattening & Flaring Test</h4>
+                            <h5>Flattening and flaring to assess ductility and deformation.</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-broadcast-pin"></i></div>
+                            <h4>Ultrasonic Test (UT)</h4>
+                            <h5>Ultrasonic testing for internal and volumetric defects.</h5>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                        <h4>PMI Test</h4>
-                        <h5>PMI testing to verify material grade and composition.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                        <h4>Hardness Test</h4>
-                        <h5>Hardness testing for strength and durability confirmation.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
-                        <h4>Flattening & Flaring Test</h4>
-                        <h5>Flattening and flaring to assess ductility and deformation.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-broadcast-pin"></i></div>
-                        <h4>Ultrasonic Test (UT)</h4>
-                        <h5>Ultrasonic testing for internal and volumetric defects.</h5>
-                    </div>
-                </div>
-
-            </div>
-
-    </section> -->
+        </section> -->
 
 
 

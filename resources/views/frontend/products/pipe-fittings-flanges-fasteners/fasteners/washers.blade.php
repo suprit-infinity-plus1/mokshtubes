@@ -1,7 +1,10 @@
 @extends('layouts.master')
 @section('title', 'Industrial Washers Manufacturer, Supplier & Exporter in India | Moksh Tubes')
-@section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Industrial Washers in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM, DIN & ISO standards with worldwide delivery.')
-@section('meta_keywords', 'Industrial Washers, Industrial Washers Manufacturer, Industrial Washers Supplier, Industrial Washers Exporter')
+@section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Industrial
+    Washers in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM, DIN & ISO standards
+    with worldwide delivery.')
+@section('meta_keywords', 'Industrial Washers, Industrial Washers Manufacturer, Industrial Washers Supplier, Industrial
+    Washers Exporter')
 @section('og_image', asset('/assets/images/product/flangs/FASTENERS.webp'))
 @section('og_type', 'product')
 @section('content')
@@ -47,8 +50,8 @@
             <div class="row align-items-center">
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('/assets/images/product/flangs/FASTENERS.webp') }}"
-                        alt="Industrial Washers Manufacturer" class="img-fluid rounded shadow-sm" width="550" height="350"
-                        loading="lazy">
+                        alt="Industrial Washers Manufacturer" class="img-fluid rounded shadow-sm" width="550"
+                        height="350" loading="lazy">
                 </div>
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
@@ -71,6 +74,49 @@
                     </p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Washers Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Washers datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
         </div>
     </section>
 
@@ -573,7 +619,8 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100"
+                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
                                     src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">

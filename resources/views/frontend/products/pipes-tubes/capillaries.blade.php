@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Capillary Tubes Supplier UAE, Saudi | Precision Tubing Exporter')
-@section('meta_description', 'Capillary tubes exporter to UAE, Saudi Arabia, Qatar & Oman. Precision micro tubes in stainless steel & alloys for medical, HVAC & industrial use.')
-@section('meta_keywords', 'Capillary tubes, precision capillary tubing, stainless steel capillary tubes, medical capillary tubes, HVAC capillary tubes, capillary tubes exporter, micro tubing supplier')
+@section('meta_description', 'Capillary tubes exporter to UAE, Saudi Arabia, Qatar & Oman. Precision micro tubes in
+    stainless steel & alloys for medical, HVAC & industrial use.')
+@section('meta_keywords', 'Capillary tubes, precision capillary tubing, stainless steel capillary tubes, medical
+    capillary tubes, HVAC capillary tubes, capillary tubes exporter, micro tubing supplier')
 @section('og_image', asset('assets/images/product/capillary-tubes.webp'))
 @section('og_type', 'article')
 
@@ -99,6 +101,49 @@
     </section>
 
 
+
+    <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Capillaries Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Capillaries datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -877,7 +922,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -904,8 +950,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy"
+                                    width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -933,8 +979,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
+                                    width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1015,33 +1061,33 @@
 
 
     <!-- <section id="testing" class="sec-padd-top sec-padd-bottom">
-                        <div class="container">
-                            <div class="row mt-4 justify-content-center">
-                                <div class="col-md-6 col-lg-5">
-                                    <div class="application-card h-100">
-                                        <div class="application-icon"><i class="bi bi-tools"></i></div>
-                                        <h5>Testing & Quality Control</h5>
-                                        <p><strong>Inspections:</strong> Dimensional inspection & surface finish testing</p>
-                                        <p><strong>Integrity:</strong> Hydrostatic testing & Eddy current testing</p>
-                                        <p><strong>Material:</strong> PMI (Positive Material Identification)</p>
-                                        <p><strong>Certification:</strong> Supplied with EN 10204 3.1 certification.</p>
+                            <div class="container">
+                                <div class="row mt-4 justify-content-center">
+                                    <div class="col-md-6 col-lg-5">
+                                        <div class="application-card h-100">
+                                            <div class="application-icon"><i class="bi bi-tools"></i></div>
+                                            <h5>Testing & Quality Control</h5>
+                                            <p><strong>Inspections:</strong> Dimensional inspection & surface finish testing</p>
+                                            <p><strong>Integrity:</strong> Hydrostatic testing & Eddy current testing</p>
+                                            <p><strong>Material:</strong> PMI (Positive Material Identification)</p>
+                                            <p><strong>Certification:</strong> Supplied with EN 10204 3.1 certification.</p>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="col-md-6 col-lg-5">
-                                    <div class="application-card h-100">
-                                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
-                                        <h5>Packaging & Export Capability</h5>
-                                        <p><strong>Supply Regions:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait, Europe & SE Asia</p>
-                                        <p><strong>Export Packaging:</strong> Seaworthy wooden crates, customized coils, ISPM-15 packaging
-                                        </p>
-                                        <p><strong>Documentation:</strong> Commercial Invoice & Packing List, Certificate of Origin, Mill
-                                            Test Certificates</p>
+                                    <div class="col-md-6 col-lg-5">
+                                        <div class="application-card h-100">
+                                            <div class="application-icon"><i class="bi bi-box-seam"></i></div>
+                                            <h5>Packaging & Export Capability</h5>
+                                            <p><strong>Supply Regions:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait, Europe & SE Asia</p>
+                                            <p><strong>Export Packaging:</strong> Seaworthy wooden crates, customized coils, ISPM-15 packaging
+                                            </p>
+                                            <p><strong>Documentation:</strong> Commercial Invoice & Packing List, Certificate of Origin, Mill
+                                                Test Certificates</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </section> -->
+                        </section> -->
 
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">

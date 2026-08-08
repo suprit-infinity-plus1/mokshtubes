@@ -1,20 +1,25 @@
 @extends('layouts.master')
 @section('title', 'Spectacle Blind Flanges Manufacturer, Supplier & Exporter in India | Moksh Tubes')
 <!-- 79 characters -->
-@section(
-    'meta_description',
-    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Spectacle Blind Flanges in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.48 certified with worldwide delivery.'
-)
-@section(
-    'meta_keywords',
-    'Spectacle Blind Flanges, Spectacle Blind Flanges Manufacturer, Spectacle Blind Flanges Supplier, Spectacle Blind Flanges Exporter, Stainless Steel Spectacle Blind Flanges, Carbon Steel Spectacle Blind Flanges, Alloy Steel Spectacle Blind Flanges, Duplex Spectacle Blind Flanges, Super Duplex Spectacle Blind Flanges, Figure 8 Blind Flanges, ASME B16.48 Spectacle Blind Flanges, Pipeline Isolation Flanges, Forged Spectacle Blind Flanges, RF Spectacle Blind Flanges, RTJ Spectacle Blind Flanges, Industrial Spectacle Blind Flanges, Figure 8 Blind, Pipeline Isolation Device, Forged Pipe Flanges, Industrial Pipe Flanges, Corrosion Resistant Flanges, High Pressure Flanges, Raised Face Flanges, Ring Type Joint Flanges, Oil & Gas Pipe Flanges, Petrochemical Flanges, Process Piping Components, ASME B16.48 Blind Flanges'
-)
+@section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Spectacle
+    Blind Flanges in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.48
+    certified with worldwide delivery.')
+@section('meta_keywords', 'Spectacle Blind Flanges, Spectacle Blind Flanges Manufacturer, Spectacle Blind Flanges
+    Supplier, Spectacle Blind Flanges Exporter, Stainless Steel Spectacle Blind Flanges, Carbon Steel Spectacle Blind
+    Flanges, Alloy Steel Spectacle Blind Flanges, Duplex Spectacle Blind Flanges, Super Duplex Spectacle Blind Flanges,
+    Figure 8 Blind Flanges, ASME B16.48 Spectacle Blind Flanges, Pipeline Isolation Flanges, Forged Spectacle Blind Flanges,
+    RF Spectacle Blind Flanges, RTJ Spectacle Blind Flanges, Industrial Spectacle Blind Flanges, Figure 8 Blind, Pipeline
+    Isolation Device, Forged Pipe Flanges, Industrial Pipe Flanges, Corrosion Resistant Flanges, High Pressure Flanges,
+    Raised Face Flanges, Ring Type Joint Flanges, Oil & Gas Pipe Flanges, Petrochemical Flanges, Process Piping Components,
+    ASME B16.48 Blind Flanges')
 @section('og_title', 'Spectacle Blind Flanges Manufacturer, Supplier & Exporter | Moksh Tubes')
-@section('og_description', 'Premium-quality Spectacle Blind Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.48 certified with worldwide export support.')
+@section('og_description', 'Premium-quality Spectacle Blind Flanges manufactured in Stainless Steel, Carbon Steel, Alloy
+    Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.48 certified with worldwide export support.')
 @section('og_image', asset('assets/images/fasteners/blind-flanges_11zon.jpg'))
 @section('og_type', 'product')
 @section('twitter_title', 'Spectacle Blind Flanges Manufacturer in India')
-@section('twitter_description', 'Buy premium-quality Spectacle Blind Flanges (Figure 8 Blinds) for safe pipeline isolation. Available in RF, RTJ & FF facing types with fast worldwide delivery.')
+@section('twitter_description', 'Buy premium-quality Spectacle Blind Flanges (Figure 8 Blinds) for safe pipeline
+    isolation. Available in RF, RTJ & FF facing types with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -25,7 +30,14 @@
                     <h1 class="page-title">Spectacle Blind Flanges Manufacturer, Supplier & Exporter in India</h1>
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Spectacle Blind Flanges are specialized pipeline isolation devices consisting of a solid blind and an open spacer connected by a metal bridge, resembling a pair of spectacles. They allow operators to easily switch between blocking and allowing flow, making them ideal for maintenance, inspection, and safety-critical piping systems. At Moksh Tubes & Fittings LLP, we manufacture, supply, and export premium-quality Spectacle Blind Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades. Manufactured to international standards, our spectacle blinds provide exceptional strength, corrosion resistance, and reliable performance in demanding industrial environments.
+                        Spectacle Blind Flanges are specialized pipeline isolation devices consisting of a solid blind and
+                        an open spacer connected by a metal bridge, resembling a pair of spectacles. They allow operators to
+                        easily switch between blocking and allowing flow, making them ideal for maintenance, inspection, and
+                        safety-critical piping systems. At Moksh Tubes & Fittings LLP, we manufacture, supply, and export
+                        premium-quality Spectacle Blind Flanges in stainless steel, carbon steel, alloy steel, duplex, super
+                        duplex, nickel alloys, and titanium grades. Manufactured to international standards, our spectacle
+                        blinds provide exceptional strength, corrosion resistance, and reliable performance in demanding
+                        industrial environments.
                     </p>
 
                 </div>
@@ -58,18 +70,26 @@
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/fasteners/blind-flanges_11zon.jpg') }}"
-                        alt="Spectacle Blind Flanges Manufacturer" class="img-fluid rounded shadow-sm" width="550" height="350"
-                        loading="lazy">
+                        alt="Spectacle Blind Flanges Manufacturer" class="img-fluid rounded shadow-sm" width="550"
+                        height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        A <strong>Spectacle Blind Flange</strong> is a pipeline isolation fitting used to safely stop or restore the flow of fluids in piping systems. It consists of two discs joined by a metal section—one solid disc (blind) that completely blocks the pipeline and one open ring (spacer) that allows unrestricted flow. By rotating the fitting, operators can quickly change the pipeline from an open to a closed position.
+                        A <strong>Spectacle Blind Flange</strong> is a pipeline isolation fitting used to safely stop or
+                        restore the flow of fluids in piping systems. It consists of two discs joined by a metal section—one
+                        solid disc (blind) that completely blocks the pipeline and one open ring (spacer) that allows
+                        unrestricted flow. By rotating the fitting, operators can quickly change the pipeline from an open
+                        to a closed position.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture precision-engineered Spectacle Blind Flanges using high-quality forged materials and advanced CNC machining technology. Designed to withstand high pressure, high temperature, and corrosive environments, our spectacle blinds are widely used in critical industrial piping systems where safe isolation is essential.
+                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture
+                        precision-engineered Spectacle Blind Flanges using high-quality forged materials and advanced CNC
+                        machining technology. Designed to withstand high pressure, high temperature, and corrosive
+                        environments, our spectacle blinds are widely used in critical industrial piping systems where safe
+                        isolation is essential.
                     </p>
 
                 </div>
@@ -77,24 +97,28 @@
         </div>
     </section>
 
-    {{-- datasheet --}}
+    <!-- Datasheet Download -->
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Spectacle Blind Flanges Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with chemical composition, mechanical properties, dimensions, and application
-                guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete Spectacle Blind Flanges datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="{{ csrf_token() }}" autocomplete="off">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="spectacle-blind-flanges-datasheet.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
+                        <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
                     </div>
+
                     <div class="col-md-3 mb-2">
                         <button type="submit" class="btn btn-lg w-100 text-white"
                             style="background-color:#db7227; border-radius:8px;">
@@ -104,7 +128,12 @@
                 </div>
             </form>
 
-            <hr class="my-4">
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
@@ -138,7 +167,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys &amp; Titanium</td>
+                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys
+                                        &amp; Titanium</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Size Range</td>
@@ -173,46 +203,46 @@
     </section>
 
     <!-- <section id="chemical-composition" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Chemical Composition</h2>
-            </div>
-            <p class="text-center pb-3">
-                The chemical composition of <strong>Spectacle Blind Flanges</strong> depends on the selected material grade. At Moksh Tubes &amp; Fittings LLP, our spectacle blind flanges are manufactured using premium-quality raw materials that comply with ASTM, ASME, API, EN, DIN, and JIS standards, ensuring excellent corrosion resistance, mechanical strength, and long service life.
-            </p>
+            <div class="container">
+                <div class="section-title center mb-4">
+                    <h2 class="fw-bold" style="color: #174268;">Chemical Composition</h2>
+                </div>
+                <p class="text-center pb-3">
+                    The chemical composition of <strong>Spectacle Blind Flanges</strong> depends on the selected material grade. At Moksh Tubes &amp; Fittings LLP, our spectacle blind flanges are manufactured using premium-quality raw materials that comply with ASTM, ASME, API, EN, DIN, and JIS standards, ensuring excellent corrosion resistance, mechanical strength, and long service life.
+                </p>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle text-center">
-                            <thead class="table-dark">
-                                <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>SS 304 (%)</th>
-                                    <th>SS 304L (%)</th>
-                                    <th>SS 316 (%)</th>
-                                    <th>SS 316L (%)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
-                                <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
-                                <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
-                                <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
-                                <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
-                                <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
-                                <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
-                                <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
-                                <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
-                                <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
-                            </tbody>
-                        </table>
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped align-middle text-center">
+                                <thead class="table-dark">
+                                    <tr class="t-row">
+                                        <th>Element</th>
+                                        <th>SS 304 (%)</th>
+                                        <th>SS 304L (%)</th>
+                                        <th>SS 316 (%)</th>
+                                        <th>SS 316L (%)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
+                                    <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
+                                    <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
+                                    <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
+                                    <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
+                                    <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
+                                    <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
+                                    <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
+                                    <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
+                                    <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
+                <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Spectacle Blind Flanges are manufactured in accordance with the relevant ASTM and ASME material specifications.</small></p>
             </div>
-            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Spectacle Blind Flanges are manufactured in accordance with the relevant ASTM and ASME material specifications.</small></p>
-        </div>
-    </section> -->
+        </section> -->
 
     <!-- charts -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom">
@@ -221,7 +251,8 @@
                 <h2 class="fw-bold" style="color: #174268;">Size &amp; Weight Chart</h2>
             </div>
             <p class="text-center pb-3">
-                Spectacle Blind Flanges are manufactured in accordance with <strong>ASME B16.48</strong> and are available in a wide range of nominal pipe sizes, pressure classes, and facing types.
+                Spectacle Blind Flanges are manufactured in accordance with <strong>ASME B16.48</strong> and are available
+                in a wide range of nominal pipe sizes, pressure classes, and facing types.
             </p>
 
             <div class="table-responsive mt-4">
@@ -236,24 +267,110 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>½"</td><td>150</td><td>90</td><td>12</td><td>0.80</td></tr>
-                        <tr class="t-row"><td>¾"</td><td>150</td><td>100</td><td>14</td><td>1.00</td></tr>
-                        <tr class="t-row"><td>1"</td><td>150</td><td>108</td><td>16</td><td>1.40</td></tr>
-                        <tr class="t-row"><td>1½"</td><td>150</td><td>127</td><td>18</td><td>2.20</td></tr>
-                        <tr class="t-row"><td>2"</td><td>150</td><td>152</td><td>20</td><td>3.40</td></tr>
-                        <tr class="t-row"><td>3"</td><td>150</td><td>191</td><td>24</td><td>6.20</td></tr>
-                        <tr class="t-row"><td>4"</td><td>150</td><td>229</td><td>26</td><td>9.50</td></tr>
-                        <tr class="t-row"><td>6"</td><td>150</td><td>279</td><td>30</td><td>16.80</td></tr>
-                        <tr class="t-row"><td>8"</td><td>150</td><td>343</td><td>34</td><td>27.50</td></tr>
-                        <tr class="t-row"><td>10"</td><td>150</td><td>406</td><td>38</td><td>41.80</td></tr>
-                        <tr class="t-row"><td>12"</td><td>150</td><td>483</td><td>42</td><td>60.50</td></tr>
-                        <tr class="t-row"><td>16"</td><td>150</td><td>597</td><td>48</td><td>101.80</td></tr>
-                        <tr class="t-row"><td>20"</td><td>150</td><td>711</td><td>54</td><td>165.40</td></tr>
-                        <tr class="t-row"><td>24"</td><td>150</td><td>813</td><td>60</td><td>245.00</td></tr>
+                        <tr class="t-row">
+                            <td>½"</td>
+                            <td>150</td>
+                            <td>90</td>
+                            <td>12</td>
+                            <td>0.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>¾"</td>
+                            <td>150</td>
+                            <td>100</td>
+                            <td>14</td>
+                            <td>1.00</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1"</td>
+                            <td>150</td>
+                            <td>108</td>
+                            <td>16</td>
+                            <td>1.40</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1½"</td>
+                            <td>150</td>
+                            <td>127</td>
+                            <td>18</td>
+                            <td>2.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2"</td>
+                            <td>150</td>
+                            <td>152</td>
+                            <td>20</td>
+                            <td>3.40</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3"</td>
+                            <td>150</td>
+                            <td>191</td>
+                            <td>24</td>
+                            <td>6.20</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>4"</td>
+                            <td>150</td>
+                            <td>229</td>
+                            <td>26</td>
+                            <td>9.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>6"</td>
+                            <td>150</td>
+                            <td>279</td>
+                            <td>30</td>
+                            <td>16.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>8"</td>
+                            <td>150</td>
+                            <td>343</td>
+                            <td>34</td>
+                            <td>27.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>10"</td>
+                            <td>150</td>
+                            <td>406</td>
+                            <td>38</td>
+                            <td>41.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>12"</td>
+                            <td>150</td>
+                            <td>483</td>
+                            <td>42</td>
+                            <td>60.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>16"</td>
+                            <td>150</td>
+                            <td>597</td>
+                            <td>48</td>
+                            <td>101.80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>20"</td>
+                            <td>150</td>
+                            <td>711</td>
+                            <td>54</td>
+                            <td>165.40</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>24"</td>
+                            <td>150</td>
+                            <td>813</td>
+                            <td>60</td>
+                            <td>245.00</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and may vary depending on the pressure class (Class 150–2500), facing type (RF, RTJ, FF), material grade, and ASME B16.48 requirements. Custom sizes and pressure ratings are available upon request.</p>
+            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> Dimensions and weights are approximate and
+                may vary depending on the pressure class (Class 150–2500), facing type (RF, RTJ, FF), material grade, and
+                ASME B16.48 requirements. Custom sizes and pressure ratings are available upon request.</p>
         </div>
     </section>
 
@@ -315,7 +432,8 @@
                         <div class="card-body py-4">
                             <i class="bi bi-gear-fill mb-3 d-block card-icon" style="font-size: 2rem;"></i>
                             <h5 class="card-title" style="font-weight: 600;">Carbon &amp; Alloy Steel</h5>
-                            <p class="card-text small mb-0">Carbon Steel ASTM A105, LF2<br>Alloy Steel ASTM A182 F11/F22/F91</p>
+                            <p class="card-text small mb-0">Carbon Steel ASTM A105, LF2<br>Alloy Steel ASTM A182
+                                F11/F22/F91</p>
                         </div>
                     </div>
                 </div>
@@ -538,7 +656,9 @@
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-                <p class="text-center">The mechanical properties of <strong>Spectacle Blind Flanges</strong> depend on the selected material grade and comply with applicable ASTM and ASME standards. The table below represents the typical mechanical properties for commonly supplied stainless steel grades.</p>
+                <p class="text-center">The mechanical properties of <strong>Spectacle Blind Flanges</strong> depend on the
+                    selected material grade and comply with applicable ASTM and ASME standards. The table below represents
+                    the typical mechanical properties for commonly supplied stainless steel grades.</p>
             </div>
 
             <div class="table-responsive">
@@ -574,7 +694,9 @@
                     </tbody>
                 </table>
             </div>
-            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Spectacle Blind Flanges are available in accordance with their respective ASTM/ASME material specifications upon request.</small></p>
+            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel,
+                    Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Spectacle Blind Flanges are available in
+                    accordance with their respective ASTM/ASME material specifications upon request.</small></p>
         </div>
     </section>
 
@@ -659,7 +781,9 @@
                                 <h4>What is a Spectacle Blind Flange?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>A Spectacle Blind Flange is a pipeline isolation device consisting of a solid blind and an open spacer connected together, allowing pipelines to be easily opened or closed for maintenance and operational safety.</p>
+                                <p>A Spectacle Blind Flange is a pipeline isolation device consisting of a solid blind and
+                                    an open spacer connected together, allowing pipelines to be easily opened or closed for
+                                    maintenance and operational safety.</p>
                             </div>
                         </div>
 
@@ -668,7 +792,9 @@
                                 <h4>Where are Spectacle Blind Flanges used?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>They are commonly used in oil &amp; gas, petrochemical, refineries, power plants, LNG facilities, offshore platforms, and other industrial piping systems requiring safe pipeline isolation.</p>
+                                <p>They are commonly used in oil &amp; gas, petrochemical, refineries, power plants, LNG
+                                    facilities, offshore platforms, and other industrial piping systems requiring safe
+                                    pipeline isolation.</p>
                             </div>
                         </div>
 
@@ -677,7 +803,8 @@
                                 <h4>Which materials are available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>We manufacture Spectacle Blind Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades.</p>
+                                <p>We manufacture Spectacle Blind Flanges in stainless steel, carbon steel, alloy steel,
+                                    duplex, super duplex, nickel alloys, and titanium grades.</p>
                             </div>
                         </div>
 
@@ -695,7 +822,8 @@
                                 <h4>Can you manufacture custom sizes and pressure classes?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Yes. We manufacture Spectacle Blind Flanges in standard and customized sizes, pressure classes, and material grades according to customer specifications.</p>
+                                <p>Yes. We manufacture Spectacle Blind Flanges in standard and customized sizes, pressure
+                                    classes, and material grades according to customer specifications.</p>
                             </div>
                         </div>
 
@@ -711,7 +839,8 @@
                 <h2>Request a Quote</h2>
                 <p>
                     Looking for a trusted <strong>Spectacle Blind Flanges</strong> manufacturer and supplier? Contact
-                    <strong>Moksh Tubes &amp; Fittings LLP</strong> for premium-quality pipeline isolation flanges, competitive
+                    <strong>Moksh Tubes &amp; Fittings LLP</strong> for premium-quality pipeline isolation flanges,
+                    competitive
                     pricing, ready stock, technical support, and fast worldwide delivery. Request your free quotation today.
                 </p>
                 <a href="{{ route('contact-us') }}" class="contact-cta-btn">

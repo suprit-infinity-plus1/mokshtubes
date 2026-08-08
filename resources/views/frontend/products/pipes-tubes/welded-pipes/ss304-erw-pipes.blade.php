@@ -1,16 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'SS 304 ERW Pipes ASTM A312 TP304 / TP304L | Manufacturer')
-@section(
-    'meta_description',
+@section('meta_description',
     'SS 304 ERW Pipes as per ASTM A312 TP304/TP304L. Manufacturer, supplier & exporter to
-    India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.'
-)
-@section(
-    'meta_keywords',
+    India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.')
+@section('meta_keywords',
     'SS 304 ERW Pipes, ASTM A312 TP304 Pipes, SS 304L ERW Pipes, Stainless Steel 304 ERW Pipes, SS
-    304 ERW Pipe Manufacturer, SS 304 ERW Pipe Supplier India, SS 304 ERW Pipe Exporter, ASTM A312 ERW Pipes'
-)
+    304 ERW Pipe Manufacturer, SS 304 ERW Pipe Supplier India, SS 304 ERW Pipe Exporter, ASTM A312 ERW Pipes')
 @section('og_image', asset('assets/images/all-product/ss-304-ERW-PIPES.jpg'))
 @section('og_type', 'article')
 
@@ -104,11 +100,12 @@
             </div>
         </div>
     </section>
+    <!-- Datasheet Download -->
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Inconel 600 Datasheet</h3>
+            <h3 class="mb-3" style="color:#174268;">Download SS304 ERW Pipes Datasheet</h3>
             <p class="mb-3">
-                Get the complete Inconel 600 datasheet with chemical composition,
+                Get the complete SS304 ERW Pipes datasheet with chemical composition,
                 mechanical properties, heat treatment details, and applications.
                 Enter your email to receive the PDF instantly.
             </p>
@@ -566,7 +563,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -593,8 +591,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy"
+                                    width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -622,8 +620,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
+                                    width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">

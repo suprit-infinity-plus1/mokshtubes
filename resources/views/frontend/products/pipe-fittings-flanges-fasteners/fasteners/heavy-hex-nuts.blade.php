@@ -1,10 +1,9 @@
 @extends('layouts.master')
 @section('title', 'Heavy Hex Nuts | High-Strength Nuts | Moksh Tubes')
 <!-- 52 characters -->
-@section('meta_description',
-    'High-strength Heavy Hex Nuts for structural and flange connections. Available in ASTM A194 Grade 2H, 8, 8M and high-temperature alloys.')
-@section('meta_keywords',
-    'Heavy Hex Nuts, ASTM A194 Grade 2H, Structural Nuts, Flange Nuts, High Strength Nuts')
+@section('meta_description', 'High-strength Heavy Hex Nuts for structural and flange connections. Available in ASTM A194
+    Grade 2H, 8, 8M and high-temperature alloys.')
+@section('meta_keywords', 'Heavy Hex Nuts, ASTM A194 Grade 2H, Structural Nuts, Flange Nuts, High Strength Nuts')
 @section('og_image', asset('assets/images/product/flangs/FASTENERS.webp'))
 @section('og_type', 'product')
 @section('content')
@@ -15,8 +14,15 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1 class="page-title">Heavy Hex Nuts</h1>
-                        <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Heavy Hex Nuts are slightly larger and thicker than standard hex nuts, providing increased bearing surface area and superior thread engagement for high-pressure, high-temperature structural fastening. Commonly paired with large-diameter stud bolts and hex bolts, they are essential for flanged piping systems. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply premium heavy hex nuts in carbon steel, alloy steel, and stainless steel, conforming strictly to ASTM A194, ASME B18.2.2, and DIN standards.
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Heavy Hex Nuts are slightly larger and thicker than standard hex nuts, providing increased bearing
+                        surface area and superior thread engagement for high-pressure, high-temperature structural
+                        fastening. Commonly paired with large-diameter stud bolts and hex bolts, they are essential for
+                        flanged piping systems. At <a href="{{ route('index') }}"
+                            class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply premium
+                        heavy hex nuts in carbon steel, alloy steel, and stainless steel, conforming strictly to ASTM A194,
+                        ASME B18.2.2, and DIN standards.
                     </p>
 
                 </div>
@@ -51,26 +57,32 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('/assets/images/product/flangs/FASTENERS.webp') }}"
-                        alt="Heavy Hex Nuts" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                    <img src="{{ asset('/assets/images/product/flangs/FASTENERS.webp') }}" alt="Heavy Hex Nuts"
+                        class="img-fluid rounded shadow-sm" width="550" height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Heavy Hex Nuts</strong> are engineered to withstand extreme tension and vibration. Their wider dimensions across the flats and increased thickness distribute the load over a larger area, reducing the chance of nut deformation and providing exceptional strength in high-load assemblies.
+                        <strong class="text-black">Heavy Hex Nuts</strong> are engineered to withstand extreme tension and
+                        vibration. Their wider dimensions across the flats and increased thickness distribute the load over
+                        a larger area, reducing the chance of nut deformation and providing exceptional strength in
+                        high-load assemblies.
                     </p>
 
                     <p class="fs-6 mb-3 text-justify">
                         <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a> is a leading manufacturer,
-                        supplier, and exporter of Heavy Hex Nuts in India, specializing in ASTM A194 Grade 2H, Grade 8, and Grade 8M. Our products are widely
-                        supplied to <a href="{{ route('materials.austenitic-stainless-Steel') }}">Indian petrochemical projects</a> and
+                        supplier, and exporter of Heavy Hex Nuts in India, specializing in ASTM A194 Grade 2H, Grade 8, and
+                        Grade 8M. Our products are widely
+                        supplied to <a href="{{ route('materials.austenitic-stainless-Steel') }}">Indian petrochemical
+                            projects</a> and
                         Gulf / GCC countries including UAE, Saudi Arabia, Qatar, Oman, and Kuwait.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        Manufactured via hot and cold forging processes, our nuts feature precision-tapped threads that ensure smooth engagement with stud bolts, preventing galling and providing a permanent, leak-proof seal for high-pressure flanges.
+                        Manufactured via hot and cold forging processes, our nuts feature precision-tapped threads that
+                        ensure smooth engagement with stud bolts, preventing galling and providing a permanent, leak-proof
+                        seal for high-pressure flanges.
                     </p>
 
                 </div>
@@ -79,7 +91,50 @@
     </section>
 
     {{-- datasheet --}}
-    
+
+
+    <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Heavy Hex Nuts Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Heavy Hex Nuts datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -100,7 +155,8 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td><a href="{{ route('materials.engineering-Steels') }}">Carbon/Alloy Steel</a>, <a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>,
+                                    <td><a href="{{ route('materials.engineering-Steels') }}">Carbon/Alloy Steel</a>, <a
+                                            href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>,
                                         <a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex
                                             Steel</a>, <a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel
                                             Alloys</a>, <a href="{{ route('materials.inconel') }}">Inconel</a>, Monel, <a
@@ -117,7 +173,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Finishes</td>
-                                    <td>PTFE (Teflon), Zinc Plated, Hot Dip Galvanized (HDG), Black Oxide, Cadmium, Plain</td>
+                                    <td>PTFE (Teflon), Zinc Plated, Hot Dip Galvanized (HDG), Black Oxide, Cadmium, Plain
+                                    </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Standards</td>
@@ -135,7 +192,7 @@
         </div>
     </section>
 
-   <!-- charts -->
+    <!-- charts -->
     <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
 
         <div class="container">
@@ -146,7 +203,7 @@
             <div class="section-title center mb-3">
                 <h3 class="text-center mb-0" style="color: #db7227;">Heavy Hex Nut Dimensions (ASME B18.2.2 - Imperial)</h3>
             </div>
-            
+
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
@@ -158,23 +215,69 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>1/2"</td><td>13</td><td>7/8</td><td>31/64</td></tr>
-                        <tr class="t-row"><td>5/8"</td><td>11</td><td>1-1/16</td><td>39/64</td></tr>
-                        <tr class="t-row"><td>3/4"</td><td>10</td><td>1-1/4</td><td>47/64</td></tr>
-                        <tr class="t-row"><td>7/8"</td><td>9</td><td>1-7/16</td><td>55/64</td></tr>
-                        <tr class="t-row"><td>1"</td><td>8</td><td>1-5/8</td><td>63/64</td></tr>
-                        <tr class="t-row"><td>1-1/8"</td><td>8 (8-UN)</td><td>1-13/16</td><td>1-7/64</td></tr>
-                        <tr class="t-row"><td>1-1/4"</td><td>8 (8-UN)</td><td>2</td><td>1-7/32</td></tr>
-                        <tr class="t-row"><td>1-1/2"</td><td>8 (8-UN)</td><td>2-3/8</td><td>1-15/32</td></tr>
-                        <tr class="t-row"><td>2"</td><td>8 (8-UN)</td><td>3-1/8</td><td>1-31/32</td></tr>
+                        <tr class="t-row">
+                            <td>1/2"</td>
+                            <td>13</td>
+                            <td>7/8</td>
+                            <td>31/64</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>5/8"</td>
+                            <td>11</td>
+                            <td>1-1/16</td>
+                            <td>39/64</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3/4"</td>
+                            <td>10</td>
+                            <td>1-1/4</td>
+                            <td>47/64</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>7/8"</td>
+                            <td>9</td>
+                            <td>1-7/16</td>
+                            <td>55/64</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1"</td>
+                            <td>8</td>
+                            <td>1-5/8</td>
+                            <td>63/64</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1-1/8"</td>
+                            <td>8 (8-UN)</td>
+                            <td>1-13/16</td>
+                            <td>1-7/64</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1-1/4"</td>
+                            <td>8 (8-UN)</td>
+                            <td>2</td>
+                            <td>1-7/32</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1-1/2"</td>
+                            <td>8 (8-UN)</td>
+                            <td>2-3/8</td>
+                            <td>1-15/32</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>2"</td>
+                            <td>8 (8-UN)</td>
+                            <td>3-1/8</td>
+                            <td>1-31/32</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted">*Above 1" nominal size, the 8-UN (8 threads per inch) thread series is standard for ASTM A194 Grade 2H heavy hex nuts used in high-pressure flanges.</p>
+            <p class="text-center mt-2 small text-muted">*Above 1" nominal size, the 8-UN (8 threads per inch) thread
+                series is standard for ASTM A194 Grade 2H heavy hex nuts used in high-pressure flanges.</p>
         </div>
     </section>
 
-    
+
 
     {{-- Grades Available --}}
     <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
@@ -183,7 +286,8 @@
                 <h2>Available Grades & Materials</h2>
             </div>
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">ASTM A194 – Standard Specification for Carbon/Alloy/Stainless Nuts:</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">ASTM A194 – Standard Specification for
+                    Carbon/Alloy/Stainless Nuts:</h4>
             </div>
 
             <div class="row justify-content-center">
@@ -234,8 +338,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.engineering-Steels') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Carbon Steel Heavy Hex Nuts" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Carbon Steel Heavy Hex Nuts" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -248,8 +351,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="Stainless Steel Heavy Hex Nuts" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Stainless Steel Heavy Hex Nuts" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -262,8 +364,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and Super Duplex Nuts" loading="lazy"
-                                    width="400" height="260">
+                                    alt="Duplex and Super Duplex Nuts" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -277,8 +378,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel Alloy Heavy Hex Nuts" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Nickel Alloy Heavy Hex Nuts" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -291,8 +391,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes Superalloy Nuts" loading="lazy"
-                                    width="400" height="260">
+                                    alt="Haynes Superalloy Nuts" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -305,8 +404,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.titanium') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="Titanium Heavy Hex Nuts" loading="lazy"
-                                    width="400" height="260">
+                                    alt="Titanium Heavy Hex Nuts" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -325,7 +423,8 @@
             <div class="section-title center">
                 <h2>Applications of Heavy Hex Nuts</h2>
                 <p class="text-center pb-3">
-                    <strong class="text-black">Heavy Hex Nuts</strong> are the standard for high-stress connections across major industries:
+                    <strong class="text-black">Heavy Hex Nuts</strong> are the standard for high-stress connections across
+                    major industries:
                 </p>
             </div>
 
@@ -390,7 +489,7 @@
 
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-             <div class="section-title center mb-4">
+            <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties – ASTM A194</h2>
             </div>
 
@@ -417,7 +516,7 @@
                             <td>159 - 235</td>
                             <td>99 HRB - 22 HRC</td>
                         </tr>
-                         <tr class="t-row">
+                        <tr class="t-row">
                             <td>Grade 8 / 8M (Carbide Solution Treated)</td>
                             <td>550</td>
                             <td>126 - 300</td>
@@ -426,7 +525,8 @@
                     </tbody>
                 </table>
             </div>
-             <p class="text-center mt-2 small text-muted">*Grade 2H requires high proof load stress for heavy industrial use, while Grade 8/8M prioritizes corrosion resistance.</p>
+            <p class="text-center mt-2 small text-muted">*Grade 2H requires high proof load stress for heavy industrial
+                use, while Grade 8/8M prioritizes corrosion resistance.</p>
         </div>
     </section>
 
@@ -435,13 +535,17 @@
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Tolerances & Quality Standards</h2>
             </div>
-            
+
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Thread Tolerance:</strong> Unified Inch threads conform to ASME B1.1 Class 2B fit; Metric threads to ISO 965 Class 6H.</li>
-                        <li class="list-group-item"><strong>Dimensional Tolerance:</strong> Strictly adheres to ASME B18.2.2 ensuring proper wrench fitment and bearing surface flatness.</li>
-                        <li class="list-group-item"><strong>Overtapping for Galvanizing:</strong> Nuts that are Hot-Dip Galvanized (HDG) are tapped slightly oversize (overtapped) to accommodate the thickness of the zinc coating on the mating stud bolt.</li>
+                        <li class="list-group-item"><strong>Thread Tolerance:</strong> Unified Inch threads conform to ASME
+                            B1.1 Class 2B fit; Metric threads to ISO 965 Class 6H.</li>
+                        <li class="list-group-item"><strong>Dimensional Tolerance:</strong> Strictly adheres to ASME
+                            B18.2.2 ensuring proper wrench fitment and bearing surface flatness.</li>
+                        <li class="list-group-item"><strong>Overtapping for Galvanizing:</strong> Nuts that are Hot-Dip
+                            Galvanized (HDG) are tapped slightly oversize (overtapped) to accommodate the thickness of the
+                            zinc coating on the mating stud bolt.</li>
                     </ul>
                 </div>
             </div>
@@ -512,7 +616,10 @@
                                 <h4>Why use a Heavy Hex Nut instead of a Standard Hex Nut?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Heavy hex nuts have a larger width across the flats and are slightly thicker. This provides a greater bearing surface against the flange face, preventing the nut from pulling through or deforming under the extreme tension required in high-pressure piping systems.</p>
+                                <p>Heavy hex nuts have a larger width across the flats and are slightly thicker. This
+                                    provides a greater bearing surface against the flange face, preventing the nut from
+                                    pulling through or deforming under the extreme tension required in high-pressure piping
+                                    systems.</p>
                             </div>
                         </div>
 
@@ -521,7 +628,8 @@
                                 <h4>What stud bolt should be used with an ASTM A194 Grade 2H heavy hex nut?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Grade 2H nuts are most commonly paired with ASTM A193 Grade B7 stud bolts for high-temperature and high-pressure service.</p>
+                                <p>Grade 2H nuts are most commonly paired with ASTM A193 Grade B7 stud bolts for
+                                    high-temperature and high-pressure service.</p>
                             </div>
                         </div>
 
@@ -530,7 +638,9 @@
                                 <h4>What does "8-UN" mean in relation to heavy hex nuts?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>8-UN stands for 8 threads per inch. For heavy hex nuts and studs larger than 1 inch in diameter, the 8-UN thread series is standard (instead of UNC) to ensure consistent thread engagement and strength across larger sizes.</p>
+                                <p>8-UN stands for 8 threads per inch. For heavy hex nuts and studs larger than 1 inch in
+                                    diameter, the 8-UN thread series is standard (instead of UNC) to ensure consistent
+                                    thread engagement and strength across larger sizes.</p>
                             </div>
                         </div>
 
@@ -539,7 +649,9 @@
                                 <h4>Are Heavy Hex Nuts reusable after being tightened in a flange?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>In critical high-pressure and high-temperature applications, it is generally recommended to replace heavy hex nuts and studs once they have been fully torqued and removed, as the threads may have yielded or deformed slightly.</p>
+                                <p>In critical high-pressure and high-temperature applications, it is generally recommended
+                                    to replace heavy hex nuts and studs once they have been fully torqued and removed, as
+                                    the threads may have yielded or deformed slightly.</p>
                             </div>
                         </div>
 
@@ -553,8 +665,10 @@
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
-                <p>For further information, quotes, or custom manufacturing of Heavy Hex Nuts, <strong>Moksh Tubes & Fittings LLP</strong> is your dependable partner for industrial flanged fastening solutions.</p>
-                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal" data-bs-target="#contactFormModal">
+                <p>For further information, quotes, or custom manufacturing of Heavy Hex Nuts, <strong>Moksh Tubes &
+                        Fittings LLP</strong> is your dependable partner for industrial flanged fastening solutions.</p>
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
                     Get in Touch
                 </a>
             </div>

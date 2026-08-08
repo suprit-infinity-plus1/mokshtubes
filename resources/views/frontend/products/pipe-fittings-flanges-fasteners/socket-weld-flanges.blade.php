@@ -1,20 +1,25 @@
 @extends('layouts.master')
 @section('title', 'Socket Weld Flanges Manufacturer, Supplier & Exporter in India | Moksh Tubes')
 <!-- 76 characters -->
-@section(
-    'meta_description',
-    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Socket Weld Flanges in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 certified with worldwide delivery.'
-)
-@section(
-    'meta_keywords',
-    'Socket Weld Flanges, Socket Weld Flanges Manufacturer, Socket Weld Flanges Supplier, Socket Weld Flanges Exporter, Stainless Steel Socket Weld Flanges, Carbon Steel Socket Weld Flanges, Alloy Steel Socket Weld Flanges, Duplex Socket Weld Flanges, Super Duplex Socket Weld Flanges, Forged Socket Weld Flanges, ASME B16.5 Socket Weld Flanges, SW Flanges, High Pressure Socket Weld Flanges, Industrial Socket Weld Flanges, RF Socket Weld Flanges, RTJ Socket Weld Flanges, Forged Pipe Flanges, High Pressure Pipe Flanges, Socket Weld Pipe Connection, Industrial Pipe Flanges, Corrosion Resistant Flanges, Raised Face Flanges, Ring Type Joint Flanges, Flat Face Flanges, Oil & Gas Pipe Flanges, Petrochemical Flanges, Process Piping Components, Small Bore Pipe Flanges'
-)
+@section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Socket Weld
+    Flanges in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5
+    certified with worldwide delivery.')
+@section('meta_keywords', 'Socket Weld Flanges, Socket Weld Flanges Manufacturer, Socket Weld Flanges Supplier, Socket
+    Weld Flanges Exporter, Stainless Steel Socket Weld Flanges, Carbon Steel Socket Weld Flanges, Alloy Steel Socket Weld
+    Flanges, Duplex Socket Weld Flanges, Super Duplex Socket Weld Flanges, Forged Socket Weld Flanges, ASME B16.5 Socket
+    Weld Flanges, SW Flanges, High Pressure Socket Weld Flanges, Industrial Socket Weld Flanges, RF Socket Weld Flanges, RTJ
+    Socket Weld Flanges, Forged Pipe Flanges, High Pressure Pipe Flanges, Socket Weld Pipe Connection, Industrial Pipe
+    Flanges, Corrosion Resistant Flanges, Raised Face Flanges, Ring Type Joint Flanges, Flat Face Flanges, Oil & Gas Pipe
+    Flanges, Petrochemical Flanges, Process Piping Components, Small Bore Pipe Flanges')
 @section('og_title', 'Socket Weld Flanges Manufacturer, Supplier & Exporter | Moksh Tubes')
-@section('og_description', 'Premium-quality Socket Weld Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified with worldwide export support.')
+@section('og_description', 'Premium-quality Socket Weld Flanges manufactured in Stainless Steel, Carbon Steel, Alloy
+    Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified with worldwide export
+    support.')
 @section('og_image', asset('assets/images/fasteners/sorf-flanges_11zon.jpg'))
 @section('og_type', 'product')
 @section('twitter_title', 'Socket Weld Flanges Manufacturer in India')
-@section('twitter_description', 'Buy premium-quality Socket Weld Flanges for high-pressure piping systems. Available in RF, RTJ & FF facing types, multiple pressure classes, and material grades with fast worldwide delivery.')
+@section('twitter_description', 'Buy premium-quality Socket Weld Flanges for high-pressure piping systems. Available in
+    RF, RTJ & FF facing types, multiple pressure classes, and material grades with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -64,8 +69,8 @@
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/fasteners/sorf-flanges_11zon.jpg') }}"
-                        alt="Socket Weld Flanges Manufacturer" class="img-fluid rounded shadow-sm" width="550" height="350"
-                        loading="lazy">
+                        alt="Socket Weld Flanges Manufacturer" class="img-fluid rounded shadow-sm" width="550"
+                        height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
@@ -90,24 +95,28 @@
         </div>
     </section>
 
-    {{-- datasheet --}}
+    <!-- Datasheet Download -->
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Socket Weld Flanges Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application
-                guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete Socket Weld Flanges datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="{{ csrf_token() }}" autocomplete="off">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="socket-weld-flanges-datasheet.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
+                        <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
                     </div>
+
                     <div class="col-md-3 mb-2">
                         <button type="submit" class="btn btn-lg w-100 text-white"
                             style="background-color:#db7227; border-radius:8px;">
@@ -117,7 +126,12 @@
                 </div>
             </form>
 
-            <hr class="my-4">
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
@@ -187,46 +201,46 @@
     </section>
 
     <!-- <section id="chemical-composition" class="sec-padd-top sec-padd-bottom bg-light">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>Chemical Composition</h2>
-                </div>
-                <p class="text-center pb-3">
-                    The chemical composition of <strong>Socket Weld Flanges</strong> depends on the selected material grade. At Moksh Tubes & Fittings LLP, our Socket Weld Flanges are manufactured from premium-quality raw materials that comply with ASTM, ASME, EN, DIN, BS, and JIS standards, ensuring superior corrosion resistance, high mechanical strength, and long service life.
-                </p>
+                <div class="container">
+                    <div class="section-title center">
+                        <h2>Chemical Composition</h2>
+                    </div>
+                    <p class="text-center pb-3">
+                        The chemical composition of <strong>Socket Weld Flanges</strong> depends on the selected material grade. At Moksh Tubes & Fittings LLP, our Socket Weld Flanges are manufactured from premium-quality raw materials that comply with ASTM, ASME, EN, DIN, BS, and JIS standards, ensuring superior corrosion resistance, high mechanical strength, and long service life.
+                    </p>
 
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="table-responsive">
-                            <table class="table table-bordered table-striped align-middle text-center">
-                                <thead class="table-dark">
-                                    <tr class="t-row">
-                                        <th>Element</th>
-                                        <th>SS 304 (%)</th>
-                                        <th>SS 304L (%)</th>
-                                        <th>SS 316 (%)</th>
-                                        <th>SS 316L (%)</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
-                                    <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
-                                    <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
-                                    <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
-                                    <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
-                                    <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
-                                    <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
-                                    <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
-                                    <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
-                                    <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
-                                </tbody>
-                            </table>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped align-middle text-center">
+                                    <thead class="table-dark">
+                                        <tr class="t-row">
+                                            <th>Element</th>
+                                            <th>SS 304 (%)</th>
+                                            <th>SS 304L (%)</th>
+                                            <th>SS 316 (%)</th>
+                                            <th>SS 316L (%)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
+                                        <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
+                                        <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
+                                        <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
+                                        <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
+                                        <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
+                                        <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
+                                        <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
+                                        <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
+                                        <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
+                    <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Socket Weld Flanges are manufactured in accordance with the relevant ASTM and ASME material specifications.</small></p>
                 </div>
-                <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Socket Weld Flanges are manufactured in accordance with the relevant ASTM and ASME material specifications.</small></p>
-            </div>
-        </section> -->
+            </section> -->
 
     <!-- charts -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom">
@@ -417,7 +431,8 @@
                         <div class="card-body py-4">
                             <i class="bi bi-gear-fill mb-3 d-block card-icon" style="font-size: 2rem;"></i>
                             <h5 class="card-title" style="font-weight: 600;">Carbon &amp; Alloy Steel</h5>
-                            <p class="card-text small mb-0">Carbon Steel ASTM A105, LF2<br>Alloy Steel ASTM A182 F11/F22/F91
+                            <p class="card-text small mb-0">Carbon Steel ASTM A105, LF2<br>Alloy Steel ASTM A182
+                                F11/F22/F91
                             </p>
                         </div>
                     </div>
@@ -576,7 +591,8 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100"
+                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
                                     src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
@@ -810,53 +826,53 @@
 
     <!-- Testing & Quality Control -->
     <!-- <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Testing & Quality</h2>
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Testing & Quality</h2>
+                </div>
+
+                <div class="row g-4 mt-4">
+
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                            <h4>Tensile Test</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                            <h4>Proof Load Test</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                            <h4>PMI Test</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                            <h4>Thread Gauging</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
+                            <h4>Hardness Test</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
+                            <h4>Magnetic Particle Inspection</h4>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-
-            <div class="row g-4 mt-4">
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                        <h4>Tensile Test</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
-                        <h4>Proof Load Test</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                        <h4>PMI Test</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                        <h4>Thread Gauging</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
-                        <h4>Hardness Test</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
-                        <h4>Magnetic Particle Inspection</h4>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section> -->
+        </section> -->
 
     {{-- why choose us --}}
     <section id="why-choose-us" class="sec-padd-top sec-padd-bottom">

@@ -55,17 +55,22 @@
     </div>
     <!-- End Material Tabs -->
 
+        <!-- Datasheet Download -->
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download U-Bent Tubes Datasheet</h3>
             <p class="mb-3">
-                Get the complete technical datasheet containing material grades, specifications, dimensions, testing
-                requirements, and application guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete U-Bent Tubes datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
             </p>
 
+            <!-- Lead Capture Form -->
             <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
-                <input type="hidden" name="page_path" value="{{ Request::path() }}">
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
                 <div class="row justify-content-center">
                     <div class="col-md-6 mb-2">
                         <input type="email" name="email" required class="form-control p-3"

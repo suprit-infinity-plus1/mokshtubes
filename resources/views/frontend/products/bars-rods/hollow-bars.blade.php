@@ -1,20 +1,18 @@
 @extends('layouts.master')
 @section('title', 'Hollow Bars Manufacturer, Supplier & Exporter | Stainless & Alloy Steel')
 <!-- 84 characters -->
-@section(
-    'meta_description',
-    'Moksh Tubes & Fittings LLP manufactures and exports Stainless Steel, Alloy Steel, Carbon Steel, Duplex, Nickel Alloy & Titanium Hollow Bars in custom sizes.'
-)
-@section(
-    'meta_keywords',
-    'Hollow Bars, Stainless Hollow Bars, Alloy Hollow Bars, MS Hollow Bars, Aluminium Hollow Bars, Bronze Hollow Bars, Carbon Steel Hollow Bars, Round Hollow Bars, Square Hollow Bars'
-)
+@section('meta_description', 'Moksh Tubes & Fittings LLP manufactures and exports Stainless Steel, Alloy Steel, Carbon
+    Steel, Duplex, Nickel Alloy & Titanium Hollow Bars in custom sizes.')
+@section('meta_keywords', 'Hollow Bars, Stainless Hollow Bars, Alloy Hollow Bars, MS Hollow Bars, Aluminium Hollow Bars,
+    Bronze Hollow Bars, Carbon Steel Hollow Bars, Round Hollow Bars, Square Hollow Bars')
 @section('og_title', 'Hollow Bars Manufacturer, Supplier & Exporter | Moksh Tubes')
-@section('og_description', 'Moksh Tubes & Fittings LLP manufactures and exports Stainless Steel, Alloy Steel, Carbon Steel, Duplex, Nickel Alloy & Titanium Hollow Bars in custom sizes with worldwide delivery.')
+@section('og_description', 'Moksh Tubes & Fittings LLP manufactures and exports Stainless Steel, Alloy Steel, Carbon
+    Steel, Duplex, Nickel Alloy & Titanium Hollow Bars in custom sizes with worldwide delivery.')
 @section('og_image', asset('assets/images/product/Hollow-Bars.webp'))
 @section('og_type', 'product')
 @section('twitter_title', 'Hollow Bars Manufacturer in India')
-@section('twitter_description', 'Buy premium-quality Hollow Bars in Stainless Steel, Carbon Steel, Alloy Steel, and Nickel Alloys grades with fast worldwide delivery.')
+@section('twitter_description', 'Buy premium-quality Hollow Bars in Stainless Steel, Carbon Steel, Alloy Steel, and
+    Nickel Alloys grades with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -25,7 +23,12 @@
                     <h1 class="page-title">Hollow Bars Manufacturer, Supplier & Exporter in India</h1>
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Hollow Bars are precision-engineered metal bars with a hollow center that provide excellent strength, reduced weight, and superior machinability. Manufactured in stainless steel, carbon steel, alloy steel, duplex stainless steel, nickel alloys, titanium, and copper alloys, hollow bars are widely used in machining, hydraulic cylinders, construction, automotive, oil & gas, marine, aerospace, and heavy engineering industries. Moksh Tubes & Fittings LLP supplies high-quality hollow bars in seamless and welded forms with custom sizes, finishes, and international standards.
+                        Hollow Bars are precision-engineered metal bars with a hollow center that provide excellent
+                        strength, reduced weight, and superior machinability. Manufactured in stainless steel, carbon steel,
+                        alloy steel, duplex stainless steel, nickel alloys, titanium, and copper alloys, hollow bars are
+                        widely used in machining, hydraulic cylinders, construction, automotive, oil & gas, marine,
+                        aerospace, and heavy engineering industries. Moksh Tubes & Fittings LLP supplies high-quality hollow
+                        bars in seamless and welded forms with custom sizes, finishes, and international standards.
                     </p>
 
                 </div>
@@ -58,47 +61,61 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/Hollow-Bars.webp') }}"
-                        alt="Hollow Bars Manufacturer" class="img-fluid rounded shadow-sm" width="550" height="350"
-                        loading="lazy">
+                    <img src="{{ asset('assets/images/product/Hollow-Bars.webp') }}" alt="Hollow Bars Manufacturer"
+                        class="img-fluid rounded shadow-sm" width="550" height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong>Hollow Bars</strong> are high-strength tubular metal bars manufactured with a precision hollow bore, offering significant weight reduction without compromising structural integrity. Their excellent dimensional accuracy, superior machinability, and reduced material wastage make them an ideal choice for manufacturing hydraulic cylinders, machine components, bearings, bushings, rollers, valve bodies, shafts, and precision engineering parts.
+                        <strong>Hollow Bars</strong> are high-strength tubular metal bars manufactured with a precision
+                        hollow bore, offering significant weight reduction without compromising structural integrity. Their
+                        excellent dimensional accuracy, superior machinability, and reduced material wastage make them an
+                        ideal choice for manufacturing hydraulic cylinders, machine components, bearings, bushings, rollers,
+                        valve bodies, shafts, and precision engineering parts.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we are a trusted manufacturer, supplier, and exporter of premium-quality Hollow Bars in India. Our extensive product range includes Stainless Steel Hollow Bars, Carbon Steel Hollow Bars, Alloy Steel Hollow Bars, Duplex & Super Duplex Hollow Bars, Nickel Alloy Hollow Bars, Titanium Hollow Bars, Aluminium Hollow Bars, and Copper Alloy Hollow Bars manufactured in accordance with ASTM, ASME, DIN, EN, ISO, and JIS standards.
+                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we are a trusted manufacturer,
+                        supplier, and exporter of premium-quality Hollow Bars in India. Our extensive product range includes
+                        Stainless Steel Hollow Bars, Carbon Steel Hollow Bars, Alloy Steel Hollow Bars, Duplex & Super
+                        Duplex Hollow Bars, Nickel Alloy Hollow Bars, Titanium Hollow Bars, Aluminium Hollow Bars, and
+                        Copper Alloy Hollow Bars manufactured in accordance with ASTM, ASME, DIN, EN, ISO, and JIS
+                        standards.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        Our hollow bars are supplied to industries across India, UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bangladesh, Europe, and other international markets, ensuring reliable performance in demanding industrial applications.
+                        Our hollow bars are supplied to industries across India, UAE, Saudi Arabia, Qatar, Oman, Kuwait,
+                        Bangladesh, Europe, and other international markets, ensuring reliable performance in demanding
+                        industrial applications.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    {{-- datasheet --}}
+    <!-- Datasheet Download -->
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Hollow Bars Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with mechanical properties, sizes, weight charts, and application
-                guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete Hollow Bars datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="{{ csrf_token() }}" autocomplete="off">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="hollow-bars-datasheet.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
+                        <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
                     </div>
+
                     <div class="col-md-3 mb-2">
                         <button type="submit" class="btn btn-lg w-100 text-white"
                             style="background-color:#db7227; border-radius:8px;">
@@ -108,7 +125,12 @@
                 </div>
             </form>
 
-            <hr class="my-4">
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
@@ -134,7 +156,8 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex &amp; Super Duplex, Nickel Alloys, Titanium, Copper Alloys</td>
+                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex &amp; Super Duplex, Nickel
+                                        Alloys, Titanium, Copper Alloys</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Manufacturing</td>
@@ -189,7 +212,7 @@
             <p class="text-center pb-3">
                 <strong>Hollow Section Pipe Weight Chart – Square Sections</strong>
             </p>
-            
+
             <div class="table-responsive mt-4">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
@@ -205,19 +228,101 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="t-row"><td>20×20</td><td>20</td><td>1.10</td><td>1.60</td><td>2.10</td><td>2.60</td><td>3.10</td><td>4.10</td></tr>
-                        <tr class="t-row"><td>30×30</td><td>30</td><td>1.66</td><td>2.42</td><td>3.18</td><td>3.94</td><td>4.70</td><td>6.23</td></tr>
-                        <tr class="t-row"><td>40×40</td><td>40</td><td>2.22</td><td>3.26</td><td>4.31</td><td>5.36</td><td>6.39</td><td>8.46</td></tr>
-                        <tr class="t-row"><td>50×50</td><td>50</td><td>2.83</td><td>4.18</td><td>5.53</td><td>6.88</td><td>8.21</td><td>10.88</td></tr>
-                        <tr class="t-row"><td>60×60</td><td>60</td><td>3.38</td><td>4.98</td><td>6.59</td><td>8.19</td><td>9.78</td><td>13.00</td></tr>
-                        <tr class="t-row"><td>80×80</td><td>80</td><td>4.51</td><td>6.60</td><td>8.72</td><td>10.75</td><td>12.78</td><td>17.26</td></tr>
-                        <tr class="t-row"><td>100×100</td><td>100</td><td>5.70</td><td>8.43</td><td>11.17</td><td>13.90</td><td>16.61</td><td>22.05</td></tr>
-                        <tr class="t-row"><td>150×150</td><td>150</td><td>8.60</td><td>12.74</td><td>16.88</td><td>21.02</td><td>25.16</td><td>33.44</td></tr>
-                        <tr class="t-row"><td>200×200</td><td>200</td><td>11.50</td><td>17.04</td><td>22.59</td><td>28.13</td><td>33.67</td><td>44.74</td></tr>
+                        <tr class="t-row">
+                            <td>20×20</td>
+                            <td>20</td>
+                            <td>1.10</td>
+                            <td>1.60</td>
+                            <td>2.10</td>
+                            <td>2.60</td>
+                            <td>3.10</td>
+                            <td>4.10</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>30×30</td>
+                            <td>30</td>
+                            <td>1.66</td>
+                            <td>2.42</td>
+                            <td>3.18</td>
+                            <td>3.94</td>
+                            <td>4.70</td>
+                            <td>6.23</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>40×40</td>
+                            <td>40</td>
+                            <td>2.22</td>
+                            <td>3.26</td>
+                            <td>4.31</td>
+                            <td>5.36</td>
+                            <td>6.39</td>
+                            <td>8.46</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>50×50</td>
+                            <td>50</td>
+                            <td>2.83</td>
+                            <td>4.18</td>
+                            <td>5.53</td>
+                            <td>6.88</td>
+                            <td>8.21</td>
+                            <td>10.88</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>60×60</td>
+                            <td>60</td>
+                            <td>3.38</td>
+                            <td>4.98</td>
+                            <td>6.59</td>
+                            <td>8.19</td>
+                            <td>9.78</td>
+                            <td>13.00</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>80×80</td>
+                            <td>80</td>
+                            <td>4.51</td>
+                            <td>6.60</td>
+                            <td>8.72</td>
+                            <td>10.75</td>
+                            <td>12.78</td>
+                            <td>17.26</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>100×100</td>
+                            <td>100</td>
+                            <td>5.70</td>
+                            <td>8.43</td>
+                            <td>11.17</td>
+                            <td>13.90</td>
+                            <td>16.61</td>
+                            <td>22.05</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>150×150</td>
+                            <td>150</td>
+                            <td>8.60</td>
+                            <td>12.74</td>
+                            <td>16.88</td>
+                            <td>21.02</td>
+                            <td>25.16</td>
+                            <td>33.44</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>200×200</td>
+                            <td>200</td>
+                            <td>11.50</td>
+                            <td>17.04</td>
+                            <td>22.59</td>
+                            <td>28.13</td>
+                            <td>33.67</td>
+                            <td>44.74</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> We also provide detailed weight charts for Rectangular and Oval Sections in our downloadable datasheet.</p>
+            <p class="text-center mt-2 small text-muted"><strong>Note:</strong> We also provide detailed weight charts for
+                Rectangular and Oval Sections in our downloadable datasheet.</p>
         </div>
     </section>
 
@@ -391,7 +496,7 @@
         </div>
     </section>
 
-     {{-- Gallery / Products --}}
+    {{-- Gallery / Products --}}
     <section class="our-services sec-padd-top">
         <div class="container">
             <div class="row">
@@ -475,7 +580,8 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100"
+                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
                                     src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
@@ -520,14 +626,16 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-wide"></i></div>
                         <h4>Mechanical Engineering</h4>
-                        <p class="small text-muted mt-2">Hydraulic Cylinders, Bushings, Bearings, Rollers, Machine Components.</p>
+                        <p class="small text-muted mt-2">Hydraulic Cylinders, Bushings, Bearings, Rollers, Machine
+                            Components.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-funnel"></i></div>
                         <h4>Oil &amp; Gas Industry</h4>
-                        <p class="small text-muted mt-2">Valve Bodies, Pump Components, High-Pressure Equipment, Offshore Structures.</p>
+                        <p class="small text-muted mt-2">Valve Bodies, Pump Components, High-Pressure Equipment, Offshore
+                            Structures.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -541,21 +649,24 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-water"></i></div>
                         <h4>Marine &amp; Offshore</h4>
-                        <p class="small text-muted mt-2">Propeller Shafts, Marine Equipment, Offshore Platforms, Desalination Plants.</p>
+                        <p class="small text-muted mt-2">Propeller Shafts, Marine Equipment, Offshore Platforms,
+                            Desalination Plants.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-airplane"></i></div>
                         <h4>Automotive &amp; Aerospace</h4>
-                        <p class="small text-muted mt-2">Steering Components, Hydraulic Systems, Landing Gear Components, Precision Machined Parts.</p>
+                        <p class="small text-muted mt-2">Steering Components, Hydraulic Systems, Landing Gear Components,
+                            Precision Machined Parts.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-capsule"></i></div>
                         <h4>Food, Pharmaceutical &amp; Chemical</h4>
-                        <p class="small text-muted mt-2">Processing Equipment, Hygienic Components, Chemical Processing Systems, Stainless Fabrication.</p>
+                        <p class="small text-muted mt-2">Processing Equipment, Hygienic Components, Chemical Processing
+                            Systems, Stainless Fabrication.</p>
                     </div>
                 </div>
             </div>
@@ -626,7 +737,9 @@
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-                <p class="text-center">Mechanical properties vary depending on the material grade and manufacturing process. Hollow Bars are manufactured to provide excellent tensile strength, yield strength, impact resistance, and dimensional stability for precision engineering applications.</p>
+                <p class="text-center">Mechanical properties vary depending on the material grade and manufacturing
+                    process. Hollow Bars are manufactured to provide excellent tensile strength, yield strength, impact
+                    resistance, and dimensional stability for precision engineering applications.</p>
             </div>
 
             <div class="table-responsive">
@@ -640,7 +753,8 @@
                     <tbody>
                         <tr class="t-row">
                             <td><strong>Tensile Strength</strong></td>
-                            <td>Varies by material grade; designed to provide high strength for machining and engineering applications.</td>
+                            <td>Varies by material grade; designed to provide high strength for machining and engineering
+                                applications.</td>
                         </tr>
                         <tr class="t-row">
                             <td><strong>Yield Strength</strong></td>
@@ -652,7 +766,8 @@
                         </tr>
                         <tr class="t-row">
                             <td><strong>Hardness</strong></td>
-                            <td>Available in different hardness levels depending on the material grade and heat treatment.</td>
+                            <td>Available in different hardness levels depending on the material grade and heat treatment.
+                            </td>
                         </tr>
                         <tr class="t-row">
                             <td><strong>Machinability</strong></td>
@@ -660,7 +775,8 @@
                         </tr>
                         <tr class="t-row">
                             <td><strong>Dimensional Stability</strong></td>
-                            <td>Precision manufactured with tight tolerances for accurate machining and consistent performance.</td>
+                            <td>Precision manufactured with tight tolerances for accurate machining and consistent
+                                performance.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -731,7 +847,8 @@
                                 <h4>What is a Hollow Bar?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>A Hollow Bar is a tubular metal bar with a hollow center designed to reduce weight while maintaining excellent mechanical strength for machining and structural applications.</p>
+                                <p>A Hollow Bar is a tubular metal bar with a hollow center designed to reduce weight while
+                                    maintaining excellent mechanical strength for machining and structural applications.</p>
                             </div>
                         </div>
 
@@ -740,7 +857,9 @@
                                 <h4>What materials are available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>We supply stainless steel, carbon steel, alloy steel, duplex stainless steel, super duplex, nickel alloys, titanium, aluminium, brass, bronze, and copper nickel hollow bars.</p>
+                                <p>We supply stainless steel, carbon steel, alloy steel, duplex stainless steel, super
+                                    duplex, nickel alloys, titanium, aluminium, brass, bronze, and copper nickel hollow
+                                    bars.</p>
                             </div>
                         </div>
 
@@ -749,7 +868,8 @@
                                 <h4>Are custom sizes available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Yes. Custom outer diameters, inner diameters, wall thicknesses, and cut-to-length sizes are available according to customer specifications.</p>
+                                <p>Yes. Custom outer diameters, inner diameters, wall thicknesses, and cut-to-length sizes
+                                    are available according to customer specifications.</p>
                             </div>
                         </div>
 
@@ -758,7 +878,9 @@
                                 <h4>What industries use Hollow Bars?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Hollow Bars are widely used in oil &amp; gas, petrochemical, marine, construction, automotive, aerospace, heavy engineering, power generation, food processing, and pharmaceutical industries.</p>
+                                <p>Hollow Bars are widely used in oil &amp; gas, petrochemical, marine, construction,
+                                    automotive, aerospace, heavy engineering, power generation, food processing, and
+                                    pharmaceutical industries.</p>
                             </div>
                         </div>
 
@@ -767,7 +889,8 @@
                                 <h4>Do you provide Mill Test Certificates?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Yes. EN 10204 3.1 / 3.2 Mill Test Certificates are supplied with every order upon request.</p>
+                                <p>Yes. EN 10204 3.1 / 3.2 Mill Test Certificates are supplied with every order upon
+                                    request.</p>
                             </div>
                         </div>
 
@@ -782,7 +905,9 @@
             <div class="contact-cta-box">
                 <h2>Request a Quote</h2>
                 <p>
-                    Looking for premium-quality <strong>Hollow Bars</strong> for machining, hydraulic systems, structural fabrication, or industrial applications? Contact <strong>Moksh Tubes &amp; Fittings LLP</strong> today for competitive pricing, custom sizes, fast delivery, and global export support.
+                    Looking for premium-quality <strong>Hollow Bars</strong> for machining, hydraulic systems, structural
+                    fabrication, or industrial applications? Contact <strong>Moksh Tubes &amp; Fittings LLP</strong> today
+                    for competitive pricing, custom sizes, fast delivery, and global export support.
                 </p>
                 <a href="{{ route('contact-us') }}" class="contact-cta-btn">
                     Get in Touch

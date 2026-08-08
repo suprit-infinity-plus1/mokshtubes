@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Hollow Section Pipes Supplier UAE, Saudi | SHS RHS Exporter')
-@section('meta_description', 'Hollow section pipes exporter to UAE, Saudi Arabia, Qatar & Oman. SHS, RHS, oval pipes in steel & aluminium. Structural tubes with fast delivery from India.')
-@section('meta_keywords', 'Hollow section pipes, SHS pipes, RHS pipes, square hollow section, rectangular hollow section, oval hollow section, hollow section exporter, structural steel tubes')
+@section('meta_description', 'Hollow section pipes exporter to UAE, Saudi Arabia, Qatar & Oman. SHS, RHS, oval pipes in
+    steel & aluminium. Structural tubes with fast delivery from India.')
+@section('meta_keywords', 'Hollow section pipes, SHS pipes, RHS pipes, square hollow section, rectangular hollow
+    section, oval hollow section, hollow section exporter, structural steel tubes')
 @section('og_image', asset('assets/images/product/hollow-section-pipe.webp'))
 @section('og_type', 'article')
 
@@ -109,56 +111,99 @@
 
     <!-- Key Features -->
     <!-- <section class="sec-padd-top sec-padd-bottom">
-                                    <div class="container">
-                                        <div class="section-title center mb-5">
-                                            <h2>Key Features</h2>
+                                        <div class="container">
+                                            <div class="section-title center mb-5">
+                                                <h2>Key Features</h2>
+                                            </div>
+                                            <div class="row g-4 justify-content-center">
+                                                <div class="col-sm-6 col-lg-4">
+                                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                                        <i class="bi bi-shield-shaded fs-1 text-primary mb-3"></i>
+                                                        <h4 class="fw-bold mb-3">High Strength-to-Weight Ratio</h4>
+                                                        <p class="text-muted">Maximum structural performance with minimal material weight.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-4">
+                                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                                        <i class="bi bi-distribute-vertical fs-1 text-success mb-3"></i>
+                                                        <h4 class="fw-bold mb-3">Uniform Load Distribution</h4>
+                                                        <p class="text-muted">Consistent cross-section ensures even load distribution in structures.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-4">
+                                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                                        <i class="bi bi-tools fs-1 text-info mb-3"></i>
+                                                        <h4 class="fw-bold mb-3">Excellent Weldability</h4>
+                                                        <p class="text-muted">Easy to weld, cut, drill, and fabricate for all project types.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-4">
+                                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                                        <i class="bi bi-droplet-half fs-1 text-warning mb-3"></i>
+                                                        <h4 class="fw-bold mb-3">Corrosion Resistant Options</h4>
+                                                        <p class="text-muted">Available in stainless steel and duplex grades for harsh environments.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-4">
+                                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                                        <i class="bi bi-grid-3x3-gap-fill fs-1 text-secondary mb-3"></i>
+                                                        <h4 class="fw-bold mb-3">Wide Range of Shapes & Sizes</h4>
+                                                        <p class="text-muted">Square, rectangular, and oval profiles in custom dimensions.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-4">
+                                                    <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
+                                                        <i class="bi bi-star-half fs-1 text-danger mb-3"></i>
+                                                        <h4 class="fw-bold mb-3">Structural & Decorative Use</h4>
+                                                        <p class="text-muted">Suitable for both load-bearing structures and architectural finishes.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="row g-4 justify-content-center">
-                                            <div class="col-sm-6 col-lg-4">
-                                                <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                                                    <i class="bi bi-shield-shaded fs-1 text-primary mb-3"></i>
-                                                    <h4 class="fw-bold mb-3">High Strength-to-Weight Ratio</h4>
-                                                    <p class="text-muted">Maximum structural performance with minimal material weight.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 col-lg-4">
-                                                <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                                                    <i class="bi bi-distribute-vertical fs-1 text-success mb-3"></i>
-                                                    <h4 class="fw-bold mb-3">Uniform Load Distribution</h4>
-                                                    <p class="text-muted">Consistent cross-section ensures even load distribution in structures.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 col-lg-4">
-                                                <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                                                    <i class="bi bi-tools fs-1 text-info mb-3"></i>
-                                                    <h4 class="fw-bold mb-3">Excellent Weldability</h4>
-                                                    <p class="text-muted">Easy to weld, cut, drill, and fabricate for all project types.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 col-lg-4">
-                                                <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                                                    <i class="bi bi-droplet-half fs-1 text-warning mb-3"></i>
-                                                    <h4 class="fw-bold mb-3">Corrosion Resistant Options</h4>
-                                                    <p class="text-muted">Available in stainless steel and duplex grades for harsh environments.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 col-lg-4">
-                                                <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                                                    <i class="bi bi-grid-3x3-gap-fill fs-1 text-secondary mb-3"></i>
-                                                    <h4 class="fw-bold mb-3">Wide Range of Shapes & Sizes</h4>
-                                                    <p class="text-muted">Square, rectangular, and oval profiles in custom dimensions.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 col-lg-4">
-                                                <div class="p-4 bg-white border rounded text-center h-100 shadow-sm custom-hover-card">
-                                                    <i class="bi bi-star-half fs-1 text-danger mb-3"></i>
-                                                    <h4 class="fw-bold mb-3">Structural & Decorative Use</h4>
-                                                    <p class="text-muted">Suitable for both load-bearing structures and architectural finishes.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section> -->
+                                    </section> -->
+
+    <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Hollow Section Pipe Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Hollow Section Pipe datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
 
     <!-- Specifications -->
     <section class="sec-padd-top sec-padd-bottom bg-light" id="specifications">
@@ -439,8 +484,9 @@
                         <!-- Rectangular Sections -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingRect">
-                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseRect" aria-expanded="false" aria-controls="collapseRect">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseRect" aria-expanded="false"
+                                    aria-controls="collapseRect">
                                     <i class="bi bi-app me-2 text-success"></i> Rectangular Hollow Sections (RHS) – Weight
                                     Chart
                                 </button>
@@ -584,8 +630,9 @@
                         <!-- Oval Sections -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOval">
-                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOval" aria-expanded="false" aria-controls="collapseOval">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOval" aria-expanded="false"
+                                    aria-controls="collapseOval">
                                     <i class="bi bi-egg me-2 text-warning"></i> Oval Hollow Sections – Weight Chart
                                 </button>
                             </h2>
@@ -785,7 +832,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -812,8 +860,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy"
+                                    width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -841,8 +889,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
+                                    width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -939,51 +987,51 @@
 
     <!-- Packaging & Export -->
     <!-- <section id="export" class="sec-padd-top sec-padd-bottom">
-                            <div class="container">
-                                <div class="section-title center mb-4">
-                                    <h2>Hollow Section Pipes Exporter to UAE, Saudi Arabia & GCC</h2>
-                                </div>
-                                <p class="fs-6 text-center text-muted mb-4">
-                                    Moksh Tubes & Fittings LLP is a trusted hollow section pipes supplier for UAE, Saudi Arabia, Qatar, Oman,
-                                    and Kuwait. We supply square (SHS), rectangular (RHS), and oval hollow sections for construction,
-                                    infrastructure, and fabrication projects across the Gulf region. We regularly supply to Dubai, Abu Dhabi,
-                                    Riyadh, Jeddah, Doha, and Muscat.
-                                </p>
+                                <div class="container">
+                                    <div class="section-title center mb-4">
+                                        <h2>Hollow Section Pipes Exporter to UAE, Saudi Arabia & GCC</h2>
+                                    </div>
+                                    <p class="fs-6 text-center text-muted mb-4">
+                                        Moksh Tubes & Fittings LLP is a trusted hollow section pipes supplier for UAE, Saudi Arabia, Qatar, Oman,
+                                        and Kuwait. We supply square (SHS), rectangular (RHS), and oval hollow sections for construction,
+                                        infrastructure, and fabrication projects across the Gulf region. We regularly supply to Dubai, Abu Dhabi,
+                                        Riyadh, Jeddah, Doha, and Muscat.
+                                    </p>
 
-                                <div class="row g-4 justify-content-center">
-                                    <div class="col-md-6 col-lg-5">
-                                        <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
-                                            <h4 class="fw-bold text-primary mb-3"><i class="bi bi-globe me-2"></i>Export Countries</h4>
-                                            <ul class="fs-6 list-unstyled text-muted">
-                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> UAE (Dubai, Abu Dhabi)</li>
-                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Saudi Arabia (Riyadh, Jeddah)
-                                                </li>
-                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Qatar (Doha)</li>
-                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Oman (Muscat)</li>
-                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Kuwait & Bahrain</li>
-                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Europe & Southeast Asia</li>
-                                            </ul>
+                                    <div class="row g-4 justify-content-center">
+                                        <div class="col-md-6 col-lg-5">
+                                            <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
+                                                <h4 class="fw-bold text-primary mb-3"><i class="bi bi-globe me-2"></i>Export Countries</h4>
+                                                <ul class="fs-6 list-unstyled text-muted">
+                                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> UAE (Dubai, Abu Dhabi)</li>
+                                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Saudi Arabia (Riyadh, Jeddah)
+                                                    </li>
+                                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Qatar (Doha)</li>
+                                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Oman (Muscat)</li>
+                                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Kuwait & Bahrain</li>
+                                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Europe & Southeast Asia</li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-5">
-                                        <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
-                                            <h4 class="fw-bold text-primary mb-3"><i class="bi bi-box-seam me-2"></i>Export Services</h4>
-                                            <ul class="fs-6 list-unstyled text-muted">
-                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Fast delivery to GCC countries
-                                                </li>
-                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> EN 10204 3.1 certification</li>
-                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Third-party inspection (TPI)</li>
-                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Export-grade packaging</li>
-                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Bulk structural supply capability
-                                                </li>
-                                                <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Complete technical documentation
-                                                </li>
-                                            </ul>
+                                        <div class="col-md-6 col-lg-5">
+                                            <div class="p-4 bg-white rounded shadow-sm border border-light h-100">
+                                                <h4 class="fw-bold text-primary mb-3"><i class="bi bi-box-seam me-2"></i>Export Services</h4>
+                                                <ul class="fs-6 list-unstyled text-muted">
+                                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Fast delivery to GCC countries
+                                                    </li>
+                                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> EN 10204 3.1 certification</li>
+                                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Third-party inspection (TPI)</li>
+                                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Export-grade packaging</li>
+                                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Bulk structural supply capability
+                                                    </li>
+                                                    <li class="mb-2"><i class="bi bi-check me-2 text-success"></i> Complete technical documentation
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </section> -->
+                            </section> -->
 
     <!-- Advantages & Quality Control -->
     <section id="advantages" class="sec-padd-top sec-padd-bottom bg-light">
@@ -998,10 +1046,12 @@
                                 class="bi bi-check-circle-fill text-primary me-2"></i> Strong yet lightweight structures
                         </li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Reduced material cost in construction
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Reduced material cost in
+                            construction
                         </li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
-                                class="bi bi-check-circle-fill text-primary me-2"></i> Easy to weld, cut, and fabricate</li>
+                                class="bi bi-check-circle-fill text-primary me-2"></i> Easy to weld, cut, and fabricate
+                        </li>
                         <li class="mb-3 p-3 bg-white border rounded shadow-sm"><i
                                 class="bi bi-check-circle-fill text-primary me-2"></i> Modern aesthetic finish for
                             architectural use</li>
@@ -1017,12 +1067,14 @@
                         <ul class="fs-6 list-unstyled text-muted">
                             <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Dimensional inspection</li>
                             <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Weld integrity testing</li>
-                            <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Ultrasonic testing (UT)</li>
+                            <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Ultrasonic testing (UT)
+                            </li>
                             <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Surface quality checks</li>
                             <li class="mb-2"><i class="bi bi-tools text-primary me-2"></i> • Mechanical strength testing
                             </li>
                         </ul>
-                        <p class="fs-6 mt-4 fw-bold text-success"><i class="bi bi-patch-check-fill me-2"></i> Supplied with
+                        <p class="fs-6 mt-4 fw-bold text-success"><i class="bi bi-patch-check-fill me-2"></i> Supplied
+                            with
                             standard test certificates.</p>
                     </div>
                 </div>

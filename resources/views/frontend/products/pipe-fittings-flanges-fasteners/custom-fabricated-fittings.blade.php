@@ -1,14 +1,17 @@
 @extends('layouts.master')
 @section('title', 'Industrial Custom Fabricated Fittings – Moksh Tubes') <!-- 53 characters -->
-@section('meta_description', 'Moksh Tubes provides industrial-grade custom fabricated fittings in stainless, alloy,
+@section('meta_description',
+    'Moksh Tubes provides industrial-grade custom fabricated fittings in stainless, alloy,
     duplex, nickel & titanium alloys per ASTM & ASME standards.') <!-- 153 characters -->
-@section('meta_keywords', 'Custom Fabricated Fittings, Industrial Fittings, Stainless Steel Fittings, Alloy Fittings,
+@section('meta_keywords',
+    'Custom Fabricated Fittings, Industrial Fittings, Stainless Steel Fittings, Alloy Fittings,
     Duplex Fittings, Titanium Fittings, Nickel Fittings, ASTM/ASME Fittings')
 @section('og_image', asset('assets/images/product/flangs/custom-fabricated-fittings.webp'))
 @section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/custom-fabricated-fittings.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/product/flangs/custom-fabricated-fittings.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -48,7 +51,8 @@
                         duplex, <a href="{{ route('materials.titanium') }}">titanium</a>, and <a
                             href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>. Our fittings comply
                         with ASTM, ASME, DIN, EN, and API
-                        standards, and are crafted using cutting, forming, bending, <a href="{{ url('blog/welded-vs-seamless') }}">welding</a>, and machining techniques to
+                        standards, and are crafted using cutting, forming, bending, <a
+                            href="{{ url('blog/welded-vs-seamless') }}">welding</a>, and machining techniques to
                         deliver precision and reliability for critical industries.
                     </p>
                 </div>
@@ -383,7 +387,7 @@
                 </div>
             </div>
     </section>
-    
+
 
     {{-- Grades Available --}}
     <section class="sec-padd-top sec-padd-bottom">
@@ -450,7 +454,7 @@
 
     {{-- Gallery --}}
     {{-- Gallery --}}
-    
+
 
 
     {{-- Applications --}}
@@ -547,7 +551,7 @@
     </section>
 
     {{-- Uses of Welded Pipes and Tubes --}}
-    
+
     {{-- Advantages of Welded Pipes & Tubes --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -830,4 +834,46 @@
         
         @endverbatim
     </script>
+    <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Custom Fabricated Fittings Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Custom Fabricated Fittings datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
 @endsection

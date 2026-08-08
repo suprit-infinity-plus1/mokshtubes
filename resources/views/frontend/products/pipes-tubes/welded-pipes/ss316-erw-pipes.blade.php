@@ -1,16 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'SS 316 ERW Pipes ASTM A312 TP316 / TP316L | Manufacturer')
-@section(
-    'meta_description',
+@section('meta_description',
     'SS 316 ERW Pipes as per ASTM A312 TP316/TP316L. Manufacturer, supplier & exporter to
-    India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.'
-)
-@section(
-    'meta_keywords',
+    India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.')
+@section('meta_keywords',
     'SS 316 ERW Pipes, ASTM A312 TP316 Pipes, SS 316L ERW Pipes, Stainless Steel 316 ERW Pipes, SS
-    316 ERW Pipe Manufacturer, SS 316 ERW Pipe Supplier India, SS 316 ERW Pipe Exporter, ASTM A312 ERW Pipes'
-)
+    316 ERW Pipe Manufacturer, SS 316 ERW Pipe Supplier India, SS 316 ERW Pipe Exporter, ASTM A312 ERW Pipes')
 @section('og_image', asset('assets/images/product/welded-pipes-tubes.webp'))
 @section('og_type', 'article')
 
@@ -110,6 +106,49 @@
     </section>
 
 
+
+    <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download SS316 ERW Pipes Datasheet</h3>
+            <p class="mb-3">
+                Get the complete SS316 ERW Pipes datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -530,7 +569,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -557,8 +597,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy"
+                                    width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -586,8 +626,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
+                                    width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">

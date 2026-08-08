@@ -1,9 +1,9 @@
 @extends('layouts.master')
 @section('title', 'ASTM A193 Grade B8 Stud Bolts | Manufacturer & Supplier')
-@section('meta_description',
-    'Buy ASTM A193 Grade B8 Stud Bolts. Manufactured from austenitic stainless steel. Ideal for high-pressure, high-temperature, and corrosive bolting applications.')
-@section('meta_keywords',
-    'ASTM A193 Grade B8 Stud Bolts, B8 Stud Bolts, A193 B8 Studs Supplier India, Flange Bolting, Stainless Steel Fasteners')
+@section('meta_description', 'Buy ASTM A193 Grade B8 Stud Bolts. Manufactured from austenitic stainless steel. Ideal for
+    high-pressure, high-temperature, and corrosive bolting applications.')
+@section('meta_keywords', 'ASTM A193 Grade B8 Stud Bolts, B8 Stud Bolts, A193 B8 Studs Supplier India, Flange Bolting,
+    Stainless Steel Fasteners')
 @section('og_image', asset('assets/images/fasteners/grade-b8-stud-bolts.png'))
 @section('og_type', 'article')
 @section('content')
@@ -16,8 +16,20 @@
                     <!-- Short Overview -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        ASTM A193 Grade B8 Stud Bolts are high-strength <a href="{{ route('materials.austenitic-stainless-Steel') }}" class="text-white text-decoration-underline">stainless steel fasteners</a> manufactured from austenitic stainless steel (Type 304 / UNS S30400). These studs are specifically designed for high-temperature, high-pressure, and corrosive service applications such as <a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-white text-decoration-underline">flanges</a>, <a href="{{ route('products.pipe-fittings') }}" class="text-white text-decoration-underline">valves</a>, <a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-white text-decoration-underline">pressure vessels</a>, and piping systems.<br>
-                        At Moksh Tubes & Fittings LLP, we supply ASTM A193 B8 stud bolts with precision threading, full traceability, and EN 10204 3.1 certification for domestic and international industrial projects including oil & gas, chemical processing, marine, and power plants.
+                        ASTM A193 Grade B8 Stud Bolts are high-strength <a
+                            href="{{ route('materials.austenitic-stainless-Steel') }}"
+                            class="text-white text-decoration-underline">stainless steel fasteners</a> manufactured from
+                        austenitic stainless steel (Type 304 / UNS S30400). These studs are specifically designed for
+                        high-temperature, high-pressure, and corrosive service applications such as <a
+                            href="{{ route('products.flanges.flanges-and-gaskets') }}"
+                            class="text-white text-decoration-underline">flanges</a>, <a
+                            href="{{ route('products.pipe-fittings') }}"
+                            class="text-white text-decoration-underline">valves</a>, <a
+                            href="{{ url('products/pipes-tubes/seamless-pipes') }}"
+                            class="text-white text-decoration-underline">pressure vessels</a>, and piping systems.<br>
+                        At Moksh Tubes & Fittings LLP, we supply ASTM A193 B8 stud bolts with precision threading, full
+                        traceability, and EN 10204 3.1 certification for domestic and international industrial projects
+                        including oil & gas, chemical processing, marine, and power plants.
                     </p>
                 </div>
             </div>
@@ -33,14 +45,19 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/fasteners/grade-b8-stud-bolts.png') }}" alt="ASTM A193 Grade B8 Stud Bolts"
-                        width="550" height="350" class="img-fluid rounded shadow-sm" loading="lazy">
+                    <img src="{{ asset('assets/images/fasteners/grade-b8-stud-bolts.png') }}"
+                        alt="ASTM A193 Grade B8 Stud Bolts" width="550" height="350"
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">ASTM A193 Grade B8</strong> is a <a href="{{ route('materials.austenitic-stainless-Steel') }}" class="text-decoration-none">high tensile austenitic stainless steel</a> fastener specification commonly used for bolting in pressure systems. It is typically paired with ASTM A194 Grade 8 heavy hex nuts for secure flange connections.
+                        <strong class="text-black">ASTM A193 Grade B8</strong> is a <a
+                            href="{{ route('materials.austenitic-stainless-Steel') }}" class="text-decoration-none">high
+                            tensile austenitic stainless steel</a> fastener specification commonly used for bolting in
+                        pressure systems. It is typically paired with ASTM A194 Grade 8 heavy hex nuts for secure flange
+                        connections.
                     </p>
                     <p class="fs-6 mb-3 text-justify fw-bold">Manufactured as per:</p>
                     <ul class="fs-6 mb-3">
@@ -83,7 +100,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}" class="text-decoration-none">Stainless Steel 304</a></td>
+                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}"
+                                            class="text-decoration-none">Stainless Steel 304</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>UNS No.</td>
@@ -91,7 +109,9 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Type</td>
-                                    <td><a href="{{ route('products.fasteners') }}" class="text-decoration-none">Stud Bolts</a> / <a href="{{ route('products.bars-rods.threaded-rods') }}" class="text-decoration-none">Threaded Rod</a></td>
+                                    <td><a href="{{ route('products.fasteners') }}" class="text-decoration-none">Stud
+                                            Bolts</a> / <a href="{{ route('products.bars-rods.threaded-rods') }}"
+                                            class="text-decoration-none">Threaded Rod</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Heat Treatment</td>
@@ -99,7 +119,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Diameter Range</td>
-                                    <td><a href="{{ route('products.bars-rods.round-bars') }}" class="text-decoration-none">1/4" to 4"</a> / M6 to M100</td>
+                                    <td><a href="{{ route('products.bars-rods.round-bars') }}"
+                                            class="text-decoration-none">1/4" to 4"</a> / M6 to M100</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Length</td>
@@ -169,7 +190,8 @@
                             </tbody>
                         </table>
                     </div>
-                    <p class="fs-6 text-center mt-2">The chromium and nickel content provide excellent corrosion resistance and oxidation resistance in chemical and marine environments.</p>
+                    <p class="fs-6 text-center mt-2">The chromium and nickel content provide excellent corrosion resistance
+                        and oxidation resistance in chemical and marine environments.</p>
                 </div>
                 <div class="col-lg-12 mb-4">
                     <div class="section-title center mb-3">
@@ -203,13 +225,14 @@
                             </tbody>
                         </table>
                     </div>
-                    <p class="fs-6 text-center mt-2">These properties make B8 studs suitable for moderate temperature and corrosive service conditions.</p>
+                    <p class="fs-6 text-center mt-2">These properties make B8 studs suitable for moderate temperature and
+                        corrosive service conditions.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    
+
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -223,9 +246,11 @@
                         <div class="application-icon"><i class="bi bi-water"></i></div>
                         <h5>Oil & Gas Industry</h5>
                         <ul>
-                            <li><a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-decoration-none">Refinery flange connections</a></li>
+                            <li><a href="{{ route('products.flanges.flanges-and-gaskets') }}"
+                                    class="text-decoration-none">Refinery flange connections</a></li>
                             <li>Offshore bolting systems</li>
-                            <li><a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-decoration-none">Pipeline joints</a></li>
+                            <li><a href="{{ url('products/pipes-tubes/seamless-pipes') }}"
+                                    class="text-decoration-none">Pipeline joints</a></li>
                         </ul>
                     </div>
                 </div>
@@ -236,7 +261,8 @@
                         <h5>Chemical & Petrochemical Plants</h5>
                         <ul>
                             <li>Acid-resistant bolting</li>
-                            <li><a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-decoration-none">Pressure vessel fastening</a></li>
+                            <li><a href="{{ url('products/pipes-tubes/seamless-pipes') }}"
+                                    class="text-decoration-none">Pressure vessel fastening</a></li>
                         </ul>
                     </div>
                 </div>
@@ -266,7 +292,7 @@
         </div>
     </section>
 
-    
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -302,7 +328,7 @@
                         <h4>PMI Testing (if required)</h4>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-eye"></i></div>
@@ -319,7 +345,10 @@
             <div class="section-title center">
                 <h2>Global Supply & Export</h2>
             </div>
-            <p class="fs-5 mt-3 text-center">Moksh Tubes & Fittings LLP is a trusted ASTM A193 B8 stud bolt supplier in India, serving <a href="{{ route('contact-us-khetwadi') }}" class="text-decoration-none">Mumbai</a>, <a href="{{ route('contact-us') }}" class="text-decoration-none">Ahmedabad</a>, Chennai, Pune, Hyderabad, and Delhi NCR.</p>
+            <p class="fs-5 mt-3 text-center">Moksh Tubes & Fittings LLP is a trusted ASTM A193 B8 stud bolt supplier in
+                India, serving <a href="{{ route('contact-us-khetwadi') }}" class="text-decoration-none">Mumbai</a>, <a
+                    href="{{ route('contact-us') }}" class="text-decoration-none">Ahmedabad</a>, Chennai, Pune,
+                Hyderabad, and Delhi NCR.</p>
 
             <div class="row g-4 mt-4 text-start">
                 <div class="col-md-6">
@@ -408,7 +437,11 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    It is used for corrosion-resistant bolting in <a href="{{ url('products/pipes-tubes/seamless-pipes') }}" class="text-decoration-none">pressure vessels</a>, <a href="{{ route('products.flanges.flanges-and-gaskets') }}" class="text-decoration-none">flanges</a>, and piping systems.
+                                    It is used for corrosion-resistant bolting in <a
+                                        href="{{ url('products/pipes-tubes/seamless-pipes') }}"
+                                        class="text-decoration-none">pressure vessels</a>, <a
+                                        href="{{ route('products.flanges.flanges-and-gaskets') }}"
+                                        class="text-decoration-none">flanges</a>, and piping systems.
                                 </p>
                             </div>
                         </div>
@@ -447,7 +480,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    <a href="{{ route('products.fasteners') }}" class="text-decoration-none">ASTM A194 Grade 8 stainless steel nuts</a> are typically used.
+                                    <a href="{{ route('products.fasteners') }}" class="text-decoration-none">ASTM A194
+                                        Grade 8 stainless steel nuts</a> are typically used.
                                 </p>
                             </div>
                         </div>
@@ -468,7 +502,9 @@
                     Looking for ASTM A193 Grade B8 Stud Bolts for oil & gas, chemical, or marine projects?<br>
                     📞 Contact <strong><a href="{{ route('index') }}" class="text-decoration-none">Moksh Tubes &
                             Fittings LLP</a></strong><br>
-                    We supply <a href="{{ route('materials.austenitic-stainless-Steel') }}" class="text-decoration-none">high-quality stainless steel</a> stud bolts with full certification and global shipping support.
+                    We supply <a href="{{ route('materials.austenitic-stainless-Steel') }}"
+                        class="text-decoration-none">high-quality stainless steel</a> stud bolts with full certification
+                    and global shipping support.
                 </p>
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
@@ -519,6 +555,46 @@
         }
           @endverbatim
     </script>
+    <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Grade B8 Stud Bolts Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Grade B8 Stud Bolts datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
 @endsection
-
-

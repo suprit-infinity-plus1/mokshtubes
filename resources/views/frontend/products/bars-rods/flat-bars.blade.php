@@ -1,20 +1,19 @@
 @extends('layouts.master')
 @section('title', 'Flat Bars Manufacturer, Supplier & Exporter | Stainless & MS')
 <!-- 84 characters -->
-@section(
-    'meta_description',
-    'Moksh Tubes & Fittings LLP supplies premium-quality Stainless Steel, MS, Alloy Steel, Aluminium, Brass & Copper Flat Bars in various sizes, grades & thicknesses.'
-)
-@section(
-    'meta_keywords',
-    'Flat Bars, Stainless Steel Flat Bars, Mild Steel Flat Bars, MS Flat Bars, Carbon Steel Flat Bars, Alloy Steel Flat Bars, Duplex Flat Bars, Aluminium Flat Bars, Brass Flat Bars, Copper Flat Bars, Nickel Alloy Flat Bars, Flat Bar Manufacturer'
-)
+@section('meta_description', 'Moksh Tubes & Fittings LLP supplies premium-quality Stainless Steel, MS, Alloy Steel,
+    Aluminium, Brass & Copper Flat Bars in various sizes, grades & thicknesses.')
+@section('meta_keywords', 'Flat Bars, Stainless Steel Flat Bars, Mild Steel Flat Bars, MS Flat Bars, Carbon Steel Flat
+    Bars, Alloy Steel Flat Bars, Duplex Flat Bars, Aluminium Flat Bars, Brass Flat Bars, Copper Flat Bars, Nickel Alloy Flat
+    Bars, Flat Bar Manufacturer')
 @section('og_title', 'Flat Bars Manufacturer, Supplier & Exporter | Moksh Tubes')
-@section('og_description', 'Premium-quality Stainless Steel, MS, Alloy Steel, Aluminium, Brass & Copper Flat Bars in various sizes, grades, thicknesses, and custom lengths with worldwide delivery.')
+@section('og_description', 'Premium-quality Stainless Steel, MS, Alloy Steel, Aluminium, Brass & Copper Flat Bars in
+    various sizes, grades, thicknesses, and custom lengths with worldwide delivery.')
 @section('og_image', asset('assets/images/product/Flat-Bars.webp'))
 @section('og_type', 'product')
 @section('twitter_title', 'Flat Bars Manufacturer in India')
-@section('twitter_description', 'Buy premium-quality Flat Bars for structural fabrication, machinery manufacturing, construction, and marine applications. Fast worldwide delivery.')
+@section('twitter_description', 'Buy premium-quality Flat Bars for structural fabrication, machinery manufacturing,
+    construction, and marine applications. Fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -25,7 +24,13 @@
                     <h1 class="page-title">Flat Bars Manufacturer, Supplier & Exporter in India</h1>
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Flat Bars are versatile rectangular metal sections widely used in structural fabrication, machinery manufacturing, construction, automotive, marine, and industrial engineering applications. Manufactured in stainless steel, carbon steel, alloy steel, duplex stainless steel, aluminium, brass, copper, nickel alloys, and titanium, Flat Bars offer excellent strength, dimensional accuracy, corrosion resistance, and easy machinability. Moksh Tubes & Fittings LLP manufactures, supplies, and exports premium-quality Flat Bars in multiple grades, sizes, and finishes manufactured according to ASTM, ASME, DIN, EN, ISO, and JIS standards.
+                        Flat Bars are versatile rectangular metal sections widely used in structural fabrication, machinery
+                        manufacturing, construction, automotive, marine, and industrial engineering applications.
+                        Manufactured in stainless steel, carbon steel, alloy steel, duplex stainless steel, aluminium,
+                        brass, copper, nickel alloys, and titanium, Flat Bars offer excellent strength, dimensional
+                        accuracy, corrosion resistance, and easy machinability. Moksh Tubes & Fittings LLP manufactures,
+                        supplies, and exports premium-quality Flat Bars in multiple grades, sizes, and finishes manufactured
+                        according to ASTM, ASME, DIN, EN, ISO, and JIS standards.
                     </p>
 
                 </div>
@@ -58,47 +63,63 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/Flat-Bars.webp') }}"
-                        alt="Flat Bars Manufacturer" class="img-fluid rounded shadow-sm" width="550" height="350"
-                        loading="lazy">
+                    <img src="{{ asset('assets/images/product/Flat-Bars.webp') }}" alt="Flat Bars Manufacturer"
+                        class="img-fluid rounded shadow-sm" width="550" height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong>Flat Bars</strong> are solid rectangular metal bars designed for superior strength, durability, and versatility across a wide range of engineering and industrial applications. Their flat rectangular profile makes them ideal for structural fabrication, machinery manufacturing, support frameworks, base plates, brackets, fasteners, architectural projects, and precision machining. Due to their excellent load-bearing capacity and ease of fabrication, Flat Bars are one of the most widely used metal products in construction, manufacturing, marine, automotive, aerospace, and heavy engineering industries.
+                        <strong>Flat Bars</strong> are solid rectangular metal bars designed for superior strength,
+                        durability, and versatility across a wide range of engineering and industrial applications. Their
+                        flat rectangular profile makes them ideal for structural fabrication, machinery manufacturing,
+                        support frameworks, base plates, brackets, fasteners, architectural projects, and precision
+                        machining. Due to their excellent load-bearing capacity and ease of fabrication, Flat Bars are one
+                        of the most widely used metal products in construction, manufacturing, marine, automotive,
+                        aerospace, and heavy engineering industries.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture, supply, and export premium-quality Stainless Steel Flat Bars, Mild Steel (MS) Flat Bars, Carbon Steel Flat Bars, Alloy Steel Flat Bars, Duplex & Super Duplex Flat Bars, Aluminium Flat Bars, Brass Flat Bars, Copper Flat Bars, Nickel Alloy Flat Bars, and Titanium Flat Bars. Our products are manufactured in compliance with international ASTM, ASME, DIN, EN, ISO, and JIS standards to ensure superior dimensional accuracy, high mechanical strength, corrosion resistance, and long service life.
+                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we manufacture, supply, and export
+                        premium-quality Stainless Steel Flat Bars, Mild Steel (MS) Flat Bars, Carbon Steel Flat Bars, Alloy
+                        Steel Flat Bars, Duplex & Super Duplex Flat Bars, Aluminium Flat Bars, Brass Flat Bars, Copper Flat
+                        Bars, Nickel Alloy Flat Bars, and Titanium Flat Bars. Our products are manufactured in compliance
+                        with international ASTM, ASME, DIN, EN, ISO, and JIS standards to ensure superior dimensional
+                        accuracy, high mechanical strength, corrosion resistance, and long service life.
                     </p>
 
                     <p class="fs-6 text-justify">
-                        With an extensive inventory, custom cutting facilities, and global export capabilities, we provide Flat Bars for projects across India, the Middle East, Europe, Africa, Southeast Asia, and other international markets.
+                        With an extensive inventory, custom cutting facilities, and global export capabilities, we provide
+                        Flat Bars for projects across India, the Middle East, Europe, Africa, Southeast Asia, and other
+                        international markets.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    {{-- datasheet --}}
+    <!-- Datasheet Download -->
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Flat Bars Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with mechanical properties, size charts, weight calculations, and application
-                guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete Flat Bars datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="{{ csrf_token() }}" autocomplete="off">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="flat-bars-datasheet.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
+                        <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
                     </div>
+
                     <div class="col-md-3 mb-2">
                         <button type="submit" class="btn btn-lg w-100 text-white"
                             style="background-color:#db7227; border-radius:8px;">
@@ -108,7 +129,12 @@
                 </div>
             </form>
 
-            <hr class="my-4">
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
@@ -134,7 +160,8 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex &amp; Super Duplex, Nickel Alloys, Titanium, Aluminium, Brass &amp; Copper</td>
+                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex &amp; Super Duplex, Nickel
+                                        Alloys, Titanium, Aluminium, Brass &amp; Copper</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Manufacturing Process</td>
@@ -154,7 +181,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Surface Finish</td>
-                                    <td>Mill Finish, Bright Finish, Polished, Pickled &amp; Passivated, Hairline, Mirror Finish</td>
+                                    <td>Mill Finish, Bright Finish, Polished, Pickled &amp; Passivated, Hairline, Mirror
+                                        Finish</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Edge Type</td>
@@ -179,9 +207,11 @@
                 <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart</h2>
             </div>
             <p class="text-center pb-3">
-                Flat Bars are available in a wide range of widths and thicknesses to meet the requirements of structural, fabrication, machining, and engineering applications. Custom dimensions and cut-to-length services are also available.
+                Flat Bars are available in a wide range of widths and thicknesses to meet the requirements of structural,
+                fabrication, machining, and engineering applications. Custom dimensions and cut-to-length services are also
+                available.
             </p>
-            
+
             <div class="row">
                 <div class="col-md-6">
                     <h4 class="text-center mb-3">Flat Bar Size Range</h4>
@@ -196,17 +226,72 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class="t-row"><td>20</td><td>3/4"</td><td>3–25</td><td>6</td></tr>
-                                <tr class="t-row"><td>25</td><td>1"</td><td>3–25</td><td>6</td></tr>
-                                <tr class="t-row"><td>30</td><td>1¼"</td><td>3–25</td><td>6</td></tr>
-                                <tr class="t-row"><td>40</td><td>1½"</td><td>3–30</td><td>6</td></tr>
-                                <tr class="t-row"><td>50</td><td>2"</td><td>3–40</td><td>6</td></tr>
-                                <tr class="t-row"><td>65</td><td>2½"</td><td>5–40</td><td>6</td></tr>
-                                <tr class="t-row"><td>75</td><td>3"</td><td>5–50</td><td>6</td></tr>
-                                <tr class="t-row"><td>100</td><td>4"</td><td>6–50</td><td>6</td></tr>
-                                <tr class="t-row"><td>150</td><td>6"</td><td>6–60</td><td>6</td></tr>
-                                <tr class="t-row"><td>200</td><td>8"</td><td>8–80</td><td>6</td></tr>
-                                <tr class="t-row"><td>300</td><td>12"</td><td>10–100</td><td>6</td></tr>
+                                <tr class="t-row">
+                                    <td>20</td>
+                                    <td>3/4"</td>
+                                    <td>3–25</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>25</td>
+                                    <td>1"</td>
+                                    <td>3–25</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>30</td>
+                                    <td>1¼"</td>
+                                    <td>3–25</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>40</td>
+                                    <td>1½"</td>
+                                    <td>3–30</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>50</td>
+                                    <td>2"</td>
+                                    <td>3–40</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>65</td>
+                                    <td>2½"</td>
+                                    <td>5–40</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>75</td>
+                                    <td>3"</td>
+                                    <td>5–50</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>100</td>
+                                    <td>4"</td>
+                                    <td>6–50</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>150</td>
+                                    <td>6"</td>
+                                    <td>6–60</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>200</td>
+                                    <td>8"</td>
+                                    <td>8–80</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>300</td>
+                                    <td>12"</td>
+                                    <td>10–100</td>
+                                    <td>6</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -224,17 +309,61 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class="t-row"><td>25</td><td>5</td><td>0.98</td></tr>
-                                <tr class="t-row"><td>25</td><td>10</td><td>1.96</td></tr>
-                                <tr class="t-row"><td>50</td><td>5</td><td>1.96</td></tr>
-                                <tr class="t-row"><td>50</td><td>10</td><td>3.93</td></tr>
-                                <tr class="t-row"><td>75</td><td>6</td><td>3.53</td></tr>
-                                <tr class="t-row"><td>100</td><td>12</td><td>9.42</td></tr>
-                                <tr class="t-row"><td>150</td><td>10</td><td>11.78</td></tr>
-                                <tr class="t-row"><td>150</td><td>20</td><td>23.55</td></tr>
-                                <tr class="t-row"><td>200</td><td>12</td><td>18.84</td></tr>
-                                <tr class="t-row"><td>250</td><td>20</td><td>39.25</td></tr>
-                                <tr class="t-row"><td>300</td><td>25</td><td>58.88</td></tr>
+                                <tr class="t-row">
+                                    <td>25</td>
+                                    <td>5</td>
+                                    <td>0.98</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>25</td>
+                                    <td>10</td>
+                                    <td>1.96</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>50</td>
+                                    <td>5</td>
+                                    <td>1.96</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>50</td>
+                                    <td>10</td>
+                                    <td>3.93</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>75</td>
+                                    <td>6</td>
+                                    <td>3.53</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>100</td>
+                                    <td>12</td>
+                                    <td>9.42</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>150</td>
+                                    <td>10</td>
+                                    <td>11.78</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>150</td>
+                                    <td>20</td>
+                                    <td>23.55</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>200</td>
+                                    <td>12</td>
+                                    <td>18.84</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>250</td>
+                                    <td>20</td>
+                                    <td>39.25</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>300</td>
+                                    <td>25</td>
+                                    <td>58.88</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -413,7 +542,7 @@
         </div>
     </section>
 
-      {{-- Gallery / Products --}}
+    {{-- Gallery / Products --}}
     <section class="our-services sec-padd-top">
         <div class="container">
             <div class="row">
@@ -497,7 +626,8 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100"
+                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
                                     src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
@@ -542,7 +672,8 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building"></i></div>
                         <h4>Construction &amp; Infrastructure</h4>
-                        <p class="small text-muted mt-2">Structural Supports, Base Plates, Brackets, Building Frameworks.</p>
+                        <p class="small text-muted mt-2">Structural Supports, Base Plates, Brackets, Building Frameworks.
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -563,21 +694,24 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-water"></i></div>
                         <h4>Marine &amp; Offshore</h4>
-                        <p class="small text-muted mt-2">Shipbuilding, Offshore Platforms, Seawater Equipment, Dock Construction.</p>
+                        <p class="small text-muted mt-2">Shipbuilding, Offshore Platforms, Seawater Equipment, Dock
+                            Construction.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-airplane"></i></div>
                         <h4>Automotive &amp; Aerospace</h4>
-                        <p class="small text-muted mt-2">Chassis Components, Body Reinforcements, Suspension Components.</p>
+                        <p class="small text-muted mt-2">Chassis Components, Body Reinforcements, Suspension Components.
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-lightning-charge"></i></div>
                         <h4>Electrical Industry</h4>
-                        <p class="small text-muted mt-2">Busbars, Switchgear Components, Electrical Connectors, Conductive Supports.</p>
+                        <p class="small text-muted mt-2">Busbars, Switchgear Components, Electrical Connectors, Conductive
+                            Supports.</p>
                     </div>
                 </div>
             </div>
@@ -648,7 +782,9 @@
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-                <p class="text-center">The mechanical properties of Flat Bars depend on the selected material grade, manufacturing process, and heat treatment. Flat Bars are designed to provide excellent strength, dimensional stability, corrosion resistance, and machinability.</p>
+                <p class="text-center">The mechanical properties of Flat Bars depend on the selected material grade,
+                    manufacturing process, and heat treatment. Flat Bars are designed to provide excellent strength,
+                    dimensional stability, corrosion resistance, and machinability.</p>
             </div>
 
             <div class="table-responsive">
@@ -769,7 +905,9 @@
                                 <h4>1. What are Flat Bars used for?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Flat Bars are widely used in construction, fabrication, machinery manufacturing, structural supports, base plates, automotive components, marine applications, and architectural projects due to their strength, versatility, and ease of fabrication.</p>
+                                <p>Flat Bars are widely used in construction, fabrication, machinery manufacturing,
+                                    structural supports, base plates, automotive components, marine applications, and
+                                    architectural projects due to their strength, versatility, and ease of fabrication.</p>
                             </div>
                         </div>
 
@@ -778,7 +916,9 @@
                                 <h4>2. Which materials are available for Flat Bars?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>We manufacture and supply Flat Bars in Stainless Steel, Carbon Steel, Mild Steel, Alloy Steel, Duplex &amp; Super Duplex Stainless Steel, Aluminium, Brass, Copper, Nickel Alloys, and Titanium.</p>
+                                <p>We manufacture and supply Flat Bars in Stainless Steel, Carbon Steel, Mild Steel, Alloy
+                                    Steel, Duplex &amp; Super Duplex Stainless Steel, Aluminium, Brass, Copper, Nickel
+                                    Alloys, and Titanium.</p>
                             </div>
                         </div>
 
@@ -787,16 +927,18 @@
                                 <h4>3. What are the standard sizes of Flat Bars?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Standard Flat Bars are available in thicknesses from 3 mm to 100 mm, widths from 20 mm to 400 mm, and standard lengths of 3 m and 6 m. Custom dimensions are also available.</p>
+                                <p>Standard Flat Bars are available in thicknesses from 3 mm to 100 mm, widths from 20 mm to
+                                    400 mm, and standard lengths of 3 m and 6 m. Custom dimensions are also available.</p>
                             </div>
                         </div>
-                        
+
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
                                 <h4>4. How do I calculate the weight of a Flat Bar?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>The approximate weight per meter can be calculated using the formula: Weight (kg/m) = Width (mm) × Thickness (mm) × 0.00785</p>
+                                <p>The approximate weight per meter can be calculated using the formula: Weight (kg/m) =
+                                    Width (mm) × Thickness (mm) × 0.00785</p>
                             </div>
                         </div>
 
@@ -805,7 +947,8 @@
                                 <h4>5. Can Flat Bars be supplied in custom lengths?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Yes. We provide custom cut-to-length Flat Bars based on customer drawings and project requirements to minimize machining time and material wastage.</p>
+                                <p>Yes. We provide custom cut-to-length Flat Bars based on customer drawings and project
+                                    requirements to minimize machining time and material wastage.</p>
                             </div>
                         </div>
 
@@ -820,7 +963,10 @@
             <div class="contact-cta-box">
                 <h2>Request a Quote</h2>
                 <p>
-                    Looking for High-Quality <strong>Flat Bars</strong>? Whether you require Stainless Steel Flat Bars, Mild Steel Flat Bars, Alloy Steel Flat Bars, Aluminium Flat Bars, Brass Flat Bars, Copper Flat Bars, or Specialty Alloy Flat Bars, <strong>Moksh Tubes &amp; Fittings LLP</strong> provides reliable products manufactured to international standards with worldwide delivery.
+                    Looking for High-Quality <strong>Flat Bars</strong>? Whether you require Stainless Steel Flat Bars, Mild
+                    Steel Flat Bars, Alloy Steel Flat Bars, Aluminium Flat Bars, Brass Flat Bars, Copper Flat Bars, or
+                    Specialty Alloy Flat Bars, <strong>Moksh Tubes &amp; Fittings LLP</strong> provides reliable products
+                    manufactured to international standards with worldwide delivery.
                 </p>
                 <a href="{{ route('contact-us') }}" class="contact-cta-btn">
                     Get in Touch

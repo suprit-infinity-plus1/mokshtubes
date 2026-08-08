@@ -92,13 +92,12 @@
         </div>
     </section>
 
-    <!-- Datasheet Download -->
-
+        <!-- Datasheet Download -->
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Inconel 600 Datasheet</h3>
+            <h3 class="mb-3" style="color:#174268;">Download Seamless Pipes Datasheet</h3>
             <p class="mb-3">
-                Get the complete Inconel 600 datasheet with chemical composition,
+                Get the complete Seamless Pipes datasheet with chemical composition,
                 mechanical properties, heat treatment details, and applications.
                 Enter your email to receive the PDF instantly.
             </p>

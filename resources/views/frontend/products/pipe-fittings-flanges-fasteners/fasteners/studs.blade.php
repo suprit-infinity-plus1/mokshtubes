@@ -1,20 +1,23 @@
 @extends('layouts.master')
 @section('title', 'Stud Bolts Manufacturer, Supplier & Exporter in India | Moksh Tubes')
 <!-- 66 characters -->
-@section(
-    'meta_description',
-    'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Stud Bolts in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A193 & ASTM A320 certified with worldwide delivery.'
-)
-@section(
-    'meta_keywords',
-    'Stud Bolts, Stud Bolts Manufacturer, Stud Bolts Supplier, Stud Bolts Exporter, Stainless Steel Stud Bolts, Carbon Steel Stud Bolts, Alloy Steel Stud Bolts, Duplex Stud Bolts, Super Duplex Stud Bolts, ASTM A193 Stud Bolts, ASTM A320 Stud Bolts, ASTM A193 B7 Stud Bolts, ASTM A193 B16 Stud Bolts, Industrial Stud Bolts, Heavy Hex Stud Bolts, Fully Threaded Stud Bolts, Industrial Fasteners, Flange Stud Bolts, Heavy Hex Nuts, High Tensile Stud Bolts, Pressure Vessel Fasteners, Pipeline Fasteners, Flange Fastening Solutions, Corrosion Resistant Stud Bolts, Petrochemical Fasteners, Oil & Gas Fasteners, High Pressure Fasteners, Heat Exchanger Stud Bolts'
-)
+@section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Stud Bolts in
+    Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A193 & ASTM A320 certified with
+    worldwide delivery.')
+@section('meta_keywords', 'Stud Bolts, Stud Bolts Manufacturer, Stud Bolts Supplier, Stud Bolts Exporter, Stainless
+    Steel Stud Bolts, Carbon Steel Stud Bolts, Alloy Steel Stud Bolts, Duplex Stud Bolts, Super Duplex Stud Bolts, ASTM A193
+    Stud Bolts, ASTM A320 Stud Bolts, ASTM A193 B7 Stud Bolts, ASTM A193 B16 Stud Bolts, Industrial Stud Bolts, Heavy Hex
+    Stud Bolts, Fully Threaded Stud Bolts, Industrial Fasteners, Flange Stud Bolts, Heavy Hex Nuts, High Tensile Stud Bolts,
+    Pressure Vessel Fasteners, Pipeline Fasteners, Flange Fastening Solutions, Corrosion Resistant Stud Bolts, Petrochemical
+    Fasteners, Oil & Gas Fasteners, High Pressure Fasteners, Heat Exchanger Stud Bolts')
 @section('og_title', 'Stud Bolts Manufacturer, Supplier & Exporter | Moksh Tubes')
-@section('og_description', 'Premium-quality Stud Bolts manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A193 & ASTM A320 compliant with worldwide export support.')
+@section('og_description', 'Premium-quality Stud Bolts manufactured in Stainless Steel, Carbon Steel, Alloy Steel,
+    Duplex, Super Duplex & Nickel Alloys. ASTM A193 & ASTM A320 compliant with worldwide export support.')
 @section('og_image', asset('assets/images/fasteners/full-threaded-rods.png'))
 @section('og_type', 'product')
 @section('twitter_title', 'Stud Bolts Manufacturer in India')
-@section('twitter_description', 'Buy premium-quality Stud Bolts for flange joints, pressure vessels, and industrial piping systems. Available in multiple grades, thread types, and coatings with fast worldwide delivery.')
+@section('twitter_description', 'Buy premium-quality Stud Bolts for flange joints, pressure vessels, and industrial
+    piping systems. Available in multiple grades, thread types, and coatings with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -92,24 +95,28 @@
         </div>
     </section>
 
-    {{-- datasheet --}}
+    <!-- Datasheet Download -->
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Stud Bolts Datasheet</h3>
             <p class="mb-3">
-                Get the complete datasheet with chemical composition, mechanical properties, thread details, and application
-                guidelines. Enter your email below to receive the PDF instantly.
+                Get the complete Stud Bolts datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="{{ csrf_token() }}" autocomplete="off">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="stud-bolts-datasheet.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
+                        <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
                     </div>
+
                     <div class="col-md-3 mb-2">
                         <button type="submit" class="btn btn-lg w-100 text-white"
                             style="background-color:#db7227; border-radius:8px;">
@@ -119,7 +126,12 @@
                 </div>
             </form>
 
-            <hr class="my-4">
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
@@ -507,7 +519,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('products.fasteners.astm-a193-gr-b8m-studs') }}">
-                                <img class="w-100" src="{{ asset('assets/images/fasteners/astm-a193-gr-b8m-studs.png') }}"
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/fasteners/astm-a193-gr-b8m-studs.png') }}"
                                     alt="Stainless Steel Stud Bolts" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
@@ -578,7 +591,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('products.fasteners.gr-660a-threaded-studs') }}">
-                                <img class="w-100" src="{{ asset('assets/images/fasteners/gr-660a-threaded-studs.jpg') }}"
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/fasteners/gr-660a-threaded-studs.jpg') }}"
                                     alt="Heavy Hex Stud Bolts" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
@@ -788,66 +802,66 @@
 
     <!-- Testing & Quality Control -->
     <!-- <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Testing & Quality</h2>
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Testing & Quality</h2>
+                </div>
+
+                <div class="row g-4 mt-4">
+
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                            <h4>Tensile Test</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                            <h4>Proof Load Test</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                            <h4>PMI Test</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                            <h4>Thread Gauging</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
+                            <h4>Hardness Test</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
+                            <h4>Magnetic Particle Inspection</h4>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-
-            <div class="row g-4 mt-4">
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                        <h4>Tensile Test</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
-                        <h4>Proof Load Test</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                        <h4>PMI Test</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                        <h4>Thread Gauging</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
-                        <h4>Hardness Test</h4>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
-                        <h4>Magnetic Particle Inspection</h4>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section> -->
+        </section> -->
 
     <!-- Packaging & Export -->
     <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom">
-        <div class="container text-center">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
+            <div class="container text-center">
+                <div class="section-title center mb-4">
+                    <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
+                </div>
+                <p class="fs-5">We ensure that our <strong>Stud Bolts</strong> are securely packaged to prevent damage during
+                    transit. We use high-quality wooden crates, pallets, and shrink-wrapping for export shipments.</p>
+                <p class="fs-5">We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
+                    Europe, Africa, and Southeast Asia.</p>
             </div>
-            <p class="fs-5">We ensure that our <strong>Stud Bolts</strong> are securely packaged to prevent damage during
-                transit. We use high-quality wooden crates, pallets, and shrink-wrapping for export shipments.</p>
-            <p class="fs-5">We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
-                Europe, Africa, and Southeast Asia.</p>
-        </div>
-    </section> -->
+        </section> -->
 
     {{-- why choose us --}}
     <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
