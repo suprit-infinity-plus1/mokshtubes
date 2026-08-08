@@ -972,11 +972,11 @@
                             <h2 class="footer-title h4">PIPE FITTINGS, FLANGES & FASTENERS</h2>
                             <ul class="footer-list">
                                 <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FITTINGS</a></li>
-                                <li><a href="{{ route('products.flanges.flanges-and-gaskets') }}">FLANGES</a>
+                                <li><a href="{{ url('products/flanges/flanges-and-gaskets') }}">FLANGES</a>
                                 </li>
                                 <li><a href="{{ route('products.fasteners') }}">FASTENERS</a>
                                 </li>
-                                <li><a href="{{ route('products.flanges.flanges-and-gaskets') }}">GASKETS</a>
+                                <li><a href="{{ url('products/flanges/flanges-and-gaskets') }}">GASKETS</a>
                                 </li>
                                 <li><a href="{{ url('products/special-fabricated/custom-steel-furniture') }}">CUSTOM
                                         FABRICATED FITTINGS</a></li>
