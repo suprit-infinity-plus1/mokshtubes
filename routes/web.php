@@ -203,7 +203,7 @@ $defineRoutes = function () {
     // Route::get('/products/pipes-tubes/welded-pipes/ss316-welded-pipes', [MainController::class, 'ss316WeldedPipes'])->name('products.pipes-tubes.welded-pipes.ss316-welded-pipes');
     // Route::get('/products/pipes-tubes/welded-pipes/ss316-semi-welded-pipes', [MainController::class, 'ss316SemiWeldedPipes'])->name('products.pipes-tubes.welded-pipes.ss316-semi-welded-pipes');
     Route::get('/products/pipes-tubes/welded-pipes/astm-sa106-grade-b-seamless-pipes', [MainController::class, 'astmSa106GradeBSeamlessPipes'])->name('products.pipes-tubes.welded-pipes.astm-sa106-grade-b-seamless-pipes');
-    Route::get('/products/pipes-tubes/seamless-pipes/astm-a106-gr-b-seamless-pipes', [MainController::class, 'astmA106GrBSeamlessPipes'])->name('products.pipes-tubes.seamless-pipes.astm-a106-gr-b-seamless-pipes');
+    // Route::get('/products/pipes-tubes/seamless-pipes/astm-a106-gr-b-seamless-pipes', [MainController::class, 'astmA106GrBSeamlessPipes'])->name('products.pipes-tubes.seamless-pipes.astm-a106-gr-b-seamless-pipes');
 
 
     Route::get('/products/special-fabricated', [MainController::class, 'specialFabricated'])->name('products.special-fabricated');

@@ -85,17 +85,19 @@
 
             <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
-                <input type="hidden" name="page_path" value="{{ Request::path() }}">
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
                 <div class="row justify-content-center">
                     <div class="col-md-6 mb-2">
                         <input type="email" name="email" required class="form-control p-3"
-                            placeholder="Enter your email address to get instant PDF">
+                            placeholder="Enter your email address">
                     </div>
 
                     <div class="col-md-3 mb-2">
                         <button type="submit" class="btn btn-lg w-100 text-white"
                             style="background-color:#db7227; border-radius:8px;">
-                            📥 Get Datasheet
+                            Get Datasheet
                         </button>
                     </div>
                 </div>
@@ -419,37 +421,37 @@
     $products = [
         [
             'name' => 'PIPES',
-            'route' => 'products.pipes-tubes.seamless-pipes',
+            'url' => 'products/pipes-tubes/seamless-pipes',
             'image' => 'assets/images/all-product/seamless-pipes-10.webp',
         ],
         [
             'name' => 'TUBES',
-            'route' => 'products.pipes-tubes.welded-pipes',
+            'url' => 'products/pipes-tubes/welded-pipes',
             'image' => 'assets/images/all-product/welded-pipes-tubes-1.webp',
         ],
         [
             'name' => 'SHEETS',
-            'route' => 'products.sheets-plates-coils.sheets-and-plates',
+            'url' => 'products/sheets-plates-coils/sheets-and-plates',
             'image' => 'assets/images/all-product/Sheets-Plates.webp',
         ],
         [
             'name' => 'PLATES',
-            'route' => 'products.sheets-plates-coils.sheets-and-plates',
+            'url' => 'products/sheets-plates-coils/sheets-and-plates',
             'image' => 'assets/images/all-product/Sheets-Plates.webp',
         ],
         [
             'name' => 'FLANGES',
-            'route' => 'products.flanges.flanges-and-gaskets',
+            'url' => 'products/flanges/flanges-and-gaskets',
             'image' => 'assets/images/product/flangs/Flanges-&-Pipe-Fittings.webp',
         ],
         [
             'name' => 'BARS',
-            'route' => 'products.bars-rods',
+            'url' => 'products/bars-rods',
             'image' => 'assets/images/product/Bars-&-Rods/round-bars.webp',
         ],
         [
             'name' => 'FITTINGS',
-            'route' => 'products.pipe-fittings',
+            'url' => 'products/pipe-fittings',
             'image' => 'assets/images/product/main-product/fittings.webp',
         ],
     ];
@@ -479,7 +481,7 @@
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
             @foreach ($products as $product)
                 <div class="col d-flex">
-                    <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                    <a href="{{ url($product['url']) }}" class="text-decoration-none w-100">
                         <div class="product-card h-100">
                             <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                 class="img-fluid w-100" style="border-radius: 8px 8px 0 0;">

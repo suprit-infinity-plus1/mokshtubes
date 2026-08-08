@@ -1187,10 +1187,10 @@ class MainController extends Controller
         return view('frontend.products.pipes-tubes.welded-pipes.grade-b-seamless-pipes');
     }
 
-    public function astmA106GrBSeamlessPipes()
-    {
-        return view('frontend.products.pipes-tubes.seamless-pipes.astm-a106-gr-b-seamless-pipes');
-    }
+    // public function astmA106GrBSeamlessPipes()
+    // {
+    //     return view('frontend.products.pipes-tubes.seamless-pipes.astm-a106-gr-b-seamless-pipes');
+    // }
 
     // Special Fabricated Product
     public function specialFabricated()

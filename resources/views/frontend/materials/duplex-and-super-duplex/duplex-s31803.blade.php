@@ -510,37 +510,37 @@
         $products = [
             [
                 'name' => 'Pipes',
-                'route' => 'products.pipes-tubes.seamless-pipes',
+                'url' => 'products/pipes-tubes/seamless-pipes',
                 'image' => 'assets/images/all-product/seamless-pipes-10.webp',
             ],
             [
                 'name' => 'Tubes',
-                'route' => 'products.pipes-tubes.welded-pipes',
+                'url' => 'products/pipes-tubes/welded-pipes',
                 'image' => 'assets/images/all-product/welded-pipes-tubes-1.webp',
             ],
             [
                 'name' => 'Sheets',
-                'route' => 'products.sheets-plates-coils.sheets-and-plates',
+                'url' => 'products/sheets-plates-coils/sheets-and-plates',
                 'image' => 'assets/images/all-product/Sheets-Plates.webp',
             ],
             [
                 'name' => 'Plates',
-                'route' => 'products.sheets-plates-coils.sheets-and-plates',
+                'url' => 'products/sheets-plates-coils/sheets-and-plates',
                 'image' => 'assets/images/all-product/Sheets-Plates.webp',
             ],
             [
                 'name' => 'Flanges',
-                'route' => 'products.flanges.flanges-and-gaskets',
+                'url' => 'products/flanges/flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Bars',
-                'route' => 'products.bars-rods',
+                'url' => 'products/bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Fittings',
-                'route' => 'products.pipe-fittings',
+                'url' => 'products/pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ]
         ];
@@ -574,7 +574,7 @@
             <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
                 @foreach ($products as $product)
                     <div class="col d-flex">
-                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                        <a href="{{ url($product['url']) }}" class="text-decoration-none w-100">
                             <div class="product-card h-100">
                                 <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                     class="img-fluid w-100">

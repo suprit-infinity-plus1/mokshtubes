@@ -44,30 +44,32 @@ class DatasheetLeadController extends Controller
             'email' => 'required|email',
             'page_path' => 'required|string',
         ]);
-        
+
         // Find datasheet by page identifier
         $datasheet = Datasheet::where('page_path', $request->page_path)
-        ->where('active', 1)
-        ->first();
-        
-        if (! $datasheet) {
+            ->where('active', 1)
+            ->first();
+
+        if (!$datasheet) {
+
+            dd("hello");
             abort(404, 'Datasheet not available.');
         }
-        
+
         // Store lead (UNCHANGED LOGIC)
         DatasheetLead::create([
             'email' => $request->email,
             // 'pdf' => $datasheet->file_path, // store actual file path
             'pdf' => $datasheet->page_path, // store actual page path
         ]);
-        
-        $filePath = storage_path('app/public/'.$datasheet->file_path);
-        
-        if (! file_exists($filePath)) {
+
+        $filePath = storage_path('app/public/' . $datasheet->file_path);
+
+        if (!file_exists($filePath)) {
             abort(404, 'Requested datasheet not found.');
         }
 
-        $downloadName = Str::slug($datasheet->name).'.pdf';
+        $downloadName = Str::slug($datasheet->name) . '.pdf';
 
         return response()->download(
             $filePath,
@@ -171,7 +173,7 @@ class DatasheetLeadController extends Controller
 
         $datasheetLeads = $query->orderBy('created_at', 'desc')->get();
 
-        $fileName = 'datasheet_leads_'.now()->format('Y_m_d_His').'.csv';
+        $fileName = 'datasheet_leads_' . now()->format('Y_m_d_His') . '.csv';
 
         $headers = [
             'Content-Type' => 'text/csv',
