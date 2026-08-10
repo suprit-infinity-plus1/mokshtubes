@@ -51,8 +51,8 @@ class DatasheetLeadController extends Controller
             ->first();
 
         if (!$datasheet) {
-
-            abort(404, 'Datasheet not available.');
+            // abort(404, 'Datasheet not available.');
+            return response()->view('frontend.datasheet_not_found', [], 404);
         }
 
         // Store lead (UNCHANGED LOGIC)
@@ -65,7 +65,8 @@ class DatasheetLeadController extends Controller
         $filePath = storage_path('app/public/' . $datasheet->file_path);
 
         if (!file_exists($filePath)) {
-            abort(404, 'Requested datasheet not found.');
+            // abort(404, 'Requested datasheet not found.');
+            return response()->view('frontend.datasheet_not_found', [], 404);
         }
 
         $downloadName = Str::slug($datasheet->name) . '.pdf';

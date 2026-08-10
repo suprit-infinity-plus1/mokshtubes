@@ -54,6 +54,48 @@
         </div>
     </section>
 
+     <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Fasteners Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Fasteners datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
+
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -121,7 +163,7 @@
             </div>
             <div class="row g-4">
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.astm-a193-grade-b7-stud-bolts') }}"
+                    <a href="{{ url('products/fasteners/astm-a193-grade-b7-stud-bolts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -135,7 +177,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.astm-a193-grade-b8-stud-bolts') }}"
+                    <a href="{{ url('products/fasteners/astm-a193-grade-b8-stud-bolts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -162,7 +204,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.heavy-hex-nuts') }}" class="text-decoration-none d-block h-100">
+                    <a href="{{ url('products/fasteners/heavy-hex-nuts') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
                             <img src="{{ asset('assets/images/fasteners/hax-2.png') }}" alt="Heavy Hex Nuts"
@@ -177,7 +219,7 @@
 
                 {{-- New Cards --}}
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.astm-a193-gr-b8m-studs') }}"
+                    <a href="{{ url('products/fasteners/astm-a193-gr-b8m-studs') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -191,7 +233,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.a286-gr-660-threaded-studs') }}"
+                    <a href="{{ url('products/fasteners/a286-gr-660-threaded-studs') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -206,7 +248,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.gr-660a-threaded-studs') }}"
+                    <a href="{{ url('products/fasteners/gr-660a-threaded-studs') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -220,7 +262,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.astm-a194-gr-7-nuts') }}"
+                    <a href="{{ url('products/fasteners/astm-a194-gr-7-nuts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -234,7 +276,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.astm-a194-gr-8-nuts') }}"
+                    <a href="{{ url('products/fasteners/astm-a194-gr-8-nuts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -248,7 +290,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.astm-a194-gr-8m-heavy-hex-nuts') }}"
+                    <a href="{{ url('products/fasteners/astm-a194-gr-8m-heavy-hex-nuts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -263,7 +305,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.gr-660a-heavy-hex-nuts') }}"
+                    <a href="{{ url('products/fasteners/gr-660a-heavy-hex-nuts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -277,7 +319,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.fasteners.asme-sf-467-nuts') }}"
+                    <a href="{{ url('products/fasteners/asme-sf-467-nuts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
@@ -1107,46 +1149,5 @@
 
             @endverbatim
         </script>
-    <!-- Datasheet Download -->
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Fasteners Datasheet</h3>
-            <p class="mb-3">
-                Get the complete Fasteners datasheet with chemical composition,
-                mechanical properties, heat treatment details, and applications.
-                Enter your email to receive the PDF instantly.
-            </p>
-
-            <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
-                @csrf
-
-                <input type="hidden" name="page_path" value="{{ $slug }}">
-
-                <div class="row justify-content-center">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Datasheet
-                        </button>
-                    </div>
-                </div>
-            </form>
-
-            @if (session('success'))
-                <div class="alert alert-success mt-3">
-                    {{ session('success') }}
-                </div>
-            @endif
-
-            <p class="small text-muted">
-                We respect your privacy. Your email will only be used to send the datasheet.
-            </p>
-        </div>
-    </section>
+   
 @endsection

@@ -1173,7 +1173,8 @@ class MainController extends Controller
 
     public function fasteners()
     {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners');
+        $slug = 'fasteners';
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners', compact('slug'));
     }
 
     public function fastenersProduct($country = null, $slug = null)

@@ -547,14 +547,14 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('products.fasteners.a286-gr-660-threaded-studs') }}">
+                            <a class="w-100" href="{{  url('products/fasteners/a286-gr-660-threaded-studs') }}">
                                 <img class="w-100"
                                     src="{{ asset('assets/images/fasteners/a286-gr-660-threaded-studs.jpg') }}"
                                     alt="Alloy Steel Stud Bolts" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0"><a href="{{ route('products.fasteners.a286-gr-660-threaded-studs') }}"
+                            <h6 class="mt-0"><a href="{{  url('products/fasteners/a286-gr-660-threaded-studs') }}"
                                     style="color: inherit; text-decoration: none;">Alloy Steel Stud Bolts</a></h6>
                         </div>
                     </div>
@@ -562,13 +562,13 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('products.fasteners.astm-a193-grade-b7-stud-bolts') }}">
+                            <a class="w-100" href="{{ url('products/fasteners/astm-a193-grade-b7-stud-bolts') }}">
                                 <img class="w-100" src="{{ asset('assets/images/fasteners/b7-stud-bolts.png') }}"
                                     alt="ASTM A193 B7 Stud Bolts" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0"><a href="{{ route('products.fasteners.astm-a193-grade-b7-stud-bolts') }}"
+                            <h6 class="mt-0"><a href="{{ url('products/fasteners/astm-a193-grade-b7-stud-bolts') }}"
                                     style="color: inherit; text-decoration: none;">ASTM A193 B7 Stud Bolts</a></h6>
                         </div>
                     </div>
@@ -576,13 +576,13 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('products.fasteners.astm-a193-grade-b8-stud-bolts') }}">
+                            <a class="w-100" href="{{ url('products/fasteners/astm-a193-grade-b8-stud-bolts') }}">
                                 <img class="w-100" src="{{ asset('assets/images/fasteners/grade-b8-stud-bolts.png') }}"
                                     alt="ASTM A193 B8 Stud Bolts" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0"><a href="{{ route('products.fasteners.astm-a193-grade-b8-stud-bolts') }}"
+                            <h6 class="mt-0"><a href="{{ url('products/fasteners/astm-a193-grade-b8-stud-bolts') }}"
                                     style="color: inherit; text-decoration: none;">ASTM A193 B8 Stud Bolts</a></h6>
                         </div>
                     </div>
@@ -590,14 +590,14 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('products.fasteners.gr-660a-threaded-studs') }}">
+                            <a class="w-100" href="{{ url('products/fasteners/gr-660a-threaded-studs') }}">
                                 <img class="w-100"
                                     src="{{ asset('assets/images/fasteners/gr-660a-threaded-studs.jpg') }}"
                                     alt="Heavy Hex Stud Bolts" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0"><a href="{{ route('products.fasteners.gr-660a-threaded-studs') }}"
+                            <h6 class="mt-0"><a href="{{ url('products/fasteners/gr-660a-threaded-studs') }}"
                                     style="color: inherit; text-decoration: none;">Heavy Hex Stud Bolts</a></h6>
                         </div>
                     </div>
