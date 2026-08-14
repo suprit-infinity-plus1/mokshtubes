@@ -62,7 +62,18 @@ class DatasheetLeadController extends Controller
             'pdf' => $datasheet->page_path, // store actual page path
         ]);
 
-        $filePath = storage_path('app/public/' . $datasheet->file_path);
+        // $filePath = storage_path('app/public/' . $datasheet->file_path);
+
+        // First, try the standard public path (where new files are saved)
+        $filePath = public_path('storage/' . $datasheet->file_path);
+
+        // Fallback for older files that might be directly in public/datasheets
+        if (!file_exists($filePath)) {
+            $fallbackPath = public_path($datasheet->file_path);
+            if (file_exists($fallbackPath)) {
+                $filePath = $fallbackPath;
+            }
+        }
 
         if (!file_exists($filePath)) {
             // abort(404, 'Requested datasheet not found.');

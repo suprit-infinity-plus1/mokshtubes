@@ -20,7 +20,6 @@ class DatasheetController extends Controller
 
     public function add()
     {
-
         return view('backend.datasheets.create');
     }
 
@@ -43,7 +42,7 @@ class DatasheetController extends Controller
 
         Datasheet::create([
             'name' => $request->name,
-            'slug' => Str::slug($request->name).'-'.Str::random(6),
+            'slug' => Str::slug($request->name) . '-' . Str::random(6),
             'page_path' => $request->page_path,
             'file_path' => $filePath,
             'active' => $request->active,
@@ -67,13 +66,12 @@ class DatasheetController extends Controller
 
         $request->validate([
             'name' => 'required|string|max:255',
-            'page_path' => 'required|string|max:255|unique:datasheets,page_path,'.$datasheet->id,
+            'page_path' => 'required|string|max:255|unique:datasheets,page_path,' . $datasheet->id,
             'file' => 'nullable|mimes:pdf|max:10240',
             'active' => 'required|boolean',
         ]);
 
         if ($request->hasFile('file')) {
-
             if ($datasheet->file_path && Storage::disk('public')->exists($datasheet->file_path)) {
                 Storage::disk('public')->delete($datasheet->file_path);
             }
@@ -86,6 +84,7 @@ class DatasheetController extends Controller
             'slug' => Str::slug($request->name),
             'page_path' => $request->page_path,
             'active' => $request->active,
+            'file_path' => $datasheet->file_path,
         ]);
 
         return redirect()
@@ -97,10 +96,11 @@ class DatasheetController extends Controller
     {
         $datasheet = Datasheet::findOrFail($id);
 
-        Storage::delete($datasheet->file_path);
+        Storage::disk('public')->delete($datasheet->file_path);
         $datasheet->delete();
 
-        return redirect()->route('datasheets.index')
+        return redirect()
+            ->route('datasheets.index')
             ->with('success', 'Datasheet deleted successfully');
     }
 }
