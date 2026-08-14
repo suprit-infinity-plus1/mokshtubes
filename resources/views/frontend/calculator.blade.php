@@ -104,6 +104,18 @@
 
                                 <div class="row">
                                     <!-- Thickness -->
+                                    <!-- Density -->
+                                    <div class="col-12 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Density</label>
+                                            <div class="d-flex align-items-center flex-grow-1">
+                                                <input type="number" class="form-control me-2" id="sheetDensity1"
+                                                    value="7930" placeholder="e.g. 7930" />
+                                                <span class="text-nowrap">kg/m³</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
@@ -158,8 +170,6 @@
                                     <p>Single piece weight: <strong id="sheetSingleWeight1" class="text-primary">0
                                             kg</strong></p>
                                     <p>Total weight: <strong id="sheetTotalWeight1" class="text-primary">0 kg</strong></p>
-                                    <p>Density used: <strong id="sheetDensity1" class="text-secondary">7930 kg/m³</strong>
-                                    </p>
                                 </div>
                             </div>
 
@@ -184,6 +194,18 @@
 
                                 <div class="row">
                                     <!-- Diameter -->
+                                    <!-- Density -->
+                                    <div class="col-12 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Density</label>
+                                            <div class="d-flex align-items-center flex-grow-1">
+                                                <input type="number" class="form-control me-2" id="pipeDensity2"
+                                                    value="7930" placeholder="e.g. 7930" />
+                                                <span class="text-nowrap">kg/m³</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Diameter, D</label>
@@ -226,8 +248,6 @@
                                     <p>Weight per meter: <strong id="pipeWeightPerMeter2" class="text-primary">0
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="pipeTotalWeight2" class="text-primary">0 kg</strong></p>
-                                    <p>Density used: <strong id="pipeDensity" class="text-secondary">7930 kg/m³</strong>
-                                    </p>
                                 </div>
                             </div>
 
@@ -250,6 +270,18 @@
 
                                 <div class="row">
                                     <!-- Diameter -->
+                                    <!-- Density -->
+                                    <div class="col-12 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Density</label>
+                                            <div class="d-flex align-items-center flex-grow-1">
+                                                <input type="number" class="form-control me-2" id="hollowDensity3"
+                                                    value="7930" placeholder="e.g. 7930" />
+                                                <span class="text-nowrap">kg/m³</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Diameter,
@@ -297,9 +329,6 @@
                                     <p>Total weight: <strong id="hollowTotalWeight3" class="text-primary">0
                                             kg</strong>
                                     </p>
-                                    <p>Density used: <strong id="hollowDensity" class="text-secondary">7930
-                                            kg/m³</strong>
-                                    </p>
                                 </div>
                             </div>
 
@@ -321,6 +350,18 @@
 
                                 <div class="row">
                                     <!-- Side, A -->
+                                    <!-- Density -->
+                                    <div class="col-12 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Density</label>
+                                            <div class="d-flex align-items-center flex-grow-1">
+                                                <input type="number" class="form-control me-2" id="squareDensity4"
+                                                    value="7930" placeholder="e.g. 7930" oninput="calculateSquareHollowSectionWeight()" />
+                                                <span class="text-nowrap">kg/m³</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, A</label>
@@ -365,8 +406,6 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="squareTotalWeight" class="text-primary">0.61 kg</strong>
                                     </p>
-                                    <p>Density used: <strong id="squareDensity" class="text-secondary">7930 kg/m³</strong>
-                                    </p>
                                 </div>
                             </div>
 
@@ -389,6 +428,18 @@
 
                                 <div class="row">
                                     <!-- Side A -->
+                                    <!-- Density -->
+                                    <div class="col-12 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Density</label>
+                                            <div class="d-flex align-items-center flex-grow-1">
+                                                <input type="number" class="form-control me-2" id="rectangularDensity5"
+                                                    value="7930" placeholder="e.g. 7930" oninput="calculateRectangularHollowSectionWeight()" />
+                                                <span class="text-nowrap">kg/m³</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, A</label>
@@ -474,6 +525,18 @@
 
                                 <div class="row">
                                     <!-- Diameter -->
+                                    <!-- Density -->
+                                    <div class="col-12 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Density</label>
+                                            <div class="d-flex align-items-center flex-grow-1">
+                                                <input type="number" class="form-control me-2" id="roundDensity6"
+                                                    value="7930" placeholder="e.g. 7930" oninput="calculateRoundBarWeight()" />
+                                                <span class="text-nowrap">kg/m³</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Diameter, D</label>
@@ -504,7 +567,6 @@
                                     <p>Weight per meter: <strong id="roundWeightPerMeter" class="text-primary">0.00
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="roundTotalWeight" class="text-primary">0.00 kg</strong>
-                                    <p>Density used: <strong>7930 kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -527,6 +589,18 @@
 
                                 <div class="row">
                                     <!-- Side -->
+                                    <!-- Density -->
+                                    <div class="col-12 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Density</label>
+                                            <div class="d-flex align-items-center flex-grow-1">
+                                                <input type="number" class="form-control me-2" id="squareDensity7"
+                                                    value="7930" placeholder="e.g. 7930" oninput="calculateSquareBarWeight7()" />
+                                                <span class="text-nowrap">kg/m³</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, A</label>
@@ -558,7 +632,6 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="squareTotalWeight7" class="text-primary">0.00 kg</strong>
                                     </p>
-                                    <p>Density used: <strong>7930 kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -583,6 +656,18 @@
 
                                 <div class="row">
                                     <!-- Width -->
+                                    <!-- Density -->
+                                    <div class="col-12 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Density</label>
+                                            <div class="d-flex align-items-center flex-grow-1">
+                                                <input type="number" class="form-control me-2" id="flatDensity8"
+                                                    value="7930" placeholder="e.g. 7930" oninput="calculateFlatBarWeight8()" />
+                                                <span class="text-nowrap">kg/m³</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Width, W</label>
@@ -626,7 +711,6 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="flatTotalWeight8" class="text-primary">0.00 kg</strong>
                                     </p>
-                                    <p>Density used: <strong>7930 kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -649,6 +733,18 @@
 
                                 <div class="row">
                                     <!-- Side A -->
+                                    <!-- Density -->
+                                    <div class="col-12 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Density</label>
+                                            <div class="d-flex align-items-center flex-grow-1">
+                                                <input type="number" class="form-control me-2" id="angleDensity9"
+                                                    value="7930" placeholder="e.g. 7930" oninput="calculateEqualAngleWeight9()" />
+                                                <span class="text-nowrap">kg/m³</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, A</label>
@@ -692,7 +788,6 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="angleTotalWeight9" class="text-primary">0.00 kg</strong>
                                     </p>
-                                    <p>Density used: <strong>7930 kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -718,6 +813,18 @@
 
                                 <div class="row">
                                     <!-- Side A x B -->
+                                    <!-- Density -->
+                                    <div class="col-12 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Density</label>
+                                            <div class="d-flex align-items-center flex-grow-1">
+                                                <input type="number" class="form-control me-2" id="angleDensity10"
+                                                    value="7930" placeholder="e.g. 7930" oninput="calculateUnequalAngleWeight10()" />
+                                                <span class="text-nowrap">kg/m³</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, A × B</label>
@@ -797,7 +904,6 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="angleTotalWeight10" class="text-primary">0.00 kg</strong>
                                     </p>
-                                    <p>Density used: <strong>7930 kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -1798,11 +1904,13 @@
             const wInput = document.getElementById('sheetWidth' + tabNumber);
             const lInput = document.getElementById('sheetLength' + tabNumber);
             const piecesInput = document.getElementById('sheetPieces' + tabNumber);
+            const densityInput = document.getElementById('sheetDensity' + tabNumber);
 
             const singleOutput = document.getElementById('sheetSingleWeight' + tabNumber);
             const totalOutput = document.getElementById('sheetTotalWeight' + tabNumber);
 
             function calculate() {
+                let density = parseFloat(densityInput.value) || 7930;
                 let t = parseFloat(tInput.value) || 0;
                 let W = parseFloat(wInput.value) || 0;
                 let L = parseFloat(lInput.value) || 0;
@@ -1820,6 +1928,7 @@
             wInput.addEventListener('input', calculate);
             lInput.addEventListener('input', calculate);
             piecesInput.addEventListener('input', calculate);
+            if (densityInput) densityInput.addEventListener('input', calculate);
             calculate();
         }
 
@@ -1830,11 +1939,13 @@
             const DInput = document.getElementById('pipeDiameter' + tabNumber);
             const tInput = document.getElementById('pipeThickness' + tabNumber);
             const LInput = document.getElementById('pipeLength' + tabNumber);
+            const densityInput = document.getElementById('pipeDensity' + tabNumber);
 
             const perMeterOutput = document.getElementById('pipeWeightPerMeter' + tabNumber);
             const totalOutput = document.getElementById('pipeTotalWeight' + tabNumber);
 
             function calculate() {
+                let density = parseFloat(densityInput.value) || 7930;
                 let D = parseFloat(DInput.value) || 0; // outer diameter in mm
                 let t = parseFloat(tInput.value) || 0; // thickness in mm
                 let L = parseFloat(LInput.value) || 0; // length in meters
@@ -1868,6 +1979,8 @@
             DInput.addEventListener('input', calculate);
             tInput.addEventListener('input', calculate);
             LInput.addEventListener('input', calculate);
+            if(densityInput) densityInput.addEventListener('input', calculate);
+            if(densityInput) densityInput.addEventListener('input', calculate);
 
             // Initial calculation
             calculate();
@@ -1881,6 +1994,7 @@
             const DInput = document.getElementById('hollowDiameter' + tabNumber);
             const tInput = document.getElementById('hollowThickness' + tabNumber);
             const LInput = document.getElementById('hollowLength' + tabNumber);
+            const densityInput = document.getElementById('hollowDensity' + tabNumber);
 
             const perMeterOutput = document.getElementById('hollowWeightPerMeter' + tabNumber);
             const totalOutput = document.getElementById('hollowTotalWeight' + tabNumber);
@@ -1888,6 +2002,7 @@
             function calculate() {
                 try {
                     if (!DInput || !tInput || !LInput) return;
+                    let density = parseFloat(densityInput.value) || 7930;
 
                     let D = parseFloat(DInput.value) || 0; // outer diameter in mm
                     let t = parseFloat(tInput.value) || 0; // thickness in mm
@@ -1923,6 +2038,8 @@
             DInput.addEventListener('input', calculate);
             tInput.addEventListener('input', calculate);
             LInput.addEventListener('input', calculate);
+            if(densityInput) densityInput.addEventListener('input', calculate);
+            if(densityInput) densityInput.addEventListener('input', calculate);
 
             // Initial calculation
             calculate();
@@ -1945,7 +2062,7 @@
             const tm = t / 1000;
 
             // Density in kg/m³
-            const density = 7930;
+            const density = parseFloat(document.getElementById('squareDensity4').value) || 7930;
 
             // Validation: thickness must be less than half the side
             // Calculate inner side (treat as solid if thickness >= half side)
@@ -1991,7 +2108,7 @@
             const tm = t / 1000;
 
             // Density in kg/m³
-            const density = 7930;
+            const density = parseFloat(document.getElementById('rectangularDensity5').value) || 7930;
 
             // Inner dimensions (treat as solid if thickness >= half side)
             const A_inner = Math.max(Am - 2 * tm, 0);
@@ -2014,7 +2131,7 @@
 
     <script>
         function calculateRoundBarWeight() {
-            const density = 7930; // kg/m³
+            const density = parseFloat(document.getElementById('roundDensity6').value) || 7930; // kg/m³
 
             // Input values
             const D = parseFloat(document.getElementById("roundDiameter").value) || 0; // mm
@@ -2044,7 +2161,7 @@
 
     <script>
         function calculateSquareBarWeight7() {
-            const density = 7930; // kg/m³
+            const density = parseFloat(document.getElementById('squareDensity7').value) || 7930; // kg/m³
 
             // Input values
             const A = parseFloat(document.getElementById("squareSideA7").value) || 0; // mm
@@ -2073,6 +2190,7 @@
             // Attach events
             document.getElementById("squareSideA7").addEventListener("input", calculateSquareBarWeight7);
             document.getElementById("squareLength7").addEventListener("input", calculateSquareBarWeight7);
+            document.getElementById("squareDensity7").addEventListener("input", calculateSquareBarWeight7);
 
             calculateSquareBarWeight7(); // initial calc
         });
@@ -2080,7 +2198,7 @@
 
     <script>
         function calculateFlatBarWeight8() {
-            const density = 7930; // kg/m³
+            const density = parseFloat(document.getElementById('flatDensity8').value) || 7930; // kg/m³
 
             // Get input values
             const W = parseFloat(document.getElementById("flatWidth8").value) || 0; // mm
@@ -2111,7 +2229,7 @@
 
     <script>
         function calculateEqualAngleWeight9() {
-            const density = 7930; // kg/m³
+            const density = parseFloat(document.getElementById('angleDensity9').value) || 7930; // kg/m³
 
             // Input values
             const A = parseFloat(document.getElementById("angleSide9").value) || 0; // mm
@@ -2199,7 +2317,7 @@
 
         // Calculate weight
         function calculateUnequalAngleWeight10() {
-            const density = 7930; // kg/m³
+            const density = parseFloat(document.getElementById('angleDensity10').value) || 7930; // kg/m³
 
             const size = document.getElementById("angleSize10").value;
             const [A, B] = size.split("x").map(Number); // mm
