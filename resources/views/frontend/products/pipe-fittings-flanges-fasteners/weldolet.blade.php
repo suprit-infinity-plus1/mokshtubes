@@ -42,6 +42,7 @@ Weldolet, Carbon Steel Weldolet')
             <!-- <a href="#weldolet-vs-sockolet">Weldolet vs Sockolet</a> | -->
             <!-- <a href="#manufacturing">Manufacturing</a> | -->
             <!-- <a href="#tolerances">Tolerances</a> | -->
+            <a href="#features">Features</a> |
             <a href="#mechanical">Mechanical Properties</a> |
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
@@ -515,6 +516,80 @@ Weldolet, Carbon Steel Weldolet')
                             <li>High-strength, fully radiographable joints are mandatory on offshore oil rigs to prevent
                                 catastrophic leaks.</li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- Features --}}
+    <section id="features" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Features & Advantages</h2>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-diagram-3"></i></div>
+                        <h4>Branch Connection</h4>
+                        <h5>Provides a strong and reliable branch pipe connection.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>Corrosion Resistance</h4>
+                        <h5>Excellent corrosion and oxidation resistance.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h4>High Strength</h4>
+                        <h5>High mechanical strength and durability.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h4>Extreme Conditions</h4>
+                        <h5>Suitable for high-pressure and high-temperature services.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-cash-stack"></i></div>
+                        <h4>Cost Effective</h4>
+                        <h5>Reduces welding time and fabrication costs.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-wind"></i></div>
+                        <h4>Smooth Flow</h4>
+                        <h5>Smooth flow with minimal turbulence.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h4>Leak-Proof</h4>
+                        <h5>Provides a leak-proof butt weld connection.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h4>Long Service Life</h4>
+                        <h5>Guarantees an extended operational service life.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-award"></i></div>
+                        <h4>Global Standards</h4>
+                        <h5>Manufactured to international quality standards.</h5>
                     </div>
                 </div>
             </div>

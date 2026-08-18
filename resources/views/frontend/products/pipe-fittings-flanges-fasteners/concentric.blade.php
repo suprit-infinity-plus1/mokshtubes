@@ -40,7 +40,7 @@ Reducer, ASME B16.9')
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
             <!-- <a href="#concentric-vs-eccentric">Concentric vs Eccentric</a> | -->
-            <!-- <a href="#manufacturing">Manufacturing</a> | -->
+            <a href="#features">Features</a> |
             <!-- <a href="#tolerances">Tolerances</a> | -->
             <a href="#mechanical">Mechanical Properties</a> |
             <a href="#why-choose-us">Why Choose Us</a> |
@@ -524,6 +524,79 @@ Reducer, ASME B16.9')
         </div>
     </section>
 
+    {{-- Features --}}
+    <section id="features" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Features & Advantages</h2>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrows-collapse"></i></div>
+                        <h4>Smooth Transition</h4>
+                        <h5>Provides a smooth transition between different pipe sizes.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-wind"></i></div>
+                        <h4>Reduced Turbulence</h4>
+                        <h5>Reduces pressure loss and turbulence within the pipeline.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>Corrosion Resistance</h4>
+                        <h5>Offers excellent corrosion and oxidation resistance.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h4>High Durability</h4>
+                        <h5>Built with high mechanical strength and long-lasting durability.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h4>Leak-Proof Connection</h4>
+                        <h5>Ensures a secure, leak-proof butt weld connection.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h4>Extreme Conditions</h4>
+                        <h5>Suitable for high-pressure and high-temperature services.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
+                        <h4>Low Maintenance</h4>
+                        <h5>Designed for easy installation and minimal maintenance.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h4>Long Service Life</h4>
+                        <h5>Guarantees extended operational service life.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-award"></i></div>
+                        <h4>Global Standards</h4>
+                        <h5>Manufactured strictly to international quality standards.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -720,32 +793,32 @@ Reducer, ASME B16.9')
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-                                                {
-                                                  "@context": "https://schema.org",
-                                                  "@graph": [
-                                                    {
-                                                      "@type": ["Organization", "LocalBusiness"],
-                                                      "@id": "https://mokshtubes.com/#organization",
-                                                      "name": "Moksh Tubes & Fittings LLP",
-                                                      "url": "https://mokshtubes.com/",
-                                                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
-                                                      "telephone": "+91-9769584950",
-                                                      "email": "info@mokshtubes.com"
-                                                    },
-                                                    {
-                                                      "@type": "Product",
-                                                      "@id": "https://mokshtubes.com/#concentric-reducer",
-                                                      "name": "Concentric Buttweld Reducer",
-                                                      "image": "https://mokshtubes.com/assets/images/product/flangs/concentric-reducers_11zon.jpg",
-                                                      "category": "Pipe Fittings",
-                                                      "description": "Premium Concentric Pipe Reducers (ASME B16.9) in Carbon Steel (A234 WPB) and Stainless Steel for inline diameter transitions.",
-                                                      "brand": {
-                                                        "@type": "Brand",
-                                                        "@id": "https://mokshtubes.com/#organization"
-                                                      }
-                                                    }
-                                                  ]
-                                                }
-                                                </script>
+                                                                {
+                                                                  "@context": "https://schema.org",
+                                                                  "@graph": [
+                                                                    {
+                                                                      "@type": ["Organization", "LocalBusiness"],
+                                                                      "@id": "https://mokshtubes.com/#organization",
+                                                                      "name": "Moksh Tubes & Fittings LLP",
+                                                                      "url": "https://mokshtubes.com/",
+                                                                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                                                                      "telephone": "+91-9769584950",
+                                                                      "email": "info@mokshtubes.com"
+                                                                    },
+                                                                    {
+                                                                      "@type": "Product",
+                                                                      "@id": "https://mokshtubes.com/#concentric-reducer",
+                                                                      "name": "Concentric Buttweld Reducer",
+                                                                      "image": "https://mokshtubes.com/assets/images/product/flangs/concentric-reducers_11zon.jpg",
+                                                                      "category": "Pipe Fittings",
+                                                                      "description": "Premium Concentric Pipe Reducers (ASME B16.9) in Carbon Steel (A234 WPB) and Stainless Steel for inline diameter transitions.",
+                                                                      "brand": {
+                                                                        "@type": "Brand",
+                                                                        "@id": "https://mokshtubes.com/#organization"
+                                                                      }
+                                                                    }
+                                                                  ]
+                                                                }
+                                                                </script>
     @endverbatim
 @endsection
