@@ -2,9 +2,9 @@
 @section('title', '90 Degree Elbow | Buttweld Pipe Elbows | Moksh Tubes')
 <!-- 52 characters -->
 @section('meta_description', 'High-quality 90 Degree Pipe Elbows (LR & SR) for right-angle flow direction changes.
-    Available in Stainless Steel, Carbon Steel, and Alloy Steel.')
+Available in Stainless Steel, Carbon Steel, and Alloy Steel.')
 @section('meta_keywords', '90 Degree Elbow, Pipe Elbow, Buttweld Elbow, Stainless Steel Elbow, Carbon Steel Elbow, ASME
-    B16.9')
+B16.9')
 @section('og_image', asset('assets/images/product/flangs/90-degree-elbows_11zon.jpeg'))
 @section('og_type', 'product')
 @section('content')
@@ -36,7 +36,7 @@
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specifications">Specifications</a> |
-            <a href="#size-weight">Dimensions</a> |
+            <a href="#size-weight">Weight Chart</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
             <!-- <a href="#lr-vs-sr">LR vs SR Elbows</a> | -->
@@ -201,18 +201,18 @@
 
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Dimensional Data (ASME B16.9)</h2>
+                <h2 class="fw-bold" style="color: #174268;">90 Degree Elbows Weight Chart</h2>
             </div>
 
             <div class="section-title center mb-3">
-                <h3 class="text-center mb-0" style="color: #db7227;">90 Degree Long Radius (LR) Elbow Dimensions</h3>
+                <!-- <h4 class="text-center mb-0" style="color: #db7227;">Weight chart</h4> -->
             </div>
 
-            <div class="text-center mb-4">
-                <img src="{{ asset('assets/images/product/flangs/90-degree-elbows_11zon.jpeg') }}"
-                    alt="90 Degree Elbow Dimensions" class="img-fluid border p-2 bg-white"
-                    style="max-width: 600px; border-radius: 8px;">
-            </div>
+            <!-- <div class="text-center mb-4">
+                        <img src="{{ asset('assets/images/product/flangs/90-degree-elbows_11zon.jpeg') }}"
+                            alt="90 Degree Elbow Dimensions" class="img-fluid border p-2 bg-white"
+                            style="max-width: 600px; border-radius: 8px;">
+                    </div> -->
 
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
@@ -367,8 +367,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -395,8 +394,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy"
-                                    width="400" height="260">
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -424,8 +423,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
-                                    width="400" height="260">
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -721,32 +720,32 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-                {
-                  "@context": "https://schema.org",
-                  "@graph": [
-                    {
-                      "@type": ["Organization", "LocalBusiness"],
-                      "@id": "https://mokshtubes.com/#organization",
-                      "name": "Moksh Tubes & Fittings LLP",
-                      "url": "https://mokshtubes.com/",
-                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
-                      "telephone": "+91-9769584950",
-                      "email": "info@mokshtubes.com"
-                    },
-                    {
-                      "@type": "Product",
-                      "@id": "https://mokshtubes.com/#90-degree-elbow",
-                      "name": "90 Degree Buttweld Elbow",
-                      "image": "https://mokshtubes.com/assets/images/product/flangs/90-degree-elbows_11zon.jpeg",
-                      "category": "Pipe Fittings",
-                      "description": "Premium 90 Degree Pipe Elbows (LR & SR) per ASME B16.9. Available in Carbon Steel, Stainless Steel, and Alloy Steel.",
-                      "brand": {
-                        "@type": "Brand",
-                        "@id": "https://mokshtubes.com/#organization"
-                      }
-                    }
-                  ]
-                }
-                </script>
+                                                {
+                                                  "@context": "https://schema.org",
+                                                  "@graph": [
+                                                    {
+                                                      "@type": ["Organization", "LocalBusiness"],
+                                                      "@id": "https://mokshtubes.com/#organization",
+                                                      "name": "Moksh Tubes & Fittings LLP",
+                                                      "url": "https://mokshtubes.com/",
+                                                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                                                      "telephone": "+91-9769584950",
+                                                      "email": "info@mokshtubes.com"
+                                                    },
+                                                    {
+                                                      "@type": "Product",
+                                                      "@id": "https://mokshtubes.com/#90-degree-elbow",
+                                                      "name": "90 Degree Buttweld Elbow",
+                                                      "image": "https://mokshtubes.com/assets/images/product/flangs/90-degree-elbows_11zon.jpeg",
+                                                      "category": "Pipe Fittings",
+                                                      "description": "Premium 90 Degree Pipe Elbows (LR & SR) per ASME B16.9. Available in Carbon Steel, Stainless Steel, and Alloy Steel.",
+                                                      "brand": {
+                                                        "@type": "Brand",
+                                                        "@id": "https://mokshtubes.com/#organization"
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                                </script>
     @endverbatim
 @endsection

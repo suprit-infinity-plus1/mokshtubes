@@ -2,9 +2,9 @@
 @section('title', 'Sockolet | Socket Weld Branch Fitting | Moksh Tubes')
 <!-- 52 characters -->
 @section('meta_description', 'Premium Sockolets (Socket Weld Olets) for high-pressure 90-degree branch connections.
-    Available in 3000# and 6000# ratings in Stainless, Carbon, and Alloy Steel.')
+Available in 3000# and 6000# ratings in Stainless, Carbon, and Alloy Steel.')
 @section('meta_keywords', 'Sockolet, Socket Weld Olet, Branch Connection, MSS-SP-97, 3000# Sockolet, Stainless Steel
-    Sockolet, Carbon Steel Sockolet')
+Sockolet, Carbon Steel Sockolet')
 @section('og_image', asset('assets/images/product/flangs/sockolets_11zon.jpg'))
 @section('og_type', 'product')
 @section('content')
@@ -35,7 +35,7 @@
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specifications">Specifications</a> |
-            <a href="#size-weight">Dimensions</a> |
+            <a href="#size-weight">Weight chart</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
             <!-- <a href="#sockolet-vs-weldolet">Sockolet vs Weldolet</a> | -->
@@ -194,11 +194,11 @@
 
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Dimensional Data (MSS-SP-97)</h2>
+                <h2 class="fw-bold" style="color: #174268;">Sockolets weight chart</h2>
             </div>
 
             <div class="section-title center mb-3">
-                <h3 class="text-center mb-0" style="color: #db7227;">Class 3000 Sockolet Dimensions</h3>
+                <!-- <h3 class="text-center mb-0" style="color: #db7227;">Class 3000 Sockolet Dimensions</h3> -->
             </div>
 
             <div class="table-responsive">
@@ -353,8 +353,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -381,8 +380,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy"
-                                    width="400" height="260">
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -410,8 +409,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
-                                    width="400" height="260">
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -618,78 +617,78 @@
 
 
     <!-- <section id="export" class="sec-padd-top sec-padd-bottom">
-            <div class="container text-center">
-                <div class="section-title center mb-4">
-                    <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>
+                <div class="container text-center">
+                    <div class="section-title center mb-4">
+                        <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>
+                    </div>
+                    <p class="fs-5">We supply Sockolets across major Indian industrial locations including Mumbai, Chennai,
+                        Ahmedabad, Pune, and Hyderabad, with efficient logistics support for domestic power and process industry
+                        projects.</p>
+                    <p class="fs-5">We also regularly export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait, supplying sockolets for
+                        power plants, refineries, desalination units, and EPC contractors.</p>
                 </div>
-                <p class="fs-5">We supply Sockolets across major Indian industrial locations including Mumbai, Chennai,
-                    Ahmedabad, Pune, and Hyderabad, with efficient logistics support for domestic power and process industry
-                    projects.</p>
-                <p class="fs-5">We also regularly export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait, supplying sockolets for
-                    power plants, refineries, desalination units, and EPC contractors.</p>
-            </div>
-        </section> -->
+            </section> -->
 
     <!-- Testing & Quality Control for Sockolets -->
     <!-- <section class="sec-padd-top sec-padd-bottom bg-light">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>Testing & Quality Control for Sockolets</h2>
-                </div>
-
-                <div class="row g-4 mt-4">
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-droplet-fill"></i></div>
-                            <h4>Hydrostatic Test</h4>
-                            <h5>Hydrostatic test for pressure integrity verification.</h5>
-                        </div>
+                <div class="container">
+                    <div class="section-title center">
+                        <h2>Testing & Quality Control for Sockolets</h2>
                     </div>
 
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-activity"></i></div>
-                            <h4>Eddy Current Test</h4>
-                            <h5>Eddy current testing for detecting surface-level defects.</h5>
+                    <div class="row g-4 mt-4">
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-droplet-fill"></i></div>
+                                <h4>Hydrostatic Test</h4>
+                                <h5>Hydrostatic test for pressure integrity verification.</h5>
+                            </div>
                         </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                                <h4>Eddy Current Test</h4>
+                                <h5>Eddy current testing for detecting surface-level defects.</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                                <h4>PMI Test</h4>
+                                <h5>PMI testing to verify material grade and composition.</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                                <h4>Hardness Test</h4>
+                                <h5>Hardness testing for strength and durability confirmation.</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
+                                <h4>Flattening & Flaring Test</h4>
+                                <h5>Flattening and flaring to assess ductility and deformation.</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-broadcast-pin"></i></div>
+                                <h4>Ultrasonic Test (UT)</h4>
+                                <h5>Ultrasonic testing for internal and volumetric defects.</h5>
+                            </div>
+                        </div>
+
                     </div>
 
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                            <h4>PMI Test</h4>
-                            <h5>PMI testing to verify material grade and composition.</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                            <h4>Hardness Test</h4>
-                            <h5>Hardness testing for strength and durability confirmation.</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
-                            <h4>Flattening & Flaring Test</h4>
-                            <h5>Flattening and flaring to assess ductility and deformation.</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-broadcast-pin"></i></div>
-                            <h4>Ultrasonic Test (UT)</h4>
-                            <h5>Ultrasonic testing for internal and volumetric defects.</h5>
-                        </div>
-                    </div>
-
-                </div>
-
-        </section> -->
+            </section> -->
 
 
 
@@ -851,32 +850,32 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-                {
-                  "@context": "https://schema.org",
-                  "@graph": [
-                    {
-                      "@type": ["Organization", "LocalBusiness"],
-                      "@id": "https://mokshtubes.com/#organization",
-                      "name": "Moksh Tubes & Fittings LLP",
-                      "url": "https://mokshtubes.com/",
-                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
-                      "telephone": "+91-9769584950",
-                      "email": "info@mokshtubes.com"
-                    },
-                    {
-                      "@type": "Product",
-                      "@id": "https://mokshtubes.com/#sockolet",
-                      "name": "Sockolet (Socket Weld Olet)",
-                      "image": "https://mokshtubes.com/assets/images/product/flangs/sockolets_11zon.jpg",
-                      "category": "Forged Fittings",
-                      "description": "High-pressure forged Sockolets (MSS-SP-97, 3000#, 6000#) for small-bore branching. Available in Carbon Steel (A105N) and Stainless Steel.",
-                      "brand": {
-                        "@type": "Brand",
-                        "@id": "https://mokshtubes.com/#organization"
-                      }
-                    }
-                  ]
-                }
-                </script>
+                        {
+                          "@context": "https://schema.org",
+                          "@graph": [
+                            {
+                              "@type": ["Organization", "LocalBusiness"],
+                              "@id": "https://mokshtubes.com/#organization",
+                              "name": "Moksh Tubes & Fittings LLP",
+                              "url": "https://mokshtubes.com/",
+                              "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                              "telephone": "+91-9769584950",
+                              "email": "info@mokshtubes.com"
+                            },
+                            {
+                              "@type": "Product",
+                              "@id": "https://mokshtubes.com/#sockolet",
+                              "name": "Sockolet (Socket Weld Olet)",
+                              "image": "https://mokshtubes.com/assets/images/product/flangs/sockolets_11zon.jpg",
+                              "category": "Forged Fittings",
+                              "description": "High-pressure forged Sockolets (MSS-SP-97, 3000#, 6000#) for small-bore branching. Available in Carbon Steel (A105N) and Stainless Steel.",
+                              "brand": {
+                                "@type": "Brand",
+                                "@id": "https://mokshtubes.com/#organization"
+                              }
+                            }
+                          ]
+                        }
+                        </script>
     @endverbatim
 @endsection

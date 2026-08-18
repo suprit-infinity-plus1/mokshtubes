@@ -1,31 +1,40 @@
 @extends('layouts.master')
 @section('title', '45 Degree Bend Manufacturer, Supplier & Exporter in India | Moksh Tubes')
-@section('meta_description',
+@section(
+    'meta_description',
     'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of 45 Degree
     Bends in Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex. ASTM & ASME certified quality with worldwide
-    delivery.')
-@section('meta_keywords',
+    delivery.'
+)
+@section(
+    'meta_keywords',
     '45 Degree Bend, 45 Degree Bend Manufacturer, 45 Degree Bend Supplier, 45 Degree Bend
     Exporter, Stainless Steel 45 Degree Bend, Carbon Steel 45 Degree Bend, Alloy Steel 45 Degree Bend, Duplex 45 Degree
     Bend, Super Duplex 45 Degree Bend, Long Radius 45 Degree Bend, Buttweld Bend, Pipe Bend, Pipe Bend Manufacturer,
     Industrial Pipe Bend, ASME B16.49 Bend, ASME B16.9 Bend, Seamless 45 Degree Bend, Welded 45 Degree Bend, Industrial Pipe
     Fittings, Butt Weld Pipe Fittings, Stainless Steel Pipe Fittings, High Pressure Pipe Fittings, Corrosion Resistant Pipe
     Bend, Long Radius Pipe Bend, Oil & Gas Pipe Fittings, Chemical Process Piping, Power Plant Piping, Petrochemical Pipe
-    Fittings, Heat Resistant Pipe Bend, Custom Pipe Bends')
+    Fittings, Heat Resistant Pipe Bend, Custom Pipe Bends'
+)
 @section('og_image', asset('assets/images/product/flangs/45-degree-elbows_11zon.jpg'))
 @section('og_title', '45 Degree Bend Manufacturer, Supplier & Exporter | Moksh Tubes')
-@section('og_description',
+@section(
+    'og_description',
     'Buy premium-quality Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex 45
-    Degree Bends manufactured to ASTM & ASME standards with worldwide delivery.')
+    Degree Bends manufactured to ASTM & ASME standards with worldwide delivery.'
+)
 @section('twitter_title', '45 Degree Bend Manufacturer in India')
-@section('twitter_description',
+@section(
+    'twitter_description',
     'Leading manufacturer and exporter of Stainless Steel 45 Degree Bends available in
-    seamless and welded construction with competitive pricing.')
+    seamless and welded construction with competitive pricing.'
+)
 @section('og_type', 'product')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/45-degree-elbows_11zon.jpg);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/product/flangs/45-degree-elbows_11zon.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -50,7 +59,7 @@
             <a href="#overview">Overview</a> |
             <a href="#specifications">Specifications</a> |
             <!-- <a href="#chemical-composition">Chemical Composition</a> | -->
-            <a href="#dimensions">Dimensions</a> |
+            <a href="#size-chart">Weight chart</a> |
             <a href="#types">Grades</a> |
             <a href="#applications">Applications</a> |
             <a href="#features">Features</a> |
@@ -202,7 +211,7 @@
 
 
 
-    <section id="dimensions" class="sec-padd-top sec-padd-bottom">
+    <section id="size-chart" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart</h2>
@@ -313,7 +322,7 @@
                 <h2 class="fw-bold" style="color: #174268;">Grades & Equivalent</h2>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="card p-4 shadow-sm mb-4">
                         <h4 class="text-center" style="color: #db7227;">Available Grades</h4>
                         <ul class="list-group list-group-flush mt-3">
@@ -332,7 +341,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <!-- <div class="col-md-6">
                     <div class="card p-4 shadow-sm mb-4">
                         <h4 class="text-center" style="color: #db7227;">International Equivalents</h4>
                         <ul class="list-group list-group-flush mt-3">
@@ -345,7 +354,7 @@
                             <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i> JIS</li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -363,8 +372,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -391,8 +399,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy"
-                                    width="400" height="260">
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -420,8 +428,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
-                                    width="400" height="260">
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -774,128 +782,128 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-                                {
-                                  "@context": "https://schema.org",
-                                  "@graph": [
-                                    {
-                                      "@type": ["Organization", "LocalBusiness"],
-                                      "@id": "https://mokshtubes.com/#organization",
-                                      "name": "Moksh Tubes & Fittings LLP",
-                                      "url": "https://mokshtubes.com/",
-                                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
-                                      "telephone": "+91-9769584950",
-                                      "email": "info@mokshtubes.com",
-                                      "address": {
-                                        "@type": "PostalAddress",
-                                        "addressLocality": "Mumbai",
-                                        "addressRegion": "MH",
-                                        "addressCountry": "IN"
-                                      }
-                                    },
-                                    {
-                                      "@type": "WebSite",
-                                      "@id": "https://mokshtubes.com/#website",
-                                      "url": "https://mokshtubes.com/",
-                                      "name": "Moksh Tubes & Fittings LLP"
-                                    },
-                                    {
-                                      "@type": "WebPage",
-                                      "@id": "https://mokshtubes.com/45-degree-bend#webpage",
-                                      "name": "45 Degree Bend Manufacturer, Supplier & Exporter | Moksh Tubes",
-                                      "url": "https://mokshtubes.com/45-degree-bend",
-                                      "description": "Buy premium-quality Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex 45 Degree Bends manufactured to ASTM & ASME standards with worldwide delivery.",
-                                      "isPartOf": { "@id": "https://mokshtubes.com/#website" },
-                                      "primaryImageOfPage": { "@id": "https://mokshtubes.com/#product-image" }
-                                    },
-                                    {
-                                      "@type": ["Product", "Service"],
-                                      "@id": "https://mokshtubes.com/#45-degree-bend",
-                                      "name": "45 Degree Bends",
-                                      "url": "https://mokshtubes.com/45-degree-bend",
-                                      "image": "https://mokshtubes.com/assets/images/product/flangs/45-degree-elbows_11zon.jpg",
-                                      "category": "Industrial Bends",
-                                      "description": "Premium-quality Stainless Steel, Carbon Steel, Alloy Steel, Duplex, and Super Duplex 45 Degree Bends.",
-                                      "brand": {
-                                        "@type": "Brand",
-                                        "@id": "https://mokshtubes.com/#organization",
-                                        "name": "Moksh Tubes & Fittings LLP"
-                                      },
-                                      "manufacturer": {
-                                        "@type": "Organization",
-                                        "@id": "https://mokshtubes.com/#organization"
-                                      },
-                                      "material": [
-                                        "Stainless Steel",
-                                        "Carbon Steel",
-                                        "Alloy Steel",
-                                        "Duplex Stainless Steel",
-                                        "Super Duplex Stainless Steel"
-                                      ],
-                                      "additionalProperty": [
-                                        { "@type": "PropertyValue", "name": "Outer Diameter", "value": "½\" NB to 48\" NB" },
-                                        { "@type": "PropertyValue", "name": "Standards", "value": "ASME B16.49, ASME B16.9, ASTM" }
-                                      ],
-                                      "offers": {
-                                        "@type": "Offer",
-                                        "@id": "https://mokshtubes.com/#offer",
-                                        "url": "https://mokshtubes.com/45-degree-bend",
-                                        "availability": "https://schema.org/InStock",
-                                        "priceCurrency": "USD",
-                                        "price": "0.00",
-                                        "priceValidUntil": "2030-12-31",
-                                        "businessFunction": "https://schema.org/Sell",
-                                        "seller": { "@id": "https://mokshtubes.com/#organization" }
-                                      }
-                                    },
-                                    {
-                                      "@type": "ImageObject",
-                                      "@id": "https://mokshtubes.com/#product-image",
-                                      "url": "https://mokshtubes.com/assets/images/product/flangs/45-degree-elbows_11zon.jpg",
-                                      "description": "45 Degree Bend Manufacturer"
-                                    },
-                                    {
-                                      "@type": "BreadcrumbList",
-                                      "@id": "https://mokshtubes.com/#breadcrumb",
-                                      "itemListElement": [
-                                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshtubes.com/" },
-                                        { "@type": "ListItem", "position": 2, "name": "Pipe Fittings", "item": "https://mokshtubes.com/products/pipe-fittings" },
-                                        { "@type": "ListItem", "position": 3, "name": "Pipe Bends", "item": "https://mokshtubes.com/products/pipe-fittings/pipe-bends" },
-                                        { "@type": "ListItem", "position": 4, "name": "45 Degree Bend", "item": "https://mokshtubes.com/45-degree-bend" }
-                                      ]
-                                    },
-                                    {
-                                      "@type": "FAQPage",
-                                      "@id": "https://mokshtubes.com/#faq-45-degree-bends",
-                                      "mainEntity": [
                                         {
-                                          "@type": "Question",
-                                          "name": "What is a 45 Degree Bend?",
-                                          "acceptedAnswer": { "@type": "Answer", "text": "A 45 Degree Bend is a pipe fitting used to change the direction of a pipeline by 45 degrees while providing a smoother flow path and reducing pressure loss." }
-                                        },
-                                        {
-                                          "@type": "Question",
-                                          "name": "What is the difference between a 45 Degree Bend and a 45 Degree Elbow?",
-                                          "acceptedAnswer": { "@type": "Answer", "text": "A bend has a larger radius than an elbow, allowing smoother flow, lower turbulence, and reduced pressure drop, making it suitable for long pipeline systems." }
-                                        },
-                                        {
-                                          "@type": "Question",
-                                          "name": "Which materials are available?",
-                                          "acceptedAnswer": { "@type": "Answer", "text": "We manufacture 45 Degree Bends in stainless steel, carbon steel, alloy steel, duplex, and super duplex materials." }
-                                        },
-                                        {
-                                          "@type": "Question",
-                                          "name": "Do you provide material test certificates?",
-                                          "acceptedAnswer": { "@type": "Answer", "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order." }
-                                        },
-                                        {
-                                          "@type": "Question",
-                                          "name": "Can you export internationally?",
-                                          "acceptedAnswer": { "@type": "Answer", "text": "Yes. We regularly export to customers across the Middle East, Asia, Europe, and other global markets." }
+                                          "@context": "https://schema.org",
+                                          "@graph": [
+                                            {
+                                              "@type": ["Organization", "LocalBusiness"],
+                                              "@id": "https://mokshtubes.com/#organization",
+                                              "name": "Moksh Tubes & Fittings LLP",
+                                              "url": "https://mokshtubes.com/",
+                                              "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                                              "telephone": "+91-9769584950",
+                                              "email": "info@mokshtubes.com",
+                                              "address": {
+                                                "@type": "PostalAddress",
+                                                "addressLocality": "Mumbai",
+                                                "addressRegion": "MH",
+                                                "addressCountry": "IN"
+                                              }
+                                            },
+                                            {
+                                              "@type": "WebSite",
+                                              "@id": "https://mokshtubes.com/#website",
+                                              "url": "https://mokshtubes.com/",
+                                              "name": "Moksh Tubes & Fittings LLP"
+                                            },
+                                            {
+                                              "@type": "WebPage",
+                                              "@id": "https://mokshtubes.com/45-degree-bend#webpage",
+                                              "name": "45 Degree Bend Manufacturer, Supplier & Exporter | Moksh Tubes",
+                                              "url": "https://mokshtubes.com/45-degree-bend",
+                                              "description": "Buy premium-quality Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex 45 Degree Bends manufactured to ASTM & ASME standards with worldwide delivery.",
+                                              "isPartOf": { "@id": "https://mokshtubes.com/#website" },
+                                              "primaryImageOfPage": { "@id": "https://mokshtubes.com/#product-image" }
+                                            },
+                                            {
+                                              "@type": ["Product", "Service"],
+                                              "@id": "https://mokshtubes.com/#45-degree-bend",
+                                              "name": "45 Degree Bends",
+                                              "url": "https://mokshtubes.com/45-degree-bend",
+                                              "image": "https://mokshtubes.com/assets/images/product/flangs/45-degree-elbows_11zon.jpg",
+                                              "category": "Industrial Bends",
+                                              "description": "Premium-quality Stainless Steel, Carbon Steel, Alloy Steel, Duplex, and Super Duplex 45 Degree Bends.",
+                                              "brand": {
+                                                "@type": "Brand",
+                                                "@id": "https://mokshtubes.com/#organization",
+                                                "name": "Moksh Tubes & Fittings LLP"
+                                              },
+                                              "manufacturer": {
+                                                "@type": "Organization",
+                                                "@id": "https://mokshtubes.com/#organization"
+                                              },
+                                              "material": [
+                                                "Stainless Steel",
+                                                "Carbon Steel",
+                                                "Alloy Steel",
+                                                "Duplex Stainless Steel",
+                                                "Super Duplex Stainless Steel"
+                                              ],
+                                              "additionalProperty": [
+                                                { "@type": "PropertyValue", "name": "Outer Diameter", "value": "½\" NB to 48\" NB" },
+                                                { "@type": "PropertyValue", "name": "Standards", "value": "ASME B16.49, ASME B16.9, ASTM" }
+                                              ],
+                                              "offers": {
+                                                "@type": "Offer",
+                                                "@id": "https://mokshtubes.com/#offer",
+                                                "url": "https://mokshtubes.com/45-degree-bend",
+                                                "availability": "https://schema.org/InStock",
+                                                "priceCurrency": "USD",
+                                                "price": "0.00",
+                                                "priceValidUntil": "2030-12-31",
+                                                "businessFunction": "https://schema.org/Sell",
+                                                "seller": { "@id": "https://mokshtubes.com/#organization" }
+                                              }
+                                            },
+                                            {
+                                              "@type": "ImageObject",
+                                              "@id": "https://mokshtubes.com/#product-image",
+                                              "url": "https://mokshtubes.com/assets/images/product/flangs/45-degree-elbows_11zon.jpg",
+                                              "description": "45 Degree Bend Manufacturer"
+                                            },
+                                            {
+                                              "@type": "BreadcrumbList",
+                                              "@id": "https://mokshtubes.com/#breadcrumb",
+                                              "itemListElement": [
+                                                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshtubes.com/" },
+                                                { "@type": "ListItem", "position": 2, "name": "Pipe Fittings", "item": "https://mokshtubes.com/products/pipe-fittings" },
+                                                { "@type": "ListItem", "position": 3, "name": "Pipe Bends", "item": "https://mokshtubes.com/products/pipe-fittings/pipe-bends" },
+                                                { "@type": "ListItem", "position": 4, "name": "45 Degree Bend", "item": "https://mokshtubes.com/45-degree-bend" }
+                                              ]
+                                            },
+                                            {
+                                              "@type": "FAQPage",
+                                              "@id": "https://mokshtubes.com/#faq-45-degree-bends",
+                                              "mainEntity": [
+                                                {
+                                                  "@type": "Question",
+                                                  "name": "What is a 45 Degree Bend?",
+                                                  "acceptedAnswer": { "@type": "Answer", "text": "A 45 Degree Bend is a pipe fitting used to change the direction of a pipeline by 45 degrees while providing a smoother flow path and reducing pressure loss." }
+                                                },
+                                                {
+                                                  "@type": "Question",
+                                                  "name": "What is the difference between a 45 Degree Bend and a 45 Degree Elbow?",
+                                                  "acceptedAnswer": { "@type": "Answer", "text": "A bend has a larger radius than an elbow, allowing smoother flow, lower turbulence, and reduced pressure drop, making it suitable for long pipeline systems." }
+                                                },
+                                                {
+                                                  "@type": "Question",
+                                                  "name": "Which materials are available?",
+                                                  "acceptedAnswer": { "@type": "Answer", "text": "We manufacture 45 Degree Bends in stainless steel, carbon steel, alloy steel, duplex, and super duplex materials." }
+                                                },
+                                                {
+                                                  "@type": "Question",
+                                                  "name": "Do you provide material test certificates?",
+                                                  "acceptedAnswer": { "@type": "Answer", "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order." }
+                                                },
+                                                {
+                                                  "@type": "Question",
+                                                  "name": "Can you export internationally?",
+                                                  "acceptedAnswer": { "@type": "Answer", "text": "Yes. We regularly export to customers across the Middle East, Asia, Europe, and other global markets." }
+                                                }
+                                              ]
+                                            }
+                                          ]
                                         }
-                                      ]
-                                    }
-                                  ]
-                                }
-                                </script>
+                                        </script>
     @endverbatim
 @endsection

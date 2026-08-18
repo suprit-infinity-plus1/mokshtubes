@@ -2,9 +2,9 @@
 @section('title', 'Weldolet | Butt Weld Branch Fitting | Moksh Tubes')
 <!-- 52 characters -->
 @section('meta_description', 'Premium Weldolets (Butt Weld Olets) for high-pressure 90-degree branch connections.
-    Available in STD, XS, and Sch 160 in Stainless, Carbon, and Alloy Steel.')
+Available in STD, XS, and Sch 160 in Stainless, Carbon, and Alloy Steel.')
 @section('meta_keywords', 'Weldolet, Butt Weld Olet, Branch Connection, MSS-SP-97, Schedule 80 Weldolet, Stainless Steel
-    Weldolet, Carbon Steel Weldolet')
+Weldolet, Carbon Steel Weldolet')
 @section('og_image', asset('assets/images/product/flangs/weldolets_11zon.jpg'))
 @section('og_type', 'product')
 @section('content')
@@ -36,7 +36,7 @@
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specifications">Specifications</a> |
-            <a href="#size-weight">Dimensions</a> |
+            <a href="#size-weight">Weight chart</a> |
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
             <!-- <a href="#weldolet-vs-sockolet">Weldolet vs Sockolet</a> | -->
@@ -195,11 +195,11 @@
 
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Dimensional Data (MSS-SP-97)</h2>
+                <h2 class="fw-bold" style="color: #174268;">Weldolets weight chart</h2>
             </div>
 
             <div class="section-title center mb-3">
-                <h3 class="text-center mb-0" style="color: #db7227;">Standard (STD) Weldolet Dimensions</h3>
+                <!-- <h3 class="text-center mb-0" style="color: #db7227;">Standard (STD) Weldolet Dimensions</h3> -->
             </div>
 
             <div class="table-responsive">
@@ -360,8 +360,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -388,8 +387,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy"
-                                    width="400" height="260">
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -417,8 +416,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
-                                    width="400" height="260">
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -711,32 +710,32 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-                {
-                  "@context": "https://schema.org",
-                  "@graph": [
-                    {
-                      "@type": ["Organization", "LocalBusiness"],
-                      "@id": "https://mokshtubes.com/#organization",
-                      "name": "Moksh Tubes & Fittings LLP",
-                      "url": "https://mokshtubes.com/",
-                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
-                      "telephone": "+91-9769584950",
-                      "email": "info@mokshtubes.com"
-                    },
-                    {
-                      "@type": "Product",
-                      "@id": "https://mokshtubes.com/#weldolet",
-                      "name": "Weldolet (Butt Weld Olet)",
-                      "image": "https://mokshtubes.com/assets/images/product/flangs/weldolets_11zon.jpg",
-                      "category": "Forged Fittings",
-                      "description": "High-pressure forged Weldolets (MSS-SP-97) for butt-welded branch connections. Available in STD, XS, and Sch 160 in Carbon and Stainless Steel.",
-                      "brand": {
-                        "@type": "Brand",
-                        "@id": "https://mokshtubes.com/#organization"
-                      }
-                    }
-                  ]
-                }
-                </script>
+                        {
+                          "@context": "https://schema.org",
+                          "@graph": [
+                            {
+                              "@type": ["Organization", "LocalBusiness"],
+                              "@id": "https://mokshtubes.com/#organization",
+                              "name": "Moksh Tubes & Fittings LLP",
+                              "url": "https://mokshtubes.com/",
+                              "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                              "telephone": "+91-9769584950",
+                              "email": "info@mokshtubes.com"
+                            },
+                            {
+                              "@type": "Product",
+                              "@id": "https://mokshtubes.com/#weldolet",
+                              "name": "Weldolet (Butt Weld Olet)",
+                              "image": "https://mokshtubes.com/assets/images/product/flangs/weldolets_11zon.jpg",
+                              "category": "Forged Fittings",
+                              "description": "High-pressure forged Weldolets (MSS-SP-97) for butt-welded branch connections. Available in STD, XS, and Sch 160 in Carbon and Stainless Steel.",
+                              "brand": {
+                                "@type": "Brand",
+                                "@id": "https://mokshtubes.com/#organization"
+                              }
+                            }
+                          ]
+                        }
+                        </script>
     @endverbatim
 @endsection
