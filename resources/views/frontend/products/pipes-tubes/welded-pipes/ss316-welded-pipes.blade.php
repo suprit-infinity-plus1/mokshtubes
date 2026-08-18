@@ -866,6 +866,52 @@
         </div>
     </section>
 
+    <section id="advantages" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Advantages of SS 316 Welded Pipes</h2>
+            </div>
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>Superior resistance to chloride corrosion</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-patch-check"></i></div>
+                        <h4>Excellent pitting resistance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
+                        <h4>High durability in marine environments</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h4>Good strength at elevated temperatures</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-arrows-collapse"></i></div>
+                        <h4>Smooth internal surface for efficient flow</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-calendar-check"></i></div>
+                        <h4>Long service life with minimal maintenance</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
                     <div class="container">
                         <div class="section-title center">

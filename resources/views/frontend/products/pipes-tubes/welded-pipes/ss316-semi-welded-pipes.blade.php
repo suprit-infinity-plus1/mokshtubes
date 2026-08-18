@@ -546,6 +546,52 @@
         </div>
     </section>
 
+    <section id="advantages" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Advantages of SS 316 Semi Welded Pipes</h2>
+            </div>
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>Better corrosion resistance than SS 304</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
+                        <h4>Suitable for coastal & marine environments</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-arrows-collapse"></i></div>
+                        <h4>Lightweight and easy to install</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-stars"></i></div>
+                        <h4>Attractive polished finish</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-currency-dollar"></i></div>
+                        <h4>Cost-effective alternative to heavy ASTM pipes</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-calendar-check"></i></div>
+                        <h4>Durable and low maintenance</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- <section class="sec-padd-top sec-padd-bottom">
             <div class="container">
                 <div class="section-title center">
@@ -741,12 +787,7 @@
                                 <h4>What is the difference between SS 316 semi welded and fully welded pipes?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Semi welded pipes are lighter and mainly used for structural and decorative purposes,
-                                    while <a href="{{ url('products/pipes-tubes/welded-pipes/ss316-welded-pipes') }}">fully
-                                        welded</a> ASTM pipes are used for
-                                    high-pressure industrial systems.
-                                </p>
+                                <p>Semi welded pipes are generally used for structural, architectural, and decorative applications, while fully welded pipes are preferred for demanding industrial and high-pressure applications.</p>
                             </div>
                         </div>
                         <!--End single accordion box-->
@@ -754,13 +795,10 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Is SS 316 suitable for coastal areas?</h4>
+                                <h4>Is SS 316 suitable for coastal and marine environments?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Yes, due to molybdenum content, SS 316 performs better in marine and chloride
-                                    environments.
-                                </p>
+                                <p>Yes. SS 316 contains molybdenum, which provides better resistance to chloride, saltwater, and marine environments compared with SS 304.</p>
                             </div>
                         </div>
                         <!--End single accordion box-->
@@ -768,12 +806,10 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Can these pipes be polished?</h4>
+                                <h4>Can SS 316 semi welded pipes be polished?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Yes, they are available in mirror, satin, brushed, and matt finishes.
-                                </p>
+                                <p>Yes. These pipes can be supplied with mirror, satin, brushed, or matt finishes according to the application and aesthetic requirements.</p>
                             </div>
                         </div>
                         <!--End single accordion box-->
@@ -781,12 +817,21 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Are custom shapes available?</h4>
+                                <h4>Are custom shapes and sizes available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Yes, round, square, and rectangular shapes can be supplied as per requirement.
-                                </p>
+                                <p>Yes. SS 316 semi welded pipes can be supplied in round, square, and rectangular shapes, with customized sizes available as per customer requirements.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What industries commonly use SS 316 semi welded pipes?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>They are commonly used in architectural projects, marine applications, chemical industries, food processing, pharmaceutical facilities, and decorative structures.</p>
                             </div>
                         </div>
                         <!--End single accordion box-->
@@ -835,28 +880,35 @@
                     "name": "What is the difference between SS 316 semi welded and fully welded pipes?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Semi welded pipes are lighter and mainly used for structural and decorative purposes, while fully welded ASTM pipes are used for high-pressure industrial systems."
+                      "text": "Semi welded pipes are generally used for structural, architectural, and decorative applications, while fully welded pipes are preferred for demanding industrial and high-pressure applications."
                     }
                   },{
                     "@type": "Question",
-                    "name": "Is SS 316 suitable for coastal areas?",
+                    "name": "Is SS 316 suitable for coastal and marine environments?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes, due to molybdenum content, SS 316 performs better in marine and chloride environments."
+                      "text": "Yes. SS 316 contains molybdenum, which provides better resistance to chloride, saltwater, and marine environments compared with SS 304."
                     }
                   },{
                     "@type": "Question",
-                    "name": "Can these pipes be polished?",
+                    "name": "Can SS 316 semi welded pipes be polished?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes, they are available in mirror, satin, brushed, and matt finishes."
+                      "text": "Yes. These pipes can be supplied with mirror, satin, brushed, or matt finishes according to the application and aesthetic requirements."
                     }
                   },{
                     "@type": "Question",
-                    "name": "Are custom shapes available?",
+                    "name": "Are custom shapes and sizes available?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes, round, square, and rectangular shapes can be supplied as per requirement."
+                      "text": "Yes. SS 316 semi welded pipes can be supplied in round, square, and rectangular shapes, with customized sizes available as per customer requirements."
+                    }
+                  },{
+                    "@type": "Question",
+                    "name": "What industries commonly use SS 316 semi welded pipes?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "They are commonly used in architectural projects, marine applications, chemical industries, food processing, pharmaceutical facilities, and decorative structures."
                     }
                   }]
                 }

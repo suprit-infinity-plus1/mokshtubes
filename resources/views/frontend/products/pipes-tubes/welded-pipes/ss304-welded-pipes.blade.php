@@ -693,7 +693,53 @@
         </div>
     </section>
 
-    <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="advantages" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Advantages of SS 304 Welded Pipes</h2>
+            </div>
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>Excellent corrosion resistance</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
+                        <h4>Smooth internal surface for efficient flow</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-currency-dollar"></i></div>
+                        <h4>Cost-effective compared to seamless pipes</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h4>Easy fabrication and welding</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-cup-straw"></i></div>
+                        <h4>Suitable for food-grade and hygienic applications</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-globe"></i></div>
+                        <h4>Compliance with international standards</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties – SS 304 Welded Pipes</h2>
