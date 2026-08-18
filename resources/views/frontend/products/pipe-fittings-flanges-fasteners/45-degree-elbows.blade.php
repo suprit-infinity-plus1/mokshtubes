@@ -43,6 +43,7 @@ B16.9')
             <!-- <a href="#lr-vs-sr">LR vs SR Elbows</a> | -->
             <!-- <a href="#manufacturing">Manufacturing</a> | -->
             <!-- <a href="#tolerances">Tolerances</a> | -->
+            <a href="#features">Features</a> |
             <a href="#mechanical">Mechanical Properties</a> |
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
@@ -518,6 +519,73 @@ B16.9')
                         <ul>
                             <li>Duplex stainless elbows used in seawater desalination and offshore platforms.</li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- Features --}}
+    <section id="features" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Features & Advantages</h2>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-wind"></i></div>
+                        <h4>Smooth Flow</h4>
+                        <h5>Smooth change in flow direction with minimal pressure loss.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>Corrosion Resistance</h4>
+                        <h5>Excellent corrosion and oxidation resistance.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h4>High Strength</h4>
+                        <h5>High mechanical strength and durability.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h4>Leak-Proof</h4>
+                        <h5>Provides a leak-proof butt weld connection.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h4>Extreme Conditions</h4>
+                        <h5>Suitable for high-pressure and high-temperature applications.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
+                        <h4>Easy Maintenance</h4>
+                        <h5>Easy to install and maintain.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h4>Long Service Life</h4>
+                        <h5>Guarantees a long service life.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-award"></i></div>
+                        <h4>Global Standards</h4>
+                        <h5>Manufactured according to international quality standards.</h5>
                     </div>
                 </div>
             </div>

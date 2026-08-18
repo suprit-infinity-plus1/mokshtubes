@@ -41,6 +41,7 @@ Sockolet, Carbon Steel Sockolet')
             <!-- <a href="#sockolet-vs-weldolet">Sockolet vs Weldolet</a> | -->
             <!-- <a href="#manufacturing">Manufacturing</a> | -->
             <!-- <a href="#tolerances">Tolerances</a> | -->
+            <a href="#features">Features</a> |
             <a href="#mechanical">Mechanical Properties</a> |
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
@@ -517,69 +518,135 @@ Sockolet, Carbon Steel Sockolet')
 
 
     {{-- Uses of Welded Pipes and Sockolets --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- <section class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Uses of Sockolets</h2>
+                </div>
+                <div class="section-title center mb-3">
+                    <h4 class="text-center mb-0" style="color: #db7227;">Sockolets are used extensively
+                        across multiple
+                        industries, including:</h4>
+                </div>
+                <div class="row g-4 mt-4">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                            <h4>Efficient Heat Transfer</h4>
+                            <h5>Ensures efficient heat transfer in industrial systems</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                            <h4>Extreme Condition Performance</h4>
+                            <h5>Handles extreme temperature and pressure conditions</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                            <h4>Corrosion Resistance</h4>
+                            <h5>Provides corrosion resistance in aggressive environments</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                            <h4>Energy Efficiency Support</h4>
+                            <h5>Supports energy efficiency in power plants and process industries</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                            <h4>Multi-Media Compatibility</h4>
+                            <h5>Suitable for steam, gas, liquid, and chemical transport in heat systems</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                            <h4>Operational Reliability</h4>
+                            <h5>Delivers long term reliability and consistent performance in demanding applications</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    {{-- Features --}}
+    <section id="features" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Uses of Sockolets</h2>
-            </div>
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Sockolets are used extensively
-                    across multiple
-                    industries, including:</h4>
+                <h2>Features & Advantages</h2>
             </div>
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Efficient Heat Transfer</h4>
-                        <h5>Ensures efficient heat transfer in industrial systems</h5>
+                        <div class="advantage-icon"><i class="bi bi-diagram-3"></i></div>
+                        <h4>Branch Connection</h4>
+                        <h5>Strong and reliable socket weld branch connection.</h5>
                     </div>
                 </div>
-
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>Corrosion Resistance</h4>
+                        <h5>Excellent corrosion and oxidation resistance.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h4>High Strength</h4>
+                        <h5>High mechanical strength and durability.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrows-angle-contract"></i></div>
+                        <h4>Compact Design</h4>
+                        <h5>Compact design for easy installation.</h5>
+                    </div>
+                </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h4>Extreme Condition Performance</h4>
-                        <h5>Handles extreme temperature and pressure conditions</h5>
+                        <h4>Leak-Proof</h4>
+                        <h5>Leak-proof socket weld connection.</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h4>Corrosion Resistance</h4>
-                        <h5>Provides corrosion resistance in aggressive environments</h5>
+                        <h4>High Pressure</h4>
+                        <h5>Suitable for high-pressure piping systems.</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h4>Energy Efficiency Support</h4>
-                        <h5>Supports energy efficiency in power plants and process industries</h5>
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h4>Long Service Life</h4>
+                        <h5>Low maintenance and long service life.</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h4>Multi-Media Compatibility</h4>
-                        <h5>Suitable for steam, gas, liquid, and chemical transport in heat systems</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h4>Operational Reliability</h4>
-                        <h5>Delivers long term reliability and consistent performance in demanding applications</h5>
+                        <div class="advantage-icon"><i class="bi bi-award"></i></div>
+                        <h4>Global Standards</h4>
+                        <h5>Manufactured according to international quality standards.</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    {{-- Advantages of Welded Pipes & Sockolets --}}
+
+    {{-- Mechanical Properties --}}
     <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
@@ -617,78 +684,78 @@ Sockolet, Carbon Steel Sockolet')
 
 
     <!-- <section id="export" class="sec-padd-top sec-padd-bottom">
-                <div class="container text-center">
-                    <div class="section-title center mb-4">
-                        <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>
+                    <div class="container text-center">
+                        <div class="section-title center mb-4">
+                            <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>
+                        </div>
+                        <p class="fs-5">We supply Sockolets across major Indian industrial locations including Mumbai, Chennai,
+                            Ahmedabad, Pune, and Hyderabad, with efficient logistics support for domestic power and process industry
+                            projects.</p>
+                        <p class="fs-5">We also regularly export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait, supplying sockolets for
+                            power plants, refineries, desalination units, and EPC contractors.</p>
                     </div>
-                    <p class="fs-5">We supply Sockolets across major Indian industrial locations including Mumbai, Chennai,
-                        Ahmedabad, Pune, and Hyderabad, with efficient logistics support for domestic power and process industry
-                        projects.</p>
-                    <p class="fs-5">We also regularly export to UAE, Saudi Arabia, Qatar, Oman, and Kuwait, supplying sockolets for
-                        power plants, refineries, desalination units, and EPC contractors.</p>
-                </div>
-            </section> -->
+                </section> -->
 
     <!-- Testing & Quality Control for Sockolets -->
     <!-- <section class="sec-padd-top sec-padd-bottom bg-light">
-                <div class="container">
-                    <div class="section-title center">
-                        <h2>Testing & Quality Control for Sockolets</h2>
-                    </div>
-
-                    <div class="row g-4 mt-4">
-
-                        <div class="col-sm-6 col-lg-4">
-                            <div class="advantage-card">
-                                <div class="advantage-icon"><i class="bi bi-droplet-fill"></i></div>
-                                <h4>Hydrostatic Test</h4>
-                                <h5>Hydrostatic test for pressure integrity verification.</h5>
-                            </div>
+                    <div class="container">
+                        <div class="section-title center">
+                            <h2>Testing & Quality Control for Sockolets</h2>
                         </div>
 
-                        <div class="col-sm-6 col-lg-4">
-                            <div class="advantage-card">
-                                <div class="advantage-icon"><i class="bi bi-activity"></i></div>
-                                <h4>Eddy Current Test</h4>
-                                <h5>Eddy current testing for detecting surface-level defects.</h5>
+                        <div class="row g-4 mt-4">
+
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-droplet-fill"></i></div>
+                                    <h4>Hydrostatic Test</h4>
+                                    <h5>Hydrostatic test for pressure integrity verification.</h5>
+                                </div>
                             </div>
+
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                                    <h4>Eddy Current Test</h4>
+                                    <h5>Eddy current testing for detecting surface-level defects.</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                                    <h4>PMI Test</h4>
+                                    <h5>PMI testing to verify material grade and composition.</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                                    <h4>Hardness Test</h4>
+                                    <h5>Hardness testing for strength and durability confirmation.</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
+                                    <h4>Flattening & Flaring Test</h4>
+                                    <h5>Flattening and flaring to assess ductility and deformation.</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon"><i class="bi bi-broadcast-pin"></i></div>
+                                    <h4>Ultrasonic Test (UT)</h4>
+                                    <h5>Ultrasonic testing for internal and volumetric defects.</h5>
+                                </div>
+                            </div>
+
                         </div>
 
-                        <div class="col-sm-6 col-lg-4">
-                            <div class="advantage-card">
-                                <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                                <h4>PMI Test</h4>
-                                <h5>PMI testing to verify material grade and composition.</h5>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 col-lg-4">
-                            <div class="advantage-card">
-                                <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                                <h4>Hardness Test</h4>
-                                <h5>Hardness testing for strength and durability confirmation.</h5>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 col-lg-4">
-                            <div class="advantage-card">
-                                <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
-                                <h4>Flattening & Flaring Test</h4>
-                                <h5>Flattening and flaring to assess ductility and deformation.</h5>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 col-lg-4">
-                            <div class="advantage-card">
-                                <div class="advantage-icon"><i class="bi bi-broadcast-pin"></i></div>
-                                <h4>Ultrasonic Test (UT)</h4>
-                                <h5>Ultrasonic testing for internal and volumetric defects.</h5>
-                            </div>
-                        </div>
-
-                    </div>
-
-            </section> -->
+                </section> -->
 
 
 
@@ -850,32 +917,32 @@ Sockolet, Carbon Steel Sockolet')
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-                        {
-                          "@context": "https://schema.org",
-                          "@graph": [
-                            {
-                              "@type": ["Organization", "LocalBusiness"],
-                              "@id": "https://mokshtubes.com/#organization",
-                              "name": "Moksh Tubes & Fittings LLP",
-                              "url": "https://mokshtubes.com/",
-                              "logo": "https://mokshtubes.com/assets/images/logo.webp",
-                              "telephone": "+91-9769584950",
-                              "email": "info@mokshtubes.com"
-                            },
-                            {
-                              "@type": "Product",
-                              "@id": "https://mokshtubes.com/#sockolet",
-                              "name": "Sockolet (Socket Weld Olet)",
-                              "image": "https://mokshtubes.com/assets/images/product/flangs/sockolets_11zon.jpg",
-                              "category": "Forged Fittings",
-                              "description": "High-pressure forged Sockolets (MSS-SP-97, 3000#, 6000#) for small-bore branching. Available in Carbon Steel (A105N) and Stainless Steel.",
-                              "brand": {
-                                "@type": "Brand",
-                                "@id": "https://mokshtubes.com/#organization"
-                              }
-                            }
-                          ]
-                        }
-                        </script>
+                                {
+                                  "@context": "https://schema.org",
+                                  "@graph": [
+                                    {
+                                      "@type": ["Organization", "LocalBusiness"],
+                                      "@id": "https://mokshtubes.com/#organization",
+                                      "name": "Moksh Tubes & Fittings LLP",
+                                      "url": "https://mokshtubes.com/",
+                                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                                      "telephone": "+91-9769584950",
+                                      "email": "info@mokshtubes.com"
+                                    },
+                                    {
+                                      "@type": "Product",
+                                      "@id": "https://mokshtubes.com/#sockolet",
+                                      "name": "Sockolet (Socket Weld Olet)",
+                                      "image": "https://mokshtubes.com/assets/images/product/flangs/sockolets_11zon.jpg",
+                                      "category": "Forged Fittings",
+                                      "description": "High-pressure forged Sockolets (MSS-SP-97, 3000#, 6000#) for small-bore branching. Available in Carbon Steel (A105N) and Stainless Steel.",
+                                      "brand": {
+                                        "@type": "Brand",
+                                        "@id": "https://mokshtubes.com/#organization"
+                                      }
+                                    }
+                                  ]
+                                }
+                                </script>
     @endverbatim
 @endsection

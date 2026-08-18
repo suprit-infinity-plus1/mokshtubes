@@ -2,9 +2,9 @@
 @section('title', 'Eccentric Reducers | Seamless & Welded Pipe Reducers | Moksh Tubes')
 <!-- 52 characters -->
 @section('meta_description', 'High-quality Eccentric Reducers for horizontal pipeline size transitions. Available in
-    Stainless Steel, Carbon Steel, and Alloy Steel in seamless and welded forms.')
+Stainless Steel, Carbon Steel, and Alloy Steel in seamless and welded forms.')
 @section('meta_keywords', 'Eccentric Reducers, Pipe Reducers, Seamless Reducers, Welded Reducers, Stainless Steel
-    Eccentric Reducer, Carbon Steel Reducers')
+Eccentric Reducer, Carbon Steel Reducers')
 @section('og_image', asset('assets/images/product/flangs/eccentric-reducers_11zon.jpg'))
 @section('og_type', 'product')
 @section('content')
@@ -41,8 +41,8 @@
             <a href="#grades">Grades</a> |
             <a href="#applications">Applications</a> |
             <!-- <a href="#seamless-vs-welded">Seamless vs Welded</a> | -->
-            <a href="#uses">Uses</a> |
-            <a href="#advantages">Advantages</a> |
+            <!-- <a href="#uses">Uses</a> | -->
+            <a href="#advantages">Features</a> |
             <a href="#mechanical">Mechanical Properties</a> |
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>
@@ -211,9 +211,9 @@
 
             <!-- Child Title -->
             <!-- <div class="section-title center mb-3">
-                    <h3 class="text-center mb-0" style="color: #db7227;">Size Range Chart</h3>
-                    <h4 class="text-center mb-0" style="color: #db7227;">Eccentric Reducers Size & Weight Chart</h4>
-                </div> -->
+                                                    <h3 class="text-center mb-0" style="color: #db7227;">Size Range Chart</h3>
+                                                    <h4 class="text-center mb-0" style="color: #db7227;">Eccentric Reducers Size & Weight Chart</h4>
+                                                </div> -->
             <!-- Schedule 10C -->
             <div class="section-title center mb-3 mt-4">
                 <h4 class="text-center mb-0" style="color: #db7227;">Schedule 10C Size & Weight Chart</h4>
@@ -757,8 +757,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -785,8 +784,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy"
-                                    width="400" height="260">
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -814,8 +813,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
-                                    width="400" height="260">
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -920,46 +919,46 @@
 
 
     {{-- Uses --}}
-    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses of Eccentric Reducers</h2>
-            </div>
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Eccentric Reducers provide critical advantages across
-                    multiple piping scenarios:</h4>
-            </div>
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrow-down-right-circle"></i></div>
-                        <h4>Pump Suction Control</h4>
-                        <h5>Installed Top Flat (FOT) to prevent air pockets from entering pumps.</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
-                        <h4>Pipeline Drainage</h4>
-                        <h5>Installed Bottom Flat (FOB) to prevent liquid pooling and corrosion.</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-layers"></i></div>
-                        <h4>Piperack Alignment</h4>
-                        <h5>Maintains a consistent bottom-of-pipe (BOP) elevation on support racks.</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+                                        <div class="container">
+                                            <div class="section-title center">
+                                                <h2>Uses of Eccentric Reducers</h2>
+                                            </div>
+                                            <div class="section-title center mb-3">
+                                                <h4 class="text-center mb-0" style="color: #db7227;">Eccentric Reducers provide critical advantages across
+                                                    multiple piping scenarios:</h4>
+                                            </div>
+                                            <div class="row g-4 mt-4">
+                                                <div class="col-sm-6 col-lg-4">
+                                                    <div class="advantage-card">
+                                                        <div class="advantage-icon"><i class="bi bi-arrow-down-right-circle"></i></div>
+                                                        <h4>Pump Suction Control</h4>
+                                                        <h5>Installed Top Flat (FOT) to prevent air pockets from entering pumps.</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-4">
+                                                    <div class="advantage-card">
+                                                        <div class="advantage-icon"><i class="bi bi-water"></i></div>
+                                                        <h4>Pipeline Drainage</h4>
+                                                        <h5>Installed Bottom Flat (FOB) to prevent liquid pooling and corrosion.</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-4">
+                                                    <div class="advantage-card">
+                                                        <div class="advantage-icon"><i class="bi bi-layers"></i></div>
+                                                        <h4>Piperack Alignment</h4>
+                                                        <h5>Maintains a consistent bottom-of-pipe (BOP) elevation on support racks.</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section> -->
 
     {{-- Advantages --}}
     <section id="advantages" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Advantages </h2>
+                <h2>Features & Advantages </h2>
             </div>
 
             <div class="row g-4 mt-4">
@@ -1047,69 +1046,69 @@
 
 
     <!-- <section class="sec-padd-top sec-padd-bottom bg-light">
-            <div class="container text-center">
-                <div class="section-title center mb-4">
-                    <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>
-                </div>
-                <p class="fs-5">We supply Eccentric Reducers to major Indian industrial hubs including Mumbai, Chennai,
-                    Ahmedabad, Pune, and Hyderabad, supporting domestic EPC and oil & gas projects.</p>
-                <p class="fs-5">We actively export to the Middle East, supplying high-quality fittings to UAE, Saudi Arabia,
-                    Qatar, Oman, and Kuwait for petrochemical, refinery, and pipeline infrastructure.</p>
-            </div>
-        </section> -->
+                                            <div class="container text-center">
+                                                <div class="section-title center mb-4">
+                                                    <h2 class="fw-bold" style="color: #174268;">Exports & Supply Coverage</h2>
+                                                </div>
+                                                <p class="fs-5">We supply Eccentric Reducers to major Indian industrial hubs including Mumbai, Chennai,
+                                                    Ahmedabad, Pune, and Hyderabad, supporting domestic EPC and oil & gas projects.</p>
+                                                <p class="fs-5">We actively export to the Middle East, supplying high-quality fittings to UAE, Saudi Arabia,
+                                                    Qatar, Oman, and Kuwait for petrochemical, refinery, and pipeline infrastructure.</p>
+                                            </div>
+                                        </section> -->
 
     <!-- Testing & Quality Control -->
     <!-- <section class="sec-padd-top sec-padd-bottom">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>Testing & Quality Control for Eccentric Reducers</h2>
-                </div>
+                                            <div class="container">
+                                                <div class="section-title center">
+                                                    <h2>Testing & Quality Control for Eccentric Reducers</h2>
+                                                </div>
 
-                <div class="row g-4 mt-4">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                            <h4>Dimensional Inspection</h4>
-                            <h5>Verifies OD, ID, length, and wall thickness against ASME B16.9.</h5>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-camera"></i></div>
-                            <h4>Radiography Testing (RT)</h4>
-                            <h5>100% RT on weld seams of welded eccentric reducers.</h5>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                            <h4>PMI Test</h4>
-                            <h5>Positive Material Identification to verify alloy compositions.</h5>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                            <h4>Hardness Test</h4>
-                            <h5>Ensures correct heat treatment and material strength.</h5>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
-                            <h4>Magnetic Particle Inspection</h4>
-                            <h5>MPI to detect surface cracks or defects.</h5>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-file-earmark-check"></i></div>
-                            <h4>Hydrostatic Testing</h4>
-                            <h5>Available upon request to guarantee pressure containment.</h5>
-                        </div>
-                    </div>
-                </div>
-        </section> -->
+                                                <div class="row g-4 mt-4">
+                                                    <div class="col-sm-6 col-lg-4">
+                                                        <div class="advantage-card">
+                                                            <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                                                            <h4>Dimensional Inspection</h4>
+                                                            <h5>Verifies OD, ID, length, and wall thickness against ASME B16.9.</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-4">
+                                                        <div class="advantage-card">
+                                                            <div class="advantage-icon"><i class="bi bi-camera"></i></div>
+                                                            <h4>Radiography Testing (RT)</h4>
+                                                            <h5>100% RT on weld seams of welded eccentric reducers.</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-4">
+                                                        <div class="advantage-card">
+                                                            <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                                                            <h4>PMI Test</h4>
+                                                            <h5>Positive Material Identification to verify alloy compositions.</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-4">
+                                                        <div class="advantage-card">
+                                                            <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                                                            <h4>Hardness Test</h4>
+                                                            <h5>Ensures correct heat treatment and material strength.</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-4">
+                                                        <div class="advantage-card">
+                                                            <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                                                            <h4>Magnetic Particle Inspection</h4>
+                                                            <h5>MPI to detect surface cracks or defects.</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-4">
+                                                        <div class="advantage-card">
+                                                            <div class="advantage-icon"><i class="bi bi-file-earmark-check"></i></div>
+                                                            <h4>Hydrostatic Testing</h4>
+                                                            <h5>Available upon request to guarantee pressure containment.</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </section> -->
 
     {{-- why choose us --}}
     <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
@@ -1265,103 +1264,103 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-                {
-                  "@context": "https://schema.org",
-                  "@graph": [
-                    {
-                      "@type": ["Organization", "LocalBusiness"],
-                      "@id": "https://mokshtubes.com/#organization",
-                      "name": "Moksh Tubes & Fittings LLP",
-                      "url": "https://mokshtubes.com/",
-                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
-                      "telephone": "+91-9769584950",
-                      "email": "info@mokshtubes.com",
-                      "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Mumbai",
-                        "addressRegion": "MH",
-                        "addressCountry": "IN"
-                      }
-                    },
-                    {
-                      "@type": "WebSite",
-                      "@id": "https://mokshtubes.com/#website",
-                      "url": "https://mokshtubes.com/",
-                      "name": "Moksh Tubes & Fittings LLP"
-                    },
-                    {
-                      "@type": "WebPage",
-                      "@id": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers#webpage",
-                      "name": "Eccentric Reducers | Moksh Tubes & Fittings LLP",
-                      "url": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers",
-                      "description": "High-quality Eccentric Reducers for horizontal pipeline size transitions. Available in Stainless Steel, Carbon Steel, and Alloy Steel.",
-                      "isPartOf": { "@id": "https://mokshtubes.com/#website" },
-                      "primaryImageOfPage": { "@id": "https://mokshtubes.com/#product-image" }
-                    },
-                    {
-                      "@type": ["Product", "Service"],
-                      "@id": "https://mokshtubes.com/#eccentric-reducers",
-                      "name": "Eccentric Reducers",
-                      "url": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers",
-                      "image": "https://mokshtubes.com/assets/images/product/flangs/eccentric-reducers_11zon.jpg",
-                      "category": "Pipe Fittings",
-                      "description": "Seamless and welded eccentric reducers designed to prevent cavitation and fluid pooling in horizontal pipelines. Manufactured to ASME B16.9 standards.",
-                      "brand": {
-                        "@type": "Brand",
-                        "@id": "https://mokshtubes.com/#organization",
-                        "name": "Moksh Tubes & Fittings LLP"
-                      },
-                      "manufacturer": {
-                        "@type": "Organization",
-                        "@id": "https://mokshtubes.com/#organization"
-                      },
-                      "material": [
-                        "Stainless Steel",
-                        "Carbon Steel",
-                        "Alloy Steel",
-                        "Duplex & Super Duplex"
-                      ],
-                      "offers": {
-                        "@type": "Offer",
-                        "@id": "https://mokshtubes.com/#offer",
-                        "url": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers",
-                        "availability": "https://schema.org/InStock",
-                        "priceCurrency": "USD",
-                        "price": "0.00",
-                        "priceValidUntil": "2030-12-31",
-                        "businessFunction": "https://schema.org/Sell",
-                        "seller": { "@id": "https://mokshtubes.com/#organization" }
-                      }
-                    },
-                    {
-                      "@type": "ImageObject",
-                      "@id": "https://mokshtubes.com/#product-image",
-                      "url": "https://mokshtubes.com/assets/images/product/flangs/eccentric-reducers_11zon.jpg",
-                      "description": "Eccentric Reducers"
-                    },
-                    {
-                      "@type": "FAQPage",
-                      "@id": "https://mokshtubes.com/#faq-eccentric-reducers",
-                      "mainEntity": [
-                        {
-                          "@type": "Question",
-                          "name": "What is the difference between an eccentric and a concentric reducer?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "An eccentric reducer reduces the pipe size while keeping one edge straight to prevent pooling in horizontal lines, while a concentric reducer reduces symmetrically for vertical lines." }
-                        },
-                        {
-                          "@type": "Question",
-                          "name": "Why use an eccentric reducer at a pump suction?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Top Flat (FOT) installation prevents air pockets from forming before the fluid enters the pump, avoiding cavitation damage." }
-                        },
-                        {
-                          "@type": "Question",
-                          "name": "When should the reducer be installed Bottom Flat (FOB)?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Bottom Flat installation is used on horizontal piperacks to maintain pipe support elevation and allow for complete drainage." }
-                        }
-                      ]
-                    }
-                  ]
-                }
-                </script>
+                                                                                {
+                                                                                  "@context": "https://schema.org",
+                                                                                  "@graph": [
+                                                                                    {
+                                                                                      "@type": ["Organization", "LocalBusiness"],
+                                                                                      "@id": "https://mokshtubes.com/#organization",
+                                                                                      "name": "Moksh Tubes & Fittings LLP",
+                                                                                      "url": "https://mokshtubes.com/",
+                                                                                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                                                                                      "telephone": "+91-9769584950",
+                                                                                      "email": "info@mokshtubes.com",
+                                                                                      "address": {
+                                                                                        "@type": "PostalAddress",
+                                                                                        "addressLocality": "Mumbai",
+                                                                                        "addressRegion": "MH",
+                                                                                        "addressCountry": "IN"
+                                                                                      }
+                                                                                    },
+                                                                                    {
+                                                                                      "@type": "WebSite",
+                                                                                      "@id": "https://mokshtubes.com/#website",
+                                                                                      "url": "https://mokshtubes.com/",
+                                                                                      "name": "Moksh Tubes & Fittings LLP"
+                                                                                    },
+                                                                                    {
+                                                                                      "@type": "WebPage",
+                                                                                      "@id": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers#webpage",
+                                                                                      "name": "Eccentric Reducers | Moksh Tubes & Fittings LLP",
+                                                                                      "url": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers",
+                                                                                      "description": "High-quality Eccentric Reducers for horizontal pipeline size transitions. Available in Stainless Steel, Carbon Steel, and Alloy Steel.",
+                                                                                      "isPartOf": { "@id": "https://mokshtubes.com/#website" },
+                                                                                      "primaryImageOfPage": { "@id": "https://mokshtubes.com/#product-image" }
+                                                                                    },
+                                                                                    {
+                                                                                      "@type": ["Product", "Service"],
+                                                                                      "@id": "https://mokshtubes.com/#eccentric-reducers",
+                                                                                      "name": "Eccentric Reducers",
+                                                                                      "url": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers",
+                                                                                      "image": "https://mokshtubes.com/assets/images/product/flangs/eccentric-reducers_11zon.jpg",
+                                                                                      "category": "Pipe Fittings",
+                                                                                      "description": "Seamless and welded eccentric reducers designed to prevent cavitation and fluid pooling in horizontal pipelines. Manufactured to ASME B16.9 standards.",
+                                                                                      "brand": {
+                                                                                        "@type": "Brand",
+                                                                                        "@id": "https://mokshtubes.com/#organization",
+                                                                                        "name": "Moksh Tubes & Fittings LLP"
+                                                                                      },
+                                                                                      "manufacturer": {
+                                                                                        "@type": "Organization",
+                                                                                        "@id": "https://mokshtubes.com/#organization"
+                                                                                      },
+                                                                                      "material": [
+                                                                                        "Stainless Steel",
+                                                                                        "Carbon Steel",
+                                                                                        "Alloy Steel",
+                                                                                        "Duplex & Super Duplex"
+                                                                                      ],
+                                                                                      "offers": {
+                                                                                        "@type": "Offer",
+                                                                                        "@id": "https://mokshtubes.com/#offer",
+                                                                                        "url": "https://mokshtubes.com/products/pipe-fittings-flanges-fasteners/eccentric-reducers",
+                                                                                        "availability": "https://schema.org/InStock",
+                                                                                        "priceCurrency": "USD",
+                                                                                        "price": "0.00",
+                                                                                        "priceValidUntil": "2030-12-31",
+                                                                                        "businessFunction": "https://schema.org/Sell",
+                                                                                        "seller": { "@id": "https://mokshtubes.com/#organization" }
+                                                                                      }
+                                                                                    },
+                                                                                    {
+                                                                                      "@type": "ImageObject",
+                                                                                      "@id": "https://mokshtubes.com/#product-image",
+                                                                                      "url": "https://mokshtubes.com/assets/images/product/flangs/eccentric-reducers_11zon.jpg",
+                                                                                      "description": "Eccentric Reducers"
+                                                                                    },
+                                                                                    {
+                                                                                      "@type": "FAQPage",
+                                                                                      "@id": "https://mokshtubes.com/#faq-eccentric-reducers",
+                                                                                      "mainEntity": [
+                                                                                        {
+                                                                                          "@type": "Question",
+                                                                                          "name": "What is the difference between an eccentric and a concentric reducer?",
+                                                                                          "acceptedAnswer": { "@type": "Answer", "text": "An eccentric reducer reduces the pipe size while keeping one edge straight to prevent pooling in horizontal lines, while a concentric reducer reduces symmetrically for vertical lines." }
+                                                                                        },
+                                                                                        {
+                                                                                          "@type": "Question",
+                                                                                          "name": "Why use an eccentric reducer at a pump suction?",
+                                                                                          "acceptedAnswer": { "@type": "Answer", "text": "Top Flat (FOT) installation prevents air pockets from forming before the fluid enters the pump, avoiding cavitation damage." }
+                                                                                        },
+                                                                                        {
+                                                                                          "@type": "Question",
+                                                                                          "name": "When should the reducer be installed Bottom Flat (FOB)?",
+                                                                                          "acceptedAnswer": { "@type": "Answer", "text": "Bottom Flat installation is used on horizontal piperacks to maintain pipe support elevation and allow for complete drainage." }
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                                </script>
     @endverbatim
 @endsection
