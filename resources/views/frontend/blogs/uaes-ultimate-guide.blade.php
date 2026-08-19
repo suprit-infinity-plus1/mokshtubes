@@ -1,16 +1,19 @@
 @extends('layouts.master')
 
 @section('title', 'Seamless vs Welded Pipes in UAE | Key Differences & Guide')
-@section('meta_description',
+@section(
+    'meta_description',
     'Learn the difference between seamless and welded pipes for UAE projects. Compare cost,
-    strength & applications to choose the best option.')
+    strength & applications to choose the best option.'
+)
 @section('meta_keywords', 'Seamless, Welded Pipes')
 
 
 @section('content')
     <!--Start breadcrumb area-->
 
-    <section class="breadcrumb-area" style="background-image: url({{ asset('assets/images/background/din-standard.jpg') }});">
+    <section class="breadcrumb-area"
+        style="background-image: url({{ asset('assets/images/background/din-standard.jpg') }});">
         <div class="container text-center">
             <h1>Seamless vs Welded Pipes: UAE’s Ultimate Guide</h1>
         </div>
@@ -367,8 +370,7 @@
 
                                         <div class="tip-box-point">
                                             <div class="tip-box">
-                                                <h3>Choose <a
-                                                        href="{{ url('products/pipes-tubes/welded-pipes') }}">Welded
+                                                <h3>Choose <a href="{{ url('products/pipes-tubes/welded-pipes') }}">Welded
                                                         Pipes</a> When:</h3>
                                                 <ul>
                                                     <li>
@@ -449,8 +451,7 @@
                                                         <div class="accord-content">
                                                             <p><a href="{{ url('products/pipes-tubes/welded-pipes') }}">Welded
                                                                     pipes</a> are locally available with 2–4 week delivery.
-                                                                <a
-                                                                    href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless
+                                                                <a href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless
                                                                     pipes</a>, often imported, may require 6–12 weeks
                                                                 depending on specifications.
                                                             </p>
@@ -546,27 +547,27 @@
                                     <h4 class="fw-bold mb-4">Categories</h4>
                                     <ul class="list-unstyled mb-4">
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-building me-2"></i> Architecture Plans
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-hammer me-2"></i> Construction Projects
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-brush me-2"></i> Paintings
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-lightning-charge me-2"></i> Electrical Works
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-tools me-2"></i> Plumbing Works
                                             </a>
                                         </li>
@@ -686,7 +687,7 @@
 
                                         <!-- Contact Info -->
                                         <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>
-                                            info@mokstubes.com</p>
+                                            info@mokshtubes.com</p>
                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
                                             <strong>Office Address:</strong> Hinglaj Bhavan, Gulalwadi Mumbai, Maharashtra.
                                             400004
@@ -734,8 +735,8 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form"
-                                action="{{ url('sendmail') }}" method="post">
+                            <form id="contact-form" name="contact_form" class="default-form" action="{{ url('sendmail') }}"
+                                method="post">
                                 @csrf
                                 <div class="row">
                                     <div class="col-md-12">
@@ -753,7 +754,8 @@
                                         <input class="m-1" type="text" name="form_subject" placeholder="Subject">
                                     </div>
                                     <div class="col-md-12">
-                                        <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
+                                        <textarea name="form_message" class="m-1" placeholder="Your Message.."
+                                            required=""></textarea>
                                     </div>
                                     <div class="col-md-12">
                                         <input id="form_botcheck" name="form_botcheck" type="hidden" value="">

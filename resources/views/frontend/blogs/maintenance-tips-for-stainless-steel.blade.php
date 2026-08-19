@@ -1,15 +1,19 @@
 @extends('layouts.master')
 
 @section('title', 'Maintenance Tips for Stainless Steel Tubes to Prevent Rust')
-@section('meta_description',
+@section(
+    'meta_description',
     'Learn how to clean and maintain your stainless steel tubes to prevent rust and corrosion.
-    Get actionable tips for long-term performance and durability.')
-@section('meta_keywords',
+    Get actionable tips for long-term performance and durability.'
+)
+@section(
+    'meta_keywords',
     'stainless steel tubes, stainless steel maintenance, stainless steel rust prevention, cleaning
     stainless steel pipes, stainless steel tube care, prevent rust on stainless steel, stainless steel cleaning tips,
     stainless steel corrosion protection, stainless steel maintenance guide, stainless steel surface care, stainless steel
     pipe maintenance, stainless steel tube polishing, stainless steel passivation, stainless steel tube cleaning methods,
-    Mokshtubes')
+    Mokshtubes'
+)
 
 
 @section('content')
@@ -402,27 +406,27 @@
                                     <h4 class="fw-bold mb-4">Categories</h4>
                                     <ul class="list-unstyled mb-4">
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-building me-2"></i> Architecture Plans
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-hammer me-2"></i> Construction Projects
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-brush me-2"></i> Paintings
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-lightning-charge me-2"></i> Electrical Works
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-tools me-2"></i> Plumbing Works
                                             </a>
                                         </li>
@@ -540,7 +544,7 @@
 
                                         <!-- Contact Info -->
                                         <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>
-                                            info@mokstubes.com</p>
+                                            info@mokshtubes.com</p>
                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
                                             <strong>Office Address:</strong> Hinglaj Bhavan, Gulalwadi Mumbai,
                                             Maharashtra.
@@ -572,8 +576,8 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form"
-                                action="{{ url('sendmail') }}" method="post">
+                            <form id="contact-form" name="contact_form" class="default-form" action="{{ url('sendmail') }}"
+                                method="post">
                                 @csrf
                                 <div class="row">
                                     <div class="col-md-12">
@@ -591,7 +595,8 @@
                                         <input class="m-1" type="text" name="form_subject" placeholder="Subject">
                                     </div>
                                     <div class="col-md-12">
-                                        <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
+                                        <textarea name="form_message" class="m-1" placeholder="Your Message.."
+                                            required=""></textarea>
                                     </div>
                                     <div class="col-md-12">
                                         <input id="form_botcheck" name="form_botcheck" type="hidden" value="">

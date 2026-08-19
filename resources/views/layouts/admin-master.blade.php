@@ -50,10 +50,10 @@
             <nav class="navbar navbar-expand-lg main-navbar sticky">
                 <div class="form-inline mr-auto">
                     <ul class="navbar-nav mr-3">
-                        <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg
+                        <li><a  data-toggle="sidebar" class="nav-link nav-link-lg
 									collapse-btn">
                                 <i data-feather="align-justify"></i></a></li>
-                        <li><a href="#" class="nav-link nav-link-lg fullscreen-btn">
+                        <li><a  class="nav-link nav-link-lg fullscreen-btn">
                                 <i data-feather="maximize"></i>
                             </a></li>
                     </ul>
@@ -61,7 +61,7 @@
                 <ul class="navbar-nav navbar-right">
                     @if (auth()->check())
                         <li class="dropdown">
-                            <a href="#" data-toggle="dropdown"
+                            <a  data-toggle="dropdown"
                                 class="nav-link dropdown-toggle nav-link-lg nav-link-user">
                                 @if (auth()->user()->image_url)
                                     <img alt="{{ auth()->user()->name }}"
@@ -87,7 +87,7 @@
                                     <i class="far fa-user"></i> Profile
                                 </a> --}}
                                 <div class="dropdown-divider"></div>
-                                <a href="#"
+                                <a 
                                     onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
                                     class="dropdown-item has-icon text-danger">
                                     <i class="fas fa-sign-out-alt"></i> Logout
@@ -163,7 +163,7 @@
                             </a>
                         </li>
                         <li class="dropdown {{ Request::routeIs('admin.blogs*') ? 'active' : '' }}">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                            <a  class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
                                 aria-haspopup="true" aria-expanded="false">
                                 <i data-feather="file" class="mt-1"></i><span>Blogs</span>
                             </a>
@@ -183,7 +183,7 @@
                         </li> --}}
 
                         {{-- <li class="dropdown">
-                            <a href="#" class="menu-toggle nav-link has-dropdown">
+                            <a  class="menu-toggle nav-link has-dropdown">
                                 <i data-feather="layers"></i><span>Main catalogue</span>
                             </a>
                             <ul class="dropdown-menu">
@@ -201,7 +201,7 @@
                         </li>
 
                         <li class="dropdown">
-                            <a href="#" class="menu-toggle nav-link has-dropdown">
+                            <a  class="menu-toggle nav-link has-dropdown">
                                 <i data-feather="smartphone"></i><span>Orders</span>
                             </a>
                             <ul class="dropdown-menu">
@@ -377,7 +377,7 @@
                                 </div>
                             </div>
                             <div class="mt-4 mb-4 p-3 align-center rt-sidebar-last-ele">
-                                <a href="#" class="btn btn-icon icon-left btn-primary btn-restore-theme">
+                                <a  class="btn btn-icon icon-left btn-primary btn-restore-theme">
                                     <i class="fas fa-undo"></i> Restore Default
                                 </a>
                             </div>

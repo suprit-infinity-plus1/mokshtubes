@@ -1,14 +1,18 @@
 @extends('layouts.master')
 
 @section('title', 'India’s Stainless Steel Export Industry | Moksh Tubes ')
-@section('meta_description',
+@section(
+    'meta_description',
     'Moksh Tubes exports stainless steel products to 30+ countries with high-quality pipe
-    fittings, reliable supply, and fast global distribution.')
-@section('meta_keywords',
+    fittings, reliable supply, and fast global distribution.'
+)
+@section(
+    'meta_keywords',
     'India Stainless Steel Export, Stainless Steel Pipes Exporter India, Stainless Steel Fittings
     Supplier, Global Stainless Steel Supplier, Moksh Tubes Exports, Mumbai Pipe Fittings Exporter, Stainless Steel Products
     India, International Stainless Steel Supplier, Durable Stainless Steel Pipes, Corrosion Resistant Stainless Steel
-    Fittings')
+    Fittings'
+)
 
 
 @section('content')
@@ -541,27 +545,27 @@
                                     <h4 class="fw-bold mb-4">Categories</h4>
                                     <ul class="list-unstyled mb-4">
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-building me-2"></i> Architecture Plans
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-hammer me-2"></i> Construction Projects
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-brush me-2"></i> Paintings
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-lightning-charge me-2"></i> Electrical Works
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-tools me-2"></i> Plumbing Works
                                             </a>
                                         </li>
@@ -680,7 +684,7 @@
 
                                         <!-- Contact Info -->
                                         <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>
-                                            info@mokstubes.com</p>
+                                            info@mokshtubes.com</p>
                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
                                             <strong>Office Address:</strong> Hinglaj Bhavan, Gulalwadi Mumbai, Maharashtra.
                                             400004
@@ -702,20 +706,20 @@
                                         <!-- Social Icons -->
                                         {{-- <div class="mt-3 text-center">
                                             <a href="https://wa.me/+919769584950"
-                                                class="btn btn-outline-success btn-sm rounded-circle me-2" aria-label="contact us on whatsapp"><i
-                                                    class="bi bi-whatsapp"></i></a>
+                                                class="btn btn-outline-success btn-sm rounded-circle me-2"
+                                                aria-label="contact us on whatsapp"><i class="bi bi-whatsapp"></i></a>
                                             <a href="https://www.instagram.com/mokshtubesandfittingsllp/"
-                                                class="btn btn-outline-dark btn-sm rounded-circle me-2" aria-label="follow us on instagram"><i
-                                                    class="bi bi-instagram"></i></a>
+                                                class="btn btn-outline-dark btn-sm rounded-circle me-2"
+                                                aria-label="follow us on instagram"><i class="bi bi-instagram"></i></a>
                                             <a href="https://www.facebook.com/mokshtubes/"
-                                                class="btn btn-outline-primary btn-sm rounded-circle me-2" aria-label="follow us on facebook"><i
-                                                    class="bi bi-facebook"></i></a>
+                                                class="btn btn-outline-primary btn-sm rounded-circle me-2"
+                                                aria-label="follow us on facebook"><i class="bi bi-facebook"></i></a>
                                             <a href="https://www.linkedin.com/company/moksh-tubes/"
-                                                class="btn btn-outline-info btn-sm rounded-circle" aria-label="follow us on linkedin"><i
-                                                    class="bi bi-linkedin"></i></a>
+                                                class="btn btn-outline-info btn-sm rounded-circle"
+                                                aria-label="follow us on linkedin"><i class="bi bi-linkedin"></i></a>
                                             <a href="https://x.com/Moksh_Tubes"
-                                                class="btn btn-outline-info btn-sm rounded-circle" aria-label="follow us on x"><i
-                                                    class="fab fa-x-twitter"></i></a>
+                                                class="btn btn-outline-info btn-sm rounded-circle"
+                                                aria-label="follow us on x"><i class="fab fa-x-twitter"></i></a>
 
                                         </div> --}}
                                     </div>
@@ -729,8 +733,8 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form"
-                                action="{{ url('sendmail') }}" method="post">
+                            <form id="contact-form" name="contact_form" class="default-form" action="{{ url('sendmail') }}"
+                                method="post">
                                 @csrf
                                 <div class="row">
                                     <div class="col-md-12">
@@ -748,7 +752,8 @@
                                         <input class="m-1" type="text" name="form_subject" placeholder="Subject">
                                     </div>
                                     <div class="col-md-12">
-                                        <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
+                                        <textarea name="form_message" class="m-1" placeholder="Your Message.."
+                                            required=""></textarea>
                                     </div>
                                     <div class="col-md-12">
                                         <input id="form_botcheck" name="form_botcheck" type="hidden" value="">

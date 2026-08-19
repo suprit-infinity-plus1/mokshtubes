@@ -38,24 +38,36 @@
                                 <div class="blog-title text-start">
                                     <h2>{{ $blog->title }}</h2>
                                 </div>
-                                <div class="alert alert-info d-flex flex-column flex-sm-row justify-content-between align-items-center mb-4 mt-3" style="background-color: #f8f9fa; border-left: 4px solid #004d99; color: #333;">
+                                <div class="alert alert-info d-flex flex-column flex-sm-row justify-content-between align-items-center mb-4 mt-3"
+                                    style="background-color: #f8f9fa; border-left: 4px solid #004d99; color: #333;">
                                     <div class="mb-2 mb-sm-0">
-                                        <h5 class="mb-1 fw-bold" style="color: #004d99;"><i class="fa fa-industry me-2"></i> Looking for a Reliable Metal Supplier?</h5>
-                                        <p class="mb-0">Get premium quality pipes, sheets, and fittings delivered globally.</p>
+                                        <h5 class="mb-1 fw-bold" style="color: #004d99;"><i class="fa fa-industry me-2"></i>
+                                            Looking for a Reliable Metal Supplier?</h5>
+                                        <p class="mb-0">Get premium quality pipes, sheets, and fittings delivered globally.
+                                        </p>
                                     </div>
-                                    <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal" class="thm-btn bg-clr1 pulse-btn" style="font-size: 14px; padding: 10px 20px;">Get Quote Now</a>
+                                    <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal"
+                                        class="thm-btn bg-clr1 pulse-btn" style="font-size: 14px; padding: 10px 20px;">Get
+                                        Quote Now</a>
                                 </div>
 
                                 {{-- Display content directly (keeps your HTML tags) --}}
                                 {!! $blog->content !!}
 
                                 <!-- Post-Content CTA Banner -->
-                                <div class="p-4 my-5 rounded text-center d-flex flex-column align-items-center" style="background: linear-gradient(135deg, #004d99 0%, #db7227 100%); color: white; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                                <div class="p-4 my-5 rounded text-center d-flex flex-column align-items-center"
+                                    style="background: linear-gradient(135deg, #004d99 0%, #db7227 100%); color: white; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
                                     <h3 class="text-white fw-bold mb-2">Need Custom Dimensions or Rare Alloys?</h3>
-                                    <p class="mb-4 text-white">We provide specialized fabrication, custom cutting, and export-grade packing globally. Request a quote or chat with our experts.</p>
+                                    <p class="mb-4 text-white">We provide specialized fabrication, custom cutting, and
+                                        export-grade packing globally. Request a quote or chat with our experts.</p>
                                     <div class="d-flex gap-3 flex-wrap justify-content-center">
-                                        <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal" class="btn btn-light fw-bold px-4 py-2 pulse-btn" style="color: #004d99; border-radius: 5px;">Request a Quote</a>
-                                        <a href="https://wa.me/919769584950" target="_blank" class="btn btn-success fw-bold px-4 py-2" style="border-radius: 5px;"><i class="fa-brands fa-whatsapp"></i> WhatsApp Us</a>
+                                        <a href="javascript:void(0);" data-bs-toggle="modal"
+                                            data-bs-target="#contactFormModal"
+                                            class="btn btn-light fw-bold px-4 py-2 pulse-btn"
+                                            style="color: #004d99; border-radius: 5px;">Request a Quote</a>
+                                        <a href="https://wa.me/919769584950" target="_blank"
+                                            class="btn btn-success fw-bold px-4 py-2" style="border-radius: 5px;"><i
+                                                class="fa-brands fa-whatsapp"></i> WhatsApp Us</a>
                                     </div>
                                 </div>
 
@@ -144,27 +156,27 @@
                                     <h4 class="fw-bold mb-4">Categories</h4>
                                     <ul class="list-unstyled mb-4">
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-building me-2"></i> Architecture Plans
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-hammer me-2"></i> Construction Projects
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-brush me-2"></i> Paintings
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-lightning-charge me-2"></i> Electrical Works
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-tools me-2"></i> Plumbing Works
                                             </a>
                                         </li>
@@ -181,34 +193,36 @@
                             </div>
                             {{-- <ul class="recent-post">
                                 @foreach ($allBlogs as $allBlog)
-                                    {{ dd($allBlog) }}
-                        <li>
-                            <div class="img-holder">
-                                <img src="{{ asset('assets/images/blogs/thumb/why-hastelloy-weighs-more-than-stainless-steel-thumb.webp') }}" alt="Awesome Image">
-                                <div class="overlay-style-two">
-                                    <div class="box">
-                                        <div class="content">
-                                            <a href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}">
-                                                <i class="fa fa-link" aria-hidden="true"></i>
-                                            </a>
+                                {{ dd($allBlog) }}
+                                <li>
+                                    <div class="img-holder">
+                                        <img src="{{ asset('assets/images/blogs/thumb/why-hastelloy-weighs-more-than-stainless-steel-thumb.webp') }}"
+                                            alt="Awesome Image">
+                                        <div class="overlay-style-two">
+                                            <div class="box">
+                                                <div class="content">
+                                                    <a
+                                                        href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}">
+                                                        <i class="fa fa-link" aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="title-holder">
-                                <a href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}">
-                                    <h5 class="post-title">
-                                        Why Hastelloy Weighs More Than Stainless Steel
-                                    </h5>
-                                </a>
-                                <h6 class="post-date">
-                                    <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
-                                    august 14, 2025
-                                </h6>
-                            </div>
-                        </li>
-                        @endforeach
-                        </ul> --}}
+                                    <div class="title-holder">
+                                        <a href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}">
+                                            <h5 class="post-title">
+                                                Why Hastelloy Weighs More Than Stainless Steel
+                                            </h5>
+                                        </a>
+                                        <h6 class="post-date">
+                                            <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
+                                            august 14, 2025
+                                        </h6>
+                                    </div>
+                                </li>
+                                @endforeach
+                            </ul> --}}
                             <ul class="recent-post">
                                 @foreach ($allBlogs as $allBlog)
                                     {{-- {{ dd($allBlog) }} --}}
@@ -264,7 +278,7 @@
 
                                         <!-- Contact Info -->
                                         <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>
-                                            info@mokstubes.com</p>
+                                            info@mokshtubes.com</p>
                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
                                             <strong>Office Address:</strong> Hinglaj Bhavan, Gulalwadi Mumbai, Maharashtra.
                                             400004
@@ -295,8 +309,8 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form"
-                                action="{{ url('sendmail') }}" method="post">
+                            <form id="contact-form" name="contact_form" class="default-form" action="{{ url('sendmail') }}"
+                                method="post">
                                 @csrf
                                 <div class="row">
                                     <div class="col-md-12">
@@ -314,7 +328,8 @@
                                         <input class="m-1" type="text" name="form_subject" placeholder="Subject">
                                     </div>
                                     <div class="col-md-12">
-                                        <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
+                                        <textarea name="form_message" class="m-1" placeholder="Your Message.."
+                                            required=""></textarea>
                                     </div>
                                     <div class="col-md-12">
                                         <input id="form_botcheck" name="form_botcheck" type="hidden" value="">

@@ -1,16 +1,20 @@
 @extends('layouts.master')
 
 @section('title', 'Stainless Steel Tubes: Applications, Benefits & Cost Guide')
-@section('meta_description',
+@section(
+    'meta_description',
     'A complete guide to stainless steel tube applications, benefits, and cost factors. Learn
-    why its the top choice for durability and long-term value.')
-@section('meta_keywords',
+    why its the top choice for durability and long-term value.'
+)
+@section(
+    'meta_keywords',
     'stainless steel tubes, stainless steel tube applications, stainless steel tube benefits,
     stainless steel tube cost, stainless steel tubing guide, stainless steel pipes, corrosion resistant tubes, industrial
     stainless steel, stainless steel tube supplier, stainless steel fittings, seamless stainless steel tubes, welded
     stainless steel tubes, stainless steel tube price, Moksh Tubes & Fittings LLP, stainless steel products, stainless steel
     tube manufacturer, stainless steel solutions, stainless steel tubing industries, stainless steel tube grades, stainless
-    steel tube cost factors')
+    steel tube cost factors'
+)
 
 
 @section('content')
@@ -343,27 +347,27 @@
                                     <h4 class="fw-bold mb-4">Categories</h4>
                                     <ul class="list-unstyled mb-4">
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-building me-2"></i> Architecture Plans
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-hammer me-2"></i> Construction Projects
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-brush me-2"></i> Paintings
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-lightning-charge me-2"></i> Electrical Works
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-tools me-2"></i> Plumbing Works
                                             </a>
                                         </li>
@@ -481,7 +485,7 @@
 
                                         <!-- Contact Info -->
                                         <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>
-                                            info@mokstubes.com</p>
+                                            info@mokshtubes.com</p>
                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
                                             <strong>Office Address:</strong> Hinglaj Bhavan, Gulalwadi Mumbai,
                                             Maharashtra.
@@ -513,8 +517,8 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form"
-                                action="{{ url('sendmail') }}" method="post">
+                            <form id="contact-form" name="contact_form" class="default-form" action="{{ url('sendmail') }}"
+                                method="post">
                                 @csrf
                                 <div class="row">
                                     <div class="col-md-12">
@@ -532,7 +536,8 @@
                                         <input class="m-1" type="text" name="form_subject" placeholder="Subject">
                                     </div>
                                     <div class="col-md-12">
-                                        <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
+                                        <textarea name="form_message" class="m-1" placeholder="Your Message.."
+                                            required=""></textarea>
                                     </div>
                                     <div class="col-md-12">
                                         <input id="form_botcheck" name="form_botcheck" type="hidden" value="">

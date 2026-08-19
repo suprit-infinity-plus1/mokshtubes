@@ -1,8 +1,10 @@
 @extends('layouts.master')
 @section('title', 'Kamatipura Mumbai Office – Contact Moksh Tubes Today')
-@section('meta_description',
+@section(
+    'meta_description',
     'Connect with Moksh Tubes at our Kamatipura, Mumbai branch. Call or visit for product
-    inquiries, quotes, and customized metal solutions.')
+    inquiries, quotes, and customized metal solutions.'
+)
 @section('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))
 @section('og_type', 'website')
 
@@ -84,12 +86,10 @@
                             @csrf
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" name="form_name" value="" placeholder="Your Name*"
-                                        required="">
+                                    <input type="text" name="form_name" value="" placeholder="Your Name*" required="">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="email" name="form_email" value="" placeholder="Your Mail*"
-                                        required="">
+                                    <input type="email" name="form_email" value="" placeholder="Your Mail*" required="">
                                 </div>
                             </div>
                             <div class="row">
@@ -126,9 +126,9 @@
                 <div class="col-md-4">
                     <div class="footer-contact-info">
                         <div class="title">
-                            <h2>Quick Contact</h2>
-                            <p>If you are passionate about helping people: through education, or preventing then
-                                you </p>
+                            <h2 class="mb-4">Quick Contact</h2>
+                            <!-- <p>If you are passionate about helping people: through education, or preventing then
+                                you </p> -->
                         </div>
                         <ul class="clearfix">
                             <li>
@@ -172,14 +172,14 @@
                             </li>
                             <li>
                                 <div class="iocn-holder">
-                                    <a href="mailto:info@mokstubes.com">
+                                    <a href="mailto:info@mokshtubes.com">
                                         <span class="icon-letter-1"></span>
                                     </a>
                                 </div>
                                 <div class="text-holder">
                                     <h3 class="h6">Mail Us @</h3>
-                                    <a href="mailto:info@mokstubes.com">
-                                        <p>info@mokstubes.com</p>
+                                    <a href="mailto:info@mokshtubes.com">
+                                        <p>info@mokshtubes.com</p>
                                     </a>
                                 </div>
                             </li>

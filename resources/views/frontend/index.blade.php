@@ -864,7 +864,7 @@
                                                                                                                                                                                                                                                                                                                                     <div class="text">
                                                                                                                                                                                                                                                                                                                                         <p>Any kind of business solution and consultion hesitate to contact with us for customer
                                                                                                                                                                                                                                                                                                                                             support. We are love to hear from you</p><br>
-                                                                                                                                                                                                                                                                                                                                        <p><span>Phone & Email:</span> For any information contact with us through our <a href="#">
+                                                                                                                                                                                                                                                                                                                                        <p><span>Phone & Email:</span> For any information contact with us through our <a >
                                                                                                                                                                                                                                                                                                                                                 Email</a> and you can also contact with directe by call us in this number
                                                                                                                                                                                                                                                                                                                                             <span>(+880) 1723801729</span>
                                                                                                                                                                                                                                                                                                                                         </p><br>
@@ -1004,12 +1004,12 @@
                         <div class="footer-col service-col">
                             <h4 class="footer-title">PIPES & TUBES </h4>
                             <ul class="footer-list">
-                                <li><a href="#">WELDED PIPES (ERW & EFW)</a></li>
-                                <li><a href="#">SEAMLESS PIPES</a></li>
-                                <li><a href="#">CAPILLARIESS</a></li>
-                                <li><a href="#">HOLLOW SECTION PIPE (SQUARE, RECTANGULAR & OVAL)</a></li>
-                                <li><a href="#">U-BENT TUBES</a></li>
-                                <li><a href="#">BOILER & HEAT EXCHANGER TUBES</a></li>
+                                <li><a >WELDED PIPES (ERW & EFW)</a></li>
+                                <li><a >SEAMLESS PIPES</a></li>
+                                <li><a >CAPILLARIESS</a></li>
+                                <li><a >HOLLOW SECTION PIPE (SQUARE, RECTANGULAR & OVAL)</a></li>
+                                <li><a >U-BENT TUBES</a></li>
+                                <li><a >BOILER & HEAT EXCHANGER TUBES</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1017,13 +1017,13 @@
                         <div class="footer-col service-col">
                             <h4 class="footer-title">SHEETS, PLATES & COILS</h4>
                             <ul class="footer-list">
-                                <li><a href="#">SHEETS & PLATES</a></li>
-                                <li><a href="#">COILS</a></li>
-                                <li><a href="#">STRIPS</a></li>
-                                <li><a href="#">PERFORATED SHEETS</a></li>
-                                <li><a href="#">CHEQUERED SHEETS</a></li>
-                                <li><a href="#">SHIM SHEETS</a></li>
-                                <li><a href="#">CLADDED PLATES</a></li>
+                                <li><a >SHEETS & PLATES</a></li>
+                                <li><a >COILS</a></li>
+                                <li><a >STRIPS</a></li>
+                                <li><a >PERFORATED SHEETS</a></li>
+                                <li><a >CHEQUERED SHEETS</a></li>
+                                <li><a >SHIM SHEETS</a></li>
+                                <li><a >CLADDED PLATES</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1032,12 +1032,12 @@
                         <div class="footer-col service-col">
                             <h4 class="footer-title">BARS & RODS</h4>
                             <ul class="footer-list">
-                                <li><a href="#">ROUND BARS</a></li>
-                                <li><a href="#">HEXAGON BARS</a></li>
-                                <li><a href="#">FLAT BARS</a></li>
-                                <li><a href="#">SQUARE BARS</a></li>
-                                <li><a href="#">THREADED RODS</a></li>
-                                <li><a href="#">HOLLOW BARS</a></li>
+                                <li><a >ROUND BARS</a></li>
+                                <li><a >HEXAGON BARS</a></li>
+                                <li><a >FLAT BARS</a></li>
+                                <li><a >SQUARE BARS</a></li>
+                                <li><a >THREADED RODS</a></li>
+                                <li><a >HOLLOW BARS</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1045,11 +1045,11 @@
                         <div class="footer-col service-col">
                             <h4 class="footer-title">PIPE FITTINGS, FLANGES & FASTENERS</h4>
                             <ul class="footer-list">
-                                <li><a href="#">FITTINGS</a></li>
-                                <li><a href="#">FLANGES</a></li>
-                                <li><a href="#">FASTENERS</a></li>
-                                <li><a href="#">GASKETS</a></li>
-                                <li><a href="#">CUSTOM FABRICATED FITTINGS</a></li>
+                                <li><a >FITTINGS</a></li>
+                                <li><a >FLANGES</a></li>
+                                <li><a >FASTENERS</a></li>
+                                <li><a >GASKETS</a></li>
+                                <li><a >CUSTOM FABRICATED FITTINGS</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1103,11 +1103,11 @@
         {{-- <section class="brand-logo sec-padd">
             <div class="container">
                 <ul class="brand-carousel">
-                    <li><a href="#"><img src="{{ asset('assets/images/brand/1.jpg') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ asset('assets/images/brand/2.jpg') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ asset('assets/images/brand/3.jpg') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ asset('assets/images/brand/4.jpg') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ asset('assets/images/brand/5.jpg') }}" alt=""></a></li>
+                    <li><a ><img src="{{ asset('assets/images/brand/1.jpg') }}" alt=""></a></li>
+                    <li><a ><img src="{{ asset('assets/images/brand/2.jpg') }}" alt=""></a></li>
+                    <li><a ><img src="{{ asset('assets/images/brand/3.jpg') }}" alt=""></a></li>
+                    <li><a ><img src="{{ asset('assets/images/brand/4.jpg') }}" alt=""></a></li>
+                    <li><a ><img src="{{ asset('assets/images/brand/5.jpg') }}" alt=""></a></li>
                 </ul>
             </div>
         </section> --}}
@@ -1264,7 +1264,7 @@
                         <div class="default-blog-news wow fadeInUp animated animated"
                             style="visibility: visible; animation-name: fadeInUp;">
                             <figure class="img-holder mb-0">
-                                <a href="#"><img
+                                <a ><img
                                         src="{{ asset('/assets/images/blog/indias-stainless-steel-export-industry.webp') }}"
                                         alt="News" loading="lazy"></a>
                                 <figcaption class="overlay">
@@ -1298,7 +1298,7 @@
                         <div class="default-blog-news wow fadeInUp animated animated"
                             style="visibility: visible; animation-name: fadeInUp;">
                             <figure class="img-holder mb-0">
-                                <a href="#"><img src="{{ asset('assets/images/blog/Untitled.webp') }}" alt="News"
+                                <a ><img src="{{ asset('assets/images/blog/Untitled.webp') }}" alt="News"
                                         loading="lazy"></a>
                                 <figcaption class="overlay">
                                     <div class="box">

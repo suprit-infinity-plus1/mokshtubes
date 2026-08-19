@@ -782,22 +782,22 @@
                         <li class="list-inline-item m-1"><a href="{{ route('index') ?? '#' }}" class="btn btn-sm btn-outline-primary rounded-pill px-3">Home</a></li>
                         <li class="list-inline-item m-1"><a href="{{ route('about') ?? '#' }}" class="btn btn-sm btn-outline-primary rounded-pill px-3">About Us</a></li>
                         <li class="list-inline-item m-1"><a href="{{ route('contact') ?? '#' }}" class="btn btn-sm btn-outline-primary rounded-pill px-3">Contact Us</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Pipes</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Stainless Steel Pipes</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Welded Pipes</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">ERW Pipes</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Duplex Steel Pipes</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Super Duplex Pipes</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Nickel Alloy Pipes</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Carbon Steel Pipes</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Alloy Steel Pipes</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Pipe Fittings</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Flanges</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">U-Bends</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Heat Exchanger Tubes</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">ASTM A312 Pipes</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-secondary rounded-pill px-3">ASTM A106 Pipes</a></li>
-                        <li class="list-inline-item m-1"><a href="#" class="btn btn-sm btn-outline-primary rounded-pill px-3">Blogs</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-secondary rounded-pill px-3">Pipes</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-secondary rounded-pill px-3">Stainless Steel Pipes</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-secondary rounded-pill px-3">Welded Pipes</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-secondary rounded-pill px-3">ERW Pipes</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-secondary rounded-pill px-3">Duplex Steel Pipes</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-secondary rounded-pill px-3">Super Duplex Pipes</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-secondary rounded-pill px-3">Nickel Alloy Pipes</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-secondary rounded-pill px-3">Carbon Steel Pipes</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-secondary rounded-pill px-3">Alloy Steel Pipes</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-secondary rounded-pill px-3">Pipe Fittings</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-secondary rounded-pill px-3">Flanges</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-secondary rounded-pill px-3">U-Bends</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-secondary rounded-pill px-3">Heat Exchanger Tubes</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-secondary rounded-pill px-3">ASTM A312 Pipes</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-secondary rounded-pill px-3">ASTM A106 Pipes</a></li>
+                        <li class="list-inline-item m-1"><a  class="btn btn-sm btn-outline-primary rounded-pill px-3">Blogs</a></li>
                     </ul>
                 </div>
             </div>
