@@ -1,21 +1,26 @@
 @extends('layouts.master')
 
 @section('title', 'Stainless Steel vs Other Metals – Durability & Longevity') <!-- 69 chars -->
-@section('meta_description',
+@section(
+    'meta_description',
     'Compare stainless steel with aluminum, carbon steel, and copper. Discover which metal
-    lasts longest and offers the best value for your projects.')
-@section('meta_keywords',
+    lasts longest and offers the best value for your projects.'
+)
+@section(
+    'meta_keywords',
     'stainless steel, stainless steel vs other metals, stainless steel durability, stainless steel
     longevity, aluminum vs stainless steel, carbon steel vs stainless steel, copper vs stainless steel, metal comparison,
     corrosion resistance, metal strength, long-lasting metals, industrial materials, stainless steel pipes, stainless steel
-    tubes, stainless steel fittings, Mokshtubes')
+    tubes, stainless steel fittings, Mokshtubes'
+)
 
 
 
 @section('content')
     <!--Start breadcrumb area-->
 
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/blog/Stainless-Steel-vs-Other-Metals.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/blog/Stainless-Steel-vs-Other-Metals.webp);">
         <div class="container text-center">
             <h1>Stainless Steel vs Other Metals: Longevity Comparison</h1>
         </div>
@@ -584,27 +589,27 @@
                                     <h4 class="fw-bold mb-4">Categories</h4>
                                     <ul class="list-unstyled mb-4">
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-building me-2"></i> Architecture Plans
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-hammer me-2"></i> Construction Projects
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-brush me-2"></i> Paintings
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-lightning-charge me-2"></i> Electrical Works
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-tools me-2"></i> Plumbing Works
                                             </a>
                                         </li>
@@ -722,7 +727,7 @@
 
                                         <!-- Contact Info -->
                                         <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>
-                                            info@mokstubes.com</p>
+                                            info@mokshtubes.com</p>
                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
                                             <strong>Office Address:</strong> Hinglaj Bhavan, Gulalwadi Mumbai,
                                             Maharashtra.
@@ -754,8 +759,8 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form"
-                                action="{{ url('sendmail') }}" method="post">
+                            <form id="contact-form" name="contact_form" class="default-form" action="{{ url('sendmail') }}"
+                                method="post">
                                 @csrf
                                 <div class="row">
                                     <div class="col-md-12">
@@ -773,7 +778,8 @@
                                         <input class="m-1" type="text" name="form_subject" placeholder="Subject">
                                     </div>
                                     <div class="col-md-12">
-                                        <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
+                                        <textarea name="form_message" class="m-1" placeholder="Your Message.."
+                                            required=""></textarea>
                                     </div>
                                     <div class="col-md-12">
                                         <input id="form_botcheck" name="form_botcheck" type="hidden" value="">

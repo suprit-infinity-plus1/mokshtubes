@@ -9,7 +9,7 @@
                         class="fas fa-home"></i>
                     Home</a></li>
             <li class="breadcrumb-item active" aria-current="page"><i class="fas fa-list"></i> Blogs</li>
-            {{-- <li class="breadcrumb-item"><a href="#"><i class="fas fa-plus"></i> Add
+            {{-- <li class="breadcrumb-item"><a><i class="fas fa-plus"></i> Add
                     Blogs</a></li>
             <li class="breadcrumb-item">
                 <a href="#importCustomersModel" data-toggle="modal" data-target="#importCustomersModel">
@@ -43,11 +43,11 @@
             <h4>Manage Blogs</h4>
 
             {{-- <form action="" method="post">
-            @csrf
-            <button type="submit" class="btn btn-primary btnSubmit">
-                <i class="fa fa-file-excel-o"></i> Export Excel
-            </button>
-        </form> --}}
+                @csrf
+                <button type="submit" class="btn btn-primary btnSubmit">
+                    <i class="fa fa-file-excel-o"></i> Export Excel
+                </button>
+            </form> --}}
         </div>
 
 
@@ -95,8 +95,7 @@
                                 <td>{{ $i++ }}</td>
                                 <td>
                                     @if ($blog->cover_image)
-                                        <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="cover image"
-                                            width="80">
+                                        <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="cover image" width="80">
                                     @else
                                         ---
                                     @endif
@@ -104,10 +103,10 @@
                                 <td>{{ \Illuminate\Support\Str::limit($blog->title, 35) }}</td>
                                 {{-- <td>
                                     {!! $blog->content
-                                        ? (strlen(strip_tags($blog->content)) > 50
-                                            ? substr(strip_tags($blog->content), 0, 50) . '...'
-                                            : strip_tags($blog->content))
-                                        : ' --- ' !!}
+                                    ? (strlen(strip_tags($blog->content)) > 50
+                                    ? substr(strip_tags($blog->content), 0, 50) . '...'
+                                    : strip_tags($blog->content))
+                                    : ' --- ' !!}
                                 </td> --}}
                                 <td>
                                     {{ $blog->category?->name ?? '---' }}

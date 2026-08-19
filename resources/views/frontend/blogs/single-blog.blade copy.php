@@ -708,27 +708,27 @@ Steel')
                         </div>
                         <ul class="categories clearfix">
                             <li>
-                                <a href="#">
+                                <a >
                                     Pipes Tubes
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a >
                                     Sheets Plates Coils
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a >
                                     Bars Rods
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a >
                                     Special Fabricated
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a >
                                     Pipe Fittings Flanges Fasteners
                                 </a>
                             </li>
@@ -777,27 +777,27 @@ Steel')
                                 <h4 class="fw-bold mb-4">Categories</h4>
                                 <ul class="list-unstyled mb-4">
                                     <li class="category-item mb-2">
-                                        <a href="#" class="category-link">
+                                        <a  class="category-link">
                                             <i class="bi bi-building me-2"></i> Architecture Plans
                                         </a>
                                     </li>
                                     <li class="category-item mb-2">
-                                        <a href="#" class="category-link">
+                                        <a  class="category-link">
                                             <i class="bi bi-hammer me-2"></i> Construction Projects
                                         </a>
                                     </li>
                                     <li class="category-item mb-2">
-                                        <a href="#" class="category-link">
+                                        <a  class="category-link">
                                             <i class="bi bi-brush me-2"></i> Paintings
                                         </a>
                                     </li>
                                     <li class="category-item mb-2">
-                                        <a href="#" class="category-link">
+                                        <a  class="category-link">
                                             <i class="bi bi-lightning-charge me-2"></i> Electrical Works
                                         </a>
                                     </li>
                                     <li class="category-item mb-2">
-                                        <a href="#" class="category-link">
+                                        <a  class="category-link">
                                             <i class="bi bi-tools me-2"></i> Plumbing Works
                                         </a>
                                     </li>
@@ -812,27 +812,27 @@ Steel')
                         </div>
                         <ul class="categories clearfix">
                             <li>
-                                <a href="#">
+                                <a >
                                     Architecture Plans
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a >
                                     Construction Projects
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a >
                                     Paintings
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a >
                                     Electrical Works
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a >
                                     Plumbing Works
                                 </a>
                             </li>
@@ -950,7 +950,7 @@ Steel')
 
                                     <!-- Contact Info -->
                                     <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>
-                                        info@mokstubes.com</p>
+                                        info@mokshtubes.com</p>
                                     <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
                                         <strong>Office Address:</strong> Hinglaj Bhavan, Gulalwadi Mumbai, Maharashtra.
                                         400004

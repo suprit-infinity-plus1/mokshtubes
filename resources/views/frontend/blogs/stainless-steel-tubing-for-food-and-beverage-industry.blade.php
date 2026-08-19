@@ -1,16 +1,20 @@
 @extends('layouts.master')
 
 @section('title', 'Food-Grade Stainless Steel Tubing Guide | Mokshtubes')
-@section('meta_description',
+@section(
+    'meta_description',
     'Learn why stainless steel tubing is essential for food and beverage industries—ensuring
-    hygiene, durability, and easy maintenance in processing systems.')
-@section('meta_keywords',
+    hygiene, durability, and easy maintenance in processing systems.'
+)
+@section(
+    'meta_keywords',
     'stainless steel tubing, food grade stainless steel, hygienic stainless steel pipes, stainless
     steel tubes for food industry, 304 stainless steel, 316 stainless steel, food processing tubing, beverage industry
     piping, sanitary stainless steel tubing, stainless steel pipes for dairy, brewery stainless steel tubing, winery process
     piping, food processing equipment, corrosion resistant stainless steel, sanitary piping systems, food grade process
     piping, stainless steel tube suppliers, hygienic process tubing, stainless steel pipes manufacturer, food and beverage
-    equipment')
+    equipment'
+)
 
 
 @section('content')
@@ -320,27 +324,27 @@
                                     <h4 class="fw-bold mb-4">Categories</h4>
                                     <ul class="list-unstyled mb-4">
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-building me-2"></i> Architecture Plans
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-hammer me-2"></i> Construction Projects
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-brush me-2"></i> Paintings
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-lightning-charge me-2"></i> Electrical Works
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-tools me-2"></i> Plumbing Works
                                             </a>
                                         </li>
@@ -457,7 +461,7 @@
 
                                         <!-- Contact Info -->
                                         <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>
-                                            info@mokstubes.com</p>
+                                            info@mokshtubes.com</p>
                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
                                             <strong>Office Address:</strong> Hinglaj Bhavan, Gulalwadi Mumbai,
                                             Maharashtra.
@@ -489,8 +493,8 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form"
-                                action="{{ url('sendmail') }}" method="post">
+                            <form id="contact-form" name="contact_form" class="default-form" action="{{ url('sendmail') }}"
+                                method="post">
                                 @csrf
                                 <div class="row">
                                     <div class="col-md-12">
@@ -508,7 +512,8 @@
                                         <input class="m-1" type="text" name="form_subject" placeholder="Subject">
                                     </div>
                                     <div class="col-md-12">
-                                        <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
+                                        <textarea name="form_message" class="m-1" placeholder="Your Message.."
+                                            required=""></textarea>
                                     </div>
                                     <div class="col-md-12">
                                         <input id="form_botcheck" name="form_botcheck" type="hidden" value="">

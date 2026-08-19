@@ -1,9 +1,11 @@
 @extends('layouts.master')
 @section('title', 'Gulalwadi Mumbai Office – Contact Moksh Tubes Today')
 @section('meta_keywords', 'Stainless steel pipes in Gulalwadi')
-@section('meta_description',
+@section(
+    'meta_description',
     'Visit our Gulalwadi, Mumbai office or contact Moksh Tubes at +91 97695 84950 |
-    info@mokshtubes.com for inquiries, directions, or business support.')
+    info@mokshtubes.com for inquiries, directions, or business support.'
+)
 @section('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))
 @section('og_type', 'website')
 
@@ -85,12 +87,10 @@
                             @csrf
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" name="form_name" value="" placeholder="Your Name*"
-                                        required="">
+                                    <input type="text" name="form_name" value="" placeholder="Your Name*" required="">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="email" name="form_email" value="" placeholder="Your Mail*"
-                                        required="">
+                                    <input type="email" name="form_email" value="" placeholder="Your Mail*" required="">
                                 </div>
                             </div>
                             <div class="row">
@@ -127,9 +127,9 @@
                 <div class="col-md-4">
                     <div class="footer-contact-info">
                         <div class="title">
-                            <h2>Quick Contact</h2>
-                            <p>If you are passionate about helping people: through education, or preventing then
-                                you </p>
+                            <h2 class="mb-4">Quick Contact</h2>
+                            <!-- <p>If you are passionate about helping people: through education, or preventing then
+                                you </p> -->
                         </div>
                         <ul class="clearfix">
                             <li>
@@ -173,14 +173,14 @@
                             </li>
                             <li>
                                 <div class="iocn-holder">
-                                    <a href="mailto:info@mokstubes.com">
+                                    <a href="mailto:info@mokshtubes.com">
                                         <span class="icon-letter-1"></span>
                                     </a>
                                 </div>
                                 <div class="text-holder">
                                     <h3 class="h6">Mail Us @</h3>
-                                    <a href="mailto:info@mokstubes.com">
-                                        <p>info@mokstubes.com</p>
+                                    <a href="mailto:info@mokshtubes.com">
+                                        <p>info@mokshtubes.com</p>
                                     </a>
                                 </div>
                             </li>

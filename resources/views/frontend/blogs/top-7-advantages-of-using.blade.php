@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', '7 Advantages of Stainless Steel 316L in Industry')
-@section('meta_description',
+@section(
+    'meta_description',
     'Discover 7 key advantages of Stainless Steel 316L, including superior corrosion
-    resistance, durability, and strength for industrial, marine, and chemical use.')
+    resistance, durability, and strength for industrial, marine, and chemical use.'
+)
 
 
 @section('content')
@@ -532,27 +534,27 @@
                                     <h4 class="fw-bold mb-4">Categories</h4>
                                     <ul class="list-unstyled mb-4">
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-building me-2"></i> Architecture Plans
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-hammer me-2"></i> Construction Projects
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-brush me-2"></i> Paintings
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-lightning-charge me-2"></i> Electrical Works
                                             </a>
                                         </li>
                                         <li class="category-item mb-2">
-                                            <a href="#" class="category-link">
+                                            <a  class="category-link">
                                                 <i class="bi bi-tools me-2"></i> Plumbing Works
                                             </a>
                                         </li>
@@ -669,7 +671,7 @@
 
                                         <!-- Contact Info -->
                                         <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>
-                                            info@mokstubes.com</p>
+                                            info@mokshtubes.com</p>
                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
                                             <strong>Office Address:</strong> Hinglaj Bhavan, Gulalwadi Mumbai, Maharashtra.
                                             400004
@@ -701,13 +703,10 @@
                                                 aria-label="Follow us on Facebook"><i class="bi bi-facebook"></i></a>
                                             <a href="https://www.linkedin.com/company/moksh-tubes/"
                                                 class="btn btn-outline-info btn-sm rounded-circle"
-                                                aria-label="Connect with us on LinkedIn"><i
-                                                    class="bi bi-linkedin"></i></a>
+                                                aria-label="Connect with us on LinkedIn"><i class="bi bi-linkedin"></i></a>
                                             <a href="https://x.com/Moksh_Tubes"
-                                                class="btn btn-outline-info btn-sm rounded-circle"
-                                                aria-label="Follow us on X><i
-                                        class="fab
-                                                fa-x-twitter"></i></a>
+                                                class="btn btn-outline-info btn-sm rounded-circle" aria-label="Follow us on X><i
+                                            class=" fab fa-x-twitter"></i></a>
 
                                         </div>
                                     </div>
@@ -721,8 +720,8 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form"
-                                action="{{ url('sendmail') }}" method="post">
+                            <form id="contact-form" name="contact_form" class="default-form" action="{{ url('sendmail') }}"
+                                method="post">
                                 @csrf
                                 <div class="row">
                                     <div class="col-md-12">
@@ -740,7 +739,8 @@
                                         <input class="m-1" type="text" name="form_subject" placeholder="Subject">
                                     </div>
                                     <div class="col-md-12">
-                                        <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
+                                        <textarea name="form_message" class="m-1" placeholder="Your Message.."
+                                            required=""></textarea>
                                     </div>
                                     <div class="col-md-12">
                                         <input id="form_botcheck" name="form_botcheck" type="hidden" value="">

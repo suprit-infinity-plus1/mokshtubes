@@ -1,8 +1,10 @@
 @extends('layouts.master')
 @section('title', 'Contact Mokshtubes LLP | Request a Quote or Technical Help')
-@section('meta_description',
+@section(
+    'meta_description',
     'Get in touch with Mokshtubes LLP for quotations, product inquiries, technical assistance,
-    or custom alloy requirements. Call, email, or visit us for quick support.')
+    or custom alloy requirements. Call, email, or visit us for quick support.'
+)
 @section('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))
 @section('og_type', 'website')
 
@@ -185,9 +187,9 @@
 
                                     <!-- ✅ WhatsApp CTA -->
                                     <!-- <a href="https://wa.me/919769584950" target="_blank"
-                                                                                    class="btn btn-success mt-3 mt-md-0">
-                                                                                    💬 Chat on WhatsApp
-                                                                                </a> -->
+                                                                                        class="btn btn-success mt-3 mt-md-0">
+                                                                                        💬 Chat on WhatsApp
+                                                                                    </a> -->
                                 </div>
                             </div>
 
@@ -198,9 +200,9 @@
                 <div class="col-md-4">
                     <div class="footer-contact-info">
                         <div class="title">
-                            <h2>Quick Contact</h2>
-                            <p>If you are passionate about helping people: through education, or preventing then
-                                you </p>
+                            <h2 class="mb-4">Quick Contact</h2>
+                            <!-- <p>If you are passionate about helping people: through education, or preventing then
+                                you </p> -->
                         </div>
                         <ul class="">
                             <li>
@@ -244,14 +246,14 @@
                             </li>
                             <li>
                                 <div class="iocn-holder">
-                                    <a href="mailto:info@mokstubes.com">
+                                    <a href="mailto:info@mokshtubes.com">
                                         <span class="icon-letter-1"></span>
                                     </a>
                                 </div>
                                 <div class="text-holder">
                                     <h3 class="h6">Mail Us @</h3>
-                                    <a href="mailto:info@mokstubes.com">
-                                        <p>info@mokstubes.com</p>
+                                    <a href="mailto:info@mokshtubes.com">
+                                        <p>info@mokshtubes.com</p>
                                     </a>
                                 </div>
                             </li>
@@ -269,22 +271,22 @@
 
 @section('extrajs')
     <script type="application/ld+json">
-    @verbatim {
-        "@context": "https://schema.org"
-        , "@type": "Organization"
-        , "name": "Moksh Tubes & Fittings LLP"
-        , "url": "https://www.mokstubes.com"
-        , "logo": "https://www.mokstubes.com/assets/images/logo.png"
-        , "contactPoint": {
-            "@type": "ContactPoint"
-            , "telephone": "+91-97695-84950"
-            , "contactType": "Customer Service"
-            , "email": "info@mokstubes.com"
-            , "areaServed": "Worldwide"
-            , "availableLanguage": ["English", "Hindi"]
-        }
-    }
-    @endverbatim
+        @verbatim {
+                "@context": "https://schema.org"
+                , "@type": "Organization"
+                , "name": "Moksh Tubes & Fittings LLP"
+                , "url": "https://www.mokshtubes.com"
+                , "logo": "https://www.mokshtubes.com/assets/images/logo.png"
+                , "contactPoint": {
+                    "@type": "ContactPoint"
+                    , "telephone": "+91-97695-84950"
+                    , "contactType": "Customer Service"
+                    , "email": "info@mokshtubes.com"
+                    , "areaServed": "Worldwide"
+                    , "availableLanguage": ["English", "Hindi"]
+                }
+            }
+        @endverbatim
 
-</script>
+    </script>
 @endsection

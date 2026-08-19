@@ -60,7 +60,7 @@
                 <div class="row g-4">
                     @foreach (['600', '601', '625', '690', '718', 'X750'] as $grade)
                         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                            <a href="#" class="text-decoration-none d-block h-100">
+                            <a  class="text-decoration-none d-block h-100">
                                 <div class="grade-card">
                                     <h5>Inconel {{ $grade }}</h5>
                                 </div>
@@ -76,7 +76,7 @@
                 <div class="row g-4">
                     @foreach (['800', '825', '925'] as $grade)
                         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                            <a href="#" class="text-decoration-none d-block h-100">
+                            <a  class="text-decoration-none d-block h-100">
                                 <div class="grade-card">
                                     <h5>Incoloy {{ $grade }}</h5>
                                 </div>
@@ -92,7 +92,7 @@
                 <div class="row g-4">
                     @foreach (['400', 'K500', 'R405'] as $grade)
                         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                            <a href="#" class="text-decoration-none d-block h-100">
+                            <a  class="text-decoration-none d-block h-100">
                                 <div class="grade-card">
                                     <h5>Monel {{ $grade }}</h5>
                                 </div>
@@ -108,7 +108,7 @@
                 <div class="row g-4">
                     @foreach (['200', '201', 'A286 660'] as $grade)
                         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                            <a href="#" class="text-decoration-none d-block h-100">
+                            <a  class="text-decoration-none d-block h-100">
                                 <div class="grade-card">
                                     <h5>Nickel {{ $grade }}</h5>
                                 </div>
