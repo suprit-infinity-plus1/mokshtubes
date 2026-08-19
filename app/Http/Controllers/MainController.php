@@ -1205,7 +1205,8 @@ class MainController extends Controller
 
     public function pipeFittings()
     {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.pipe-fittings');
+        $slug = 'pipe-fittings';
+        return view('frontend.products.pipe-fittings-flanges-fasteners.pipe-fittings', compact('slug'));
     }
 
     public function pipeFittingsProduct($country = null, $slug = null)
@@ -1265,12 +1266,14 @@ class MainController extends Controller
 
     public function uBends()
     {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.u-bends');
+        $slug = 'u-bends';
+        return view('frontend.products.pipe-fittings-flanges-fasteners.u-bends', compact('slug'));
     }
 
     public function flanges()
     {
-        return view('frontend.products.pipe-fittings-flanges-fasteners.fittings-and-flanges');
+        $slug = 'flanges';
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fittings-and-flanges', compact('slug'));
     }
 
     public function flangesProduct($country = null, $slug = null)

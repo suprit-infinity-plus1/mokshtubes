@@ -749,55 +749,55 @@
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-building"></i></div>
                         <h4>Excellent structural strength</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-bounding-box-circles"></i></div>
                         <h4>Uniform shape and dimensions</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-tools"></i></div>
                         <h4>Easy machining and fabrication</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-bricks"></i></div>
                         <h4>Superior load-bearing capability</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-ui-checks-grid"></i></div>
                         <h4>Wide range of grades available</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-palette"></i></div>
                         <h4>Available in multiple finishes</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h4>Excellent corrosion resistance options</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-house-door"></i></div>
                         <h4>Suitable for industrial and decorative applications</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
                         <h4>Long service life</h4>
                     </div>
@@ -1000,7 +1000,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center mb-4">
-                            <h2 class="fw-bold" style="color: #174268;">Frequently Asked Questions (FAQ)</h2>
+                            <h2 class="fw-bold" style="color: #174268;">Frequently Asked Questions – Square Bars</h2>
                         </div>
 
                         <div class="accordion accordion-block">
@@ -1008,57 +1008,43 @@
                                 <h4>What are Square Bars?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Square Bars are solid metal bars with equal dimensions on all four sides used in
-                                    construction, fabrication, machining, and engineering applications.</p>
+                                <p>Square Bars are solid metal bars with equal dimensions on all four sides. They are commonly used in construction, fabrication, machining, and engineering applications.</p>
                             </div>
                         </div>
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What sizes are available?</h4>
+                                <h4>What sizes are available for Square Bars?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Square bars are available from 6 mm x 6 mm up to 200 mm x 200 mm depending on material
-                                    and project requirements.</p>
+                                <p>Square Bars are available in sizes ranging from 6 mm × 6 mm to 200 mm × 200 mm, depending on the material and project requirements.</p>
                             </div>
                         </div>
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What materials are used for square bars?</h4>
+                                <h4>What materials are available for Square Bars?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Square bars are available in stainless steel, carbon steel, alloy steel, duplex steel,
-                                    nickel alloys, titanium, brass, copper, and aluminium.</p>
+                                <p>Square Bars are available in stainless steel, carbon steel, alloy steel, duplex steel, nickel alloys, titanium, brass, copper, and aluminium.</p>
                             </div>
                         </div>
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What is the difference between hot rolled and cold drawn square bars?</h4>
+                                <h4>What is the difference between hot rolled and cold drawn Square Bars?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Hot rolled bars are economical and suitable for structural applications, while cold drawn
-                                    bars offer tighter tolerances and improved surface finish.</p>
+                                <p>Hot rolled Square Bars are economical and suitable for structural and general fabrication applications, while cold drawn Square Bars provide tighter dimensional tolerances and a smoother surface finish.</p>
                             </div>
                         </div>
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Can square bars be supplied in custom lengths?</h4>
+                                <h4>Can Square Bars be supplied in custom lengths with Mill Test Certificates?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Yes. We provide cut-to-length square bars according to project specifications.</p>
-                            </div>
-                        </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Do you provide Mill Test Certificates?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>Yes. EN 10204 3.1 Mill Test Certificates and third-party inspection reports are
-                                    available.</p>
+                                <p>Yes. Square Bars can be supplied in custom cut-to-length sizes according to project requirements. EN 10204 3.1 Mill Test Certificates and third-party inspection reports can also be provided.</p>
                             </div>
                         </div>
 

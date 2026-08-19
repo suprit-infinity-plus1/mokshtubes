@@ -10,14 +10,14 @@
 
     ')
 
-    <meta property="og:image" content="{{ asset('assets/images/material/materials-banner.webp') }}" />
+    <meta property="og:image" content="{{ asset('/assets/images/material/materials-banner.webp') }}" />
     <meta property="og:type" content="website" />
 
 
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(assets/images/material/materials-banner.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/material/materials-banner.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

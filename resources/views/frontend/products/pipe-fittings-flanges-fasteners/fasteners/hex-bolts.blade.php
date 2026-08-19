@@ -466,50 +466,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="section-title center">
-                <h2>International Equivalents</h2>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th style="width: 30%; text-align: left; padding-left: 20px;">Standard</th>
-                                    <th style="text-align: left; padding-left: 20px;">Specification</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-start">
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>ASTM</strong></td>
-                                    <td style="padding-left: 20px;">ASTM A193</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>ASME</strong></td>
-                                    <td style="padding-left: 20px;">ASME SA193</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>DIN</strong></td>
-                                    <td style="padding-left: 20px;">DIN 931 / DIN 933</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>ISO</strong></td>
-                                    <td style="padding-left: 20px;">ISO 4014 / ISO 4017</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>EN</strong></td>
-                                    <td style="padding-left: 20px;">EN ISO 4014 / EN ISO 4017</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>BS</strong></td>
-                                    <td style="padding-left: 20px;">BS 3692</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -694,18 +650,6 @@
                         <h5>Automotive Industry</h5>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Heavy Equipment Manufacturing</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-fan"></i></div>
-                        <h5>HVAC & Mechanical Installations</h5>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -720,55 +664,55 @@
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h4>High tensile strength and durability</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
                         <h4>Secure hexagonal head for easy tightening</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
                         <h4>Excellent corrosion and oxidation resistance</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-building"></i></div>
                         <h4>Suitable for heavy-duty industrial applications</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-arrow-left-right"></i></div>
                         <h4>Available in full and partial thread options</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-bullseye"></i></div>
                         <h4>Precision-machined threads for accurate fit</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-activity"></i></div>
                         <h4>Reliable performance under vibration and heavy loads</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
                         <h4>Long service life with minimal maintenance</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
                         <h4>Manufactured according to international quality standards</h4>
                     </div>

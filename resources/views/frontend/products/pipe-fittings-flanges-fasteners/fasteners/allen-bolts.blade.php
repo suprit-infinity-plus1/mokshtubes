@@ -520,50 +520,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title center mb-4">
-                        <h2>International Equivalents</h2>
-                    </div>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th style="width: 25%; text-align: left; padding-left: 20px;">Standard</th>
-                                    <th style="text-align: left; padding-left: 20px;">Specification</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-start">
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>ASTM</strong></td>
-                                    <td style="padding-left: 20px;">ASTM A193, ASTM A320</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>ASME</strong></td>
-                                    <td style="padding-left: 20px;">ASME SA193, SA320</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>ISO</strong></td>
-                                    <td style="padding-left: 20px;">ISO 4762</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>DIN</strong></td>
-                                    <td style="padding-left: 20px;">DIN 912</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>EN</strong></td>
-                                    <td style="padding-left: 20px;">EN ISO 4762</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>BS</strong></td>
-                                    <td style="padding-left: 20px;">BS 4168</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -746,18 +702,6 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-water"></i></div>
                         <h5>Marine & Offshore Projects</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Construction Equipment</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-hammer"></i></div>
-                        <h5>Heavy Engineering</h5>
                     </div>
                 </div>
             </div>

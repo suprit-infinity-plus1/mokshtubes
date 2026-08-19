@@ -460,47 +460,121 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
+     {{-- Gallery / Products --}}
+    <section class="our-services sec-padd-top">
+        <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title center mb-4">
-                        <h2 class="fw-bold" style="color: #174268;">International Equivalents</h2>
+                <!-- Stainless Steel 304 -->
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
+                        <figure class="img-box mb-0">
+                            <a class="w-100"
+                                href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp') }}"
+                                    alt="Stainless Steel 304" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-304') }}"
+                                    style="color: inherit; text-decoration: none;">Stainless Steel 304</a></h6>
+                        </div>
                     </div>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th style="width: 25%; text-align: left; padding-left: 20px;">Standard</th>
-                                    <th style="text-align: left; padding-left: 20px;">Specification</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-start">
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>ASTM</strong></td>
-                                    <td style="padding-left: 20px;">ASTM A182, ASTM A105, ASTM A350</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>ASME</strong></td>
-                                    <td style="padding-left: 20px;">ASME B16.5, ASME B16.47</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>EN</strong></td>
-                                    <td style="padding-left: 20px;">EN 1092-1</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>DIN</strong></td>
-                                    <td style="padding-left: 20px;">DIN 2565 / DIN 2566</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>BS</strong></td>
-                                    <td style="padding-left: 20px;">BS 4504</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>JIS</strong></td>
-                                    <td style="padding-left: 20px;">JIS B2220</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                </div>
+
+                <!-- Stainless Steel 316 -->
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
+                        <figure class="img-box mb-0">
+                            <a class="w-100"
+                                href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"
+                                    alt="Stainless Steel 316" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}"
+                                    style="color: inherit; text-decoration: none;">Stainless Steel 316</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carbon Steel -->
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
+                        <figure class="img-box mb-0">
+                            <a class="w-100"
+                                href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/engineering-steels/engineering-steels-1045.webp') }}"
+                                    alt="Carbon Steel" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-1045') }}"
+                                    style="color: inherit; text-decoration: none;">Carbon Steel</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Alloy Steel -->
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
+                        <figure class="img-box mb-0">
+                            <a class="w-100"
+                                href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/engineering-steels/engineering-steels-4140.webp') }}"
+                                    alt="Alloy Steel" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.engineering-Steel-grade', 'engineering-steels-4140') }}"
+                                    style="color: inherit; text-decoration: none;">Alloy Steel</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Duplex Stainless Steel -->
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
+                        <figure class="img-box mb-0">
+                            <a class="w-100"
+                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                                <img class="w-100"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                    alt="Duplex Stainless Steel" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0 mb-0"><a
+                                    href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}"
+                                    style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inconel Alloys -->
+                <div class="col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="single-our-service border bg-white">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel.grade', 'inconel-625') }}">
+                                <img class="w-100" src="{{ asset('assets/images/inconel/Inconel-625.webp') }}"
+                                    alt="Inconel Alloys" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}"
+                                    style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -570,18 +644,6 @@
                         <h4>Industrial Process Piping</h4>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-plugin"></i></div>
-                        <h4>Utility Pipelines</h4>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-cone-striped"></i></div>
-                        <h4>Construction &amp; Infrastructure</h4>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -595,55 +657,55 @@
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-lightning-charge"></i></div>
                         <h4>No welding required for installation</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-tools"></i></div>
                         <h4>Easy assembly and dismantling</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-speedometer2"></i></div>
                         <h4>Ideal for low to medium-pressure piping systems</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h4>Excellent corrosion and oxidation resistance</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
                         <h4>High mechanical strength and durability</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-exclamation-triangle"></i></div>
                         <h4>Suitable for hazardous areas where welding is restricted</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-bullseye"></i></div>
                         <h4>Precision-machined threads for secure connections</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
                         <h4>Low maintenance and long service life</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
                         <h4>Manufactured according to international quality standards</h4>
                     </div>
