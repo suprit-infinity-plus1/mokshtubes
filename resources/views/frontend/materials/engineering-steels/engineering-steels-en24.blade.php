@@ -748,17 +748,17 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>EN24 Steel FAQ's</h2>
+                            <h2>FAQ – EN24 / 817M40 / AISI 4340 Steel</h2>
                         </div>
 
                         <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What is EN24 steel used for?</h4>
+                                <h4>What is EN24 steel?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    EN24 steel is a high-strength alloy used for critical engineering components that operate under heavy loads, such as gears, shafts, axles, crankshafts, bolts, and heavy-duty machine parts in the aerospace, automotive, and mining industries.
+                                    EN24 (AISI 4340 / 817M40) is a Ni-Cr-Mo high-strength alloy steel known for toughness, fatigue resistance, and hardenability.
                                 </p>
                             </div>
                         </div>
@@ -766,11 +766,11 @@
                         <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Is EN24 equivalent to AISI 4340?</h4>
+                                <h4>What is EN24 used for?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes, EN24 is generally considered the British Standard equivalent to AISI/SAE 4340. Both are nickel-chromium-molybdenum alloy steels offering similar high tensile strength, toughness, and deep hardenability.
+                                    Used for gears, shafts, axles, crankshafts, aerospace fittings, and high-strength mechanical components.
                                 </p>
                             </div>
                         </div>
@@ -778,11 +778,11 @@
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What is the tensile strength of EN24 steel?</h4>
+                                <h4>What hardness can EN24 achieve?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    The tensile strength of EN24 steel ranges from 850 to 1000 MPa (123 to 145 ksi) in the hardened and tempered condition, depending on the specific heat treatment and ruling section.
+                                    Typically 45–52 HRC after quenching & tempering.
                                 </p>
                             </div>
                         </div>
@@ -790,11 +790,11 @@
                         <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Can EN24 be heat treated?</h4>
+                                <h4>Do you supply EN24 in bright bar & forged form?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes, EN24 responds excellently to heat treatment. It can be annealed, normalized, hardened by oil quenching, and tempered to achieve the desired balance of strength, hardness (up to 52 HRC), and toughness.
+                                    Yes — EN24 is available in Bright Bars, HR Bars, Forged Bars, Flats, Hex Bars, Hollow Bars.
                                 </p>
                             </div>
                         </div>
@@ -802,71 +802,11 @@
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Is EN24 suitable for gears and shafts?</h4>
+                                <h4>Do you provide MTCs?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Absolutely. Due to its outstanding fatigue resistance, high strength-to-weight ratio, and excellent wear resistance, EN24 is a preferred material for heavily stressed gears, drive shafts, and pinions.
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- Q6 -->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Is EN24 stronger than EN19?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Yes, EN24 is generally stronger and tougher than EN19 due to the addition of nickel, which provides deeper hardenability and higher impact resistance, making it better suited for larger cross-sections and higher stress applications.
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- Q7 -->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Can EN24 be welded?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    EN24 can be welded, but it is considered difficult due to its high carbon and alloy content. Special precautions, including preheating and post-weld stress relieving, are strictly required to avoid cracking.
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- Q8 -->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Which industries use EN24 steel?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    EN24 steel is widely used across multiple industries, including aerospace, automotive, defense, oil and gas, marine, power generation, mining, construction, and general heavy engineering.
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- Q9 -->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What are the advantages of EN24 steel?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Key advantages include an excellent strength-to-weight ratio, superior fatigue and wear resistance, deep hardening capability, high impact strength, and good machinability prior to final heat treatment.
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- Q10 -->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Where can I buy EN24 steel in India?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    You can purchase premium-quality EN24 steel in various forms, including round bars, bright bars, forged bars, and plates, from Moksh Tubes & Fittings LLP, a leading supplier offering competitive pricing and nationwide delivery.
+                                    Yes — all materials are supplied with EN 10204 3.1 / 3.2 Mill Test Certificates.
                                 </p>
                             </div>
                         </div>
@@ -1356,82 +1296,42 @@
             "mainEntity": [
                 {
                 "@type": "Question",
-                "name": "What is EN24 steel used for?",
+                "name": "What is EN24 steel?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "EN24 steel is a high-strength alloy used for critical engineering components that operate under heavy loads, such as gears, shafts, axles, crankshafts, bolts, and heavy-duty machine parts in the aerospace, automotive, and mining industries."
+                    "text": "EN24 (AISI 4340 / 817M40) is a Ni-Cr-Mo high-strength alloy steel known for toughness, fatigue resistance, and hardenability."
                 }
                 },
                 {
                 "@type": "Question",
-                "name": "Is EN24 equivalent to AISI 4340?",
+                "name": "What is EN24 used for?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, EN24 is generally considered the British Standard equivalent to AISI/SAE 4340. Both are nickel-chromium-molybdenum alloy steels offering similar high tensile strength, toughness, and deep hardenability."
+                    "text": "Used for gears, shafts, axles, crankshafts, aerospace fittings, and high-strength mechanical components."
                 }
                 },
                 {
                 "@type": "Question",
-                "name": "What is the tensile strength of EN24 steel?",
+                "name": "What hardness can EN24 achieve?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "The tensile strength of EN24 steel ranges from 850 to 1000 MPa (123 to 145 ksi) in the hardened and tempered condition, depending on the specific heat treatment and ruling section."
+                    "text": "Typically 45–52 HRC after quenching & tempering."
                 }
                 },
                 {
                 "@type": "Question",
-                "name": "Can EN24 be heat treated?",
+                "name": "Do you supply EN24 in bright bar & forged form?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, EN24 responds excellently to heat treatment. It can be annealed, normalized, hardened by oil quenching, and tempered to achieve the desired balance of strength, hardness (up to 52 HRC), and toughness."
+                    "text": "Yes — EN24 is available in Bright Bars, HR Bars, Forged Bars, Flats, Hex Bars, Hollow Bars."
                 }
                 },
                 {
                 "@type": "Question",
-                "name": "Is EN24 suitable for gears and shafts?",
+                "name": "Do you provide MTCs?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Absolutely. Due to its outstanding fatigue resistance, high strength-to-weight ratio, and excellent wear resistance, EN24 is a preferred material for heavily stressed gears, drive shafts, and pinions."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Is EN24 stronger than EN19?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, EN24 is generally stronger and tougher than EN19 due to the addition of nickel, which provides deeper hardenability and higher impact resistance, making it better suited for larger cross-sections and higher stress applications."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Can EN24 be welded?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "EN24 can be welded, but it is considered difficult due to its high carbon and alloy content. Special precautions, including preheating and post-weld stress relieving, are strictly required to avoid cracking."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Which industries use EN24 steel?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "EN24 steel is widely used across multiple industries, including aerospace, automotive, defense, oil and gas, marine, power generation, mining, construction, and general heavy engineering."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "What are the advantages of EN24 steel?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Key advantages include an excellent strength-to-weight ratio, superior fatigue and wear resistance, deep hardening capability, high impact strength, and good machinability prior to final heat treatment."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Where can I buy EN24 steel in India?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "You can purchase premium-quality EN24 steel in various forms, including round bars, bright bars, forged bars, and plates, from Moksh Tubes & Fittings LLP, a leading supplier offering competitive pricing and nationwide delivery."
+                    "text": "Yes — all materials are supplied with EN 10204 3.1 / 3.2 Mill Test Certificates."
                 }
                 }
             ]

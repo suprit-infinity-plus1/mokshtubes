@@ -780,8 +780,7 @@
     </section>
 --}}
 
-{{-- 
-<section  id="faq" class="faq-content-area sec-padd2">
+<section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -797,9 +796,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    420HC Stainless Steel is a high-carbon martensitic stainless steel designed for superior
-                                    hardness, wear resistance, and corrosion resistance. It is widely used in knives,
-                                    cutting tools, and precision components.
+                                    420HC Stainless Steel is a high-carbon martensitic stainless steel designed for superior hardness, wear resistance, and corrosion resistance. It is widely used in knives, cutting tools, and precision components.
                                 </p>
                             </div>
                         </div>
@@ -811,14 +808,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Key properties include:
-                                <ul>
-                                    <li>High hardness after heat treatment</li>
-                                    <li>Excellent edge retention</li>
-                                    <li>Good corrosion resistance</li>
-                                    <li>Wear and abrasion resistance</li>
-                                    <li>Good machinability and polishability</li>
-                                </ul>
+                                    High hardness after heat treatment<br>Excellent edge retention<br>Good corrosion resistance<br>Wear and abrasion resistance<br>Good machinability and polishability
                                 </p>
                             </div>
                         </div>
@@ -830,8 +820,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Common applications include knife blades, surgical instruments, hand tools, cutting
-                                    tools, bearings, and wear parts.
+                                    Knife blades, surgical instruments, hand tools, cutting tools, bearings, and wear parts.
                                 </p>
                             </div>
                         </div>
@@ -843,8 +832,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes, but welding should be done with caution due to the high carbon content. Post-weld
-                                    heat treatment is recommended to restore hardness and corrosion resistance.
+                                    Yes, but welding is limited due to high carbon content; post-weld heat treatment is recommended to restore hardness and corrosion resistance.
                                 </p>
                             </div>
                         </div>
@@ -852,13 +840,11 @@
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for 420HC Stainless Steel?</h4>
+                                <h4>Why choose Mokshtubes?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    MOKSH TUBES & FITTINGS LLP offers high-quality 420HC stainless steel manufactured to
-                                    exacting standards, with precision, durability, and global delivery capabilities to meet
-                                    specialized requirements across industries.
+                                    Mokshtubes offers high-quality 420HC stainless steel with guaranteed standards, precision manufacturing, and global delivery for your specialized needs.
                                 </p>
                             </div>
                         </div>
@@ -868,7 +854,6 @@
             </div>
         </div>
     </section>
---}}
 
 {{-- 
 <section class="blog-section sec-padd2">
@@ -1005,57 +990,59 @@
 
 @endsection
 @section('jsscripts')
+    <!-- FAQ Schema Markup -->
     <script type="application/ld+json">
-        @verbatim
-            {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-                {
-                "@type": "Question",
-                "name": "What is 420HC Stainless Steel?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "420HC Stainless Steel is a high-carbon martensitic stainless steel designed for superior hardness, wear resistance, and corrosion resistance. It is widely used in knives, cutting tools, and precision components."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "What are its main properties?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Key properties include: high hardness after heat treatment, excellent edge retention, good corrosion resistance, wear and abrasion resistance, and good machinability and polishability."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Where is it used?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Common applications include knife blades, surgical instruments, hand tools, cutting tools, bearings, and wear parts."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Is it weldable?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, but welding should be done with caution due to the high carbon content. Post-weld heat treatment is recommended to restore hardness and corrosion resistance."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Why choose MOKSH TUBES & FITTINGS LLP for 420HC Stainless Steel?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "MOKSH TUBES & FITTINGS LLP offers high-quality 420HC stainless steel manufactured to exacting standards, with precision, durability, and global delivery capabilities to meet specialized requirements across industries."
-                }
-                }
-            ]
-            }
-
-        @endverbatim
-    </script>
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 420HC Stainless Steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "420HC Stainless Steel is a high-carbon martensitic stainless steel designed for superior hardness, wear resistance, and corrosion resistance. It is widely used in knives, cutting tools, and precision components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are its main properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "High hardness after heat treatment, Excellent edge retention, Good corrosion resistance, Wear and abrasion resistance, Good machinability and polishability"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Knife blades, surgical instruments, hand tools, cutting tools, bearings, and wear parts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but welding is limited due to high carbon content; post-weld heat treatment is recommended to restore hardness and corrosion resistance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Mokshtubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mokshtubes offers high-quality 420HC stainless steel with guaranteed standards, precision manufacturing, and global delivery for your specialized needs."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection
+
+
 
 

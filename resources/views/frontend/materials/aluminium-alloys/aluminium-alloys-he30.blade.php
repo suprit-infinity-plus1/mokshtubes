@@ -625,21 +625,6 @@
     </section>
 --}}
 
-{{-- 
-<section id="contact-us" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="contact-cta-box text-center p-5 rounded shadow" style="background: #174268; color: #fff;">
-                <h2 class="text-white mb-3">Looking for a Reliable Aluminium HE30 Supplier?</h2>
-                <p class="fs-6 mb-4 mx-auto" style="max-width: 800px;">
-                    <strong>Moksh Tubes & Fittings LLP</strong> supplies premium-quality Aluminium Alloy HE30 (AA6082) in sheets, plates, bars, rods, pipes, tubes, extrusions, and custom-machined components. All products are manufactured according to international quality standards and are supplied with complete material traceability, Mill Test Certificates (EN 10204 3.1), and optional third-party inspection.
-                </p>
-                <a href="javascript:void(0);" class="contact-cta-btn btn btn-lg px-5 py-3 fw-bold text-white shadow" style="background-color: #db7227; border-radius: 8px;" data-bs-toggle="modal" data-bs-target="#contactFormModal">
-                    👉 Request a Quote Today
-                </a>
-            </div>
-        </div>
-    </section>
---}}
 
     <!-- Extra Sections (Commented Out) -->
 {-- 
@@ -1262,6 +1247,68 @@
     </section>
 --}}
 
+<section id="faq" class="faq-content-area sec-padd2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="accordion-box">
+                    <div class="section-title center">
+                        <h2>FAQ's</h2>
+                    </div>
+
+                    <!-- Q1 -->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>Is HE30 the same as Aluminium 6082?</h4></div>
+                        <div class="accord-content"><p>Yes — HE30 is the British designation for AA6082.</p></div>
+                    </div>
+
+                    <!-- Q2 -->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>Can HE30 be welded?</h4></div>
+                        <div class="accord-content"><p>Yes, it offers good weldability with proper filler alloys.</p></div>
+                    </div>
+
+                    <!-- Q3 -->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>What is the strongest temper?</h4></div>
+                        <div class="accord-content"><p>T6 provides maximum tensile strength.</p></div>
+                    </div>
+
+                    <!-- Q4 -->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>Where is HE30 used?</h4></div>
+                        <div class="accord-content"><p>Aerospace, defense, automotive, marine & high-performance engineering.</p></div>
+                    </div>
+
+                    <!-- Q5 -->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>Do you offer custom machining?</h4></div>
+                        <div class="accord-content"><p>Yes — CNC machined HE30 components are available on request.</p></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact-us" class="sec-padd-bottom">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Looking for a Reliable Aluminium HE30 Supplier?</h2>
+                <p>
+                    Whether you require pipes, tubes, sheets, plates, bars, flanges, fittings, fasteners, or custom-fabricated components, <strong>Moksh Tubes & Fittings LLP</strong> is your trusted partner for certified high-quality aluminium alloy products.<br>
+                    📞 Call: +91 97695 84950 | ✉️ Email Sales Team<br>
+                    ISO Certified Quality | Mill Test Certificates (EN 10204 3.1) | Fast Worldwide Delivery
+                </p>
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Request a Quote Now
+                </a>
+            </div>
+        </div>
+    </section>
+
 @endsection
 
 @section('jsscripts')
@@ -1289,26 +1336,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What is Aluminium Alloy HE30 used for?",
+          "name": "Is HE30 the same as Aluminium 6082?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Aluminium HE30 (AA6082) is widely used in structural engineering, shipbuilding, bridge frameworks, defense vehicles, and transportation equipment due to its high strength and excellent corrosion resistance."
+            "text": "Yes — HE30 is the British designation for AA6082."
           }
         },
         {
           "@type": "Question",
-          "name": "What is the equivalent grade of Aluminium HE30?",
+          "name": "Can HE30 be welded?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The American AA equivalent is AA6082 (UNS A96082), European equivalent is EN AW-6082, and German Werkstoff designation is DIN 3.2315."
+            "text": "Yes, it offers good weldability with proper filler alloys."
           }
         },
         {
           "@type": "Question",
-          "name": "Can Aluminium HE30 be welded easily?",
+          "name": "What is the strongest temper?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, HE30 exhibits excellent weldability using TIG (GTAW) and MIG (GMAW) welding methods with ER4043 or ER5356 filler metals."
+            "text": "T6 provides maximum tensile strength."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is HE30 used?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aerospace, defense, automotive, marine & high-performance engineering."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer custom machining?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — CNC machined HE30 components are available on request."
           }
         }
       ]

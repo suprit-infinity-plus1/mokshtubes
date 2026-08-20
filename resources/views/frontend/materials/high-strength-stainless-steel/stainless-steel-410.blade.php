@@ -757,14 +757,14 @@
     </section>
 --}}
 
-{{-- 
+
 <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>FAQ’s – Stainless Steel 410</h2>
+                            <h2>FAQ’s – 410 Stainless Steel</h2>
                         </div>
 
                         <!-- Q1 -->
@@ -774,9 +774,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    410 is a martensitic stainless steel that provides good corrosion resistance, excellent
-                                    hardenability, and high strength, making it ideal for engineering and industrial
-                                    components.
+                                    410 is a martensitic stainless steel offering good corrosion resistance and high strength, commonly used in engineering and industrial components.
                                 </p>
                             </div>
                         </div>
@@ -788,8 +786,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    It offers high wear resistance, hardness after heat treatment, moderate corrosion
-                                    resistance, and excellent toughness for mechanical parts.
+                                    Good wear resistance, high hardness after heat treatment, moderate corrosion resistance, and excellent toughness.
                                 </p>
                             </div>
                         </div>
@@ -797,12 +794,11 @@
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Where is Stainless Steel 410 used?</h4>
+                                <h4>Where is it used?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Commonly used in cutlery, valves, pump components, shafts, and turbine parts across
-                                    industrial and mechanical sectors.
+                                    Cutlery, valves, pump parts, fasteners, shafts, and turbine components.
                                 </p>
                             </div>
                         </div>
@@ -810,12 +806,11 @@
                         <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Is Stainless Steel 410 weldable?</h4>
+                                <h4>Is it weldable?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes, 410 stainless steel can be welded with proper preheating and post-weld heat
-                                    treatment to maintain corrosion resistance and mechanical properties.
+                                    Yes, with proper preheating and post-weld heat treatment to maintain mechanical properties.
                                 </p>
                             </div>
                         </div>
@@ -823,22 +818,20 @@
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for 410 Stainless Steel?</h4>
+                                <h4>Why choose Mokshtubes?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    MOKSH TUBES & FITTINGS LLP provides premium-quality 410 stainless steel products with
-                                    precision manufacturing, extensive global delivery, and strict quality assurance for
-                                    industrial customers worldwide.
+                                    Mokshtubes supplies premium 410 stainless steel with precision manufacturing, high quality, and reliable global delivery.
                                 </p>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
---}}
 
 {{-- 
 <section class="blog-section sec-padd2">
@@ -973,57 +966,58 @@
 
 @endsection
 @section('jsscripts')
+    <!-- FAQ Schema Markup -->
     <script type="application/ld+json">
-        @verbatim
-            {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-                {
-                "@type": "Question",
-                "name": "What is 410 Stainless Steel?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "410 is a martensitic stainless steel that provides good corrosion resistance, excellent hardenability, and high strength, making it ideal for engineering and industrial components."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "What are its key properties?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "It offers high wear resistance, hardness after heat treatment, moderate corrosion resistance, and excellent toughness for mechanical parts."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Where is Stainless Steel 410 used?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Commonly used in cutlery, valves, pump components, shafts, and turbine parts across industrial and mechanical sectors."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Is Stainless Steel 410 weldable?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, 410 stainless steel can be welded with proper preheating and post-weld heat treatment to maintain corrosion resistance and mechanical properties."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Why choose MOKSH TUBES & FITTINGS LLP for 410 Stainless Steel?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "MOKSH TUBES & FITTINGS LLP provides premium-quality 410 stainless steel products with precision manufacturing, extensive global delivery, and strict quality assurance for industrial customers worldwide."
-                }
-                }
-            ]
-            }
-
-        @endverbatim
-    </script>
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 410 Stainless Steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "410 is a martensitic stainless steel offering good corrosion resistance and high strength, commonly used in engineering and industrial components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are its key properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Good wear resistance, high hardness after heat treatment, moderate corrosion resistance, and excellent toughness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cutlery, valves, pump parts, fasteners, shafts, and turbine components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, with proper preheating and post-weld heat treatment to maintain mechanical properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Mokshtubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mokshtubes supplies premium 410 stainless steel with precision manufacturing, high quality, and reliable global delivery."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection
+
 
 

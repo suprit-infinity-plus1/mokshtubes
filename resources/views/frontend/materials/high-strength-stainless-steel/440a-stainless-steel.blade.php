@@ -795,7 +795,6 @@
     </section>
 --}}
 
-{{-- 
 <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
@@ -812,10 +811,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    440A is a high-carbon martensitic stainless steel widely recognized for its excellent
-                                    hardness, edge retention, and good corrosion resistance. It offers a balanced
-                                    combination of strength and machinability, making it ideal for precision-engineered
-                                    components.
+                                    440A is a high-carbon martensitic stainless steel known for excellent hardness, edge retention, and corrosion resistance.
                                 </p>
                             </div>
                         </div>
@@ -827,13 +823,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Key properties of 440A Stainless Steel include:
-                                <ul>
-                                    <li>High strength and hardness after heat treatment</li>
-                                    <li>Excellent edge retention and wear resistance</li>
-                                    <li>Good polishability for decorative and functional applications</li>
-                                    <li>Moderate corrosion resistance in hardened condition</li>
-                                </ul>
+                                    High strength, good polishability, wear resistance, and moderate corrosion resistance after hardening.
                                 </p>
                             </div>
                         </div>
@@ -843,11 +833,9 @@
                             <div class="accord-btn">
                                 <h4>Where is it used?</h4>
                             </div>
-                            <div class="accord-content">
+                        <div class="accord-content">
                                 <p>
-                                    Stainless Steel 440A is commonly used in the manufacturing of knives, surgical
-                                    instruments, bearings, cutting tools, and components requiring sharp edges and wear
-                                    resistance.
+                                    Commonly used in knives, surgical instruments, bearings, and cutting tools.
                                 </p>
                             </div>
                         </div>
@@ -859,8 +847,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes, 440A can be welded with proper precautions. Preheating and post-weld heat treatment
-                                    are recommended to prevent cracking and to maintain its mechanical integrity.
+                                    Weldable with care, though preheating and post-weld heat treatment are recommended to avoid cracking.
                                 </p>
                             </div>
                         </div>
@@ -868,14 +855,11 @@
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for 440A Stainless Steel?</h4>
+                                <h4>Why choose Mokshtubes?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    MOKSH TUBES & FITTINGS LLP supplies high-quality 440A Stainless Steel with precise
-                                    dimensional accuracy, reliable performance, and global delivery. Our commitment to
-                                    excellence ensures that every product meets international standards and
-                                    customer-specific requirements.
+                                    Mokshtubes offers premium 440A stainless steel with consistent quality and precision for industrial and engineering use.
                                 </p>
                             </div>
                         </div>
@@ -884,8 +868,7 @@
                 </div>
             </div>
         </div>
-    </section>
---}}
+    </section>lkj
 
 {{-- 
 <section class="blog-section sec-padd2">
@@ -1021,57 +1004,58 @@
 
 @endsection
 @section('jsscripts')
+    <!-- FAQ Schema Markup -->
     <script type="application/ld+json">
-        @verbatim
-            {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-                {
-                "@type": "Question",
-                "name": "What is 440A Stainless Steel?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "440A is a high-carbon martensitic stainless steel widely recognized for its excellent hardness, edge retention, and good corrosion resistance. It offers a balanced combination of strength and machinability, making it ideal for precision-engineered components."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "What are its key properties?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Key properties of 440A Stainless Steel include: high strength and hardness after heat treatment, excellent edge retention and wear resistance, good polishability for decorative and functional applications, and moderate corrosion resistance in hardened condition."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Where is it used?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Stainless Steel 440A is commonly used in the manufacturing of knives, surgical instruments, bearings, cutting tools, and components requiring sharp edges and wear resistance."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Is it weldable?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, 440A can be welded with proper precautions. Preheating and post-weld heat treatment are recommended to prevent cracking and to maintain its mechanical integrity."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Why choose MOKSH TUBES & FITTINGS LLP for 440A Stainless Steel?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "MOKSH TUBES & FITTINGS LLP supplies high-quality 440A Stainless Steel with precise dimensional accuracy, reliable performance, and global delivery. Our commitment to excellence ensures that every product meets international standards and customer-specific requirements."
-                }
-                }
-            ]
-            }
-
-        @endverbatim
-    </script>
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 440A Stainless Steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "440A is a high-carbon martensitic stainless steel known for excellent hardness, edge retention, and corrosion resistance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are its key properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "High strength, good polishability, wear resistance, and moderate corrosion resistance after hardening."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Commonly used in knives, surgical instruments, bearings, and cutting tools."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Weldable with care, though preheating and post-weld heat treatment are recommended to avoid cracking."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Mokshtubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mokshtubes offers premium 440A stainless steel with consistent quality and precision for industrial and engineering use."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection
+
 
 

@@ -682,56 +682,68 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>FAQ's</h2>
+                            <h2>FAQ – Duplex Stainless Steel 2205</h2>
                         </div>
 
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn active">
-                                <h3>What makes Super Duplex 2205 superior to standard austenitic stainless steel?</h3>
-                            </div>
-                            <div class="accord-content collapsed">
-                                <p>It has twice the strength and significantly better resistance to chloride stress
-                                    corrosion cracking than standard austenitic grades like 304 or 316.</p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
+                        <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>Is Super Duplex 2205 weldable?</h3>
+                                <h4>Is 2205 Duplex or Super Duplex?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Yes, but proper control of heat input and post-weld treatment is essential to maintain
-                                    corrosion resistance and strength.</p>
+                                <p>
+                                    2205 is Duplex Stainless Steel — not Super Duplex. Super Duplex grades include 2507 / S32750 / S32760.
+                                </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
-                        <!--Start single accordion box-->
+                        <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>Where is Super Duplex 2205 most commonly used?</h3>
+                                <h4>What makes 2205 corrosion resistant?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>In offshore oil & gas, desalination plants, chemical processing, and marine applications
-                                    where corrosion resistance and high strength are critical.</p>
+                                <p>
+                                    High Cr–Mo–N content gives strong resistance to pitting, crevice corrosion & chloride SCC.
+                                </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
-                        <!--Start single accordion box-->
+                        <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>Can Super Duplex 2205 be used in seawater environments?</h3>
+                                <h4>What industries prefer 2205?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Yes, it has excellent resistance to seawater corrosion and chloride-induced stress
-                                    corrosion cracking.</p>
+                                <p>
+                                    Oil & gas, chemical plants, desalination, marine engineering, pulp & paper, and structural applications.
+                                </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Can 2205 be welded?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes — but heat input must be controlled for phase balance.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What services does Moksh Tubes provide?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    High-quality materials, custom fabrication, global supply & full technical support.
+                                </p>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
@@ -899,34 +911,42 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What makes Super Duplex 2205 superior to standard austenitic stainless steel?",
+      "name": "Is 2205 Duplex or Super Duplex?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It has twice the strength and significantly better resistance to chloride stress corrosion cracking than standard austenitic grades like 304 or 316."
+        "text": "2205 is Duplex Stainless Steel — not Super Duplex. Super Duplex grades include 2507 / S32750 / S32760."
       }
     },
     {
       "@type": "Question",
-      "name": "Is Super Duplex 2205 weldable?",
+      "name": "What makes 2205 corrosion resistant?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, but proper control of heat input and post-weld treatment is essential to maintain corrosion resistance and strength."
+        "text": "High Cr–Mo–N content gives strong resistance to pitting, crevice corrosion & chloride SCC."
       }
     },
     {
       "@type": "Question",
-      "name": "Where is Super Duplex 2205 most commonly used?",
+      "name": "What industries prefer 2205?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In offshore oil & gas, desalination plants, chemical processing, and marine applications where corrosion resistance and high strength are critical."
+        "text": "Oil & gas, chemical plants, desalination, marine engineering, pulp & paper, and structural applications."
       }
     },
     {
       "@type": "Question",
-      "name": "Can Super Duplex 2205 be used in seawater environments?",
+      "name": "Can 2205 be welded?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, it has excellent resistance to seawater corrosion and chloride-induced stress corrosion cracking."
+        "text": "Yes — but heat input must be controlled for phase balance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What services does Moksh Tubes provide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "High-quality materials, custom fabrication, global supply & full technical support."
       }
     }
   ]

@@ -648,38 +648,32 @@
 
                         <!-- Q1 -->
                         <div class="accordion accordion-block">
-                            <div class="accord-btn"><h4> What is Hastelloy C276?</h4></div>
-                            <div class="accord-content"><p>Hastelloy C276 is a nickel-chromium-molybdenum alloy designed to provide outstanding resistance to corrosion in aggressive chemical and high-temperature environments.</p></div>
+                            <div class="accord-btn"><h4>What is Hastelloy C276?</h4></div>
+                            <div class="accord-content"><p>Hastelloy C276, also called Alloy C276 or UNS N10276, is a nickel-chromium-molybdenum alloy known for high corrosion resistance.</p></div>
                         </div>
 
                         <!-- Q2 -->
                         <div class="accordion accordion-block">
-                            <div class="accord-btn"><h4> What is the UNS number of Hastelloy C276?</h4></div>
-                            <div class="accord-content"><p>The UNS designation for Hastelloy C276 is UNS N10276.</p></div>
+                            <div class="accord-btn"><h4>What is the density of Hastelloy C276?</h4></div>
+                            <div class="accord-content"><p>The density is 8.89 g/cm³, higher than mild steel or carbon steel.</p></div>
                         </div>
 
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
-                            <div class="accord-btn"><h4>Is Hastelloy C276 corrosion resistant?</h4></div>
-                            <div class="accord-content"><p>Yes. It offers excellent resistance to pitting, crevice corrosion, stress corrosion cracking, and many oxidizing and reducing chemicals.</p></div>
+                            <div class="accord-btn"><h4>What products are available in Hastelloy C276?</h4></div>
+                            <div class="accord-content"><p>Pipes, tubes, sheets, plates, coils, round bars, flat bars, flanges, fasteners, and custom fabricated components.</p></div>
                         </div>
 
                         <!-- Q4 -->
                         <div class="accordion accordion-block">
-                            <div class="accord-btn"><h4>Is Hastelloy C276 magnetic?</h4></div>
-                            <div class="accord-content"><p>No. Hastelloy C276 is generally considered non-magnetic in the annealed condition.</p></div>
+                            <div class="accord-btn"><h4>What is the price of Hastelloy C276 in India?</h4></div>
+                            <div class="accord-content"><p>Price varies based on form, quantity, and market conditions. Contact Moksh Tubes & Fittings LLP for a quote.</p></div>
                         </div>
 
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
-                            <div class="accord-btn"><h4> Can Hastelloy C276 be welded?</h4></div>
-                            <div class="accord-content"><p>Yes. It has excellent weldability and can be welded using TIG, MIG, SMAW, and other conventional welding processes using ERNiCrMo-4 filler metal.</p></div>
-                        </div>
-
-                        <!-- Q6 -->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn"><h4>What industries use Hastelloy C276?</h4></div>
-                            <div class="accord-content"><p>Common industries include Chemical Processing, Oil & Gas, Marine, Offshore, Pharmaceuticals, Petrochemical, Power Generation, Pollution Control, and Food Processing.</p></div>
+                            <div class="accord-btn"><h4>Can Hastelloy C276 be welded?</h4></div>
+                            <div class="accord-content"><p>Yes, low carbon and silicon content ensures easy welding suitable for critical applications.</p></div>
                         </div>
 
                     </div>
@@ -810,28 +804,35 @@
                 "name": "What is Hastelloy C276?",
                 "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Hastelloy C276 is a nickel-chromium-molybdenum alloy designed to provide outstanding resistance to corrosion in aggressive chemical and high-temperature environments."
+                "text": "Hastelloy C276, also called Alloy C276 or UNS N10276, is a nickel-chromium-molybdenum alloy known for high corrosion resistance."
                 }
             },{
                 "@type": "Question",
-                "name": "What is the UNS number of Hastelloy C276?",
+                "name": "What is the density of Hastelloy C276?",
                 "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The UNS designation for Hastelloy C276 is UNS N10276."
-                }
-            },{
-                "@type": "Question",
-                "name": "Is Hastelloy C276 suitable for seawater?",
-                "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. It performs exceptionally well in seawater and chloride-rich environments due to its superior resistance against pitting and crevice attack."
+                "text": "The density is 8.89 g/cm³, higher than mild steel or carbon steel."
                 }
             },{
                 "@type": "Question",
                 "name": "What products are available in Hastelloy C276?",
                 "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Products include Seamless & Welded Pipes, Tubes, Plates, Sheets, Coils, Bars, Rods, Flanges, Pipe Fittings, Fasteners, and Custom Fabricated Components."
+                "text": "Pipes, tubes, sheets, plates, coils, round bars, flat bars, flanges, fasteners, and custom fabricated components."
+                }
+            },{
+                "@type": "Question",
+                "name": "What is the price of Hastelloy C276 in India?",
+                "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Price varies based on form, quantity, and market conditions. Contact Moksh Tubes & Fittings LLP for a quote."
+                }
+            },{
+                "@type": "Question",
+                "name": "Can Hastelloy C276 be welded?",
+                "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, low carbon and silicon content ensures easy welding suitable for critical applications."
                 }
             }]
         },

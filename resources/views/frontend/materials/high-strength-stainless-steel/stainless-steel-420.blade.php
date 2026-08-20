@@ -763,76 +763,71 @@
     </section>
 --}}
 
-{{-- 
 <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>FAQ’s – Stainless Steel 420</h2>
+                            <h2>FAQ’s – 420 Stainless Steel</h2>
                         </div>
 
+                        <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>1. What is 420 Stainless Steel?</h4>
+                                <h4>What is 420 Stainless Steel?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    420 is a high-carbon martensitic stainless steel known for good hardness, corrosion
-                                    resistance,
-                                    and excellent polishability, often used in cutting tools and precision instruments.
+                                    420 is a high-carbon martensitic stainless steel known for good hardness, corrosion resistance, and excellent polishability, often used for cutting tools and precision instruments.
                                 </p>
                             </div>
                         </div>
 
+                        <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>2. What are its key properties?</h4>
+                                <h4>What are its key properties?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    High hardness after heat treatment, good wear resistance, moderate corrosion resistance,
-                                    and
-                                    good machinability.
+                                    High hardness after heat treatment, good wear resistance, good corrosion resistance, and good machinability.
                                 </p>
                             </div>
                         </div>
 
+                        <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>3. Where is it used?</h4>
+                                <h4>Where is it used?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Commonly used in cutlery, surgical instruments, bearings, valve parts, and precision
-                                    tools.
+                                    Cutlery, surgical instruments, bearings, valve parts, and precision tools.
                                 </p>
                             </div>
                         </div>
 
+                        <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>4. Is it weldable?</h4>
+                                <h4>Is it weldable?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Welding is possible but limited; preheating and post-weld heat treatment are recommended
-                                    to
-                                    maintain properties.
+                                    Welding is possible but limited; preheating and post-weld heat treatment are recommended.
                                 </p>
                             </div>
                         </div>
 
+                        <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>5. Why choose MOKSH TUBES & FITTINGS LLP for SS 420?</h4>
+                                <h4>Why choose Mokshtubes?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Mokshtubes offers premium 420 stainless steel with guaranteed quality, precision
-                                    manufacturing,
-                                    extensive stock, and reliable global delivery.
+                                    Mokshtubes offers premium 420 stainless steel with guaranteed quality, precision manufacturing, and reliable global delivery.
                                 </p>
                             </div>
                         </div>
@@ -842,7 +837,6 @@
             </div>
         </div>
     </section>
---}}
 
 {{-- 
 <section class="blog-section sec-padd2">
@@ -977,57 +971,58 @@
 
 @endsection
 @section('jsscripts')
+    <!-- FAQ Schema Markup -->
     <script type="application/ld+json">
-        @verbatim
-            {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [
-                    {
-                        "@type": "Question",
-                        "name": "What is 420 Stainless Steel?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "420 is a high-carbon martensitic stainless steel known for good hardness, corrosion resistance, and excellent polishability, often used in cutting tools and precision instruments."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "What are its key properties?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "High hardness after heat treatment, good wear resistance, moderate corrosion resistance, and good machinability."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Where is it used?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Commonly used in cutlery, surgical instruments, bearings, valve parts, and precision tools."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Is it weldable?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Welding is possible but limited; preheating and post-weld heat treatment are recommended to maintain properties."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Why choose MOKSH TUBES & FITTINGS LLP for SS 420?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Mokshtubes offers premium 420 stainless steel with guaranteed quality, precision manufacturing, extensive stock, and reliable global delivery."
-                        }
-                    }
-                ]
-            }
-
-        @endverbatim
-    </script>
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 420 Stainless Steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "420 is a high-carbon martensitic stainless steel known for good hardness, corrosion resistance, and excellent polishability, often used for cutting tools and precision instruments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are its key properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "High hardness after heat treatment, good wear resistance, good corrosion resistance, and good machinability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cutlery, surgical instruments, bearings, valve parts, and precision tools."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Welding is possible but limited; preheating and post-weld heat treatment are recommended."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Mokshtubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mokshtubes offers premium 420 stainless steel with guaranteed quality, precision manufacturing, and reliable global delivery."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection
+
 
 

@@ -789,7 +789,6 @@
     </section>
 --}}
 
-{{-- 
 <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
@@ -806,10 +805,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    440B is a high-carbon martensitic stainless steel designed for exceptional hardness,
-                                    high strength, and good corrosion resistance.
-                                    It is commonly used in manufacturing precision tools and components that require a
-                                    balance of wear resistance and toughness.
+                                    440B is a high-carbon martensitic stainless steel offering high hardness, strength, and corrosion resistance, ideal for precision tools.
                                 </p>
                             </div>
                         </div>
@@ -821,13 +817,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    The main properties of 440B Stainless Steel include:
-                                <ul>
-                                    <li>Excellent wear and abrasion resistance</li>
-                                    <li>High hardness after heat treatment</li>
-                                    <li>Good polishability and machinability</li>
-                                    <li>Moderate corrosion resistance in temperate environments</li>
-                                </ul>
+                                    Excellent wear resistance, high hardness after heat treatment, good polishability, and moderate corrosion resistance.
                                 </p>
                             </div>
                         </div>
@@ -839,10 +829,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    440B Stainless Steel is used in knife blades, surgical and dental instruments, bearings,
-                                    cutting tools, and wear-resistant mechanical parts.
-                                    Its ability to maintain hardness and sharpness makes it ideal for heavy-duty and
-                                    precision applications.
+                                    Knife blades, surgical instruments, bearings, cutting tools, and wear-resistant components.
                                 </p>
                             </div>
                         </div>
@@ -854,9 +841,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Welding 440B is possible but requires preheating and post-weld heat treatment to prevent
-                                    cracking and restore corrosion resistance.
-                                    TIG or MIG welding methods are recommended for controlled and accurate joints.
+                                    Welding is possible but requires preheating and post-weld heat treatment to maintain properties.
                                 </p>
                             </div>
                         </div>
@@ -864,15 +849,11 @@
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for 440B Stainless Steel?</h4>
+                                <h4>Why choose Mokshtubes?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    MOKSH TUBES & FITTINGS LLP provides premium-grade 440B stainless steel with precision
-                                    processing,
-                                    consistent quality assurance, and timely global delivery. Our materials meet rigorous
-                                    industry standards
-                                    and are tailored to meet client requirements across multiple sectors.
+                                    Mokshtubes supplies premium-grade 440B stainless steel with precise quality, reliable delivery, and competitive pricing.
                                 </p>
                             </div>
                         </div>
@@ -882,7 +863,6 @@
             </div>
         </div>
     </section>
---}}
 
 {{-- 
 <section class="blog-section sec-padd2">
@@ -1018,57 +998,58 @@
 
 @endsection
 @section('jsscripts')
+    <!-- FAQ Schema Markup -->
     <script type="application/ld+json">
-        @verbatim
-            {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-                {
-                "@type": "Question",
-                "name": "What is 440B Stainless Steel?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "440B is a high-carbon martensitic stainless steel designed for exceptional hardness, high strength, and good corrosion resistance. It is commonly used in manufacturing precision tools and components that require a balance of wear resistance and toughness."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "What are its key properties?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Key properties of 440B Stainless Steel include excellent wear and abrasion resistance, high hardness after heat treatment, good polishability and machinability, and moderate corrosion resistance in temperate environments."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Where is it used?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "440B Stainless Steel is used in knife blades, surgical and dental instruments, bearings, cutting tools, and wear-resistant mechanical parts. Its ability to maintain hardness and sharpness makes it ideal for heavy-duty and precision applications."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Is it weldable?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Welding 440B is possible but requires preheating and post-weld heat treatment to prevent cracking and restore corrosion resistance. TIG or MIG welding methods are recommended for controlled and accurate joints."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Why choose MOKSH TUBES & FITTINGS LLP for 440B Stainless Steel?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "MOKSH TUBES & FITTINGS LLP provides premium-grade 440B stainless steel with precision processing, consistent quality assurance, and timely global delivery. Our materials meet rigorous industry standards and are tailored to meet client requirements across multiple sectors."
-                }
-                }
-            ]
-            }
-
-        @endverbatim
-    </script>
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 440B Stainless Steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "440B is a high-carbon martensitic stainless steel offering high hardness, strength, and corrosion resistance, ideal for precision tools."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are its key properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Excellent wear resistance, high hardness after heat treatment, good polishability, and moderate corrosion resistance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Knife blades, surgical instruments, bearings, cutting tools, and wear-resistant components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Welding is possible but requires preheating and post-weld heat treatment to maintain properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Mokshtubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mokshtubes supplies premium-grade 440B stainless steel with precise quality, reliable delivery, and competitive pricing."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection
+
 
 

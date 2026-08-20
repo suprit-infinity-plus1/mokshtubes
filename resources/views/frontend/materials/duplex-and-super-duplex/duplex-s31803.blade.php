@@ -759,72 +759,71 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>FAQ's</h2>
+                            <h2>FAQ’s – Duplex Stainless Steel S31803</h2>
                         </div>
 
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn active">
-                                <h3>
-                                    What is Duplex Stainless Steel S31803 used for?
-                                </h3>
-                            </div>
-                            <div class="accord-content collapsed">
-                                <p>
-                                    It is widely used in chemical processing, marine engineering, desalination, and oil &
-                                    gas applications.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
+                        <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>
-                                    Is Duplex S31803 weldable?
-                                </h3>
+                                <h4>What is Duplex Stainless Steel S31803?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes, but proper welding procedures and post-weld heat treatment are recommended for
-                                    maintaining optimum corrosion resistance and mechanical strength.
+                                    It is a duplex (austenitic + ferritic) stainless steel offering high strength and excellent corrosion resistance.
                                 </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
-                        <!--Start single accordion box-->
+                        <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>
-                                    Can S31803 be used in seawater environments?
-                                </h3>
+                                <h4>How is S31803 different from 316L?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes, it provides excellent seawater corrosion resistance but is slightly less resistant
-                                    than Super Duplex grades.
+                                    S31803 has:<br>
+                                    - Higher strength<br>
+                                    - Better chloride resistance<br>
+                                    - Higher pitting resistance (PREN ≥ 35)
                                 </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
-                        <!--Start single accordion box-->
+                        <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>
-                                    How does S31803 compare to 2205?
-                                </h3>
+                                <h4>What industries use Duplex S31803?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    S31803 is more cost-effective for general use but offers slightly lower corrosion
-                                    resistance compared to Super Duplex 2205.
+                                    Oil & gas, marine, chemical plants, desalination, pulp & paper, structural applications.
                                 </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What products do you supply in S31803?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Pipes, tubes, sheets, plates, coils, bars, fittings, flanges, fasteners & custom components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Is S31803 weldable?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes. It has good weldability but requires controlled heat input to avoid sigma phase.
+                                </p>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
@@ -973,34 +972,42 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is Duplex Stainless Steel S31803 used for?",
+      "name": "What is Duplex Stainless Steel S31803?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It is widely used in chemical processing, marine engineering, desalination, and oil & gas applications."
+        "text": "It is a duplex (austenitic + ferritic) stainless steel offering high strength and excellent corrosion resistance."
       }
     },
     {
       "@type": "Question",
-      "name": "Is Duplex S31803 weldable?",
+      "name": "How is S31803 different from 316L?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, but proper welding procedures and post-weld heat treatment are recommended for maintaining optimum corrosion resistance and mechanical strength."
+        "text": "S31803 has: Higher strength, Better chloride resistance, Higher pitting resistance (PREN ≥ 35)."
       }
     },
     {
       "@type": "Question",
-      "name": "Can S31803 be used in seawater environments?",
+      "name": "What industries use Duplex S31803?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, it provides excellent seawater corrosion resistance but is slightly less resistant than Super Duplex grades."
+        "text": "Oil & gas, marine, chemical plants, desalination, pulp & paper, structural applications."
       }
     },
     {
       "@type": "Question",
-      "name": "How does S31803 compare to 2205?",
+      "name": "What products do you supply in S31803?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "S31803 is more cost-effective for general use but offers slightly lower corrosion resistance compared to Super Duplex 2205."
+        "text": "Pipes, tubes, sheets, plates, coils, bars, fittings, flanges, fasteners & custom components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is S31803 weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. It has good weldability but requires controlled heat input to avoid sigma phase."
       }
     }
   ]

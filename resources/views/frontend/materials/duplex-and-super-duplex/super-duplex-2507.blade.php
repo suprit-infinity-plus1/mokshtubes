@@ -708,49 +708,66 @@
                 <div class="col-lg-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>FAQ's</h2>
+                            <h2>FAQ – Super Duplex Stainless Steel 2507</h2>
                         </div>
 
-                        <!--Start single accordion box-->
+                        <!-- Q1 -->
                         <div class="accordion accordion-block">
-                            <div class="accord-btn active">
-                                <h3>Why is Super Duplex 2507 (S32750) considered superior?</h3>
+                            <div class="accord-btn">
+                                <h4>What is Super Duplex 2507?</h4>
                             </div>
-                            <div class="accord-content collapsed">
-                                <p>Due to its high chromium, molybdenum, and nitrogen content, it offers the highest
-                                    corrosion resistance among duplex stainless steels, especially in chloride environments.
+                            <div class="accord-content">
+                                <p>
+                                    A premium super duplex stainless steel offering exceptionally high strength and outstanding chloride corrosion resistance.
                                 </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
+                        <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>Is S32750 weldable?</h3>
+                                <h4>What makes 2507 highly corrosion resistant?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Yes, but controlled heat input and post-weld heat treatment are essential to maintain
-                                    corrosion resistance and mechanical properties.</p>
+                                <p>
+                                    High chromium–molybdenum–nitrogen (Cr–Mo–N) content and PREN ≥ 40.
+                                </p>
                             </div>
                         </div>
 
+                        <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>Where is S32750 most commonly used?</h3>
+                                <h4>Where is 2507 commonly used?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>In offshore oil & gas, marine engineering, chemical processing, and desalination plants
-                                    where maximum corrosion resistance is required.</p>
+                                <p>
+                                    Offshore oil & gas, chemical plants, desalination, marine engineering & high-pressure systems.
+                                </p>
                             </div>
                         </div>
 
+                        <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>Can S32750 be used in seawater applications?</h3>
+                                <h4>Is Super Duplex 2507 weldable?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Yes — it is exceptionally resistant to seawater corrosion and chloride stress corrosion
-                                    cracking, making it ideal for marine environments.</p>
+                                <p>
+                                    Yes, but requires strict heat input control to maintain correct phase balance.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What services do you offer?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Reliable supply, custom fabrication, technical support & global export.
+                                </p>
                             </div>
                         </div>
 
@@ -906,34 +923,42 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is Super Duplex 2507 (S32750) considered superior?",
+      "name": "What is Super Duplex 2507?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Due to its high chromium, molybdenum, and nitrogen content, it offers the highest corrosion resistance among duplex stainless steels, especially in chloride environments."
+        "text": "A premium super duplex stainless steel offering exceptionally high strength and outstanding chloride corrosion resistance."
       }
     },
     {
       "@type": "Question",
-      "name": "Is S32750 weldable?",
+      "name": "What makes 2507 highly corrosion resistant?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, but controlled heat input and post-weld heat treatment are essential to maintain corrosion resistance and mechanical properties."
+        "text": "High chromium–molybdenum–nitrogen (Cr–Mo–N) content and PREN ≥ 40."
       }
     },
     {
       "@type": "Question",
-      "name": "Where is S32750 most commonly used?",
+      "name": "Where is 2507 commonly used?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In offshore oil & gas, marine engineering, chemical processing, and desalination plants where maximum corrosion resistance is required."
+        "text": "Offshore oil & gas, chemical plants, desalination, marine engineering & high-pressure systems."
       }
     },
     {
       "@type": "Question",
-      "name": "Can S32750 be used in seawater applications?",
+      "name": "Is Super Duplex 2507 weldable?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes — it is exceptionally resistant to seawater corrosion and chloride stress corrosion cracking, making it ideal for marine environments."
+        "text": "Yes, but requires strict heat input control to maintain correct phase balance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What services do you offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reliable supply, custom fabrication, technical support & global export."
       }
     }
   ]

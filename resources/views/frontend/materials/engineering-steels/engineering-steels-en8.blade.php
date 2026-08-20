@@ -569,7 +569,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h3>Cost-effective for structural and automotive use</h3>
+                        <h3>Cost-effective for structural and automotive</h3>
                     </div>
                 </div>
 
@@ -628,47 +628,6 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
                         <h5>Power Plants</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>WHY CHOOSE US?</h2>
-            </div>
-
-                        <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>ISO Certified</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-file-earmark-check"></i></div>
-                        <h5>MTC 3.1</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Fast Delivery</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Worldwide Export</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-cash-coin"></i></div>
-                        <h5>Competitive Price</h5>
                     </div>
                 </div>
             </div>
@@ -880,67 +839,7 @@
     </section>
 --}}
 
-    <!-- Extra Sections (Commented Out) -->
-{-- 
-<section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Overview of EN8 / 080M40 / AISI 1040 Steel</h2>
-            </div>
-
-            <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Engineering Steel 8 / 080M40 / AISI 1040
-            </h3>
-
-            <div class="row align-items-center">
-                <!-- Image Left -->
-                <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-en8.webp') }}"
-                        alt="EN8 steel bars and tubes - Moksh Tubes India" loading="lazy"
-                        class="img-fluid rounded shadow-sm">
-
-                </div>
-
-                <!-- Content Right -->
-                <div class="col-md-6">
-                    <div class="pe-md-3">
-                        <p class="fs-6 text-justify" style="text-align: justify;">
-                            <strong class="text-black">
-                                <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a>
-                            </strong> is a trusted manufacturer, exporter, and stockist of
-                            <strong class="text-black">EN8 Steel products</strong>, including
-                            Pipes, <a href="{{ route('products.pipes-tubes') }}">Tubes</a>, Round Bars, Flats, Squares,
-                            Forged Bars, Shafts, Sheets, Plates, Pipe Fittings, and Custom Machined Components.
-                        </p>
-
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">EN8</strong> is a medium carbon steel grade
-                            (approximately 0.40% carbon) known for its high tensile strength and good machinability.
-                            It is widely used in engineering applications that require better mechanical properties than
-                            mild steel.
-                        </p>
-
-                        <p class="fs-6" style="text-align: justify;">
-                            EN8 offers moderate wear resistance and excellent toughness, making it ideal for manufacturing
-                            shafts, axles, gears, bolts, studs,
-                            automotive parts, and other general-purpose
-                            <a href="{{ route('materials.engineering-Steels') }}">engineering</a> components.
-                        </p>
-
-                        <p class="fs-6" style="text-align: justify;">
-                            Also known as <strong>080M40</strong> or <strong>AISI 1040</strong>, EN8 steel provides a
-                            reliable balance of strength, hardness, and machinability,
-                            making it one of the most popular choices among medium carbon steel grades.
-                        </p>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        </div>
-    </section>
- --}
+  
 
 {{-- 
 <section class="sec-padd-top sec-padd-bottom" id="international">
@@ -1028,16 +927,74 @@
     </section>
  --}
 
-{{-- blog section start --}}
+<section id="faq" class="faq-content-area sec-padd2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="accordion-box">
+                    <div class="section-title center">
+                        <h2>Frequently Asked Questions (FAQ)</h2>
+                    </div>
 
-{{-- blog section end --}}
+                    <!-- Q1 -->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>What is EN8 steel used for?</h4></div>
+                        <div class="accord-content"><p>EN8 is commonly used for shafts, axles, studs, gears, bolts, automotive parts, and engineering components.</p></div>
+                    </div>
+
+                    <!-- Q2 -->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>Can EN8 be hardened?</h4></div>
+                        <div class="accord-content"><p>Yes — through flame or induction hardening, EN8 can reach 50–55 HRC on the surface.</p></div>
+                    </div>
+
+                    <!-- Q3 -->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>Is EN8 easy to machine?</h4></div>
+                        <div class="accord-content"><p>Yes, EN8 offers good machinability in normalized condition.</p></div>
+                    </div>
+
+                    <!-- Q4 -->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>What are the equivalents to EN8?</h4></div>
+                        <div class="accord-content"><p>Equivalent grades include AISI 1040, DIN C40, JIS S40C, 080M40, and IS C40.</p></div>
+                    </div>
+
+                    <!-- Q5 -->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>Do you supply EN8 in round bars and plates?</h4></div>
+                        <div class="accord-content"><p>Yes — EN8 is available in Round Bars, Flats, Squares, Plates, Pipes, Tubes, and Forgings.</p></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact-us" class="sec-padd-bottom">
+    <div class="container">
+        <div class="contact-cta-box">
+            <h2>Looking for a Reliable EN8 Steel Supplier?</h2>
+            <p>
+                Whether you require pipes, tubes, sheets, plates, bars, flanges, fittings, fasteners, or custom-fabricated components, <strong>Moksh Tubes & Fittings LLP</strong> is your trusted partner for certified high-quality engineering steel products.<br>
+                📞 Call: +91 97695 84950 | ✉️ Email Sales Team<br>
+                ISO Certified Quality | Mill Test Certificates (EN 10204 3.1) | Fast Worldwide Delivery
+            </p>
+            <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                data-bs-target="#contactFormModal">
+                Request a Quote Now
+            </a>
+        </div>
+    </div>
+</section>
 
 @endsection
 
-{{-- @section('jsscripts')
+@section('jsscripts')
     <script type="application/ld+json">
         {!! json_encode([
-        "@context" => "https://schema.org",
+        "@@context" => "https://schema.org",
         "@graph" => [
 
             // ✅ Product Schema
@@ -1122,42 +1079,42 @@
             "mainEntity" => [
                 [
                 "@type" => "Question",
-                "name" => "What is EN8 steel and why is it widely used in engineering?",
+                "name" => "What is EN8 steel used for?",
                 "acceptedAnswer" => [
                     "@type" => "Answer",
-                    "text" => "EN8 is a medium carbon steel grade containing about 0.40% carbon, known for its high tensile strength and good machinability. It provides better mechanical properties than mild steel, with moderate wear resistance and toughness, making it ideal for automotive parts, shafts, axles, gears, bolts, studs, and general engineering components. Its balance of strength, cost effectiveness, and machinability makes it one of the most commonly used steels in mechanical and structural applications."
+                    "text" => "EN8 is commonly used for shafts, axles, studs, gears, bolts, automotive parts, and engineering components."
                 ]
                 ],
                 [
                 "@type" => "Question",
-                "name" => "What are the key chemical and mechanical properties of EN8 steel?",
+                "name" => "Can EN8 be hardened?",
                 "acceptedAnswer" => [
                     "@type" => "Answer",
-                    "text" => "EN8 steel has a chemical composition of 0.36–0.44% carbon, 0.60–1.00% manganese, and very low levels of phosphorus, sulfur, and silicon, with the balance being iron. It exhibits tensile strength ranging from 75–110 ksi (517–758 MPa), yield strength of 35–80 ksi (241–552 MPa), and elongation between 15–30% depending on processing condition. Its hardness is typically 130–210 Brinell and 70–90 Rockwell B, giving EN8 steel a combination of strength, machinability, and moderate wear resistance suitable for demanding applications."
+                    "text" => "Yes — through flame or induction hardening, EN8 can reach 50–55 HRC on the surface."
                 ]
                 ],
                 [
                 "@type" => "Question",
-                "name" => "What EN8 steel products are available from MOKSH TUBES & FITTINGS LLP?",
+                "name" => "Is EN8 easy to machine?",
                 "acceptedAnswer" => [
                     "@type" => "Answer",
-                    "text" => "MOKSH TUBES & FITTINGS LLP supplies EN8 steel in various product forms including seamless and welded pipes, tubes, round bars, flat bars, square bars, hex bars, forged bars, and shafts. The company also offers EN8 steel in sheets, plates, coils, strips, pipe fittings, flanges, fasteners, and custom-fabricated or machined components. All products conform to international standards and can be supplied in both standard sizes and tailored specifications to meet diverse industry requirements."
+                    "text" => "Yes, EN8 offers good machinability in normalized condition."
                 ]
                 ],
                 [
                 "@type" => "Question",
-                "name" => "What are the common applications of EN8 steel?",
+                "name" => "What are the equivalents to EN8?",
                 "acceptedAnswer" => [
                     "@type" => "Answer",
-                    "text" => "EN8 steel is extensively used in automotive components such as axles, crankshafts, connecting rods, and gear shafts. In mechanical engineering, it is applied for keys, keyways, couplings, spindles, and general-purpose machinery parts. It is also used in industrial equipment like rollers, cams, and press tools, as well as in agricultural machinery including drive shafts, rotors, and blades. In the oil and gas sector, EN8 finds applications in non-corrosive structural parts and pipeline components where moderate wear resistance is required."
+                    "text" => "Equivalent grades include AISI 1040, DIN C40, JIS S40C, 080M40, and IS C40."
                 ]
                 ],
                 [
                 "@type" => "Question",
-                "name" => "Why choose MOKSH TUBES & FITTINGS LLP for EN8 steel materials?",
+                "name" => "Do you supply EN8 in round bars and plates?",
                 "acceptedAnswer" => [
                     "@type" => "Answer",
-                    "text" => "MOKSH TUBES & FITTINGS LLP is a trusted global manufacturer and supplier of EN8 steel with a wide in-house stock covering multiple forms and dimensions. The company provides precision machining, cut to size services, and technical guidance for material selection. With a focus on quality assurance, timely delivery, and competitive pricing, MOKSH TUBES & FITTINGS LLP ensures reliable supply of EN8 steel products tailored to engineering, automotive, and industrial applications worldwide."
+                    "text" => "Yes — EN8 is available in Round Bars, Flats, Squares, Plates, Pipes, Tubes, and Forgings."
                 ]
                 ]
             ]
@@ -1165,6 +1122,6 @@
         ]
         ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}
     </script>
-@endsection --}}
+@endsection
 
 

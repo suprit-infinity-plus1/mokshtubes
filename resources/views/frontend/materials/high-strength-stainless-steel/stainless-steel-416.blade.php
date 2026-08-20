@@ -770,82 +770,71 @@
     </section>
 --}}
 
-{{-- 
 <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>FAQ’s – Stainless Steel 416</h2>
+                            <h2>FAQ’s – 416 Stainless Steel</h2>
                         </div>
 
+                        <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>1. What is Stainless Steel 416 and why is it important?</h4>
+                                <h4>What is 416 Stainless Steel?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Stainless Steel 416 (UNS S41600) is a martensitic stainless steel known for its
-                                    excellent machinability,
-                                    moderate corrosion resistance, and good mechanical properties. It is widely used for
-                                    parts requiring
-                                    precision machining, including shafts, fasteners, and valves.
+                                    416 is a martensitic stainless steel with high machinability, good corrosion resistance, and moderate strength, often used for precision components.
                                 </p>
                             </div>
                         </div>
 
+                        <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>2. What are the key properties of SS 416?</h4>
+                                <h4>What are its key properties?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    SS 416 offers outstanding machinability, good hardness after heat treatment, moderate
-                                    corrosion resistance,
-                                    and magnetic properties in all conditions. It is easily heat treated to enhance strength
-                                    and wear performance.
+                                    Excellent machinability, good wear resistance, moderate corrosion resistance, and good hardness after heat treatment.
                                 </p>
                             </div>
                         </div>
 
+                        <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>3. Where is Stainless Steel 416 used?</h4>
+                                <h4>Where is it used?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    SS 416 is commonly used in valves, pump shafts, fasteners, fittings, and components for
-                                    automotive,
-                                    aerospace, and general engineering industries that require high machining efficiency.
+                                    Valves, pump shafts, fasteners, fittings, and precision engineering parts.
                                 </p>
                             </div>
                         </div>
 
+                        <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>4. Is Stainless Steel 416 weldable?</h4>
+                                <h4>Is it weldable?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes, Stainless Steel 416 can be welded using standard techniques, but due to its sulfur
-                                    content,
-                                    care should be taken to minimize cracking. Post-weld heat treatment is recommended to
-                                    restore corrosion resistance.
+                                    Yes, but care is needed to avoid reducing corrosion resistance; post-weld heat treatment is recommended.
                                 </p>
                             </div>
                         </div>
 
+                        <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>5. Why choose MOKSH TUBES & FITTINGS LLP for Stainless Steel 416?</h4>
+                                <h4>Why choose Mokshtubes?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    MOKSH TUBES & FITTINGS LLP provides high-quality SS 416 materials, extensive
-                                    inventories, precision machining,
-                                    global sourcing, and strict quality control standards — making it a reliable choice for
-                                    industrial clients worldwide.
+                                    Mokshtubes provides high-quality 416 stainless steel with precise machining, consistent quality, and reliable delivery worldwide.
                                 </p>
                             </div>
                         </div>
@@ -855,7 +844,6 @@
             </div>
         </div>
     </section>
---}}
 
 {{-- 
 <section class="blog-section sec-padd2">
@@ -990,57 +978,58 @@
 
 @endsection
 @section('jsscripts')
+    <!-- FAQ Schema Markup -->
     <script type="application/ld+json">
-        @verbatim
-            {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-                {
-                "@type": "Question",
-                "name": "What is Stainless Steel 416 and why is it important?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Stainless Steel 416 (UNS S41600) is a martensitic stainless steel known for its excellent machinability, moderate corrosion resistance, and good mechanical properties. It is widely used for parts requiring precision machining, including shafts, fasteners, and valves."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "What are the key properties of SS 416?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "SS 416 offers outstanding machinability, good hardness after heat treatment, moderate corrosion resistance, and magnetic properties in all conditions. It is easily heat treated to enhance strength and wear performance."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Where is Stainless Steel 416 used?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "SS 416 is commonly used in valves, pump shafts, fasteners, fittings, and components for automotive, aerospace, and general engineering industries that require high machining efficiency."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Is Stainless Steel 416 weldable?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, Stainless Steel 416 can be welded using standard techniques, but due to its sulfur content, care should be taken to minimize cracking. Post-weld heat treatment is recommended to restore corrosion resistance."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Why choose MOKSH TUBES & FITTINGS LLP for Stainless Steel 416?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "MOKSH TUBES & FITTINGS LLP provides high-quality SS 416 materials, extensive inventories, precision machining, global sourcing, and strict quality control standards — making it a reliable choice for industrial clients worldwide."
-                }
-                }
-            ]
-            }
-
-        @endverbatim
-    </script>
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 416 Stainless Steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "416 is a martensitic stainless steel with high machinability, good corrosion resistance, and moderate strength, often used for precision components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are its key properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Excellent machinability, good wear resistance, moderate corrosion resistance, and good hardness after heat treatment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Valves, pump shafts, fasteners, fittings, and precision engineering parts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but care is needed to avoid reducing corrosion resistance; post-weld heat treatment is recommended."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Mokshtubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mokshtubes provides high-quality 416 stainless steel with precise machining, consistent quality, and reliable delivery worldwide."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection
+
 
 

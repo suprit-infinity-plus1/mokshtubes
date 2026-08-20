@@ -735,11 +735,10 @@
     </section>
 --}}
 
-{{-- 
 <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
                             <h2>FAQ’s – Stainless Steel 431</h2>
@@ -748,12 +747,11 @@
                         <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>1. What is Stainless Steel 431 used for?</h4>
+                                <h4>What is Stainless Steel 431 used for?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Stainless Steel 431 is widely used in aerospace, marine, oil & gas, and automotive
-                                    applications where strength, toughness, and corrosion resistance are required.
+                                    It is widely used in aerospace, marine, oil & gas, and automotive applications due to its strength and corrosion resistance.
                                 </p>
                             </div>
                         </div>
@@ -761,12 +759,11 @@
                         <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>2. Is Stainless Steel 431 magnetic?</h4>
+                                <h4>Is Stainless Steel 431 magnetic?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes. Being a martensitic stainless steel, it is magnetic both in annealed and hardened
-                                    conditions.
+                                    Yes, it is a martensitic stainless steel, hence magnetic in nature.
                                 </p>
                             </div>
                         </div>
@@ -774,12 +771,11 @@
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>3. Can Stainless Steel 431 be welded?</h4>
+                                <h4>Can Stainless Steel 431 be welded?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Welding is possible, but preheating and post-weld heat treatment are recommended to
-                                    minimize cracking and maintain mechanical strength.
+                                    Welding is possible but requires pre-heating and post-weld heat treatment to avoid cracking.
                                 </p>
                             </div>
                         </div>
@@ -787,13 +783,11 @@
                         <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>4. How does Stainless Steel 431 compare with 304 or 316?</h4>
+                                <h4>How does Stainless Steel 431 compare to 304 or 316?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Stainless Steel 431 has higher hardness and tensile strength than 304 or 316 but
-                                    slightly lower corrosion resistance, making it suitable for mechanical and structural
-                                    use.
+                                    431 provides higher strength and hardness, but slightly lower corrosion resistance compared to 304/316.
                                 </p>
                             </div>
                         </div>
@@ -801,13 +795,11 @@
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>5. What products are available in Stainless Steel 431 at MOKSH TUBES?</h4>
+                                <h4>What forms are available in Stainless Steel 431 at Moksh Tubes?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    MOKSH TUBES & FITTINGS LLP supplies SS 431 in pipes, tubes, sheets, plates, coils,
-                                    flanges, fittings, fasteners, bars, rods, and customized components engineered for
-                                    precision projects.
+                                    Pipes, tubes, sheets, plates, coils, flanges, fittings, fasteners, bars, rods, and custom-engineered products.
                                 </p>
                             </div>
                         </div>
@@ -817,7 +809,8 @@
             </div>
         </div>
     </section>
---}}
+
+
 
 {{-- 
 <section class="blog-section sec-padd2">
@@ -952,57 +945,58 @@
 
 @endsection
 @section('jsscripts')
+    <!-- FAQ Schema Markup -->
     <script type="application/ld+json">
-        @verbatim
-            {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [
-                    {
-                        "@type": "Question",
-                        "name": "What is Stainless Steel 431 used for?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Stainless Steel 431 is widely used in aerospace, marine, oil & gas, and automotive applications where strength, toughness, and corrosion resistance are required."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Is Stainless Steel 431 magnetic?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes. Being a martensitic stainless steel, it is magnetic both in annealed and hardened conditions."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Can Stainless Steel 431 be welded?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Welding is possible, but preheating and post-weld heat treatment are recommended to minimize cracking and maintain mechanical strength."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "How does Stainless Steel 431 compare with 304 or 316?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Stainless Steel 431 has higher hardness and tensile strength than 304 or 316 but slightly lower corrosion resistance, making it suitable for mechanical and structural use."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "What products are available in Stainless Steel 431 at MOKSH TUBES?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "MOKSH TUBES & FITTINGS LLP supplies SS 431 in pipes, tubes, sheets, plates, coils, flanges, fittings, fasteners, bars, rods, and customized components engineered for precision projects."
-                        }
-                    }
-                ]
-            }
-
-        @endverbatim
-    </script>
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Stainless Steel 431 used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is widely used in aerospace, marine, oil & gas, and automotive applications due to its strength and corrosion resistance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Stainless Steel 431 magnetic?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it is a martensitic stainless steel, hence magnetic in nature."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Stainless Steel 431 be welded?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Welding is possible but requires pre-heating and post-weld heat treatment to avoid cracking."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Stainless Steel 431 compare to 304 or 316?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "431 provides higher strength and hardness, but slightly lower corrosion resistance compared to 304/316."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What forms are available in Stainless Steel 431 at Moksh Tubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pipes, tubes, sheets, plates, coils, flanges, fittings, fasteners, bars, rods, and custom-engineered products."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection
+
 
 

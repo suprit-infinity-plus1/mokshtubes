@@ -794,7 +794,7 @@
     </section>
 --}}
 
-{{-- 
+
 <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
@@ -811,9 +811,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    17-4 PH (Precipitation Hardening) Stainless Steel is a high-strength,
-                                    corrosion-resistant alloy widely used in aerospace, chemical, petrochemical, and marine
-                                    industries for demanding applications.
+                                    17-4 PH (Precipitation Hardening) Stainless Steel is a high-strength, corrosion-resistant alloy widely used in aerospace, chemical, petrochemical, and marine industries for demanding applications.
                                 </p>
                             </div>
                         </div>
@@ -825,8 +823,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    17-4 PH Stainless Steel offers high hardness, exceptional strength, good corrosion
-                                    resistance, and outstanding mechanical performance at elevated temperatures.
+                                    High hardness, exceptional strength, good corrosion resistance, and excellent mechanical performance at elevated temperatures.
                                 </p>
                             </div>
                         </div>
@@ -838,14 +835,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Typical composition includes:<br>
-                                    <strong>Chromium (Cr):</strong> 15–17.5%<br>
-                                    <strong>Nickel (Ni):</strong> 3–5%<br>
-                                    <strong>Copper (Cu):</strong> 3–5%<br>
-                                    <strong>Carbon (C):</strong> ≤ 0.07%<br>
-                                    <strong>Manganese (Mn):</strong> ≤ 1%<br>
-                                    <strong>Silicon (Si):</strong> ≤ 1%<br>
-                                    <strong>Iron (Fe):</strong> Balance
+                                    Typical composition includes:<br>Chromium (Cr): 15–17.5%<br>Nickel (Ni): 3–5%<br>Copper (Cu): 3–5%<br>Carbon (C): ≤ 0.07%<br>Manganese (Mn): ≤ 1%<br>Silicon (Si): ≤ 1%<br>Iron (Fe): Balance
                                 </p>
                             </div>
                         </div>
@@ -857,9 +847,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    17-4 PH Stainless Steel is used in aerospace structural components, chemical process
-                                    equipment, marine shafts, pump parts, valves, and tooling applications due to its
-                                    strength and durability.
+                                    Aerospace structural components, chemical process equipment, marine shafts, pump parts, valves, and tooling applications.
                                 </p>
                             </div>
                         </div>
@@ -871,8 +859,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes, 17-4 PH Stainless Steel can be welded using methods such as TIG or MIG. Post-weld
-                                    heat treatment is recommended to restore strength and corrosion resistance.
+                                    Yes, with proper methods such as TIG or MIG welding; post-weld heat treatment is recommended to restore strength and corrosion resistance.
                                 </p>
                             </div>
                         </div>
@@ -882,7 +869,7 @@
             </div>
         </div>
     </section>
---}}
+
 
 {{-- 
 <section class="blog-section sec-padd2">
@@ -1019,57 +1006,58 @@
 
 @endsection
 @section('jsscripts')
+    <!-- FAQ Schema Markup -->
     <script type="application/ld+json">
-        @verbatim
-            {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-                {
-                "@type": "Question",
-                "name": "What is 17-4 PH Stainless Steel?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "17-4 PH (Precipitation Hardening) Stainless Steel is a high-strength, corrosion-resistant alloy widely used in aerospace, chemical, petrochemical, and marine industries for demanding applications."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "What are its main properties?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "17-4 PH Stainless Steel offers high hardness, exceptional strength, good corrosion resistance, and outstanding mechanical performance at elevated temperatures."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "What is its chemical composition?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Typical composition includes: Chromium (Cr): 15–17.5%, Nickel (Ni): 3–5%, Copper (Cu): 3–5%, Carbon (C): ≤ 0.07%, Manganese (Mn): ≤ 1%, Silicon (Si): ≤ 1%, Iron (Fe): Balance."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Where is it used?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "17-4 PH Stainless Steel is used in aerospace structural components, chemical process equipment, marine shafts, pump parts, valves, and tooling applications due to its strength and durability."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Is it weldable?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, 17-4 PH Stainless Steel can be welded using methods such as TIG or MIG. Post-weld heat treatment is recommended to restore strength and corrosion resistance."
-                }
-                }
-            ]
-            }
-
-        @endverbatim
-    </script>
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 17-4 PH Stainless Steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "17-4 PH (Precipitation Hardening) Stainless Steel is a high-strength, corrosion-resistant alloy widely used in aerospace, chemical, petrochemical, and marine industries for demanding applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are its main properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "High hardness, exceptional strength, good corrosion resistance, and excellent mechanical performance at elevated temperatures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is its chemical composition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typical composition includes:, Chromium (Cr): 15–17.5%, Nickel (Ni): 3–5%, Copper (Cu): 3–5%, Carbon (C): ≤ 0.07%, Manganese (Mn): ≤ 1%, Silicon (Si): ≤ 1%, Iron (Fe): Balance"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aerospace structural components, chemical process equipment, marine shafts, pump parts, valves, and tooling applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, with proper methods such as TIG or MIG welding; post-weld heat treatment is recommended to restore strength and corrosion resistance."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection
+
 
 

@@ -772,81 +772,71 @@
     </section>
 --}}
 
-{{-- 
-<section  id="faq" class="faq-content-area sec-padd2">
+<section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>FAQ’s – Stainless Steel 422</h2>
+                            <h2>FAQ’s – 422 Stainless Steel</h2>
                         </div>
 
+                        <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>1. What is Stainless Steel 422?</h4>
+                                <h4>What is 422 Stainless Steel?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Stainless Steel 422 (UNS S42200) is a martensitic stainless steel known for its high
-                                    hardness,
-                                    corrosion resistance, and strength retention at elevated temperatures. It is widely used
-                                    in
-                                    aerospace, turbine, and engineering applications.
+                                    422 is a martensitic stainless steel with high corrosion resistance and hardness, commonly used in aerospace and engineering applications.
                                 </p>
                             </div>
                         </div>
 
+                        <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>2. What are the key properties of SS 422?</h4>
+                                <h4>What are its key properties?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Key properties include high hardness, good wear resistance, excellent creep strength,
-                                    and
-                                    moderate corrosion resistance. It also offers stability and strength in heat-treated
-                                    conditions.
+                                    High hardness, excellent corrosion resistance, good wear resistance, and good dimensional stability.
                                 </p>
                             </div>
                         </div>
 
+                        <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>3. Where is Stainless Steel 422 used?</h4>
+                                <h4>Where is it used?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    SS 422 is used in aerospace components, turbine blades, shafts, valves, bearings, and
-                                    high-temperature
-                                    fasteners in power and engineering sectors.
+                                    Aerospace parts, shafts, valves, bearings, and precision engineering components.
                                 </p>
                             </div>
                         </div>
 
+                        <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>4. Is Stainless Steel 422 weldable?</h4>
+                                <h4>Is it weldable?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes. However, preheating and post-weld heat treatment are recommended to maintain
-                                    toughness,
-                                    corrosion resistance, and prevent cracking.
+                                    Yes, but careful welding with preheating and post-weld heat treatment is recommended to maintain properties.
                                 </p>
                             </div>
                         </div>
 
+                        <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>5. Why choose MOKSH TUBES & FITTINGS LLP for SS 422?</h4>
+                                <h4>Why choose Mokshtubes?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    MOKSH TUBES & FITTINGS LLP supplies premium-quality 422 stainless steel with precision
-                                    manufacturing, verified quality standards, and dependable global logistics to meet
-                                    diverse
-                                    industrial requirements worldwide.
+                                    Mokshtubes supplies premium 422 stainless steel with precise manufacturing, consistent quality, and reliable global delivery.
                                 </p>
                             </div>
                         </div>
@@ -856,7 +846,6 @@
             </div>
         </div>
     </section>
---}}
 
 {{-- 
 <section class="blog-section sec-padd2">
@@ -991,57 +980,59 @@
 
 @endsection
 @section('jsscripts')
+    <!-- FAQ Schema Markup -->
     <script type="application/ld+json">
-        @verbatim
-            {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [
-                    {
-                        "@type": "Question",
-                        "name": "What is Stainless Steel 422?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Stainless Steel 422 (UNS S42200) is a martensitic stainless steel known for its high hardness, corrosion resistance, and strength retention at elevated temperatures. It is widely used in aerospace, turbine, and engineering applications."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "What are the key properties of SS 422?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Key properties include high hardness, good wear resistance, excellent creep strength, and moderate corrosion resistance. It also offers stability and strength in heat-treated conditions."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Where is Stainless Steel 422 used?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "SS 422 is used in aerospace components, turbine blades, shafts, valves, bearings, and high-temperature fasteners in power and engineering sectors."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Is Stainless Steel 422 weldable?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes. However, preheating and post-weld heat treatment are recommended to maintain toughness, corrosion resistance, and prevent cracking."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Why choose MOKSH TUBES & FITTINGS LLP for SS 422?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "MOKSH TUBES & FITTINGS LLP supplies premium-quality 422 stainless steel with precision manufacturing, verified quality standards, and dependable global logistics to meet diverse industrial requirements worldwide."
-                        }
-                    }
-                ]
-            }
-
-        @endverbatim
-    </script>
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 422 Stainless Steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "422 is a martensitic stainless steel with high corrosion resistance and hardness, commonly used in aerospace and engineering applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are its key properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "High hardness, excellent corrosion resistance, good wear resistance, and good dimensional stability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aerospace parts, shafts, valves, bearings, and precision engineering components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but careful welding with preheating and post-weld heat treatment is recommended to maintain properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Mokshtubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mokshtubes supplies premium 422 stainless steel with precise manufacturing, consistent quality, and reliable global delivery."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection
+
+
 
 

@@ -693,45 +693,65 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>FAQ's</h2>
+                            <h2>FAQ – Super Duplex Stainless Steel S32760</h2>
                         </div>
 
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn active">
-                                <h3>Why is Super Duplex S32760 highly corrosion-resistant?</h3>
-                            </div>
-                            <div class="accord-content collapsed">
-                                <p>Due to its high chromium, molybdenum, and nitrogen content, it has excellent resistance
-                                    to pitting, crevice corrosion, and chloride stress corrosion cracking.</p>
-                            </div>
-                        </div>
-
+                        <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>Is S32760 weldable?</h3>
+                                <h4>What is Super Duplex S32760?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Yes, but welding requires controlled heat input and post-weld heat treatment to maintain
-                                    corrosion resistance and mechanical properties.</p>
+                                <p>
+                                    A high-performance super duplex stainless steel offering exceptional corrosion resistance & very high mechanical strength.
+                                </p>
                             </div>
                         </div>
 
+                        <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>Where is S32760 most commonly used?</h3>
+                                <h4>What makes S32760 corrosion resistant?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Primarily in offshore oil & gas, marine engineering, and desalination plants, where
-                                    chloride resistance is critical.</p>
+                                <p>
+                                    Its high Cr–Mo–N content results in a PREN ≥ 40, ideal for seawater & harsh chemical environments.
+                                </p>
                             </div>
                         </div>
 
+                        <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>Can S32760 be used in seawater applications?</h3>
+                                <h4>Where is S32760 used?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Yes, it offers excellent resistance to seawater corrosion and stress corrosion cracking.
+                                <p>
+                                    Offshore oil & gas, desalination plants, chemical industry, marine engineering, and high-pressure systems.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Is Super Duplex S32760 weldable?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes — with controlled heat input to maintain the duplex phase balance.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose Moksh Tubes?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Superior quality, global delivery, precise dimensions & project-based customization.
                                 </p>
                             </div>
                         </div>
@@ -870,4 +890,56 @@
 
 {{-- blog section end --}}
 
+@endsection
+@section('jsscripts')
+    <script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Super Duplex S32760?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A high-performance super duplex stainless steel offering exceptional corrosion resistance & very high mechanical strength."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes S32760 corrosion resistant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Its high Cr–Mo–N content results in a PREN ≥ 40, ideal for seawater & harsh chemical environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is S32760 used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Offshore oil & gas, desalination plants, chemical industry, marine engineering, and high-pressure systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Super Duplex S32760 weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — with controlled heat input to maintain the duplex phase balance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Moksh Tubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Superior quality, global delivery, precise dimensions & project-based customization."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection
