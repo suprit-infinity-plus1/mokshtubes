@@ -2,17 +2,17 @@
 @section('title', 'Round Bars Manufacturer, Supplier & Exporter in India | SS, MS, Alloy Steel')
 <!-- 89 characters -->
 @section('meta_description', 'Buy Round Bars in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Nickel Alloy,
-    Titanium, Brass & Copper grades. Available in sizes 3mm to 500mm with weight chart and specifications.')
+Titanium, Brass & Copper grades. Available in sizes 3mm to 500mm with weight chart and specifications.')
 @section('meta_keywords', 'Round Bars, SS Round Bars, Stainless Steel Round Bars, MS Round Bars, Mild Steel Round Bars,
-    Carbon Steel Round Bars, Alloy Steel Round Bars, Steel Round Bars, Bright Round Bars, Round Bar Manufacturer')
+Carbon Steel Round Bars, Alloy Steel Round Bars, Steel Round Bars, Bright Round Bars, Round Bar Manufacturer')
 @section('og_title', 'Round Bars Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Buy Round Bars in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Nickel Alloy,
-    Titanium, Brass & Copper grades. Available in sizes 3mm to 500mm with weight chart and specifications.')
+Titanium, Brass & Copper grades. Available in sizes 3mm to 500mm with weight chart and specifications.')
 @section('og_image', asset('assets/images/product/Bars-&-Rods/round-bars.webp'))
 @section('og_type', 'product')
 @section('twitter_title', 'Round Bars Manufacturer in India')
 @section('twitter_description', 'Buy premium-quality Round Bars in Stainless Steel, Carbon Steel, Alloy Steel, and
-    Aluminum grades with fast worldwide delivery.')
+Aluminum grades with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -765,10 +765,9 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100"
-                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
-                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
                             </a>
                         </figure>
@@ -1118,82 +1117,82 @@
 
     @verbatim
         <script type="application/ld+json">
-                {
-                  "@context": "https://schema.org/",
-                  "@type": "Product",
-                  "name": "Round Bars",
-                  "image": "https://mokshtubes.com/assets/images/product/Bars-&-Rods/round-bars.webp",
-                  "description": "Premium-quality Round Bars manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Nickel Alloy, Titanium, Brass & Copper grades.",
-                  "brand": {
-                    "@type": "Brand",
-                    "name": "Moksh Tubes & Fittings LLP"
-                  },
-                  "manufacturer": {
-                    "@type": "Organization",
-                    "name": "Moksh Tubes & Fittings LLP",
-                    "url": "https://mokshtubes.com"
-                  },
-                  "offers": {
-                    "@type": "AggregateOffer",
-                    "url": "https://mokshtubes.com",
-                    "priceCurrency": "USD",
-                    "price": "1.00",
-                    "availability": "https://schema.org/InStock"
-                  },
-                  "mainEntityOfPage": {
-                    "@type": "FAQPage",
-                    "mainEntity": [
-                      {
-                        "@type": "Question",
-                        "name": "What are Round Bars?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Round Bars are solid cylindrical metal bars used for machining, fabrication, structural applications, and manufacturing components."
+                        {
+                          "@context": "https://schema.org/",
+                          "@type": "Product",
+                          "name": "Round Bars",
+                          "image": "https://mokshtubes.com/assets/images/product/Bars-&-Rods/round-bars.webp",
+                          "description": "Premium-quality Round Bars manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Nickel Alloy, Titanium, Brass & Copper grades.",
+                          "brand": {
+                            "@type": "Brand",
+                            "name": "Moksh Tubes & Fittings LLP"
+                          },
+                          "manufacturer": {
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "url": "https://mokshtubes.com"
+                          },
+                          "offers": {
+                            "@type": "AggregateOffer",
+                            "url": "https://mokshtubes.com",
+                            "priceCurrency": "USD",
+                            "price": "1.00",
+                            "availability": "https://schema.org/InStock"
+                          },
+                          "mainEntityOfPage": {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                              {
+                                "@type": "Question",
+                                "name": "What are Round Bars?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Round Bars are solid cylindrical metal bars used for machining, fabrication, structural applications, and manufacturing components."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "What materials are available?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Round bars are available in stainless steel, carbon steel, alloy steel, duplex steel, nickel alloys, titanium, brass, copper, and aluminium."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "What sizes are available?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Round bars are available from 3 mm to 500 mm diameter, with custom diameters available upon request."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "What is the difference between hot rolled and cold drawn round bars?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Hot rolled bars are economical and suitable for structural applications, while cold drawn bars provide tighter tolerances and improved surface finish."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "Can round bars be supplied in custom lengths?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Yes. We supply cut-to-length round bars according to customer specifications."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "Do you provide Mill Test Certificates?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Yes. EN 10204 3.1 Mill Test Certificates and third-party inspection reports are available."
+                                }
+                              }
+                            ]
+                          }
                         }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "What materials are available?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Round bars are available in stainless steel, carbon steel, alloy steel, duplex steel, nickel alloys, titanium, brass, copper, and aluminium."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "What sizes are available?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Round bars are available from 3 mm to 500 mm diameter, with custom diameters available upon request."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "What is the difference between hot rolled and cold drawn round bars?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Hot rolled bars are economical and suitable for structural applications, while cold drawn bars provide tighter tolerances and improved surface finish."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Can round bars be supplied in custom lengths?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Yes. We supply cut-to-length round bars according to customer specifications."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Do you provide Mill Test Certificates?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Yes. EN 10204 3.1 Mill Test Certificates and third-party inspection reports are available."
-                        }
-                      }
-                    ]
-                  }
-                }
-                </script>
+                        </script>
     @endverbatim
 @endsection

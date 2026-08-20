@@ -2,19 +2,23 @@
 
 @section('title', 'Duplex Steel S31803 | High Strength & Corrosion Resistance')
 
-@section('meta_description',
+@section(
+    'meta_description',
     'Buy Duplex Stainless Steel S31803 pipes, tubes & fittings from Moksh Tubes LLP. High
-    strength, corrosion resistance, and durability for harsh conditions.')
+    strength, corrosion resistance, and durability for harsh conditions.'
+)
 
-@section('meta_keywords',
+@section(
+    'meta_keywords',
     'Duplex Stainless Steel S31803, S31803 pipes, S31803 tubes, S31803 fittings,
     corrosion-resistant stainless steel, high strength duplex steel, Mokshtubes LLP, chemical processing steel, marine
     engineering steel, oil and gas stainless steel, desalination plant steel, Super Duplex alternative, stainless steel
-    plates, stainless steel flanges')
-@section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp'))
+    plates, stainless steel flanges'
+)
+@section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp'))
 @section('og_type', 'article')
 @section('content')
-<section class="breadcrumb-area" style="background-image: url(images/background/3.webp);">
+    <section class="breadcrumb-area" style="background-image: url(images/background/3.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -31,7 +35,7 @@
         </div>
     </section>
 
-<div class="sticky-top bg-white border-bottom material-tabs  w-100">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#specification">Specifications</a> |
@@ -44,7 +48,7 @@
         </div>
     </div>
 
-<section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Super Duplex S31803 | Product Overview</h2>
@@ -57,7 +61,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                    <img src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp') }}"
                         alt="Duplex Stainless Steel S31803" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
@@ -95,7 +99,7 @@
         </div>
     </section>
 
-<section class="sec-padd-bottom bg-light">
+    <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Duplex S31803 Datasheet</h3>
             <p class="mb-3">
@@ -137,7 +141,7 @@
         </div>
     </section>
 
-<section class="sec-padd-top" id="specification">
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
                 <h2>Duplex Stainless Steel S31803 Specifications</h2>
@@ -148,37 +152,37 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class = "t-row">
+                                <tr class="t-row">
                                     <th>Category</th>
                                     <th>Details</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class = "t-row">
+                                <tr class="t-row">
                                     <td>Grade</td>
                                     <td>Duplex S31803 / UNS S31803 / 2205 / EN 1.4462</td>
                                 </tr>
-                                <tr class = "t-row">
+                                <tr class="t-row">
                                     <td>Type</td>
                                     <td>Duplex Stainless Steel (Austenitic–Ferritic)</td>
                                 </tr>
-                                <tr class = "t-row">
+                                <tr class="t-row">
                                     <td>Typical Chemical Composition</td>
                                     <td>22% Cr, 5–6% Ni, 3% Mo, 0.14–0.20% N</td>
                                 </tr>
-                                <tr class = "t-row">
+                                <tr class="t-row">
                                     <td>Conditions</td>
                                     <td>Annealed, Solution Annealed, Hot Rolled, Cold Worked</td>
                                 </tr>
-                                <tr class = "t-row">
+                                <tr class="t-row">
                                     <td>Heat Treatment</td>
                                     <td>Solution Annealing</td>
                                 </tr>
-                                <tr class = "t-row">
+                                <tr class="t-row">
                                     <td>Testing</td>
                                     <td>Tensile, Hardness, Microstructure, PMI, UT, IGC</td>
                                 </tr>
-                                <tr class = "t-row">
+                                <tr class="t-row">
                                     <td>Certification</td>
                                     <td>EN 10204 3.1 / 3.2</td>
                                 </tr>
@@ -191,7 +195,7 @@
         </div> <!-- container -->
     </section>
 
-<section id="composition" class="sec-padd-top sec-padd-bottom">
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition of Duplex Stainless Steel S31803</h2>
@@ -252,8 +256,8 @@
         </div>
     </section>
 
-{{-- 
-<section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
+    {{--
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Technical Composition of Duplex S31803</h2>
@@ -361,9 +365,9 @@
             </div>
         </div>
     </section>
---}}
+    --}}
 
-<section class="sec-padd-top sec-padd-bottom" id="mechanical">
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of Duplex Stainless Steel S31803</h2>
@@ -438,8 +442,8 @@
         </div>
     </section>
 
-{{-- 
-<section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+    {{--
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
             <div class="section-title center mt-5" id="available forms">
                 <h2>Available Forms & Size Range</h2>
@@ -504,9 +508,9 @@
 
         </div>
     </section>
---}}
+    --}}
 
-@php
+    @php
         $products = [
             [
                 'name' => 'Pipes',
@@ -546,7 +550,7 @@
         ];
     @endphp
 
-<section id="products" class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Duplex Stainless Steel S31803</h2>
@@ -576,8 +580,7 @@
                     <div class="col d-flex">
                         <a href="{{ url($product['url']) }}" class="text-decoration-none w-100">
                             <div class="product-card h-100">
-                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                    class="img-fluid w-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}" class="img-fluid w-100">
                                 <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
                             </div>
                         </a>
@@ -588,7 +591,7 @@
 
     </section>
 
-<section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -641,7 +644,7 @@
 
     </section>
 
-<section id="applications" class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Duplex Stainless Steel S31803</h2>
@@ -650,7 +653,7 @@
                     multiple industries due to its excellent strength, corrosion resistance, and machinability:
             </div>
 
-                        <div class="row g-4 justify-content-center">
+            <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
@@ -691,13 +694,13 @@
         </div>
     </section>
 
-<section class="sec-padd-top sec-padd-bottom bg-light">
+    <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
             </div>
 
-                        <div class="row g-4 mt-4">
+            <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
@@ -732,8 +735,8 @@
         </div>
     </section>
 
-{{-- 
-<section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+    {{--
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
             <div class="section-title text-center mb-4">
                 <h2>Duplex Stainless Steel S31803 Price per kg in India</h2>
@@ -751,9 +754,9 @@
             </p>
         </div>
     </section>
---}}
+    --}}
 
-<section id="faq" class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -831,63 +834,63 @@
         </div>
     </section>
 
-{{-- 
-<section class="blog-section sec-padd2">
+    {{--
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
             </div>
             <div class="row">
                 @foreach ($blogs as $blog)
-                    <!-- {{ dd($blog) }} -->
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="default-blog-news wow fadeInUp animated">
+                <!-- {{ dd($blog) }} -->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="default-blog-news wow fadeInUp animated">
 
-                            <figure class="img-holder mb-0">
-                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                    <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}"
-                                        loading="lazy">
-                                </a>
-                                <figcaption class="overlay">
-                                    <div class="box">
-                                        <div class="content">
-                                            <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                                <i class="fa fa-link" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
+                        <figure class="img-holder mb-0">
+                            <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}"
+                                    loading="lazy">
+                            </a>
+                            <figcaption class="overlay">
+                                <div class="box">
+                                    <div class="content">
+                                        <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                            <i class="fa fa-link" aria-hidden="true"></i>
+                                        </a>
                                     </div>
-                                </figcaption>
-                            </figure>
-                            <div class="lower-content">
-                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                    <h5>{{ Str::limit($blog->title, 30) }}</h5>
-                                </a>
-
-                                <div class="post-meta">
-                                    by {{ $blog->author ?? 'Admin' }} |
-                                    {{ $blog->created_at->format('F d, Y') }}
                                 </div>
+                            </figcaption>
+                        </figure>
+                        <div class="lower-content">
+                            <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                <h5>{{ Str::limit($blog->title, 30) }}</h5>
+                            </a>
 
-                                <!--<div class="text">-->
-                                <!--</div>-->
-                                {!! \Str::limit(strip_tags($blog->content, '<i>'), 120) !!}
+                            <div class="post-meta">
+                                by {{ $blog->author ?? 'Admin' }} |
+                                {{ $blog->created_at->format('F d, Y') }}
+                            </div>
+
+                            <!--<div class="text">-->
+                            <!--</div>-->
+                            {!! \Str::limit(strip_tags($blog->content, '<i>'), 120) !!}
 
                                 <div class="link">
                                     <a href="{{ route('frontend.single-blog', $blog->slug) }}" class="default_link">
                                         Read More <i class="fa fa-angle-right"></i>
                                     </a>
                                 </div>
-                            </div>
-
                         </div>
+
                     </div>
+                </div>
                 @endforeach
             </div>
         </div>
     </section>
---}}
+    --}}
 
-<section id="contact-us" class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
@@ -905,12 +908,12 @@
     </section>
 
     <!-- Extra Sections (Commented Out) -->
-{{-- datasheet --}}
+    {{-- datasheet --}}
 
-{{-- end datasheet --}}
+    {{-- end datasheet --}}
 
-{{-- 
-<section class="sec-padd-top sec-padd-bottom" id="international">
+    {{--
+    <section class="sec-padd-top sec-padd-bottom" id="international">
         <div class="container">
             <div class="section-title center">
                 <h2>International Standards & Equivalent Grades</h2>
@@ -955,11 +958,11 @@
             </div>
         </div>
     </section>
---}}
+    --}}
 
-{{-- blog section start --}}
+    {{-- blog section start --}}
 
-{{-- blog section end --}}
+    {{-- blog section end --}}
 
 @endsection
 @section('jsscripts')
@@ -1015,5 +1018,3 @@
 @endverbatim
 </script>
 @endsection
-
-

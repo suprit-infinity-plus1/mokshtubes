@@ -3,22 +3,22 @@
 <!-- 68 characters -->
 @section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Allen Bolts
     in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ISO 4762, DIN 912 & ASTM compliant
-    with worldwide delivery.')
+with worldwide delivery.')
 @section('meta_keywords', 'Allen Bolts, Allen Bolts Manufacturer, Allen Bolts Supplier, Allen Bolts Exporter, Stainless
     Steel Allen Bolts, Carbon Steel Allen Bolts, Alloy Steel Allen Bolts, Duplex Allen Bolts, Super Duplex Allen Bolts,
     Allen Head Bolts, Socket Head Cap Bolts, ISO 4762 Allen Bolts, DIN 912 Allen Bolts, High Tensile Allen Bolts, Industrial
     Allen Bolts, Internal Hex Bolts, Socket Head Cap Screws, Hex Socket Bolts, Precision Fasteners, High Strength Fasteners,
     Machine Fasteners, Industrial Fasteners, Engineering Fasteners, Corrosion Resistant Bolts, CNC Machined Fasteners,
-    Mechanical Fasteners, Heavy Duty Allen Bolts')
+Mechanical Fasteners, Heavy Duty Allen Bolts')
 @section('og_title', 'Allen Bolts Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Premium-quality Allen Bolts manufactured in Stainless Steel, Carbon Steel, Alloy Steel,
-    Duplex, Super Duplex & Nickel Alloys. ISO 4762, DIN 912 & ASTM compliant with worldwide export support.')
+Duplex, Super Duplex & Nickel Alloys. ISO 4762, DIN 912 & ASTM compliant with worldwide export support.')
 @section('og_image', asset('assets/images/product/flangs/FASTENERS.webp'))
 @section('og_type', 'product')
 @section('twitter_title', 'Allen Bolts Manufacturer in India')
 @section('twitter_description', 'Buy premium-quality Allen Bolts for machinery, automotive, aerospace, heavy
     engineering, and industrial applications. Available in multiple grades, thread types, and finishes with fast worldwide
-    delivery.')
+delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -56,7 +56,7 @@
             <a href="#features">Features & Advantages</a> |
             <a href="#mechanical-properties">Mechanical Properties</a> |
             <!-- <a href="#testing">Testing & Quality</a> |
-                        <a href="#packaging">Packaging & Export</a> | -->
+                            <a href="#packaging">Packaging & Export</a> | -->
             <a href="#why-choose-us">Why Choose Us</a> |
             <a href="#faq">FAQ</a>|
         </div>
@@ -607,47 +607,46 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100"
-                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
-                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
-                                    alt="Duplex Stainless Steel" loading="lazy">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a
-                                    href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}"
-                                    style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp') }}"
+                                        alt="Duplex Stainless Steel" loading="lazy">
+                                </a>
+                            </figure>
+                            <div class="p-2 text-center">
+                                <h6 class="mt-0 mb-0"><a
+                                        href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}"
+                                        style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Inconel Alloys -->
-                <div class="col-md-4 col-sm-6 col-12 mb-4">
-                    <div class="single-our-service border bg-white">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.inconel.grade', 'inconel-625') }}">
-                                <img class="w-100" src="{{ asset('assets/images/inconel/Inconel-625.webp') }}"
-                                    alt="Inconel Alloys" loading="lazy">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}"
-                                    style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
+                    <!-- Inconel Alloys -->
+                    <div class="col-md-4 col-sm-6 col-12 mb-4">
+                        <div class="single-our-service border bg-white">
+                            <figure class="img-box mb-0">
+                                <a class="w-100" href="{{ route('materials.inconel.grade', 'inconel-625') }}">
+                                    <img class="w-100" src="{{ asset('assets/images/inconel/Inconel-625.webp') }}"
+                                        alt="Inconel Alloys" loading="lazy">
+                                </a>
+                            </figure>
+                            <div class="p-2 text-center">
+                                <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}"
+                                        style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    {{-- Applications --}}
-    <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Applications</h2>
-                <p class="text-center pb-3">Allen Bolts are widely used in:</p>
-            </div>
+        {{-- Applications --}}
+        <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Applications</h2>
+                    <p class="text-center pb-3">Allen Bolts are widely used in:</p>
+                </div>
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
@@ -709,342 +708,342 @@
     </section>
 
 
-    {{-- Features & Advantages --}}
-    <section id="features" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Features & Advantages</h2>
-            </div>
+        {{-- Features & Advantages --}}
+        <section id="features" class="sec-padd-top sec-padd-bottom">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Features & Advantages</h2>
+                </div>
 
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-hexagon-fill"></i></div>
-                        <h4>High-strength internal hex drive design</h4>
+                <div class="row g-4 mt-4">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-hexagon-fill"></i></div>
+                            <h4>High-strength internal hex drive design</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-arrows-collapse"></i></div>
-                        <h4>Compact head for space-saving installations</h4>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-arrows-collapse"></i></div>
+                            <h4>Compact head for space-saving installations</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
-                        <h4>Excellent tightening torque capability</h4>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
+                            <h4>Excellent tightening torque capability</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Superior corrosion and oxidation resistance</h4>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                            <h4>Superior corrosion and oxidation resistance</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-diagram-3-fill"></i></div>
-                        <h4>High tensile strength and durability</h4>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-diagram-3-fill"></i></div>
+                            <h4>High tensile strength and durability</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h4>Precision-machined threads for secure fastening</h4>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                            <h4>Precision-machined threads for secure fastening</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
-                        <h4>Resistant to vibration and loosening</h4>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                            <h4>Resistant to vibration and loosening</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
-                        <h4>Long service life with minimal maintenance</h4>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                            <h4>Long service life with minimal maintenance</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
-                        <h4>Manufactured according to international quality standards</h4>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="advantage-card">
+                            <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
+                            <h4>Manufactured according to international quality standards</h4>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-                <p class="text-center">The mechanical properties of <strong>Allen Bolts</strong> depend on the selected
-                    material grade and comply with applicable ASTM, ISO, and DIN standards. The table below shows the
-                    typical mechanical properties for commonly supplied stainless steel grades.</p>
+        <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom">
+            <div class="container">
+                <div class="section-title center mb-4">
+                    <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
+                    <p class="text-center">The mechanical properties of <strong>Allen Bolts</strong> depend on the selected
+                        material grade and comply with applicable ASTM, ISO, and DIN standards. The table below shows the
+                        typical mechanical properties for commonly supplied stainless steel grades.</p>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped align-middle text-center">
+                        <thead class="table-dark">
+                            <tr class="t-row">
+                                <th>Property</th>
+                                <th>SS 304 / 304L</th>
+                                <th>SS 316 / 316L</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="t-row">
+                                <td>Tensile Strength (MPa)</td>
+                                <td>515 Min</td>
+                                <td>515 Min</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Yield Strength (MPa)</td>
+                                <td>205 Min</td>
+                                <td>205 Min</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Elongation (%)</td>
+                                <td>40 Min</td>
+                                <td>40 Min</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Hardness (HB Max)</td>
+                                <td>201</td>
+                                <td>217</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel,
+                        Alloy Steel Grade 12.9, ASTM A193 Grade B7, ASTM A193 Grade B7M, ASTM A320 Grade L7, Duplex Stainless
+                        Steel, Super Duplex Stainless Steel, Inconel&reg;, Monel&reg;, Hastelloy&reg;, and other Nickel Alloy
+                        Allen Bolts are available in accordance with their respective ASTM, ASME, ISO, and DIN material
+                        specifications upon request.</small></p>
             </div>
+        </section>
 
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>Property</th>
-                            <th>SS 304 / 304L</th>
-                            <th>SS 316 / 316L</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>Tensile Strength (MPa)</td>
-                            <td>515 Min</td>
-                            <td>515 Min</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Yield Strength (MPa)</td>
-                            <td>205 Min</td>
-                            <td>205 Min</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Elongation (%)</td>
-                            <td>40 Min</td>
-                            <td>40 Min</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Hardness (HB Max)</td>
-                            <td>201</td>
-                            <td>217</td>
-                        </tr>
-                    </tbody>
-                </table>
+        <!-- Testing & Quality Control -->
+        <!-- <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
+                            <div class="container">
+                                <div class="section-title center">
+                                    <h2>Testing & Quality</h2>
+                                </div>
+
+                                <div class="row g-4 mt-4">
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="advantage-card">
+                                            <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                                            <h4>Tensile Test</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="advantage-card">
+                                            <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                                            <h4>Proof Load Test</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="advantage-card">
+                                            <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                                            <h4>PMI Test</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="advantage-card">
+                                            <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                                            <h4>Thread Gauging</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="advantage-card">
+                                            <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
+                                            <h4>Hardness Test</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="advantage-card">
+                                            <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
+                                            <h4>Magnetic Particle Inspection</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section> -->
+
+        <!-- Packaging & Export -->
+        <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
+                            <div class="container">
+                                <div class="section-title center">
+                                    <h2>Packaging & Export</h2>
+                                </div>
+                                <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
+                                    We ensure that our <strong>Allen Bolts</strong> are securely packaged to prevent damage during transit. We
+                                    use high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
+                                    We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe,
+                                    Africa, and Southeast Asia.
+                                </p>
+                            </div>
+                        </section> -->
+
+        {{-- why choose us --}}
+        <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container text-center">
+                <div class="section-title center">
+                    <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
+                </div>
+
+                <div class="row g-4 mt-4">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+                            <h5>Leading Manufacturer, Supplier & Exporter</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-nut"></i></div>
+                            <h5>Premium Quality Industrial Fasteners</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
+                            <h5>Wide Range of Sizes, Thread Types & Material Grades</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-box-seam"></i></div>
+                            <h5>Ready Stock for Immediate Dispatch</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-tags"></i></div>
+                            <h5>Competitive Pricing</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-shield-check"></i></div>
+                            <h5>Strict Quality Assurance</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                            <h5>Global Export Experience</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-file-earmark-text"></i></div>
+                            <h5>Complete Documentation Support</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-tools"></i></div>
+                            <h5>Expert Technical Assistance</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel,
-                    Alloy Steel Grade 12.9, ASTM A193 Grade B7, ASTM A193 Grade B7M, ASTM A320 Grade L7, Duplex Stainless
-                    Steel, Super Duplex Stainless Steel, Inconel&reg;, Monel&reg;, Hastelloy&reg;, and other Nickel Alloy
-                    Allen Bolts are available in accordance with their respective ASTM, ASME, ISO, and DIN material
-                    specifications upon request.</small></p>
-        </div>
-    </section>
+        </section>
 
-    <!-- Testing & Quality Control -->
-    <!-- <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
-                        <div class="container">
+        <!--Start faq content area-->
+        <section id="faq" class="faq-content-area sec-padd2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="accordion-box">
                             <div class="section-title center">
-                                <h2>Testing & Quality</h2>
+                                <h2>Frequently Asked Questions (FAQ)</h2>
                             </div>
 
-                            <div class="row g-4 mt-4">
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="advantage-card">
-                                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                                        <h4>Tensile Test</h4>
-                                    </div>
+                            <div class="accordion accordion-block">
+                                <div class="accord-btn">
+                                    <h4>What is an Allen Bolt?</h4>
                                 </div>
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="advantage-card">
-                                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
-                                        <h4>Proof Load Test</h4>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="advantage-card">
-                                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                                        <h4>PMI Test</h4>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="advantage-card">
-                                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                                        <h4>Thread Gauging</h4>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="advantage-card">
-                                        <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
-                                        <h4>Hardness Test</h4>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="advantage-card">
-                                        <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
-                                        <h4>Magnetic Particle Inspection</h4>
-                                    </div>
+                                <div class="accord-content">
+                                    <p>
+                                        An Allen Bolt is a high-strength fastener with an internal hexagonal socket head that is
+                                        tightened using an Allen key or hex wrench for secure and precise fastening.
+                                    </p>
                                 </div>
                             </div>
-                        </div>
-                    </section> -->
 
-    <!-- Packaging & Export -->
-    <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
-                        <div class="container">
-                            <div class="section-title center">
-                                <h2>Packaging & Export</h2>
+                            <div class="accordion accordion-block">
+                                <div class="accord-btn">
+                                    <h4>Where are Allen Bolts commonly used?</h4>
+                                </div>
+                                <div class="accord-content">
+                                    <p>
+                                        Allen Bolts are widely used in industrial machinery, automotive, aerospace, robotics,
+                                        oil & gas, power plants, marine, and precision engineering applications.
+                                    </p>
+                                </div>
                             </div>
-                            <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
-                                We ensure that our <strong>Allen Bolts</strong> are securely packaged to prevent damage during transit. We
-                                use high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
-                                We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe,
-                                Africa, and Southeast Asia.
-                            </p>
-                        </div>
-                    </section> -->
 
-    {{-- why choose us --}}
-    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
-            </div>
+                            <div class="accordion accordion-block">
+                                <div class="accord-btn">
+                                    <h4>Which materials are available?</h4>
+                                </div>
+                                <div class="accord-content">
+                                    <p>
+                                        We manufacture Allen Bolts in stainless steel, carbon steel, alloy steel, duplex, super
+                                        duplex, and nickel alloy grades.
+                                    </p>
+                                </div>
+                            </div>
 
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Leading Manufacturer, Supplier & Exporter</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-nut"></i></div>
-                        <h5>Premium Quality Industrial Fasteners</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Wide Range of Sizes, Thread Types & Material Grades</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-box-seam"></i></div>
-                        <h5>Ready Stock for Immediate Dispatch</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-tags"></i></div>
-                        <h5>Competitive Pricing</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Strict Quality Assurance</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global Export Experience</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-file-earmark-text"></i></div>
-                        <h5>Complete Documentation Support</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-tools"></i></div>
-                        <h5>Expert Technical Assistance</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                            <div class="accordion accordion-block">
+                                <div class="accord-btn">
+                                    <h4>Do you provide material test certificates?</h4>
+                                </div>
+                                <div class="accord-content">
+                                    <p>
+                                        Yes. EN 10204 3.1 Material Test Certificates are supplied with every order.
+                                    </p>
+                                </div>
+                            </div>
 
-    <!--Start faq content area-->
-    <section id="faq" class="faq-content-area sec-padd2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="accordion-box">
-                        <div class="section-title center">
-                            <h2>Frequently Asked Questions (FAQ)</h2>
-                        </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What is an Allen Bolt?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    An Allen Bolt is a high-strength fastener with an internal hexagonal socket head that is
-                                    tightened using an Allen key or hex wrench for secure and precise fastening.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Where are Allen Bolts commonly used?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Allen Bolts are widely used in industrial machinery, automotive, aerospace, robotics,
-                                    oil & gas, power plants, marine, and precision engineering applications.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Which materials are available?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    We manufacture Allen Bolts in stainless steel, carbon steel, alloy steel, duplex, super
-                                    duplex, and nickel alloy grades.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Do you provide material test certificates?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Yes. EN 10204 3.1 Material Test Certificates are supplied with every order.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Can you manufacture custom sizes?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Yes. We manufacture Allen Bolts in custom diameters, lengths, thread types, surface
-                                    finishes, and material grades according to customer specifications.
-                                </p>
+                            <div class="accordion accordion-block">
+                                <div class="accord-btn">
+                                    <h4>Can you manufacture custom sizes?</h4>
+                                </div>
+                                <div class="accord-content">
+                                    <p>
+                                        Yes. We manufacture Allen Bolts in custom diameters, lengths, thread types, surface
+                                        finishes, and material grades according to customer specifications.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--End faq content area-->
+        </section>
+        <!--End faq content area-->
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="contact-cta-box text-center">
-                <h2>Request a Quote</h2>
-                <p>
-                    Looking for a trusted <strong>Allen Bolts</strong> manufacturer and supplier? Contact <strong>Moksh
-                        Tubes & Fittings LLP</strong> for premium-quality industrial Allen Bolts, competitive pricing, ready
-                    stock, technical support, and fast worldwide delivery. Request your free quotation today.
-                </p>
-                <a href="javascript:void(0);" class="contact-cta-btn btn btn-primary mt-3" data-bs-toggle="modal"
-                    data-bs-target="#contactFormModal">
-                    Get in Touch
-                </a>
+        <section class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container">
+                <div class="contact-cta-box text-center">
+                    <h2>Request a Quote</h2>
+                    <p>
+                        Looking for a trusted <strong>Allen Bolts</strong> manufacturer and supplier? Contact <strong>Moksh
+                            Tubes & Fittings LLP</strong> for premium-quality industrial Allen Bolts, competitive pricing, ready
+                        stock, technical support, and fast worldwide delivery. Request your free quotation today.
+                    </p>
+                    <a href="javascript:void(0);" class="contact-cta-btn btn btn-primary mt-3" data-bs-toggle="modal"
+                        data-bs-target="#contactFormModal">
+                        Get in Touch
+                    </a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 @endsection
 

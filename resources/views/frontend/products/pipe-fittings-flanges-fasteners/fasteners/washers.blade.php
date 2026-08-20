@@ -2,9 +2,9 @@
 @section('title', 'Industrial Washers Manufacturer, Supplier & Exporter in India | Moksh Tubes')
 @section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Industrial
     Washers in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM, DIN & ISO standards
-    with worldwide delivery.')
+with worldwide delivery.')
 @section('meta_keywords', 'Industrial Washers, Industrial Washers Manufacturer, Industrial Washers Supplier, Industrial
-    Washers Exporter')
+Washers Exporter')
 @section('og_image', asset('/assets/images/product/flangs/FASTENERS.webp'))
 @section('og_type', 'product')
 @section('content')
@@ -50,8 +50,8 @@
             <div class="row align-items-center">
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('/assets/images/product/flangs/FASTENERS.webp') }}"
-                        alt="Industrial Washers Manufacturer" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                        alt="Industrial Washers Manufacturer" class="img-fluid rounded shadow-sm" width="550" height="350"
+                        loading="lazy">
                 </div>
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
@@ -575,10 +575,9 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100"
-                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
-                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
                             </a>
                         </figure>

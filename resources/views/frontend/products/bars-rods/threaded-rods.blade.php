@@ -2,18 +2,18 @@
 @section('title', 'Threaded Rods Manufacturer, Supplier & Exporter in India | SS, Alloy & Carbon Steel')
 <!-- 91 characters -->
 @section('meta_description', 'Buy Threaded Rods in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Nickel Alloy &
-    Galvanized grades. Available in M6–M64 sizes with weight chart, specifications and worldwide supply.')
+Galvanized grades. Available in M6–M64 sizes with weight chart, specifications and worldwide supply.')
 @section('meta_keywords', 'Threaded Rods, Stainless Steel Threaded Rods, Galvanized Threaded Rods, ASTM A193 B7 Threaded
     Rods, SS 316 Threaded Rods, Metric Threaded Rods, Industrial Threaded Rods, Stud Rods, Thread Bar, All Thread Rod, Fully
-    Threaded Rod')
+Threaded Rod')
 @section('og_title', 'Threaded Rods Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Buy Threaded Rods in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Nickel Alloy &
-    Galvanized grades. Available in M6–M64 sizes with weight chart, specifications and worldwide supply.')
+Galvanized grades. Available in M6–M64 sizes with weight chart, specifications and worldwide supply.')
 @section('og_image', asset('assets/images/product/Bars-&-Rods/threaded-rods.webp'))
 @section('og_type', 'product')
 @section('twitter_title', 'Threaded Rods Manufacturer in India')
 @section('twitter_description', 'Buy premium-quality Threaded Rods in Stainless Steel, Carbon Steel, Alloy Steel, and
-    Galvanized grades with fast worldwide delivery.')
+Galvanized grades with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -696,10 +696,9 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100"
-                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
-                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
                             </a>
                         </figure>
@@ -1057,74 +1056,74 @@
 
     @verbatim
         <script type="application/ld+json">
-                {
-                  "@context": "https://schema.org/",
-                  "@type": "Product",
-                  "name": "Threaded Rods",
-                  "image": "https://mokshtubes.com/assets/images/product/Bars-&-Rods/threaded-rods.webp",
-                  "description": "Premium-quality Threaded Rods manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Nickel Alloy & Galvanized grades.",
-                  "brand": {
-                    "@type": "Brand",
-                    "name": "Moksh Tubes & Fittings LLP"
-                  },
-                  "manufacturer": {
-                    "@type": "Organization",
-                    "name": "Moksh Tubes & Fittings LLP",
-                    "url": "https://mokshtubes.com"
-                  },
-                  "offers": {
-                    "@type": "AggregateOffer",
-                    "url": "https://mokshtubes.com",
-                    "priceCurrency": "USD",
-                    "price": "1.00",
-                    "availability": "https://schema.org/InStock"
-                  },
-                  "mainEntityOfPage": {
-                    "@type": "FAQPage",
-                    "mainEntity": [
-                      {
-                        "@type": "Question",
-                        "name": "What are threaded rods used for?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Threaded rods are used for fastening, anchoring, suspension systems, structural reinforcement, machinery assembly, and industrial installations."
+                        {
+                          "@context": "https://schema.org/",
+                          "@type": "Product",
+                          "name": "Threaded Rods",
+                          "image": "https://mokshtubes.com/assets/images/product/Bars-&-Rods/threaded-rods.webp",
+                          "description": "Premium-quality Threaded Rods manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Nickel Alloy & Galvanized grades.",
+                          "brand": {
+                            "@type": "Brand",
+                            "name": "Moksh Tubes & Fittings LLP"
+                          },
+                          "manufacturer": {
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "url": "https://mokshtubes.com"
+                          },
+                          "offers": {
+                            "@type": "AggregateOffer",
+                            "url": "https://mokshtubes.com",
+                            "priceCurrency": "USD",
+                            "price": "1.00",
+                            "availability": "https://schema.org/InStock"
+                          },
+                          "mainEntityOfPage": {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                              {
+                                "@type": "Question",
+                                "name": "What are threaded rods used for?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Threaded rods are used for fastening, anchoring, suspension systems, structural reinforcement, machinery assembly, and industrial installations."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "What is the standard size range?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Standard sizes range from M6 to M64 and from 1/4\" to 4\" in imperial dimensions."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "Which threaded rod material offers the best corrosion resistance?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Stainless Steel 316, Duplex Stainless Steel, Titanium, and Nickel Alloy threaded rods provide excellent corrosion resistance."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "Can threaded rods be supplied in custom lengths?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Yes. We supply threaded rods in standard and custom lengths according to project requirements."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "Do you provide test certificates?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Yes. EN 10204 3.1 Mill Test Certificates and additional inspection reports are available."
+                                }
+                              }
+                            ]
+                          }
                         }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "What is the standard size range?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Standard sizes range from M6 to M64 and from 1/4\" to 4\" in imperial dimensions."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Which threaded rod material offers the best corrosion resistance?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Stainless Steel 316, Duplex Stainless Steel, Titanium, and Nickel Alloy threaded rods provide excellent corrosion resistance."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Can threaded rods be supplied in custom lengths?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Yes. We supply threaded rods in standard and custom lengths according to project requirements."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Do you provide test certificates?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Yes. EN 10204 3.1 Mill Test Certificates and additional inspection reports are available."
-                        }
-                      }
-                    ]
-                  }
-                }
-                </script>
+                        </script>
     @endverbatim
 @endsection

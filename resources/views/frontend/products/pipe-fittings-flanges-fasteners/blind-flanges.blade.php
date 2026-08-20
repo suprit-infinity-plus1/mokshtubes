@@ -2,19 +2,19 @@
 @section('title', 'Blind Flanges Manufacturer, Supplier & Exporter in India | Moksh Tubes')
 <!-- 76 characters -->
 @section('meta_description', 'Buy premium-quality Blind Flanges for secure pipeline end closure. Available in RF, RTJ &
-    FF facing types, multiple pressure classes, and material grades with fast worldwide delivery.')
+FF facing types, multiple pressure classes, and material grades with fast worldwide delivery.')
 @section('meta_keywords', 'Blind Flanges, Blind Flanges Manufacturer, Blind Flanges Supplier, Blind Flanges Exporter,
     Stainless Steel Blind Flanges, Carbon Steel Blind Flanges, Alloy Steel Blind Flanges, Duplex Blind Flanges, Super Duplex
     Blind Flanges, High Pressure Blind Flanges, RF Blind Flanges, RTJ Blind Flanges, FF Blind Flanges, Forged Blind Flanges,
-    Industrial Flanges, Pipeline End Closure')
+Industrial Flanges, Pipeline End Closure')
 @section('og_title', 'Blind Flanges Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Premium-quality Blind Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel,
-    Duplex, Super Duplex & Nickel Alloys. ISO 4762 & DIN 912 compliant with worldwide export support.')
+Duplex, Super Duplex & Nickel Alloys. ISO 4762 & DIN 912 compliant with worldwide export support.')
 @section('og_image', asset('assets/images/fasteners/blind-flanges.jpg'))
 @section('og_type', 'product')
 @section('twitter_title', 'Blind Flanges Manufacturer in India')
 @section('twitter_description', 'Buy premium-quality Blind Flanges for machinery, automotive, aerospace, and industrial
-    applications. Available in multiple grades, thread types, and finishes with fast worldwide delivery.')
+applications. Available in multiple grades, thread types, and finishes with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -189,46 +189,46 @@
     </section>
 
     <!-- <section id="chemical-composition" class="sec-padd-top sec-padd-bottom bg-light">
-                <div class="container">
-                    <div class="section-title center">
-                        <h2>Chemical Composition</h2>
-                    </div>
-                    <p class="text-center pb-3">
-                        The chemical composition of <strong>Blind Flanges</strong> varies depending on the selected material grade. At Moksh Tubes & Fittings LLP, our Blind Flanges are manufactured using premium-quality raw materials that comply with ASTM, ASME, ISO, DIN, EN, and BS standards, ensuring excellent corrosion resistance, high strength, and long service life.
-                    </p>
+                    <div class="container">
+                        <div class="section-title center">
+                            <h2>Chemical Composition</h2>
+                        </div>
+                        <p class="text-center pb-3">
+                            The chemical composition of <strong>Blind Flanges</strong> varies depending on the selected material grade. At Moksh Tubes & Fittings LLP, our Blind Flanges are manufactured using premium-quality raw materials that comply with ASTM, ASME, ISO, DIN, EN, and BS standards, ensuring excellent corrosion resistance, high strength, and long service life.
+                        </p>
 
-                    <div class="row justify-content-center">
-                        <div class="col-lg-12">
-                            <div class="table-responsive">
-                                <table class="table table-bordered table-striped align-middle text-center">
-                                    <thead class="table-dark">
-                                        <tr class="t-row">
-                                            <th>Element</th>
-                                            <th>SS 304 (%)</th>
-                                            <th>SS 304L (%)</th>
-                                            <th>SS 316 (%)</th>
-                                            <th>SS 316L (%)</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
-                                        <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
-                                        <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
-                                        <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
-                                        <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
-                                        <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
-                                        <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
-                                        <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
-                                        <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
-                                        <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
-                                    </tbody>
-                                </table>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped align-middle text-center">
+                                        <thead class="table-dark">
+                                            <tr class="t-row">
+                                                <th>Element</th>
+                                                <th>SS 304 (%)</th>
+                                                <th>SS 304L (%)</th>
+                                                <th>SS 316 (%)</th>
+                                                <th>SS 316L (%)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
+                                            <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
+                                            <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
+                                            <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
+                                            <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
+                                            <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
+                                            <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
+                                            <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
+                                            <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
+                                            <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
+                        <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel Grade 12.9, ASTM A193 B7, ASTM A320 L7, Duplex, Super Duplex, and Nickel Alloy Blind Flanges are also available in accordance with the relevant ASTM, ISO, and DIN material specifications.</small></p>
                     </div>
-                    <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel Grade 12.9, ASTM A193 B7, ASTM A320 L7, Duplex, Super Duplex, and Nickel Alloy Blind Flanges are also available in accordance with the relevant ASTM, ISO, and DIN material specifications.</small></p>
-                </div>
-            </section> -->
+                </section> -->
 
     <!-- charts -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom">
@@ -521,47 +521,46 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100"
-                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
-                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
-                                    alt="Duplex Stainless Steel" loading="lazy">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a
-                                    href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}"
-                                    style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp') }}"
+                                        alt="Duplex Stainless Steel" loading="lazy">
+                                </a>
+                            </figure>
+                            <div class="p-2 text-center">
+                                <h6 class="mt-0 mb-0"><a
+                                        href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}"
+                                        style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Inconel Alloys -->
-                <div class="col-md-4 col-sm-6 col-12 mb-4">
-                    <div class="single-our-service border bg-white">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.inconel.grade', 'inconel-625') }}">
-                                <img class="w-100" src="{{ asset('assets/images/inconel/Inconel-625.webp') }}"
-                                    alt="Inconel Alloys" loading="lazy">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}"
-                                    style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
+                    <!-- Inconel Alloys -->
+                    <div class="col-md-4 col-sm-6 col-12 mb-4">
+                        <div class="single-our-service border bg-white">
+                            <figure class="img-box mb-0">
+                                <a class="w-100" href="{{ route('materials.inconel.grade', 'inconel-625') }}">
+                                    <img class="w-100" src="{{ asset('assets/images/inconel/Inconel-625.webp') }}"
+                                        alt="Inconel Alloys" loading="lazy">
+                                </a>
+                            </figure>
+                            <div class="p-2 text-center">
+                                <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}"
+                                        style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    {{-- Applications --}}
-    <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Applications</h2>
-                <p class="text-center pb-3">Blind Flanges are widely used in:</p>
-            </div>
+        {{-- Applications --}}
+        <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Applications</h2>
+                    <p class="text-center pb-3">Blind Flanges are widely used in:</p>
+                </div>
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
@@ -622,12 +621,12 @@
         </div>
     </section>
 
-    {{-- Features & Advantages --}}
-    <section id="features" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Features & Advantages</h2>
-            </div>
+        {{-- Features & Advantages --}}
+        <section id="features" class="sec-padd-top sec-padd-bottom">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Features & Advantages</h2>
+                </div>
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
@@ -689,478 +688,478 @@
     </section>
 
 
-    <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-                <p class="text-center">The mechanical properties of <strong>Blind Flanges</strong> depend on the selected
-                    material grade and comply with applicable ASTM, ISO, and DIN standards. The table below shows the
-                    typical mechanical properties for commonly supplied stainless steel grades.</p>
-            </div>
-
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>Property</th>
-                            <th>SS 304 / 304L</th>
-                            <th>SS 316 / 316L</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>Tensile Strength (MPa)</td>
-                            <td>515 Min</td>
-                            <td>515 Min</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Yield Strength (MPa)</td>
-                            <td>205 Min</td>
-                            <td>205 Min</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Elongation (%)</td>
-                            <td>40 Min</td>
-                            <td>40 Min</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Hardness (HB Max)</td>
-                            <td>201</td>
-                            <td>217</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel,
-                    Alloy Steel Grade 12.9, ASTM A193 B7, ASTM A320 L7, Duplex, Super Duplex, and Nickel Alloy Blind Flanges
-                    are available in accordance with their respective ASTM, ISO, and DIN material specifications upon
-                    request.</small></p>
-        </div>
-    </section>
-
-    <!-- Testing & Quality Control -->
-    <!-- <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
+        <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom">
             <div class="container">
+                <div class="section-title center mb-4">
+                    <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
+                    <p class="text-center">The mechanical properties of <strong>Blind Flanges</strong> depend on the selected
+                        material grade and comply with applicable ASTM, ISO, and DIN standards. The table below shows the
+                        typical mechanical properties for commonly supplied stainless steel grades.</p>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped align-middle text-center">
+                        <thead class="table-dark">
+                            <tr class="t-row">
+                                <th>Property</th>
+                                <th>SS 304 / 304L</th>
+                                <th>SS 316 / 316L</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="t-row">
+                                <td>Tensile Strength (MPa)</td>
+                                <td>515 Min</td>
+                                <td>515 Min</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Yield Strength (MPa)</td>
+                                <td>205 Min</td>
+                                <td>205 Min</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Elongation (%)</td>
+                                <td>40 Min</td>
+                                <td>40 Min</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Hardness (HB Max)</td>
+                                <td>201</td>
+                                <td>217</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel,
+                        Alloy Steel Grade 12.9, ASTM A193 B7, ASTM A320 L7, Duplex, Super Duplex, and Nickel Alloy Blind Flanges
+                        are available in accordance with their respective ASTM, ISO, and DIN material specifications upon
+                        request.</small></p>
+            </div>
+        </section>
+
+        <!-- Testing & Quality Control -->
+        <!-- <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
+                <div class="container">
+                    <div class="section-title center">
+                        <h2>Testing & Quality</h2>
+                    </div>
+
+                    <div class="row g-4 mt-4">
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                                <h4>Tensile Test</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                                <h4>Proof Load Test</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                                <h4>PMI Test</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                                <h4>Thread Gauging</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
+                                <h4>Hardness Test</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
+                                <h4>Magnetic Particle Inspection</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section> -->
+
+        <!-- Packaging & Export -->
+        <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom">
+                <div class="container text-center">
+                    <div class="section-title center mb-4">
+                        <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
+                    </div>
+                    <p class="fs-5">We ensure that our <strong>Blind Flanges</strong> are securely packaged to prevent damage during
+                        transit. We use high-quality wooden crates, pallets, and shrink-wrapping for export shipments.</p>
+                    <p class="fs-5">We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
+                        Europe, Africa, and Southeast Asia.</p>
+                </div>
+            </section> -->
+
+        {{-- why choose us --}}
+        <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container text-center">
                 <div class="section-title center">
-                    <h2>Testing & Quality</h2>
+                    <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
                 </div>
 
                 <div class="row g-4 mt-4">
-
                     <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                            <h4>Tensile Test</h4>
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+                            <h5>Leading Manufacturer, Supplier & Exporter</h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
-                            <h4>Proof Load Test</h4>
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-nut"></i></div>
+                            <h5>Premium Quality Industrial Fasteners</h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                            <h4>PMI Test</h4>
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
+                            <h5>Wide Range of Sizes, Thread Types & Material Grades</h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                            <h4>Thread Gauging</h4>
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-box-seam"></i></div>
+                            <h5>Ready Stock for Immediate Dispatch</h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
-                            <h4>Hardness Test</h4>
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-tags"></i></div>
+                            <h5>Competitive Pricing</h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
-                            <h4>Magnetic Particle Inspection</h4>
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-shield-check"></i></div>
+                            <h5>Strict Quality Assurance</h5>
                         </div>
                     </div>
-
-                </div>
-            </div>
-        </section> -->
-
-    <!-- Packaging & Export -->
-    <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom">
-            <div class="container text-center">
-                <div class="section-title center mb-4">
-                    <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
-                </div>
-                <p class="fs-5">We ensure that our <strong>Blind Flanges</strong> are securely packaged to prevent damage during
-                    transit. We use high-quality wooden crates, pallets, and shrink-wrapping for export shipments.</p>
-                <p class="fs-5">We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
-                    Europe, Africa, and Southeast Asia.</p>
-            </div>
-        </section> -->
-
-    {{-- why choose us --}}
-    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Leading Manufacturer, Supplier & Exporter</h5>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                            <h5>Global Export Experience</h5>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-nut"></i></div>
-                        <h5>Premium Quality Industrial Fasteners</h5>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-file-earmark-text"></i></div>
+                            <h5>Complete Documentation Support</h5>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Wide Range of Sizes, Thread Types & Material Grades</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-box-seam"></i></div>
-                        <h5>Ready Stock for Immediate Dispatch</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-tags"></i></div>
-                        <h5>Competitive Pricing</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Strict Quality Assurance</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global Export Experience</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-file-earmark-text"></i></div>
-                        <h5>Complete Documentation Support</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-tools"></i></div>
-                        <h5>Expert Technical Assistance</h5>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="why-banner-block">
+                            <div class="why-banner-icon"><i class="bi bi-tools"></i></div>
+                            <h5>Expert Technical Assistance</h5>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    {{-- Packaging & Export --}}
-    <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
+        {{-- Packaging & Export --}}
+        <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
+                <div class="container">
+                    <div class="section-title center">
+                        <h2>Packaging & Export</h2>
+                    </div>
+                    <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
+                        We ensure secure and standardized packaging to prevent damage during transit. Our <strong>Blind
+                            Flanges</strong> are packed in high-quality wooden crates, shrink-wrapped, and securely strapped on
+                        pallets for international shipping.
+                        Moksh Tubes & Fittings LLP is a trusted exporter with a strong presence in the Middle East, Europe, Africa,
+                        and Southeast Asia.
+                    </p>
+                </div>
+            </section> -->
+
+        {{-- Export Locations --}}
+        <!-- <section class="sec-padd-top sec-padd-bottom bg-light">
+                <div class="container text-center">
+                    <div class="section-title center">
+                        <h2>Global Export Locations</h2>
+                    </div>
+                    <div class="row g-3 justify-content-center mt-4">
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Saudi Arabia</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">UAE</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Qatar</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Oman</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Kuwait</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Bahrain</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Egypt</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">South Africa</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Nigeria</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Indonesia</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Malaysia</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Vietnam</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Thailand</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Australia</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">United Kingdom</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Germany</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">United States</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Canada</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Mexico</span></div>
+                        <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Brazil</span></div>
+                    </div>
+                </div>
+            </section> -->
+
+        {{-- faq --}}
+        <section id="faq" class="sec-padd-top sec-padd-bottom">
             <div class="container">
-                <div class="section-title center">
-                    <h2>Packaging & Export</h2>
+                <div class="section-title center mb-5 text-center">
+                    <h2 style="color: #174268;">Frequently Asked Questions (FAQ)</h2>
+                    <hr style="width: 50px; border-top: 2px solid #db7227; opacity: 1; margin: 15px auto;">
                 </div>
-                <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
-                    We ensure secure and standardized packaging to prevent damage during transit. Our <strong>Blind
-                        Flanges</strong> are packed in high-quality wooden crates, shrink-wrapped, and securely strapped on
-                    pallets for international shipping.
-                    Moksh Tubes & Fittings LLP is a trusted exporter with a strong presence in the Middle East, Europe, Africa,
-                    and Southeast Asia.
-                </p>
-            </div>
-        </section> -->
 
-    {{-- Export Locations --}}
-    <!-- <section class="sec-padd-top sec-padd-bottom bg-light">
-            <div class="container text-center">
-                <div class="section-title center">
-                    <h2>Global Export Locations</h2>
-                </div>
-                <div class="row g-3 justify-content-center mt-4">
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Saudi Arabia</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">UAE</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Qatar</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Oman</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Kuwait</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Bahrain</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Egypt</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">South Africa</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Nigeria</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Indonesia</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Malaysia</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Vietnam</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Thailand</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Australia</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">United Kingdom</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Germany</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">United States</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Canada</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Mexico</span></div>
-                    <div class="col-auto"><span class="badge bg-secondary px-3 py-2 fs-6">Brazil</span></div>
-                </div>
-            </div>
-        </section> -->
+                <div class="accordion faq-accordion" id="faqAccordion">
 
-    {{-- faq --}}
-    <section id="faq" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-5 text-center">
-                <h2 style="color: #174268;">Frequently Asked Questions (FAQ)</h2>
-                <hr style="width: 50px; border-top: 2px solid #db7227; opacity: 1; margin: 15px auto;">
-            </div>
-
-            <div class="accordion faq-accordion" id="faqAccordion">
-
-                <!-- FAQ Item 1 -->
-                <div class="accordion-item mb-3 border-0">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            What is a Blind Flange?
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#faqAccordion">
-                        <div class="accordion-body text-muted">
-                            A Blind Flange is a solid disc used to block off a pipeline or to create a stop. It is heavily
-                            stressed due to system pressure, making it crucial for safely terminating piping systems and
-                            pressure vessels.
+                    <!-- FAQ Item 1 -->
+                    <div class="accordion-item mb-3 border-0">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is a Blind Flange?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-muted">
+                                A Blind Flange is a solid disc used to block off a pipeline or to create a stop. It is heavily
+                                stressed due to system pressure, making it crucial for safely terminating piping systems and
+                                pressure vessels.
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- FAQ Item 2 -->
-                <div class="accordion-item mb-3 border-0">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            What is the difference between Raised Face (RF) and Ring Type Joint (RTJ) Blind Flanges?
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#faqAccordion">
-                        <div class="accordion-body text-muted">
-                            A Raised Face (RF) Blind Flange has a slightly raised surface around the bore area to
-                            concentrate gasket pressure. An RTJ (Ring Type Joint) Blind Flange has a machined groove
-                            designed to accommodate a metal ring gasket, providing a high-integrity seal for high-pressure
-                            and high-temperature applications.
+                    <!-- FAQ Item 2 -->
+                    <div class="accordion-item mb-3 border-0">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What is the difference between Raised Face (RF) and Ring Type Joint (RTJ) Blind Flanges?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-muted">
+                                A Raised Face (RF) Blind Flange has a slightly raised surface around the bore area to
+                                concentrate gasket pressure. An RTJ (Ring Type Joint) Blind Flange has a machined groove
+                                designed to accommodate a metal ring gasket, providing a high-integrity seal for high-pressure
+                                and high-temperature applications.
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- FAQ Item 3 -->
-                <div class="accordion-item mb-3 border-0">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            What materials are Moksh Tubes Blind Flanges available in?
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#faqAccordion">
-                        <div class="accordion-body text-muted">
-                            We manufacture Blind Flanges in Stainless Steel (304, 316), Carbon Steel, Alloy Steel, Duplex,
-                            Super Duplex, Nickel Alloys, and Titanium, catering to diverse industrial requirements.
+                    <!-- FAQ Item 3 -->
+                    <div class="accordion-item mb-3 border-0">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What materials are Moksh Tubes Blind Flanges available in?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-muted">
+                                We manufacture Blind Flanges in Stainless Steel (304, 316), Carbon Steel, Alloy Steel, Duplex,
+                                Super Duplex, Nickel Alloys, and Titanium, catering to diverse industrial requirements.
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- FAQ Item 4 -->
-                <div class="accordion-item mb-3 border-0">
-                    <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Are your Blind Flanges manufactured to international standards?
-                        </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                        data-bs-parent="#faqAccordion">
-                        <div class="accordion-body text-muted">
-                            Yes, our Blind Flanges are manufactured in strict compliance with ASME B16.5, ASME B16.47, DIN,
-                            EN 1092-1, and AWWA standards.
+                    <!-- FAQ Item 4 -->
+                    <div class="accordion-item mb-3 border-0">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Are your Blind Flanges manufactured to international standards?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-muted">
+                                Yes, our Blind Flanges are manufactured in strict compliance with ASME B16.5, ASME B16.47, DIN,
+                                EN 1092-1, and AWWA standards.
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- FAQ Item 5 -->
-                <div class="accordion-item border-0">
-                    <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            Can you manufacture custom sizes and pressure classes?
-                        </button>
-                    </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                        data-bs-parent="#faqAccordion">
-                        <div class="accordion-body text-muted">
-                            Yes, we can manufacture Blind Flanges in non-standard sizes, heavy wall thicknesses, and special
-                            facings based on customer drawings and specifications.
+                    <!-- FAQ Item 5 -->
+                    <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Can you manufacture custom sizes and pressure classes?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-muted">
+                                Yes, we can manufacture Blind Flanges in non-standard sizes, heavy wall thicknesses, and special
+                                facings based on customer drawings and specifications.
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="contact-cta-box">
-                <h2>Request a Quote</h2>
-                <p>
-                    Looking for a trusted <strong>Blind Flanges</strong> manufacturer and supplier? Contact <strong>Moksh
-                        Tubes & Fittings LLP</strong> for premium-quality industrial blind flanges, competitive pricing,
-                    ready stock, technical support, and fast worldwide delivery. Request your free quotation today.
-                </p>
-                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
-                    data-bs-target="#contactFormModal">
-                    Get in Touch
-                </a>
+        <section class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container">
+                <div class="contact-cta-box">
+                    <h2>Request a Quote</h2>
+                    <p>
+                        Looking for a trusted <strong>Blind Flanges</strong> manufacturer and supplier? Contact <strong>Moksh
+                            Tubes & Fittings LLP</strong> for premium-quality industrial blind flanges, competitive pricing,
+                        ready stock, technical support, and fast worldwide delivery. Request your free quotation today.
+                    </p>
+                    <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                        data-bs-target="#contactFormModal">
+                        Get in Touch
+                    </a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
-    <style>
-        .faq-accordion .accordion-button {
-            background-color: #e9ecef !important;
-            color: #495057 !important;
-            border: none;
-            box-shadow: none;
-            font-size: 15px;
-            padding: 15px 20px;
-            border-radius: 0 !important;
-        }
+        <style>
+            .faq-accordion .accordion-button {
+                background-color: #e9ecef !important;
+                color: #495057 !important;
+                border: none;
+                box-shadow: none;
+                font-size: 15px;
+                padding: 15px 20px;
+                border-radius: 0 !important;
+            }
 
-        .faq-accordion .accordion-button:focus {
-            box-shadow: none;
-        }
+            .faq-accordion .accordion-button:focus {
+                box-shadow: none;
+            }
 
-        .faq-accordion .accordion-button:not(.collapsed) {
-            background-color: #db7227 !important;
-            color: #ffffff !important;
-            box-shadow: none;
-        }
+            .faq-accordion .accordion-button:not(.collapsed) {
+                background-color: #db7227 !important;
+                color: #ffffff !important;
+                box-shadow: none;
+            }
 
-        .faq-accordion .accordion-button::after {
-            background-image: none !important;
-            content: '+';
-            font-size: 20px;
-            color: #fff;
-            background-color: #174268;
-            width: 25px;
-            height: 25px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 3px;
-            font-weight: bold;
-            line-height: 1;
-        }
+            .faq-accordion .accordion-button::after {
+                background-image: none !important;
+                content: '+';
+                font-size: 20px;
+                color: #fff;
+                background-color: #174268;
+                width: 25px;
+                height: 25px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 3px;
+                font-weight: bold;
+                line-height: 1;
+            }
 
-        .faq-accordion .accordion-button:not(.collapsed)::after {
-            content: '-';
-        }
+            .faq-accordion .accordion-button:not(.collapsed)::after {
+                content: '-';
+            }
 
-        .faq-accordion .accordion-item {
-            border: none;
-            margin-bottom: 5px;
-            background-color: transparent;
-        }
+            .faq-accordion .accordion-item {
+                border: none;
+                margin-bottom: 5px;
+                background-color: transparent;
+            }
 
-        .faq-accordion .accordion-body {
-            background-color: #fff;
-            border: 1px solid #e9ecef;
-            border-top: none;
-            font-size: 15px;
-            padding: 20px;
-        }
-    </style>
+            .faq-accordion .accordion-body {
+                background-color: #fff;
+                border: 1px solid #e9ecef;
+                border-top: none;
+                font-size: 15px;
+                padding: 20px;
+            }
+        </style>
 
-    @verbatim
-        <script type="application/ld+json">
-                {
-                  "@context": "https://schema.org/",
-                  "@type": "Product",
-                  "name": "Blind Flanges",
-                  "image": "https://mokshtubes.com/assets/images/fasteners/blind-flanges.jpg",
-                  "description": "Premium-quality Blind Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. Compliant with ISO 4762 & DIN 912 standards.",
-                  "brand": {
-                    "@type": "Brand",
-                    "name": "Moksh Tubes & Fittings LLP"
-                  },
-                  "manufacturer": {
-                    "@type": "Organization",
-                    "name": "Moksh Tubes & Fittings LLP",
-                    "url": "https://mokshtubes.com"
-                  },
-                  "offers": {
-                    "@type": "AggregateOffer",
-                    "url": "https://mokshtubes.com",
-                    "priceCurrency": "USD",
-                    "price": "1.00",
-                    "availability": "https://schema.org/InStock"
-                  },
-                  "mainEntityOfPage": {
-                    "@type": "FAQPage",
-                    "mainEntity": [
-                      {
-                        "@type": "Question",
-                        "name": "\"What is a Blind Flange?\"",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "\"A Blind Flange is a solid disc used to block off a pipeline or to create a stop. It is heavily stressed due to system pressure, making it crucial for safely terminating piping systems and pressure vessels.\""
-                        }
+        @verbatim
+            <script type="application/ld+json">
+                    {
+                      "@context": "https://schema.org/",
+                      "@type": "Product",
+                      "name": "Blind Flanges",
+                      "image": "https://mokshtubes.com/assets/images/fasteners/blind-flanges.jpg",
+                      "description": "Premium-quality Blind Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. Compliant with ISO 4762 & DIN 912 standards.",
+                      "brand": {
+                        "@type": "Brand",
+                        "name": "Moksh Tubes & Fittings LLP"
                       },
-                      {
-                        "@type": "Question",
-                        "name": "\"What is the difference between Raised Face (RF) and Ring Type Joint (RTJ) Blind Flanges?\"",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "\"A Raised Face (RF) Blind Flange has a slightly raised surface around the bore area to concentrate gasket pressure. An RTJ (Ring Type Joint) Blind Flange has a machined groove designed to accommodate a metal ring gasket, providing a high-integrity seal for high-pressure and high-temperature applications.\""
-                        }
+                      "manufacturer": {
+                        "@type": "Organization",
+                        "name": "Moksh Tubes & Fittings LLP",
+                        "url": "https://mokshtubes.com"
                       },
-                      {
-                        "@type": "Question",
-                        "name": "\"What materials are Moksh Tubes Blind Flanges available in?\"",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "\"We manufacture Blind Flanges in Stainless Steel (304, 316), Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys, and Titanium, catering to diverse industrial requirements.\""
-                        }
+                      "offers": {
+                        "@type": "AggregateOffer",
+                        "url": "https://mokshtubes.com",
+                        "priceCurrency": "USD",
+                        "price": "1.00",
+                        "availability": "https://schema.org/InStock"
                       },
-                      {
-                        "@type": "Question",
-                        "name": "\"Are your Blind Flanges manufactured to international standards?\"",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "\"Yes, our Blind Flanges are manufactured in strict compliance with ASME B16.5, ASME B16.47, DIN, EN 1092-1, and AWWA standards.\""
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "\"Can you manufacture custom sizes and pressure classes?\"",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "\"Yes, we can manufacture Blind Flanges in non-standard sizes, heavy wall thicknesses, and special facings based on customer drawings and specifications.\""
-                        }
+                      "mainEntityOfPage": {
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                          {
+                            "@type": "Question",
+                            "name": "\"What is a Blind Flange?\"",
+                            "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "\"A Blind Flange is a solid disc used to block off a pipeline or to create a stop. It is heavily stressed due to system pressure, making it crucial for safely terminating piping systems and pressure vessels.\""
+                            }
+                          },
+                          {
+                            "@type": "Question",
+                            "name": "\"What is the difference between Raised Face (RF) and Ring Type Joint (RTJ) Blind Flanges?\"",
+                            "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "\"A Raised Face (RF) Blind Flange has a slightly raised surface around the bore area to concentrate gasket pressure. An RTJ (Ring Type Joint) Blind Flange has a machined groove designed to accommodate a metal ring gasket, providing a high-integrity seal for high-pressure and high-temperature applications.\""
+                            }
+                          },
+                          {
+                            "@type": "Question",
+                            "name": "\"What materials are Moksh Tubes Blind Flanges available in?\"",
+                            "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "\"We manufacture Blind Flanges in Stainless Steel (304, 316), Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys, and Titanium, catering to diverse industrial requirements.\""
+                            }
+                          },
+                          {
+                            "@type": "Question",
+                            "name": "\"Are your Blind Flanges manufactured to international standards?\"",
+                            "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "\"Yes, our Blind Flanges are manufactured in strict compliance with ASME B16.5, ASME B16.47, DIN, EN 1092-1, and AWWA standards.\""
+                            }
+                          },
+                          {
+                            "@type": "Question",
+                            "name": "\"Can you manufacture custom sizes and pressure classes?\"",
+                            "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "\"Yes, we can manufacture Blind Flanges in non-standard sizes, heavy wall thicknesses, and special facings based on customer drawings and specifications.\""
+                            }
+                          }
+                        ]
                       }
-                    ]
-                  }
-                }
-                </script>
-    @endverbatim
+                    }
+                    </script>
+        @endverbatim
 @endsection

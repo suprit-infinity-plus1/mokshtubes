@@ -2,17 +2,17 @@
 @section('title', 'Hexagon Bars Manufacturer, Supplier & Exporter | Stainless & Brass')
 <!-- 84 characters -->
 @section('meta_description', 'Moksh Tubes & Fittings LLP manufactures and exports Hexagon Bars in Stainless Steel,
-    Carbon Steel, Alloy Steel, Duplex, Brass, Aluminium & Titanium grades.')
+Carbon Steel, Alloy Steel, Duplex, Brass, Aluminium & Titanium grades.')
 @section('meta_keywords', 'Hexagon Bars, Hex Bars, Hexagonal Bars, Stainless Steel Hex Bars, Alloy Steel Hex Bars, Brass
-    Hex Bars, Aluminium Hex Bars, Carbon Steel Hex Bars, Duplex Hex Bars, Precision Hex Bars, Bright Drawn Hex Bars')
+Hex Bars, Aluminium Hex Bars, Carbon Steel Hex Bars, Duplex Hex Bars, Precision Hex Bars, Bright Drawn Hex Bars')
 @section('og_title', 'Hexagon Bars Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Premium-quality Hexagon Bars manufactured in Stainless Steel, Carbon Steel, Alloy Steel,
-    Duplex, Brass, Aluminium & Titanium grades in custom sizes with worldwide delivery.')
+Duplex, Brass, Aluminium & Titanium grades in custom sizes with worldwide delivery.')
 @section('og_image', asset('assets/images/product/Hexagon-Bars.webp'))
 @section('og_type', 'product')
 @section('twitter_title', 'Hexagon Bars Manufacturer in India')
 @section('twitter_description', 'Buy premium-quality Hexagon Bars for precision machining, fastener manufacturing, and
-    structural fabrication. Fast worldwide delivery.')
+structural fabrication. Fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -554,10 +554,9 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100"
-                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
-                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
                             </a>
                         </figure>
@@ -907,74 +906,74 @@
 
     @verbatim
         <script type="application/ld+json">
-                {
-                  "@context": "https://schema.org/",
-                  "@type": "Product",
-                  "name": "Hexagon Bars",
-                  "image": "https://mokshtubes.com/assets/images/product/Hexagon-Bars.webp",
-                  "description": "Premium-quality Hexagon Bars manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Brass, Aluminium & Titanium grades.",
-                  "brand": {
-                    "@type": "Brand",
-                    "name": "Moksh Tubes & Fittings LLP"
-                  },
-                  "manufacturer": {
-                    "@type": "Organization",
-                    "name": "Moksh Tubes & Fittings LLP",
-                    "url": "https://mokshtubes.com"
-                  },
-                  "offers": {
-                    "@type": "AggregateOffer",
-                    "url": "https://mokshtubes.com",
-                    "priceCurrency": "USD",
-                    "price": "1.00",
-                    "availability": "https://schema.org/InStock"
-                  },
-                  "mainEntityOfPage": {
-                    "@type": "FAQPage",
-                    "mainEntity": [
-                      {
-                        "@type": "Question",
-                        "name": "What are Hexagon Bars?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Hexagon Bars are six-sided solid metal bars used for precision machining, fastener manufacturing, engineering components, and structural applications. Their shape provides better gripping and easier machining compared to round bars."
+                        {
+                          "@context": "https://schema.org/",
+                          "@type": "Product",
+                          "name": "Hexagon Bars",
+                          "image": "https://mokshtubes.com/assets/images/product/Hexagon-Bars.webp",
+                          "description": "Premium-quality Hexagon Bars manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Brass, Aluminium & Titanium grades.",
+                          "brand": {
+                            "@type": "Brand",
+                            "name": "Moksh Tubes & Fittings LLP"
+                          },
+                          "manufacturer": {
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "url": "https://mokshtubes.com"
+                          },
+                          "offers": {
+                            "@type": "AggregateOffer",
+                            "url": "https://mokshtubes.com",
+                            "priceCurrency": "USD",
+                            "price": "1.00",
+                            "availability": "https://schema.org/InStock"
+                          },
+                          "mainEntityOfPage": {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                              {
+                                "@type": "Question",
+                                "name": "What are Hexagon Bars?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Hexagon Bars are six-sided solid metal bars used for precision machining, fastener manufacturing, engineering components, and structural applications. Their shape provides better gripping and easier machining compared to round bars."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "Which materials are available?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "We supply Hexagon Bars in Stainless Steel, Carbon Steel, Alloy Steel, Duplex Stainless Steel, Super Duplex, Nickel Alloys, Titanium, Aluminium, Brass, and Copper."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "What sizes do you manufacture?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Standard sizes range from 6 mm to 75 mm across flats, with custom sizes up to 100 mm available on request."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "What surface finishes are available?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Available finishes include Mill Finish, Bright Finish, Polished, Pickled & Passivated, Shot Blasted, and Precision Ground."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "What industries use Hexagon Bars?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Hexagon Bars are widely used in automotive, aerospace, construction, oil & gas, petrochemical, marine, fastener manufacturing, electrical, and heavy engineering industries."
+                                }
+                              }
+                            ]
+                          }
                         }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Which materials are available?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "We supply Hexagon Bars in Stainless Steel, Carbon Steel, Alloy Steel, Duplex Stainless Steel, Super Duplex, Nickel Alloys, Titanium, Aluminium, Brass, and Copper."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "What sizes do you manufacture?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Standard sizes range from 6 mm to 75 mm across flats, with custom sizes up to 100 mm available on request."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "What surface finishes are available?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Available finishes include Mill Finish, Bright Finish, Polished, Pickled & Passivated, Shot Blasted, and Precision Ground."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "What industries use Hexagon Bars?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Hexagon Bars are widely used in automotive, aerospace, construction, oil & gas, petrochemical, marine, fastener manufacturing, electrical, and heavy engineering industries."
-                        }
-                      }
-                    ]
-                  }
-                }
-                </script>
+                        </script>
     @endverbatim
 @endsection

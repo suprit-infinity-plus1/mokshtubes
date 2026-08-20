@@ -2,21 +2,21 @@
 @section('title', 'Hex Bolts Manufacturer, Supplier & Exporter in India | Moksh Tubes')
 @section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Hex Bolts in
     Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A193, DIN & ISO standards with
-    worldwide delivery.')
+worldwide delivery.')
 @section('meta_keywords', 'Hex Bolts, Hex Bolts Manufacturer, Hex Bolts Supplier, Hex Bolts Exporter, Stainless Steel
     Hex Bolts, Carbon Steel Hex Bolts, Alloy Steel Hex Bolts, Duplex Hex Bolts, Super Duplex Hex Bolts, ASTM A193 Hex Bolts,
     ASTM A320 Hex Bolts, DIN 931 Hex Bolts, DIN 933 Hex Bolts, ISO 4014 Hex Bolts, ISO 4017 Hex Bolts, Heavy Duty Hex Bolts,
     Industrial Fasteners, High Tensile Hex Bolts, Structural Bolts, Full Thread Hex Bolts, Partial Thread Hex Bolts,
     Corrosion Resistant Bolts, Heavy Hex Bolts, Mechanical Fasteners, Construction Fasteners, Pipeline Fasteners,
-    Engineering Fasteners, Precision Fasteners')
+Engineering Fasteners, Precision Fasteners')
 @section('og_title', 'Hex Bolts Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Premium-quality Hex Bolts manufactured in Stainless Steel, Carbon Steel, Alloy Steel,
-    Duplex, Super Duplex & Nickel Alloys. ASTM A193, DIN & ISO compliant with worldwide export support.')
+Duplex, Super Duplex & Nickel Alloys. ASTM A193, DIN & ISO compliant with worldwide export support.')
 @section('og_image', asset('assets/images/fasteners/hax-bolt.png'))
 @section('og_type', 'product')
 @section('twitter_title', 'Hex Bolts Manufacturer in India')
 @section('twitter_description', 'Buy premium-quality Hex Bolts for construction, structural steel, industrial machinery,
-    and piping systems. Available in multiple grades, thread types, and finishes with fast worldwide delivery.')
+and piping systems. Available in multiple grades, thread types, and finishes with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -553,47 +553,46 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100"
-                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
-                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
-                                    alt="Duplex Stainless Steel" loading="lazy">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a
-                                    href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}"
-                                    style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp') }}"
+                                        alt="Duplex Stainless Steel" loading="lazy">
+                                </a>
+                            </figure>
+                            <div class="p-2 text-center">
+                                <h6 class="mt-0 mb-0"><a
+                                        href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}"
+                                        style="color: inherit; text-decoration: none;">Duplex Stainless Steel</a></h6>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Inconel Alloys -->
-                <div class="col-md-4 col-sm-6 col-12 mb-4">
-                    <div class="single-our-service border bg-white">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.inconel.grade', 'inconel-625') }}">
-                                <img class="w-100" src="{{ asset('assets/images/inconel/Inconel-625.webp') }}"
-                                    alt="Inconel Alloys" loading="lazy">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}"
-                                    style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
+                    <!-- Inconel Alloys -->
+                    <div class="col-md-4 col-sm-6 col-12 mb-4">
+                        <div class="single-our-service border bg-white">
+                            <figure class="img-box mb-0">
+                                <a class="w-100" href="{{ route('materials.inconel.grade', 'inconel-625') }}">
+                                    <img class="w-100" src="{{ asset('assets/images/inconel/Inconel-625.webp') }}"
+                                        alt="Inconel Alloys" loading="lazy">
+                                </a>
+                            </figure>
+                            <div class="p-2 text-center">
+                                <h6 class="mt-0 mb-0"><a href="{{ route('materials.inconel.grade', 'inconel-625') }}"
+                                        style="color: inherit; text-decoration: none;">Inconel Alloys</a></h6>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    {{-- Applications --}}
-    <section id="applications" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Applications</h2>
-                <p class="text-center pb-3">Hex Bolts are widely used in:</p>
-            </div>
+        {{-- Applications --}}
+        <section id="applications" class="sec-padd-top sec-padd-bottom">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Applications</h2>
+                    <p class="text-center pb-3">Hex Bolts are widely used in:</p>
+                </div>
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
@@ -655,12 +654,12 @@
     </section>
 
 
-    {{-- Features & Advantages --}}
-    <section id="features" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Features & Advantages</h2>
-            </div>
+        {{-- Features & Advantages --}}
+        <section id="features" class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Features & Advantages</h2>
+                </div>
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
@@ -721,325 +720,325 @@
         </div>
     </section>
 
-    {{-- Mechanical Properties --}}
-    <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
-                <p class="text-center">The mechanical properties of <strong>Hex Bolts</strong> depend on the selected
-                    material grade and comply with applicable ASTM and ASME standards. The table below shows the typical
-                    mechanical properties for commonly supplied stainless steel grades.</p>
-            </div>
+        {{-- Mechanical Properties --}}
+        <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container">
+                <div class="section-title center mb-4">
+                    <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
+                    <p class="text-center">The mechanical properties of <strong>Hex Bolts</strong> depend on the selected
+                        material grade and comply with applicable ASTM and ASME standards. The table below shows the typical
+                        mechanical properties for commonly supplied stainless steel grades.</p>
+                </div>
 
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>Property</th>
-                            <th>SS 304 / 304L</th>
-                            <th>SS 316 / 316L</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>Tensile Strength (MPa)</td>
-                            <td>515 Min</td>
-                            <td>515 Min</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Yield Strength (MPa)</td>
-                            <td>205 Min</td>
-                            <td>205 Min</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Elongation (%)</td>
-                            <td>40 Min</td>
-                            <td>40 Min</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Hardness (HB Max)</td>
-                            <td>201</td>
-                            <td>217</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped align-middle text-center">
+                        <thead class="table-dark">
+                            <tr class="t-row">
+                                <th>Property</th>
+                                <th>SS 304 / 304L</th>
+                                <th>SS 316 / 316L</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="t-row">
+                                <td>Tensile Strength (MPa)</td>
+                                <td>515 Min</td>
+                                <td>515 Min</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Yield Strength (MPa)</td>
+                                <td>205 Min</td>
+                                <td>205 Min</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Elongation (%)</td>
+                                <td>40 Min</td>
+                                <td>40 Min</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Hardness (HB Max)</td>
+                                <td>201</td>
+                                <td>217</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel,
+                        Alloy Steel, ASTM A193 Grade B7, ASTM A193 Grade B7M, ASTM A320 Grade L7, Duplex Stainless Steel, Super
+                        Duplex Stainless Steel, Inconel®, Monel®, Hastelloy®, and other Nickel Alloy Hex Bolts are available in
+                        accordance with their respective ASTM and ASME material specifications upon request.</small></p>
             </div>
-            <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Mechanical properties for Carbon Steel,
-                    Alloy Steel, ASTM A193 Grade B7, ASTM A193 Grade B7M, ASTM A320 Grade L7, Duplex Stainless Steel, Super
-                    Duplex Stainless Steel, Inconel®, Monel®, Hastelloy®, and other Nickel Alloy Hex Bolts are available in
-                    accordance with their respective ASTM and ASME material specifications upon request.</small></p>
-        </div>
-    </section>
+        </section>
 
-    {{-- Testing & Quality Control --}}
-    <!-- <section id="testing" class="sec-padd-top sec-padd-bottom">
-                            <div class="container">
-                                <div class="section-title center">
-                                    <h2>Testing & Quality</h2>
-                                    <p class="text-center">Every Hex Bolt undergoes strict quality inspections before dispatch to ensure
-                                        superior performance and dimensional accuracy. Our quality inspection includes:</p>
+        {{-- Testing & Quality Control --}}
+        <!-- <section id="testing" class="sec-padd-top sec-padd-bottom">
+                                <div class="container">
+                                    <div class="section-title center">
+                                        <h2>Testing & Quality</h2>
+                                        <p class="text-center">Every Hex Bolt undergoes strict quality inspections before dispatch to ensure
+                                            superior performance and dimensional accuracy. Our quality inspection includes:</p>
+                                    </div>
+
+                                    <div class="row g-4 mt-4">
+                                        <div class="col-sm-6 col-lg-4">
+                                            <div class="advantage-card">
+                                                <div class="advantage-icon"><i class="bi bi-search"></i></div>
+                                                <h4>Positive Material Identification (PMI)</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-lg-4">
+                                            <div class="advantage-card">
+                                                <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                                                <h4>Thread Gauge Inspection</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-lg-4">
+                                            <div class="advantage-card">
+                                                <div class="advantage-icon"><i class="bi bi-bounding-box-circles"></i></div>
+                                                <h4>Dimensional Inspection</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-lg-4">
+                                            <div class="advantage-card">
+                                                <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
+                                                <h4>Hardness Testing</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-lg-4">
+                                            <div class="advantage-card">
+                                                <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                                                <h4>Tensile Testing</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-lg-4">
+                                            <div class="advantage-card">
+                                                <div class="advantage-icon"><i class="bi bi-eye"></i></div>
+                                                <h4>Visual Inspection</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-lg-12">
+                                            <div class="advantage-card">
+                                                <div class="advantage-icon"><i class="bi bi-patch-check"></i></div>
+                                                <h4>Third-Party Inspection (Available on Request)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <p class="fs-5"><strong>Test Certificate:</strong> EN 10204 3.1 Material Test Certificate is supplied with
+                                            every order.</p>
+                                    </div>
                                 </div>
+                            </section> -->
 
-                                <div class="row g-4 mt-4">
-                                    <div class="col-sm-6 col-lg-4">
-                                        <div class="advantage-card">
-                                            <div class="advantage-icon"><i class="bi bi-search"></i></div>
-                                            <h4>Positive Material Identification (PMI)</h4>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-4">
-                                        <div class="advantage-card">
-                                            <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                                            <h4>Thread Gauge Inspection</h4>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-4">
-                                        <div class="advantage-card">
-                                            <div class="advantage-icon"><i class="bi bi-bounding-box-circles"></i></div>
-                                            <h4>Dimensional Inspection</h4>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-4">
-                                        <div class="advantage-card">
-                                            <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
-                                            <h4>Hardness Testing</h4>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-4">
-                                        <div class="advantage-card">
-                                            <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                                            <h4>Tensile Testing</h4>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-4">
-                                        <div class="advantage-card">
-                                            <div class="advantage-icon"><i class="bi bi-eye"></i></div>
-                                            <h4>Visual Inspection</h4>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-12">
-                                        <div class="advantage-card">
-                                            <div class="advantage-icon"><i class="bi bi-patch-check"></i></div>
-                                            <h4>Third-Party Inspection (Available on Request)</h4>
-                                        </div>
-                                    </div>
+        {{-- why choose us --}}
+        <style>
+            .why-card {
+                border: 1px solid #e5e5e5;
+                border-radius: 8px;
+                transition: all 0.3s ease;
+                background-color: #ffffff;
+                height: 100%;
+            }
+
+            .why-card .icon-circle {
+                background-color: #e67e22;
+                color: #ffffff;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.5rem;
+                transition: all 0.3s ease;
+            }
+
+            .why-card .why-text {
+                color: #003366;
+                font-weight: 600;
+                font-size: 0.95rem;
+                transition: color 0.3s ease;
+            }
+
+            .why-card:hover {
+                border-color: #e67e22;
+                box-shadow: 0 5px 15px rgba(230, 126, 34, 0.1);
+            }
+
+            .why-card:hover .icon-circle {
+                background-color: #003366;
+            }
+        </style>
+        <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container">
+                <div class="section-title center mb-5">
+                    <h2>Why Choose Moksh Tubes &amp; Fittings LLP?</h2>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="why-card text-center p-4">
+                            <div class="icon-circle mb-3"><i class="bi bi-award"></i></div>
+                            <h6 class="why-text mb-0">Leading Manufacturer, Supplier &amp; Exporter</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="why-card text-center p-4">
+                            <div class="icon-circle mb-3"><i class="bi bi-hexagon"></i></div>
+                            <h6 class="why-text mb-0">Premium Quality Industrial Fasteners</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="why-card text-center p-4">
+                            <div class="icon-circle mb-3"><i class="bi bi-diagram-3"></i></div>
+                            <h6 class="why-text mb-0">Wide Range of Sizes, Thread Types &amp; Material Grades</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="why-card text-center p-4">
+                            <div class="icon-circle mb-3"><i class="bi bi-box-seam"></i></div>
+                            <h6 class="why-text mb-0">Ready Stock for Immediate Dispatch</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="why-card text-center p-4">
+                            <div class="icon-circle mb-3"><i class="bi bi-tags"></i></div>
+                            <h6 class="why-text mb-0">Competitive Pricing</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="why-card text-center p-4">
+                            <div class="icon-circle mb-3"><i class="bi bi-shield-check"></i></div>
+                            <h6 class="why-text mb-0">Strict Quality Assurance</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="why-card text-center p-4">
+                            <div class="icon-circle mb-3"><i class="bi bi-globe2"></i></div>
+                            <h6 class="why-text mb-0">Global Export Experience</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="why-card text-center p-4">
+                            <div class="icon-circle mb-3"><i class="bi bi-file-earmark-text"></i></div>
+                            <h6 class="why-text mb-0">Complete Documentation Support</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="why-card text-center p-4">
+                            <div class="icon-circle mb-3"><i class="bi bi-tools"></i></div>
+                            <h6 class="why-text mb-0">Expert Technical Assistance</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {{-- Packaging & Export --}}
+        <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
+                        <div class="container">
+                            <div class="section-title center">
+                                <h2>Packaging & Export</h2>
+                            </div>
+                            <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
+                                We ensure that our Socket Head Screws are securely packaged to prevent damage during transit. We use
+                                high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
+                                We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe,
+                                Africa, and Southeast Asia.
+                            </p>
+                        </div>
+                    </section> -->
+
+        <!--Start faq content area-->
+        <section id="faq" class="faq-content-area sec-padd2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="accordion-box">
+                            <div class="section-title center">
+                                <h2>Frequently Asked Questions (FAQ)</h2>
+                            </div>
+
+                            <div class="accordion accordion-block">
+                                <div class="accord-btn">
+                                    <h4>What is a Hex Bolt?</h4>
                                 </div>
-                                <div class="text-center mt-4">
-                                    <p class="fs-5"><strong>Test Certificate:</strong> EN 10204 3.1 Material Test Certificate is supplied with
-                                        every order.</p>
+                                <div class="accord-content">
+                                    <p>
+                                        A Hex Bolt is a threaded fastener with a six-sided head used with a nut to securely join
+                                        components in industrial, structural, and mechanical applications.
+                                    </p>
                                 </div>
                             </div>
-                        </section> -->
 
-    {{-- why choose us --}}
-    <style>
-        .why-card {
-            border: 1px solid #e5e5e5;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-            background-color: #ffffff;
-            height: 100%;
-        }
-
-        .why-card .icon-circle {
-            background-color: #e67e22;
-            color: #ffffff;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            transition: all 0.3s ease;
-        }
-
-        .why-card .why-text {
-            color: #003366;
-            font-weight: 600;
-            font-size: 0.95rem;
-            transition: color 0.3s ease;
-        }
-
-        .why-card:hover {
-            border-color: #e67e22;
-            box-shadow: 0 5px 15px rgba(230, 126, 34, 0.1);
-        }
-
-        .why-card:hover .icon-circle {
-            background-color: #003366;
-        }
-    </style>
-    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-5">
-                <h2>Why Choose Moksh Tubes &amp; Fittings LLP?</h2>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="why-card text-center p-4">
-                        <div class="icon-circle mb-3"><i class="bi bi-award"></i></div>
-                        <h6 class="why-text mb-0">Leading Manufacturer, Supplier &amp; Exporter</h6>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="why-card text-center p-4">
-                        <div class="icon-circle mb-3"><i class="bi bi-hexagon"></i></div>
-                        <h6 class="why-text mb-0">Premium Quality Industrial Fasteners</h6>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="why-card text-center p-4">
-                        <div class="icon-circle mb-3"><i class="bi bi-diagram-3"></i></div>
-                        <h6 class="why-text mb-0">Wide Range of Sizes, Thread Types &amp; Material Grades</h6>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="why-card text-center p-4">
-                        <div class="icon-circle mb-3"><i class="bi bi-box-seam"></i></div>
-                        <h6 class="why-text mb-0">Ready Stock for Immediate Dispatch</h6>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="why-card text-center p-4">
-                        <div class="icon-circle mb-3"><i class="bi bi-tags"></i></div>
-                        <h6 class="why-text mb-0">Competitive Pricing</h6>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="why-card text-center p-4">
-                        <div class="icon-circle mb-3"><i class="bi bi-shield-check"></i></div>
-                        <h6 class="why-text mb-0">Strict Quality Assurance</h6>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="why-card text-center p-4">
-                        <div class="icon-circle mb-3"><i class="bi bi-globe2"></i></div>
-                        <h6 class="why-text mb-0">Global Export Experience</h6>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="why-card text-center p-4">
-                        <div class="icon-circle mb-3"><i class="bi bi-file-earmark-text"></i></div>
-                        <h6 class="why-text mb-0">Complete Documentation Support</h6>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="why-card text-center p-4">
-                        <div class="icon-circle mb-3"><i class="bi bi-tools"></i></div>
-                        <h6 class="why-text mb-0">Expert Technical Assistance</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{-- Packaging & Export --}}
-    <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
-                    <div class="container">
-                        <div class="section-title center">
-                            <h2>Packaging & Export</h2>
-                        </div>
-                        <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
-                            We ensure that our Socket Head Screws are securely packaged to prevent damage during transit. We use
-                            high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
-                            We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe,
-                            Africa, and Southeast Asia.
-                        </p>
-                    </div>
-                </section> -->
-
-    <!--Start faq content area-->
-    <section id="faq" class="faq-content-area sec-padd2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="accordion-box">
-                        <div class="section-title center">
-                            <h2>Frequently Asked Questions (FAQ)</h2>
-                        </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What is a Hex Bolt?</h4>
+                            <div class="accordion accordion-block">
+                                <div class="accord-btn">
+                                    <h4>Where are Hex Bolts commonly used?</h4>
+                                </div>
+                                <div class="accord-content">
+                                    <p>
+                                        Hex Bolts are widely used in construction, machinery, piping systems, oil & gas, power
+                                        plants, marine, automotive, and structural steel applications.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="accord-content">
-                                <p>
-                                    A Hex Bolt is a threaded fastener with a six-sided head used with a nut to securely join
-                                    components in industrial, structural, and mechanical applications.
-                                </p>
-                            </div>
-                        </div>
 
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Where are Hex Bolts commonly used?</h4>
+                            <div class="accordion accordion-block">
+                                <div class="accord-btn">
+                                    <h4>Which materials are available?</h4>
+                                </div>
+                                <div class="accord-content">
+                                    <p>
+                                        We manufacture Hex Bolts in stainless steel, carbon steel, alloy steel, duplex, super
+                                        duplex, and nickel alloy grades.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="accord-content">
-                                <p>
-                                    Hex Bolts are widely used in construction, machinery, piping systems, oil & gas, power
-                                    plants, marine, automotive, and structural steel applications.
-                                </p>
-                            </div>
-                        </div>
 
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Which materials are available?</h4>
+                            <div class="accordion accordion-block">
+                                <div class="accord-btn">
+                                    <h4>Do you provide material test certificates?</h4>
+                                </div>
+                                <div class="accord-content">
+                                    <p>
+                                        Yes. EN 10204 3.1 Material Test Certificates are supplied with every order.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="accord-content">
-                                <p>
-                                    We manufacture Hex Bolts in stainless steel, carbon steel, alloy steel, duplex, super
-                                    duplex, and nickel alloy grades.
-                                </p>
-                            </div>
-                        </div>
 
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Do you provide material test certificates?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Yes. EN 10204 3.1 Material Test Certificates are supplied with every order.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Can you manufacture custom sizes?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Yes. We manufacture Hex Bolts in custom diameters, lengths, thread types, coatings, and
-                                    material grades according to customer specifications.
-                                </p>
+                            <div class="accordion accordion-block">
+                                <div class="accord-btn">
+                                    <h4>Can you manufacture custom sizes?</h4>
+                                </div>
+                                <div class="accord-content">
+                                    <p>
+                                        Yes. We manufacture Hex Bolts in custom diameters, lengths, thread types, coatings, and
+                                        material grades according to customer specifications.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--End faq content area-->
+        </section>
+        <!--End faq content area-->
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="contact-cta-box">
-                <h2>Request a Quote</h2>
-                <p>
-                    Looking for a trusted <strong>Hex Bolts</strong> manufacturer and supplier? Contact <strong>Moksh Tubes
-                        & Fittings LLP</strong> for premium-quality industrial hex bolts, competitive pricing, ready stock,
-                    technical support, and fast worldwide delivery. Request your free quotation today.
-                </p>
-                <a href="{{ route('contact-us') }}" class="contact-cta-btn">
-                    Get in Touch
-                </a>
+        <section class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="container">
+                <div class="contact-cta-box">
+                    <h2>Request a Quote</h2>
+                    <p>
+                        Looking for a trusted <strong>Hex Bolts</strong> manufacturer and supplier? Contact <strong>Moksh Tubes
+                            & Fittings LLP</strong> for premium-quality industrial hex bolts, competitive pricing, ready stock,
+                        technical support, and fast worldwide delivery. Request your free quotation today.
+                    </p>
+                    <a href="{{ route('contact-us') }}" class="contact-cta-btn">
+                        Get in Touch
+                    </a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 @endsection
 

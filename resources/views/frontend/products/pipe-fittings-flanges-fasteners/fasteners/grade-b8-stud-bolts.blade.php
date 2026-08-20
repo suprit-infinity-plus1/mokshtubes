@@ -21,7 +21,7 @@
                             class="text-white text-decoration-underline">stainless steel fasteners</a> manufactured from
                         austenitic stainless steel (Type 304 / UNS S30400). These studs are specifically designed for
                         high-temperature, high-pressure, and corrosive service applications such as <a
-                            href="{{ route('products.flanges.flanges-and-gaskets') }}"
+                            href="{{ url('products/pipe-fittings-flanges-fasteners/flanges-and-gaskets') }}"
                             class="text-white text-decoration-underline">flanges</a>, <a
                             href="{{ route('products.pipe-fittings') }}"
                             class="text-white text-decoration-underline">valves</a>, <a
@@ -246,7 +246,7 @@
                         <div class="application-icon"><i class="bi bi-water"></i></div>
                         <h5>Oil & Gas Industry</h5>
                         <ul>
-                            <li><a href="{{ route('products.flanges.flanges-and-gaskets') }}"
+                            <li><a href="{{ url('products/pipe-fittings-flanges-fasteners/flanges-and-gaskets') }}"
                                     class="text-decoration-none">Refinery flange connections</a></li>
                             <li>Offshore bolting systems</li>
                             <li><a href="{{ url('products/pipes-tubes/seamless-pipes') }}"
@@ -440,7 +440,7 @@
                                     It is used for corrosion-resistant bolting in <a
                                         href="{{ url('products/pipes-tubes/seamless-pipes') }}"
                                         class="text-decoration-none">pressure vessels</a>, <a
-                                        href="{{ route('products.flanges.flanges-and-gaskets') }}"
+                                        href="{{ url('products/pipe-fittings-flanges-fasteners/flanges-and-gaskets') }}"
                                         class="text-decoration-none">flanges</a>, and piping systems.
                                 </p>
                             </div>

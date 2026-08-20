@@ -3,21 +3,21 @@
 <!-- 69 characters -->
 @section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Threaded Rods
     in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM & DIN standards with worldwide
-    delivery.')
+delivery.')
 @section('meta_keywords', 'Threaded Rods, Threaded Rods Manufacturer, Threaded Rods Supplier, Threaded Rods Exporter,
     Stainless Steel Threaded Rods, Carbon Steel Threaded Rods, Alloy Steel Threaded Rods, Duplex Threaded Rods, Super Duplex
     Threaded Rods, ASTM A193 B7 Threaded Rods, ASTM A320 L7 Threaded Rods, Fully Threaded Rods, Industrial Threaded Rods,
     Stud Rods, All Thread Rods, Threaded Fasteners, Industrial Fasteners, Stud Bolts, Fully Threaded Bars, Anchor Rods,
     Structural Fasteners, Heavy Duty Threaded Rods, Construction Fasteners, Pipe Support Rods, Metric Threaded Rods, UNC
-    Threaded Rods, UNF Threaded Rods, High Tensile Threaded Rods')
+Threaded Rods, UNF Threaded Rods, High Tensile Threaded Rods')
 @section('og_title', 'Threaded Rods Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Premium-quality Threaded Rods manufactured in Stainless Steel, Carbon Steel, Alloy Steel,
-    Duplex, Super Duplex & Nickel Alloys. ASTM & DIN compliant with worldwide export support.')
+Duplex, Super Duplex & Nickel Alloys. ASTM & DIN compliant with worldwide export support.')
 @section('og_image', asset('/assets/images/fasteners/full-threaded-rods.png'))
 @section('og_type', 'product')
 @section('twitter_title', 'Threaded Rods Manufacturer in India')
 @section('twitter_description', 'Buy premium-quality Threaded Rods in multiple diameters, thread standards, coatings,
-    and material grades with fast worldwide delivery.')
+and material grades with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -586,10 +586,9 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100"
-                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
-                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
                             </a>
                         </figure>
@@ -810,68 +809,68 @@
     </section>
 
     <!-- <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
-            <div class="container">
-                <div class="section-title center mb-4">
-                    <h2 class="fw-bold" style="color: #174268;">Testing & Quality</h2>
+                <div class="container">
+                    <div class="section-title center mb-4">
+                        <h2 class="fw-bold" style="color: #174268;">Testing & Quality</h2>
+                    </div>
+                    <div class="row g-4 mt-4">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="testing-card">
+                                <div class="testing-icon"><i class="bi bi-hammer"></i></div>
+                                <h5>Tensile Test</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="testing-card">
+                                <div class="testing-icon"><i class="bi bi-shield"></i></div>
+                                <h5>Proof Load Test</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="testing-card">
+                                <div class="testing-icon"><i class="bi bi-check2-circle"></i></div>
+                                <h5>PMI Test</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="testing-card">
+                                <div class="testing-icon"><i class="bi bi-rulers"></i></div>
+                                <h5>Thread Gauging</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="testing-card">
+                                <div class="testing-icon"><i class="bi bi-bullseye"></i></div>
+                                <h5>Hardness Test</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="testing-card">
+                                <div class="testing-icon"><i class="bi bi-brightness-high"></i></div>
+                                <h5>Magnetic Particle Inspection</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row g-4 mt-4">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="testing-card">
-                            <div class="testing-icon"><i class="bi bi-hammer"></i></div>
-                            <h5>Tensile Test</h5>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="testing-card">
-                            <div class="testing-icon"><i class="bi bi-shield"></i></div>
-                            <h5>Proof Load Test</h5>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="testing-card">
-                            <div class="testing-icon"><i class="bi bi-check2-circle"></i></div>
-                            <h5>PMI Test</h5>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="testing-card">
-                            <div class="testing-icon"><i class="bi bi-rulers"></i></div>
-                            <h5>Thread Gauging</h5>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="testing-card">
-                            <div class="testing-icon"><i class="bi bi-bullseye"></i></div>
-                            <h5>Hardness Test</h5>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="testing-card">
-                            <div class="testing-icon"><i class="bi bi-brightness-high"></i></div>
-                            <h5>Magnetic Particle Inspection</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+            </section> -->
 
     <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom">
-            <div class="container">
-                <div class="section-title center mb-4">
-                    <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-10 text-center">
-                        <p class="fs-6 text-muted">
-                            We ensure that our Threaded Rods are securely packaged to prevent damage during transit. We use
-                            high-quality wooden crates, pallets, and shrink-wrapping for export shipments.<br>
-                            We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
-                            Europe, Africa, and Southeast Asia.
-                        </p>
+                <div class="container">
+                    <div class="section-title center mb-4">
+                        <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 text-center">
+                            <p class="fs-6 text-muted">
+                                We ensure that our Threaded Rods are securely packaged to prevent damage during transit. We use
+                                high-quality wooden crates, pallets, and shrink-wrapping for export shipments.<br>
+                                We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
+                                Europe, Africa, and Southeast Asia.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section> -->
+            </section> -->
 
     <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">

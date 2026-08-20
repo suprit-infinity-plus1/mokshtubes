@@ -3,21 +3,21 @@
 <!-- 70 characters -->
 @section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Industrial
     Nuts in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ASTM A194, DIN & ISO standards
-    with worldwide delivery.')
+with worldwide delivery.')
 @section('meta_keywords', 'Industrial Nuts, Industrial Nuts Manufacturer, Industrial Nuts Supplier, Industrial Nuts
     Exporter, Stainless Steel Industrial Nuts, Carbon Steel Industrial Nuts, Alloy Steel Industrial Nuts, Duplex Industrial
     Nuts, Super Duplex Industrial Nuts, Hex Nuts, Heavy Hex Nuts, Lock Nuts, Square Nuts, Cap Nuts, Slotted Nuts, ASTM A194
     Nuts, Industrial Fasteners, Threaded Fasteners, Heavy Hex Fasteners, High Tensile Nuts, Precision Threaded Nuts,
     Corrosion Resistant Nuts, Structural Fasteners, Mechanical Fasteners, Pipeline Fasteners, Construction Fasteners,
-    Engineering Fasteners, Industrial Nut Supplier')
+Engineering Fasteners, Industrial Nut Supplier')
 @section('og_title', 'Industrial Nuts Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Premium-quality Industrial Nuts manufactured in Stainless Steel, Carbon Steel, Alloy Steel,
-    Duplex, Super Duplex & Nickel Alloys. ASTM A194, DIN & ISO compliant with worldwide export support.')
+Duplex, Super Duplex & Nickel Alloys. ASTM A194, DIN & ISO compliant with worldwide export support.')
 @section('og_image', asset('/assets/images/product/flangs/FASTENERS.webp'))
 @section('og_type', 'product')
 @section('twitter_title', 'Industrial Nuts Manufacturer in India')
 @section('twitter_description', 'Buy premium-quality Industrial Nuts including Hex, Heavy Hex, Lock, Square, Cap, and
-    Slotted Nuts in multiple sizes, thread standards, and material grades with fast worldwide delivery.')
+Slotted Nuts in multiple sizes, thread standards, and material grades with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -582,10 +582,9 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100"
-                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
-                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
                             </a>
                         </figure>
@@ -807,22 +806,22 @@
     </section>
 
     <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom">
-            <div class="container">
-                <div class="section-title center mb-4">
-                    <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-10 text-center">
-                        <p class="fs-6 text-muted">
-                            We ensure that our Industrial Nuts are securely packaged to prevent damage during transit. We use
-                            high-quality wooden crates, pallets, and shrink-wrapping for export shipments.<br>
-                            We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
-                            Europe, Africa, and Southeast Asia.
-                        </p>
+                <div class="container">
+                    <div class="section-title center mb-4">
+                        <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 text-center">
+                            <p class="fs-6 text-muted">
+                                We ensure that our Industrial Nuts are securely packaged to prevent damage during transit. We use
+                                high-quality wooden crates, pallets, and shrink-wrapping for export shipments.<br>
+                                We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
+                                Europe, Africa, and Southeast Asia.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section> -->
+            </section> -->
 
     <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
