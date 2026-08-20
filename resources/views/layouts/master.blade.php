@@ -585,8 +585,8 @@
                                                                                                                 </li>
                                                                                                                 <li
                                                                                                                         class="dropdown">
-                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
-                                                                                                                                >Bends
+                                                                                                                        <a
+                                                                                                                                class="dropdown-item d-flex justify-content-between align-items-center">Bends
                                                                                                                                 <i
                                                                                                                                         class="fa fa-angle-right"></i></a>
                                                                                                                         <ul>
@@ -602,8 +602,8 @@
                                                                                                                 </li>
                                                                                                                 <li
                                                                                                                         class="dropdown">
-                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
-                                                                                                                                >Reducers
+                                                                                                                        <a
+                                                                                                                                class="dropdown-item d-flex justify-content-between align-items-center">Reducers
                                                                                                                                 <i
                                                                                                                                         class="fa fa-angle-right"></i></a>
                                                                                                                         <ul>
@@ -615,8 +615,8 @@
                                                                                                                 </li>
                                                                                                                 <li
                                                                                                                         class="dropdown">
-                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
-                                                                                                                                >Olets
+                                                                                                                        <a
+                                                                                                                                class="dropdown-item d-flex justify-content-between align-items-center">Olets
                                                                                                                                 <i
                                                                                                                                         class="fa fa-angle-right"></i></a>
                                                                                                                         <ul>
@@ -1173,9 +1173,6 @@
                                                                                                                 <i
                                                                                                                         class="fa fa-angle-right"></i></a>
                                                                                                         <ul>
-                                                                                                                <li><a href="{{ url('materials/haynes-superalloys/haynes-superalloys-25') }}">Haynes
-                                                                                                                                25</a>
-                                                                                                                </li>
                                                                                                                 <li><a href="{{ url('materials/haynes-superalloys/haynes-superalloys-160') }}">Haynes
                                                                                                                                 160</a>
                                                                                                                 </li>
@@ -1275,8 +1272,8 @@
                                                                                 </li>
 
 
-                                                                                <li class="nav-item"><a class="nav-link"
-                                                                                                >Quality</a>
+                                                                                <li class="nav-item"><a
+                                                                                                class="nav-link">Quality</a>
                                                                                 </li>
                                                                                 <li class="nav-item"><a class="nav-link"
                                                                                                 href="{{ route('calculator') }}">Calculator</a>
@@ -1431,8 +1428,8 @@
                                                                                                         <ul>
                                                                                                                 <li
                                                                                                                         class="dropdown">
-                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
-                                                                                                                                >Elbows
+                                                                                                                        <a
+                                                                                                                                class="dropdown-item d-flex justify-content-between align-items-center">Elbows
                                                                                                                                 <i
                                                                                                                                         class="fa fa-angle-right"></i></a>
                                                                                                                         <ul>
@@ -1448,8 +1445,8 @@
                                                                                                                 </li>
                                                                                                                 <li
                                                                                                                         class="dropdown">
-                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
-                                                                                                                                >Bends
+                                                                                                                        <a
+                                                                                                                                class="dropdown-item d-flex justify-content-between align-items-center">Bends
                                                                                                                                 <i
                                                                                                                                         class="fa fa-angle-right"></i></a>
                                                                                                                         <ul>
@@ -1465,8 +1462,8 @@
                                                                                                                 </li>
                                                                                                                 <li
                                                                                                                         class="dropdown">
-                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
-                                                                                                                                >Reducers
+                                                                                                                        <a
+                                                                                                                                class="dropdown-item d-flex justify-content-between align-items-center">Reducers
                                                                                                                                 <i
                                                                                                                                         class="fa fa-angle-right"></i></a>
                                                                                                                         <ul>
@@ -1478,8 +1475,8 @@
                                                                                                                 </li>
                                                                                                                 <li
                                                                                                                         class="dropdown">
-                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
-                                                                                                                                >Olets
+                                                                                                                        <a
+                                                                                                                                class="dropdown-item d-flex justify-content-between align-items-center">Olets
                                                                                                                                 <i
                                                                                                                                         class="fa fa-angle-right"></i></a>
                                                                                                                         <ul>
@@ -1580,7 +1577,7 @@
                                                                                                                 <li><a href="{{ url('products/special-fabricated/ss-railings') }}">SS
                                                                                                                                 Railings</a>
                                                                                                                 </li>
-                                                                                                                <li><a href="{{ url('products.special-fabricated.glass-railings') }}">Glass
+                                                                                                                <li><a href="{{ url('products/special-fabricated/glass-railings') }}">Glass
                                                                                                                                 Railings</a>
                                                                                                                 </li>
                                                                                                         </ul>
@@ -1964,9 +1961,6 @@
                                                                                                                 href="{{ route('materials.haynes-Superalloys') }}">Haynes
                                                                                                                 Superalloys</a>
                                                                                                         <ul>
-                                                                                                                <li><a href="{{ url('materials/haynes-superalloys/haynes-superalloys-25') }}">Haynes
-                                                                                                                                25</a>
-                                                                                                                </li>
                                                                                                                 <li><a href="{{ url('materials/haynes-superalloys/haynes-superalloys-160') }}">Haynes
                                                                                                                                 160</a>
                                                                                                                 </li>
@@ -2063,7 +2057,7 @@
                                                                                                 href="{{ route('materials') }}">MATERIALS</a>
                                                                                 </li> --}}
 
-                                                                                <li><a >Quality</a></li>
+                                                                                <li><a>Quality</a></li>
                                                                                 <li><a href="{{ route('calculator') }}">Calculator</a>
                                                                                 </li>
                                                                                 <li><a href="{{ route('blogs') }}">Blogs</a>
@@ -2224,29 +2218,29 @@
                                                         <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                                                                 <h5 class="text-warning">Nickel Alloys</h5>
                                                                 <ul class="footer-list footer-col">
-                                                                        <li><a >Hastelloy C276 – UNS N10276</a>
+                                                                        <li><a>Hastelloy C276 – UNS N10276</a>
                                                                         </li>
-                                                                        <li><a >Inconel 625 – UNS N06625</a>
+                                                                        <li><a>Inconel 625 – UNS N06625</a>
                                                                         </li>
-                                                                        <li><a >Hastelloy C22 – UNS N06022</a>
+                                                                        <li><a>Hastelloy C22 – UNS N06022</a>
                                                                         </li>
-                                                                        <li><a >Inconel 690 – UNS N06690</a>
+                                                                        <li><a>Inconel 690 – UNS N06690</a>
                                                                         </li>
-                                                                        <li><a >Hastelloy B2 – UNS N010665</a>
+                                                                        <li><a>Hastelloy B2 – UNS N010665</a>
                                                                         </li>
-                                                                        <li><a >Inconel 718 – UNS N07718</a>
+                                                                        <li><a>Inconel 718 – UNS N07718</a>
                                                                         </li>
-                                                                        <li><a >Hastelloy B3 – UNS N10675</a>
+                                                                        <li><a>Hastelloy B3 – UNS N10675</a>
                                                                         </li>
-                                                                        <li><a >Inconel X750 – UNS N07750</a>
+                                                                        <li><a>Inconel X750 – UNS N07750</a>
                                                                         </li>
-                                                                        <li><a >Hastelloy C2000 – UNS N06200</a>
+                                                                        <li><a>Hastelloy C2000 – UNS N06200</a>
                                                                         </li>
-                                                                        <li><a >Incoloy 800 – UNS N08800</a>
+                                                                        <li><a>Incoloy 800 – UNS N08800</a>
                                                                         </li>
-                                                                        <li><a >Hastelloy C4 – UNS N06455</a>
+                                                                        <li><a>Hastelloy C4 – UNS N06455</a>
                                                                         </li>
-                                                                        <li><a >Incoloy 825 – UNS N08825</a>
+                                                                        <li><a>Incoloy 825 – UNS N08825</a>
                                                                         </li>
                                                                 </ul>
                                                         </div>
@@ -2255,33 +2249,33 @@
                                                         <div class="col-lg-3 col-md-6 col-sm-12 mb-4 footer-col">
                                                                 <h5 class="text-warning">Nickel Alloys (contd.)</h5>
                                                                 <ul class="footer-list footer-col">
-                                                                        <li><a >Hastelloy X – UNS N06002</a>
+                                                                        <li><a>Hastelloy X – UNS N06002</a>
                                                                         </li>
-                                                                        <li><a >Incoloy 925 – UNS N09925</a>
+                                                                        <li><a>Incoloy 925 – UNS N09925</a>
                                                                         </li>
-                                                                        <li><a >Monel K500 – UNS N05500</a></li>
-                                                                        <li><a >Nickel 200 – UNS N02200</a></li>
-                                                                        <li><a >Monel 400 – UNS N04400</a></li>
-                                                                        <li><a >Nickel 201 – UNS N02201</a></li>
-                                                                        <li><a >Inconel 600 – UNS N06600</a>
+                                                                        <li><a>Monel K500 – UNS N05500</a></li>
+                                                                        <li><a>Nickel 200 – UNS N02200</a></li>
+                                                                        <li><a>Monel 400 – UNS N04400</a></li>
+                                                                        <li><a>Nickel 201 – UNS N02201</a></li>
+                                                                        <li><a>Inconel 600 – UNS N06600</a>
                                                                         </li>
-                                                                        <li><a >AL-6XN – UNS N08367</a></li>
-                                                                        <li><a >Inconel 617 – UNS N06617</a>
+                                                                        <li><a>AL-6XN – UNS N08367</a></li>
+                                                                        <li><a>Inconel 617 – UNS N06617</a>
                                                                         </li>
-                                                                        <li><a >A286 GR. 660 – UNS S66286</a>
+                                                                        <li><a>A286 GR. 660 – UNS S66286</a>
                                                                         </li>
                                                                 </ul>
 
                                                                 <h5 class="text-warning mt-4">Duplex & Super Duplex
                                                                         Alloys</h5>
                                                                 <ul class="footer-list footer-col">
-                                                                        <li><a >Super Duplex 2507 – UNS
+                                                                        <li><a>Super Duplex 2507 – UNS
                                                                                         S32750</a></li>
-                                                                        <li><a >Duplex 2205 – UNS S32205</a>
+                                                                        <li><a>Duplex 2205 – UNS S32205</a>
                                                                         </li>
-                                                                        <li><a >Super Duplex 32760 – UNS
+                                                                        <li><a>Super Duplex 32760 – UNS
                                                                                         S32760</a></li>
-                                                                        <li><a >Duplex 31803 – UNS S31803</a>
+                                                                        <li><a>Duplex 31803 – UNS S31803</a>
                                                                         </li>
                                                                 </ul>
                                                         </div>
@@ -2290,17 +2284,17 @@
                                                         <div class="col-lg-3 col-md-6 col-sm-12">
                                                                 <h5 class="text-warning">Titanium Alloys</h5>
                                                                 <ul class="footer-list footer-col">
-                                                                        <li><a >Titanium Grade 1 – UNS
+                                                                        <li><a>Titanium Grade 1 – UNS
                                                                                         R50250</a></li>
-                                                                        <li><a >Titanium Grade 7 – UNS
+                                                                        <li><a>Titanium Grade 7 – UNS
                                                                                         R52400</a></li>
-                                                                        <li><a >Titanium Grade 2 – UNS
+                                                                        <li><a>Titanium Grade 2 – UNS
                                                                                         R50400</a></li>
-                                                                        <li><a >Titanium Grade 9 – UNS
+                                                                        <li><a>Titanium Grade 9 – UNS
                                                                                         R56320</a></li>
-                                                                        <li><a >Titanium Grade 5 (Ti-6Al-4V) –
+                                                                        <li><a>Titanium Grade 5 (Ti-6Al-4V) –
                                                                                         UNS R56400</a></li>
-                                                                        <li><a >Titanium Grade 12 – UNS
+                                                                        <li><a>Titanium Grade 12 – UNS
                                                                                         R53400</a></li>
                                                                 </ul>
                                                         </div>
@@ -2309,37 +2303,37 @@
                                                         <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                                                                 <h5 class="text-warning">Stainless Steel</h5>
                                                                 <ul class="footer-list footer-col">
-                                                                        <li><a >Stainless Steel 304 – UNS
+                                                                        <li><a>Stainless Steel 304 – UNS
                                                                                         S30400</a></li>
-                                                                        <li><a >Stainless Steel 321 – UNS
+                                                                        <li><a>Stainless Steel 321 – UNS
                                                                                         S32100</a></li>
-                                                                        <li><a >Stainless Steel 310 – UNS
+                                                                        <li><a>Stainless Steel 310 – UNS
                                                                                         S31000</a></li>
-                                                                        <li><a >Stainless Steel 347 – UNS
+                                                                        <li><a>Stainless Steel 347 – UNS
                                                                                         S34700</a></li>
-                                                                        <li><a >Stainless Steel 316 – UNS
+                                                                        <li><a>Stainless Steel 316 – UNS
                                                                                         S31600</a></li>
-                                                                        <li><a >Stainless Steel 904L – UNS
+                                                                        <li><a>Stainless Steel 904L – UNS
                                                                                         N08904</a></li>
-                                                                        <li><a >Stainless Steel 317 – UNS
+                                                                        <li><a>Stainless Steel 317 – UNS
                                                                                         S31700</a></li>
-                                                                        <li><a >Stainless Steel 316Ti – UNS
+                                                                        <li><a>Stainless Steel 316Ti – UNS
                                                                                         S31635</a></li>
                                                                 </ul>
 
                                                                 <h5 class="text-warning mt-4">Rare To Find Alloys</h5>
                                                                 <ul class="footer-list footer-col">
-                                                                        <li><a >Zirconium Grade 702 – UNS
+                                                                        <li><a>Zirconium Grade 702 – UNS
                                                                                         R70250</a></li>
-                                                                        <li><a >Tantalum Grade R05200 – UNS
+                                                                        <li><a>Tantalum Grade R05200 – UNS
                                                                                         R05200</a></li>
-                                                                        <li><a >Zirconium Grade 704 – UNS
+                                                                        <li><a>Zirconium Grade 704 – UNS
                                                                                         R70400</a></li>
-                                                                        <li><a >Tantalum Grade R05252 – UNS
+                                                                        <li><a>Tantalum Grade R05252 – UNS
                                                                                         R05252</a></li>
-                                                                        <li><a >Zirconium Grade 705 – UNS
+                                                                        <li><a>Zirconium Grade 705 – UNS
                                                                                         R70500</a></li>
-                                                                        <li><a >Tantalum Grade R05255 – UNS
+                                                                        <li><a>Tantalum Grade R05255 – UNS
                                                                                         R05255</a></li>
                                                                 </ul>
                                                         </div>
@@ -2370,12 +2364,12 @@
                                                                         <li class="nav-item"><a class="nav-link"
                                                                                         href="{{ route('products') }}">Products</a>
                                                                         </li>
-                                                                        <li class="nav-item"><a class="nav-link"
-                                                                                        >term &amp;
+                                                                        <li class="nav-item"><a class="nav-link">term
+                                                                                        &amp;
                                                                                         condition</a>
                                                                         </li>
-                                                                        <li class="nav-item"><a class="nav-link"
-                                                                                        >privacy policy</a></li>
+                                                                        <li class="nav-item"><a class="nav-link">privacy
+                                                                                        policy</a></li>
                                                                         <li class="nav-item"><a class="nav-link"
                                                                                         href="{{ route('contact-us') }}">contact
                                                                                         us</a></li>
@@ -2478,14 +2472,14 @@
                 @if (!Cookie::get('cookie_consent'))
                         <div id="cookie-consent" class="position-fixed text-white shadow-lg"
                                 style="background: rgba(33,33,33,0.95);
-                                                                                                                                                                                                                                                                                                                                               bottom: 0;
-                                                                                                                                                                                                                                                                                                                                               left: 0;
-                                                                                                                                                                                                                                                                                                                                               right: 0;
-                                                                                                                                                                                                                                                                                                                                               width: 100%;
-                                                                                                                                                                                                                                                                                                                                               z-index: 999999;
-                                                                                                                                                                                                                                                                                                                                               display: none;
-                                                                                                                                                                                                                                                                                                                                               border-radius: 0;
-                                                                                                                                                                                                                                                                                                                                               padding: 15px 20px;">
+                                                                                                                                                                                                                                                                                                                                                                                               bottom: 0;
+                                                                                                                                                                                                                                                                                                                                                                                               left: 0;
+                                                                                                                                                                                                                                                                                                                                                                                               right: 0;
+                                                                                                                                                                                                                                                                                                                                                                                               width: 100%;
+                                                                                                                                                                                                                                                                                                                                                                                               z-index: 999999;
+                                                                                                                                                                                                                                                                                                                                                                                               display: none;
+                                                                                                                                                                                                                                                                                                                                                                                               border-radius: 0;
+                                                                                                                                                                                                                                                                                                                                                                                               padding: 15px 20px;">
                                 <div class="container">
                                         <div class="row align-items-center">
                                                 <!-- Text -->

@@ -3,22 +3,22 @@
 <!-- 76 characters -->
 @section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Socket Head
     Screws in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ISO 4762 & DIN 912 compliant
-    with worldwide delivery.')
+with worldwide delivery.')
 @section('meta_keywords', 'Socket Head Screws, Socket Head Screws Manufacturer, Socket Head Screws Supplier, Socket Head
     Screws Exporter, Stainless Steel Socket Head Screws, Carbon Steel Socket Head Screws, Alloy Steel Socket Head Screws,
     Duplex Socket Head Screws, Super Duplex Socket Head Screws, Socket Head Cap Screws, Allen Head Screws, ISO 4762 Socket
     Head Screws, DIN 912 Socket Head Screws, Industrial Socket Head Screws, High Tensile Socket Head Screws, Internal Hex
     Socket Screws, Industrial Fasteners, Allen Cap Screws, Hex Socket Screws, Precision Fasteners, High Strength Fasteners,
     Machine Screws, CNC Machined Fasteners, Corrosion Resistant Screws, Mechanical Fasteners, Engineering Fasteners,
-    Threaded Industrial Screws, Heavy Duty Socket Screws')
+Threaded Industrial Screws, Heavy Duty Socket Screws')
 @section('og_title', 'Socket Head Screws Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Premium-quality Socket Head Screws manufactured in Stainless Steel, Carbon Steel, Alloy
-    Steel, Duplex, Super Duplex & Nickel Alloys. ISO 4762 & DIN 912 compliant with worldwide export support.')
+Steel, Duplex, Super Duplex & Nickel Alloys. ISO 4762 & DIN 912 compliant with worldwide export support.')
 @section('og_image', asset('assets/images/fasteners/socket-head-cap-screws.jpg'))
 @section('og_type', 'product')
 @section('twitter_title', 'Socket Head Screws Manufacturer in India')
 @section('twitter_description', 'Buy premium-quality Socket Head Screws for machinery, automotive, aerospace, and
-    industrial applications. Available in multiple grades, thread types, and finishes with fast worldwide delivery.')
+industrial applications. Available in multiple grades, thread types, and finishes with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -73,8 +73,8 @@
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/fasteners/socket-head-cap-screws.jpg') }}"
-                        alt="Socket Head Screws Manufacturer" class="img-fluid rounded shadow-sm" width="550"
-                        height="350" loading="lazy">
+                        alt="Socket Head Screws Manufacturer" class="img-fluid rounded shadow-sm" width="550" height="350"
+                        loading="lazy">
                 </div>
 
                 <!-- Right Content -->
@@ -633,10 +633,9 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100"
-                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
-                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
                             </a>
                         </figure>
@@ -864,66 +863,66 @@
 
     <!-- Testing & Quality Control -->
     <!-- <section id="testing" class="sec-padd-top sec-padd-bottom bg-light">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>Testing & Quality</h2>
+                <div class="container">
+                    <div class="section-title center">
+                        <h2>Testing & Quality</h2>
+                    </div>
+
+                    <div class="row g-4 mt-4">
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                                <h4>Tensile Test</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                                <h4>Proof Load Test</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                                <h4>PMI Test</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                                <h4>Thread Gauging</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
+                                <h4>Hardness Test</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="advantage-card">
+                                <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
+                                <h4>Magnetic Particle Inspection</h4>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-
-                <div class="row g-4 mt-4">
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                            <h4>Tensile Test</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
-                            <h4>Proof Load Test</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                            <h4>PMI Test</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                            <h4>Thread Gauging</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
-                            <h4>Hardness Test</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-brightness-high"></i></div>
-                            <h4>Magnetic Particle Inspection</h4>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section> -->
+            </section> -->
 
     <!-- Packaging & Export -->
     <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom">
-            <div class="container text-center">
-                <div class="section-title center mb-4">
-                    <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
+                <div class="container text-center">
+                    <div class="section-title center mb-4">
+                        <h2 class="fw-bold" style="color: #174268;">Packaging & Export</h2>
+                    </div>
+                    <p class="fs-5">We ensure that our <strong>Socket Head Screws</strong> are securely packaged to prevent damage
+                        during transit. We use high-quality wooden crates, pallets, and shrink-wrapping for export shipments.</p>
+                    <p class="fs-5">We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
+                        Europe, Africa, and Southeast Asia.</p>
                 </div>
-                <p class="fs-5">We ensure that our <strong>Socket Head Screws</strong> are securely packaged to prevent damage
-                    during transit. We use high-quality wooden crates, pallets, and shrink-wrapping for export shipments.</p>
-                <p class="fs-5">We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait),
-                    Europe, Africa, and Southeast Asia.</p>
-            </div>
-        </section> -->
+            </section> -->
 
     {{-- why choose us --}}
     <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
@@ -993,18 +992,18 @@
 
     {{-- Packaging & Export --}}
     <!-- <section id="packaging" class="sec-padd-top sec-padd-bottom text-center">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>Packaging & Export</h2>
+                <div class="container">
+                    <div class="section-title center">
+                        <h2>Packaging & Export</h2>
+                    </div>
+                    <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
+                        We ensure that our Socket Head Screws are securely packaged to prevent damage during transit. We use
+                        high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
+                        We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe,
+                        Africa, and Southeast Asia.
+                    </p>
                 </div>
-                <p class="text-muted" style="max-width: 900px; margin: 0 auto; font-size: 16px; line-height: 1.8;">
-                    We ensure that our Socket Head Screws are securely packaged to prevent damage during transit. We use
-                    high-quality wooden crates,<br> pallets, and shrink-wrapping for export shipments.<br>
-                    We regularly export to countries in the Middle East (UAE, Saudi Arabia, Qatar, Oman, Kuwait), Europe,
-                    Africa, and Southeast Asia.
-                </p>
-            </div>
-        </section> -->
+            </section> -->
 
     <!--Start faq content area-->
     <section id="faq" class="faq-content-area sec-padd2">
@@ -1184,105 +1183,105 @@
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
-                {
-                  "@context": "https://schema.org",
-                  "@graph": [
-                    {
-                      "@type": ["Organization", "LocalBusiness"],
-                      "@id": "https://mokshtubes.com/#organization",
-                      "name": "Moksh Tubes & Fittings LLP",
-                      "url": "https://mokshtubes.com/",
-                      "logo": "https://mokshtubes.com/assets/images/logo.webp",
-                      "telephone": "+91-9769584950",
-                      "email": "info@mokshtubes.com"
-                    },
-                    {
-                      "@type": "WebPage",
-                      "@id": "https://mokshtubes.com/socket-head-screws#webpage",
-                      "name": "Socket Head Screws Manufacturer, Supplier & Exporter in India | Moksh Tubes",
-                      "url": "https://mokshtubes.com/socket-head-screws",
-                      "description": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Socket Head Screws in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ISO 4762 & DIN 912 compliant with worldwide delivery."
-                    },
-                    {
-                      "@type": ["Product"],
-                      "@id": "https://mokshtubes.com/#socketheadscrews",
-                      "name": "Socket Head Screws",
-                      "image": "https://mokshtubes.com/assets/images/fasteners/socket-head-cap-screws.jpg",
-                      "category": "Fasteners",
-                      "brand": { "@id": "https://mokshtubes.com/#organization" }
-                    },
-                    {
-                      "@type": "BreadcrumbList",
-                      "@id": "https://mokshtubes.com/socket-head-screws#breadcrumb",
-                      "itemListElement": [
                         {
-                          "@type": "ListItem",
-                          "position": 1,
-                          "name": "Home",
-                          "item": "https://mokshtubes.com/"
-                        },
-                        {
-                          "@type": "ListItem",
-                          "position": 2,
-                          "name": "Fasteners",
-                          "item": "https://mokshtubes.com/fasteners"
-                        },
-                        {
-                          "@type": "ListItem",
-                          "position": 3,
-                          "name": "Socket Head Screws",
-                          "item": "https://mokshtubes.com/socket-head-screws"
+                          "@context": "https://schema.org",
+                          "@graph": [
+                            {
+                              "@type": ["Organization", "LocalBusiness"],
+                              "@id": "https://mokshtubes.com/#organization",
+                              "name": "Moksh Tubes & Fittings LLP",
+                              "url": "https://mokshtubes.com/",
+                              "logo": "https://mokshtubes.com/assets/images/logo.webp",
+                              "telephone": "+91-9769584950",
+                              "email": "info@mokshtubes.com"
+                            },
+                            {
+                              "@type": "WebPage",
+                              "@id": "https://mokshtubes.com/socket-head-screws#webpage",
+                              "name": "Socket Head Screws Manufacturer, Supplier & Exporter in India | Moksh Tubes",
+                              "url": "https://mokshtubes.com/socket-head-screws",
+                              "description": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Socket Head Screws in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex & Nickel Alloys. ISO 4762 & DIN 912 compliant with worldwide delivery."
+                            },
+                            {
+                              "@type": ["Product"],
+                              "@id": "https://mokshtubes.com/#socketheadscrews",
+                              "name": "Socket Head Screws",
+                              "image": "https://mokshtubes.com/assets/images/fasteners/socket-head-cap-screws.jpg",
+                              "category": "Fasteners",
+                              "brand": { "@id": "https://mokshtubes.com/#organization" }
+                            },
+                            {
+                              "@type": "BreadcrumbList",
+                              "@id": "https://mokshtubes.com/socket-head-screws#breadcrumb",
+                              "itemListElement": [
+                                {
+                                  "@type": "ListItem",
+                                  "position": 1,
+                                  "name": "Home",
+                                  "item": "https://mokshtubes.com/"
+                                },
+                                {
+                                  "@type": "ListItem",
+                                  "position": 2,
+                                  "name": "Fasteners",
+                                  "item": "https://mokshtubes.com/fasteners"
+                                },
+                                {
+                                  "@type": "ListItem",
+                                  "position": 3,
+                                  "name": "Socket Head Screws",
+                                  "item": "https://mokshtubes.com/socket-head-screws"
+                                }
+                              ]
+                            },
+                            {
+                              "@type": "FAQPage",
+                              "@id": "https://mokshtubes.com/socket-head-screws#faq",
+                              "mainEntity": [
+                                {
+                                  "@type": "Question",
+                                  "name": "What is a Socket Head Screw?",
+                                  "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "A Socket Head Screw is a high-strength fastener with a cylindrical head and an internal hexagonal drive, tightened using an Allen key or hex wrench."
+                                  }
+                                },
+                                {
+                                  "@type": "Question",
+                                  "name": "Where are Socket Head Screws commonly used?",
+                                  "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "They are widely used in machinery, automotive, aerospace, industrial equipment, robotics, and precision engineering applications."
+                                  }
+                                },
+                                {
+                                  "@type": "Question",
+                                  "name": "Which materials are available?",
+                                  "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We manufacture Socket Head Screws in stainless steel, carbon steel, alloy steel, duplex, super duplex, and nickel alloy grades."
+                                  }
+                                },
+                                {
+                                  "@type": "Question",
+                                  "name": "Do you provide material test certificates?",
+                                  "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order."
+                                  }
+                                },
+                                {
+                                  "@type": "Question",
+                                  "name": "Can you manufacture custom sizes?",
+                                  "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. We manufacture Socket Head Screws in custom diameters, lengths, thread types, finishes, and material grades according to customer specifications."
+                                  }
+                                }
+                              ]
+                            }
+                          ]
                         }
-                      ]
-                    },
-                    {
-                      "@type": "FAQPage",
-                      "@id": "https://mokshtubes.com/socket-head-screws#faq",
-                      "mainEntity": [
-                        {
-                          "@type": "Question",
-                          "name": "What is a Socket Head Screw?",
-                          "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "A Socket Head Screw is a high-strength fastener with a cylindrical head and an internal hexagonal drive, tightened using an Allen key or hex wrench."
-                          }
-                        },
-                        {
-                          "@type": "Question",
-                          "name": "Where are Socket Head Screws commonly used?",
-                          "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "They are widely used in machinery, automotive, aerospace, industrial equipment, robotics, and precision engineering applications."
-                          }
-                        },
-                        {
-                          "@type": "Question",
-                          "name": "Which materials are available?",
-                          "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "We manufacture Socket Head Screws in stainless steel, carbon steel, alloy steel, duplex, super duplex, and nickel alloy grades."
-                          }
-                        },
-                        {
-                          "@type": "Question",
-                          "name": "Do you provide material test certificates?",
-                          "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order."
-                          }
-                        },
-                        {
-                          "@type": "Question",
-                          "name": "Can you manufacture custom sizes?",
-                          "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes. We manufacture Socket Head Screws in custom diameters, lengths, thread types, finishes, and material grades according to customer specifications."
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-                </script>
+                        </script>
     @endverbatim
 @endsection

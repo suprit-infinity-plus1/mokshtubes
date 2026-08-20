@@ -2,18 +2,18 @@
 @section('title', 'Flat Bars Manufacturer, Supplier & Exporter | Stainless & MS')
 <!-- 84 characters -->
 @section('meta_description', 'Moksh Tubes & Fittings LLP supplies premium-quality Stainless Steel, MS, Alloy Steel,
-    Aluminium, Brass & Copper Flat Bars in various sizes, grades & thicknesses.')
+Aluminium, Brass & Copper Flat Bars in various sizes, grades & thicknesses.')
 @section('meta_keywords', 'Flat Bars, Stainless Steel Flat Bars, Mild Steel Flat Bars, MS Flat Bars, Carbon Steel Flat
     Bars, Alloy Steel Flat Bars, Duplex Flat Bars, Aluminium Flat Bars, Brass Flat Bars, Copper Flat Bars, Nickel Alloy Flat
-    Bars, Flat Bar Manufacturer')
+Bars, Flat Bar Manufacturer')
 @section('og_title', 'Flat Bars Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Premium-quality Stainless Steel, MS, Alloy Steel, Aluminium, Brass & Copper Flat Bars in
-    various sizes, grades, thicknesses, and custom lengths with worldwide delivery.')
+various sizes, grades, thicknesses, and custom lengths with worldwide delivery.')
 @section('og_image', asset('assets/images/product/Flat-Bars.webp'))
 @section('og_type', 'product')
 @section('twitter_title', 'Flat Bars Manufacturer in India')
 @section('twitter_description', 'Buy premium-quality Flat Bars for structural fabrication, machinery manufacturing,
-    construction, and marine applications. Fast worldwide delivery.')
+construction, and marine applications. Fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -626,10 +626,9 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100"
-                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
-                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
                             </a>
                         </figure>
@@ -977,74 +976,74 @@
 
     @verbatim
         <script type="application/ld+json">
-                {
-                  "@context": "https://schema.org/",
-                  "@type": "Product",
-                  "name": "Flat Bars",
-                  "image": "https://mokshtubes.com/assets/images/product/Flat-Bars.webp",
-                  "description": "Premium-quality Flat Bars manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Aluminium, Brass & Copper grades.",
-                  "brand": {
-                    "@type": "Brand",
-                    "name": "Moksh Tubes & Fittings LLP"
-                  },
-                  "manufacturer": {
-                    "@type": "Organization",
-                    "name": "Moksh Tubes & Fittings LLP",
-                    "url": "https://mokshtubes.com"
-                  },
-                  "offers": {
-                    "@type": "AggregateOffer",
-                    "url": "https://mokshtubes.com",
-                    "priceCurrency": "USD",
-                    "price": "1.00",
-                    "availability": "https://schema.org/InStock"
-                  },
-                  "mainEntityOfPage": {
-                    "@type": "FAQPage",
-                    "mainEntity": [
-                      {
-                        "@type": "Question",
-                        "name": "What are Flat Bars used for?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Flat Bars are widely used in construction, fabrication, machinery manufacturing, structural supports, base plates, automotive components, marine applications, and architectural projects due to their strength, versatility, and ease of fabrication."
+                        {
+                          "@context": "https://schema.org/",
+                          "@type": "Product",
+                          "name": "Flat Bars",
+                          "image": "https://mokshtubes.com/assets/images/product/Flat-Bars.webp",
+                          "description": "Premium-quality Flat Bars manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Aluminium, Brass & Copper grades.",
+                          "brand": {
+                            "@type": "Brand",
+                            "name": "Moksh Tubes & Fittings LLP"
+                          },
+                          "manufacturer": {
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "url": "https://mokshtubes.com"
+                          },
+                          "offers": {
+                            "@type": "AggregateOffer",
+                            "url": "https://mokshtubes.com",
+                            "priceCurrency": "USD",
+                            "price": "1.00",
+                            "availability": "https://schema.org/InStock"
+                          },
+                          "mainEntityOfPage": {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                              {
+                                "@type": "Question",
+                                "name": "What are Flat Bars used for?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Flat Bars are widely used in construction, fabrication, machinery manufacturing, structural supports, base plates, automotive components, marine applications, and architectural projects due to their strength, versatility, and ease of fabrication."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "Which materials are available for Flat Bars?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "We manufacture and supply Flat Bars in Stainless Steel, Carbon Steel, Mild Steel, Alloy Steel, Duplex & Super Duplex Stainless Steel, Aluminium, Brass, Copper, Nickel Alloys, and Titanium."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "What are the standard sizes of Flat Bars?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Standard Flat Bars are available in thicknesses from 3 mm to 100 mm, widths from 20 mm to 400 mm, and standard lengths of 3 m and 6 m. Custom dimensions are also available."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "How do I calculate the weight of a Flat Bar?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "The approximate weight per meter can be calculated using the formula: Weight (kg/m) = Width (mm) × Thickness (mm) × 0.00785"
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "Can Flat Bars be supplied in custom lengths?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Yes. We provide custom cut-to-length Flat Bars based on customer drawings and project requirements to minimize machining time and material wastage."
+                                }
+                              }
+                            ]
+                          }
                         }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Which materials are available for Flat Bars?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "We manufacture and supply Flat Bars in Stainless Steel, Carbon Steel, Mild Steel, Alloy Steel, Duplex & Super Duplex Stainless Steel, Aluminium, Brass, Copper, Nickel Alloys, and Titanium."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "What are the standard sizes of Flat Bars?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Standard Flat Bars are available in thicknesses from 3 mm to 100 mm, widths from 20 mm to 400 mm, and standard lengths of 3 m and 6 m. Custom dimensions are also available."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "How do I calculate the weight of a Flat Bar?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "The approximate weight per meter can be calculated using the formula: Weight (kg/m) = Width (mm) × Thickness (mm) × 0.00785"
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Can Flat Bars be supplied in custom lengths?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Yes. We provide custom cut-to-length Flat Bars based on customer drawings and project requirements to minimize machining time and material wastage."
-                        }
-                      }
-                    ]
-                  }
-                }
-                </script>
+                        </script>
     @endverbatim
 @endsection

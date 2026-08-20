@@ -2,17 +2,17 @@
 @section('title', 'Hollow Bars Manufacturer, Supplier & Exporter | Stainless & Alloy Steel')
 <!-- 84 characters -->
 @section('meta_description', 'Moksh Tubes & Fittings LLP manufactures and exports Stainless Steel, Alloy Steel, Carbon
-    Steel, Duplex, Nickel Alloy & Titanium Hollow Bars in custom sizes.')
+Steel, Duplex, Nickel Alloy & Titanium Hollow Bars in custom sizes.')
 @section('meta_keywords', 'Hollow Bars, Stainless Hollow Bars, Alloy Hollow Bars, MS Hollow Bars, Aluminium Hollow Bars,
-    Bronze Hollow Bars, Carbon Steel Hollow Bars, Round Hollow Bars, Square Hollow Bars')
+Bronze Hollow Bars, Carbon Steel Hollow Bars, Round Hollow Bars, Square Hollow Bars')
 @section('og_title', 'Hollow Bars Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Moksh Tubes & Fittings LLP manufactures and exports Stainless Steel, Alloy Steel, Carbon
-    Steel, Duplex, Nickel Alloy & Titanium Hollow Bars in custom sizes with worldwide delivery.')
+Steel, Duplex, Nickel Alloy & Titanium Hollow Bars in custom sizes with worldwide delivery.')
 @section('og_image', asset('assets/images/product/Hollow-Bars.webp'))
 @section('og_type', 'product')
 @section('twitter_title', 'Hollow Bars Manufacturer in India')
 @section('twitter_description', 'Buy premium-quality Hollow Bars in Stainless Steel, Carbon Steel, Alloy Steel, and
-    Nickel Alloys grades with fast worldwide delivery.')
+Nickel Alloys grades with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -580,10 +580,9 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100"
-                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
-                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
                             </a>
                         </figure>
@@ -918,74 +917,74 @@
 
     @verbatim
         <script type="application/ld+json">
-                {
-                  "@context": "https://schema.org/",
-                  "@type": "Product",
-                  "name": "Hollow Bars",
-                  "image": "https://mokshtubes.com/assets/images/product/Hollow-Bars.webp",
-                  "description": "Premium-quality Hollow Bars manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Nickel Alloy & Titanium grades.",
-                  "brand": {
-                    "@type": "Brand",
-                    "name": "Moksh Tubes & Fittings LLP"
-                  },
-                  "manufacturer": {
-                    "@type": "Organization",
-                    "name": "Moksh Tubes & Fittings LLP",
-                    "url": "https://mokshtubes.com"
-                  },
-                  "offers": {
-                    "@type": "AggregateOffer",
-                    "url": "https://mokshtubes.com",
-                    "priceCurrency": "USD",
-                    "price": "1.00",
-                    "availability": "https://schema.org/InStock"
-                  },
-                  "mainEntityOfPage": {
-                    "@type": "FAQPage",
-                    "mainEntity": [
-                      {
-                        "@type": "Question",
-                        "name": "What is a Hollow Bar?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "A Hollow Bar is a tubular metal bar with a hollow center designed to reduce weight while maintaining excellent mechanical strength for machining and structural applications."
+                        {
+                          "@context": "https://schema.org/",
+                          "@type": "Product",
+                          "name": "Hollow Bars",
+                          "image": "https://mokshtubes.com/assets/images/product/Hollow-Bars.webp",
+                          "description": "Premium-quality Hollow Bars manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Nickel Alloy & Titanium grades.",
+                          "brand": {
+                            "@type": "Brand",
+                            "name": "Moksh Tubes & Fittings LLP"
+                          },
+                          "manufacturer": {
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "url": "https://mokshtubes.com"
+                          },
+                          "offers": {
+                            "@type": "AggregateOffer",
+                            "url": "https://mokshtubes.com",
+                            "priceCurrency": "USD",
+                            "price": "1.00",
+                            "availability": "https://schema.org/InStock"
+                          },
+                          "mainEntityOfPage": {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                              {
+                                "@type": "Question",
+                                "name": "What is a Hollow Bar?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "A Hollow Bar is a tubular metal bar with a hollow center designed to reduce weight while maintaining excellent mechanical strength for machining and structural applications."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "What materials are available?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "We supply stainless steel, carbon steel, alloy steel, duplex stainless steel, super duplex, nickel alloys, titanium, aluminium, brass, bronze, and copper nickel hollow bars."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "Are custom sizes available?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Yes. Custom outer diameters, inner diameters, wall thicknesses, and cut-to-length sizes are available according to customer specifications."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "What industries use Hollow Bars?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Hollow Bars are widely used in oil & gas, petrochemical, marine, construction, automotive, aerospace, heavy engineering, power generation, food processing, and pharmaceutical industries."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "Do you provide Mill Test Certificates?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Yes. EN 10204 3.1 / 3.2 Mill Test Certificates are supplied with every order upon request."
+                                }
+                              }
+                            ]
+                          }
                         }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "What materials are available?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "We supply stainless steel, carbon steel, alloy steel, duplex stainless steel, super duplex, nickel alloys, titanium, aluminium, brass, bronze, and copper nickel hollow bars."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Are custom sizes available?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Yes. Custom outer diameters, inner diameters, wall thicknesses, and cut-to-length sizes are available according to customer specifications."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "What industries use Hollow Bars?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Hollow Bars are widely used in oil & gas, petrochemical, marine, construction, automotive, aerospace, heavy engineering, power generation, food processing, and pharmaceutical industries."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Do you provide Mill Test Certificates?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Yes. EN 10204 3.1 / 3.2 Mill Test Certificates are supplied with every order upon request."
-                        }
-                      }
-                    ]
-                  }
-                }
-                </script>
+                        </script>
     @endverbatim
 @endsection
