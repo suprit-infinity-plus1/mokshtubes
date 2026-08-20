@@ -460,50 +460,6 @@ RF, RTJ & FF facing types, multiple pressure classes, and material grades with f
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title center mb-4">
-                        <h2>International Equivalents</h2>
-                    </div>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th style="width: 25%; text-align: left; padding-left: 20px;">Standard</th>
-                                    <th style="text-align: left; padding-left: 20px;">Specification</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-start">
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>ASTM</strong></td>
-                                    <td style="padding-left: 20px;">ASTM A182, ASTM A105, ASTM A350</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>ASME</strong></td>
-                                    <td style="padding-left: 20px;">ASME B16.5, ASME B16.47</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>EN</strong></td>
-                                    <td style="padding-left: 20px;">EN 1092-1</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>DIN</strong></td>
-                                    <td style="padding-left: 20px;">DIN 2563</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>BS</strong></td>
-                                    <td style="padding-left: 20px;">BS 4504</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>JIS</strong></td>
-                                    <td style="padding-left: 20px;">JIS B2220</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -632,82 +588,64 @@ RF, RTJ & FF facing types, multiple pressure classes, and material grades with f
                     <p class="text-center pb-3">Socket Weld Flanges are widely used in:</p>
                 </div>
 
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                            <h5>Oil & Gas Pipelines</h5>
-                        </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Oil & Gas Pipelines</h5>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-car-front"></i></div>
-                            <h5>Petrochemical Plants</h5>
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-car-front"></i></div>
+                        <h5>Petrochemical Plants</h5>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-airplane"></i></div>
-                            <h5>Chemical Processing Industries</h5>
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-airplane"></i></div>
+                        <h5>Chemical Processing Industries</h5>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                            <h5>Power Generation Plants</h5>
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h5>Power Generation Plants</h5>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-ev-station"></i></div>
-                            <h5>Water & Wastewater Treatment</h5>
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-ev-station"></i></div>
+                        <h5>Water & Wastewater Treatment</h5>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
-                            <h5>Refineries</h5>
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge"></i></div>
+                        <h5>Refineries</h5>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-cpu"></i></div>
-                            <h5>Marine & Offshore Applications</h5>
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-cpu"></i></div>
+                        <h5>Marine & Offshore Applications</h5>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-tools"></i></div>
-                            <h5>Pharmaceutical Industry</h5>
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-tools"></i></div>
+                        <h5>Pharmaceutical Industry</h5>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-water"></i></div>
-                            <h5>Food & Beverage Processing</h5>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-building-gear"></i></div>
-                            <h5>Industrial Process Piping</h5>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-rulers"></i></div>
-                            <h5>High-Pressure Steam Systems</h5>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-building"></i></div>
-                            <h5>Construction & Infrastructure</h5>
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-water"></i></div>
+                        <h5>Food & Beverage Processing</h5>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
         {{-- Features & Advantages --}}
         <section id="features" class="sec-padd-top sec-padd-bottom">
@@ -716,64 +654,64 @@ RF, RTJ & FF facing types, multiple pressure classes, and material grades with f
                     <h2>Features & Advantages</h2>
                 </div>
 
-                <div class="row g-4 mt-4">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                            <h4>Secure socket weld connection</h4>
-                        </div>
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>Secure socket weld connection</h4>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
-                            <h4>Excellent strength for high-pressure applications</h4>
-                        </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-wrench-adjustable"></i></div>
+                        <h4>Excellent strength for high-pressure applications</h4>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-box-arrow-in-down-right"></i></div>
-                            <h4>Easy pipe alignment during installation</h4>
-                        </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-box-arrow-in-down-right"></i></div>
+                        <h4>Easy pipe alignment during installation</h4>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                            <h4>Superior corrosion and oxidation resistance</h4>
-                        </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h4>Superior corrosion and oxidation resistance</h4>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                            <h4>High mechanical strength and durability</h4>
-                        </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h4>High mechanical strength and durability</h4>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                            <h4>Leak-resistant and reliable performance</h4>
-                        </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                        <h4>Leak-resistant and reliable performance</h4>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-activity"></i></div>
-                            <h4>Suitable for small-diameter piping systems</h4>
-                        </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                        <h4>Suitable for small-diameter piping systems</h4>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
-                            <h4>Long service life with minimal maintenance</h4>
-                        </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h4>Long service life with minimal maintenance</h4>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="advantage-card">
-                            <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
-                            <h4>Manufactured according to international quality standards</h4>
-                        </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
+                        <h4>Manufactured according to international quality standards</h4>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
         <section id="mechanical-properties" class="sec-padd-top sec-padd-bottom">
             <div class="container">

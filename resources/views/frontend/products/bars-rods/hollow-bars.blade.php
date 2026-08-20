@@ -622,7 +622,7 @@ Nickel Alloys grades with fast worldwide delivery.')
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-gear-wide"></i></div>
                         <h4>Mechanical Engineering</h4>
                         <p class="small text-muted mt-2">Hydraulic Cylinders, Bushings, Bearings, Rollers, Machine
@@ -630,7 +630,7 @@ Nickel Alloys grades with fast worldwide delivery.')
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-funnel"></i></div>
                         <h4>Oil &amp; Gas Industry</h4>
                         <p class="small text-muted mt-2">Valve Bodies, Pump Components, High-Pressure Equipment, Offshore
@@ -638,14 +638,14 @@ Nickel Alloys grades with fast worldwide delivery.')
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-cone-striped"></i></div>
                         <h4>Construction &amp; Infrastructure</h4>
                         <p class="small text-muted mt-2">Structural Supports, Columns, Frameworks, Heavy Fabrication.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-water"></i></div>
                         <h4>Marine &amp; Offshore</h4>
                         <p class="small text-muted mt-2">Propeller Shafts, Marine Equipment, Offshore Platforms,
@@ -653,7 +653,7 @@ Nickel Alloys grades with fast worldwide delivery.')
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-airplane"></i></div>
                         <h4>Automotive &amp; Aerospace</h4>
                         <p class="small text-muted mt-2">Steering Components, Hydraulic Systems, Landing Gear Components,
@@ -661,7 +661,7 @@ Nickel Alloys grades with fast worldwide delivery.')
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-capsule"></i></div>
                         <h4>Food, Pharmaceutical &amp; Chemical</h4>
                         <p class="small text-muted mt-2">Processing Equipment, Hygienic Components, Chemical Processing
@@ -681,49 +681,49 @@ Nickel Alloys grades with fast worldwide delivery.')
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h4>Excellent machinability for precision engineering</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-speedometer2"></i></div>
                         <h4>High strength-to-weight ratio</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-scissors"></i></div>
                         <h4>Reduced material wastage during machining</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-bounding-box"></i></div>
                         <h4>Outstanding dimensional accuracy</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h4>Excellent corrosion resistance in stainless grades</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-boxes"></i></div>
                         <h4>Available in seamless and welded construction</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-tags"></i></div>
                         <h4>Cost-effective compared to solid bars</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-tools"></i></div>
                         <h4>Suitable for heavy-duty industrial applications</h4>
                     </div>
@@ -792,37 +792,37 @@ Nickel Alloys grades with fast worldwide delivery.')
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-box-seam"></i></div>
                         <h4>Extensive inventory of stainless steel, alloy steel, duplex, nickel alloy hollow bars.</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-sliders"></i></div>
                         <h4>Custom sizes, lengths, wall thicknesses, and machining options available.</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h4>Manufactured to ASTM, ASME, DIN, EN, ISO, and JIS standards.</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-tags"></i></div>
                         <h4>Competitive pricing with ready stock for fast delivery.</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
                         <h4>Trusted exporter serving international markets worldwide.</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-headset"></i></div>
                         <h4>Experienced technical support for industrial and project requirements.</h4>
                     </div>

@@ -868,49 +868,49 @@ Aluminum grades with fast worldwide delivery.')
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h4>Excellent machinability</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-speedometer2"></i></div>
                         <h4>High strength-to-weight ratio</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-bounding-box"></i></div>
                         <h4>Superior dimensional accuracy</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-layers"></i></div>
                         <h4>Available in numerous grades</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h4>Corrosion-resistant options available</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-tools"></i></div>
                         <h4>Easy fabrication and welding</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
                         <h4>Long service life</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-check-circle"></i></div>
                         <h4>Suitable for critical engineering applications</h4>
                     </div>
@@ -987,49 +987,49 @@ Aluminum grades with fast worldwide delivery.')
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-box-seam"></i></div>
                         <h4>Extensive stock availability</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-layers"></i></div>
                         <h4>Wide range of material grades</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-tags"></i></div>
                         <h4>Competitive pricing</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h4>ISO-certified quality systems</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
                         <h4>Worldwide export capability</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-truck"></i></div>
                         <h4>Fast dispatch schedules</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-headset"></i></div>
                         <h4>Technical support</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-scissors"></i></div>
                         <h4>Custom cutting services</h4>
                     </div>
@@ -1045,7 +1045,7 @@ Aluminum grades with fast worldwide delivery.')
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center mb-4">
-                            <h2 class="fw-bold" style="color: #174268;">Frequently Asked Questions (FAQ)</h2>
+                            <h2 class="fw-bold" style="color: #174268;">Frequently Asked Questions – Round Bars</h2>
                         </div>
 
                         <div class="accordion accordion-block">
@@ -1053,57 +1053,43 @@ Aluminum grades with fast worldwide delivery.')
                                 <h4>What are Round Bars?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Round Bars are solid cylindrical metal bars used for machining, fabrication, structural
-                                    applications, and manufacturing components.</p>
+                                <p>Round Bars are solid cylindrical metal bars widely used for machining, fabrication, structural applications, and manufacturing various industrial components.</p>
                             </div>
                         </div>
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What materials are available?</h4>
+                                <h4>What materials are available for Round Bars?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Round bars are available in stainless steel, carbon steel, alloy steel, duplex steel,
-                                    nickel alloys, titanium, brass, copper, and aluminium.</p>
+                                <p>Round Bars are available in stainless steel, carbon steel, alloy steel, duplex steel, nickel alloys, titanium, brass, copper, and aluminium.</p>
                             </div>
                         </div>
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What sizes are available?</h4>
+                                <h4>What sizes are available for Round Bars?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Round bars are available from 3 mm to 500 mm diameter, with custom diameters available
-                                    upon request.</p>
+                                <p>Round Bars are available in diameters ranging from 3 mm to 500 mm, with custom diameters available as per customer requirements.</p>
                             </div>
                         </div>
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What is the difference between hot rolled and cold drawn round bars?</h4>
+                                <h4>What is the difference between hot rolled and cold drawn Round Bars?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Hot rolled bars are economical and suitable for structural applications, while cold drawn
-                                    bars provide tighter tolerances and improved surface finish.</p>
+                                <p>Hot rolled Round Bars are economical and suitable for general structural and fabrication applications, while cold drawn Round Bars offer tighter dimensional tolerances and improved surface finish.</p>
                             </div>
                         </div>
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Can round bars be supplied in custom lengths?</h4>
+                                <h4>Can Round Bars be supplied in custom lengths with Mill Test Certificates?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>Yes. We supply cut-to-length round bars according to customer specifications.</p>
-                            </div>
-                        </div>
-
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Do you provide Mill Test Certificates?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>Yes. EN 10204 3.1 Mill Test Certificates and third-party inspection reports are
-                                    available.</p>
+                                <p>Yes. Round Bars can be supplied in custom cut-to-length sizes according to customer specifications. EN 10204 3.1 Mill Test Certificates and third-party inspection reports are also available.</p>
                             </div>
                         </div>
 

@@ -850,37 +850,37 @@ construction, and marine applications. Fast worldwide delivery.')
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-box-seam"></i></div>
                         <h4>Leading Manufacturer, Supplier &amp; Exporter of premium-quality Flat Bars.</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-sliders"></i></div>
                         <h4>Extensive stock of Stainless Steel, MS, Carbon, Alloy Steel, Aluminium, Brass &amp; Copper.</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h4>Manufactured according to ASTM, ASME, DIN, EN, ISO, and JIS standards.</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-scissors"></i></div>
                         <h4>Custom cutting, machining, and finishing services available.</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
                         <h4>Fast domestic and international delivery with EN 10204 3.1 MTC available.</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-tags"></i></div>
                         <h4>Competitive pricing with ready stock for immediate dispatch.</h4>
                     </div>

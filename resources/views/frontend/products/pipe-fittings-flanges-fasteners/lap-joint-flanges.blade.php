@@ -458,50 +458,6 @@ with stub ends in multiple pressure classes and material grades with fast worldw
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title center mb-4">
-                        <h2>International Equivalents</h2>
-                    </div>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th style="width: 25%; text-align: left; padding-left: 20px;">Standard</th>
-                                    <th style="text-align: left; padding-left: 20px;">Specification</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-start">
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>ASTM</strong></td>
-                                    <td style="padding-left: 20px;">ASTM A182, ASTM A105, ASTM A350</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>ASME</strong></td>
-                                    <td style="padding-left: 20px;">ASME B16.5, ASME B16.47</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>EN</strong></td>
-                                    <td style="padding-left: 20px;">EN 1092-1</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>DIN</strong></td>
-                                    <td style="padding-left: 20px;">DIN 2642</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>BS</strong></td>
-                                    <td style="padding-left: 20px;">BS 4504</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td style="padding-left: 20px;"><strong>JIS</strong></td>
-                                    <td style="padding-left: 20px;">JIS B2220</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -685,18 +641,6 @@ with stub ends in multiple pressure classes and material grades with fast worldw
                         <h5>Power Generation Plants</h5>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Construction & Infrastructure</h5>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-tools"></i></div>
-                        <h5>Piping Systems Requiring Frequent Maintenance</h5>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -710,55 +654,55 @@ with stub ends in multiple pressure classes and material grades with fast worldw
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-arrow-repeat"></i></div>
                         <h4>Rotating flange for easy bolt hole alignment</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-tools"></i></div>
                         <h4>Simplifies installation and maintenance</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-diagram-3"></i></div>
                         <h4>Used with stub ends for flexible piping connections</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h4>Excellent corrosion and oxidation resistance</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
                         <h4>High mechanical strength and durability</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-wrench"></i></div>
                         <h4>Ideal for systems requiring frequent dismantling</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-piggy-bank"></i></div>
                         <h4>Cost-effective solution for expensive alloy piping</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-record-circle"></i></div>
                         <h4>Precision-machined sealing surface</h4>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
+                    <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
                         <h4>Manufactured according to international quality standards</h4>
                     </div>
