@@ -3,22 +3,22 @@
 <!-- 70 characters -->
 @section('meta_description', 'Moksh Tubes & Fittings LLP is a leading manufacturer, supplier & exporter of Slip On
     Flanges in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5
-    certified with worldwide delivery.')
+certified with worldwide delivery.')
 @section('meta_keywords', 'Slip On Flanges, Slip On Flanges Manufacturer, Slip On Flanges Supplier, Slip On Flanges
     Exporter, Stainless Steel Slip On Flanges, Carbon Steel Slip On Flanges, Alloy Steel Slip On Flanges, Duplex Slip On
     Flanges, Super Duplex Slip On Flanges, Forged Slip On Flanges, ASME B16.5 Slip On Flanges, SO Flanges, Double Fillet
     Weld Flanges, Industrial Slip On Flanges, RF Slip On Flanges, RTJ Slip On Flanges, Forged Pipe Flanges, Industrial Pipe
     Flanges, Double Fillet Weld Connection, Corrosion Resistant Flanges, Raised Face Flanges, Ring Type Joint Flanges, Flat
     Face Flanges, Oil & Gas Pipe Flanges, Petrochemical Flanges, Process Piping Components, Low Pressure Pipe Flanges,
-    Medium Pressure Pipe Flanges')
+Medium Pressure Pipe Flanges')
 @section('og_title', 'Slip On Flanges Manufacturer, Supplier & Exporter | Moksh Tubes')
 @section('og_description', 'Premium-quality Slip On Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel,
-    Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified with worldwide export support.')
+Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified with worldwide export support.')
 @section('og_image', asset('assets/images/fasteners/sorf-flanges_11zon.jpg'))
 @section('og_type', 'product')
 @section('twitter_title', 'Slip On Flanges Manufacturer in India')
 @section('twitter_description', 'Buy premium-quality Slip On Flanges for industrial piping systems. Available in RF, RTJ
-    & FF facing types, multiple pressure classes, and material grades with fast worldwide delivery.')
+& FF facing types, multiple pressure classes, and material grades with fast worldwide delivery.')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -200,47 +200,47 @@
         </div>
     </section>
     <!--
-        <section id="chemical-composition" class="sec-padd-top sec-padd-bottom bg-light">
-            <div class="container">
-                <div class="section-title center mb-4">
-                    <h2 class="fw-bold" style="color: #174268;">Chemical Composition</h2>
-                </div>
-                <p class="text-center pb-3">
-                    The chemical composition of <strong>Slip On Flanges</strong> depends on the selected material grade. At Moksh Tubes &amp; Fittings LLP, our Slip On Flanges are manufactured from premium-quality raw materials that comply with ASTM, ASME, EN, DIN, BS, and JIS standards, ensuring excellent corrosion resistance, high mechanical strength, and long service life.
-                </p>
+            <section id="chemical-composition" class="sec-padd-top sec-padd-bottom bg-light">
+                <div class="container">
+                    <div class="section-title center mb-4">
+                        <h2 class="fw-bold" style="color: #174268;">Chemical Composition</h2>
+                    </div>
+                    <p class="text-center pb-3">
+                        The chemical composition of <strong>Slip On Flanges</strong> depends on the selected material grade. At Moksh Tubes &amp; Fittings LLP, our Slip On Flanges are manufactured from premium-quality raw materials that comply with ASTM, ASME, EN, DIN, BS, and JIS standards, ensuring excellent corrosion resistance, high mechanical strength, and long service life.
+                    </p>
 
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="table-responsive">
-                            <table class="table table-bordered table-striped align-middle text-center">
-                                <thead class="table-dark">
-                                    <tr class="t-row">
-                                        <th>Element</th>
-                                        <th>SS 304 (%)</th>
-                                        <th>SS 304L (%)</th>
-                                        <th>SS 316 (%)</th>
-                                        <th>SS 316L (%)</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
-                                    <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
-                                    <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
-                                    <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
-                                    <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
-                                    <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
-                                    <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
-                                    <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
-                                    <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
-                                    <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
-                                </tbody>
-                            </table>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped align-middle text-center">
+                                    <thead class="table-dark">
+                                        <tr class="t-row">
+                                            <th>Element</th>
+                                            <th>SS 304 (%)</th>
+                                            <th>SS 304L (%)</th>
+                                            <th>SS 316 (%)</th>
+                                            <th>SS 316L (%)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="t-row"><td>Carbon (C)</td><td>0.08 Max</td><td>0.03 Max</td><td>0.08 Max</td><td>0.03 Max</td></tr>
+                                        <tr class="t-row"><td>Manganese (Mn)</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td><td>2.00 Max</td></tr>
+                                        <tr class="t-row"><td>Silicon (Si)</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td><td>0.75 Max</td></tr>
+                                        <tr class="t-row"><td>Phosphorus (P)</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td><td>0.045 Max</td></tr>
+                                        <tr class="t-row"><td>Sulfur (S)</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td><td>0.030 Max</td></tr>
+                                        <tr class="t-row"><td>Chromium (Cr)</td><td>18.00–20.00</td><td>18.00–20.00</td><td>16.00–18.00</td><td>16.00–18.00</td></tr>
+                                        <tr class="t-row"><td>Nickel (Ni)</td><td>8.00–10.50</td><td>8.00–12.00</td><td>10.00–14.00</td><td>10.00–14.00</td></tr>
+                                        <tr class="t-row"><td>Molybdenum (Mo)</td><td>—</td><td>—</td><td>2.00–3.00</td><td>2.00–3.00</td></tr>
+                                        <tr class="t-row"><td>Nitrogen (N)</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td><td>0.10 Max</td></tr>
+                                        <tr class="t-row"><td>Iron (Fe)</td><td>Balance</td><td>Balance</td><td>Balance</td><td>Balance</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
+                    <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Slip On Flanges are manufactured in accordance with the relevant ASTM and ASME material specifications.</small></p>
                 </div>
-                <p class="mt-2 text-muted text-center"><small><strong>Note:</strong> Chemical composition varies depending on the selected material grade. Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloy, and Titanium Slip On Flanges are manufactured in accordance with the relevant ASTM and ASME material specifications.</small></p>
-            </div>
-        </section> -->
+            </section> -->
 
     <!-- charts -->
     <section id="size-chart" class="sec-padd-top sec-padd-bottom">
@@ -462,7 +462,7 @@
         </div>
     </section>
 
-     {{-- Gallery / Products --}}
+    {{-- Gallery / Products --}}
     <section class="our-services sec-padd-top">
         <div class="container">
             <div class="row">
@@ -546,10 +546,9 @@
                 <div class="col-md-4 col-sm-6 col-12 mb-4">
                     <div class="single-our-service border bg-white">
                         <figure class="img-box mb-0">
-                            <a class="w-100"
-                                href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex.grade', 'duplex-s31803') }}">
                                 <img class="w-100"
-                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                                    src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp') }}"
                                     alt="Duplex Stainless Steel" loading="lazy">
                             </a>
                         </figure>
@@ -911,74 +910,74 @@
 
     @verbatim
         <script type="application/ld+json">
-                {
-                  "@context": "https://schema.org/",
-                  "@type": "Product",
-                  "name": "Slip On Flanges",
-                  "image": "https://mokshtubes.com/assets/images/fasteners/sorf-flanges_11zon.jpg",
-                  "description": "Premium-quality Slip On Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified.",
-                  "brand": {
-                    "@type": "Brand",
-                    "name": "Moksh Tubes & Fittings LLP"
-                  },
-                  "manufacturer": {
-                    "@type": "Organization",
-                    "name": "Moksh Tubes & Fittings LLP",
-                    "url": "https://mokshtubes.com"
-                  },
-                  "offers": {
-                    "@type": "AggregateOffer",
-                    "url": "https://mokshtubes.com",
-                    "priceCurrency": "USD",
-                    "price": "1.00",
-                    "availability": "https://schema.org/InStock"
-                  },
-                  "mainEntityOfPage": {
-                    "@type": "FAQPage",
-                    "mainEntity": [
-                      {
-                        "@type": "Question",
-                        "name": "What is a Slip On Flange?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "A Slip On Flange is a pipe flange that slides over the pipe and is welded on both the inside and outside to create a secure and leak-resistant connection."
+                        {
+                          "@context": "https://schema.org/",
+                          "@type": "Product",
+                          "name": "Slip On Flanges",
+                          "image": "https://mokshtubes.com/assets/images/fasteners/sorf-flanges_11zon.jpg",
+                          "description": "Premium-quality Slip On Flanges manufactured in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Nickel Alloys & Titanium. ASME B16.5 & ASME B16.47 certified.",
+                          "brand": {
+                            "@type": "Brand",
+                            "name": "Moksh Tubes & Fittings LLP"
+                          },
+                          "manufacturer": {
+                            "@type": "Organization",
+                            "name": "Moksh Tubes & Fittings LLP",
+                            "url": "https://mokshtubes.com"
+                          },
+                          "offers": {
+                            "@type": "AggregateOffer",
+                            "url": "https://mokshtubes.com",
+                            "priceCurrency": "USD",
+                            "price": "1.00",
+                            "availability": "https://schema.org/InStock"
+                          },
+                          "mainEntityOfPage": {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                              {
+                                "@type": "Question",
+                                "name": "What is a Slip On Flange?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "A Slip On Flange is a pipe flange that slides over the pipe and is welded on both the inside and outside to create a secure and leak-resistant connection."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "Where are Slip On Flanges commonly used?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "They are commonly used in oil & gas, chemical processing, water treatment, power plants, marine, and general industrial piping systems operating under low to medium pressure."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "Which materials are available?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "We manufacture Slip On Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "Do you provide material test certificates?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order."
+                                }
+                              },
+                              {
+                                "@type": "Question",
+                                "name": "Can you manufacture custom sizes and pressure classes?",
+                                "acceptedAnswer": {
+                                  "@type": "Answer",
+                                  "text": "Yes. We manufacture Slip On Flanges in standard and customized sizes, pressure classes, and material grades according to customer specifications."
+                                }
+                              }
+                            ]
+                          }
                         }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Where are Slip On Flanges commonly used?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "They are commonly used in oil & gas, chemical processing, water treatment, power plants, marine, and general industrial piping systems operating under low to medium pressure."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Which materials are available?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "We manufacture Slip On Flanges in stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, and titanium grades."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Do you provide material test certificates?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Yes. EN 10204 3.1 Material Test Certificates are supplied with every order."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Can you manufacture custom sizes and pressure classes?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Yes. We manufacture Slip On Flanges in standard and customized sizes, pressure classes, and material grades according to customer specifications."
-                        }
-                      }
-                    ]
-                  }
-                }
-                </script>
+                        </script>
     @endverbatim
 @endsection
