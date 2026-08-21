@@ -1,11 +1,13 @@
 @extends('layouts.master')
 @section('title', 'Premium Pipe Fittings Manufacturer & Supplier') <!-- 52 characters -->
 @section('meta_description', 'Stainless, carbon, alloy, duplex, nickel, and titanium pipe fittings from Moksh Tubes —
-    ASTM/ASME compliant and built for reliable performance.')
-    <!-- 153 characters -->
-@section('meta_keywords',
+ASTM/ASME compliant and built for reliable performance.')
+<!-- 153 characters -->
+@section(
+    'meta_keywords',
     'Pipe Fittings, Stainless Steel Fittings, Carbon Steel Fittings, Alloy Steel Fittings, Duplex
-    Fittings, Nickel Alloy Fittings, Titanium Fittings, ASTM/ASME Fittings, Industrial Pipe Fittings')
+    Fittings, Nickel Alloy Fittings, Titanium Fittings, ASTM/ASME Fittings, Industrial Pipe Fittings'
+)
 @section('og_image', asset('assets/images/product/flangs/Pipe-Fittings.webp'))
 @section('og_type', 'article')
 @section('content')
@@ -55,6 +57,49 @@
                     </p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Datasheet Download -->
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Pipe Fittings Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Pipe Fittings datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
         </div>
     </section>
 
@@ -468,8 +513,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
-                                    height="260">
+                                    alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -496,8 +540,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy"
-                                    width="400" height="260">
+                                    alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -525,8 +569,8 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
-                                    width="400" height="260">
+                                    alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400"
+                                    height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -870,96 +914,55 @@
 @endsection
 @section('jsscripts')
     <script type="application/ld+json">
-            @verbatim
-                {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [
+                @verbatim
                     {
-                    "@type": "Question",
-                    "name": "What are custom fabricated fittings?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Custom fabricated fittings are specially designed pipe fittings that are manufactured according to specific requirements, such as size, material, design, or application. They are used when standard fittings do not meet the needs of a project."
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                        {
+                        "@type": "Question",
+                        "name": "What are custom fabricated fittings?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Custom fabricated fittings are specially designed pipe fittings that are manufactured according to specific requirements, such as size, material, design, or application. They are used when standard fittings do not meet the needs of a project."
+                        }
+                        },
+                        {
+                        "@type": "Question",
+                        "name": "Which industries use custom fabricated fittings?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "These fittings are widely used in oil & gas, petrochemical, power generation, marine, chemical processing, food & beverage, water treatment, and other industries where unique piping solutions are required."
+                        }
+                        },
+                        {
+                        "@type": "Question",
+                        "name": "What materials are available for custom fabricated fittings?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We offer fittings in stainless steel, duplex steel, super duplex, nickel alloys (Inconel, Hastelloy, Monel), titanium, copper alloys, and other high-performance materials depending on the application."
+                        }
+                        },
+                        {
+                        "@type": "Question",
+                        "name": "What types of fittings can be custom fabricated?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Elbows, tees, reducers, crosses, stub ends, branch fittings, lateral fittings, headers, manifolds, and other complex pipe components can all be fabricated as per project needs."
+                        }
+                        },
+                        {
+                        "@type": "Question",
+                        "name": "How are custom fabricated fittings manufactured?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "They are manufactured through advanced processes such as cutting, bending, welding, machining, and heat treatment to ensure precise dimensions, strength, and durability."
+                        }
+                        }
+                    ]
                     }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "Which industries use custom fabricated fittings?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "These fittings are widely used in oil & gas, petrochemical, power generation, marine, chemical processing, food & beverage, water treatment, and other industries where unique piping solutions are required."
-                    }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "What materials are available for custom fabricated fittings?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "We offer fittings in stainless steel, duplex steel, super duplex, nickel alloys (Inconel, Hastelloy, Monel), titanium, copper alloys, and other high-performance materials depending on the application."
-                    }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "What types of fittings can be custom fabricated?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Elbows, tees, reducers, crosses, stub ends, branch fittings, lateral fittings, headers, manifolds, and other complex pipe components can all be fabricated as per project needs."
-                    }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "How are custom fabricated fittings manufactured?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "They are manufactured through advanced processes such as cutting, bending, welding, machining, and heat treatment to ensure precise dimensions, strength, and durability."
-                    }
-                    }
-                ]
-                }
 
-            @endverbatim
-        </script>
-    <!-- Datasheet Download -->
-    <section class="sec-padd-bottom bg-light">
-        <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Pipe Fittings Datasheet</h3>
-            <p class="mb-3">
-                Get the complete Pipe Fittings datasheet with chemical composition,
-                mechanical properties, heat treatment details, and applications.
-                Enter your email to receive the PDF instantly.
-            </p>
+                @endverbatim
+            </script>
 
-            <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
-                @csrf
-
-                <input type="hidden" name="page_path" value="{{ $slug }}">
-
-                <div class="row justify-content-center">
-                    <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required class="form-control p-3"
-                            placeholder="Enter your email address">
-                    </div>
-
-                    <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white"
-                            style="background-color:#db7227; border-radius:8px;">
-                            Get Datasheet
-                        </button>
-                    </div>
-                </div>
-            </form>
-
-            @if (session('success'))
-                <div class="alert alert-success mt-3">
-                    {{ session('success') }}
-                </div>
-            @endif
-
-            <p class="small text-muted">
-                We respect your privacy. Your email will only be used to send the datasheet.
-            </p>
-        </div>
-    </section>
 @endsection
