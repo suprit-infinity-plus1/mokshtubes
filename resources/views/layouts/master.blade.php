@@ -528,6 +528,46 @@
                                                                                                 </li>
                                                                                                 <li class="dropdown">
                                                                                                         <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                href="{{ route('products.structures') }}">Structures
+                                                                                                                <i class="fa fa-angle-right"></i></a>
+                                                                                                        <ul>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.structures.indian-profiles') }}">Indian Profiles <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'indian-profiles', 'slug' => 'angles']) }}">Angles</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'indian-profiles', 'slug' => 'channels']) }}">Channels</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'indian-profiles', 'slug' => 'beams']) }}">Beams</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'indian-profiles', 'slug' => 'columns']) }}">Columns</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'indian-profiles', 'slug' => 'hollow-sections']) }}">Hollow Sections</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.structures.american-profiles') }}">American Profiles (ASTM / AISC) <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'angles']) }}">Angles</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'channels']) }}">Channels</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'beams']) }}">Beams</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'columns']) }}">Columns</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'hollow-sections']) }}">Hollow Sections</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.structures.european-profiles') }}">European Profiles (EN) <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'european-profiles', 'slug' => 'angles']) }}">Angles</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'european-profiles', 'slug' => 'channels']) }}">Channels</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'european-profiles', 'slug' => 'beams']) }}">Beams</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'european-profiles', 'slug' => 'columns']) }}">Columns</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'european-profiles', 'slug' => 'hollow-sections']) }}">Hollow Sections</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                        </ul>
+                                                                                                </li>
+                                                                                                <li class="dropdown">
+                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
                                                                                                                 href="{{ route('products.sheets-plates-coils') }}">
                                                                                                                 Sheets,
                                                                                                                 Plates &
@@ -552,8 +592,81 @@
                                                                                                                 </li>
                                                                                                                 <li><a href="{{ url('products/sheets-plates-coils/coils') }}">Coils</a>
                                                                                                                 </li>
-                                                                                                                <li><a href="{{ url('products/sheets-plates-coils/cladded-plates') }}">Cladded
+                                                                                                                        <li><a href="{{ url('products/sheets-plates-coils/cladded-plates') }}">Cladded
                                                                                                                                 Plates</a>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.sheets-plates-coils.mild-steel') }}">Mild Steel <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'mild-steel', 'slug' => 'ms-is-2062-e250']) }}">MS IS 2062 E250</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'mild-steel', 'slug' => 'ms-is-2062-e350']) }}">MS IS 2062 E350 (A/BR/C)</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'mild-steel', 'slug' => 'a36']) }}">A36</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'mild-steel', 'slug' => 's275jr']) }}">S275JR</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.sheets-plates-coils.carbon-steel') }}">Carbon Steel <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'carbon-steel', 'slug' => 'bq-plates-sa-516-gr-60-70']) }}">BQ Plates - SA 516 Gr 60/70</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'carbon-steel', 'slug' => 'sa-537-class-1']) }}">SA 537 Class 1</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'carbon-steel', 'slug' => 'sa-537-class-2']) }}">SA 537 Class 2</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'carbon-steel', 'slug' => 'c45']) }}">C45</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.sheets-plates-coils.stainless-steel') }}">Stainless Steel <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'stainless-steel', 'slug' => 'ss-300-series']) }}">SS 300 Series</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'stainless-steel', 'slug' => 'ss-400-series']) }}">SS 400 Series</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'stainless-steel', 'slug' => 'austenitic']) }}">Austenitic</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'stainless-steel', 'slug' => 'ferritic']) }}">Ferritic</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'stainless-steel', 'slug' => 'martensitic']) }}">Martensitic</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.sheets-plates-coils.alloy-steel') }}">Alloy Steel <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'alloy-steel', 'slug' => 'sa-387-gr-11']) }}">SA 387 Gr 11</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'alloy-steel', 'slug' => 'sa-387-gr-12']) }}">SA 387 Gr 12</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'alloy-steel', 'slug' => 'sa-387-gr-22']) }}">SA 387 Gr 22</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'alloy-steel', 'slug' => 'sa-387-gr-p5']) }}">SA 387 Gr P5</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'alloy-steel', 'slug' => 'sa-387-gr-p9']) }}">SA 387 Gr P9</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'alloy-steel', 'slug' => 'sa-387-gr-p91']) }}">SA 387 Gr P91</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'alloy-steel', 'slug' => '16mo3']) }}">16Mo3</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.sheets-plates-coils.abrasion-resistant-steel') }}">Abrasion Resistant Steel <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'abrasion-resistant-steel', 'slug' => 'rockstar-400-500']) }}">Rockstar 400/500</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'abrasion-resistant-steel', 'slug' => 'rockhard-400-500']) }}">Rockhard 400/500</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'abrasion-resistant-steel', 'slug' => 'nm-400-500']) }}">NM 400/500</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.sheets-plates-coils.high-strength-steel') }}">High Strength Steel <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'high-strength-steel', 'slug' => 'sail-hard']) }}">SAIL Hard</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'high-strength-steel', 'slug' => 'jindal-hard']) }}">Jindal Hard</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'high-strength-steel', 'slug' => 'uttam-hard']) }}">Uttam Hard</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'high-strength-steel', 'slug' => 's690ql']) }}">S690QL</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'high-strength-steel', 'slug' => 's700mc']) }}">S700MC</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.sheets-plates-coils.special-steel-grades') }}">Special Steel Grades <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'special-steel-grades', 'slug' => 'high-manganese-mn13']) }}">High Manganese MN13 Grade</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'special-steel-grades', 'slug' => 'corten-a']) }}">Corten A</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'special-steel-grades', 'slug' => 'corten-b']) }}">Corten B (IRSM 41-97)</a></li>
+                                                                                                                        </ul>
                                                                                                                 </li>
                                                                                                         </ul>
                                                                                                 </li>
@@ -1354,6 +1467,46 @@
                                                                                                 </li>
                                                                                                 <li class="dropdown">
                                                                                                         <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                href="{{ route('products.structures') }}">Structures
+                                                                                                                <i class="fa fa-angle-right"></i></a>
+                                                                                                        <ul>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.structures.indian-profiles') }}">Indian Profiles <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'indian-profiles', 'slug' => 'angles']) }}">Angles</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'indian-profiles', 'slug' => 'channels']) }}">Channels</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'indian-profiles', 'slug' => 'beams']) }}">Beams</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'indian-profiles', 'slug' => 'columns']) }}">Columns</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'indian-profiles', 'slug' => 'hollow-sections']) }}">Hollow Sections</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.structures.american-profiles') }}">American Profiles (ASTM / AISC) <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'angles']) }}">Angles</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'channels']) }}">Channels</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'beams']) }}">Beams</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'columns']) }}">Columns</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'hollow-sections']) }}">Hollow Sections</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.structures.european-profiles') }}">European Profiles (EN) <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'european-profiles', 'slug' => 'angles']) }}">Angles</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'european-profiles', 'slug' => 'channels']) }}">Channels</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'european-profiles', 'slug' => 'beams']) }}">Beams</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'european-profiles', 'slug' => 'columns']) }}">Columns</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'european-profiles', 'slug' => 'hollow-sections']) }}">Hollow Sections</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                        </ul>
+                                                                                                </li>
+                                                                                                <li class="dropdown">
+                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
                                                                                                                 href="{{ route('products.sheets-plates-coils') }}">
                                                                                                                 Sheets,
                                                                                                                 Plates &
@@ -1380,6 +1533,79 @@
                                                                                                                 </li>
                                                                                                                 <li><a href="{{ url('products/sheets-plates-coils/cladded-plates') }}">Cladded
                                                                                                                                 Plates</a>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.sheets-plates-coils.mild-steel') }}">Mild Steel <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'mild-steel', 'slug' => 'ms-is-2062-e250']) }}">MS IS 2062 E250</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'mild-steel', 'slug' => 'ms-is-2062-e350']) }}">MS IS 2062 E350 (A/BR/C)</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'mild-steel', 'slug' => 'a36']) }}">A36</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'mild-steel', 'slug' => 's275jr']) }}">S275JR</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.sheets-plates-coils.carbon-steel') }}">Carbon Steel <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'carbon-steel', 'slug' => 'bq-plates-sa-516-gr-60-70']) }}">BQ Plates - SA 516 Gr 60/70</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'carbon-steel', 'slug' => 'sa-537-class-1']) }}">SA 537 Class 1</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'carbon-steel', 'slug' => 'sa-537-class-2']) }}">SA 537 Class 2</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'carbon-steel', 'slug' => 'c45']) }}">C45</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.sheets-plates-coils.stainless-steel') }}">Stainless Steel <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'stainless-steel', 'slug' => 'ss-300-series']) }}">SS 300 Series</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'stainless-steel', 'slug' => 'ss-400-series']) }}">SS 400 Series</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'stainless-steel', 'slug' => 'austenitic']) }}">Austenitic</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'stainless-steel', 'slug' => 'ferritic']) }}">Ferritic</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'stainless-steel', 'slug' => 'martensitic']) }}">Martensitic</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.sheets-plates-coils.alloy-steel') }}">Alloy Steel <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'alloy-steel', 'slug' => 'sa-387-gr-11']) }}">SA 387 Gr 11</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'alloy-steel', 'slug' => 'sa-387-gr-12']) }}">SA 387 Gr 12</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'alloy-steel', 'slug' => 'sa-387-gr-22']) }}">SA 387 Gr 22</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'alloy-steel', 'slug' => 'sa-387-gr-p5']) }}">SA 387 Gr P5</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'alloy-steel', 'slug' => 'sa-387-gr-p9']) }}">SA 387 Gr P9</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'alloy-steel', 'slug' => 'sa-387-gr-p91']) }}">SA 387 Gr P91</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'alloy-steel', 'slug' => '16mo3']) }}">16Mo3</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.sheets-plates-coils.abrasion-resistant-steel') }}">Abrasion Resistant Steel <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'abrasion-resistant-steel', 'slug' => 'rockstar-400-500']) }}">Rockstar 400/500</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'abrasion-resistant-steel', 'slug' => 'rockhard-400-500']) }}">Rockhard 400/500</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'abrasion-resistant-steel', 'slug' => 'nm-400-500']) }}">NM 400/500</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.sheets-plates-coils.high-strength-steel') }}">High Strength Steel <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'high-strength-steel', 'slug' => 'sail-hard']) }}">SAIL Hard</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'high-strength-steel', 'slug' => 'jindal-hard']) }}">Jindal Hard</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'high-strength-steel', 'slug' => 'uttam-hard']) }}">Uttam Hard</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'high-strength-steel', 'slug' => 's690ql']) }}">S690QL</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'high-strength-steel', 'slug' => 's700mc']) }}">S700MC</a></li>
+                                                                                                                        </ul>
+                                                                                                                </li>
+                                                                                                                <li class="dropdown">
+                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                                                                                                                href="{{ route('products.sheets-plates-coils.special-steel-grades') }}">Special Steel Grades <i class="fa fa-angle-right"></i></a>
+                                                                                                                        <ul>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'special-steel-grades', 'slug' => 'high-manganese-mn13']) }}">High Manganese MN13 Grade</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'special-steel-grades', 'slug' => 'corten-a']) }}">Corten A</a></li>
+                                                                                                                                <li><a href="{{ route('products.sheets-plates-coils.item', ['category' => 'special-steel-grades', 'slug' => 'corten-b']) }}">Corten B (IRSM 41-97)</a></li>
+                                                                                                                        </ul>
                                                                                                                 </li>
                                                                                                         </ul>
                                                                                                 </li>

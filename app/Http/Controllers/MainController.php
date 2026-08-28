@@ -1121,6 +1121,48 @@ class MainController extends Controller
         return view('frontend.products.pipes-tubes.welded-pipes.grade-b-seamless-pipes');
     }
 
+    // Structures
+    public function structures()
+    {
+        return view('frontend.products.structures.index');
+    }
+
+    public function structuresIndianProfiles()
+    {
+        return view('frontend.products.structures.indian-profiles');
+    }
+
+    public function structuresAmericanProfiles()
+    {
+        return view('frontend.products.structures.american-profiles');
+    }
+
+    public function structuresEuropeanProfiles()
+    {
+        return view('frontend.products.structures.european-profiles');
+    }
+
+    public function structuresProfileItem($arg1 = null, $arg2 = null, $arg3 = null)
+    {
+        if ($arg3 === null) {
+            $profile = $arg1;
+            $slug = $arg2;
+        } else {
+            $profile = $arg2;
+            $slug = $arg3;
+        }
+        
+        $formattedProfile = ucwords(str_replace('-', ' ', $profile));
+        $formattedItem = ucwords(str_replace('-', ' ', $slug));
+
+        $title = $formattedItem . ' - ' . $formattedProfile . ' | Structures | Moksh Tubes LLP';
+        $itemName = $formattedItem;
+        $categoryName = $formattedProfile;
+        $backUrl = route('products.structures.' . $profile);
+        $backText = 'Back to ' . $formattedProfile;
+
+        return view('frontend.coming-soon', compact('title', 'itemName', 'categoryName', 'backUrl', 'backText'));
+    }
 
     // Special Fabricated Product
     public function specialFabricated()
@@ -1331,7 +1373,60 @@ class MainController extends Controller
         $country = request()->route('country');
 
         return view('frontend.products.sheets-plates-coils.' . $slug, compact('slug', 'country'));
+    }
 
+    public function sheetsPlatesCoilsMildSteel($country = null)
+    {
+        return view('frontend.products.sheets-plates-coils.mild-steel');
+    }
+
+    public function sheetsPlatesCoilsCarbonSteel($country = null)
+    {
+        return view('frontend.products.sheets-plates-coils.carbon-steel');
+    }
+
+    public function sheetsPlatesCoilsStainlessSteel($country = null)
+    {
+        return view('frontend.products.sheets-plates-coils.stainless-steel');
+    }
+
+    public function sheetsPlatesCoilsAlloySteel($country = null)
+    {
+        return view('frontend.products.sheets-plates-coils.alloy-steel');
+    }
+
+    public function sheetsPlatesCoilsAbrasionResistantSteel($country = null)
+    {
+        return view('frontend.products.sheets-plates-coils.abrasion-resistant-steel');
+    }
+
+    public function sheetsPlatesCoilsHighStrengthSteel($country = null)
+    {
+        return view('frontend.products.sheets-plates-coils.high-strength-steel');
+    }
+
+    public function sheetsPlatesCoilsSpecialSteelGrades($country = null)
+    {
+        return view('frontend.products.sheets-plates-coils.special-steel-grades');
+    }
+
+    public function sheetsPlatesCoilsItem($country = null, $category = null, $slug = null)
+    {
+        if ($slug === null) {
+            $slug = $category;
+            $category = $country;
+        }
+        
+        $formattedCategory = ucwords(str_replace('-', ' ', $category));
+        $formattedItem = ucwords(str_replace('-', ' ', $slug));
+
+        $title = $formattedItem . ' | ' . $formattedCategory . ' | Moksh Tubes LLP';
+        $itemName = $formattedItem;
+        $categoryName = $formattedCategory;
+        $backUrl = route('products.sheets-plates-coils.' . $category);
+        $backText = 'Back to ' . $formattedCategory;
+
+        return view('frontend.coming-soon', compact('title', 'itemName', 'categoryName', 'backUrl', 'backText'));
     }
 
     public function downloadDatasheet()

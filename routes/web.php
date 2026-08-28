@@ -187,6 +187,12 @@ $defineRoutes = function () {
     Route::get('/products/pipes-tubes/welded-pipes/{slug}', [MainController::class, 'weldedPipesProduct'])->name('products.pipes-tubes.welded-pipes.product');
     Route::get('/products/pipes-tubes/welded-pipes/astm-sa106-grade-b-seamless-pipes', [MainController::class, 'astmSa106GradeBSeamlessPipes'])->name('products.pipes-tubes.welded-pipes.astm-sa106-grade-b-seamless-pipes');
 
+    // Structures
+    Route::get('/products/structures', [MainController::class, 'structures'])->name('products.structures');
+    Route::get('/products/structures/indian-profiles', [MainController::class, 'structuresIndianProfiles'])->name('products.structures.indian-profiles');
+    Route::get('/products/structures/american-profiles', [MainController::class, 'structuresAmericanProfiles'])->name('products.structures.american-profiles');
+    Route::get('/products/structures/european-profiles', [MainController::class, 'structuresEuropeanProfiles'])->name('products.structures.european-profiles');
+    Route::get('/products/structures/{profile}/{slug}', [MainController::class, 'structuresProfileItem'])->name('products.structures.profile.item');
 
     Route::get('/products/special-fabricated', [MainController::class, 'specialFabricated'])->name('products.special-fabricated');
     Route::get('/products/special-fabricated/{slug}', [MainController::class, 'specialFabricatedProduct'])->name('products.special-fabricated.product');
@@ -219,6 +225,17 @@ $defineRoutes = function () {
 
     // sheets plates coils
     Route::get('/products/sheets-plates-coils', [MainController::class, 'sheetsPlatesCoils'])->name('products.sheets-plates-coils');
+
+    Route::get('/products/sheets-plates-coils/mild-steel', [MainController::class, 'sheetsPlatesCoilsMildSteel'])->name('products.sheets-plates-coils.mild-steel');
+    Route::get('/products/sheets-plates-coils/carbon-steel', [MainController::class, 'sheetsPlatesCoilsCarbonSteel'])->name('products.sheets-plates-coils.carbon-steel');
+    Route::get('/products/sheets-plates-coils/stainless-steel', [MainController::class, 'sheetsPlatesCoilsStainlessSteel'])->name('products.sheets-plates-coils.stainless-steel');
+    Route::get('/products/sheets-plates-coils/alloy-steel', [MainController::class, 'sheetsPlatesCoilsAlloySteel'])->name('products.sheets-plates-coils.alloy-steel');
+    Route::get('/products/sheets-plates-coils/abrasion-resistant-steel', [MainController::class, 'sheetsPlatesCoilsAbrasionResistantSteel'])->name('products.sheets-plates-coils.abrasion-resistant-steel');
+    Route::get('/products/sheets-plates-coils/high-strength-steel', [MainController::class, 'sheetsPlatesCoilsHighStrengthSteel'])->name('products.sheets-plates-coils.high-strength-steel');
+    Route::get('/products/sheets-plates-coils/special-steel-grades', [MainController::class, 'sheetsPlatesCoilsSpecialSteelGrades'])->name('products.sheets-plates-coils.special-steel-grades');
+
+    Route::get('/products/sheets-plates-coils/{category}/{slug}', [MainController::class, 'sheetsPlatesCoilsItem'])->name('products.sheets-plates-coils.item');
+
     Route::get('/products/sheets-plates-coils/{slug}', [MainController::class, 'sheetsPlatesCoilsProduct'])->name('products.sheets-plates-coils.product');
 
     // Bars & Rods
