@@ -1152,6 +1152,13 @@ class MainController extends Controller
             $slug = $arg3;
         }
         
+        $viewPath = "frontend.products.structures.{$profile}.{$slug}";
+        
+        if (view()->exists($viewPath)) {
+            $country = request()->route('country');
+            return view($viewPath, compact('slug', 'profile', 'country'));
+        }
+
         $formattedProfile = ucwords(str_replace('-', ' ', $profile));
         $formattedItem = ucwords(str_replace('-', ' ', $slug));
 
