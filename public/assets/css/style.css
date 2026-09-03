@@ -976,7 +976,7 @@ textarea {
     padding: 10px 0;
     z-index: 999;
     display: none;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .main-menu .navigation li ul li {
@@ -998,12 +998,12 @@ textarea {
     margin: 0;
 }
 
-.main-menu .navigation li ul li:hover > a {
+.main-menu .navigation li ul li:hover>a {
     background: #db7227;
     color: #fff;
 }
 
-.main-menu .navigation li ul li.dropdown > a i {
+.main-menu .navigation li ul li.dropdown>a i {
     font-size: 12px;
 }
 
@@ -1013,7 +1013,8 @@ textarea {
     top: 0;
     border-top: none;
     border-left: 2px solid #fff;
-    margin-top: -10px; /* Align with top of parent */
+    margin-top: -10px;
+    /* Align with top of parent */
 }
 
 .main-menu .navbar-collapse>ul li.dropdown .dropdown-btn {
@@ -1025,7 +1026,8 @@ textarea {
     background: url(../images/icon/plus-24x24.png) center center no-repeat;
     background-size: 20px;
     cursor: pointer;
-    display: none; /* Hidden on desktop by default */
+    display: none;
+    /* Hidden on desktop by default */
     z-index: 5;
     border-radius: 3px;
 }
@@ -8441,8 +8443,10 @@ ul.gallery-filter li span {
     text-align: center;
     padding: 15px 0;
     border-bottom: 1px solid #e5e5e5;
-    position: sticky;   /* you missed this */
-    top: 50px;             /* and this */
+    position: sticky;
+    /* you missed this */
+    top: 50px;
+    /* and this */
     z-index: 889;
 }
 
@@ -8465,12 +8469,13 @@ ul.gallery-filter li span {
 /* ✅ Mobile view (less than 768px) */
 @media (max-width: 425px) {
     .material-tabs {
-        top: 0px;        
+        top: 0px;
     }
+
     .material-tabs a {
         margin: auto 8px;
         /* margin: auto; */
-}
+    }
 }
 
 /* Client Logo Styles */
@@ -8488,10 +8493,12 @@ ul.gallery-filter li span {
     border-radius: 5px;
     text-align: center;
 }
+
 .brand-carousel .single-item:hover {
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     border-color: #db7227;
 }
+
 .brand-carousel .single-item img {
     max-height: 80px !important;
     width: auto !important;
@@ -8500,13 +8507,16 @@ ul.gallery-filter li span {
     margin: 0 auto;
     display: block;
 }
+
 .brand-carousel .single-item .company-name {
     font-size: 13px;
     font-weight: 600;
     color: #222;
     margin-top: 12px;
     line-height: 1.2;
-}/* Modern UI Owl Nav Styling */
+}
+
+/* Modern UI Owl Nav Styling */
 .brand-area .brand-carousel.owl-carousel {
     position: relative;
     padding: 0;
