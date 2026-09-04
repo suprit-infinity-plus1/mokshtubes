@@ -51,7 +51,7 @@
                 <p class="fs-6 mb-3 text-justify"><strong>Indian Structural Beams</strong> are structural steel sections used primarily as load-bearing members in buildings, industrial structures, infrastructure and engineering applications. Their engineered cross-sectional profile provides strength and rigidity for supporting loads across structural frameworks.</p>
                 <p class="fs-6 mb-3 text-justify">Structural beams are used in applications where reliable load distribution, structural support and stability are required. They can form an important part of steel buildings, industrial sheds, warehouses, platforms, bridges and other fabricated structures.</p>
                 <p class="fs-6 mb-3 text-justify">Depending on the design and project requirements, different beam sections can be selected according to their section dimensions, weight, material grade, span, loading conditions and applicable Indian Standard.</p>
-                <p class="fs-6 mb-3 text-justify">At Moksh Tubes & Fittings LLP, we support requirements for Indian Structural Beams for construction, fabrication, industrial and infrastructure projects. Customers can specify their required beam section, dimensions, grade, length and quantity for project-based procurement.</p>
+                <p class="fs-6 mb-3 text-justify">At <a href="https://mokshtubes.com" class="text-white text-decoration-underline" target="_blank">Moksh Tubes & Fittings LLP</a>, we support requirements for Indian Structural Beams for construction, fabrication, industrial and infrastructure projects. Customers can specify their required beam section, dimensions, grade, length and quantity for project-based procurement.</p>
                 <p class="fs-6 mb-3 text-justify">Indian Structural Beams can also be used together with structural angles, channels, columns and hollow sections to create complete steel frameworks and fabricated structural assemblies.</p>
                 <p class="fs-6 mb-3 text-justify">For an accurate quotation, customers can provide their required beam size, section specification, material grade, length, quantity and applicable standard, along with project drawings or technical specifications where required.</p>
             </div>
@@ -760,8 +760,8 @@
         <div class="section-title center mb-4">
             <h2 class="fw-bold" style="color: #174268;">FAQ – Indian Structural Beams</h2>
         </div>
-        <div class="row g-4 mt-4">
-            <div class="col-md-6">
+        <div class="row mt-4">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="accordion-box">
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
@@ -816,11 +816,7 @@
                             <p>Structural Beams are available in different section depths, flange widths and thicknesses. Actual size availability depends on the applicable standard and Moksh Tubes & Fittings LLP's current product range.</p>
                         </div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="col-md-6">
-                <div class="accordion-box">
+
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
                             <h4>Can Structural Beams be supplied in custom lengths?</h4>

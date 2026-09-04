@@ -51,7 +51,7 @@
                 <p class="fs-6 mb-3 text-justify"><strong>Indian Structural Channels</strong> are structural steel sections featuring a channel-shaped profile that is commonly used for supporting and framing applications. Their geometry makes them suitable for applications where a combination of structural strength, rigidity and convenient fabrication is required.</p>
                 <p class="fs-6 mb-3 text-justify">Structural channels are used across construction, industrial structures, steel fabrication, infrastructure projects, platforms, supports, frames, machinery structures and engineering applications. Depending on the design requirement, the appropriate channel size and thickness can be selected to provide the required structural performance.</p>
                 <p class="fs-6 mb-3 text-justify">Indian Structural Channels can be supplied according to the applicable Indian Standard and project specification. Customers can specify the required section dimensions, thickness, material grade, length and quantity when submitting an enquiry.</p>
-                <p class="fs-6 mb-3 text-justify">At Moksh Tubes & Fittings LLP, we support structural channel requirements for contractors, fabricators, engineering companies, industrial buyers and project-based customers. Product requirements can be evaluated according to the customer's technical specifications and application.</p>
+                <p class="fs-6 mb-3 text-justify">At <a href="https://mokshtubes.com" class="text-white text-decoration-underline" target="_blank">Moksh Tubes & Fittings LLP</a>, we support structural channel requirements for contractors, fabricators, engineering companies, industrial buyers and project-based customers. Product requirements can be evaluated according to the customer's technical specifications and application.</p>
                 <p class="fs-6 mb-3 text-justify">Structural channels can also be combined with other structural steel sections such as angles, beams, columns and hollow sections to create complete fabricated steel structures.</p>
                 <p class="fs-6 mb-3 text-justify">For an accurate quotation, customers can provide their required channel size, thickness, grade, length, quantity and applicable specification, along with project drawings or technical documentation where required.</p>
             </div>
@@ -738,8 +738,8 @@
         <div class="section-title center mb-4">
             <h2 class="fw-bold" style="color: #174268;">FAQ – Indian Structural Channels</h2>
         </div>
-        <div class="row g-4 mt-4">
-            <div class="col-md-6">
+        <div class="row mt-4">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="accordion-box">
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
@@ -794,11 +794,7 @@
                             <p>Structural Channels are available in different section depths, flange dimensions and thicknesses. Actual size availability depends on the applicable standard and Moksh Tubes & Fittings LLP's current product range.</p>
                         </div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="col-md-6">
-                <div class="accordion-box">
+
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
                             <h4>Can Structural Channels be supplied in custom lengths?</h4>

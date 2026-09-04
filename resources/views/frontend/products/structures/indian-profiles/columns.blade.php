@@ -51,7 +51,7 @@
                 <p class="fs-6 mb-3 text-justify"><strong>Indian Structural Columns</strong> are vertical structural members designed to transfer loads from upper portions of a structure to its foundation or supporting members. They are an important part of structural steel frameworks used in buildings, industrial facilities, warehouses, infrastructure and engineering structures.</p>
                 <p class="fs-6 mb-3 text-justify">Structural columns are selected according to factors such as load-bearing requirements, column height, section properties, dimensions, material grade, connection design and applicable project specifications. The appropriate section helps provide the required strength and stability within the overall structural system.</p>
                 <p class="fs-6 mb-3 text-justify">Depending on the structural design, different steel column sections can be incorporated into building frames, industrial structures, equipment-support systems and other fabricated assemblies. Structural columns can also be used together with beams, channels, angles and hollow sections to create complete steel frameworks.</p>
-                <p class="fs-6 mb-3 text-justify">At Moksh Tubes & Fittings LLP, we support requirements for Indian Structural Columns based on customer and project specifications. Customers can provide the required column section, dimensions, material grade, length, quantity and applicable Indian Standard for procurement enquiries.</p>
+                <p class="fs-6 mb-3 text-justify">At <a href="https://mokshtubes.com" class="text-white text-decoration-underline" target="_blank">Moksh Tubes & Fittings LLP</a>, we support requirements for Indian Structural Columns based on customer and project specifications. Customers can provide the required column section, dimensions, material grade, length, quantity and applicable Indian Standard for procurement enquiries.</p>
                 <p class="fs-6 mb-3 text-justify">Indian Structural Columns are suitable for both standard and project-based requirements across construction, industrial, infrastructure and engineering applications, subject to the specified product and design requirements.</p>
             </div>
         </div>
@@ -747,8 +747,8 @@
         <div class="section-title center mb-4">
             <h2 class="fw-bold" style="color: #174268;">FAQ – Indian Structural Columns</h2>
         </div>
-        <div class="row g-4 mt-4">
-            <div class="col-md-6">
+        <div class="row mt-4">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="accordion-box">
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
@@ -803,11 +803,7 @@
                             <p>Structural Columns are available in different section depths, flange widths, web thicknesses and flange thicknesses. Actual size availability depends on the applicable standard and Moksh Tubes & Fittings LLP's current product range.</p>
                         </div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="col-md-6">
-                <div class="accordion-box">
+
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
                             <h4>Can Structural Columns be supplied in custom lengths?</h4>

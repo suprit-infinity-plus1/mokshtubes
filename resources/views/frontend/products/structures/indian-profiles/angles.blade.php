@@ -50,7 +50,7 @@
             <div class="col-md-6">
                 <p class="fs-6 mb-3 text-justify"><strong>Indian Structural Angles</strong> are L-shaped structural steel sections designed for use in a wide range of construction, fabrication and engineering applications. Their simple and versatile profile makes them suitable for structural frames, bracing systems, trusses, supports, towers, platforms, brackets and fabricated assemblies.</p>
                 <p class="fs-6 mb-3 text-justify">Structural angles are primarily available in two configurations: <strong>Equal Structural Angles</strong>, where both legs have the same width, and <strong>Unequal Structural Angles</strong>, where the two legs have different widths. The selection of the appropriate profile depends on the structural design, required dimensions, loading conditions and connection requirements.</p>
-                <p class="fs-6 mb-3 text-justify">At Moksh Tubes & Fittings LLP, we cater to requirements for Indian Structural Angles based on specified size, thickness, grade, length, quantity and applicable standards. These profiles can be considered for both standard procurement and project-based structural steel requirements.</p>
+                <p class="fs-6 mb-3 text-justify">At <a href="https://mokshtubes.com" class="text-white text-decoration-underline" target="_blank">Moksh Tubes & Fittings LLP</a>, we cater to requirements for Indian Structural Angles based on specified size, thickness, grade, length, quantity and applicable standards. These profiles can be considered for both standard procurement and project-based structural steel requirements.</p>
                 <p class="fs-6 mb-3 text-justify">Indian Structural Angles are valued for their practical fabrication characteristics and suitability for applications requiring structural support, reinforcement, framing and connections. They can be used in combination with other structural steel sections to create reliable and efficient fabricated structures.</p>
                 <p class="fs-6 mb-3 text-justify">For specific projects, customers can provide their required angle dimensions, material grade, length, quantity and technical specifications so that the appropriate product requirement can be evaluated.</p>
             </div>
@@ -788,8 +788,8 @@
         <div class="section-title center mb-4">
             <h2 class="fw-bold" style="color: #174268;">FAQ – Indian Structural Angles</h2>
         </div>
-        <div class="row g-4 mt-4">
-            <div class="col-md-6">
+        <div class="row mt-4">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="accordion-box">
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
@@ -844,11 +844,7 @@
                             <p>Grades such as IS 2062, E250 and E350 may be considered according to the applicable specification and product availability. Exact grade availability should be confirmed at the time of enquiry.</p>
                         </div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="col-md-6">
-                <div class="accordion-box">
+
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
                             <h4>What sizes of Indian Structural Angles are available?</h4>
