@@ -45,7 +45,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-md-6 mb-4 mb-md-0">
-                <img src="{{ asset('/assets/images/product/default-channels.jpg') }}" alt="European Structural Channels" class="img-fluid rounded shadow-sm" loading="lazy">
+                <img src="https://placehold.co/550x350" alt="European Structural Channels" class="img-fluid rounded shadow-sm" loading="lazy">
             </div>
             <div class="col-md-6">
                 <p class="fs-6 mb-3 text-justify"><strong>European Structural Channels</strong> are open-profile structural steel sections commonly used as supporting and framing members in buildings, industrial facilities, infrastructure and engineering structures.</p>
@@ -933,7 +933,7 @@
             </p>
             <a href="{{ route('contact-us') ?? '#' }}" class="btn btn-lg text-white shadow"
                 style="background-color:#db7227; border-radius:8px; padding: 12px 30px;">Contact Us Now</a>
-            <p class="mt-4 mb-0 text-light opacity-75">📞 Contact Moksh Tubes & Fittings LLP at +91 97695 84950 for product availability, technical specifications and quotation enquiries.</p>
+            <p class="mt-4 mb-0 text-light opacity-75">📞 Contact Moksh Tubes & Fittings LLP at <a href="tel:+919769584950" class="text-light fw-bold text-decoration-none">+91 97695 84950</a> for product availability, technical specifications and quotation enquiries.</p>
         </div>
     </div>
 </section>
