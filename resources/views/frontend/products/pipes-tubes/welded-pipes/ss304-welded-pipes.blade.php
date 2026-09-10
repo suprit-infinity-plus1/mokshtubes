@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'SS 304 Welded Pipes ASTM A312 TP304 / TP304L | Manufacturer')
-@section('meta_description', 'SS 304 Welded Pipes as per ASTM A312 TP304/TP304L. Manufacturer, supplier & exporter to
-    India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.')
-@section('meta_keywords', 'Stainless Steel 304 Welded Pipes, ASTM A312 TP304 Pipe, SS 304 ERW Pipe, SS 304 EFW Pipe, SS
-    304 Pipe Supplier India, Stainless Steel Pipe Exporter')
+@section('title', 'SS304 Welded Pipes Manufacturer, Supplier &amp; Exporter')
+@section('meta_description', 'SS304 welded pipes as per ASTM A312 TP304/TP304L, available in multiple sizes, schedules, lengths and finishes. Manufacturer, supplier &amp; exporter. Request a quote.')
+
 @section('og_image', asset('assets/images/welded/SS-304-Welded.png'))
 @section('og_type', 'article')
 
@@ -15,7 +13,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>SS 304 Welded Pipes<br>ASTM A312 TP304 / TP304L</h1>
+                    <h1>SS 304 Welded Pipes – ASTM A312 TP304 / TP304L</h1>
 
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
@@ -751,29 +749,35 @@
                     <thead class="table-dark">
                         <tr class="t-row">
                             <th>Standard</th>
-                            <th>coming soon</th>
-                            <th>coming soon</th>
-                            <th>coming soon</th>
+                            <th>SS 304</th>
+                            <th>SS 304L</th>
+                            <th>SS 304H</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="t-row">
                             <th class="fw-bold text-start">Tensile Strength (MPa)</th>
-                            <td>coming soon</td>
-                            <td>coming soon</td>
-                            <td>coming soon</td>
+                            <td>Min. 515 MPa</td>
+                            <td>Min. 485 MPa</td>
+                            <td>515 MPa min</td>
                         </tr>
                         <tr class="t-row">
                             <th class="fw-bold text-start">Yield Strength (MPa)</th>
-                            <td>coming soon</td>
-                            <td>coming soon</td>
-                            <td>coming soon</td>
+                            <td>Min. 205 MPa</td>
+                            <td>Min. 170 MPa</td>
+                            <td>205 MPa min</td>
                         </tr>
                         <tr class="t-row">
                             <th class="fw-bold text-start">Elongation (%)</th>
-                            <td>coming soon</td>
-                            <td>coming soon</td>
-                            <td>coming soon</td>
+                            <td>Min. 40%</td>
+                            <td>Min. 40%</td>
+                            <td>40% min</td>
+                        </tr>
+                        <tr class="t-row">
+                            <th class="fw-bold text-start">Hardness (HB)</th>
+                            <td>Max. 201</td>
+                            <td>Max. 201</td>
+                            <td>92 HRB max</td>
                         </tr>
                     </tbody>
                 </table>
