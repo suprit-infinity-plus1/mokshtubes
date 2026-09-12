@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'SS304 Welded Pipes Manufacturer, Supplier &amp; Exporter')
-@section('meta_description', 'SS304 welded pipes as per ASTM A312 TP304/TP304L, available in multiple sizes, schedules, lengths and finishes. Manufacturer, supplier &amp; exporter. Request a quote.')
+@section('title', 'SS304 Welded Pipes Manufacturer, Supplier & Exporter')
+@section('meta_description', 'SS304 welded pipes as per ASTM A312 TP304/TP304L, available in multiple sizes, schedules, lengths and finishes. Manufacturer, supplier & exporter. Request a quote.')
 
 @section('og_image', asset('assets/images/welded/SS-304-Welded.png'))
 @section('og_type', 'article')
@@ -972,7 +972,7 @@
                                                 "name": "Moksh Tubes & Fittings LLP"
                                             },
                                             "material": "Stainless Steel 304 / 304L",
-                                            "url": "https://www.mokshtubes.com/products/pipes-tubes/ss-304-welded-pipes",
+                                            "url": "https://mokshtubes.com/products/pipes-tubes/welded-pipes/ss304-welded-pipes",
                                             "offers": {
                                                 "@type": "Offer",
                                                 "availability": "https://schema.org/InStock",
@@ -1021,9 +1021,14 @@
                                                 "item": "https://www.mokshtubes.com/products/pipes-tubes"
                                             },{
                                                 "@type": "ListItem",
+                                                "position": 2,
+                                                "name": "Pipes & Tubes",
+                                                "item": "https://www.mokshtubes.com/products/pipes-tubes/welded-pipes"
+                                            },{
+                                                "@type": "ListItem",
                                                 "position": 3,
                                                 "name": "SS 304 Welded Pipes",
-                                                "item": "https://www.mokshtubes.com/products/pipes-tubes/ss-304-welded-pipes"
+                                                "item": "https://mokshtubes.com/products/pipes-tubes/welded-pipes/ss304-welded-pipes"
                                             }]
                                         },
                                         {

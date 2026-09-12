@@ -14,15 +14,17 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">
-                <h1 class="page-title">American Structural Angles – ASTM / AISC Steel Angles</h1>
+                <h1 class="page-title">American Structural Angles Manufacturer, Supplier & Exporter in India</h1>
                 <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                    American Structural Angles are L-shaped structural steel sections used in construction, industrial structures, infrastructure, fabrication and engineering applications. Available in equal and unequal configurations, these steel angles can be specified according to applicable ASTM standards, AISC requirements, material grade, dimensions and project specifications.
-                </p>
+                    American Structural Angles are L-shaped structural steel sections widely used in construction, industrial structures, infrastructure projects, steel fabrication, trusses, bracing, machinery supports, towers, and general engineering applications. Available in equal-leg and unequal-leg configurations, these structural angles can be supplied in various ASTM grades, dimensions, thicknesses, and lengths according to project and engineering requirements.
+Moksh Tubes & Fittings LLP manufactures, supplies, and exports American Structural Angles based on applicable ASTM and AISC requirements, offering specification-based solutions for domestic and international construction, fabrication, infrastructure, and industrial applications.
+</p>
             </div>
         </div>
     </div>
 </section>
 
+ 
 <!-- Quick Navigation -->
 <div class="sticky-top bg-white border-bottom material-tabs w-100 shadow-sm">
     <div class="container text-center py-2">
@@ -30,9 +32,10 @@
         <a href="#specifications">Specifications</a> |
         <a href="#size-chart">Size & Weight Chart</a> |
         <a href="#grades">Grades</a> |
-        <a href="#mechanical-properties">Mechanical</a> |
+        <a href="#types">Types</a> |
         <a href="#applications">Applications</a> |
         <a href="#uses">Uses & Advantages</a> |
+        <a href="#mechanical-properties">Mechanical</a> |
         <a href="#why-choose-us">Why Choose Us</a> |
         <a href="#faq">FAQ</a>
     </div>
@@ -41,19 +44,18 @@
 <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
     <div class="container">
         <div class="section-title center mb-4">
-            <h2 class="fw-bold" style="color: #174268;">American Structural Angles</h2>
+            <h2 class="fw-bold" style="color: #174268;">Product Overview</h2>
         </div>
         <div class="row align-items-center">
             <div class="col-md-6 mb-4 mb-md-0">
                 <img src="https://placehold.co/550x350" alt="American Structural Angles" class="img-fluid rounded shadow-sm" loading="lazy">
             </div>
             <div class="col-md-6">
-                <p class="fs-6 mb-3 text-justify"><strong>American Structural Angles</strong> are L-shaped steel sections commonly used as structural and fabricated members in buildings, industrial facilities, infrastructure, equipment supports, towers, frames, trusses and general engineering applications.</p>
-                <p class="fs-6 mb-3 text-justify">These angles are available in equal-leg and unequal-leg profiles, providing flexibility for different structural designs and connection requirements. Equal angles have legs of the same width, while unequal angles have different leg widths.</p>
-                <p class="fs-6 mb-3 text-justify">American Structural Angles are commonly specified using ASTM material standards and AISC design and structural requirements, depending on the project. The appropriate section is selected according to dimensions, thickness, material grade, structural loading and engineering design.</p>
-                <p class="fs-6 mb-3 text-justify">At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we support requirements for American Structural Angles based on customer drawings, technical specifications and project requirements. Customers can specify the required angle dimensions, thickness, grade, length, quantity and applicable ASTM / AISC specification.</p>
-                <p class="fs-6 mb-3 text-justify">American Structural Angles can be used together with American Structural Channels, Beams, Columns and Hollow Structural Sections (HSS) to create complete steel frameworks and fabricated structures.</p>
-                <p class="fs-6 mb-3 text-justify">For an accurate quotation, customers can provide their required angle profile, dimensions, thickness, material grade, length, quantity and applicable specification, along with project drawings or technical documentation where required.</p>
+                <p class="fs-6 mb-3 text-justify"><strong>American Structural Angles are L-shaped structural steel sections designed for structural frameworks, fabrication, bracing, supports, trusses, towers, infrastructure, and general engineering applications. They are available in equal-leg and unequal-leg profiles, allowing engineers and fabricators to select the appropriate section according to structural design and project requirements.</p>
+                <p class="fs-6 mb-3 text-justify">At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we supply American Structural Angles in applicable structural steel grades and dimensions according to ASTM specifications, AISC requirements, project drawings, and customer specifications.</p>
+                <p class="fs-6 mb-3 text-justify">Our American Structural Angles can be supplied with different leg dimensions, thicknesses, lengths, grades, and quantities depending on the required application and project requirements.</p>
+                <p class="fs-6 mb-3 text-justify">For accurate quotation and sourcing, customers can share the required angle profile, dimensions, thickness, grade, length, quantity, ASTM specification, AISC requirements, or project drawings.</p>
+               
             </div>
         </div>
     </div>
@@ -134,65 +136,7 @@
             </table>
         </div>
         
-        <div class="row g-4 mt-4">
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Equal Leg Angles</h4>
-                    <p class="mb-0 text-justify">Equal Leg Angles have two legs of the same nominal width, creating a symmetrical L-shaped section. They are commonly selected for structural frameworks, bracing, trusses, supports and fabricated assemblies.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Unequal Leg Angles</h4>
-                    <p class="mb-0 text-justify">Unequal Leg Angles have two legs of different widths. They provide flexibility where different leg dimensions are required for structural connections, supports or specific fabrication requirements.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">ASTM Specifications</h4>
-                    <p class="mb-0 text-justify">The applicable ASTM material specification depends on the required steel grade and project requirements. Chemical composition, mechanical properties and other material requirements should be confirmed against the applicable ASTM specification.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">AISC Requirements</h4>
-                    <p class="mb-0 text-justify">AISC standards and design requirements may be referenced for structural steel design, section properties, fabrication and application of American structural steel members. The applicable project specification should determine the required AISC requirements.</p>
-                </div>
-            </div>
-        </div>
         
-        <div class="row g-4 mt-2">
-            <div class="col-md-4">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Dimensional Availability</h4>
-                    <p class="mb-2">American Structural Angles can be specified according to:</p>
-                    <ul class="list-unstyled mb-0">
-                        <li><i class="bi bi-check2 text-success me-2"></i>Angle Type – Equal / Unequal</li>
-                        <li><i class="bi bi-check2 text-success me-2"></i>Leg Dimensions</li>
-                        <li><i class="bi bi-check2 text-success me-2"></i>Thickness</li>
-                        <li><i class="bi bi-check2 text-success me-2"></i>Material Grade</li>
-                        <li><i class="bi bi-check2 text-success me-2"></i>Required Length</li>
-                        <li><i class="bi bi-check2 text-success me-2"></i>Quantity</li>
-                        <li><i class="bi bi-check2 text-success me-2"></i>Applicable ASTM Specification</li>
-                        <li><i class="bi bi-check2 text-success me-2"></i>Applicable AISC Requirements</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Length Availability</h4>
-                    <p class="mb-0 text-justify">Structural angles can be considered in standard lengths or cut-to-length requirements, depending on product availability and customer specifications.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Supply Requirements</h4>
-                    <p class="mb-2 text-justify">For an accurate quotation, customers should provide the required angle profile, leg dimensions, thickness, material grade, length, quantity and applicable ASTM / AISC specification.</p>
-                    <p class="mb-2 text-justify">Project drawings or technical specifications can also be shared where specific structural requirements need to be considered.</p>
-                    <p class="mb-0 text-justify">Moksh Tubes & Fittings LLP can support standard and project-based requirements for American Structural Angles, subject to product availability and agreed specifications.</p>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 
@@ -405,8 +349,8 @@
 <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
     <div class="container">
         <div class="section-title center mb-4">
-            <h2 class="fw-bold" style="color: #174268;">Applications</h2>
-            <p class="text-center pb-3">American Structural Angles are widely used in construction, industrial fabrication, infrastructure and engineering projects where L-shaped structural steel sections are required for support, framing, bracing, connections and fabricated assemblies.</p>
+            <h2 class="fw-bold" style="color: #174268;">Applications of American Structural Angles</h2>
+            <p class="text-center pb-3">American Structural Angles are widely used in construction, infrastructure, industrial structures, steel fabrication, structural frameworks, bracing, supports, towers, and general engineering applications. Their equal-leg and unequal-leg configurations provide flexibility for different structural and fabrication requirements.</p>
         </div>
         <div class="row g-4 mt-4">
             <div class="col-sm-6 col-lg-4">
@@ -416,13 +360,7 @@
                     <p class="mb-0 text-center">Steel structural frameworks, roof structures, trusses, bracing members, supports, brackets, and connections.</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="application-card">
-                    <div class="application-icon"><i class="bi bi-industry"></i></div>
-                    <h5>Industrial Structures</h5>
-                    <p class="mb-0 text-center">Industrial buildings, factory structures, equipment supports, platforms, walkways, and steel frameworks.</p>
-                </div>
-            </div>
+           
             <div class="col-sm-6 col-lg-4">
                 <div class="application-card">
                     <div class="application-icon"><i class="bi bi-broadcast"></i></div>
@@ -451,13 +389,7 @@
                     <p class="mb-0 text-center">Supports and frameworks for industrial equipment and machinery requiring design criteria compliance.</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="application-card">
-                    <div class="application-icon"><i class="bi bi-bounding-box-circles"></i></div>
-                    <h5>Trusses & Bracing Systems</h5>
-                    <p class="mb-0 text-center">Equal and unequal angles can be used in roof trusses, bracing systems and supporting members, depending on the structural design and required section properties.</p>
-                </div>
-            </div>
+           
             <div class="col-sm-6 col-lg-4">
                 <div class="application-card">
                     <div class="application-icon"><i class="bi bi-nut"></i></div>
@@ -473,7 +405,7 @@
 <section id="uses" class="sec-padd-top sec-padd-bottom">
     <div class="container">
         <div class="section-title center mb-4">
-            <h2 class="fw-bold" style="color: #174268;">Uses & Advantages</h2>
+            <h2 class="fw-bold" style="color: #174268;">Uses of American Structural Angles</h2>
             <p class="text-center mb-2">American Structural Angles are versatile L-shaped steel sections used for structural support, framing, bracing, connections and fabrication across construction, industrial, infrastructure and engineering applications.</p>
             <p class="text-center pb-3">They provide a versatile structural steel solution. Their L-shaped profile and availability in equal-leg and unequal-leg configurations allow flexibility for different structural designs.</p>
         </div>
@@ -514,36 +446,7 @@
                     <h5>Profile flexibility with equal and unequal configurations</h5>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-check-circle"></i></div>
-                    <h5>Available in multiple ASTM grades as per project requirements</h5>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                    <h5>Section selection aligned with AISC design requirements</h5>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                    <h5>Easy fabrication (cutting, drilling, and welding)</h5>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-bezier"></i></div>
-                    <h5>Design flexibility with symmetrical and asymmetrical geometries</h5>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-box"></i></div>
-                    <h5>Compatible with Channels, Beams, Columns and HSS</h5>
-                </div>
-            </div>
+           
         </div>
         <p class="text-center mt-4 text-muted">The appropriate angle section should always be selected according to the structural design, loading conditions, section properties, applicable ASTM specification, AISC requirements and project specifications.</p>
     </div>
@@ -640,13 +543,7 @@
                             <p class="mb-0">Specific angle sections, dimensions, thicknesses, grades, lengths and quantities can be discussed for project requirements.</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="why-banner-block h-100">
-                            <div class="why-banner-icon"><i class="bi bi-globe"></i></div>
-                            <h5>International Project Support</h5>
-                            <p class="mb-0">Suitable for customers sourcing American-specification structural steel for domestic and international projects.</p>
-                        </div>
-                    </div>
+                   
                     <div class="col-sm-6 col-lg-4">
                         <div class="why-banner-block h-100">
                             <div class="why-banner-icon"><i class="bi bi-calendar-check"></i></div>
@@ -715,59 +612,7 @@
                         </div>
                     </div>
                     
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>What sizes of American Structural Angles are available?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Angles are available in different leg dimensions and thicknesses. Actual section availability depends on the applicable standard, product specification and Moksh Tubes & Fittings LLP's current supply range.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Can American Structural Angles be supplied in custom lengths?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes. Standard and cut-to-length requirements can be considered depending on product availability and customer specifications.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>How do I select the right American Structural Angle?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Selection should consider the angle type, leg dimensions, thickness, loading conditions, connection requirements, material grade, structural design and applicable ASTM / AISC requirements.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Can Moksh Tubes & Fittings LLP supply American Structural Angles in bulk?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes. Moksh Tubes & Fittings LLP can support bulk and project-based requirements, subject to product availability and agreed specifications.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>What information is required for a quotation?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Customers should provide the angle type, leg dimensions, thickness, ASTM grade, required length, quantity and applicable AISC/project requirements. Drawings or technical specifications can also be shared.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Can American Structural Angles be used with other American structural sections?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes. They can be used with American Structural Channels, Beams, Columns and Hollow Structural Sections (HSS) to create complete steel frameworks and fabricated assemblies.</p>
-                        </div>
-                    </div>
+                   
                     
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
