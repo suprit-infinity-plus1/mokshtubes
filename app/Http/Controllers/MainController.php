@@ -1141,6 +1141,10 @@ class MainController extends Controller
     {
         return view('frontend.products.structures.european-profiles');
     }
+    public function structuresAmericanProfilesAngles()
+    {
+        return view('frontend.products.structures.american-profiles.americanstructuralangels');
+    }
 
     public function structuresProfileItem($arg1 = null, $arg2 = null, $arg3 = null)
     {

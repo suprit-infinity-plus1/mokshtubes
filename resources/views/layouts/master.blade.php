@@ -540,14 +540,15 @@
                                                                                                                                 <li><a href="{{ route('products.structures.profile.item', ['profile' => 'indian-profiles', 'slug' => 'beams']) }}">Beams</a></li>
                                                                                                                                 <li><a href="{{ route('products.structures.profile.item', ['profile' => 'indian-profiles', 'slug' => 'columns']) }}">Columns</a></li>
                                                                                                                                 <li><a href="{{ route('products.structures.profile.item', ['profile' => 'indian-profiles', 'slug' => 'hollow-sections']) }}">Hollow Sections</a></li>
-                                                                                                                        </ul>
-                                                                                                                </li>
-                                                                                                                <li class="dropdown">
-                                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
-                                                                                                                                href="{{ route('products.structures.american-profiles') }}">American Profiles (ASTM / AISC) <i class="fa fa-angle-right"></i></a>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-item d-flex justify-content-between align-items-center"
+href="{{ route('products.structures.american-profiles') }}">American Profiles <i class="fa fa-angle-right"></i></a>
                                                                                                                         <ul>
-                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'angles']) }}">Angles</a></li>
-                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'channels']) }}">Channels</a></li>
+<li>
+    <a href="{{ route('products.structures.american.angel') }}">Angles</a>
+</li>                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'channels']) }}">Channels</a></li>
                                                                                                                                 <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'beams']) }}">Beams</a></li>
                                                                                                                                 <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'columns']) }}">Columns</a></li>
                                                                                                                                 <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'hollow-sections']) }}">Hollow Sections</a></li>

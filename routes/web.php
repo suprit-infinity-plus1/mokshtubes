@@ -192,6 +192,7 @@ $defineRoutes = function () {
     Route::get('/products/structures/indian-profiles', [MainController::class, 'structuresIndianProfiles'])->name('products.structures.indian-profiles');
     Route::get('/products/structures/american-profiles', [MainController::class, 'structuresAmericanProfiles'])->name('products.structures.american-profiles');
     Route::get('/products/structures/european-profiles', [MainController::class, 'structuresEuropeanProfiles'])->name('products.structures.european-profiles');
+    Route::get('/products/structures/american-profiles/american-structural-angles', [MainController::class, 'structuresAmericanProfilesAngles'])->name('products.structures.american.angel');
     Route::get('/products/structures/{profile}/{slug}', [MainController::class, 'structuresProfileItem'])->name('products.structures.profile.item');
 
     Route::get('/products/special-fabricated', [MainController::class, 'specialFabricated'])->name('products.special-fabricated');
