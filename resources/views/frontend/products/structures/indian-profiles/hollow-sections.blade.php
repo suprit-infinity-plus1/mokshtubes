@@ -131,72 +131,8 @@
             </table>
         </div>
         
-        <div class="row g-4 mt-4">
-            <div class="col-md-4">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Square Hollow Sections (SHS)</h4>
-                    <p class="mb-0 text-justify">Square Hollow Sections have a square-shaped closed profile with equal external dimensions on all four sides. They are commonly selected for structural frameworks, supports, frames and fabricated steel structures where a symmetrical hollow section is required.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Rectangular Hollow Sections (RHS)</h4>
-                    <p class="mb-0 text-justify">Rectangular Hollow Sections have a rectangular closed profile with different width and height dimensions. They provide flexibility for structural designs where the available space or required section geometry calls for a rectangular profile.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Circular Hollow Sections (CHS)</h4>
-                    <p class="mb-0 text-justify">Circular Hollow Sections have a round closed profile and are commonly used in tubular structures, supports, frameworks and engineering applications where a circular structural section is specified.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Dimensional Availability</h4>
-                    <p class="mb-2 text-justify">Indian Hollow Sections can be specified according to:</p>
-                    <div class="row">
-                        <div class="col-6">
-                            <ul class="list-unstyled mb-0">
-                                <li><i class="bi bi-check2 text-success me-2"></i>Section Type – SHS / RHS / CHS</li>
-                                <li><i class="bi bi-check2 text-success me-2"></i>Outside Dimensions</li>
-                                <li><i class="bi bi-check2 text-success me-2"></i>Wall Thickness</li>
-                                <li><i class="bi bi-check2 text-success me-2"></i>Material Grade</li>
-                            </ul>
-                        </div>
-                        <div class="col-6">
-                            <ul class="list-unstyled mb-0">
-                                <li><i class="bi bi-check2 text-success me-2"></i>Required Length</li>
-                                <li><i class="bi bi-check2 text-success me-2"></i>Quantity</li>
-                                <li><i class="bi bi-check2 text-success me-2"></i>Applicable Standard</li>
-                                <li><i class="bi bi-check2 text-success me-2"></i>Project Specification</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Length Availability</h4>
-                    <p class="mb-0 text-justify">Hollow Sections can be considered in standard lengths or cut-to-length requirements, depending on product availability and customer specifications.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row g-4 mt-4">
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Material & Grade</h4>
-                    <p class="mb-0 text-justify">The material grade is selected according to the applicable Indian Standard and project specification. Customers can specify the required grade along with the hollow section type, dimensions and wall thickness.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Supply Requirements</h4>
-                    <p class="mb-2 text-justify">For an accurate quotation, customers should provide the required section type, dimensions, wall thickness, material grade, length and quantity. Project drawings or technical specifications can also be shared where applicable.</p>
-                    <p class="mb-0 text-justify">Moksh Tubes & Fittings LLP can support standard and project-based requirements for Indian Hollow Sections, subject to product availability and agreed specifications.</p>
-                </div>
-            </div>
-        </div>
+        
+       
     </div>
 </section>
 
@@ -433,64 +369,8 @@
             </table>
         </div>
 
-        <div class="row g-4 mt-4">
-            <div class="col-md-4">
-                <div class="card p-4 shadow-sm h-100 border-0 bg-light">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">IS 2062 Structural Steel</h4>
-                    <p class="mb-0 text-justify">IS 2062 is an Indian specification for structural steel products used in construction, engineering and fabrication applications. The applicable grade should be selected according to the required mechanical properties and project specification.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-4 shadow-sm h-100 border-0 bg-light">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">E250 Grade</h4>
-                    <p class="mb-0 text-justify">E250 structural steel can be considered for general structural applications where the specified mechanical properties meet the requirements of the design. It may be used for structural frameworks, supports, frames and engineering structures.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-4 shadow-sm h-100 border-0 bg-light">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">E350 Grade</h4>
-                    <p class="mb-0 text-justify">E350 structural steel provides a higher specified strength level and can be considered for applications requiring increased strength, subject to the applicable specification and engineering design.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row g-4 mt-4">
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100 border-0 bg-white shadow-sm border border-secondary border-opacity-25 rounded-3">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Grade Selection</h4>
-                    <p class="mb-2">The appropriate grade for an Indian Hollow Section should be selected based on:</p>
-                    <div class="row">
-                        <div class="col-6">
-                            <ul class="list-unstyled mb-0">
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Required mechanical properties</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Structural loading</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Section dimensions</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Wall thickness</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Structural design</li>
-                            </ul>
-                        </div>
-                        <div class="col-6">
-                            <ul class="list-unstyled mb-0">
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Fabrication requirements</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Welding requirements</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Applicable Indian Standard</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Project specification</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <p class="mt-3 mb-0 text-justify">Customers should specify the required grade, SHS/RHS/CHS profile, dimensions, wall thickness, length and quantity when submitting an enquiry.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100 border-0 bg-white shadow-sm border border-secondary border-opacity-25 rounded-3">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Material Documentation</h4>
-                    <p class="mb-3 text-justify">Where required and agreed at the time of order, applicable material test certificates and supporting documentation can be provided according to the purchase order and project requirements.</p>
-                    <div class="alert alert-warning mb-0 border-0 shadow-sm" role="alert">
-                        <strong>Note:</strong> Exact grade availability should be confirmed with Moksh Tubes & Fittings LLP before ordering, as availability may vary according to section type, size, wall thickness, specification and project requirements.
-                    </div>
-                </div>
-            </div>
-        </div>
+        
+       
     </div>
 </section>
 
@@ -557,6 +437,12 @@
                     <p class="mb-0 text-center">Indian Hollow Sections are also used in general engineering and fabrication projects requiring square, rectangular or circular hollow steel profiles.</p>
                 </div>
             </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="application-card">
+                    <div class="application-icon"><i class="bi bi-nut"></i></div>
+                    <h5>General Engineering Applications</h5>
+                    <p class="mb-0 text-center">Indian Hollow Sections are also used in general engineering and fabrication projects requiring square, rectangular or circular hollow steel profiles.</p>
+                </div>
         </div>
         <p class="text-center mt-4 text-muted">The appropriate SHS, RHS or CHS section, dimensions, wall thickness and material grade should always be selected according to the structural design, loading conditions, applicable Indian Standard and project specifications.</p>
     </div>
@@ -623,18 +509,7 @@
                     <h5>Used for brackets, supports, base structures and fabricated assemblies.</h5>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-check-circle"></i></div>
-                    <h5>Can be combined with structural angles, channels, beams and columns to create complete steel frameworks.</h5>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-check-circle"></i></div>
-                    <h5>Available in SHS, RHS and CHS profiles, providing flexibility for different structural and fabrication requirements.</h5>
-                </div>
-            </div>
+           
         </div>
         <p class="text-center mt-4 text-muted">The appropriate hollow section should be selected according to the section type, dimensions, wall thickness, material grade, loading conditions, applicable Indian Standard and project specifications.</p>
     </div>
@@ -710,27 +585,7 @@
                     <p class="mb-0 text-center">Hollow section requirements can be specified according to profile, dimensions, wall thickness, grade, length and quantity.</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-bezier2"></i></div>
-                    <h5>Easy Integration</h5>
-                    <p class="mb-0 text-center">Hollow sections can be combined with angles, channels, beams and columns in complete steel frameworks.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-list-ol"></i></div>
-                    <h5>Standard & Cut-to-Length Options</h5>
-                    <p class="mb-0 text-center">Standard or specified lengths can be considered depending on product availability and customer requirements.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-cone-striped"></i></div>
-                    <h5>Multiple Structural Applications</h5>
-                    <p class="mb-0 text-center">Suitable for construction, industrial fabrication, infrastructure, equipment supports and engineering projects.</p>
-                </div>
-            </div>
+            
         </div>
         <p class="text-center mt-4 text-muted">The appropriate SHS, RHS or CHS section should always be selected according to the structural design, loading conditions, dimensions, wall thickness, material grade, applicable Indian Standard and project specifications.</p>
     </div>
@@ -838,20 +693,7 @@
                             <p class="mb-0">Specific profiles, dimensions, wall thicknesses, grades, lengths and quantities can be discussed for project requirements.</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="why-banner-block h-100">
-                            <div class="why-banner-icon"><i class="bi bi-building"></i></div>
-                            <h5>Suitable for Industrial & Infrastructure Projects</h5>
-                            <p class="mb-0">Support for customers sourcing hollow sections for construction, fabrication, industrial and infrastructure applications.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="why-banner-block h-100">
-                            <div class="why-banner-icon"><i class="bi bi-globe"></i></div>
-                            <h5>Domestic & International Enquiries</h5>
-                            <p class="mb-0">Support for customers requiring Indian Hollow Sections for domestic and international project requirements.</p>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -911,86 +753,8 @@
                         </div>
                     </div>
                     
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Which standards are applicable to Indian Hollow Sections?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Hollow Sections can be supplied according to the applicable Indian Standard or project specification. The exact standard should be confirmed according to the required section type, grade and application.</p>
-                        </div>
-                    </div>
                     
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Which grades are available for Indian Hollow Sections?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Grades such as IS 2062, E250 and E350 may be considered according to the applicable specification and product availability. Exact grade availability should be confirmed at the time of enquiry.</p>
-                        </div>
-                    </div>
-
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>What sizes of Indian Hollow Sections are available?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Hollow Sections are available in different outside dimensions and wall thicknesses. Actual size availability depends on the applicable standard and Moksh Tubes & Fittings LLP's current product range.</p>
-                        </div>
-                    </div>
                     
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Can Indian Hollow Sections be supplied in custom lengths?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes. Standard and cut-to-length requirements can be considered depending on product availability and customer specifications.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Where are Indian Hollow Sections commonly used?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>They are used in construction, industrial structures, warehouses, steel fabrication, platforms, towers, infrastructure, equipment supports and general engineering applications.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Can Moksh Tubes & Fittings LLP supply Hollow Sections in bulk?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes. Moksh Tubes & Fittings LLP can support bulk and project-based requirements, subject to product availability and agreed specifications.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>What information is required for a quotation?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Customers should provide the section type (SHS/RHS/CHS), dimensions, wall thickness, material grade, required length, quantity and applicable standard. Project drawings or technical specifications can also be shared where applicable.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Can Hollow Sections be used with other structural steel sections?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes. Hollow Sections can be combined with structural angles, channels, beams and columns to create complete steel frameworks and fabricated assemblies.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Does Moksh Tubes & Fittings LLP support international enquiries?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes. International enquiries for Indian Hollow Sections can be discussed based on the required profile, dimensions, grade, quantity and delivery requirements.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

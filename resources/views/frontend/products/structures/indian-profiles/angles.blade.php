@@ -130,47 +130,9 @@
             </table>
         </div>
         
-        <div class="row g-4 mt-4">
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Equal Angles</h4>
-                    <p class="mb-0 text-justify">Equal Structural Angles have two legs of the same width and are commonly selected for symmetrical structural applications, including framing, bracing, trusses, supports and fabricated structures.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Unequal Angles</h4>
-                    <p class="mb-0 text-justify">Unequal Structural Angles have two legs of different widths and provide greater flexibility for applications where different leg dimensions are required for structural connections, supports or fabrication.</p>
-                </div>
-            </div>
-        </div>
+       
 
-        <div class="row g-4 mt-4">
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Dimensional Availability</h4>
-                    <p class="mb-2">The required angle can be specified by its leg dimensions and thickness. Available sizes depend on the applicable standard and Moksh Tubes & Fittings LLP's confirmed product range.</p>
-                    <p class="mb-2">Customers can specify:</p>
-                    <ul class="list-unstyled mb-0">
-                        <li><i class="bi bi-check2 text-success me-2"></i>Angle type</li>
-                        <li><i class="bi bi-check2 text-success me-2"></i>Leg dimensions</li>
-                        <li><i class="bi bi-check2 text-success me-2"></i>Thickness</li>
-                        <li><i class="bi bi-check2 text-success me-2"></i>Material grade</li>
-                        <li><i class="bi bi-check2 text-success me-2"></i>Required length</li>
-                        <li><i class="bi bi-check2 text-success me-2"></i>Quantity</li>
-                        <li><i class="bi bi-check2 text-success me-2"></i>Applicable standard</li>
-                        <li><i class="bi bi-check2 text-success me-2"></i>Project specification</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Supply Requirements</h4>
-                    <p class="mb-3 text-justify">For an accurate quotation, customers should provide the required size, thickness, grade, length and quantity. Project drawings or technical specifications can also be shared where specific structural requirements need to be considered.</p>
-                    <p class="mb-0 text-justify">Moksh Tubes & Fittings LLP can support standard and project-based requirements for Indian Structural Angles, subject to product availability and agreed specifications.</p>
-                </div>
-            </div>
-        </div>
+       
     </div>
 </section>
 
@@ -375,63 +337,7 @@
             </table>
         </div>
 
-        <div class="row g-4 mt-4">
-            <div class="col-md-4">
-                <div class="card p-4 shadow-sm h-100 border-0 bg-light">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">IS 2062 Structural Steel</h4>
-                    <p class="mb-0 text-justify">IS 2062 is a commonly specified Indian standard for structural steel products used in construction, engineering and fabrication applications. Different grades and sub-grades can be selected according to the required strength and project specification.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-4 shadow-sm h-100 border-0 bg-light">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">E250 Grade</h4>
-                    <p class="mb-0 text-justify">E250 structural steel is used for general structural applications where the specified strength and mechanical properties meet the requirements of the project. It can be considered for structural frameworks, fabrication and engineering applications.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-4 shadow-sm h-100 border-0 bg-light">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">E350 Grade</h4>
-                    <p class="mb-0 text-justify">E350 structural steel provides higher specified strength than standard lower-strength structural grades and can be selected for applications where higher strength is required, subject to the applicable specification and design requirements.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row g-4 mt-4">
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100 border-0 bg-white shadow-sm border border-secondary border-opacity-25 rounded-3">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Grade Selection</h4>
-                    <p class="mb-2">The appropriate structural angle grade should be selected based on:</p>
-                    <div class="row">
-                        <div class="col-6">
-                            <ul class="list-unstyled mb-0">
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Required mechanical properties</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Structural loading</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Design requirements</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Welding and fabrication requirements</li>
-                            </ul>
-                        </div>
-                        <div class="col-6">
-                            <ul class="list-unstyled mb-0">
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Operating environment</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Section dimensions</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Applicable Indian Standard</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Project specification</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <p class="mt-3 mb-0 text-justify">Customers should mention the required grade, standard, angle size, thickness, length and quantity when submitting an enquiry.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100 border-0 bg-white shadow-sm border border-secondary border-opacity-25 rounded-3">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Material Documentation</h4>
-                    <p class="mb-3 text-justify">Where required and agreed at the time of order, structural angles can be supplied with applicable material test certificates and supporting documentation according to the purchase order and project requirements.</p>
-                    <div class="alert alert-warning mb-0 border-0 shadow-sm" role="alert">
-                        <strong>Note:</strong> Exact grade availability should be confirmed with Moksh Tubes & Fittings LLP before ordering, as the available grades may vary according to size, specification and project requirements.
-                    </div>
-                </div>
-            </div>
-        </div>
+       
     </div>
 </section>
 
@@ -445,8 +351,8 @@
             <div class="col-sm-6 col-lg-4">
                 <div class="application-card">
                     <div class="application-icon"><i class="bi bi-building"></i></div>
-                    <h5>Construction & Building Structures</h5>
-                    <p class="mb-0 text-center">Structural angles are commonly used in building and construction projects for steel structural frameworks, roof structures and trusses, bracing members, supports and brackets, frames and fabricated assemblies.</p>
+                    <h5>Commercial Buildings</h5>
+                    <p class="mb-0 text-center">Used in structural frameworks, supports, and load-bearing applications for offices, malls, and commercial complexes.</p>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4">
@@ -489,6 +395,13 @@
                     <div class="application-icon"><i class="bi bi-gear"></i></div>
                     <h5>Equipment & Platform Supports</h5>
                     <p class="mb-0 text-center">Structural angles can be fabricated into supports for industrial equipment, platforms, access structures and other steel assemblies where the specified section meets the design requirements.</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="application-card">
+                    <div class="application-icon"><i class="bi bi-nut"></i></div>
+                    <h5>General Structural Applications</h5>
+                    <p class="mb-0 text-center">Indian Structural Angles are also used for a variety of general structural applications where an L-shaped steel section is required for support, connection, framing or reinforcement.</p>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4">
@@ -564,12 +477,7 @@
                     <h5>Used for reinforcement and structural connections according to project design requirements.</h5>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-check-circle"></i></div>
-                    <h5>Available in equal and unequal configurations, providing flexibility for different structural applications.</h5>
-                </div>
-            </div>
+           
         </div>
         <p class="text-center mt-4 text-muted">The required angle size, thickness, grade and length should be selected according to the engineering design, structural loading, applicable Indian Standard and project specifications.</p>
     </div>
@@ -645,27 +553,7 @@
                     <p class="mb-0 text-center">Commonly considered for industrial fabrication, infrastructure structures, towers and engineering projects.</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-currency-dollar"></i></div>
-                    <h5>Cost-Effective Structural Section</h5>
-                    <p class="mb-0 text-center">The simple L-shaped profile provides an efficient option for various support, connection and fabrication requirements.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-list-ol"></i></div>
-                    <h5>Multiple Length Options</h5>
-                    <p class="mb-0 text-center">Standard or cut-to-length requirements can be considered depending on product availability and project specifications.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-file-earmark-text"></i></div>
-                    <h5>Specification-Based Selection</h5>
-                    <p class="mb-0 text-center">Material grade, dimensions and section properties can be selected according to applicable Indian Standards and engineering requirements.</p>
-                </div>
-            </div>
+            
         </div>
     </div>
 </section>
@@ -770,13 +658,7 @@
                             <p class="mb-0">Specific dimensions, lengths, grades and quantities can be discussed according to project requirements.</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="why-banner-block h-100">
-                            <div class="why-banner-icon"><i class="bi bi-building"></i></div>
-                            <h5>Experienced Steel Product Supplier</h5>
-                            <p class="mb-0">Moksh Tubes & Fittings LLP serves customers requiring steel products for industrial, engineering, construction and infrastructure applications.</p>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -836,68 +718,7 @@
                         </div>
                     </div>
                     
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Which grades are available for Indian Structural Angles?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Grades such as IS 2062, E250 and E350 may be considered according to the applicable specification and product availability. Exact grade availability should be confirmed at the time of enquiry.</p>
-                        </div>
-                    </div>
-
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>What sizes of Indian Structural Angles are available?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Structural angles are available in different leg dimensions and thicknesses. The actual available sizes depend on the applicable standard and Moksh Tubes & Fittings LLP's current product range.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Can Indian Structural Angles be supplied in custom lengths?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Standard and cut-to-length requirements can be considered depending on product availability and customer specifications.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Where are Indian Structural Angles commonly used?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>They are used in construction, industrial structures, steel frameworks, towers, trusses, platforms, supports, infrastructure and general engineering applications.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Can Moksh Tubes & Fittings LLP supply Indian Structural Angles in bulk?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes. Moksh Tubes & Fittings LLP can support bulk and project-based requirements, subject to product availability and agreed specifications.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>What information should I provide when requesting a quotation?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>For an accurate quotation, provide the angle type, leg dimensions, thickness, material grade, required length, quantity and applicable standard. Project drawings or technical specifications can also be provided where applicable.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Does Moksh Tubes & Fittings LLP support international enquiries?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes. International and export enquiries for Indian Structural Angles can be discussed based on the required product specifications, quantity and delivery requirements.</p>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>

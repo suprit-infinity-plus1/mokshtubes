@@ -132,55 +132,8 @@
             </table>
         </div>
         
-        <div class="row g-4 mt-4">
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Column Section Dimensions</h4>
-                    <p class="mb-0 text-justify">Indian Structural Columns are identified according to their overall section depth, flange width, web thickness and flange thickness. These dimensions determine the geometry and structural properties of the selected section.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">I-Section & H-Section Columns</h4>
-                    <p class="mb-0 text-justify">Depending on the applicable Indian specification and structural design, column sections may include different I-shaped and H-shaped profiles. The appropriate profile should be selected according to the required load, column height, structural stability and connection arrangement.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Length Availability</h4>
-                    <p class="mb-0 text-justify">Structural Columns can be considered in standard lengths or cut-to-length requirements, depending on product availability and customer specifications.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Material & Grade</h4>
-                    <p class="mb-0 text-justify">The material grade is selected according to the applicable Indian Standard and project specification. Customers can specify the required grade along with the column section and dimensions.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row g-4 mt-4">
-            <div class="col-md-12">
-                <div class="card p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Supply Requirements</h4>
-                    <p class="mb-2">For an accurate quotation, customers should provide:</p>
-                    <ul class="list-unstyled mb-3 d-flex flex-wrap">
-                        <li class="me-4 mb-2"><i class="bi bi-check2 text-success me-2"></i>Column Type / Section</li>
-                        <li class="me-4 mb-2"><i class="bi bi-check2 text-success me-2"></i>Column Size</li>
-                        <li class="me-4 mb-2"><i class="bi bi-check2 text-success me-2"></i>Section Depth</li>
-                        <li class="me-4 mb-2"><i class="bi bi-check2 text-success me-2"></i>Flange Width</li>
-                        <li class="me-4 mb-2"><i class="bi bi-check2 text-success me-2"></i>Web Thickness</li>
-                        <li class="me-4 mb-2"><i class="bi bi-check2 text-success me-2"></i>Flange Thickness</li>
-                        <li class="me-4 mb-2"><i class="bi bi-check2 text-success me-2"></i>Material Grade</li>
-                        <li class="me-4 mb-2"><i class="bi bi-check2 text-success me-2"></i>Required Length</li>
-                        <li class="me-4 mb-2"><i class="bi bi-check2 text-success me-2"></i>Quantity</li>
-                        <li class="me-4 mb-2"><i class="bi bi-check2 text-success me-2"></i>Applicable Standard</li>
-                        <li class="me-4 mb-2"><i class="bi bi-check2 text-success me-2"></i>Project Specification, if applicable</li>
-                    </ul>
-                    <p class="mb-0 text-justify">Moksh Tubes & Fittings LLP can support standard and project-based requirements for Indian Structural Columns, subject to product availability and agreed specifications.</p>
-                </div>
-            </div>
-        </div>
+        
+       
     </div>
 </section>
 
@@ -251,56 +204,8 @@
             </table>
         </div>
         
-        <div class="row g-4 mt-2">
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100 border-0">
-                    <h5 class="fw-bold" style="color:#db7227;">Column Section Dimensions</h5>
-                    <p class="mb-2">Structural column sections are generally identified by their overall depth, flange width, web thickness and flange thickness. These dimensions determine the geometry and structural properties of the section.</p>
-                    <p class="mb-0">The appropriate column size should be selected according to the required load-bearing capacity, column height, structural stability, connection design and applicable engineering requirements.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100 border-0">
-                    <h5 class="fw-bold" style="color:#db7227;">Column Weight</h5>
-                    <p class="mb-2">The unit weight of a structural column depends on its section dimensions, thickness and geometry. Larger sections and greater thickness generally result in higher weight per metre.</p>
-                    <p class="mb-0">For engineering and procurement purposes, the final section weight should be taken from the applicable IS section table or confirmed product specification.</p>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="card p-4 shadow-sm h-100 border-0">
-                    <h5 class="fw-bold" style="color:#db7227;">Standard & Cut-to-Length Supply</h5>
-                    <p class="mb-3">Indian Structural Columns can be considered in standard lengths or cut-to-length requirements, subject to product availability and customer specifications.</p>
-                    <p class="mb-2">Customers can provide the following details for quotation:</p>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <ul class="list-unstyled mb-0">
-                                <li><i class="bi bi-arrow-right text-success me-2"></i>Column Type / Section</li>
-                                <li><i class="bi bi-arrow-right text-success me-2"></i>Column Size</li>
-                                <li><i class="bi bi-arrow-right text-success me-2"></i>Section Depth</li>
-                                <li><i class="bi bi-arrow-right text-success me-2"></i>Flange Width</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4">
-                            <ul class="list-unstyled mb-0">
-                                <li><i class="bi bi-arrow-right text-success me-2"></i>Web Thickness</li>
-                                <li><i class="bi bi-arrow-right text-success me-2"></i>Flange Thickness</li>
-                                <li><i class="bi bi-arrow-right text-success me-2"></i>Material Grade</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4">
-                            <ul class="list-unstyled mb-0">
-                                <li><i class="bi bi-arrow-right text-success me-2"></i>Required Length</li>
-                                <li><i class="bi bi-arrow-right text-success me-2"></i>Quantity</li>
-                                <li><i class="bi bi-arrow-right text-success me-2"></i>Applicable Standard</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="alert alert-info mt-4 mb-0 border-0 shadow-sm" role="alert">
-                        <strong>Important Note:</strong> Exact column dimensions and unit-weight values should be confirmed against the applicable Indian Standard and Moksh Tubes & Fittings LLP's current product range before publication or procurement.
-                    </div>
-                </div>
-            </div>
-        </div>
+        
+        
     </div>
 </section>
 
@@ -331,64 +236,8 @@
             </table>
         </div>
 
-        <div class="row g-4 mt-4">
-            <div class="col-md-4">
-                <div class="card p-4 shadow-sm h-100 border-0 bg-light">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">IS 2062 Structural Steel</h4>
-                    <p class="mb-0 text-justify">IS 2062 is an Indian specification for structural steel products used in construction, engineering and fabrication applications. The applicable grade should be selected according to the required mechanical properties and project specification.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-4 shadow-sm h-100 border-0 bg-light">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">E250 Grade</h4>
-                    <p class="mb-0 text-justify">E250 structural steel can be considered for general structural applications where the specified mechanical properties meet the requirements of the design. It may be used for structural frameworks, supports, columns and engineering structures.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-4 shadow-sm h-100 border-0 bg-light">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">E350 Grade</h4>
-                    <p class="mb-0 text-justify">E350 structural steel provides a higher specified strength level and can be considered for structural applications requiring increased strength, subject to the applicable specification and engineering design.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row g-4 mt-4">
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100 border-0 bg-white shadow-sm border border-secondary border-opacity-25 rounded-3">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Grade Selection</h4>
-                    <p class="mb-2">The appropriate grade for an Indian Structural Column should be selected based on:</p>
-                    <div class="row">
-                        <div class="col-6">
-                            <ul class="list-unstyled mb-0">
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Required mechanical properties</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Structural loading</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Column height and design</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Section dimensions</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Structural stability requirements</li>
-                            </ul>
-                        </div>
-                        <div class="col-6">
-                            <ul class="list-unstyled mb-0">
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Fabrication requirements</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Welding requirements</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Applicable Indian Standard</li>
-                                <li><i class="bi bi-check-circle text-success me-2"></i>Project specification</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <p class="mt-3 mb-0 text-justify">Customers should specify the required grade, column section, dimensions, length, quantity and applicable standard when submitting an enquiry.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-4 shadow-sm h-100 border-0 bg-white shadow-sm border border-secondary border-opacity-25 rounded-3">
-                    <h4 class="mb-3 text-center" style="color: #db7227;">Material Documentation</h4>
-                    <p class="mb-3 text-justify">Where required and agreed at the time of order, applicable material test certificates and supporting documentation can be provided according to the purchase order and project requirements.</p>
-                    <div class="alert alert-warning mb-0 border-0 shadow-sm" role="alert">
-                        <strong>Note:</strong> Exact grade availability should be confirmed with Moksh Tubes & Fittings LLP before ordering, as availability may vary according to column section, size, specification and project requirements.
-                    </div>
-                </div>
-            </div>
-        </div>
+        
+       
     </div>
 </section>
 
@@ -449,6 +298,13 @@
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4">
+                <div class="application-card">
+                    <div class="application-icon"><i class="bi bi-bezier2"></i></div>
+                    <h5>Steel Building Frameworks</h5>
+                    <p class="mb-0 text-center">Structural columns can be combined with beams, channels, angles and hollow sections to create complete steel building and industrial frameworks.</p>
+                </div>
+            </div>
+             <div class="col-sm-6 col-lg-4">
                 <div class="application-card">
                     <div class="application-icon"><i class="bi bi-bezier2"></i></div>
                     <h5>Steel Building Frameworks</h5>
@@ -521,12 +377,7 @@
                     <h5>Used with structural beams, channels, angles and hollow sections to create complete steel frameworks.</h5>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-check-circle"></i></div>
-                    <h5>Suitable for general engineering and fabrication applications requiring vertical steel support members.</h5>
-                </div>
-            </div>
+            
         </div>
         <p class="text-center mt-4 text-muted">The appropriate column section, dimensions, grade and length should be selected according to the structural loading, column height, stability requirements, applicable Indian Standard and project specifications.</p>
     </div>
@@ -602,27 +453,7 @@
                     <p class="mb-0 text-center">Structural steel grades can be selected according to required mechanical properties and project specifications.</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-list-ol"></i></div>
-                    <h5>Standard & Cut-to-Length Options</h5>
-                    <p class="mb-0 text-center">Standard or specified lengths can be considered depending on product availability and customer requirements.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-truck"></i></div>
-                    <h5>Project-Based Supply</h5>
-                    <p class="mb-0 text-center">Column requirements can be specified according to section, dimensions, grade, length and quantity.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-cone-striped"></i></div>
-                    <h5>Suitable for Construction & Infrastructure</h5>
-                    <p class="mb-0 text-center">Widely applicable to building frameworks, industrial structures, warehouses and infrastructure projects.</p>
-                </div>
-            </div>
+           
         </div>
         <p class="text-center mt-4 text-muted">The appropriate column section should always be selected according to the structural loading, column height, stability requirements, section properties, applicable Indian Standard and project specifications.</p>
     </div>
@@ -729,13 +560,7 @@
                             <p class="mb-0">Support for customers sourcing structural columns for construction, fabrication, industrial and infrastructure applications.</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="why-banner-block h-100">
-                            <div class="why-banner-icon"><i class="bi bi-globe"></i></div>
-                            <h5>Domestic & International Enquiries</h5>
-                            <p class="mb-0">Support for customers requiring Indian Structural Columns for domestic and international project requirements.</p>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -795,68 +620,7 @@
                         </div>
                     </div>
                     
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>What sizes of Indian Structural Columns are available?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Structural Columns are available in different section depths, flange widths, web thicknesses and flange thicknesses. Actual size availability depends on the applicable standard and Moksh Tubes & Fittings LLP's current product range.</p>
-                        </div>
-                    </div>
-
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Can Structural Columns be supplied in custom lengths?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes. Standard and cut-to-length requirements can be considered depending on product availability and customer specifications.</p>
-                        </div>
-                    </div>
                     
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>How do I select the right Structural Column?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>The appropriate column section should be selected according to load requirements, column height, section properties, structural stability, dimensions, material grade and engineering design.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Can Moksh Tubes & Fittings LLP supply Structural Columns in bulk?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes. Moksh Tubes & Fittings LLP can support bulk and project-based requirements, subject to product availability and agreed specifications.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>What information is required for a quotation?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Customers should provide the column section, size, section depth, flange width, web thickness, flange thickness, material grade, required length, quantity and applicable standard.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Can Structural Columns be used with other structural steel sections?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes. Structural Columns can be combined with structural beams, channels, angles and hollow sections to create complete steel building and industrial frameworks.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Does Moksh Tubes & Fittings LLP support international enquiries?</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes. International enquiries for Indian Structural Columns can be discussed based on the required product specification, quantity and delivery requirements.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
