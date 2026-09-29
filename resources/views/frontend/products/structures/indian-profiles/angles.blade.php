@@ -10,7 +10,7 @@
 
 @section('content')
 <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url({{ asset('assets/images/product/default-bg.jpg') }});">
+<section class="breadcrumb-area" style="background-image: url({{ asset('assets/images/structures/indian/indian-structural-angels-1.webp') }});">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">
@@ -45,7 +45,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-md-6 mb-4 mb-md-0">
-                <img src="https://placehold.co/550x350" alt="Indian Structural Angles" class="img-fluid rounded shadow-sm" loading="lazy">
+                <img src="{{ asset('assets/images/structures/indian/indian-structural-angels-2.webp') }}" alt="Indian Structural Angles" class="img-fluid rounded shadow-sm" loading="lazy">
             </div>
             <div class="col-md-6">
                 <p class="fs-6 mb-3 text-justify"><strong>Indian Structural Angles</strong> are L-shaped structural steel sections designed for use in a wide range of construction, fabrication and engineering applications. Their simple and versatile profile makes them suitable for structural frames, bracing systems, trusses, supports, towers, platforms, brackets and fabricated assemblies.</p>

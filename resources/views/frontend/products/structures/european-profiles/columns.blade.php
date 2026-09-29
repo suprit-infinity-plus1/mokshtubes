@@ -10,7 +10,7 @@
 
 @section('content')
 <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url({{ asset('assets/images/product/default-bg.jpg') }});">
+<section class="breadcrumb-area" style="background-image: url({{ asset('assets/images/structures/european/european-structure-column-3.webp') }});">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">
@@ -45,7 +45,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-md-6 mb-4 mb-md-0">
-                <img src="https://placehold.co/550x350" alt="European Structural Columns" class="img-fluid rounded shadow-sm" loading="lazy">
+                <img src="{{asset('assets/images/structures/european/european-structure-column.webp')}}" alt="European Structural Columns" class="img-fluid rounded shadow-sm" loading="lazy">
             </div>
             <div class="col-md-6">
                 <p class="fs-6 mb-3 text-justify"><strong>European Structural Columns</strong> are vertical structural steel members designed to transfer loads from beams, floors, roofs and other structural components to the foundation or supporting structure.</p>

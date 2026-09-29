@@ -10,7 +10,7 @@
 
 @section('content')
 <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url({{ asset('assets/images/product/default-bg.jpg') }});">
+<section class="breadcrumb-area" style="background-image: url({{ asset('assets/images/structures/indian/indian-structural-beams-1.webp') }});">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">
@@ -45,7 +45,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-md-6 mb-4 mb-md-0">
-                <img src="https://placehold.co/550x350" alt="Indian Structural Beams" class="img-fluid rounded shadow-sm" loading="lazy">
+                <img src="{{ asset('assets/images/structures/indian/indian-structural-beams-2.webp') }}" alt="Indian Structural Beams" class="img-fluid rounded shadow-sm" loading="lazy">
             </div>
             <div class="col-md-6">
                 <p class="fs-6 mb-3 text-justify"><strong>Indian Structural Beams</strong> are structural steel sections used primarily as load-bearing members in buildings, industrial structures, infrastructure and engineering applications. Their engineered cross-sectional profile provides strength and rigidity for supporting loads across structural frameworks.</p>

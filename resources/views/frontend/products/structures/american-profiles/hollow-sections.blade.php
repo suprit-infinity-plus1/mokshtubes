@@ -10,7 +10,7 @@
 
 @section('content')
 <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url({{ asset('assets/images/product/default-bg.jpg') }});">
+<section class="breadcrumb-area" style="background-image: url({{ asset('assets/images/structures/american/americaln-structural-hollow-sections-1.webp') }});">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">
@@ -45,7 +45,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-md-6 mb-4 mb-md-0">
-                <img src="https://placehold.co/550x350" alt="American Hollow Sections" class="img-fluid rounded shadow-sm" loading="lazy">
+                <img src="{{ asset('assets/images/structures/american/americaln-structural-hollow-sections-2.webp') }}" alt="American Hollow Sections" class="img-fluid rounded shadow-sm" loading="lazy">
             </div>
             <div class="col-md-6">
                 <p class="fs-6 mb-3 text-justify"><strong>American Hollow Sections</strong> are structural steel members manufactured with a closed cross-section. They are widely used where structural strength, rigidity and efficient section geometry are required for building frameworks, industrial structures, infrastructure and fabricated assemblies.</p>

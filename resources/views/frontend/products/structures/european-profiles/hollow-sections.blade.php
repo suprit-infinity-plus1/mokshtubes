@@ -10,7 +10,7 @@
 
 @section('content')
 <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url({{ asset('assets/images/product/default-bg.jpg') }});">
+<section class="breadcrumb-area" style="background-image: url({{ asset('assets/images/structures/european/european-hollow-section-1.webp') }});">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">
@@ -45,7 +45,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-md-6 mb-4 mb-md-0">
-                <img src="https://placehold.co/550x350" alt="European Hollow Sections" class="img-fluid rounded shadow-sm" loading="lazy">
+                <img src="{{ asset('assets/images/structures/european/european-hollow-section-2.webp') }}" alt="European Hollow Sections" class="img-fluid rounded shadow-sm" loading="lazy">
             </div>
             <div class="col-md-6">
                 <p class="fs-6 mb-3 text-justify"><strong>European Hollow Sections</strong> are closed-profile structural steel sections used for structural framing, columns, supports, trusses, bracing and fabricated assemblies.</p>
