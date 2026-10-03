@@ -1,22 +1,19 @@
 @extends('layouts.master')
 
-@section('title', 'Moksh Tubes LLP | High-Performance Metal Alloys & Products')
+@section('title', 'Stainless Steel & Nickel Alloy Pipes Supplier | Moksh Tubes')
 @section(
     'meta_description',
-    'Leading supplier of stainless steel, nickel alloys, titanium and special metals. Moksh
-    Tubes LLP delivers pipes, tubes, fittings and custom alloy solutions worldwide.'
+    'Moksh Tubes & Fittings LLP supplies stainless steel, nickel alloy, titanium and special-alloy pipes, tubes, fittings and flanges.'
 )
 @section(
     'meta_keywords',
-    'stainless steel pipes, nickel alloy pipes, titanium pipes, stainless steel tubes, nickel alloy tubes,
-    titanium tubes, stainless steel fittings, nickel alloy fittings, titanium fittings, seamless pipes, welded pipes,
-    high-quality metal pipes, industrial metal tubes, corrosion-resistant pipes, durable metal fittings,
-    ISO-certified metal products'
+    ''
 )
 @section('canonical', url('/'))
 {{-- OG overrides --}}
 @section('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))
 @section('og_type', 'website')
+@section('og_site_name', 'Moksh Tubes & Fittings LLP')
 @section('content')
         <style>
             /* Custom Premium Styles - Theme Colors Applied */
@@ -1726,30 +1723,6 @@
                 "text": "Yes. Third-party inspection can be arranged through internationally recognized inspection agencies upon request."
               }
             },
-            {
-              "@type": "Question",
-              "name": "How quickly can I receive a quotation?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Our team aims to respond to most enquiries within 30 minutes during business hours."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Which materials do you stock?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We stock stainless steel, duplex steel, nickel alloys, titanium, engineering steels, aluminium alloys, copper alloys, and other specialty metals."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How can I request a quote?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "You can contact us through our enquiry form, email, phone, or WhatsApp. Our technical sales team will recommend the right material and provide a competitive quotation based on your specifications."
-              }
-            }
           ]
         }
         </script>

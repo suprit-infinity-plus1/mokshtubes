@@ -49,6 +49,7 @@
         <meta property="og:image"
                 content="@yield('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))" />
         <meta property="og:type" content="@yield('og_type', 'website')" />
+        <meta property="og:site_name" content="@yield('og_site_name', 'Moksh Tubes & Fittings LLP')">
 
         <!-- Twitter -->
         <meta name="twitter:card" content="summary_large_image">
@@ -68,7 +69,7 @@
         <!-- responsive meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- For IE -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        {{-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> --}}
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
@@ -214,7 +215,7 @@
                 }
         </style>
         @stack('styles')
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+        {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"> --}}
 
         {{--
         <script type="application/ld+json">
