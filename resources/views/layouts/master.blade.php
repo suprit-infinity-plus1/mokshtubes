@@ -671,9 +671,9 @@ href="{{ route('products.structures.american-profiles') }}">American Profiles <i
                                                                                                                         </ul>
                                                                                                                 </li>
                                                                                                         </ul>
-                                                                                                </li>
-                                                                                                <li class="dropdown">
-                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+        </li>
+        <li class="dropdown">
+                <a class="dropdown-item d-flex justify-content-between align-items-center"
                                                                                                                 href="{{ route('products.pipe-fittings') }}">
                                                                                                                 Pipe
                                                                                                                 Fittings
@@ -1487,7 +1487,7 @@ href="{{ route('products.structures.american-profiles') }}">American Profiles <i
                                                                                                                         <a class="dropdown-item d-flex justify-content-between align-items-center"
                                                                                                                                 href="{{ route('products.structures.american-profiles') }}">American Profiles (ASTM / AISC) <i class="fa fa-angle-right"></i></a>
                                                                                                                         <ul>
-                                                                                                                                <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'angles']) }}">Angles</a></li>
+                                                                                                                                <li><a href="{{ route('products.structures.american.angel') }}">Angles</a></li>
                                                                                                                                 <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'channels']) }}">Channels</a></li>
                                                                                                                                 <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'beams']) }}">Beams</a></li>
                                                                                                                                 <li><a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'columns']) }}">Columns</a></li>
@@ -1506,8 +1506,8 @@ href="{{ route('products.structures.american-profiles') }}">American Profiles <i
                                                                                                                         </ul>
                                                                                                                 </li>
                                                                                                         </ul>
-                                                                                                </li>
-                                                                                                <li class="dropdown">
+</li>
+<li class="dropdown">
                                                                                                         <a class="dropdown-item d-flex justify-content-between align-items-center"
                                                                                                                 href="{{ route('products.sheets-plates-coils') }}">
                                                                                                                 Sheets,
@@ -1610,10 +1610,10 @@ href="{{ route('products.structures.american-profiles') }}">American Profiles <i
                                                                                                                         </ul>
                                                                                                                 </li>
                                                                                                         </ul>
-                                                                                                </li>
-                                                                                                <li class="dropdown">
-                                                                                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
-                                                                                                                href="{{ route('products.bars-rods') }}">
+</li>
+<li class="dropdown">
+<a class="dropdown-item d-flex justify-content-between align-items-center"
+href="{{ route('products.bars-rods') }}">
                                                                                                                 Bars &
                                                                                                                 Rods <i
                                                                                                                         class="fa fa-angle-right"></i>
@@ -1639,13 +1639,13 @@ href="{{ route('products.structures.american-profiles') }}">American Profiles <i
                                                                                                                 </li>
                                                                                                         </ul>
                                                                                                 </li>
-                                                                                                <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">PIPE
-                                                                                                                FITTINGS,
+<li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">PIPE
+        FITTINGS,
                                                                                                                 FLANGES
                                                                                                                 &
                                                                                                                 FASTENERS</a>
-                                                                                                </li>
-                                                                                                <li class="dropdown">
+</li>
+<li class="dropdown">
                                                                                                         <a class="dropdown-item d-flex justify-content-between align-items-center"
                                                                                                                 href="{{ route('products.pipe-fittings') }}">
                                                                                                                 Pipe

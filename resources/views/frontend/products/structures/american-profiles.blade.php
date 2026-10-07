@@ -15,7 +15,7 @@
         <div class="row g-4">
             <!-- Angles -->
             <div class="col-12 col-sm-6 col-lg-4">
-                <a href="{{ route('products.structures.profile.item', ['profile' => 'american-profiles', 'slug' => 'angles']) }}" class="text-decoration-none d-block h-100">
+                <a href="{{ route('products.structures.american.angel') }}" class="text-decoration-none d-block h-100">
                     <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                         style="border-color: #db7227; transition: 0.3s;">
                         <img src="https://placehold.co/550x350"
