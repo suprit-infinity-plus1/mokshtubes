@@ -304,8 +304,8 @@
                 <header class="header-area">
                         <div class="logo">
                                 <a href="{{ route('index') }}">
-                                        <!-- <img src="images/logo/logo moksh1-1.png" alt="Awesome Logo"> -->
-                                        <img src="{{ asset('assets/images/logo/Board-1.png') }}" alt="Moksh Tubes Logo">
+                                        <!-- <img src="images/logo/logo moksh1-1.png" alt="Moksh Tubes &amp; Fittings LLP"> -->
+                                        <img src="{{ asset('assets/images/logo/Board-1.png') }}" alt="Moksh Tubes &amp; Fittings LLP">
                                 </a>
                         </div>
                         <div class="header-contact-info d-none d-md-block">
@@ -354,7 +354,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="images/logo/logo moksh1-1.png" alt="Awesome Logo">
+                            <img src="images/logo/logo moksh1-1.png" alt="Moksh Tubes &amp; Fittings LLP">
                         </a>
                     </div>
                 </div>
@@ -390,41 +390,6 @@
 
                 </header>
                 <!--End header area-->
-
-
-                <!--Start of Tawk.to Script-->
-                <script type="text/javascript">
-                        var Tawk_API = Tawk_API || {},
-
-                                Tawk_LoadStart = new Date();
-                        (function () {
-                                var s1 = document.createElement("script"),
-                                        s0 = document.getElementsByTagName("script")[0];
-                                s1.async = true;
-                                s1.src = 'https://embed.tawk.to/692d953abb2f8419802db9ae/1jbd0trj6';
-                                s1.charset = 'UTF-8';
-                                s1.setAttribute('crossorigin', '*');
-                                s0.parentNode.insertBefore(s1, s0);
-                        })();
-                </script>
-                <script type="text/javascript">
-                        var Tawk_API = Tawk_API || {};
-                        Tawk_API.customStyle = {
-                                visibility: {
-                                        desktop: {
-                                                position: 'br', // bottom-right
-                                                xOffset: 18,
-                                                yOffset: 80 // ⬆ moves it UP
-                                        },
-                                        mobile: {
-                                                position: 'br',
-                                                xOffset: 10,
-                                                yOffset: 70
-                                        }
-                                }
-                        };
-                </script>
-                <!--End of Tawk.to Script-->
 
 
                 <!--Start mainmenu area-->
@@ -2327,7 +2292,7 @@ href="{{ route('products.bars-rods') }}">
                                                                                 class="footer-logo text-uppercase">
                                                                                 <!-- <img src="./images/logo/logo moksh1-1.png" alt="logo"> -->
                                                                                 <img src="{{ asset('assets/images/logo/Board-1.png') }}"
-                                                                                        alt="Awesome Logo">
+                                                                                        alt="Moksh Tubes &amp; Fittings LLP">
                                                                         </a>
                                                                 </div>
                                                                 <p class="footer-words">Over 24 years experience and of
@@ -2885,6 +2850,36 @@ href="{{ route('products.bars-rods') }}">
         </div>
         @yield('extrajs')
         @yield('jsscripts')
+
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+                var Tawk_API = Tawk_API || {},
+                        Tawk_LoadStart = new Date();
+                Tawk_API.customStyle = {
+                        visibility: {
+                                desktop: {
+                                        position: 'br', // bottom-right
+                                        xOffset: 18,
+                                        yOffset: 80 // ⬆ moves it UP
+                                },
+                                mobile: {
+                                        position: 'br',
+                                        xOffset: 10,
+                                        yOffset: 70
+                                }
+                        }
+                };
+                (function () {
+                        var s1 = document.createElement("script"),
+                                s0 = document.getElementsByTagName("script")[0];
+                        s1.async = true;
+                        s1.src = 'https://embed.tawk.to/692d953abb2f8419802db9ae/1jbd0trj6';
+                        s1.charset = 'UTF-8';
+                        s1.setAttribute('crossorigin', '*');
+                        s0.parentNode.insertBefore(s1, s0);
+                })();
+        </script>
+        <!--End of Tawk.to Script-->
 </body>
 
 
