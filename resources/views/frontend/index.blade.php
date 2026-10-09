@@ -14,6 +14,11 @@
 @section('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))
 @section('og_type', 'website')
 @section('og_site_name', 'Moksh Tubes & Fittings LLP')
+{{-- Preload the hero slide (LCP image) --}}
+@section('extracss')
+    <link rel="preload" as="image" href="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.webp') }}"
+        type="image/webp" fetchpriority="high">
+@endsection
 @section('content')
         <style>
             /* Custom Premium Styles - Theme Colors Applied */
@@ -173,7 +178,7 @@
                 <ul>
                     <li data-transition="slidingoverlayleft">
                         <img src="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.webp') }}"
-                            alt="Stainless Steel Welded Pipes ERW EFW ASTM A312" width="1920" height="880" loading="lazy"
+                            alt="Stainless Steel Welded Pipes ERW EFW ASTM A312" width="1920" height="880" fetchpriority="high"
                             data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1">
 
                         <div class="tp-caption  tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-50"
@@ -183,7 +188,8 @@
                             data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                             data-responsive_offset="on" data-start="700">
                             <div class="slide-content-box">
-                                <h1>Stainless Steel & Nickel Alloy Pipes <br>Moksh Tubes LLP</h1>
+                                <div class="slide-brand-line" style="font-size: 16px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px;">Moksh Tubes &amp; Fittings LLP</div>
+                                <h1>Stainless Steel &amp; Nickel Alloy Pipes, <br>Tubes &amp; Fittings Supplier</h1>
 
                                 <p>Seamless & Welded Pipes/Tubes in SS 304/316/321/904L, <br>Inconel & Hastelloy with MTC (EN
                                     10204 3.1), PMI & Hydro Test ready stock<br>
@@ -220,7 +226,7 @@
 
 
                     <li data-transition="slidingoverlayleft">
-                        <img src="{{ asset('assets/images/slides/carpenteria-interno.webp') }}" alt="banner image" width="1920"
+                        <img src="{{ asset('assets/images/slides/carpenteria-interno.webp') }}" alt="Welder in protective mask welding a steel pipe in a fabrication workshop" width="1920"
                             height="880" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat"
                             data-bgparallax="1" loading="lazy">
 
@@ -264,7 +270,7 @@
                     </li>
 
                     <li data-transition="slidingoverlayright">
-                        <img src="{{ asset('assets/images/slides/we-help.webp') }}" alt="banner image" width="1920" height="550"
+                        <img src="{{ asset('assets/images/slides/we-help.webp') }}" alt="Team of professionals discussing a project around a table in an industrial-style office" width="1920" height="550"
                             data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1"
                             loading="lazy">
 
