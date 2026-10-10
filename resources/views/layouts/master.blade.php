@@ -142,8 +142,14 @@
                         box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
                 }
 
-                .sticky-cta a {
+                .sticky-cta a,
+                .sticky-cta button {
                         flex: 1;
+                        border: 0;
+                        margin: 0;
+                        font-family: inherit;
+                        line-height: inherit;
+                        cursor: pointer;
                         padding: 12px 10px;
                         color: #fff !important;
                         font-size: 14px;
@@ -156,7 +162,8 @@
                         justify-content: center;
                 }
 
-                .sticky-cta a i {
+                .sticky-cta a i,
+                .sticky-cta button i {
                         margin-right: 5px;
                         font-size: 16px;
                 }
@@ -183,7 +190,8 @@
                                 box-shadow: none;
                         }
 
-                        .sticky-cta a {
+                        .sticky-cta a,
+                        .sticky-cta button {
                                 border-radius: 5px;
                                 padding: 10px 15px;
                                 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -191,7 +199,8 @@
                                 justify-content: flex-start;
                         }
 
-                        .sticky-cta a:hover {
+                        .sticky-cta a:hover,
+                        .sticky-cta button:hover {
                                 transform: translateY(-3px);
                         }
                 }
@@ -2295,7 +2304,7 @@ href="{{ route('products.bars-rods') }}">
                                                                                         alt="Moksh Tubes &amp; Fittings LLP">
                                                                         </a>
                                                                 </div>
-                                                                <p class="footer-words">Over 24 years experience and of
+                                                                <p class="footer-words">Over 20 years experience and of
                                                                         the international user
                                                                         standards
                                                                         and technological works changes and industrial
@@ -2579,8 +2588,8 @@ href="{{ route('products.bars-rods') }}">
 
                 <!-- Sticky CTA Floating Buttons -->
                 <div class="sticky-cta">
-                        <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal"
-                                class="cta-quote"><i class="fa fa-envelope"></i> Get Quote</a>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#contactFormModal"
+                                class="cta-quote"><i class="fa fa-envelope"></i> Get Quote</button>
                         <a href="tel:+919769584950" class="cta-call"><i class="fa fa-phone"></i> Call Now</a>
                         <a href="https://wa.me/919769584950" target="_blank" class="cta-whatsapp"><i
                                         class="fa-brands fa-whatsapp"></i> WhatsApp</a>

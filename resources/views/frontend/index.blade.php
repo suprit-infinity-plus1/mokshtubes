@@ -203,8 +203,8 @@
                             data-splitout="none" data-responsive_offset="on" data-start="2300">
                             <div class="slide-content-box">
                                 <div class="button">
-                                    <a class="thm-btn bg-clr1" href="javascript:void(0);" data-bs-toggle="modal"
-                                        data-bs-target="#contactFormModal">Get Quote</a>
+                                    <button type="button" class="thm-btn bg-clr1" data-bs-toggle="modal"
+                                        data-bs-target="#contactFormModal">Get Quote</button>
                                 </div>
                             </div>
                         </div>
@@ -243,15 +243,15 @@
 
                             </div>
                         </div>
-                        <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="400" data-y="center" data-voffset="110"
+                        <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="440" data-y="center" data-voffset="110"
                             data-transform_idle="o:1;"
                             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                             data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
                             data-splitout="none" data-responsive_offset="on" data-start="2300">
                             <div class="slide-content-box">
                                 <div class="button">
-                                    <a class="thm-btn bg-clr1" href="javascript:void(0);" data-bs-toggle="modal"
-                                        data-bs-target="#contactFormModal">Get Quote</a>
+                                    <button type="button" class="thm-btn bg-clr1" data-bs-toggle="modal"
+                                        data-bs-target="#contactFormModal">Get Quote</button>
                                 </div>
                             </div>
                         </div>
@@ -293,8 +293,8 @@
                             data-splitout="none" data-responsive_offset="on" data-start="2300">
                             <div class="slide-content-box">
                                 <div class="button">
-                                    <a class="thm-btn bg-clr1" href="javascript:void(0);" data-bs-toggle="modal"
-                                        data-bs-target="#contactFormModal">Get Quote</a>
+                                    <button type="button" class="thm-btn bg-clr1" data-bs-toggle="modal"
+                                        data-bs-target="#contactFormModal">Get Quote</button>
                                 </div>
                             </div>
                         </div>
@@ -334,14 +334,14 @@
                     <div class="col-lg-6 col-sm-12">
                         <div class="about-text">
                             <h2>
-                                about <span class="thm-color">Moksh Tubes & Fittings LLP</span>
+                                About <span class="thm-color">Moksh Tubes & Fittings LLP</span>
                             </h2>
                             <div class="text">
-                                <p>Welcome to Moksh Tubes & Fittings LLP, a trusted provider of high-quality gi pipes, ss pipes,
-                                    welded pipes, and seamless pipes. With over 20 years of experience and projects delivered
-                                    across 12 countries, we offer premium metal products designed for construction,
-                                    manufacturing, and engineering applications. Our mild steel, stainless steel, and ms
-                                    materials are manufactured with precision and reliability.</p>
+                                <p>Welcome to Moksh Tubes & Fittings LLP, a trusted provider of stainless steel and nickel alloy
+                                    pipes, tubes and fittings in seamless and welded forms. With over 20 years of experience and
+                                    projects delivered across 12 countries, we supply austenitic and duplex stainless steels,
+                                    nickel alloys such as Inconel, Monel, Incoloy and Hastelloy, titanium, and hard-to-find
+                                    special alloys for oil & gas, chemical, power and engineering applications.</p>
                             </div>
                             <div class="fact-counter d-xl-block d-none">
                                 <ul class="d-flex flex-wrap justify-content-center gap-5">
@@ -425,8 +425,8 @@
                                     <h3 class="mt-0 h5">Seamless Pipes</h3>
                                 </a>
                                 <p>High-strength, leak-proof pipes perfect for high-pressure industrial applications.</p>
-                                <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal"
-                                    class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#contactFormModal"
+                                    class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</button>
                             </div>
                         </div>
                     </div>
@@ -445,8 +445,8 @@
                                     <h3 class="mt-0 h5">Welded Pipes (ERW/EFW)</h3>
                                 </a>
                                 <p>Cost-effective and durable pipes suitable for structural and general engineering use.</p>
-                                <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal"
-                                    class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#contactFormModal"
+                                    class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</button>
                             </div>
                         </div>
                     </div>
@@ -456,7 +456,7 @@
                         <div class="single-our-service border" style="background: #fff;">
                             <figure class="img-box mb-0">
                                 <a class="w-100" href="{{ url('products/pipes-tubes/boiler-heat-exchanger-tubes') }}">
-                                    <img src="/assets/images/product/boiler-heat-exchanger-tubes-Copy.png" alt="Boiler Tubes"
+                                    <img src="/assets/images/product/boiler-heat-exchanger-tubes-thumb.webp" alt="Boiler Tubes"
                                         class="w-100" loading="lazy">
                                 </a>
                             </figure>
@@ -465,8 +465,8 @@
                                     <h3 class="mt-0 h5">Boiler & Heat Exchanger Tubes</h3>
                                 </a>
                                 <p>Designed to withstand high temperatures and pressure in critical heat transfer systems.</p>
-                                <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal"
-                                    class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#contactFormModal"
+                                    class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</button>
                             </div>
                         </div>
                     </div>
@@ -476,7 +476,7 @@
                         <div class="single-our-service border" style="background: #fff;">
                             <figure class="img-box mb-0">
                                 <a class="w-100" href="{{ route('materials.inconel') }}">
-                                    <img src="/assets/images/inconel/Inconel-625.png" alt="Inconel Pipes" class="w-100"
+                                    <img src="/assets/images/inconel/inconel-625-thumb.webp" alt="Inconel Pipes" class="w-100"
                                         loading="lazy">
                                 </a>
                             </figure>
@@ -485,8 +485,8 @@
                                     <h3 class="mt-0 h5">Inconel / Hastelloy Pipes</h3>
                                 </a>
                                 <p>Superior corrosion and oxidation resistance for the most extreme environments.</p>
-                                <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal"
-                                    class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#contactFormModal"
+                                    class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</button>
                             </div>
                         </div>
                     </div>
@@ -495,18 +495,18 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb-4">
                         <div class="single-our-service border" style="background: #fff;">
                             <figure class="img-box mb-0">
-                                <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                    <img src="/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316-Copy.png"
+                                <a class="w-100" href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}">
+                                    <img src="/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316-thumb.webp"
                                         alt="SS 316 Pipes" class="w-100" loading="lazy">
                                 </a>
                             </figure>
                             <div class="p-3 text-left">
-                                <a href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <a href="{{ route('materials.austenitic-stainless-steel.grade', 'austenitic-stainless-steel-316') }}">
                                     <h3 class="mt-0 h5">SS 316 Pipes</h3>
                                 </a>
                                 <p>Excellent corrosion resistance, ideal for chemical, marine, and medical applications.</p>
-                                <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal"
-                                    class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#contactFormModal"
+                                    class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</button>
                             </div>
                         </div>
                     </div>
@@ -526,8 +526,8 @@
                                 </a>
                                 <p>High-quality SS sheets and plates available in various grades and finishes for diverse gauge.
                                 </p>
-                                <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal"
-                                    class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#contactFormModal"
+                                    class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</button>
                             </div>
                         </div>
                     </div>

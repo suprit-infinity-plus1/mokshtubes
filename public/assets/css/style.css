@@ -352,6 +352,17 @@ textarea {
     z-index: 1;
 }
 
+/* Strip native button chrome so <button class="thm-btn"> renders like <a class="thm-btn"> */
+button.thm-btn {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    outline: none;
+    vertical-align: middle;
+}
+
 .thm-btn:hover {
     color: #fff;
 }
@@ -1186,12 +1197,14 @@ textarea {
     line-height: 26px;
 }
 
-.rev_slider_wrapper .slide-content-box .button a {
+.rev_slider_wrapper .slide-content-box .button a,
+.rev_slider_wrapper .slide-content-box .button button {
     padding: 15px 40px;
     line-height: 50px;
 }
 
-.rev_slider_wrapper .slide-content-box .button a.bg-clr1 {
+.rev_slider_wrapper .slide-content-box .button a.bg-clr1,
+.rev_slider_wrapper .slide-content-box .button button.bg-clr1 {
     padding: 15px 50px;
 }
 
