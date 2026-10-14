@@ -923,15 +923,18 @@
 
         <section class="all-products-container sec-padd2 ">
             <div class="container">
+                <div class="section-title center">
+                    <h2>Our Product Range</h2>
+                </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="footer-col service-col">
-                            <h2 class="footer-title h4">PIPES & TUBES </h2>
+                            <h3 class="footer-title h4">PIPES & TUBES </h3>
                             <ul class="footer-list">
                                 <li><a href="{{ url('products/pipes-tubes/welded-pipes') }}">WELDED PIPES (ERW & EFW)</a>
                                 </li>
                                 <li><a href="{{ url('products/pipes-tubes/seamless-pipes') }}">SEAMLESS PIPES</a></li>
-                                <li><a href="{{ url('products/pipes-tubes/capillaries') }}">CAPILLARIESS</a></li>
+                                <li><a href="{{ url('products/pipes-tubes/capillaries') }}">CAPILLARY TUBES</a></li>
                                 <li><a href="{{ url('products/pipes-tubes/hollow-section-pipe') }}">HOLLOW SECTION PIPE
                                         (SQUARE, RECTANGULAR & OVAL)</a></li>
                                 <li><a href="{{ url('products/pipes-tubes/u-bent-tubes') }}">U-BENT TUBES</a></li>
@@ -942,7 +945,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="footer-col service-col">
-                            <h2 class="footer-title h4">SHEETS, PLATES & COILS</h2>
+                            <h3 class="footer-title h4">SHEETS, PLATES & COILS</h3>
                             <ul class="footer-list">
                                 <li><a href="{{ route('products.sheets-plates-coils') }}">SHEETS & PLATES</a></li>
                                 <li><a href="{{ url('products/sheets-plates-coils/coils') }}">COILS</a></li>
@@ -959,7 +962,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="footer-col service-col">
-                            <h2 class="footer-title h4">BARS & RODS</h2>
+                            <h3 class="footer-title h4">BARS & RODS</h3>
                             <ul class="footer-list">
                                 <li><a href="{{ url('products/bars-rods/round-bars') }}">ROUND BARS</a></li>
                                 <li><a href="{{ url('products/bars-rods/hexagon-bars') }}">HEXAGON BARS</a></li>
@@ -972,7 +975,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="footer-col service-col">
-                            <h2 class="footer-title h4">PIPE FITTINGS, FLANGES & FASTENERS</h2>
+                            <h3 class="footer-title h4">PIPE FITTINGS, FLANGES & FASTENERS</h3>
                             <ul class="footer-list">
                                 <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FITTINGS</a></li>
                                 <li><a href="{{ url('products/flanges/flanges-and-gaskets') }}">FLANGES</a>
@@ -981,14 +984,14 @@
                                 </li>
                                 <li><a href="{{ url('products/flanges/flanges-and-gaskets') }}">GASKETS</a>
                                 </li>
-                                <li><a href="{{ url('products/special-fabricated/custom-steel-furniture') }}">CUSTOM
+                                <li><a href="{{ url('products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings') }}">CUSTOM
                                         FABRICATED FITTINGS</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="footer-col service-col">
-                            <h2 class="footer-title h4">SPECIAL FABRICATED PRODUCTS </h2>
+                            <h3 class="footer-title h4">SPECIAL FABRICATED PRODUCTS </h3>
                             <ul class="footer-list">
                                 <li><a href="{{ url('products/special-fabricated/ss-railings') }}">SS RAILING PRODUCTS</a>
                                 </li>
@@ -1009,7 +1012,7 @@
                             <ul class="footer-list">
                                 <li><a >WELDED PIPES (ERW & EFW)</a></li>
                                 <li><a >SEAMLESS PIPES</a></li>
-                                <li><a >CAPILLARIESS</a></li>
+                                <li><a >CAPILLARY TUBES</a></li>
                                 <li><a >HOLLOW SECTION PIPE (SQUARE, RECTANGULAR & OVAL)</a></li>
                                 <li><a >U-BENT TUBES</a></li>
                                 <li><a >BOILER & HEAT EXCHANGER TUBES</a></li>
