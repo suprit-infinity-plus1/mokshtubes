@@ -139,6 +139,7 @@ a:visited {
 
 img {
     max-width: 100%;
+    height: auto;
     display: inline-block;
 }
 
@@ -734,6 +735,7 @@ button.thm-btn {
 
 .logo img {
     max-width: 220px;
+    height: auto;
 }
 
 .header-contact-info {

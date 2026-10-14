@@ -323,35 +323,35 @@
                 <div class="brand-carousel owl-carousel owl-theme brand">
                     <div class="single-item">
                         <a href="javascript:void(0);">
-                            <img src="{{ asset('assets/images/bharat-heavy-electricals-limited.jpg') }}"
+                            <img src="{{ asset('assets/images/bharat-heavy-electricals-limited.jpg') }}" width="612" height="355"
                                 alt="Bharat Heavy Electricals Limited (BHEL)">
                             <p class="company-name">Bharat Heavy Electricals Limited (BHEL)</p>
                         </a>
                     </div>
                     <div class="single-item">
                         <a href="javascript:void(0);">
-                            <img src="{{ asset('assets/images/Maharashtra-Seamless-Limited.png') }}"
+                            <img src="{{ asset('assets/images/Maharashtra-Seamless-Limited.png') }}" width="1200" height="666"
                                 alt="Maharashtra Seamless Limited (MSL)">
                             <p class="company-name">Maharashtra Seamless Limited (MSL)</p>
                         </a>
                     </div>
                     <div class="single-item">
                         <a href="javascript:void(0);">
-                            <img src="{{ asset('assets/images/nuclear-power-corporation-of-india-limited.gif') }}"
+                            <img src="{{ asset('assets/images/nuclear-power-corporation-of-india-limited.webp') }}" width="449" height="160"
                                 alt="Nuclear Power Corporation of India Limited (NPCIL)">
                             <p class="company-name">Nuclear Power Corporation of India Limited (NPCIL)</p>
                         </a>
                     </div>
                     <div class="single-item">
                         <a href="javascript:void(0);">
-                            <img src="{{ asset('assets/images/CHEMDIST-PROCESS-SOLUTIONS-PRIVATE-LIMITED.jpg') }}"
+                            <img src="{{ asset('assets/images/CHEMDIST-PROCESS-SOLUTIONS-PRIVATE-LIMITED.jpg') }}" width="674" height="296"
                                 alt="Chemdist Process Solutions Private Limited">
                             <p class="company-name">Chemdist Process Solutions Pvt Ltd</p>
                         </a>
                     </div>
                     <div class="single-item">
                         <a href="javascript:void(0);">
-                            <img src="{{ asset('assets/images/SSEPL-TECHNO-PRIVATE-LIMITED.png') }}"
+                            <img src="{{ asset('assets/images/SSEPL-TECHNO-PRIVATE-LIMITED.png') }}" width="359" height="185"
                                 alt="SSEPL Techno Private Limited">
                             <p class="company-name">SSEPL Techno Private Limited</p>
                         </a>

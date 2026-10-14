@@ -120,10 +120,10 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
         <!-- master stylesheet -->
-        <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}?v={{ filemtime(public_path('assets/css/style.css')) }}">
 
         <!-- Responsive stylesheet -->
-        <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}?v={{ filemtime(public_path('assets/css/responsive.css')) }}">
 
         <style>
                 .nav-link:focus-visible {
@@ -314,7 +314,7 @@
                         <div class="logo">
                                 <a href="{{ route('index') }}">
                                         <!-- <img src="images/logo/logo moksh1-1.png" alt="Moksh Tubes &amp; Fittings LLP"> -->
-                                        <img src="{{ asset('assets/images/logo/Board-1.png') }}" alt="Moksh Tubes &amp; Fittings LLP">
+                                        <img src="{{ asset('assets/images/logo/Board-1.png') }}" width="818" height="248" alt="Moksh Tubes &amp; Fittings LLP">
                                 </a>
                         </div>
                         <div class="header-contact-info d-none d-md-block">
@@ -2300,7 +2300,7 @@ href="{{ route('products.bars-rods') }}">
                                                                         <a href="{{ route('index') }}"
                                                                                 class="footer-logo text-uppercase">
                                                                                 <!-- <img src="./images/logo/logo moksh1-1.png" alt="logo"> -->
-                                                                                <img src="{{ asset('assets/images/logo/Board-1.png') }}"
+                                                                                <img src="{{ asset('assets/images/logo/Board-1.png') }}" width="818" height="248"
                                                                                         alt="Moksh Tubes &amp; Fittings LLP">
                                                                         </a>
                                                                 </div>
