@@ -255,6 +255,13 @@ class MainController extends Controller
         }
         $country = request()->route('country');
 
+        // 301 redirect merged/duplicate posts to their canonical post
+        $redirects = config('blog_redirects', []);
+        if (isset($redirects[$slug])) {
+            $prefix = $country ? '/' . $country : '';
+            return redirect($prefix . '/blogs/' . $redirects[$slug], 301);
+        }
+
         // $blogs = Blog::where('status', true)
         //     ->orderBy('published_at', 'desc');
         $allBlogs = Blog::where('status', true)

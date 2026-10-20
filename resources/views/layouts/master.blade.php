@@ -205,6 +205,29 @@
                         }
                 }
 
+                /* Certifications section (homepage) */
+                .certifications-section {
+                        background-color: #f9f9f9;
+                }
+
+                .certifications-section .cert-card {
+                        background-color: #fff;
+                        height: 100%;
+                }
+
+                .certifications-section .cert-img {
+                        height: 250px;
+                        width: 100%;
+                        object-fit: contain;
+                        border-radius: 4px;
+                        background-color: #f8f9fa;
+                }
+
+                .certifications-section .cert-btn {
+                        padding: 8px 20px;
+                        font-size: 14px;
+                }
+
                 .pulse-btn {
                         animation: pulse-animation 2s infinite;
                 }
@@ -2547,8 +2570,8 @@ href="{{ route('products.bars-rods') }}">
                                 <div class="container">
                                         <div class="row align-items-center">
                                                 <div class="col-md-3">
-                                                        <p class="copyright text-nowrap mb-0">
-                                                                © 2025 All rights reserved | Designed by
+                                                        <p class="copyright mb-0">
+                                                                © 2025 Moksh Tubes &amp; Fittings LLP. All rights reserved | Designed by
                                                                 <a href="https://naze.in/" target="_blank"
                                                                         rel="noopener noreferrer "
                                                                         style="color: #db7227"

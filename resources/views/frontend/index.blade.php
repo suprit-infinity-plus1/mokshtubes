@@ -1166,62 +1166,67 @@
 
 
         <!-- Certifications Section -->
-        <section class="certifications-section sec-padd2" style="background-color: #f9f9f9;">
+        <section class="certifications-section sec-padd2">
             <div class="container">
                 <div class="section-title center">
-                    <h2>Our <span class="thm-color">Certifications</span></h2>
-                    <p>We are committed to delivering the highest quality products and adhere to global industry standards.</p>
+                    <h2>Our <span class="thm-color">Certifications &amp; Registrations</span></h2>
+                    <p>Our quality certifications (ISO 9001:2015 and PED) and our government business registration (UDYAM).</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-6 col-xs-12 mb-4">
-                        <div class="single-our-service border p-4 text-center rounded shadow-sm"
-                            style="background-color: #fff; height: 100%;">
+                        <div class="single-our-service cert-card border p-4 text-center rounded shadow-sm">
                             <div class="mb-3">
                                 <a href="{{ asset('assets/images/ISO 9001 CERTIFICATE MOKSH STEEL.pdf') }}" target="_blank">
                                     <img src="{{ asset('assets/images/iso-9001-certificate.png') }}" alt="ISO 9001 Certificate"
-                                        class="img-fluid border"
-                                        style="height: 250px; object-fit: contain; width: 100%; border-radius: 4px; background-color: #f8f9fa;">
+                                        class="img-fluid border cert-img">
                                 </a>
                             </div>
                             <h3 class="mt-0 mb-2 h5">ISO 9001:2015</h3>
-                            <p class="mb-4 text-muted">Quality Management System</p>
+                            <p class="mb-1 text-muted">Quality Management System</p>
+                            <p class="mb-4 small text-muted">Issued to: Moksh Steel</p>
                             <a href="{{ asset('assets/images/ISO 9001 CERTIFICATE MOKSH STEEL.pdf') }}" target="_blank"
-                                class="thm-btn bg-clr1" style="padding: 8px 20px; font-size: 14px;">View Certificate</a>
+                                class="thm-btn bg-clr1 cert-btn">View Certificate</a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 mb-4">
-                        <div class="single-our-service border p-4 text-center rounded shadow-sm"
-                            style="background-color: #fff; height: 100%;">
+                        <div class="single-our-service cert-card border p-4 text-center rounded shadow-sm">
                             <div class="mb-3">
                                 <a href="{{ asset('assets/images/MTF LLP UDYAM CERTIFICATE.pdf') }}" target="_blank">
-                                    <img src="{{ asset('assets/images/udyam-certificate.png') }}" alt="UDYAM Registration"
-                                        class="img-fluid border"
-                                        style="height: 250px; object-fit: contain; width: 100%; border-radius: 4px; background-color: #f8f9fa;">
+                                    <img src="{{ asset('assets/images/udyam-certificate.png') }}" alt="UDYAM MSME Registration Certificate"
+                                        class="img-fluid border cert-img">
                                 </a>
                             </div>
                             <h3 class="mt-0 mb-2 h5">UDYAM Registration</h3>
-                            <p class="mb-4 text-muted">MSME Government of India</p>
+                            <p class="mb-1 text-muted">MSME business registration, Government of India</p>
+                            <p class="mb-1 small text-muted">Registers the business as a Micro enterprise. It is not a quality certification.</p>
+                            <p class="mb-4 small text-muted">Issued to: Moksh Tubes &amp; Fittings LLP (UDYAM-MH-19-0367411)</p>
                             <a href="{{ asset('assets/images/MTF LLP UDYAM CERTIFICATE.pdf') }}" target="_blank"
-                                class="thm-btn bg-clr1" style="padding: 8px 20px; font-size: 14px;">View Certificate</a>
+                                class="thm-btn bg-clr1 cert-btn">View Registration</a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 mb-4">
-                        <div class="single-our-service border p-4 text-center rounded shadow-sm"
-                            style="background-color: #fff; height: 100%;">
+                        <div class="single-our-service cert-card border p-4 text-center rounded shadow-sm">
                             <div class="mb-3">
                                 <a href="{{ asset('assets/images/PED CERTIFICATE MOKSH STEEL.pdf') }}" target="_blank">
                                     <img src="{{ asset('assets/images/ped-certificate.png') }}" alt="PED Certificate"
-                                        class="img-fluid border"
-                                        style="height: 250px; object-fit: contain; width: 100%; border-radius: 4px; background-color: #f8f9fa;">
+                                        class="img-fluid border cert-img">
                                 </a>
                             </div>
                             <h3 class="mt-0 mb-2 h5">PED Certificate</h3>
-                            <p class="mb-4 text-muted">Pressure Equipment Directive</p>
+                            <p class="mb-1 text-muted">Pressure Equipment Directive</p>
+                            <p class="mb-4 small text-muted">Issued to: Moksh Steel</p>
                             <a href="{{ asset('assets/images/PED CERTIFICATE MOKSH STEEL.pdf') }}" target="_blank"
-                                class="thm-btn bg-clr1" style="padding: 8px 20px; font-size: 14px;">View Certificate</a>
+                                class="thm-btn bg-clr1 cert-btn">View Certificate</a>
                         </div>
                     </div>
                 </div>
+                <p class="text-center text-muted small mt-2 mb-0">
+                    <strong>About the names on these documents:</strong> This website is operated by
+                    Moksh Tubes &amp; Fittings LLP ("MTF LLP"), the holder of the UDYAM registration above.
+                    The ISO 9001:2015 and PED certificates are issued in the name of Moksh Steel, registered at our
+                    Kamatipura premises: Ground Floor, 4, 95/95A, Dawood Baug, Sukhlaji Street, Kamatipura,
+                    Mumbai&nbsp;400008. This is the same address as on the UDYAM registration.
+                </p>
             </div>
         </section>
 
@@ -1340,10 +1345,10 @@
 
         <div class="container mt-5 text-center bg-white ">
             <div class="section-title">
-                <h2>International Market to Explore</h2>
+                <h2>Markets We Serve</h2>
             </div>
             <div class="col-md-8 mx-auto mt-4" style="position:relative;width:100%;aspect-ratio:3/2;overflow:hidden;">
-                <img src="{{ asset('assets/images/map.jpg') }}" alt="International Market"
+                <img src="{{ asset('assets/images/map.jpg') }}" alt="World map of markets we serve"
                     style="position:absolute;top:0;left:0;width:100%;object-fit:cover;">
             </div>
 
