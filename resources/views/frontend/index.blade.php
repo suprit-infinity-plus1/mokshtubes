@@ -1467,12 +1467,12 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 text-center mb-4">
-                        <p>Selecting the right supplier is just as important as choosing the right material. At Moksh Tubes &
-                            Fittings LLP, we are committed to supplying premium-quality industrial metal products that meet
-                            international standards for performance, durability, and reliability.</p>
-                        <p>With more than 20 years of industry experience, we serve customers across India and international
-                            markets by providing high-quality stainless steel, nickel alloys, titanium, engineering steels,
-                            aluminium alloys, copper alloys, and other specialty metals for demanding industrial applications.
+                        <p>Selecting the right supplier is just as important as choosing the right material. Moksh Tubes &
+                            Fittings LLP works under an ISO 9001:2015 certified quality management system and holds PED
+                            certification for pressure equipment supply.</p>
+                        <p>All applicable products are supplied with EN 10204 3.1 Mill Test Certificates, and we offer Positive Material
+                            Identification (PMI), hydrostatic testing and third-party inspection for stainless steel, nickel
+                            alloys, titanium, engineering steels, aluminium alloys, copper alloys and other specialty metals.
                         </p>
                         <p>Whether you require standard products or custom-manufactured components, our experienced team ensures
                             every order meets your exact technical specifications and delivery requirements.</p>
@@ -1483,12 +1483,12 @@
                         {{-- <h3 class="text-center mb-5">Why Customers Choose Moksh Tubes</h3> --}}
                         <div class="premium-grid">
                             <div class="premium-card">
-                                <div class="icon-wrapper"><i class="fa fa-clock-o"></i></div>
-                                <h4>Over 20 Years of Industry Experience</h4>
+                                <div class="icon-wrapper"><i class="fa fa-shield-halved"></i></div>
+                                <h4>ISO 9001:2015 & PED Certified</h4>
                             </div>
                             <div class="premium-card">
-                                <div class="icon-wrapper"><i class="fa fa-diamond"></i></div>
-                                <h4>Premium Quality Materials</h4>
+                                <div class="icon-wrapper"><i class="fa fa-flask"></i></div>
+                                <h4>Positive Material Identification (PMI)</h4>
                             </div>
                             <div class="premium-card">
                                 <div class="icon-wrapper"><i class="fa fa-certificate"></i></div>
@@ -1503,8 +1503,8 @@
                                 <h4>Custom Sizes & Cutting Services</h4>
                             </div>
                             <div class="premium-card">
-                                <div class="icon-wrapper"><i class="fa fa-tags"></i></div>
-                                <h4>Competitive Pricing</h4>
+                                <div class="icon-wrapper"><i class="fa fa-droplet"></i></div>
+                                <h4>Hydrostatic Testing</h4>
                             </div>
                             <!-- <div class="premium-card">
                                 <div class="icon-wrapper"><i class="fa fa-bolt"></i></div>
@@ -1621,7 +1621,7 @@
                                 </div>
                                 <div class="accord-content">
                                     <p>You can contact us through our enquiry form, email, phone, or WhatsApp. Our technical
-                                        sales team will recommend the right material and provide a competitive quotation based
+                                        sales team will recommend the right material and provide a quotation based
                                         on your specifications.</p>
                                 </div>
                             </div>
@@ -1639,7 +1639,7 @@
             <div class="container">
                 <div class="section-title center">
                     <h2>Request a <span class="thm-color">Quote</span></h2>
-                    <p>Looking for premium quality <strong>Stainless Steel Pipes, Sheets, Plates, or Custom Engineering
+                    <p>Looking for <strong>Stainless Steel Pipes, Sheets, Plates, or Custom Engineering
                             solutions</strong>?<br>Fill out the form below and our experts will get back to you within 30
                         minutes.</p>
                 </div>
@@ -1737,7 +1737,7 @@
                 "@type": "Answer",
                 "text": "Yes. Third-party inspection can be arranged through internationally recognized inspection agencies upon request."
               }
-            },
+            }
           ]
         }
         </script>
