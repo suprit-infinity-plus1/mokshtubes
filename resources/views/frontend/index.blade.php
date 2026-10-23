@@ -193,7 +193,7 @@
 
                                 <p>Seamless & Welded Pipes/Tubes in SS 304/316/321/904L, <br>Inconel & Hastelloy with MTC (EN
                                     10204 3.1), PMI & Hydro Test ready stock<br>
-                                    Cut to length, export grade packing, fast dispatch across India, GCC, EU</p>
+                                    Cut to length, export grade packing, fast dispatch across India, the Middle East (GCC), Europe &amp; North America</p>
                             </div>
                         </div>
                         <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="110"
@@ -282,7 +282,7 @@
                             data-responsive_offset="on" data-start="700">
                             <div class="slide-content-box">
                                 <h2 class="hero-title">We help Industries <br> innovate and grow</h2>
-                                <p>Cut‑to‑length, export‑grade packing<br> fast dispatch across India, GCC, EU</p>
+                                <p>Cut‑to‑length, export‑grade packing<br> fast dispatch across India, the Middle East (GCC), Europe &amp; North America</p>
 
                             </div>
                         </div>
@@ -1542,7 +1542,7 @@
                                 <div class="accord-btn active">
                                     <h3>Do you supply stainless steel pipes in custom sizes?</h3>
                                 </div>
-                                <div class="accord-content collapsed">
+                                <div class="accord-content">
                                     <p>Yes. We offer custom lengths, diameters, wall thicknesses, and cutting services based on
                                         project requirements.</p>
                                 </div>
@@ -1577,8 +1577,8 @@
                                     <h3>Do you export outside India?</h3>
                                 </div>
                                 <div class="accord-content">
-                                    <p>Yes. We regularly export industrial metal products to customers across Asia, Europe, the
-                                        Middle East, North America, and other international markets.</p>
+                                    <p>Yes. We regularly export industrial metal products to customers across the Middle East (GCC), Europe,
+                                        North America, Asia and other international markets.</p>
                                 </div>
                             </div>
                             <!--End single accordion box-->
@@ -1656,18 +1656,17 @@
                                     <input type="text" name="form_name" class="form-control" placeholder="Your Name*" required>
                                 </div>
                                 <div class="col-md-6 mb-3">
-                                    <input type="tel" name="form_phone" class="form-control" placeholder="Phone Number*"
-                                        required>
+                                    <input type="tel" name="form_phone" class="form-control" placeholder="Phone Number">
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <input type="email" name="form_email" class="form-control" placeholder="Email Address">
+                                    <input type="email" name="form_email" class="form-control" placeholder="Email Address*" required>
                                 </div>
                                 <div class="col-md-12 mb-3">
                                     <textarea name="form_message" class="form-control" placeholder="Your Requirement*" required
                                         rows="4"></textarea>
                                 </div>
                                 <div class="col-md-12 mb-3 d-none">
-                                    <input id="form_botcheck" name="form_botcheck" type="hidden" value="">
+                                    <input id="form_botcheck_quote" name="form_botcheck" type="hidden" value="">
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
@@ -1727,7 +1726,7 @@
               "name": "Do you export outside India?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. We regularly export industrial metal products to customers across Asia, Europe, the Middle East, North America, and other international markets."
+                "text": "Yes. We regularly export industrial metal products to customers across the Middle East (GCC), Europe, North America, Asia and other international markets."
               }
             },
             {

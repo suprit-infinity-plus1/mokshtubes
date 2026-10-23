@@ -2327,12 +2327,10 @@ href="{{ route('products.bars-rods') }}">
                                                                                         alt="Moksh Tubes &amp; Fittings LLP">
                                                                         </a>
                                                                 </div>
-                                                                <p class="footer-words">Over 20 years experience and of
-                                                                        the international user
-                                                                        standards
-                                                                        and technological works changes and industrial
-                                                                        systems, we dedicated to provide the
-                                                                        best and economical. </p>
+                                                                <p class="footer-words">With over 20 years of experience
+                                                                        since 2005, we supply stainless steel pipes, tubes and
+                                                                        fittings that meet international standards. Our focus
+                                                                        is on reliable quality at an economical price.</p>
                                                                 <ul class="list-inline footer-social mb-0">
                                                                         <li class="list-inline-item">
                                                                                 <a href="https://www.facebook.com/mokshtubes/"
@@ -2571,7 +2569,7 @@ href="{{ route('products.bars-rods') }}">
                                         <div class="row align-items-center">
                                                 <div class="col-md-3">
                                                         <p class="copyright mb-0">
-                                                                © 2025 Moksh Tubes &amp; Fittings LLP. All rights reserved | Designed by
+                                                                © {{ date('Y') }} Moksh Tubes &amp; Fittings LLP. All rights reserved | Designed by
                                                                 <a href="https://naze.in/" target="_blank"
                                                                         rel="noopener noreferrer "
                                                                         style="color: #db7227"
@@ -2584,20 +2582,20 @@ href="{{ route('products.bars-rods') }}">
                                                         <nav class="footer-menu d-flex justify-content-end">
                                                                 <ul class="nav">
                                                                         <li class="nav-item"><a class="nav-link"
-                                                                                        href="{{ route('index') }}">home</a>
+                                                                                        href="{{ route('index') }}">Home</a>
                                                                         </li>
                                                                         <li class="nav-item"><a class="nav-link"
                                                                                         href="{{ route('products') }}">Products</a>
                                                                         </li>
-                                                                        <li class="nav-item"><a class="nav-link">term
+                                                                        <li class="nav-item"><a class="nav-link">Terms
                                                                                         &amp;
-                                                                                        condition</a>
+                                                                                        Conditions</a>
                                                                         </li>
-                                                                        <li class="nav-item"><a class="nav-link">privacy
-                                                                                        policy</a></li>
+                                                                        <li class="nav-item"><a class="nav-link">Privacy
+                                                                                        Policy</a></li>
                                                                         <li class="nav-item"><a class="nav-link"
-                                                                                        href="{{ route('contact-us') }}">contact
-                                                                                        us</a></li>
+                                                                                        href="{{ route('contact-us') }}">Contact
+                                                                                        Us</a></li>
                                                                 </ul>
                                                         </nav>
                                                 </div>
@@ -2638,7 +2636,7 @@ href="{{ route('products.bars-rods') }}">
 
                                         <!-- Modal Body -->
                                         <div class="modal-body">
-                                                <form id="contact-form" name="contact_form" class="default-form"
+                                                <form id="contact-form-modal" name="contact_form" class="default-form"
                                                         action="{{ url('sendmail') }}" method="post">
                                                         @csrf
                                                         <div class="row">
@@ -2677,7 +2675,7 @@ href="{{ route('products.bars-rods') }}">
                                                                                 style="margin-bottom:10px;"></div>
                                                                 </div>
                                                                 <div class="col-md-12 text-end">
-                                                                        <input id="form_botcheck" name="form_botcheck"
+                                                                        <input id="form_botcheck_modal" name="form_botcheck"
                                                                                 type="hidden" value="">
                                                                         <button class="thm-btn bg-clr1" type="submit"
                                                                                 data-loading-text="Please wait...">
@@ -2754,13 +2752,60 @@ href="{{ route('products.bars-rods') }}">
                 <!-- bootstrap -->
                 <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
                 <script>
+                        // The HTML may be served from Cloudflare's cache with a stale CSRF token,
+                        // so fetch a fresh one (once) before any form or AJAX POST is sent.
+                        (function () {
+                                let tokenRequest = null;
+                                let tokenFresh = false;
+
+                                window.refreshCsrfToken = function () {
+                                        if (!tokenRequest) {
+                                                tokenRequest = fetch("{{ route('csrf-token') }}", {
+                                                        credentials: "same-origin",
+                                                        cache: "no-store"
+                                                })
+                                                        .then(res => res.json())
+                                                        .then(data => {
+                                                                document.querySelector('meta[name="csrf-token"]')
+                                                                        .setAttribute("content", data.token);
+                                                                document.querySelectorAll('input[name="_token"]')
+                                                                        .forEach(input => input.value = data.token);
+                                                                tokenFresh = true;
+                                                        })
+                                                        .catch(err => {
+                                                                console.error("CSRF token error:", err);
+                                                                tokenRequest = null;
+                                                        });
+                                        }
+                                        return tokenRequest;
+                                };
+
+                                // Fetch as soon as the visitor starts using a form or opens the modal
+                                document.addEventListener("focusin", function (e) {
+                                        if (e.target.closest && e.target.closest("form")) window.refreshCsrfToken();
+                                });
+                                document.addEventListener("show.bs.modal", function () {
+                                        window.refreshCsrfToken();
+                                });
+
+                                // Hold back submission until the fresh token is in place
+                                document.addEventListener("submit", function (e) {
+                                        const form = e.target;
+                                        if (tokenFresh || !form.querySelector('input[name="_token"]')) return;
+                                        e.preventDefault();
+                                        Promise.resolve(window.refreshCsrfToken()).then(() => form.submit());
+                                }, true);
+                        })();
+                </script>
+                <script>
                         document.addEventListener("DOMContentLoaded", function () {
                                 const popup = document.getElementById("cookie-consent");
                                 if (!popup) return;
 
                                 setTimeout(() => popup.style.display = "block", 3000);
 
-                                function sendConsent(url) {
+                                async function sendConsent(url) {
+                                        await window.refreshCsrfToken();
                                         fetch(url, {
                                                 method: "POST",
                                                 headers: {

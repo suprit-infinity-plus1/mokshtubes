@@ -4715,6 +4715,7 @@ button.thm-btn {
     position: relative;
 }
 
+.accordion-box .accordion .accord-btn.active + .accord-content,
 .accordion-box .accordion .accord-content.collapsed {
     display: block;
 }

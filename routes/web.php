@@ -25,6 +25,12 @@ Route::redirect(
 Route::middleware(['web'])->group(function () {
     Route::post('/cookie/accept', [CookieController::class, 'accept'])->name('cookie.accept');
     Route::post('/cookie/reject', [CookieController::class, 'reject'])->name('cookie.reject');
+
+    // Fresh CSRF token for forms on pages served from the CDN cache
+    Route::get('/csrf-token', function () {
+        return response()->json(['token' => csrf_token()])
+            ->header('Cache-Control', 'no-store, no-cache, must-revalidate, private');
+    })->name('csrf-token');
 });
 
 Route::post('/datasheet-leads-capture', [DatasheetLeadController::class, 'store'])->name('lead.capture.global'); // Renamed to avoid confusion, though original had duplicate name

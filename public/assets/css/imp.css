@@ -45,19 +45,24 @@ input:-webkit-autofill:focus {
 }
 
 
-#contact-form input[type="text"].error{
+#contact-form input[type="text"].error,
+#contact-form-modal input[type="text"].error {
   border-color: #faaa1d;
 }
-#contact-form input[type="email"].error{
+#contact-form input[type="email"].error,
+#contact-form-modal input[type="email"].error {
   border-color: #faaa1d;
 }
-#contact-form select.error {
+#contact-form select.error,
+#contact-form-modal select.error {
   border-color: #faaa1d;
 }
-#contact-form textarea.error{
+#contact-form textarea.error,
+#contact-form-modal textarea.error {
   border-color: #faaa1d;
 }
-#contact-form label.error {
+#contact-form label.error,
+#contact-form-modal label.error {
   display: none !important;
 }
 
