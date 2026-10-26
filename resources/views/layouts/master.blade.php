@@ -2839,27 +2839,6 @@ href="{{ route('products.bars-rods') }}">
                 <!-- thm custom script -->
                 <script src="{{ asset('assets/js/custom.js') }}" defer></script>
                 <script>
-                        // Enable dropdown on hover for desktop (waits for the deferred Bootstrap bundle)
-                        document.addEventListener("DOMContentLoaded", function () {
-                        document.querySelectorAll('.dropdown').forEach(function (dropdown) {
-                                dropdown.addEventListener('mouseover', function () {
-                                        let toggle = this.querySelector('[data-bs-toggle="dropdown"]');
-                                        if (toggle && window.innerWidth > 992) {
-                                                let dropdownInstance = bootstrap.Dropdown.getOrCreateInstance(toggle);
-                                                dropdownInstance.show();
-                                        }
-                                });
-                                dropdown.addEventListener('mouseleave', function () {
-                                        let toggle = this.querySelector('[data-bs-toggle="dropdown"]');
-                                        if (toggle && window.innerWidth > 992) {
-                                                let dropdownInstance = bootstrap.Dropdown.getOrCreateInstance(toggle);
-                                                dropdownInstance.hide();
-                                        }
-                                });
-                        });
-                        });
-                </script>
-                <script>
                         document.addEventListener("DOMContentLoaded", function () {
                                 setTimeout(function () {
                                         var contactModal = new bootstrap.Modal(document.getElementById('contactFormModal'));
