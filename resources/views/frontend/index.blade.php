@@ -1741,8 +1741,8 @@
         }
         </script>
     @endverbatim
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     @if (session('status') && session('msg'))
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script>
             Swal.fire({
                 icon: "{{ session('status') === 'success' ? 'success' : 'error' }}",
@@ -1753,3 +1753,9 @@
         </script>
     @endif
 @endsection
+@push('vendor-scripts')
+    <!-- Revolution slider (tools, core, layeranimation, navigation, slideanims, parallax, migration) -->
+    <script src="{{ asset('assets/js/revolution.bundle.min.js') }}" defer></script>
+    <!-- Owl carousel, jquery.appear, countTo -->
+    <script src="{{ asset('assets/js/counter-carousel.bundle.min.js') }}" defer></script>
+@endpush

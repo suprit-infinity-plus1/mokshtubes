@@ -640,3 +640,7 @@
 
         </script>
     @endsection
+@push('vendor-scripts')
+    <!-- Owl carousel, jquery.appear, countTo -->
+    <script src="{{ asset('assets/js/counter-carousel.bundle.min.js') }}" defer></script>
+@endpush

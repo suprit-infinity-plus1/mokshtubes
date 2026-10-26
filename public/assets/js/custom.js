@@ -173,6 +173,7 @@ function projectMasonaryLayout() {
 
 //===Prettyphoto Lightbox===
 function prettyPhoto() {
+    if (!$.fn.prettyPhoto) return;
     $("a[data-rel^='prettyPhoto']").prettyPhoto({
         animation_speed: "normal",
         slideshow: 3000,

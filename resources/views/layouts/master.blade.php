@@ -108,8 +108,7 @@
     <![endif]-->
 
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css
-">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
@@ -249,45 +248,40 @@
         @stack('styles')
         {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"> --}}
 
-        {{--
+        @verbatim
         <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://mokshtubes.com/#organization",
-  "name": "Moksh Tubes & Fittings LLP",
-  "url": "https://mokshtubes.com/",
-  "logo": "https://mokshtubes.com/assets/images/logo.png",
-
-  "description": "Manufacturer & global supplier of stainless steel, alloy steel, carbon steel, nickel alloy, duplex & titanium pipes and tubes.",
-
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Your Full Address",
-    "addressLocality": "Mumbai",
-    "addressRegion": "MH",
-    "postalCode": "4000XX",
-    "addressCountry": "IN"
-  },
-
-  "contactPoint": [
-    {
-      "@type": "ContactPoint",
-      "contactType": "sales",
-      "telephone": "+91-XXXXXXXXXX",
-      "email": "sales@mokshtubes.com",
-      "availableLanguage": ["en", "hi"],
-      "areaServed": "Worldwide"
-    }
-  ],
-
-  "sameAs": [
-    "https://www.linkedin.com/company/xxxx",
-    "https://www.facebook.com/xxxx",
-    "https://www.youtube.com/@xxxx"
-  ]
-}
-</script> --}}
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://mokshtubes.com/#organization",
+          "name": "Moksh Tubes & Fittings LLP",
+          "url": "https://mokshtubes.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://mokshtubes.com/assets/images/logo/Board-1.png",
+            "width": 818,
+            "height": 248
+          },
+          "telephone": "+91-97695-84950",
+          "sameAs": [
+            "https://www.facebook.com/mokshtubes/",
+            "https://www.linkedin.com/company/moksh-tubes/",
+            "https://x.com/Moksh_Tubes",
+            "https://www.instagram.com/mokshtubesandfittingsllp"
+          ]
+        }
+        </script>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://mokshtubes.com/#website",
+          "name": "Moksh Tubes & Fittings LLP",
+          "url": "https://mokshtubes.com/",
+          "publisher": { "@id": "https://mokshtubes.com/#organization" }
+        }
+        </script>
+        @endverbatim
 
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
@@ -2747,10 +2741,10 @@ href="{{ route('products.bars-rods') }}">
                 <div class="scroll-to-top scroll-to-target" data-bs-target="html"><span class="fa fa-angle-up"></span>
                 </div>
                 {{-- <div class="prealoader"></div> --}}
-                <!-- main jQuery -->
-                <script src="{{ asset('assets/js/jquery.js') }}"></script>
-                <!-- bootstrap -->
-                <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+                <!-- All scripts below are deferred: they run in document order once the HTML is parsed,
+                     before DOMContentLoaded. Inline scripts must not use jQuery/bootstrap at parse time. -->
+                <!-- jQuery 1.12.4 (minified) + WOW -->
+                <script src="{{ asset('assets/js/core.bundle.min.js') }}" defer></script>
                 <script>
                         // The HTML may be served from Cloudflare's cache with a stale CSRF token,
                         // so fetch a fresh one (once) before any form or AJAX POST is sent.
@@ -2832,65 +2826,21 @@ href="{{ route('products.bars-rods') }}">
 
 
 
-                <!-- Bootstrap 5.3 Bundle JS (includes Popper) -->
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-                <!-- bx slider -->
-                <script src="{{ asset('assets/js/jquery.bxslider.min.js') }}"></script>
-                <!-- count to -->
-                <script src="{{ asset('assets/js/jquery.countTo.js') }}"></script>
-                <!-- owl carousel -->
-                <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
-                <!-- validate -->
-                <script src="{{ asset('assets/js/validation.js') }}"></script>
-                <!-- mixit up -->
-                <script src="{{ asset('assets/js/jquery.mixitup.min.js') }}"></script>
-                <!-- easing -->
-                <script src="{{ asset('assets/js/jquery.easing.min.js') }}"></script>
-                <!-- gmap helper -->
-                <script
-                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
-                <!--gmap script-->
-                <script src="{{ asset('assets/js/gmaps.js') }}"></script>
-                <script src="{{ asset('assets/js/map-helper.js') }}"></script>
-                <!-- fancy box -->
-                <script src="{{ asset('assets/js/jquery.fancybox.pack.js') }}"></script>
-                <script src="{{ asset('assets/js/jquery.appear.js') }}"></script>
-                <!-- isotope script-->
-                <script src="{{ asset('assets/js/isotope.js') }}"></script>
-                <script src="{{ asset('assets/js/jquery.prettyPhoto.js') }}"></script>
-                <script src="{{ asset('assets/js/jquery.bootstrap-touchspin.js') }}"></script>
+                <!-- Bootstrap 5.3.6 Bundle JS (includes Popper) - keep version in sync with the CSS in <head> -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" defer></script>
 
-                <!-- jQuery ui js -->
-                <script src="{{ asset('assets/js/jquery-ui.js') }}"></script>
-                {{--
-                <script src="{{ asset('assets/js/SmoothScroll.js') }}"></script> --}}
-                <script src="{{ asset('assets/js/validation.js') }}"></script>
-                <script src="{{ asset('assets/js/wow.min.js') }}"></script>
-
-
-
-                <!-- revolution slider js -->
-                <script src="{{ asset('assets/js/jquery.themepunch.tools.min.js') }}"></script>
-                <script src="{{ asset('assets/js/jquery.themepunch.revolution.min.js') }}"></script>
-                <script src="{{ asset('assets/js/revolution.extension.actions.min.js') }}"></script>
-                <script src="{{ asset('assets/js/revolution.extension.carousel.min.js') }}"></script>
-                <script src="{{ asset('assets/js/revolution.extension.kenburn.min.js') }}"></script>
-                <script src="{{ asset('assets/js/revolution.extension.layeranimation.min.js') }}"></script>
-                <script src="{{ asset('assets/js/revolution.extension.migration.min.js') }}"></script>
-                <script src="{{ asset('assets/js/revolution.extension.navigation.min.js') }}"></script>
-                <script src="{{ asset('assets/js/revolution.extension.parallax.min.js') }}"></script>
-                <script src="{{ asset('assets/js/revolution.extension.slideanims.min.js') }}"></script>
-                <script src="{{ asset('assets/js/revolution.extension.video.min.js') }}"></script>
-
+                <!-- Page-specific plugins (revolution slider, owl carousel, counters); pages push them with defer -->
+                @stack('vendor-scripts')
 
                 {{--
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
                         integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
                         crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
                 <!-- thm custom script -->
-                <script src="{{ asset('assets/js/custom.js') }}"></script>
+                <script src="{{ asset('assets/js/custom.js') }}" defer></script>
                 <script>
-                        // Enable dropdown on hover for desktop
+                        // Enable dropdown on hover for desktop (waits for the deferred Bootstrap bundle)
+                        document.addEventListener("DOMContentLoaded", function () {
                         document.querySelectorAll('.dropdown').forEach(function (dropdown) {
                                 dropdown.addEventListener('mouseover', function () {
                                         let toggle = this.querySelector('[data-bs-toggle="dropdown"]');
@@ -2906,6 +2856,7 @@ href="{{ route('products.bars-rods') }}">
                                                 dropdownInstance.hide();
                                         }
                                 });
+                        });
                         });
                 </script>
                 <script>
