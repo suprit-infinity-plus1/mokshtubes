@@ -203,7 +203,7 @@ class BlogController extends Controller
     //             'author' => 'Jash Jain',
     //             'comments' => 16,
     //             'date' => 'august 14, 2025',
-    //             'image' => 'assets/images/blog/Untitled.webp',
+    //             'image' => 'assets/images/blog/high-performance-alloys-desalination-plant.webp',
     //             'excerpt' => 'Desalination plants are at the forefront of solving one of the world',
     //             'link' => route('blogs.the-role-of-high-performance'),
     //         ],

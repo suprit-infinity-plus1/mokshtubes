@@ -6,7 +6,7 @@
     +91 97695 84950 | info@mokshtubes.com for assistance.'
 )
 
-@section('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))
+@section('og_image', asset('assets/images/slides/mokshtubes-banner-desktop.webp'))
 @section('og_type', 'website')
 @section('content')
 
@@ -54,10 +54,13 @@
                 <!-- Right Content: Map -->
                 <div class="col-md-7">
                     <div class="ratio ratio-4x3">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.0581743739162!2d72.84495927393439!3d18.973038044218114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce4963df4429%3A0x1605cf2dda038127!2sFlange%20Forged%20Engineers!5e0!3m2!1sen!2sin!4v1759584410711!5m2!1sen!2sin"
+                        <div class="map-facade">
+                            <iframe title="Moksh Tubes location map"
+                            data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.0581743739162!2d72.84495927393439!3d18.973038044218114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce4963df4429%3A0x1605cf2dda038127!2sFlange%20Forged%20Engineers!5e0!3m2!1sen!2sin!4v1759584410711!5m2!1sen!2sin"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <button type="button" class="thm-btn bg-clr1 map-facade-btn">Show map</button>
+                        </div>
                     </div>
                 </div>
 

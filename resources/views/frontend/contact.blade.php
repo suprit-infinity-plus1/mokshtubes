@@ -5,7 +5,7 @@
     'Get in touch with Mokshtubes LLP for quotations, product inquiries, technical assistance,
     or custom alloy requirements. Call, email, or visit us for quick support.'
 )
-@section('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))
+@section('og_image', asset('assets/images/slides/mokshtubes-banner-desktop.webp'))
 @section('og_type', 'website')
 
 
@@ -77,7 +77,7 @@
 
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/slides/Mokshtubes-banner-desktop.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/slides/mokshtubes-banner-desktop.webp);">
         <div class="container text-center">
             <h1>Contact Us</h1>
         </div>
@@ -128,10 +128,13 @@
                 </div>
 
                 <div class="col-lg-8">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3773.4404691355185!2d72.82619187351122!3d18.95614506718077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMoksh%20Tubes!5e0!3m2!1sen!2sin!4v1759824406817!5m2!1sen!2sin"
+                    <div class="map-facade">
+                        <iframe title="Moksh Tubes location map"
+                        data-src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3773.4404691355185!2d72.82619187351122!3d18.95614506718077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMoksh%20Tubes!5e0!3m2!1sen!2sin!4v1759824406817!5m2!1sen!2sin"
                         width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <button type="button" class="thm-btn bg-clr1 map-facade-btn">Show map</button>
+                    </div>
                 </div>
             </div>
         </div>

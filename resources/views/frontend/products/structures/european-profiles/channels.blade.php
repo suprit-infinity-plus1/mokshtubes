@@ -16,7 +16,7 @@
             <div class="col-auto text-center">
                 <h1 class="page-title">European Structural Channels – EN Standard Steel Channels</h1>
                 <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                    European Structural Channels are channel-shaped structural steel sections manufactured and specified according to applicable European Standards (EN). Common profiles include U-shaped and channel sections, widely used in construction, industrial structures, infrastructure, fabrication and engineering applications.<br><br>At <a href="https://mokshtubes.com" class="text-white text-decoration-underline" target="_blank">Moksh Tubes & Fittings LLP</a>, we supply European Structural Channels according to customer and project requirements, including specified channel profile, dimensions, thickness, material grade, length, quantity and applicable EN standards.
+                    European Structural Channels are channel-shaped structural steel sections manufactured and specified according to applicable European Standards (EN). Common profiles include U-shaped and channel sections, widely used in construction, industrial structures, infrastructure, fabrication and engineering applications.<br><br>At <a href="{{ url('/') }}" class="text-white text-decoration-underline" target="_blank">Moksh Tubes & Fittings LLP</a>, we supply European Structural Channels according to customer and project requirements, including specified channel profile, dimensions, thickness, material grade, length, quantity and applicable EN standards.
                 </p>
             </div>
         </div>

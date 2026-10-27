@@ -47,7 +47,7 @@
         <meta property="og:description" content="@yield('meta_description', 'Mokshtubes')" />
         <meta property="og:url" content="@yield('canonical', url()->current())" />
         <meta property="og:image"
-                content="@yield('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))" />
+                content="@yield('og_image', asset('assets/images/slides/mokshtubes-banner-desktop.webp'))" />
         <meta property="og:type" content="@yield('og_type', 'website')" />
         <meta property="og:site_name" content="@yield('og_site_name', 'Moksh Tubes & Fittings LLP')">
 
@@ -56,7 +56,7 @@
         <meta name="twitter:title" content="@yield('title', 'Mokshtubes')" />
         <meta name="twitter:description" content="@yield('meta_description', 'Mokshtubes')" />
         <meta name="twitter:image"
-                content="@yield('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))" />
+                content="@yield('og_image', asset('assets/images/slides/mokshtubes-banner-desktop.webp'))" />
 
         {{--
         <meta name="title" content="@yield('meta_title')">
@@ -101,11 +101,6 @@
                 href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}"> --}}
 
 
-        <!-- Fixing Internet Explorer-->
-        <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <script src="js/html5shiv.js"></script>
-    <![endif]-->
 
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
@@ -258,7 +253,7 @@
           "url": "https://mokshtubes.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://mokshtubes.com/assets/images/logo/Board-1.png",
+            "url": "https://mokshtubes.com/assets/images/logo/moksh-tubes-logo.png",
             "width": 818,
             "height": 248
           },
@@ -307,7 +302,7 @@
                                                 <p>Welcome to Moksh Tubes & Fittings LLP</p>
                                         </div>
                                         <div class="float-end">
-                                                <p><i class="fa fa-clock-o"></i>Monday - Friday : 8:00 AM to 7:00 PM</p>
+                                                <p><i class="fa-regular fa-clock"></i>Monday - Friday : 8:00 AM to 7:00 PM</p>
                                         </div>
                                 </div>
                                 <div
@@ -331,7 +326,7 @@
                         <div class="logo">
                                 <a href="{{ route('index') }}">
                                         <!-- <img src="images/logo/logo moksh1-1.png" alt="Moksh Tubes &amp; Fittings LLP"> -->
-                                        <img src="{{ asset('assets/images/logo/Board-1.png') }}" width="818" height="248" alt="Moksh Tubes &amp; Fittings LLP">
+                                        <img src="{{ asset('assets/images/logo/moksh-tubes-logo.png') }}" width="818" height="248" alt="Moksh Tubes &amp; Fittings LLP">
                                 </a>
                         </div>
                         <div class="header-contact-info d-none d-md-block">
@@ -2317,7 +2312,7 @@ href="{{ route('products.bars-rods') }}">
                                                                         <a href="{{ route('index') }}"
                                                                                 class="footer-logo text-uppercase">
                                                                                 <!-- <img src="./images/logo/logo moksh1-1.png" alt="logo"> -->
-                                                                                <img src="{{ asset('assets/images/logo/Board-1.png') }}" width="818" height="248"
+                                                                                <img src="{{ asset('assets/images/logo/moksh-tubes-logo.png') }}" width="818" height="248"
                                                                                         alt="Moksh Tubes &amp; Fittings LLP">
                                                                         </a>
                                                                 </div>
@@ -2325,6 +2320,15 @@ href="{{ route('products.bars-rods') }}">
                                                                         since 2005, we supply stainless steel pipes, tubes and
                                                                         fittings that meet international standards. Our focus
                                                                         is on reliable quality at an economical price.</p>
+                                                                <address class="footer-words">
+                                                                        <i class="fa-solid fa-location-dot"></i>
+                                                                        Office No. 20, 2nd Floor, Bldg. No. 36/40, Hinglaj Bhavan,
+                                                                        Kika Street, Gulalwadi, Mumbai 400004, India<br>
+                                                                        <i class="fa-solid fa-phone"></i>
+                                                                        <a href="tel:+919769584950">+91 97695 84950</a><br>
+                                                                        <i class="fa-solid fa-envelope"></i>
+                                                                        <a href="mailto:info@mokshtubes.com">info@mokshtubes.com</a>
+                                                                </address>
                                                                 <ul class="list-inline footer-social mb-0">
                                                                         <li class="list-inline-item">
                                                                                 <a href="https://www.facebook.com/mokshtubes/"
@@ -2838,6 +2842,17 @@ href="{{ route('products.bars-rods') }}">
                         crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
                 <!-- thm custom script -->
                 <script src="{{ asset('assets/js/custom.js') }}" defer></script>
+                <script>
+                        // Load Google Maps embeds only when the visitor asks for them
+                        document.addEventListener("click", function (e) {
+                                const btn = e.target.closest(".map-facade-btn");
+                                if (!btn) return;
+                                const iframe = btn.parentElement.querySelector("iframe[data-src]");
+                                iframe.src = iframe.dataset.src;
+                                iframe.removeAttribute("data-src");
+                                btn.remove();
+                        });
+                </script>
 
 
 

@@ -18,6 +18,13 @@
     RewriteCond %{REQUEST_URI} (.+)/$
     RewriteRule ^ %1 [L,R=301]
 
+    # Renamed certificate PDFs and images (old URLs may be linked or cached externally)
+    RewriteRule "^assets/images/ISO 9001 CERTIFICATE MOKSH STEEL\.pdf$" /assets/certificates/iso-9001-2015-certificate-moksh-steel.pdf [R=301,L]
+    RewriteRule "^assets/images/MTF LLP UDYAM CERTIFICATE\.pdf$" /assets/certificates/udyam-registration-moksh-tubes-fittings-llp.pdf [R=301,L]
+    RewriteRule "^assets/images/PED CERTIFICATE MOKSH STEEL\.pdf$" /assets/certificates/ped-certificate-moksh-steel.pdf [R=301,L]
+    RewriteRule ^assets/images/logo/Board-1\.png$ /assets/images/logo/moksh-tubes-logo.png [R=301,L]
+    RewriteRule ^assets/images/slides/Mokshtubes-banner-desktop\.webp$ /assets/images/slides/mokshtubes-banner-desktop.webp [R=301,L]
+
     # Send Requests To Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f

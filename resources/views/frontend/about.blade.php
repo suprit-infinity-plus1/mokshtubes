@@ -8,13 +8,13 @@
 )
 
 {{-- Only custom OG fields --}}
-@section('og_image', asset('assets/images/about/Untitled.webp'))
+@section('og_image', asset('assets/images/about/fabrication-workshop-banner.webp'))
 @section('og_type', 'website')
 
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/about/Untitled.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/about/fabrication-workshop-banner.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -33,7 +33,7 @@
                 <div class="col-lg-6 col-sm-12">
 
                     <figure class="about-img h-100 m-0">
-                        <img src="{{ asset('assets/images/about/about-materials_11zon.webp') }}"
+                        <img src="{{ asset('assets/images/about/steel-pipes-tubes-bars-sections.webp') }}" width="1000" height="750"
                             alt="Stainless steel pipes, tubes, bars and structural sections" class="img-fluid w-100 h-100 object-fit-cover custom-img"
                             loading="lazy">
                     </figure>
@@ -164,13 +164,13 @@
                 </div>
                 <div class="col-md-6 text-center">
                     <!-- Desktop Image -->
-                    <img src="{{ asset('assets/images/history/our-mission.webp') }}" alt="Large"
+                    <img src="{{ asset('assets/images/history/our-mission.webp') }}" width="1843" height="997" alt="Large"
                         class="img-fluid d-none d-lg-block" loading="lazy">
                     <!-- Tablet Image 400x250-->
-                    <img src="{{ asset('assets/images/history/our-mission.webp') }}" alt="Tablet"
+                    <img src="{{ asset('assets/images/history/our-mission.webp') }}" width="1843" height="997" alt="Tablet"
                         class="img-fluid d-none d-md-block d-lg-none" loading="lazy">
                     <!-- Mobile Image 300x200 -->
-                    <img src="{{ asset('assets/images/history/our-mission.webp') }}" alt="Mobile"
+                    <img src="{{ asset('assets/images/history/our-mission.webp') }}" width="1843" height="997" alt="Mobile"
                         class="img-fluid d-block d-md-none mx-auto" loading="lazy">
                 </div>
             </div>
@@ -192,13 +192,13 @@
                 </div>
                 <div class="col-md-6 text-center">
                     <!-- Desktop Image 600x300 -->
-                    <img src="{{ asset('assets/images/history/our-goal.webp') }}" alt="Large"
+                    <img src="{{ asset('assets/images/history/our-goal.webp') }}" width="1920" height="1080" alt="Large"
                         class="img-fluid d-none d-lg-block">
                     <!-- Tablet Image 400x250 -->
-                    <img src="{{ asset('assets/images/history/our-goal.webp') }}" alt="Tablet"
+                    <img src="{{ asset('assets/images/history/our-goal.webp') }}" width="1920" height="1080" alt="Tablet"
                         class="img-fluid d-none d-md-block d-lg-none">
                     <!-- Mobile Image 300x200 -->
-                    <img src="{{ asset('assets/images/history/our-goal.webp') }}" alt="Mobile"
+                    <img src="{{ asset('assets/images/history/our-goal.webp') }}" width="1920" height="1080" alt="Mobile"
                         class="img-fluid d-block d-md-none mx-auto">
                 </div>
             </div>
@@ -328,7 +328,7 @@
                     </div>
                     <div class="single-item">
                         <a href="javascript:void(0);">
-                            <img src="{{ asset('assets/images/Maharashtra-Seamless-Limited.png') }}" width="1200" height="666"
+                            <img src="{{ asset('assets/images/maharashtra-seamless-limited-logo.png') }}" width="1200" height="666"
                                 alt="Maharashtra Seamless Limited (MSL)">
                             <p class="company-name">Maharashtra Seamless Limited (MSL)</p>
                         </a>
@@ -342,14 +342,14 @@
                     </div>
                     <div class="single-item">
                         <a href="javascript:void(0);">
-                            <img src="{{ asset('assets/images/CHEMDIST-PROCESS-SOLUTIONS-PRIVATE-LIMITED.jpg') }}" width="674" height="296"
+                            <img src="{{ asset('assets/images/chemdist-process-solutions-logo.jpg') }}" width="674" height="296"
                                 alt="Chemdist Process Solutions Private Limited">
                             <p class="company-name">Chemdist Process Solutions Pvt Ltd</p>
                         </a>
                     </div>
                     <div class="single-item">
                         <a href="javascript:void(0);">
-                            <img src="{{ asset('assets/images/SSEPL-TECHNO-PRIVATE-LIMITED.png') }}" width="359" height="185"
+                            <img src="{{ asset('assets/images/ssepl-techno-logo.png') }}" width="359" height="185"
                                 alt="SSEPL Techno Private Limited">
                             <p class="company-name">SSEPL Techno Private Limited</p>
                         </a>
@@ -387,7 +387,7 @@
                         <div class="item tran5">
                             <div class="team-member">
                                 <figure class="img-box">
-                                    <a ><img src="{{ asset('assets/images/team/4.jpg') }}"
+                                    <a ><img src="{{ asset('assets/images/team/4.jpg') }}" width="270" height="270"
                                             alt="team member photo"></a>
                                     <div class="overlay">
                                         <ul class="social">
@@ -411,7 +411,7 @@
                         <div class="item tran5">
                             <div class="team-member">
                                 <figure class="img-box">
-                                    <a ><img src="{{ asset('assets/images/team/3.jpg') }}"
+                                    <a ><img src="{{ asset('assets/images/team/3.jpg') }}" width="270" height="270"
                                             alt="team member photo"></a>
                                     <div class="overlay">
                                         <ul class="social">
@@ -435,7 +435,7 @@
                         <div class="item tran5">
                             <div class="team-member">
                                 <figure class="img-box">
-                                    <a ><img src="{{ asset('assets/images/team/2.jpg') }}"
+                                    <a ><img src="{{ asset('assets/images/team/2.jpg') }}" width="270" height="270"
                                             alt="team member photo"></a>
                                     <div class="overlay">
                                         <ul class="social">
@@ -459,7 +459,7 @@
                         <div class="item tran5">
                             <div class="team-member">
                                 <figure class="img-box">
-                                    <a ><img src="{{ asset('assets/images/team/1.jpg') }}"
+                                    <a ><img src="{{ asset('assets/images/team/1.jpg') }}" width="270" height="270"
                                             alt="team member photo"></a>
                                     <div class="overlay">
                                         <ul class="social">

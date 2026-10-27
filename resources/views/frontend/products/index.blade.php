@@ -92,7 +92,7 @@
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
-                            <img src="{{ asset('assets/images/product/main-product/pipes&tubes.webp') }}"
+                            <img src="{{ asset('assets/images/product/main-product/pipes&tubes.webp') }}" width="370" height="200"
                                 alt="Pipes & Tubes" class="img-fluid rounded mb-3" style="border-radius: 8px;">
 
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
@@ -107,7 +107,7 @@
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
-                            <img src="{{ asset('assets/images/product/main-product/SheetsPlates.webp') }}"
+                            <img src="{{ asset('assets/images/product/main-product/SheetsPlates.webp') }}" width="400" height="220"
                                 alt="Sheets, Plates & Coils" class="img-fluid rounded mb-3" style="border-radius: 8px;">
 
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
@@ -122,7 +122,7 @@
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
-                            <img src="{{ asset('assets/images/product/main-product/rods.webp') }}" alt="Bars & Rods"
+                            <img src="{{ asset('assets/images/product/main-product/rods.webp') }}" width="370" height="200" alt="Bars & Rods"
                                 class="img-fluid rounded mb-3" style="border-radius: 8px;">
 
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
@@ -138,7 +138,7 @@
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
-                            <img src="{{ asset('assets/images/product/main-product/fittings.webp') }}"
+                            <img src="{{ asset('assets/images/product/main-product/fittings.webp') }}" width="400" height="220"
                                 alt="Pipe Fittings, Flanges & Fasteners" class="img-fluid rounded mb-3"
                                 style="border-radius: 8px;">
 
@@ -154,7 +154,7 @@
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
-                            <img src="{{ asset('assets/images/product/main-product/Special.webp') }}"
+                            <img src="{{ asset('assets/images/product/main-product/Special.webp') }}" width="400" height="220"
                                 alt="Special Fabricated" class="img-fluid rounded mb-3" style="border-radius: 8px;">
 
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"

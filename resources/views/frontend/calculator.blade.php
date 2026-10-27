@@ -5,7 +5,7 @@
     'Use MokshTubes’ pipe and tube weight calculator for accurate measurements, helping you
     plan projects efficiently with reliable and precise data.'
 )
-@section('og_image', asset('assets/images/about/about-materials_11zon.webp'))
+@section('og_image', asset('assets/images/about/steel-pipes-tubes-bars-sections.webp'))
 @section('og_type', 'website')
 
 @section('extracss')

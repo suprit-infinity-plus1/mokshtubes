@@ -5,7 +5,7 @@
     'Connect with Moksh Tubes at our Kamatipura, Mumbai branch. Call or visit for product
     inquiries, quotes, and customized metal solutions.'
 )
-@section('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))
+@section('og_image', asset('assets/images/slides/mokshtubes-banner-desktop.webp'))
 @section('og_type', 'website')
 
 
@@ -54,10 +54,13 @@
                 <!-- Right Content: Map -->
                 <div class="col-md-7">
                     <div class="ratio ratio-4x3">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.258712168042!2d72.82017916932202!3d18.964178416198504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce14d5cd95ab%3A0xab56d066ee0361ea!2sSukhlaji%20Marg%2C%20Dawood%20Baug%2C%20Dalal%20Estate%2C%20Kamathipura%2C%20Mumbai%2C%20Maharashtra%20400008!5e0!3m2!1sen!2sin!4v1759583909272!5m2!1sen!2sin"
+                        <div class="map-facade">
+                            <iframe title="Moksh Tubes location map"
+                            data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.258712168042!2d72.82017916932202!3d18.964178416198504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce14d5cd95ab%3A0xab56d066ee0361ea!2sSukhlaji%20Marg%2C%20Dawood%20Baug%2C%20Dalal%20Estate%2C%20Kamathipura%2C%20Mumbai%2C%20Maharashtra%20400008!5e0!3m2!1sen!2sin!4v1759583909272!5m2!1sen!2sin"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <button type="button" class="thm-btn bg-clr1 map-facade-btn">Show map</button>
+                        </div>
                     </div>
                 </div>
 

@@ -16,7 +16,7 @@
             <div class="col-auto text-center">
                 <h1 class="page-title">European Structural Angles – EN Standard Steel Angles</h1>
                 <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                    European Structural Angles are L-shaped structural steel sections manufactured and specified according to applicable European Standards (EN). Available in equal-leg and unequal-leg profiles, they are widely used in construction, industrial structures, infrastructure, fabrication, bridges, towers and general engineering applications.<br><br>At <a href="https://mokshtubes.com" class="text-white text-decoration-underline" target="_blank">Moksh Tubes & Fittings LLP</a>, we supply European Structural Angles according to customer and project requirements, including specified angle type, dimensions, thickness, material grade, length, quantity and applicable EN standards.
+                    European Structural Angles are L-shaped structural steel sections manufactured and specified according to applicable European Standards (EN). Available in equal-leg and unequal-leg profiles, they are widely used in construction, industrial structures, infrastructure, fabrication, bridges, towers and general engineering applications.<br><br>At <a href="{{ url('/') }}" class="text-white text-decoration-underline" target="_blank">Moksh Tubes & Fittings LLP</a>, we supply European Structural Angles according to customer and project requirements, including specified angle type, dimensions, thickness, material grade, length, quantity and applicable EN standards.
                 </p>
             </div>
         </div>

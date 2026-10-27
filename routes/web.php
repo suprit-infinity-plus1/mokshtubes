@@ -250,8 +250,12 @@ $defineRoutes = function () {
     Route::get('/products/bars-rods/{slug}', [MainController::class, 'barsRodsProduct'])->name('products.bars-rods.product');
 };
 
-// /in duplicates the root home page; keep / as the single canonical home URL
-Route::permanentRedirect('/in', '/');
+// /in/* duplicates the root URL tree; keep the unprefixed URLs as the single canonical tree
+Route::get('/in/{path?}', function (Illuminate\Http\Request $request, $path = '') {
+    $query = $request->getQueryString();
+
+    return redirect('/' . $path . ($query ? '?' . $query : ''), 301);
+})->where('path', '.*');
 
 // 1. Root Group (No Prefix)
 Route::middleware('check.country')->group($defineRoutes);

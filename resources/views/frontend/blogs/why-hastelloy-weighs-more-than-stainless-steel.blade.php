@@ -88,7 +88,7 @@
                                                     <li>Write a clear specification sheet for your project and consult
                                                         with
                                                         engineers or
-                                                        suppliers who understand both the environment and <a href="https://mokshtubes.com/materials">material</a>
+                                                        suppliers who understand both the environment and <a href="{{ route('materials') }}">material</a>
                                                         requirements.
                                                     </li>
                                                     <li>Ask your supplier for recommendations based on similar projects.

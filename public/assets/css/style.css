@@ -1272,6 +1272,18 @@ button.thm-btn {
     padding-top: 28px;
 }
 
+address.footer-words {
+    font-style: normal;
+    color: #303030;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+address.footer-words i {
+    width: 18px;
+    color: #db7227;
+}
+
 .footer-social {
     padding-top: 18px;
     display: flex;
@@ -8547,4 +8559,25 @@ ul.gallery-filter li span {
 /* Ensure container doesn't clip buttons */
 .brand-area .container {
     overflow: visible !important;
+}
+/* Click-to-load Google Maps embed (keeps Maps scripts off the initial page load) */
+.map-facade {
+    position: relative;
+    background: #e9ecef;
+}
+
+.map-facade iframe {
+    display: block;
+    width: 100%;
+}
+
+.ratio > .map-facade iframe {
+    height: 100%;
+}
+
+.map-facade-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

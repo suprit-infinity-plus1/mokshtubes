@@ -9,7 +9,7 @@
 
 
     {{-- OG fields (only image & type) --}}
-@section('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))
+@section('og_image', asset('assets/images/slides/mokshtubes-banner-desktop.webp'))
 @section('og_type', 'website')
 
 @section('content')

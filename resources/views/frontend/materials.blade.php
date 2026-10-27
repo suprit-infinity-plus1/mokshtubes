@@ -155,7 +155,7 @@
                     <a href="{{ route('materials.hastelloy') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/material/hastelloy.webp') }}" alt="Hastelloy"
+                            <img src="{{ asset('assets/images/material/hastelloy.webp') }}" width="550" height="400" alt="Hastelloy"
                                 class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
@@ -170,7 +170,7 @@
                     <a href="{{ route('materials.monel') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/material/monel.webp') }}" alt="Monel"
+                            <img src="{{ asset('assets/images/material/monel.webp') }}" width="550" height="400" alt="Monel"
                                 class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
@@ -185,7 +185,7 @@
                     <a href="{{ route('materials.inconel') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/inconel/inconel-600.webp') }}" alt="Inconel"
+                            <img src="{{ asset('assets/images/inconel/inconel-600.webp') }}" width="550" height="400" alt="Inconel"
                                 class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
@@ -200,7 +200,7 @@
                     <a href="{{ route('materials.incoloy') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/incoloy/incoloy-800.webp') }}" alt="Incoloy"
+                            <img src="{{ asset('assets/images/incoloy/incoloy-800.webp') }}" width="550" height="400" alt="Incoloy"
                                 class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
@@ -215,7 +215,7 @@
                     <a href="{{ route('materials.nickel-Based-Superalloys') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/material/Nickel-Based-Superalloys.webp') }}"
+                            <img src="{{ asset('assets/images/material/Nickel-Based-Superalloys.webp') }}" width="550" height="400"
                                 alt="Nickel Based Superalloys" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
@@ -230,7 +230,7 @@
                     <a href="{{ route('materials.titanium') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/titanium/titanium-5.webp') }}" alt="Titanium"
+                            <img src="{{ asset('assets/images/titanium/titanium-5.webp') }}" width="550" height="400" alt="Titanium"
                                 class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
@@ -245,7 +245,7 @@
                     <a href="{{ route('materials.duplex-and-super-duplex') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/material/Duplex-and-Super-Duplex.webp') }}"
+                            <img src="{{ asset('assets/images/material/Duplex-and-Super-Duplex.webp') }}" width="550" height="400"
                                 alt="Duplex and Super Duplex" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
@@ -261,7 +261,7 @@
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/material/Austenitic-Stainless-Steel.webp') }}"
+                            <img src="{{ asset('assets/images/material/Austenitic-Stainless-Steel.webp') }}" width="550" height="400"
                                 alt="Austenitic Stainless Steel" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
@@ -277,7 +277,7 @@
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/material/stainless.webp') }}"
+                            <img src="{{ asset('assets/images/material/stainless.webp') }}" width="550" height="400"
                                 alt="High Strength Stainless Steel" class="img-fluid rounded mb-3"
                                 style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
@@ -294,7 +294,7 @@
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/material/Super-Austenitic-Stainless-Steel.webp') }}"
+                            <img src="{{ asset('assets/images/material/Super-Austenitic-Stainless-Steel.webp') }}" width="550" height="400"
                                 alt="Super Austenitic Stainless Steel" class="img-fluid rounded mb-3"
                                 style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
@@ -310,7 +310,7 @@
                     <a href="{{ route('materials.zirconium') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/zirconium/zirconium704.webp') }}" alt="Zirconium"
+                            <img src="{{ asset('assets/images/zirconium/zirconium704.webp') }}" width="550" height="400" alt="Zirconium"
                                 class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
@@ -325,7 +325,7 @@
                     <a href="{{ route('materials.engineering-Steels') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/material/Engineering-Steels.webp') }}"
+                            <img src="{{ asset('assets/images/material/Engineering-Steels.webp') }}" width="550" height="400"
                                 alt="Engineering Steels" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
@@ -340,7 +340,7 @@
                     <a href="{{ route('materials.aluminium-Alloys') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/material/Aluminium-Alloys-Aluminium-Alloys.webp') }}"
+                            <img src="{{ asset('assets/images/material/Aluminium-Alloys-Aluminium-Alloys.webp') }}" width="550" height="400"
                                 alt="Aluminium Alloys" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
@@ -355,7 +355,7 @@
                     <a href="{{ route('materials.copper-Alloys') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/material/Copper-Alloys-Copper-Alloys.webp') }}"
+                            <img src="{{ asset('assets/images/material/Copper-Alloys-Copper-Alloys.webp') }}" width="550" height="400"
                                 alt="Copper Alloys" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
@@ -371,7 +371,7 @@
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/material/Hard-To-Find-Special-Alloys.webp') }}"
+                            <img src="{{ asset('assets/images/material/Hard-To-Find-Special-Alloys.webp') }}" width="550" height="400"
                                 alt="Hard To Find Special Alloys" class="img-fluid rounded mb-3"
                                 style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
@@ -387,7 +387,7 @@
                     <a href="{{ route('materials.haynes-Superalloys') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-                            <img src="{{ asset('assets/images/material/Haynes-Superalloys.webp') }}"
+                            <img src="{{ asset('assets/images/material/Haynes-Superalloys.webp') }}" width="550" height="400"
                                 alt="Haynes Superalloys" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">

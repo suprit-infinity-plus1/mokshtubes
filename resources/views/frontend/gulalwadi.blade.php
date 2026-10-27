@@ -6,7 +6,7 @@
     'Visit our Gulalwadi, Mumbai office or contact Moksh Tubes at +91 97695 84950 |
     info@mokshtubes.com for inquiries, directions, or business support.'
 )
-@section('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))
+@section('og_image', asset('assets/images/slides/mokshtubes-banner-desktop.webp'))
 @section('og_type', 'website')
 
 @section('content')
@@ -55,10 +55,13 @@
                 <!-- Right Content: Map -->
                 <div class="col-md-7">
                     <div class="ratio ratio-4x3">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3773.4420541005015!2d72.8278971!3d18.956075!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1750077034926!5m2!1sen!2sin"
+                        <div class="map-facade">
+                            <iframe title="Moksh Tubes location map"
+                            data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3773.4420541005015!2d72.8278971!3d18.956075!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1750077034926!5m2!1sen!2sin"
                             style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <button type="button" class="thm-btn bg-clr1 map-facade-btn">Show map</button>
+                        </div>
                     </div>
                 </div>
 
