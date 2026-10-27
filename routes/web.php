@@ -250,6 +250,9 @@ $defineRoutes = function () {
     Route::get('/products/bars-rods/{slug}', [MainController::class, 'barsRodsProduct'])->name('products.bars-rods.product');
 };
 
+// /in duplicates the root home page; keep / as the single canonical home URL
+Route::permanentRedirect('/in', '/');
+
 // 1. Root Group (No Prefix)
 Route::middleware('check.country')->group($defineRoutes);
 
