@@ -2838,14 +2838,6 @@ href="{{ route('products.bars-rods') }}">
                         crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
                 <!-- thm custom script -->
                 <script src="{{ asset('assets/js/custom.js') }}" defer></script>
-                <script>
-                        document.addEventListener("DOMContentLoaded", function () {
-                                setTimeout(function () {
-                                        var contactModal = new bootstrap.Modal(document.getElementById('contactFormModal'));
-                                        contactModal.show();
-                                }, 10000);
-                        });
-                </script>
 
 
 

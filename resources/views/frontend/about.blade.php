@@ -33,11 +33,9 @@
                 <div class="col-lg-6 col-sm-12">
 
                     <figure class="about-img h-100 m-0">
-                        <!-- <img src="images/resource/1.png" alt="about titan builders photo"> -->
                         <img src="{{ asset('assets/images/about/about-materials_11zon.webp') }}"
-                            alt="about titan builders photo" class="img-fluid w-100 h-100 object-fit-cover custom-img"
+                            alt="Stainless steel pipes, tubes, bars and structural sections" class="img-fluid w-100 h-100 object-fit-cover custom-img"
                             loading="lazy">
-                        <!-- <img src="https://placehold.co/300x300" class="mt-1" alt="about titan builders photo"> -->
                     </figure>
                 </div>
                 <div class="col-lg-6 col-sm-12">
@@ -556,7 +554,7 @@
                                     </h3>
                                 </div>
                                 <div class="accord-content">
-                                    <p>Yes. With 20 years of experience and projects completed in over 12 countries, Moksh
+                                    <p>Yes. With over 20 years of experience and projects completed in over 12 countries, Moksh
                                         Tubes & Fittings LLP has the logistics and sourcing capabilities to deliver steel
                                         products worldwide, ensuring on-time supply for urgent and large-scale orders.</p>
                                 </div>
@@ -631,7 +629,7 @@
                             , "name": "Does Moksh Tubes & Fittings LLP offer global delivery?"
                             , "acceptedAnswer": {
                                 "@type": "Answer"
-                                , "text": "Yes. With 20 years of experience and projects completed in over 12 countries, Moksh Tubes & Fittings LLP has the logistics and sourcing capabilities to deliver steel products worldwide, ensuring on-time supply for urgent and large-scale orders."
+                                , "text": "Yes. With over 20 years of experience and projects completed in over 12 countries, Moksh Tubes & Fittings LLP has the logistics and sourcing capabilities to deliver steel products worldwide, ensuring on-time supply for urgent and large-scale orders."
                             }
                         }
                     ]

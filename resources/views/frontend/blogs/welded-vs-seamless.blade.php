@@ -1190,7 +1190,7 @@
                                 <li>
                                     <div class="img-holder">
                                         <img src="{{ asset('assets/images/blogs/thumb/why-hastelloy-weighs-more-than-stainless-steel-thumb.webp') }}"
-                                            alt="Awesome Image">
+                                            alt="Why Hastelloy Weighs More Than Stainless Steel">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
@@ -1217,7 +1217,7 @@
                                 <li>
                                     <div class="img-holder">
                                         <img src="{{ asset('assets/images/blogs/thumb/the-role-of-high-performance-alloys-in-desalination-plants-thumb.webp') }}"
-                                            alt="Awesome Image" loading="lazy">
+                                            alt="The Role of High-Performance Alloys in Desalination Plants" loading="lazy">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
@@ -1243,7 +1243,7 @@
                                 <li>
                                     <div class="img-holder">
                                         <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
-                                            alt="Awesome Image" loading="lazy">
+                                            alt="India's Stainless Steel Export Industry" loading="lazy">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">

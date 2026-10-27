@@ -197,7 +197,7 @@
                                 <li>
                                     <div class="img-holder">
                                         <img src="{{ asset('assets/images/blogs/thumb/why-hastelloy-weighs-more-than-stainless-steel-thumb.webp') }}"
-                                            alt="Awesome Image">
+                                            alt="Why Hastelloy Weighs More Than Stainless Steel">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">

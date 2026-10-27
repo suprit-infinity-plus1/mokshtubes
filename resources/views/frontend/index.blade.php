@@ -326,9 +326,8 @@
                     <div class="col-lg-6 col-sm-12">
 
                         <figure class="about-img">
-                            <!-- <img src="images/resource/1.png" alt="about titan builders photo"> -->
                             <img src="{{ asset('assets/images/about/about-moksh-tubes.webp') }}"
-                                alt="about titan builders photo">
+                                alt="Workers inspecting machined stainless steel components in a factory">
                         </figure>
                     </div>
                     <div class="col-lg-6 col-sm-12">
@@ -339,7 +338,7 @@
                             <div class="text">
                                 <p>Welcome to Moksh Tubes & Fittings LLP, a trusted provider of stainless steel and nickel alloy
                                     pipes, tubes and fittings in seamless and welded forms. With over 20 years of experience and
-                                    projects delivered across 12 countries, we supply austenitic and duplex stainless steels,
+                                    projects delivered in over 12 countries, we supply austenitic and duplex stainless steels,
                                     nickel alloys such as Inconel, Monel, Incoloy and Hastelloy, titanium, and hard-to-find
                                     special alloys for oil & gas, chemical, power and engineering applications.</p>
                             </div>
@@ -481,9 +480,8 @@
                                 </a>
                             </figure>
                             <div class="p-3 text-left">
-                                <a href="{{ route('materials.inconel') }}">
-                                    <h3 class="mt-0 h5">Inconel / Hastelloy Pipes</h3>
-                                </a>
+                                <h3 class="mt-0 h5"><a href="{{ route('materials.inconel') }}">Inconel</a> /
+                                    <a href="{{ route('materials.hastelloy') }}">Hastelloy</a> Pipes</h3>
                                 <p>Superior corrosion and oxidation resistance for the most extreme environments.</p>
                                 <button type="button" data-bs-toggle="modal" data-bs-target="#contactFormModal"
                                     class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</button>
@@ -1641,7 +1639,7 @@
                     <h2>Request a <span class="thm-color">Quote</span></h2>
                     <p>Looking for <strong>Stainless Steel Pipes, Sheets, Plates, or Custom Engineering
                             solutions</strong>?<br>Fill out the form below and our experts will get back to you within 30
-                        minutes.</p>
+                        minutes during business hours.</p>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-8">
