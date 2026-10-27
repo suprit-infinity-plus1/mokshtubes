@@ -5,10 +5,6 @@
     'meta_description',
     'Moksh Tubes & Fittings LLP supplies stainless steel, nickel alloy, titanium and special-alloy pipes, tubes, fittings and flanges.'
 )
-@section(
-    'meta_keywords',
-    ''
-)
 @section('canonical', url('/'))
 {{-- OG overrides --}}
 @section('og_image', asset('assets/images/slides/mokshtubes-banner-desktop.webp'))
@@ -534,245 +530,13 @@
         </section>
 
         <!-- Trust & Urgency Badges -->
-      {{--  <section class="trust-badges" style="padding: 30px 0; background-color: #fff; border-bottom: 1px solid #ebebeb;">
-            <div class="container">
-                <div class="d-flex flex-wrap justify-content-center" style="gap: 20px; text-align: center;">
-
-                    <!-- Same Day Dispatch -->
-                    <div class="trust-item" style="flex: 1; min-width: 140px; padding: 10px;">
-                        <i class="fa fa-truck fa-2x thm-color" style="margin-bottom: 15px;"></i>
-                        <h5 style="margin: 0; font-size: 16px; font-weight: 600;">Same Day Dispatch</h5>
-                    </div>
-
-                    <!-- MTC Available -->
-                    <div class="trust-item" style="flex: 1; min-width: 140px; padding: 10px;">
-                        <i class="fa fa-file-text-o fa-2x thm-color" style="margin-bottom: 15px;"></i>
-                        <h5 style="margin: 0; font-size: 16px; font-weight: 600;">MTC Available</h5>
-                    </div>
-
-                    <!-- Custom Cutting -->
-                    <div class="trust-item" style="flex: 1; min-width: 140px; padding: 10px;">
-                        <i class="fa fa-scissors fa-2x thm-color" style="margin-bottom: 15px;"></i>
-                        <h5 style="margin: 0; font-size: 16px; font-weight: 600;">Custom Cutting</h5>
-                    </div>
-
-                    <!-- Export Packing -->
-                    <div class="trust-item" style="flex: 1; min-width: 140px; padding: 10px;">
-                        <i class="fa fa-cubes fa-2x thm-color" style="margin-bottom: 15px;"></i>
-                        <h5 style="margin: 0; font-size: 16px; font-weight: 600;">Export Packing</h5>
-                    </div>
-
-                    <!-- Bulk Discounts -->
-                    <div class="trust-item" style="flex: 1; min-width: 140px; padding: 10px;">
-                        <i class="fa fa-tags fa-2x thm-color" style="margin-bottom: 15px;"></i>
-                        <h5 style="margin: 0; font-size: 16px; font-weight: 600;">Bulk Discounts</h5>
-                    </div>
-
-                </div>
-                <div class="text-center mt-4">
-                    <h4 style="color: #ed1c24; font-weight: bold; margin: 0;">Get a Quote Within 30 Minutes ⏱️</h4>
-                </div>
-            </div>
-        </section> --}}
 
 
-     {{--    <section class="our-services sec-padd-top sec-padd-bottom">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-md-4 col-sm-5 col-xs-12">
-                        <div class="section-title">
-                            <h2>Our Products</h2>
-                        </div>
-                    </div>
-                    <div class="col-md-8 col-sm-7 col-xs-12 font-20 mb-4">
-                        <p>Our products include <strong> pipes (ERW & EFW), seamless pipes, gi pipes, ss pipes, stainless steel
-                                sheets, metal plates, perforated sheets, round bars, and industrial fasteners. We provide
-                                complete pipe sizes charts, pipe schedules, and steel density specifications</strong> to ensure
-                            you get the right product for your needs.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 mb-4">
-                        <div class="single-our-service border">
-                            <figure class="img-box mb-0">
-                                <figure class="img-box mb-0">
-                                    <a class="w-100" href="{{ url('products/pipes-tubes/welded-pipes') }}">
-                                        <img src="/assets/images/service/welded-pipes.webp" width="370" height="190" alt="Awesome Image" class="w-100"
-                                            loading="lazy"></a>
-                                </figure>
-
-                                <div class="p-3">
-                                    <a href="{{ url('products/pipes-tubes/welded-pipes') }}">
-                                        <h3 class="mt-0 h5">WELDED PIPES</h3>
-                                    </a>
-                                    <p>
-                                        We supply high-quality welded pipes sourced from trusted and certified mills. Each pipe
-                                        offers strong weld integrity, consistent wall thickness, and excellent corrosion
-                                        resistance. Ideal for fabrication work, structural use, chemical plants, and general
-                                        engineering applications.
-                                    </p>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 mb-4">
-                        <div class="single-our-service border">
-                            <figure class="img-box mb-0">
-                                <a class="w-100" href="{{ url('products/pipes-tubes/seamless-pipes') }}">
-                                    <img class="w-100" src="/assets/images/service/seamless-pipes.webp" width="370" height="190" alt="Awesome Image"
-                                        loading="lazy">
-                                </a>
-                            </figure>
-                            <div class="p-3">
-                                <a href="{{ url('products/pipes-tubes/seamless-pipes') }}">
-                                    <h3 class="mt-0 h5">SEAMLESS PIPES</h3>
-                                </a>
-                                <p>
-                                    Our seamless pipes are procured from reputed manufacturers known for superior strength and
-                                    leak-proof performance. They perform exceptionally well under high pressure and temperature,
-                                    making them suitable for boilers, heat exchangers, hydraulic systems, and industrial piping
-                                    networks.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 mb-4">
-                        <div class="single-our-service border">
-                            <figure class="img-box mb-0">
-                                <a class="w-100" href="{{ url('products/sheets-plates-coils/sheets-and-plates') }}">
-                                    <img src="/assets/images/service/sheets-plates.webp" width="370" height="190" alt="Sheets and Plates" class="w-100"
-                                        loading="lazy">
-
-                                </a>
-                            </figure>
-                            <div class="p-3">
-                                <a href="{{ url('products/sheets-plates-coils/sheets-and-plates') }}">
-                                    <h3 class="mt-0 h5">SHEETS & PLATES</h3>
-                                </a>
-                                <p>
-                                    We stock a wide range of stainless steel sheets, plates, coils, and chequered sheets sourced
-                                    from reliable rolling mills. Each sheet ensures uniform thickness, high strength, and a
-                                    smooth surface finish—ideal for fabrication, marine use, heavy equipment manufacturing, and
-                                    architectural work.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 mb-4">
-                        <div class="single-our-service border">
-                            <figure class="img-box mb-0">
-                                <a class="w-100" href="{{ url('products/sheets-plates-coils/perforated-sheets') }}">
-                                    <img src="/assets/images/service/perforated-sheets.webp" width="370" height="190" alt="Perforated Sheets"
-                                        class="w-100">
-                                </a>
-                            </figure>
-
-                            <div class="p-3">
-                                <a href="{{ url('products/sheets-plates-coils/perforated-sheets') }}">
-                                    <h3 class="mt-0 h5">PERFORATED SHEETS</h3>
-                                </a>
-                                <p>
-                                    Our perforated sheets are supplied in stainless steel, galvanised iron (GI), aluminium, and
-                                    mild steel options. Designed for ventilation, filtration, acoustic control, and decorative
-                                    applications, they are available in multiple hole patterns and thicknesses.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 mb-4">
-                        <div class="single-our-service border">
-                            <figure class="img-box mb-0">
-                                <a class="w-100" href="{{ url('products/bars-rods/round-bars') }}">
-                                    <img class="w-100" src="/assets/images/service/round-bars.webp" width="370" height="190" alt="round bars">
-                                </a>
-                            </figure>
-                            <div class="p-3">
-                                <a href="{{ url('products/bars-rods/round-bars') }}">
-                                    <h3 class="mt-0 h5">ROUND BARS</h3>
-                                </a>
-                                <p>
-                                    We supply round bars in stainless steel, carbon steel, alloy steel, and nickel alloys.
-                                    Sourced from quality mills, these bars offer excellent strength, durability, and dimensional
-                                    accuracy, suitable for machining, construction, automotive, and engineering components.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 mb-4">
-                        <div class="single-our-service border">
-                            <figure class="img-box mb-0">
-                                <a class="w-100" href="{{ route('products.fasteners') }}">
-                                   <!-- <img class="w-100" src="{{ asset('assets/images/service/6.jpg') }}" width="370" height="190"
-                                        alt="Awesome Image"> -->
-                                    <img class="w-100" src="/assets/images/service/fasteners.webp" width="370" height="190" alt="Awesome Image"
-                                        loading="lazy">
-                                </a>
-                            </figure>
-                            <div class="p-3">
-                                <a href="{{ route('products.fasteners') }}">
-                                    <h3 class="mt-0 h5">Fasteners & Fittings</h3>
-                                </a>
-                                <p>
-                                    We supply a full range of pipe fittings, flanges, SS fasteners, and threaded components. All
-                                    items are sourced from trusted mills and tested for durability and corrosion
-                                    resistance—ideal for industrial and structural applications.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section> --}}
 
 
 
 
         <!-- Materials We Supply Section -->
-       {{--   <section class="materials-we-supply sec-padd-top sec-padd-bottom">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>Materials We Supply</h2>
-                </div>
-                <div class="row mb-4">
-                    <div class="col-md-12 text-center">
-                        <p>Moksh Tubes & Fittings LLP offers a comprehensive range of industrial metals and specialty alloys for
-                            critical engineering applications. Our products are available in multiple grades, sizes, and
-                            specifications to meet domestic and international project requirements.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 mt-4">
-                        <!-- <h3 class="text-center mb-4">Our Material Range</h3> -->
-                        <div class="materials-flex">
-                            <div class="material-pill">Stainless Steel</div>
-                            <div class="material-pill">Duplex Stainless Steel</div>
-                            <div class="material-pill">Super Duplex Stainless Steel</div>
-                            <div class="material-pill">Inconel Alloys</div>
-                            <div class="material-pill">Monel Alloys</div>
-                            <div class="material-pill">Hastelloy Alloys</div>
-                            <div class="material-pill">Incoloy Alloys</div>
-                            <div class="material-pill">Titanium</div>
-                            <div class="material-pill">Nickel Alloys</div>
-                            <div class="material-pill">Aluminium Alloys</div>
-                            <div class="material-pill">Copper Alloys</div>
-                            <div class="material-pill">Engineering Steels</div>
-                            <div class="material-pill">Carbon Steel</div>
-                            <div class="material-pill">Alloy Steel</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-md-12 text-center">
-                        <p>All materials are supplied with complete documentation, including mill test certificates, ensuring
-                            quality and traceability.</p>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
 
 
 
@@ -785,7 +549,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="footer-col service-col">
-                            <h3 class="footer-title h4">PIPES & TUBES </h3>
+                            <h3 class="footer-title h4">Pipes & Tubes</h3>
                             <ul class="footer-list">
                                 <li><a href="{{ url('products/pipes-tubes/welded-pipes') }}">WELDED PIPES (ERW & EFW)</a>
                                 </li>
@@ -801,7 +565,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="footer-col service-col">
-                            <h3 class="footer-title h4">SHEETS, PLATES & COILS</h3>
+                            <h3 class="footer-title h4">Sheets, Plates & Coils</h3>
                             <ul class="footer-list">
                                 <li><a href="{{ route('products.sheets-plates-coils') }}">SHEETS & PLATES</a></li>
                                 <li><a href="{{ url('products/sheets-plates-coils/coils') }}">COILS</a></li>
@@ -818,7 +582,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="footer-col service-col">
-                            <h3 class="footer-title h4">BARS & RODS</h3>
+                            <h3 class="footer-title h4">Bars & Rods</h3>
                             <ul class="footer-list">
                                 <li><a href="{{ url('products/bars-rods/round-bars') }}">ROUND BARS</a></li>
                                 <li><a href="{{ url('products/bars-rods/hexagon-bars') }}">HEXAGON BARS</a></li>
@@ -831,7 +595,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="footer-col service-col">
-                            <h3 class="footer-title h4">PIPE FITTINGS, FLANGES & FASTENERS</h3>
+                            <h3 class="footer-title h4">Pipe Fittings, Flanges & Fasteners</h3>
                             <ul class="footer-list">
                                 <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FITTINGS</a></li>
                                 <li><a href="{{ url('products/flanges/flanges-and-gaskets') }}">FLANGES</a>
@@ -847,7 +611,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="footer-col service-col">
-                            <h3 class="footer-title h4">SPECIAL FABRICATED PRODUCTS </h3>
+                            <h3 class="footer-title h4">Special Fabricated Products</h3>
                             <ul class="footer-list">
                                 <li><a href="{{ url('products/special-fabricated/ss-railings') }}">SS RAILING PRODUCTS</a>
                                 </li>
@@ -861,61 +625,6 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="footer-col service-col">
-                            <h4 class="footer-title">PIPES & TUBES </h4>
-                            <ul class="footer-list">
-                                <li><a >WELDED PIPES (ERW & EFW)</a></li>
-                                <li><a >SEAMLESS PIPES</a></li>
-                                <li><a >CAPILLARY TUBES</a></li>
-                                <li><a >HOLLOW SECTION PIPE (SQUARE, RECTANGULAR & OVAL)</a></li>
-                                <li><a >U-BENT TUBES</a></li>
-                                <li><a >BOILER & HEAT EXCHANGER TUBES</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="footer-col service-col">
-                            <h4 class="footer-title">SHEETS, PLATES & COILS</h4>
-                            <ul class="footer-list">
-                                <li><a >SHEETS & PLATES</a></li>
-                                <li><a >COILS</a></li>
-                                <li><a >STRIPS</a></li>
-                                <li><a >PERFORATED SHEETS</a></li>
-                                <li><a >CHEQUERED SHEETS</a></li>
-                                <li><a >SHIM SHEETS</a></li>
-                                <li><a >CLADDED PLATES</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="footer-col service-col">
-                            <h4 class="footer-title">BARS & RODS</h4>
-                            <ul class="footer-list">
-                                <li><a >ROUND BARS</a></li>
-                                <li><a >HEXAGON BARS</a></li>
-                                <li><a >FLAT BARS</a></li>
-                                <li><a >SQUARE BARS</a></li>
-                                <li><a >THREADED RODS</a></li>
-                                <li><a >HOLLOW BARS</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="footer-col service-col">
-                            <h4 class="footer-title">PIPE FITTINGS, FLANGES & FASTENERS</h4>
-                            <ul class="footer-list">
-                                <li><a >FITTINGS</a></li>
-                                <li><a >FLANGES</a></li>
-                                <li><a >FASTENERS</a></li>
-                                <li><a >GASKETS</a></li>
-                                <li><a >CUSTOM FABRICATED FITTINGS</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> --}}
             </div>
         </section>
 
@@ -944,13 +653,6 @@
                             <div class="industry-card"><i class="fa fa-medkit"></i><span>Pharmaceutical</span></div>
                             <div class="industry-card"><i class="fa fa-cutlery"></i><span>Food Processing</span></div>
                             <div class="industry-card"><i class="fa fa-leaf"></i><span>Water Treatment</span></div>
-                            <!-- <div class="industry-card"><i class="fa fa-building-o"></i><span>Construction</span></div>
-                            <div class="industry-card"><i class="fa fa-cogs"></i><span>Heavy Engineering</span></div>
-                            <div class="industry-card"><i class="fa fa-diamond"></i><span>Mining</span></div>
-                            <div class="industry-card"><i class="fa fa-industry"></i><span>Cement Plants</span></div>
-                            <div class="industry-card"><i class="fa fa-cubes"></i><span>Sugar Industry</span></div>
-                            <div class="industry-card"><i class="fa fa-car"></i><span>Automotive</span></div>
-                            <div class="industry-card"><i class="fa fa-plane"></i><span>Aerospace</span></div> -->
                         </div>
                     </div>
                 </div>
@@ -962,22 +664,11 @@
                 </div>
             </div>
         </section>
-        {{-- <section class="brand-logo sec-padd">
-            <div class="container">
-                <ul class="brand-carousel">
-                    <li><a ><img src="{{ asset('assets/images/brand/1.jpg') }}" width="270" height="101" alt=""></a></li>
-                    <li><a ><img src="{{ asset('assets/images/brand/2.jpg') }}" width="272" height="103" alt=""></a></li>
-                    <li><a ><img src="{{ asset('assets/images/brand/3.jpg') }}" width="272" height="103" alt=""></a></li>
-                    <li><a ><img src="{{ asset('assets/images/brand/4.jpg') }}" width="272" height="103" alt=""></a></li>
-                    <li><a ><img src="{{ asset('assets/images/brand/5.jpg') }}" width="272" height="103" alt=""></a></li>
-                </ul>
-            </div>
-        </section> --}}
 
         <section class="brand-area sec-padd-top sec-padd-bottom">
             <div class="container">
                 <div class="section-title center">
-                    <h2>SOME OF OUR ESTEEMED CLIENTS</h2>
+                    <h2>Some of Our Esteemed Clients</h2>
                 </div>
                 <div class="brand-carousel owl-carousel owl-theme brand">
                     <div class="single-item">
@@ -1086,118 +777,6 @@
             </div>
         </section>
 
-        {{-- <section class="blog-section sec-padd2">
-            <div class="container">
-                <div class="section-title">
-                    <h2>blogs</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="default-blog-news wow fadeInUp animated animated"
-                            style="visibility: visible; animation-name: fadeInUp;">
-                            <figure class="img-holder mb-0">
-                                <a href="{{ route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond') }}"><img
-                                        src="{{ asset('assets/images/blog/emerging-trends-in-industrial-piping-for-2025-and-beyond_11zon_11zon_11zon.webp') }}"
-                                        alt="News" loading="lazy"></a>
-                                <figcaption class="overlay">
-                                    <div class="box">
-                                        <div class="content">
-                                            <a
-                                                href="{{ route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond') }}"><i
-                                                    class="fa fa-link" aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                            <div class="lower-content">
-                                <a href="{{ route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond') }}">
-                                    <h3 class="h5">Emerging Trends in Industrial Piping for 2025 and Beyond</h3>
-                                </a>
-                                <div class="post-meta">by fletcher | 14 Comments | 21 Feb</div>
-                                <div class="text">
-                                    <p>Discover how pipeline transport, hydraulic piping, and high-performance steel materials
-                                        are shaping the future of industrial engineering.</p>
-                                </div>
-                                <div class="link">
-                                    <a href="{{ route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond') }}"
-                                        class="default_link">Read More <i class="fa fa-angle-right"></i></a>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="default-blog-news wow fadeInUp animated animated"
-                            style="visibility: visible; animation-name: fadeInUp;">
-                            <figure class="img-holder mb-0">
-                                <a ><img
-                                        src="{{ asset('/assets/images/blog/indias-stainless-steel-export-industry.webp') }}" width="700" height="400"
-                                        alt="News" loading="lazy"></a>
-                                <figcaption class="overlay">
-                                    <div class="box">
-                                        <div class="content">
-                                            <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}"><i
-                                                    class="fa fa-link" aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                            <div class="lower-content">
-                                <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
-                                    <h3 class="h5">India’s Stainless Steel Exports – Moksh Tubes Global Reach</h3>
-                                </a>
-                                <div class="post-meta">by Richards | 22 Comments | 17 Apr</div>
-                                <div class="text">
-                                    <p>India continues to lead global exports of stainless steel pipes and fittings, with Moksh
-                                        Tubes at the forefront of international markets.</p>
-                                </div>
-                                <div class="link">
-                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}"
-                                        class="default_link">Read More <i class="fa fa-angle-right"></i></a>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="default-blog-news wow fadeInUp animated animated"
-                            style="visibility: visible; animation-name: fadeInUp;">
-                            <figure class="img-holder mb-0">
-                                <a ><img src="{{ asset('assets/images/blog/high-performance-alloys-desalination-plant.webp') }}" width="700" height="400" alt="News"
-                                        loading="lazy"></a>
-                                <figcaption class="overlay">
-                                    <div class="box">
-                                        <div class="content">
-                                            <a href="{{ route('blogs.the-role-of-high-performance') }}"><i class="fa fa-link"
-                                                    aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                            <div class="lower-content">
-                                <a href="{{ route('blogs.the-role-of-high-performance') }}">
-                                    <h3 class="h5">The Role of High Performance Alloys in Desalination Plants</h3>
-                                </a>
-                                <div class="post-meta">by Vincent | 16 Comments | 14 June</div>
-                                <div class="text">
-                                    <p>Explore the use of ERW pipes, seamless tubes, and low carbon steel in desalination and
-                                        water treatment projects.</p>
-                                </div>
-                                <div class="link">
-                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" class="default_link">Read
-                                        More <i class="fa fa-angle-right"></i></a>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </section> --}}
 
         <div class="container mt-5 text-center bg-white ">
             <div class="section-title">
@@ -1213,61 +792,14 @@
         <!--End Certifications Section-->
 
         <!-- Global Export & Quality Assurance Section -->
-        <!-- <section class="global-export-quality sec-padd-top sec-padd-bottom">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>Global Export & Quality Assurance</h2>
-                </div>
-                <div class="row mb-4">
-                    <div class="col-md-12 text-center">
-                        <p>Quality is at the core of everything we do. Every product supplied by Moksh Tubes & Fittings LLP
-                            undergoes strict quality checks to ensure compliance with customer specifications and international
-                            standards.</p>
-                        <p>We provide complete quality documentation, including Mill Test Certificates (MTC), Positive Material
-                            Identification (PMI), third-party inspection reports, and custom testing based on project
-                            requirements.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        {{-- <h3 class="text-center mb-4">We Export Worldwide</h3>
-                        <p class="text-center mb-4">Our products are supplied to customers across:</p> --}}
-                        <div class="export-grid">
-                            <div class="export-item"><i class="fa fa-map-marker"></i> United Arab Emirates</div>
-                            <div class="export-item"><i class="fa fa-map-marker"></i> Saudi Arabia</div>
-                            <div class="export-item"><i class="fa fa-map-marker"></i> Qatar</div>
-                            <div class="export-item"><i class="fa fa-map-marker"></i> Oman</div>
-                            <div class="export-item"><i class="fa fa-map-marker"></i> Kuwait</div>
-                            <div class="export-item"><i class="fa fa-map-marker"></i> Bahrain</div>
-                            <div class="export-item"><i class="fa fa-map-marker"></i> Singapore</div>
-                            <div class="export-item"><i class="fa fa-map-marker"></i> Malaysia</div>
-                            <div class="export-item"><i class="fa fa-map-marker"></i> Germany</div>
-                            <div class="export-item"><i class="fa fa-map-marker"></i> Netherlands</div>
-                            <div class="export-item"><i class="fa fa-map-marker"></i> Italy</div>
-                            <div class="export-item"><i class="fa fa-map-marker"></i> United Kingdom</div>
-                            <div class="export-item"><i class="fa fa-map-marker"></i> United States</div>
-                            <div class="export-item"><i class="fa fa-map-marker"></i> Canada</div>
-                            <div class="export-item"><i class="fa fa-map-marker"></i> Australia</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-md-12 text-center">
-                        <p>With export-grade packaging and reliable logistics, we ensure materials reach customers safely and on
-                            time.</p>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
           <section class="blog-section sec-padd2">
             <div class="container">
                 <div class="section-title">
-                    <h2>blogs</h2>
+                    <h2>Blogs</h2>
                 </div>
                 <div class="row">
                     @foreach ($blogs as $blog)
-                        {{-- {{ dd($blog) }} --}}
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="default-blog-news wow fadeInUp animated">
 
@@ -1296,8 +828,6 @@
                                         {{ $blog->created_at->format('F d, Y') }}
                                     </div>
 
-                                    <!--<div class="text">-->
-                                    <!--</div>-->
                                     {!! \Str::limit(strip_tags($blog->content, '<i>'), 120) !!}
 
                                     <div class="link">
@@ -1336,7 +866,6 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        {{-- <h3 class="text-center mb-5">Why Customers Choose Moksh Tubes</h3> --}}
                         <div class="premium-grid">
                             <div class="premium-card">
                                 <div class="icon-wrapper"><i class="fa fa-shield-halved"></i></div>
@@ -1362,22 +891,6 @@
                                 <div class="icon-wrapper"><i class="fa fa-droplet"></i></div>
                                 <h4>Hydrostatic Testing</h4>
                             </div>
-                            <!-- <div class="premium-card">
-                                <div class="icon-wrapper"><i class="fa fa-bolt"></i></div>
-                                <h4>Ready Stock for Fast Dispatch</h4>
-                            </div>
-                            <div class="premium-card">
-                                <div class="icon-wrapper"><i class="fa fa-cubes"></i></div>
-                                <h4>Export Quality Packaging</h4>
-                            </div>
-                            <div class="premium-card">
-                                <div class="icon-wrapper"><i class="fa fa-globe"></i></div>
-                                <h4>Worldwide Shipping</h4>
-                            </div>
-                            <div class="premium-card">
-                                <div class="icon-wrapper"><i class="fa fa-cogs"></i></div>
-                                <h4>Technical Material Selection Support</h4>
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -1449,40 +962,6 @@
                                 </div>
                             </div>
                             <!--End single accordion box-->
-                        {{--    <!--Start single accordion box-->
-                            <div class="accordion accordion-block">
-                                <div class="accord-btn">
-                                    <h3>How quickly can I receive a quotation?</h3>
-                                </div>
-                                <div class="accord-content">
-                                    <p>Our team aims to respond to most enquiries within 30 minutes during business hours.</p>
-                                </div>
-                            </div>
-                            <!--End single accordion box-->
-                            <!--Start single accordion box-->
-                            <div class="accordion accordion-block">
-                                <div class="accord-btn">
-                                    <h3>Which materials do you stock?</h3>
-                                </div>
-                                <div class="accord-content">
-                                    <p>We stock stainless steel, duplex steel, nickel alloys, titanium, engineering steels,
-                                        aluminium alloys, copper alloys, and other specialty metals.</p>
-                                </div>
-                            </div>
-                            <!--End single accordion box-->
-                            <!--Start single accordion box-->
-                            <div class="accordion accordion-block">
-                                <div class="accord-btn">
-                                    <h3>How can I request a quote?</h3>
-                                </div>
-                                <div class="accord-content">
-                                    <p>You can contact us through our enquiry form, email, phone, or WhatsApp. Our technical
-                                        sales team will recommend the right material and provide a quotation based
-                                        on your specifications.</p>
-                                </div>
-                            </div>
-                            <!--End single accordion box-->
-                            --}}
                         </div>
                     </div>
                 </div>

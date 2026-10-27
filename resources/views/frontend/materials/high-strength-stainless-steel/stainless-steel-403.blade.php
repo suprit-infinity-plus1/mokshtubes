@@ -826,7 +826,7 @@
 <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
-                <h2>blogs</h2>
+                <h2>Blogs</h2>
             </div>
             <div class="row">
                 @foreach ($blogs as $blog)

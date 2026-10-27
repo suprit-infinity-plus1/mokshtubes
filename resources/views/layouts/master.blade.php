@@ -29,18 +29,11 @@
         {{-- Dynamic Meta Description --}}
         <meta name="description" content="@yield('meta_description', 'Mokshtubes')">
 
-        {{-- Dynamic Meta Keywords --}}
-        <meta name="keywords" content="@yield('meta_keywords', 'mokshtubes')">
 
         {{-- Canonical Tag --}}
-        {{--
-        <link rel="canonical" href="@yield('canonical', url()->fullUrl())"> --}}
         <link rel="canonical" href="@yield('canonical', request()->fullUrl())">
 
-        {{--
-        <link rel="canonical" href="@yield('canonical', url()->current())"> --}}
         <!-- Individual Page OG Override -->
-        {{-- @yield('meta') --}}
 
         <!-- OpenGraph -->
         <meta property="og:title" content="@yield('title', 'Mokshtubes')" />
@@ -58,47 +51,19 @@
         <meta name="twitter:image"
                 content="@yield('og_image', asset('assets/images/slides/mokshtubes-banner-desktop.webp'))" />
 
-        {{--
-        <meta name="title" content="@yield('meta_title')">
-        <meta name="description" content="@yield('meta_description')">
-        <meta name="keyword" content="@yield('meta_keyword')"> --}}
-        {{--
-        <link rel="canonical" href="@yield('canonical')">
-        <title>@yield('title')</title> --}}
 
         <!-- responsive meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- For IE -->
-        {{-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> --}}
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
 
 
-        {{--
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-                integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-                crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
         <!-- Favicon -->
-        {{--
-        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}">
-        --}}
-        {{--
-        <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-32x32.png') }}"
-                sizes="32x32">
-        <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}"
-                sizes="16x16"> --}}
 
 
         <link rel="icon" href="{{ asset('assets/images/favicon/favicon.ico') }}" type="image/x-icon">
         <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}">
-        {{--
-        <link rel="shortcut icon" href="{{ asset('assets/images/favicon/favicon.ico') }}" type="image/x-icon">
-
-        <link rel="icon" type="image/png" sizes="32x32"
-                href="{{ asset('assets/images/favicon/logo-moksh-32x32.png') }}">
-        <link rel="icon" type="image/png" sizes="16x16"
-                href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}"> --}}
 
 
 
@@ -241,7 +206,6 @@
                 }
         </style>
         @stack('styles')
-        {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"> --}}
 
         @verbatim
         <script type="application/ld+json">
@@ -262,7 +226,7 @@
             "https://www.facebook.com/mokshtubes/",
             "https://www.linkedin.com/company/moksh-tubes/",
             "https://x.com/Moksh_Tubes",
-            "https://www.instagram.com/mokshtubesandfittingsllp"
+            "https://www.instagram.com/mokshtubesandfittingsllp/"
           ]
         }
         </script>
@@ -325,7 +289,6 @@
                 <header class="header-area">
                         <div class="logo">
                                 <a href="{{ route('index') }}">
-                                        <!-- <img src="images/logo/logo moksh1-1.png" alt="Moksh Tubes &amp; Fittings LLP"> -->
                                         <img src="{{ asset('assets/images/logo/moksh-tubes-logo.png') }}" width="818" height="248" alt="Moksh Tubes &amp; Fittings LLP">
                                 </a>
                         </div>
@@ -365,49 +328,6 @@
                                         <a href="mailto:info@mokshtubes.com">info@mokshtubes.com</a>
                                 </p>
                         </div>
-                        {{-- <a href="tel:9769584950">
-                                <p>+91 97695 84950</p>
-                        </a>
-                        <a href="mailto:info@mokshtubes.com">
-                                <p>info@mokshtubes.com</p>
-                        </a> --}}
-                        <!-- <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img src="images/logo/logo moksh1-1.png" alt="Moksh Tubes &amp; Fittings LLP">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="header-contact-info">
-                        <ul>
-                            <li>
-                                <div class="iocn-holder">
-                                    <span class="icon-technology-1"></span>
-                                </div>
-                                <div class="text-holder">
-                                    <h6>Call Us On</h6>
-                                    <a href="tel:9769584950">
-                                        <p>+91 97695 84950</p>
-                                    </a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="iocn-holder">
-                                    <span class="icon-letter-1"></span>
-                                </div>
-                                <div class="text-holder">
-                                    <h6>Mail Us @</h6>
-                                    <a href="mailto:info@mokshtubes.com">
-                                        <p>info@mokshtubes.com</p>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div> -->
 
                 </header>
                 <!--End header area-->
@@ -439,11 +359,6 @@
                                                                                 <li class="nav-item"><a class="nav-link"
                                                                                                 href="{{ route('about-us') }}">About
                                                                                                 Us</a></li>
-                                                                                {{-- <li class="nav-item dropdown"><a
-                                                                                                class="nav-link"
-                                                                                                href="{{ url('/products') }}"
-                                                                                                data-bs-toggle="dropdown">Products</a>
-                                                                                </li> --}}
                                                                                 <li class="nav-item dropdown"><a
                                                                                                 class="nav-link"
                                                                                                 href="{{ route('products') }}">Products</a>
@@ -2267,9 +2182,6 @@ href="{{ route('products.bars-rods') }}">
                                                                                                 </li>
                                                                                         </ul>
                                                                                 </li>
-                                                                                {{-- <li><a
-                                                                                                href="{{ route('materials') }}">MATERIALS</a>
-                                                                                </li> --}}
 
                                                                                 <li><a>Quality</a></li>
                                                                                 <li><a href="{{ route('calculator') }}">Calculator</a>
@@ -2311,7 +2223,6 @@ href="{{ route('products.bars-rods') }}">
                                                                 <div class="logo-part">
                                                                         <a href="{{ route('index') }}"
                                                                                 class="footer-logo text-uppercase">
-                                                                                <!-- <img src="./images/logo/logo moksh1-1.png" alt="logo"> -->
                                                                                 <img src="{{ asset('assets/images/logo/moksh-tubes-logo.png') }}" width="818" height="248"
                                                                                         alt="Moksh Tubes &amp; Fittings LLP">
                                                                         </a>
@@ -2338,13 +2249,13 @@ href="{{ route('products.bars-rods') }}">
                                                                                 </a>
                                                                         </li>
                                                                         <li class="list-inline-item">
-                                                                                <a href="https://www.instagram.com/mokshtubesandfittingsllp?igsh=YjN6d3B4MzlnNDc1&utm_source=qr"
+                                                                                <a href="https://www.instagram.com/mokshtubesandfittingsllp/"
                                                                                         target="_blank" rel="noopener">
                                                                                         <i class="fab fa-instagram"></i>
                                                                                 </a>
                                                                         </li>
                                                                         <li class="list-inline-item">
-                                                                                <a href="https://www.linkedin.com/company/moksh-tubes/?viewAsMember=true"
+                                                                                <a href="https://www.linkedin.com/company/moksh-tubes/"
                                                                                         target="_blank" rel="noopener">
                                                                                         <i
                                                                                                 class="fab fa-linkedin-in"></i>
@@ -2380,9 +2291,6 @@ href="{{ route('products.bars-rods') }}">
                                                                         <li><a href="{{ route('products.special-fabricated') }}">SPECIAL
                                                                                         FABRICATED</a>
                                                                         </li>
-                                                                        {{-- <li><a
-                                                                                        href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a>
-                                                                        </li> --}}
                                                                 </ul>
                                                         </div>
                                                 </div>
@@ -2432,134 +2340,6 @@ href="{{ route('products.bars-rods') }}">
                                                 </div>
 
                                         </div>
-                                        {{-- <div class="footer-col">
-                                                <h3 class="footer-title ">Materials</h3>
-                                                <div class="row">
-                                                        <!-- Column 1: Nickel Alloys -->
-                                                        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                                                                <h5 class="text-warning">Nickel Alloys</h5>
-                                                                <ul class="footer-list footer-col">
-                                                                        <li><a>Hastelloy C276 – UNS N10276</a>
-                                                                        </li>
-                                                                        <li><a>Inconel 625 – UNS N06625</a>
-                                                                        </li>
-                                                                        <li><a>Hastelloy C22 – UNS N06022</a>
-                                                                        </li>
-                                                                        <li><a>Inconel 690 – UNS N06690</a>
-                                                                        </li>
-                                                                        <li><a>Hastelloy B2 – UNS N010665</a>
-                                                                        </li>
-                                                                        <li><a>Inconel 718 – UNS N07718</a>
-                                                                        </li>
-                                                                        <li><a>Hastelloy B3 – UNS N10675</a>
-                                                                        </li>
-                                                                        <li><a>Inconel X750 – UNS N07750</a>
-                                                                        </li>
-                                                                        <li><a>Hastelloy C2000 – UNS N06200</a>
-                                                                        </li>
-                                                                        <li><a>Incoloy 800 – UNS N08800</a>
-                                                                        </li>
-                                                                        <li><a>Hastelloy C4 – UNS N06455</a>
-                                                                        </li>
-                                                                        <li><a>Incoloy 825 – UNS N08825</a>
-                                                                        </li>
-                                                                </ul>
-                                                        </div>
-
-                                                        <!-- Column 2: Nickel Alloys Continued  + Duplex/Super Duplex-->
-                                                        <div class="col-lg-3 col-md-6 col-sm-12 mb-4 footer-col">
-                                                                <h5 class="text-warning">Nickel Alloys (contd.)</h5>
-                                                                <ul class="footer-list footer-col">
-                                                                        <li><a>Hastelloy X – UNS N06002</a>
-                                                                        </li>
-                                                                        <li><a>Incoloy 925 – UNS N09925</a>
-                                                                        </li>
-                                                                        <li><a>Monel K500 – UNS N05500</a></li>
-                                                                        <li><a>Nickel 200 – UNS N02200</a></li>
-                                                                        <li><a>Monel 400 – UNS N04400</a></li>
-                                                                        <li><a>Nickel 201 – UNS N02201</a></li>
-                                                                        <li><a>Inconel 600 – UNS N06600</a>
-                                                                        </li>
-                                                                        <li><a>AL-6XN – UNS N08367</a></li>
-                                                                        <li><a>Inconel 617 – UNS N06617</a>
-                                                                        </li>
-                                                                        <li><a>A286 GR. 660 – UNS S66286</a>
-                                                                        </li>
-                                                                </ul>
-
-                                                                <h5 class="text-warning mt-4">Duplex & Super Duplex
-                                                                        Alloys</h5>
-                                                                <ul class="footer-list footer-col">
-                                                                        <li><a>Super Duplex 2507 – UNS
-                                                                                        S32750</a></li>
-                                                                        <li><a>Duplex 2205 – UNS S32205</a>
-                                                                        </li>
-                                                                        <li><a>Super Duplex 32760 – UNS
-                                                                                        S32760</a></li>
-                                                                        <li><a>Duplex 31803 – UNS S31803</a>
-                                                                        </li>
-                                                                </ul>
-                                                        </div>
-
-                                                        <!-- Column 3: Titanium -->
-                                                        <div class="col-lg-3 col-md-6 col-sm-12">
-                                                                <h5 class="text-warning">Titanium Alloys</h5>
-                                                                <ul class="footer-list footer-col">
-                                                                        <li><a>Titanium Grade 1 – UNS
-                                                                                        R50250</a></li>
-                                                                        <li><a>Titanium Grade 7 – UNS
-                                                                                        R52400</a></li>
-                                                                        <li><a>Titanium Grade 2 – UNS
-                                                                                        R50400</a></li>
-                                                                        <li><a>Titanium Grade 9 – UNS
-                                                                                        R56320</a></li>
-                                                                        <li><a>Titanium Grade 5 (Ti-6Al-4V) –
-                                                                                        UNS R56400</a></li>
-                                                                        <li><a>Titanium Grade 12 – UNS
-                                                                                        R53400</a></li>
-                                                                </ul>
-                                                        </div>
-
-                                                        <!-- Column 4: Stainless Steel + Rare Alloys -->
-                                                        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                                                                <h5 class="text-warning">Stainless Steel</h5>
-                                                                <ul class="footer-list footer-col">
-                                                                        <li><a>Stainless Steel 304 – UNS
-                                                                                        S30400</a></li>
-                                                                        <li><a>Stainless Steel 321 – UNS
-                                                                                        S32100</a></li>
-                                                                        <li><a>Stainless Steel 310 – UNS
-                                                                                        S31000</a></li>
-                                                                        <li><a>Stainless Steel 347 – UNS
-                                                                                        S34700</a></li>
-                                                                        <li><a>Stainless Steel 316 – UNS
-                                                                                        S31600</a></li>
-                                                                        <li><a>Stainless Steel 904L – UNS
-                                                                                        N08904</a></li>
-                                                                        <li><a>Stainless Steel 317 – UNS
-                                                                                        S31700</a></li>
-                                                                        <li><a>Stainless Steel 316Ti – UNS
-                                                                                        S31635</a></li>
-                                                                </ul>
-
-                                                                <h5 class="text-warning mt-4">Rare To Find Alloys</h5>
-                                                                <ul class="footer-list footer-col">
-                                                                        <li><a>Zirconium Grade 702 – UNS
-                                                                                        R70250</a></li>
-                                                                        <li><a>Tantalum Grade R05200 – UNS
-                                                                                        R05200</a></li>
-                                                                        <li><a>Zirconium Grade 704 – UNS
-                                                                                        R70400</a></li>
-                                                                        <li><a>Tantalum Grade R05252 – UNS
-                                                                                        R05252</a></li>
-                                                                        <li><a>Zirconium Grade 705 – UNS
-                                                                                        R70500</a></li>
-                                                                        <li><a>Tantalum Grade R05255 – UNS
-                                                                                        R05255</a></li>
-                                                                </ul>
-                                                        </div>
-                                                </div>
-                                        </div> --}}
                                 </div>
                         </div>
                         <div class="footer-bottom">
@@ -2656,11 +2436,6 @@ href="{{ route('products.bars-rods') }}">
                                                                         <input class="form-control" type="text"
                                                                                 name="form_phone" placeholder="Phone">
                                                                 </div>
-                                                                {{-- <div class="col-md-12 mb-3">
-                                                                        <input class="form-control" type="text"
-                                                                                name="form_subject"
-                                                                                placeholder="Subject">
-                                                                </div> --}}
                                                                 <div class="col-md-12 mb-3">
                                                                         <textarea name="form_message"
                                                                                 class="form-control"
@@ -2744,7 +2519,6 @@ href="{{ route('products.bars-rods') }}">
                 <!--Scroll to top-->
                 <div class="scroll-to-top scroll-to-target" data-bs-target="html"><span class="fa fa-angle-up"></span>
                 </div>
-                {{-- <div class="prealoader"></div> --}}
                 <!-- All scripts below are deferred: they run in document order once the HTML is parsed,
                      before DOMContentLoaded. Inline scripts must not use jQuery/bootstrap at parse time. -->
                 <!-- jQuery 1.12.4 (minified) + WOW -->
@@ -2836,10 +2610,6 @@ href="{{ route('products.bars-rods') }}">
                 <!-- Page-specific plugins (revolution slider, owl carousel, counters); pages push them with defer -->
                 @stack('vendor-scripts')
 
-                {{--
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
-                        integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
-                        crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
                 <!-- thm custom script -->
                 <script src="{{ asset('assets/js/custom.js') }}" defer></script>
                 <script>

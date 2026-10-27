@@ -41,13 +41,9 @@
                 <div class="col-lg-6 col-sm-12">
                     <div class="about-text">
                         <h2>
-                            about <span class="thm-color">Moksh Tubes & Fittings LLP</span>
+                            About <span class="thm-color">Moksh Tubes & Fittings LLP</span>
                         </h2>
                         <div class="text">
-                            <!-- <p>Thank you for being a friend. Travelled down the road and back again. Your heart is
-                                                                                                                                        true you're a pal and a confidant. It's time to put on makeup. It's time to dress up
-                                                                                                                                        right.They're all together ooky the Addams Family doin' it our way. There's nothing
-                                                                                                                                        we wont try. Never heard the word impossible. This time there's no stopping us.</p> -->
                             <p>
                                 <strong class="text-black">
                                     MOKSH TUBES & FITTINGS LLP
@@ -100,14 +96,14 @@
                             <span class="timer" data-from="1" data-to="20" data-speed="5000"
                                 data-refresh-interval="50">20</span>
                             <i class="fa fa-plus" aria-hidden="true"></i>
-                            <h3>years of experience</h3>
+                            <h3>Years of Experience</h3>
                         </li>
                         <li class="single-fact-counter">
                             <div class="icon-holder"><span class="flaticon-landscape"></span></div>
                             <span class="timer" data-from="1" data-to="12" data-speed="5000"
                                 data-refresh-interval="50">12</span>
                             <i class="fa fa-plus" aria-hidden="true"></i>
-                            <h3>countries served globally</h3>
+                            <h3>Countries Served Globally</h3>
                         </li>
                         <li class="single-fact-counter">
                             <div class="icon-holder"><span class="flaticon-innovation"></span></div>
@@ -125,10 +121,7 @@
     <section class="call-out sec-padd center" style="background-image: url(images/background/2.jpg);">
         <div class="container">
             <div class="content">
-                <h2>action is the foundational key to all success</h2>
-                <!-- <p>Where the kisses are hers and hers and his. Three's company too. Goodbye gray sky hello blue.
-                                                                                                                                        There's nothing can hold me <br>when I hold you. Feels so right it cant be wrong. Rockin' and
-                                                                                                                                        rollin' all week long.</p> -->
+                <h2>Action Is the Foundational Key to All Success</h2>
                 <p>Quality materials. Reliable supply. Trusted by professionals across industries, we’re here to
                     support your success with products built to perform.</p>
 
@@ -143,7 +136,7 @@
             <!-- First Row: Text Left, Image Right -->
             <div class="row align-items-center mb-5">
                 <div class="col-md-6">
-                    <h2>OUR HISTORY</h2>
+                    <h2>Our History</h2>
                     <p>
                         Established in the year <strong class="text-black">2005</strong> by <strong class="text-black">Mr.
                             Vikram B. Jain and Mr. Naresh
@@ -155,7 +148,7 @@
                             supply of
                             a wide range of Steel Products.</strong>
                     </p>
-                    <h2 class="mt-4">OUR MISSION</h2>
+                    <h2 class="mt-4">Our Mission</h2>
                     <p>
                         To provide immediate access to our clients by giving them access to a comprehensive range of
                         piping
@@ -178,12 +171,12 @@
             <!-- Second Row: Image Left, Text Right -->
             <div class="row align-items-center mb-5 flex-md-row-reverse">
                 <div class="col-md-6">
-                    <h2>OUR VISION</h2>
+                    <h2>Our Vision</h2>
                     <p>
                         To support a broad spectrum of industries by supplying high quality materials where quality,
                         corrosion & heat resistance and timely deliveries are critical to operations.
                     </p>
-                    <h2 class="mt-4">OUR GOAL</h2>
+                    <h2 class="mt-4">Our Goal</h2>
                     <p>
                         To expand our global footprint while maintaining the highest standards of quality in
                         delivering
@@ -210,7 +203,7 @@
             <div class="container">
 
                 <div class="section-title center">
-                    <h2>why choose Us</h2>
+                    <h2>Why Choose Us</h2>
                 </div>
 
                 <div class="row">
@@ -316,7 +309,7 @@
         <section class="brand-area sec-padd-top sec-padd-bottom">
             <div class="container">
                 <div class="section-title center">
-                    <h2>SOME OF OUR ESTEEMED CLIENTS</h2>
+                    <h2>Some of Our Esteemed Clients</h2>
                 </div>
                 <div class="brand-carousel owl-carousel owl-theme brand">
                     <div class="single-item">
@@ -376,113 +369,6 @@
             </div>
         </section>
 
-        {{-- <section class="team sec-padd">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>meet our team</h2>
-                </div>
-
-                <div class="row">
-                    <article class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="item tran5">
-                            <div class="team-member">
-                                <figure class="img-box">
-                                    <a ><img src="{{ asset('assets/images/team/4.jpg') }}" width="270" height="270"
-                                            alt="team member photo"></a>
-                                    <div class="overlay">
-                                        <ul class="social">
-                                            <li><a ><i class="fa fa-facebook"></i></a></li>
-                                            <li><a ><i class="fa fa-twitter"></i></a></li>
-                                            <li><a ><i class="fa fa-skype"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </figure>
-                                <div class="member-info">
-                                    <a >
-                                        <h5>Ben Afflin</h5>
-                                    </a>
-                                    <p>President</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </article>
-                    <article class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="item tran5">
-                            <div class="team-member">
-                                <figure class="img-box">
-                                    <a ><img src="{{ asset('assets/images/team/3.jpg') }}" width="270" height="270"
-                                            alt="team member photo"></a>
-                                    <div class="overlay">
-                                        <ul class="social">
-                                            <li><a ><i class="fa fa-facebook"></i></a></li>
-                                            <li><a ><i class="fa fa-twitter"></i></a></li>
-                                            <li><a ><i class="fa fa-skype"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </figure>
-                                <div class="member-info">
-                                    <a >
-                                        <h5>rick grimes</h5>
-                                    </a>
-                                    <p>Co - founder</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </article>
-                    <article class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="item tran5">
-                            <div class="team-member">
-                                <figure class="img-box">
-                                    <a ><img src="{{ asset('assets/images/team/2.jpg') }}" width="270" height="270"
-                                            alt="team member photo"></a>
-                                    <div class="overlay">
-                                        <ul class="social">
-                                            <li><a ><i class="fa fa-facebook"></i></a></li>
-                                            <li><a ><i class="fa fa-twitter"></i></a></li>
-                                            <li><a ><i class="fa fa-skype"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </figure>
-                                <div class="member-info">
-                                    <a >
-                                        <h5>deryl dixon</h5>
-                                    </a>
-                                    <p>Developer</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </article>
-                    <article class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="item tran5">
-                            <div class="team-member">
-                                <figure class="img-box">
-                                    <a ><img src="{{ asset('assets/images/team/1.jpg') }}" width="270" height="270"
-                                            alt="team member photo"></a>
-                                    <div class="overlay">
-                                        <ul class="social">
-                                            <li><a ><i class="fa fa-facebook"></i></a></li>
-                                            <li><a ><i class="fa fa-twitter"></i></a></li>
-                                            <li><a ><i class="fa fa-skype"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </figure>
-                                <div class="member-info">
-                                    <a >
-                                        <h5>Jom Caraleno</h5>
-                                    </a>
-                                    <p>Engineer</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </article>
-                </div>
-            </div>
-
-        </section> --}}
 
         <!--Start faq content area-->
         <section class="faq-content-area sec-padd2">
@@ -572,19 +458,6 @@
 
 
 
-        <!-- <div class="call-out2">
-             <div class="container">
-         <div class="clearfix">
-        <div class="float_left">
-             <h4>Have any question or need any business consultation?</h4>
-        </div>
-        <div class="float_right">
-        <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
-         </div>
-        </div>
-
-         </div>
-        </div> -->
 
 @endsection
     @section('jsscripts')
